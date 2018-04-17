@@ -50,6 +50,38 @@ const App = () => (
 )
 ```
 
+### Props
+
+Styled Icons accept all the valid props of an `<svg />` element, in addition to a `size` convenience prop that sets both `width` and `height`:
+
+```javascript
+import React from 'react'
+import {Lock} from 'styled-icons/material'
+
+const App = () => <Lock size="48" />
+```
+
+### Dimensions
+
+Some icons natively have non-square dimensions - original dimensions are exported from the individual icon exports:
+
+```javascript
+import {LogoGithub, LogoGithubDimensions} from 'styled-icons/octicons/LogoGithub'
+
+const App = () => <LogoGithub />
+
+console.log(LogoGithubDimension) // {height: 16, width: 45}
+```
+
+Dimension exports are not available on the icon pack or index exports:
+
+```javascript
+import * as octicons from 'styled-icons/octicons'
+import {octicons} from 'styled-icons'
+
+// octicons contains only icon exports
+```
+
 ### Styled Components
 
 All icons are exported as [Styled Components][3], which means it is possible to extend their styles or otherwise utilize the Styled Components API:
