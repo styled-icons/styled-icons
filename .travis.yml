@@ -9,3 +9,13 @@ before_install:
 script:
   - yarn build
   - yarn build-website
+
+deploy:
+  provider: npm
+  email: jacobwgillespie@gmail.com
+  api_key:
+    secure: AbF3dVZxgi5UcFaA/jw3go2VhIvIp8apYpZEPeo2VNOWBL8rGBeByqDU9qlmOBt7f12Y7oQP2USsyWHYQ+zrLElXyO+CaHgQerwU3MYlB4lwT5iNs0Vx85blFQuh5BcvPxjOO/CFsSDLRbSgE5HyMqiWEDoFOm1QH6z9YxdKYvpXX1T494bmjGZMs5s2ALuPQ3+dAqnCHy1srT65Z+jiyKqlmEvND+7lcp4UVtmj/gKCIE6zuveTMy2/fs1MMSMyIM6iwJ3wS3e96gTSVwDqRx5sUxv311Ut/3frznITxslIp0F/TfuKmU0oxuMrVr0zdLvbAi7oOrUmg5q4vP6bYsfrZ+ZWgiE4+c+Ca5g89lcFLj0zZq/85I2y+bCwzhQyJdejM51l/x0Ak2OxhPmHwRO6iJnA1Jxi1fDg9F8t/D+awQvKUQ6xOuxjnRBgRea33AMeFDtn9T3iAjSVX/cbV9LeFS2OTKZ2LGobTQF1dehK6+e7oBZUPSYBL3PNFbCaqlowb6mfGxEjNSNOHSODk9taw4ufH9+0/CgCluGrYYD2z1IJg6IiTfYeymy0fNQbnzWJbeDq1HY3qFQkxCSezG7Cz8fffj/i1Lzro1tZxLbMBwfKXRVrvLOVxQJ7KLIKoT2ONt8IABAY6RUvPPjiC5YgfnWm3p/zCU+ZXgPa6PA=
+  on:
+    repo: jacobwgillespie/styled-icons
+    tags: true
+  skip_cleanup: true
