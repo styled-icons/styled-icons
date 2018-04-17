@@ -34,10 +34,10 @@
     "trailingComma": "all"
   },
   "scripts": {
-    "build": "./support/build.sh",
-    "build-website": "./support/build-website.sh",
-    "clean": "rm -rf build dist icons material octicons index.d.ts index.js",
-    "dev-website": "parcel --out-dir build/website support/website/index.html",
+    "build": "node generate/generate.js",
+    "build-website": "NODE_ENV=production parcel build --out-dir build/website website/index.html",
+    "clean": "rm -rf build material octicons index.d.ts index.js",
+    "dev-website": "parcel --out-dir build/website website/index.html",
     "serve-website": "serve build/website"
   },
   "peerDependencies": {
@@ -45,34 +45,28 @@
     "styled-components": ">=3 <4"
   },
   "devDependencies": {
-    "@types/fs-extra": "^5.0.2",
     "@types/node": "^9.6.5",
-    "@types/number-to-words": "^1.2.0",
     "@types/react": "^16.3.11",
     "@types/react-dom": "^16.0.5",
-    "builtin-modules": "^2.0.0",
     "copy-to-clipboard": "^3.0.8",
+    "execa": "^0.10.0",
     "fast-case": "^1.1.0",
     "fast-glob": "^2.2.0",
     "fs-extra": "^5.0.0",
+    "h2x-core": "^0.1.9",
+    "h2x-plugin-jsx": "^0.1.9",
     "material-design-icons": "^3.0.1",
     "number-to-words": "^1.2.3",
     "octicons": "^7.2.0",
+    "ora": "^2.0.0",
     "parcel-bundler": "^1.7.1",
     "prettier": "^1.12.0",
     "react": "^16.3.2",
-    "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.3.2",
     "react-pose": "^1.5.2",
-    "react-x-clipboard": "^2.5.0",
-    "rollup": "^0.58.0",
-    "rollup-plugin-auto-external": "^1.2.0",
-    "rollup-plugin-commonjs": "^9.1.0",
-    "rollup-plugin-node-resolve": "^3.3.0",
-    "rollup-plugin-replace": "^2.0.0",
-    "rollup-plugin-typescript2": "^0.13.0",
     "serve": "^6.5.5",
     "styled-components": "^3.2.5",
+    "svgo": "^1.0.5",
     "typescript": "^2.8.1"
   }
 }

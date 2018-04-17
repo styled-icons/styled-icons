@@ -1,0 +1,19 @@
+import * as React from 'react'
+import styled from 'styled-components'
+
+import {StyledIcon, StyledIconProps} from '..'
+
+export const {{name}} = styled.svg.attrs({
+  children: [
+    {{svg}}
+  ],
+  viewBox: '{{viewBox}}',
+  height: (props: StyledIconProps) => (props.height !== undefined ? props.height : props.size),
+  width: (props: StyledIconProps) => (props.width !== undefined ? props.width : props.size),
+})`` as StyledIcon
+
+{{name}}.displayName = '{{name}}'
+
+export const {{name}}Dimensions = {height: {{height}}, width: {{width}}}
+
+export {StyledIcon, StyledIconProps}
