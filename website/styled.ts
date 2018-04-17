@@ -10,16 +10,10 @@ export const PackHeader = styled.h2`
   font-size: 1.1rem;
 `
 
-export const InstallCode = styled.code`
-  display: inline-block;
-  background: rgba(0, 0, 0, 0.2);
-  white-space: pre;
-  padding: 12px;
-  color: #000;
-`
-
 export const CodeExample = styled.code`
-  display: inline-block;
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
   background: rgba(0, 0, 0, 0.2);
   white-space: pre;
   padding: 12px;
@@ -29,11 +23,13 @@ export const CodeExample = styled.code`
 `
 
 export const IconDemoContainer = styled.div`
+  width: 20vw;
   background: rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 12px;
+  margin-bottom: 12px;
   cursor: pointer;
   color: #000;
   transition: transform 0.5s ease-out;
@@ -57,10 +53,11 @@ export const IconName = styled.strong`
 `
 
 export const IconsContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(4, minmax(100px, max-content));
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-end;
 `
 
 export const A = styled.a`

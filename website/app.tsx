@@ -10,7 +10,6 @@ import {GitHubCorner} from './GitHubCorner'
 import {
   Header,
   PackHeader,
-  InstallCode,
   CodeExample,
   IconDemoContainer,
   IconCode,
@@ -83,16 +82,18 @@ const App = () => (
       <A href="https://www.styled-components.com/">Styled Components</A>
     </p>
 
-    <InstallCode>yarn install styled-icons</InstallCode>
-    <div>
-      <CodeExample>
-        {`
+    <CodeExample>$ yarn install styled-icons</CodeExample>
+    <CodeExample>
+      {`
 import {Alarm} from 'styled-icons/material/Alarm'
 
 const App = () => <Alarm />
     `.trim()}
-      </CodeExample>
-    </div>
+    </CodeExample>
+
+    <p>
+      <A href="https://github.com/jacobwgillespie/styled-icons">Usage Information</A>
+    </p>
     <PackHeader>Material Icons</PackHeader>
     <IconsContainer>{renderIconPack('material', material)}</IconsContainer>
     <PackHeader>Octicons</PackHeader>

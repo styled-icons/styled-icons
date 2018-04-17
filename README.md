@@ -5,7 +5,7 @@
 [![npm](https://img.shields.io/npm/v/styled-icons.svg)](https://www.npmjs.com/package/styled-icons)
 ![Built with TypeScript](https://img.shields.io/badge/built%20with-typescript-blue.svg)
 
-`styled-icons` provides the [Material Design][2] and [Octicons][2] icon packs as [Styled Components][3], with full TypeScript and ES6 / tree-shaking support.
+`styled-icons` provides the [Material Design][2] and [Octicons][2] icon packs as [Styled Components][3], with full support for TypeScript types and ES6 modules / tree-shaking.
 
 [![View Icons](https://gui.apex.sh/component?name=ShadowButton&config=%7B%22text%22%3A%22ICON%20EXPLORER%22%2C%22color%22%3A%22db7093%22%7D)][0]
 
