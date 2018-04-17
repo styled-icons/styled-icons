@@ -9,6 +9,7 @@ import {material, octicons, StyledIcon} from '..'
 import {GitHubCorner} from './GitHubCorner'
 import {
   Header,
+  Badges,
   PackHeader,
   CodeExample,
   IconDemoContainer,
@@ -76,6 +77,26 @@ const App = () => (
   <>
     <GitHubCorner />
     <Header>Styled Icons 💅</Header>
+
+    <Badges>
+      <a href="https://travis-ci.org/jacobwgillespie/styled-icons">
+        <img
+          alt="Build Status"
+          src="https://travis-ci.org/jacobwgillespie/styled-icons.svg?branch=master"
+        />
+      </a>
+      <a href="https://www.npmjs.com/package/styled-icons">
+        <img alt="npm" src="https://img.shields.io/npm/dm/styled-icons.svg" />
+      </a>
+      <a href="https://www.npmjs.com/package/styled-icons">
+        <img alt="npm" src="https://img.shields.io/npm/v/styled-icons.svg" />
+      </a>
+      <img
+        alt="Built with TypeScript"
+        src="https://img.shields.io/badge/built%20with-typescript-blue.svg"
+      />
+    </Badges>
+
     <p>
       Import icons from the <A href="https://material.io/icons/">Material</A> or{' '}
       <A href="https://octicons.github.com/">Octicons</A> icon packs as{' '}

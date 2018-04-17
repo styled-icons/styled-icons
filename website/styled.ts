@@ -5,6 +5,16 @@ export const Header = styled.h1`
   font-size: 1.7rem;
 `
 
+export const Badges = styled.p`
+  & > * {
+    margin-right: 6px;
+  }
+
+  & > *:last-child {
+    margin-right: 0;
+  }
+`
+
 export const PackHeader = styled.h2`
   font-weight: 500;
   font-size: 1.1rem;
