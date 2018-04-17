@@ -4,5 +4,6 @@
     "outDir": "./build/icons",
     "rootDir": "./build/typescript"
   },
-  "exclude": ["support"]
+  "include": ["build/typescript"],
+  "exclude": ["website"]
 }

@@ -123,6 +123,13 @@ export {material, octicons}
   compiler.stderr.pipe(process.stderr)
   await compiler
 
+  spinner.text = 'Copying files to destination...'
+  const builtFiles = ['material', 'octicons', 'index.d.ts', 'index.js']
+  for (const builtFile of builtFiles) {
+    await fs.remove(path.join(__dirname, '..', builtFile))
+    await fs.move(path.join(baseDir, 'icons', builtFile), path.join(__dirname, '..', builtFile))
+  }
+
   spinner.succeed(`${totalIcons} icons successfully built!`)
 }
 
