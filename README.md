@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/jacobwgillespie/styled-icons.svg?branch=master)](https://travis-ci.org/jacobwgillespie/styled-icons)
 [![npm](https://img.shields.io/npm/dm/styled-icons.svg)](https://www.npmjs.com/package/styled-icons)
 [![npm](https://img.shields.io/npm/v/styled-icons.svg)](https://www.npmjs.com/package/styled-icons)
+![Built with TypeScript](https://img.shields.io/badge/built%20with-typescript-blue.svg)
 
 `styled-icons` provides the [Material Design][2] and [Octicons][2] icon packs as [Styled Components][3], with full TypeScript and ES6 / tree-shaking support.
 
@@ -65,7 +66,22 @@ export const RedLock = Lock.extend`
 
 ### TypeScript
 
-The icons of `styled-icons` are built using TypeScript and export type definitions.
+The icons of `styled-icons` are built using TypeScript and export type definitions. By default, the `theme` prop is typed as `any`, but if you would like to override the theme interface, this is possible via the `StyledIcon` type:
+
+```typescript
+import {StyledIcon} from 'styled-icons/material'
+import {Lock} from 'styled-icons/material'
+
+interface ThemeInterface {
+  lockColor: string
+}
+
+export const ThemedLock: StyledIcon<ThemeInterface> = Lock.extend`
+  color: ${props => props.theme.lockColor};
+`
+```
+
+If you have any ideas for improvements to the TypeScript typing, please open an issue or PR!
 
 ## Contributing
 
