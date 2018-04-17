@@ -1,0 +1,13 @@
+.cache/
+node_modules/
+
+*.log
+
+# Built files
+build/
+dist/
+icons/
+material/
+octicons/
+index.d.ts
+index.js
