@@ -1,0 +1,104 @@
+html {
+  height: 100%;
+  font-family: 'Avenir Next', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  text-align: center;
+  background-size: cover;
+  background: linear-gradient(20deg, rgb(219, 112, 147), #daa357);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0 auto;
+  padding: 1em;
+  max-width: 1200px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #fff;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+code {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+  white-space: pre;
+  padding: 12px;
+  text-align: left;
+  margin-top: 1em;
+  color: #000;
+}
+
+code.demo {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.icon-card {
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  cursor: pointer;
+  color: #000;
+  transition: transform 0.5s ease-out;
+  will-change: transform;
+}
+
+.icon-card:hover {
+  transform: scale(1.05);
+}
+
+.icon-card strong {
+  font-weight: 500;
+}
+
+.icon-card code {
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.badges > * {
+  margin-right: 6px;
+}
+
+.badges > *:last-child {
+  margin-right: 0;
+}
+
+.icons-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(24%, 1fr));
+  grid-gap: 12px;
+}
+
+.search-box {
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  margin-bottom: 2em;
+  padding: 12px;
+  width: 400px;
+  color: #000;
+  font-weight: 300;
+  outline: none;
+  text-align: center;
+  font-size: 1.2rem;
+}
