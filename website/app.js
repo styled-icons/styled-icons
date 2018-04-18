@@ -3,7 +3,6 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import * as JSSearch from 'js-search'
-import copy from 'copy-to-clipboard'
 
 import {faBrands, faRegular, faSolid, material, octicons} from '..'
 
@@ -12,7 +11,7 @@ import manifest from '../manifest.json'
 
 import {GitHubCorner} from './GitHubCorner'
 import {IconsScroller} from './components/IconsScroller'
-import {Header, Badges, CodeExample, SearchBox, A} from './styled'
+import {Header, Badges, CodeExample, A} from './styled'
 
 manifest.forEach(icon => {
   switch (icon.pack) {
@@ -46,20 +45,6 @@ search.addIndex('originalName')
 search.addDocuments(manifest)
 
 class App extends React.Component {
-  state = {
-    icons: manifest,
-  }
-
-  updateSearch = event => {
-    const text = event.target.value
-
-    if (text) {
-      this.setState({icons: search.search(text)})
-    } else {
-      this.setState({icons: manifest})
-    }
-  }
-
   render() {
     return (
       <React.Fragment>
@@ -107,9 +92,7 @@ const App = () => <Alarm />
 
         <Header>Icon Explorer</Header>
 
-        <SearchBox type="text" onChange={this.updateSearch} />
-
-        <IconsScroller icons={this.state.icons} />
+        <IconsScroller search={search} icons={manifest} />
       </React.Fragment>
     )
   }

@@ -1,8 +1,9 @@
 import * as React from 'react'
+import copy from 'copy-to-clipboard'
 
-import {IconDemoContainer, IconCode, IconName, IconsContainer} from '../styled'
+window.React = React
 
-class IconDemo extends React.Component {
+class IconDemo extends React.PureComponent {
   mounted = false
   state = {copied: false}
 
@@ -32,33 +33,44 @@ class IconDemo extends React.Component {
   render() {
     const {Icon, name} = this.props
     return (
-      <IconDemoContainer onClick={() => this.copy()}>
+      <div className="IconDemoContainer" onClick={() => this.copy()}>
         <div>
           <Icon size="48" />
         </div>
-        <IconName>{name}</IconName>
-        <IconCode>{this.state.copied ? 'Copied!' : this.iconImport}</IconCode>
-      </IconDemoContainer>
+        <strong className="IconName">{name}</strong>
+        <code className="IconCode">{this.state.copied ? 'Copied!' : this.iconImport}</code>
+      </div>
     )
   }
 }
 
-export class IconsScroller extends React.Component {
-  static getDerivedStateFromProps(nextProps, prevState) {
-    return {
-      icons: nextProps.icons,
-    }
+export class IconsScroller extends React.PureComponent {
+  state = {
+    search: '',
+  }
+
+  updateSearch = event => {
+    const search = event.target.value
+    this.setState({search})
   }
 
   render() {
     const icons = this.state.icons
 
+    const filteredIcons = this.state.search
+      ? this.props.search.search(this.state.search)
+      : this.props.icons
+
     return (
-      <IconsContainer>
-        {icons.map(({importPath, icon, name, pack}) => (
-          <IconDemo Icon={icon} name={name} pack={pack} key={importPath} />
-        ))}
-      </IconsContainer>
+      <React.Fragment>
+        <input className="SearchBox" type="text" onChange={this.updateSearch} />
+
+        <div className="IconsContainer">
+          {filteredIcons.map(({importPath, icon, name, pack}) => (
+            <IconDemo Icon={icon} name={name} pack={pack} key={importPath} />
+          ))}
+        </div>
+      </React.Fragment>
     )
   }
 }
