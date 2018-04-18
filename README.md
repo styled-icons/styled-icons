@@ -5,7 +5,7 @@
 [![npm](https://img.shields.io/npm/v/styled-icons.svg)](https://www.npmjs.com/package/styled-icons)
 ![Built with TypeScript](https://img.shields.io/badge/built%20with-typescript-blue.svg)
 
-`styled-icons` provides the [Material Design][2] and [Octicons][2] icon packs as [Styled Components][3], with full support for TypeScript types and ES6 modules / tree-shaking.
+`styled-icons` provides the [Font Awesome][4], [Material Design][2] and [Octicons][2] icon packs as [Styled Components][3], with full support for TypeScript types and ES6 modules / tree-shaking.
 
 [![View Icons](https://gui.apex.sh/component?name=ShadowButton&config=%7B%22text%22%3A%22ICON%20EXPLORER%22%2C%22color%22%3A%22db7093%22%7D)][0]
 
@@ -25,13 +25,16 @@ Additionally, you will need to have installed a version of `styled-components`, 
 
 ## Usage
 
-All Material and Octicon icons are available for preview at the [Icon Explorer][0].
+All Font Awesome (free), Material, and Octicon icons are available for preview at the [Icon Explorer][0].
 
 The entire icon packs are available via the main import and sub-imports:
 
 ```javascript
 import {material, octicons} from 'styled-icons'
 
+import * as faBrands from 'styled-icons/fa-brands'
+import * as faRegular from 'styled-icons/fa-regular'
+import * as faSolid from 'styled-icons/fa-solid'
 import * as material from 'styled-icons/material'
 import * as octicons from 'styled-icons/octicons'
 ```
@@ -122,6 +125,8 @@ Contributions are welcome! Feel free to open an issue or a pull request and part
 ## License
 
 The MIT License - see `LICENSE`.
+
+The Font Awesome icons are licensed under the [CC BY 4.0 License](https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt).
 
 The Material Design icons are licensed under the [Apache License Version 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE).
 

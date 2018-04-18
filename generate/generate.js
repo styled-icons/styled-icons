@@ -5,11 +5,10 @@ const fs = require('fs-extra')
 const ora = require('ora')
 const path = require('path')
 
-const getMaterialIcons = require('./sources/material')
-const getOcticonsIcons = require('./sources/octicons')
-
 const h2x = require('./transform/h2x')
 const svgo = require('./transform/svgo')
+
+const PACKS = ['fa-brands', 'fa-regular', 'fa-solid', 'material', 'octicons']
 
 let spinner
 
@@ -30,9 +29,11 @@ const baseDir = path.join(__dirname, '..', 'build')
 
 const generate = async () => {
   spinner = ora('Reading icon packs...').start()
-  const materialIcons = await getMaterialIcons()
-  const octiconsIcons = await getOcticonsIcons()
-  const icons = [...materialIcons, ...octiconsIcons]
+
+  const icons = (await Promise.all(PACKS.map(pack => require(`./sources/${pack}`)()))).reduce(
+    (all, icons) => all.concat(...icons),
+    [],
+  )
 
   spinner.text = 'Reading template...'
   const template = await getTemplate()
@@ -57,6 +58,9 @@ const generate = async () => {
     icon.width = state.width || icon.width
     icon.viewBox = state.viewBox || `0 0 ${icon.width} ${icon.height}`
 
+    // Special-case the `React` icon
+    if (icon.name === 'React') icon.name = 'ReactLogo'
+
     const component = template
       .replace(/{{height}}/g, icon.height)
       .replace(/{{name}}/g, icon.name)
@@ -72,7 +76,7 @@ const generate = async () => {
 
   spinner.text = 'Writing index files...'
 
-  for (const iconPack of ['material', 'octicons']) {
+  for (const iconPack of PACKS) {
     const seenNames = new Set()
 
     const packIcons = icons.filter(({pack}) => pack === iconPack)
@@ -99,8 +103,7 @@ export {StyledIcon, StyledIconProps} from '..'
     path.join(baseDir, 'typescript', 'index.ts'),
     `import {StyledComponentClass} from 'styled-components'
 
-import * as material from './material'
-import * as octicons from './octicons'
+${PACKS.map((pack, idx) => `import * as ${fastCase.camelize(pack)} from './${pack}'`).join('\n')}
 
 export interface StyledIconProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string
@@ -108,7 +111,7 @@ export interface StyledIconProps extends React.SVGProps<SVGSVGElement> {
 
 export interface StyledIcon<T = any> extends StyledComponentClass<StyledIconProps, T> {}
 
-export {material, octicons}
+export {${PACKS.map(fastCase.camelize).join(', ')}}
 `,
   )
 
@@ -124,7 +127,7 @@ export {material, octicons}
   await compiler
 
   spinner.text = 'Copying files to destination...'
-  const builtFiles = ['material', 'octicons', 'index.d.ts', 'index.js']
+  const builtFiles = [...PACKS, 'index.d.ts', 'index.js']
   for (const builtFile of builtFiles) {
     await fs.remove(path.join(__dirname, '..', builtFile))
     await fs.move(path.join(baseDir, 'icons', builtFile), path.join(__dirname, '..', builtFile))

@@ -34,6 +34,7 @@ const svgoOptions = {
     {convertStyleToAttrs: false},
     {removeStyleElement: true},
     {removeDimensions: true},
+    {removeViewBox: false},
     {addKeyPropToChildren},
     {removeAttrs: {attrs: ['id']}},
     {sortAttrs: true},

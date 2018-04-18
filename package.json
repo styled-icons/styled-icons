@@ -1,7 +1,7 @@
 {
   "name": "styled-icons",
   "version": "1.0.0",
-  "description": "Material Design Icons and Octicons available as Styled Components",
+  "description": "Font Awesome, Material Icons, and Octicons available as Styled Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
   "homepage": "https://github.com/jacobwgillespie/styled-icons",
   "repository": "git://github.com/jacobwgillespie/styled-icons.git",
@@ -22,9 +22,11 @@
   "keywords": [
     "styled-components",
     "icons",
+    "font-awesome",
     "material-ui",
     "material",
-    "octicons"
+    "octicons",
+    "svg"
   ],
   "prettier": {
     "bracketSpacing": false,
@@ -45,6 +47,10 @@
     "styled-components": ">=3 <4"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome": "^1.1.5",
+    "@fortawesome/fontawesome-free-brands": "^5.0.10",
+    "@fortawesome/fontawesome-free-regular": "^5.0.10",
+    "@fortawesome/fontawesome-free-solid": "^5.0.10",
     "@types/node": "^9.6.5",
     "@types/react": "^16.3.11",
     "@types/react-dom": "^16.0.5",
