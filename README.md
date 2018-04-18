@@ -136,3 +136,4 @@ The Octicons are licensed under the [MIT License](https://github.com/primer/octi
 [1]: https://material.io/icons/
 [2]: https://octicons.github.com/
 [3]: https://www.styled-components.com/
+[4]: https://github.com/FortAwesome/Font-Awesome
