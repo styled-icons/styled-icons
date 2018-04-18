@@ -59,20 +59,20 @@ const removeStyle = () => ({
 
 const processSVG = () => ({
   visitor: {
-    JSXElement: {
+    HTMLElement: {
       enter(path, state) {
-        if (path.node.name === 'svg') {
-          const heightAttribute = path.node.attributes.filter(attr => attr.name === 'height')[0]
-          const widthAttribute = path.node.attributes.filter(attr => attr.name === 'width')[0]
-          const viewBoxAttribute = path.node.attributes.filter(attr => attr.name === 'viewBox')[0]
+        if (path.node.tagName === 'svg') {
+          const attributes = Array.from(path.node.attributes)
+
+          const heightAttribute = attributes.find(attr => attr.name === 'height')
+          const widthAttribute = attributes.find(attr => attr.name === 'width')
+          const viewBoxAttribute = attributes.find(attr => attr.name === 'viewBox')
 
           state.height = heightAttribute ? heightAttribute.value : null
-          state.width = widthAttribute ? heightAttribute.value : null
-          state.viewBox = viewBoxAttribute ? heightAttribute.value : null
+          state.width = widthAttribute ? widthAttribute.value : null
+          state.viewBox = viewBoxAttribute ? viewBoxAttribute.value : null
 
-          path.node.attributes = []
-
-          state.children = path.node.children
+          state.children = Array.from(path.node.children)
         }
       },
     },
@@ -80,8 +80,10 @@ const processSVG = () => ({
 })
 
 module.exports = (code, state) => {
-  const firstPass = transform(code, {plugins: [extractChildren, processSVG], state})
+  // First pass to extract out attributes and children
+  transform(code, {plugins: [extractChildren, processSVG], state})
 
+  // Second pass over the extracted children
   return state.children.map(replacement =>
     transform('<svg />', {
       plugins: [replaceChildren, jsx, stripAttribute('xmlns'), removeComments, removeStyle],

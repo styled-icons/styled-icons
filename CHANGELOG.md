@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+* Add Font Awesome (free) icon packs
+
 ## v1.0.0
 
 * First "real" release

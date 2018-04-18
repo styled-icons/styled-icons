@@ -4,7 +4,7 @@ import * as ReactDOM from 'react-dom'
 // @ts-ignore
 import copy from 'copy-to-clipboard'
 
-import {material, octicons, StyledIcon} from '..'
+import {faBrands, faRegular, faSolid, material, octicons, StyledIcon} from '..'
 
 import {GitHubCorner} from './GitHubCorner'
 import {
@@ -115,9 +115,54 @@ const App = () => <Alarm />
     <p>
       <A href="https://github.com/jacobwgillespie/styled-icons">Usage Information</A>
     </p>
-    <PackHeader>Material Icons</PackHeader>
+
+    <Header>Icon Packs</Header>
+
+    <p>
+      <A href="#fa-brands">Font Awesome (brands)</A> |{' '}
+      <A href="#fa-regular">Font Awesome (regular)</A> |{' '}
+      <A href="#fa-solid">Font Awesome (solid)</A> | <A href="#material">Material Icons</A> |{' '}
+      <A href="#octicons">Octicons</A>
+    </p>
+
+    <PackHeader id="fa-brands">Font Awesome (brands)</PackHeader>
+    <p>
+      <A href="#" onClick={() => window.scrollTo(0, 0)}>
+        Back to Top
+      </A>
+    </p>
+    <IconsContainer>{renderIconPack('fa-brands', faBrands)}</IconsContainer>
+
+    <PackHeader id="fa-regular">Font Awesome (regular)</PackHeader>
+    <p>
+      <A href="#" onClick={() => window.scrollTo(0, 0)}>
+        Back to Top
+      </A>
+    </p>
+    <IconsContainer>{renderIconPack('fa-regular', faRegular)}</IconsContainer>
+
+    <PackHeader id="fa-solid">Font Awesome (solid)</PackHeader>
+    <p>
+      <A href="#" onClick={() => window.scrollTo(0, 0)}>
+        Back to Top
+      </A>
+    </p>
+    <IconsContainer>{renderIconPack('fa-solid', faSolid)}</IconsContainer>
+
+    <PackHeader id="material">Material Icons</PackHeader>
+    <p>
+      <A href="#" onClick={() => window.scrollTo(0, 0)}>
+        Back to Top
+      </A>
+    </p>
     <IconsContainer>{renderIconPack('material', material)}</IconsContainer>
-    <PackHeader>Octicons</PackHeader>
+
+    <PackHeader id="octicons">Octicons</PackHeader>
+    <p>
+      <A href="#" onClick={() => window.scrollTo(0, 0)}>
+        Back to Top
+      </A>
+    </p>
     <IconsContainer>{renderIconPack('octicons', octicons)}</IconsContainer>
   </>
 )
