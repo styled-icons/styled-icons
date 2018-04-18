@@ -73,3 +73,17 @@ export const IconsContainer = styled.div`
 export const A = styled.a`
   color: #fff;
 `
+
+export const SearchBox = styled.input`
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  margin-bottom: 2em;
+  padding: 12px;
+  width: 400px;
+  color: #000;
+  font-weight: 300;
+  outline: none;
+  text-align: center;
+  font-size: 1.2rem;
+`
