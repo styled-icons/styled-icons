@@ -105,7 +105,7 @@ const App = () => <Alarm />
           <A href="https://github.com/jacobwgillespie/styled-icons">Usage Information</A>
         </p>
 
-        <Header>Icon Packs</Header>
+        <Header>Icon Explorer</Header>
 
         <SearchBox type="text" onChange={this.updateSearch} />
 
