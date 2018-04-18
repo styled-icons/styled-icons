@@ -8,7 +8,7 @@ const path = require('path')
 const h2x = require('./transform/h2x')
 const svgo = require('./transform/svgo')
 
-const PACKS = ['fa-brands', 'fa-regular', 'fa-solid', 'material', 'octicons']
+const PACKS = ['fa-regular', 'fa-solid', 'fa-brands', 'material', 'octicons']
 
 let spinner
 
@@ -132,6 +132,27 @@ export {${PACKS.map(fastCase.camelize).join(', ')}}
     await fs.remove(path.join(__dirname, '..', builtFile))
     await fs.move(path.join(baseDir, 'icons', builtFile), path.join(__dirname, '..', builtFile))
   }
+
+  spinner.text = 'Writing icon manifest for website...'
+  const seenImports = new Set()
+  await fs.writeJSON(
+    path.join(__dirname, '..', 'manifest.json'),
+    icons
+      .map(({name, originalName, pack}) => {
+        const importPath = `styled-icons/${pack}/${name}`
+
+        if (seenImports.has(importPath)) return null
+        seenImports.add(importPath)
+
+        return {
+          importPath,
+          name,
+          originalName,
+          pack,
+        }
+      })
+      .filter(icon => icon),
+  )
 
   spinner.succeed(`${totalIcons} icons successfully built!`)
 }
