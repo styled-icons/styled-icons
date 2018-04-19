@@ -10,6 +10,9 @@
   "typings": "./index.d.ts",
   "sideEffects": false,
   "files": [
+    "fa-brands",
+    "fa-regular",
+    "fa-solid",
     "material",
     "octicons",
     "CHANGELOG.md",
