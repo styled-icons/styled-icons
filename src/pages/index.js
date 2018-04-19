@@ -5,7 +5,6 @@ import * as JSSearch from 'js-search'
 
 import {faBrands, faRegular, faSolid, material, octicons} from '../..'
 import icons from '../../manifest.json'
-import {GitHubCorner} from '../components/GitHubCorner'
 import {IconExplorer} from '../components/IconExplorer'
 
 icons.forEach(icon => {
@@ -41,7 +40,6 @@ search.addDocuments(icons)
 
 const IndexPage = () => (
   <div>
-    <GitHubCorner />
     <h1>Styled Icons 💅</h1>
     <div className="badges">
       <a href="https://travis-ci.org/jacobwgillespie/styled-icons">
