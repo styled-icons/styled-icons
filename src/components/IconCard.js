@@ -31,7 +31,7 @@ export class IconCard extends React.PureComponent {
   render() {
     const {Icon, name} = this.props
     return (
-      <div className="icon-card IconDemoContainer" onClick={() => this.copy()}>
+      <div className="icon-card" onClick={() => this.copy()}>
         <div>
           <Icon size="48" />
         </div>
