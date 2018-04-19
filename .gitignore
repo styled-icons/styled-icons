@@ -12,5 +12,6 @@ material/
 octicons/
 public/
 /index.d.ts
+/index.es5.js
 /index.js
 manifest.json

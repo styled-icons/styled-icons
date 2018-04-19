@@ -7,20 +7,23 @@
   "repository": "git://github.com/jacobwgillespie/styled-icons.git",
   "license": "MIT",
   "main": "index.js",
+  "module": "index.mjs",
+  "jsnext:main": "index.mjs",
   "typings": "./index.d.ts",
   "sideEffects": false,
   "files": [
-    "fa-brands",
-    "fa-regular",
-    "fa-solid",
-    "material",
-    "octicons",
-    "CHANGELOG.md",
-    "index.d.ts",
-    "index.js",
-    "LICENSE",
-    "package.json",
-    "README.md"
+    "/fa-brands",
+    "/fa-regular",
+    "/fa-solid",
+    "/material",
+    "/octicons",
+    "/CHANGELOG.md",
+    "/index.d.ts",
+    "/index.es5.js",
+    "/index.js",
+    "/LICENSE",
+    "/package.json",
+    "/README.md"
   ],
   "keywords": [
     "styled-components",
@@ -41,7 +44,7 @@
   "scripts": {
     "build": "node generate/generate.js",
     "build-website": "gatsby build",
-    "clean": "rm -rf build fa-brands fa-regular fa-solid material octicons public index.d.ts index.js",
+    "clean": "rm -rf build fa-brands fa-regular fa-solid material octicons public manifest.json index.d.ts index.es5.js index.js",
     "dev": "gatsby develop",
     "serve": "serve public"
   },
