@@ -32,21 +32,24 @@ h1 {
 
 h2 {
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
+  margin-top: 4rem;
 }
 
 code {
   display: block;
-  max-width: 600px;
   margin: 0 auto;
   white-space: pre;
   padding: 12px;
   text-align: left;
-  margin-top: 1em;
   color: #000;
+  overflow-x: scroll;
 }
 
 code.demo {
+  display: inline-block;
+  margin-bottom: 12px;
+  margin-top: 1em;
   background: rgba(0, 0, 0, 0.2);
 }
 
@@ -60,7 +63,7 @@ code.demo {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 12px;
+  padding: 1rem;
   cursor: pointer;
   color: #000;
   transition: transform 0.5s ease-out;
@@ -73,13 +76,28 @@ code.demo {
   transform: scale(1.05);
 }
 
-.icon-card strong {
+.icon-card > * {
+  margin-bottom: 1rem;
+}
+
+.icon-card > *:last-child {
+  margin-bottom: 0;
+}
+
+.icon-card .name {
   font-weight: 500;
+  overflow-x: scroll;
+  width: 100%;
 }
 
 .icon-card code {
-  overflow-x: scroll;
   width: 100%;
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+.icon-card ::-webkit-scrollbar {
+  display: none;
 }
 
 .badges > * {
@@ -106,4 +124,46 @@ code.demo {
 
 ::placeholder {
   color: rgba(0, 0, 0, 0.5);
+}
+
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+
+.github-corner svg {
+  fill: #151513;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  border: 0;
+  right: 0;
+}
+
+.github-corner .octo-arm {
+  transform-origin: 130px 106px;
+  will-change: transform;
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
 }

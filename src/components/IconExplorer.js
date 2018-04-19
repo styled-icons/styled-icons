@@ -43,20 +43,26 @@ export class IconExplorer extends React.Component {
         <WindowScroller>
           {({height, isScrolling, onChildScroll, scrollTop}) => (
             <AutoSizer disableHeight>
-              {({width}) => (
-                <Grid
-                  autoHeight
-                  cellRenderer={cellRenderer}
-                  columnCount={4}
-                  columnWidth={Math.floor(width / 4)}
-                  height={height}
-                  isScrolling={isScrolling}
-                  rowCount={Math.ceil(filteredIcons.length / 4)}
-                  rowHeight={Math.floor(width / 4)}
-                  scrollTop={scrollTop}
-                  width={width}
-                />
-              )}
+              {({width}) => {
+                const columnCount = width > 755 ? 4 : width < 600 ? 2 : 3
+                const rowCount = Math.ceil(filteredIcons.length / columnCount)
+                const size = Math.floor(width / columnCount)
+
+                return (
+                  <Grid
+                    autoHeight
+                    cellRenderer={cellRenderer}
+                    columnCount={columnCount}
+                    columnWidth={size}
+                    height={height}
+                    isScrolling={isScrolling}
+                    rowCount={rowCount}
+                    rowHeight={size}
+                    scrollTop={scrollTop}
+                    width={width}
+                  />
+                )
+              }}
             </AutoSizer>
           )}
         </WindowScroller>
