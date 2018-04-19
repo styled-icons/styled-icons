@@ -102,3 +102,7 @@ code.demo {
   text-align: center;
   font-size: 1.2rem;
 }
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
