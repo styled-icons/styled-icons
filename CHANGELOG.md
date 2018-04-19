@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## v1.1.1
+
 * Fix npm bundle (missing Font Awesome icons)
 
 ## v1.1.0
