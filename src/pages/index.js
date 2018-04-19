@@ -71,7 +71,11 @@ const IndexPage = () => (
       {`
 import {Zap} from 'styled-icons/octicons/Zap'
 
-const App = () => <Zap />
+const RedZap = Zap.extend\`
+  color: red;
+\`
+
+const App = () => <RedZap />
     `.trim()}
     </code>
 
