@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## v1.2.0
+
 * Support automatic tree shaking ([#8](https://github.com/jacobwgillespie/styled-icons/pull/8))
 
 ## v1.1.1
