@@ -35,7 +35,7 @@ export class IconCard extends React.PureComponent {
         <div>
           <Icon size="48" />
         </div>
-        <strong className="IconName">{name}</strong>
+        <div className="name">{name}</div>
         <code>{this.state.copied ? 'Copied!' : this.iconImport}</code>
       </div>
     )

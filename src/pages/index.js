@@ -67,17 +67,16 @@ const IndexPage = () => (
       <a href="https://www.styled-components.com/">Styled Components</a>
     </p>
 
-    <code className="demo">$ yarn install styled-icons</code>
     <code className="demo">
       {`
-import {Alarm} from 'styled-icons/material/Alarm'
+import {Zap} from 'styled-icons/octicons/Zap'
 
-const App = () => <Alarm />
+const App = () => <Zap />
     `.trim()}
     </code>
 
     <p>
-      <a href="https://github.com/jacobwgillespie/styled-icons">Usage Information</a>
+      <a href="https://github.com/jacobwgillespie/styled-icons">View documentation on GitHub</a>
     </p>
 
     <h2>Icon Explorer</h2>
