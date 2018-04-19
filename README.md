@@ -3,11 +3,26 @@
 [![Build Status](https://travis-ci.org/jacobwgillespie/styled-icons.svg?branch=master)](https://travis-ci.org/jacobwgillespie/styled-icons)
 [![npm](https://img.shields.io/npm/dm/styled-icons.svg)](https://www.npmjs.com/package/styled-icons)
 [![npm](https://img.shields.io/npm/v/styled-icons.svg)](https://www.npmjs.com/package/styled-icons)
-![Built with TypeScript](https://img.shields.io/badge/built%20with-typescript-blue.svg)
+[![Built with Styled Components](https://img.shields.io/badge/built%20with-styled%20components-db7093.svg)](https://www.styled-components.com/)
+![Powered by TypeScript](https://img.shields.io/badge/powered%20by-typescript-blue.svg)
 
-`styled-icons` provides the [Font Awesome][4], [Material Design][2] and [Octicons][2] icon packs as [Styled Components][3], with full support for TypeScript types and ES6 modules / tree-shaking.
+[![View Icons](https://gui.apex.sh/component?name=ShadowButton&config=%7B%22text%22%3A%22ICON%20EXPLORER%22%2C%22color%22%3A%22db7093%22%7D)](https://styled-icons.js.org)
 
-[![View Icons](https://gui.apex.sh/component?name=ShadowButton&config=%7B%22text%22%3A%22ICON%20EXPLORER%22%2C%22color%22%3A%22db7093%22%7D)][0]
+`styled-icons` provides the [Font Awesome](https://fontawesome.com/), [Material Design](https://material.io/icons/) and [Octicons](https://octicons.github.com/) icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules.
+
+---
+
+### Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+  * [Props](#props)
+  * [Icon Dimensions](#icon-dimensions)
+  * [Styled Components](#styled-components)
+  * [Tree Shaking](#tree-shaking)
+  * [TypeScript](#typescript)
+* [Contributing](#contributing)
+* [License](#license)
 
 ## Installation
 
@@ -25,7 +40,7 @@ Additionally, you will need to have installed a version of `styled-components`, 
 
 ## Usage
 
-All Font Awesome (free), Material, and Octicon icons are available for preview at the [Icon Explorer][0].
+All Font Awesome (free), Material, and Octicon icons are available for preview at the [Icon Explorer](https://styled-icons.js.org).
 
 The entire icon packs are available via the main import and sub-imports:
 
@@ -64,7 +79,7 @@ import {Lock} from 'styled-icons/material'
 const App = () => <Lock size="48" />
 ```
 
-### Dimensions
+### Icon Dimensions
 
 Some icons natively have non-square dimensions - original dimensions are exported from the individual icon exports:
 
@@ -87,7 +102,7 @@ import {octicons} from 'styled-icons'
 
 ### Styled Components
 
-All icons are exported as [Styled Components][3], which means it is possible to extend their styles or otherwise utilize the Styled Components API:
+All icons are exported as [Styled Components](https://www.styled-components.com/), which means it is possible to extend their styles or otherwise utilize the Styled Components API:
 
 ```javascript
 import {Lock} from 'styled-icons/material'
@@ -98,6 +113,31 @@ export const RedLock = Lock.extend`
   font-weight: ${props => (props.important ? 'bold' : 'normal')};
 `
 ```
+
+### Tree Shaking
+
+**NOTE:** tree shaking should work without modification using [Create React App](https://github.com/facebook/create-react-app).
+
+Tree shaking has been tested with Create React App, Rollup, and Webpack. If your bundler is unable to import the icons, additional CommonJS/ES5 bundles are available:
+
+```javascript
+import React, {Fragment} from 'react'
+
+// This will result in all Material icons being bundled
+import {Account} from 'styled-icons/material.es5'
+
+// This will only include the Lock icon
+import {Lock} from 'styled-icons/material/Lock.es5'
+
+const App = () => (
+  <Fragment>
+    <Account />
+    <Lock />
+  </Fragment>
+)
+```
+
+Be aware though that importing from the plain ES5 icon pack bundles will likely result in significantly larger bundle sizes, because unused icons will be included in the final bundle. If you are unable to configure your bundler to process the ES module bundles, you should import icons individually to avoid large bundles.
 
 ### TypeScript
 
@@ -131,9 +171,3 @@ The Font Awesome icons are licensed under the [CC BY 4.0 License](https://github
 The Material Design icons are licensed under the [Apache License Version 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE).
 
 The Octicons are licensed under the [MIT License](https://github.com/primer/octicons/blob/master/LICENSE).
-
-[0]: https://styled-icons.js.org
-[1]: https://material.io/icons/
-[2]: https://octicons.github.com/
-[3]: https://www.styled-components.com/
-[4]: https://github.com/FortAwesome/Font-Awesome

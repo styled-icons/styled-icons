@@ -1,6 +1,7 @@
 const {toWords} = require('number-to-words')
 const execa = require('execa')
 const fastCase = require('fast-case')
+const fg = require('fast-glob')
 const fs = require('fs-extra')
 const ora = require('ora')
 const path = require('path')
@@ -115,11 +116,22 @@ export {${PACKS.map(fastCase.camelize).join(', ')}}
 `,
   )
 
-  spinner.text = 'Building TypeScript files...'
+  spinner.text = 'Building modern JavaScript...'
 
-  const compiler = execa('./node_modules/.bin/tsc', [
+  let compiler = execa('./node_modules/.bin/tsc', [
     '--project',
     './tsconfig.icons.json',
+    '--pretty',
+  ])
+  compiler.stdout.pipe(process.stdout)
+  compiler.stderr.pipe(process.stderr)
+  await compiler
+
+  spinner.text = 'Building ES5 bundles...'
+
+  compiler = execa('./node_modules/.bin/tsc', [
+    '--project',
+    './tsconfig.icons.es5.json',
     '--pretty',
   ])
   compiler.stdout.pipe(process.stdout)
@@ -131,6 +143,16 @@ export {${PACKS.map(fastCase.camelize).join(', ')}}
   for (const builtFile of builtFiles) {
     await fs.remove(path.join(__dirname, '..', builtFile))
     await fs.move(path.join(baseDir, 'icons', builtFile), path.join(__dirname, '..', builtFile))
+  }
+
+  const es5Files = await fg('build/icons-es5/**/*.js')
+  for (const es5File of es5Files) {
+    const destination = path.join(
+      __dirname,
+      '..',
+      es5File.replace('build/icons-es5/', '').replace(/\.js$/, '.es5.js'),
+    )
+    await fs.move(path.join(__dirname, '..', es5File), destination)
   }
 
   spinner.text = 'Writing icon manifest for website...'
