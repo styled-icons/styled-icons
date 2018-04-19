@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+* Support automatic tree shaking ([#8](https://github.com/jacobwgillespie/styled-icons/pull/8))
+
 ## v1.1.1
 
 * Fix npm bundle (missing Font Awesome icons)
