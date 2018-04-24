@@ -5,8 +5,7 @@
     "module": "es2015",
     "outDir": "./build/icons",
     "rootDir": "./build/typescript",
-    "target": "es5"
-  },
-  "include": ["build/typescript"],
-  "exclude": ["website"]
+    "strict": false,
+    "target": "es6"
+  }
 }

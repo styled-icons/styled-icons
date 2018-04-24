@@ -8,9 +8,11 @@ export const {{name}} = styled.svg.attrs({
     {{svg}}
   ],
   viewBox: '{{viewBox}}',
-  height: (props: StyledIconProps) => (props.height !== undefined ? props.height : props.size),
-  width: (props: StyledIconProps) => (props.width !== undefined ? props.width : props.size),
-})`` as StyledIcon
+  height: (props: StyledIconProps<any>) => (props.height !== undefined ? props.height : props.size),
+  width: (props: StyledIconProps<any>) => (props.width !== undefined ? props.width : props.size),
+})`
+  ${(props: StyledIconProps<any>) => props.css};
+` as StyledIcon
 
 {{name}}.displayName = '{{name}}'
 
