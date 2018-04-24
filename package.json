@@ -7,8 +7,8 @@
   "repository": "git://github.com/jacobwgillespie/styled-icons.git",
   "license": "MIT",
   "main": "index.js",
-  "module": "index.mjs",
-  "jsnext:main": "index.mjs",
+  "module": "index.js",
+  "jsnext:main": "index.js",
   "typings": "./index.d.ts",
   "sideEffects": false,
   "files": [
