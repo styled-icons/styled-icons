@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+* Add `css` prop for passing additional CSS
 * Fix `module` and `jsnext:main` file extensions in `package.json`
 
 ## v1.2.0

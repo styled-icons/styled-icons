@@ -70,13 +70,13 @@ const App = () => (
 
 ### Props
 
-Styled Icons accept all the valid props of an `<svg />` element, in addition to a `size` convenience prop that sets both `width` and `height`:
+Styled Icons accept all the valid props of an `<svg />` element, in addition to a `size` convenience prop that sets both `width` and `height` and a `css` prop that accepts any valid Styled Components CSS (a string, a css tagged template literal, etc):
 
 ```javascript
 import React from 'react'
 import {Lock} from 'styled-icons/material'
 
-const App = () => <Lock size="48" />
+const App = () => <Lock size="48" css="color: red;" />
 ```
 
 ### Icon Dimensions
