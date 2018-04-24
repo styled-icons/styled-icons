@@ -39,8 +39,11 @@ const generate = async () => {
   spinner.text = 'Reading template...'
   const template = await getTemplate()
 
-  spinner.text = 'Clearing desination directory...'
-  await fs.remove(baseDir)
+  spinner.text = 'Clearing desination files...'
+  const destinationFiles = ['build', ...PACKS, 'index.d.ts', 'index.es5.js', 'index.js']
+  for (const destinationFile of destinationFiles) {
+    await fs.remove(path.join(__dirname, '..', destinationFile))
+  }
 
   spinner.text = 'Building icons...'
   const totalIcons = icons.length
@@ -102,15 +105,16 @@ export {StyledIcon, StyledIconProps} from '..'
 
   await fs.writeFileSync(
     path.join(baseDir, 'typescript', 'index.ts'),
-    `import {StyledComponentClass} from 'styled-components'
+    `import {StyledComponentClass, Interpolation, ThemedStyledProps} from 'styled-components'
 
 ${PACKS.map((pack, idx) => `import * as ${fastCase.camelize(pack)} from './${pack}'`).join('\n')}
 
-export interface StyledIconProps extends React.SVGProps<SVGSVGElement> {
+export interface StyledIconProps<T> extends React.SVGProps<SVGSVGElement> {
   size?: number | string
+  css?: Interpolation<ThemedStyledProps<StyledIconProps<T>, T>>
 }
 
-export interface StyledIcon<T = any> extends StyledComponentClass<StyledIconProps, T> {}
+export interface StyledIcon<T = any> extends StyledComponentClass<StyledIconProps<T>, T> {}
 
 export {${PACKS.map(fastCase.camelize).join(', ')}}
 `,
