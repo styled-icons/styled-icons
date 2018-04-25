@@ -37,8 +37,12 @@ export class Badges extends React.Component {
           <img alt="npm" src="https://img.shields.io/npm/v/styled-icons.svg" />
         </a>
         <img
-          alt="Built with TypeScript"
-          src="https://img.shields.io/badge/built%20with-typescript-blue.svg"
+          alt="Built with Styled Components"
+          src="https://img.shields.io/badge/built%20with-styled%20components-db7093.svg"
+        />
+        <img
+          alt="Powered by TypeScript"
+          src="https://img.shields.io/badge/powered%20by-typescript-blue.svg"
         />
       </div>
     )
