@@ -18,14 +18,14 @@ export class IconExplorer extends React.Component {
       ? this.props.search.search(this.state.search)
       : this.props.icons
 
-    const cellRenderer = ({columnIndex, rowIndex, style}) => {
+    const cellRenderer = ({columnIndex, key, rowIndex, style}) => {
       const idx = rowIndex * 4 + columnIndex
       if (idx >= filteredIcons.length) return null
 
       const {importPath, icon, name, pack} = filteredIcons[idx]
 
       return (
-        <div className="icon-card-wrapper" style={style}>
+        <div className="icon-card-wrapper" key={key} style={style}>
           <IconCard Icon={icon} name={name} pack={pack} key={importPath} />
         </div>
       )
