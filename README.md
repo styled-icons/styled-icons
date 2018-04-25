@@ -1,6 +1,6 @@
 # 💅 styled-icons
 
-[![Build Status](https://travis-ci.org/jacobwgillespie/styled-icons.svg?branch=master)](https://travis-ci.org/jacobwgillespie/styled-icons)
+[![Build Status](https://img.shields.io/travis/jacobwgillespie/styled-icons/master.svg)](https://travis-ci.org/jacobwgillespie/styled-icons)
 [![npm](https://img.shields.io/npm/dm/styled-icons.svg)](https://www.npmjs.com/package/styled-icons)
 [![npm](https://img.shields.io/npm/v/styled-icons.svg)](https://www.npmjs.com/package/styled-icons)
 [![Built with Styled Components](https://img.shields.io/badge/built%20with-styled%20components-db7093.svg)](https://www.styled-components.com/)
