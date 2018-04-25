@@ -16,6 +16,7 @@ module.exports = {
         icon: 'src/images/styled-icons.png',
       },
     },
+    'gatsby-plugin-offline',
     'gatsby-plugin-netlify',
   ],
 }
