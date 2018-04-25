@@ -27,7 +27,7 @@ export class Badges extends React.Component {
         <a href="https://travis-ci.org/jacobwgillespie/styled-icons">
           <img
             alt="Build Status"
-            src="https://img.shields.io/travis/jacobwgillespie/styled-icons.svg"
+            src="https://img.shields.io/travis/jacobwgillespie/styled-icons/master.svg"
           />
         </a>
         <a href="https://www.npmjs.com/package/styled-icons">
