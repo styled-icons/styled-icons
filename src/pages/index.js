@@ -5,6 +5,7 @@ import * as JSSearch from 'js-search'
 
 import {faBrands, faRegular, faSolid, material, octicons} from '../..'
 import icons from '../../manifest.json'
+import {Badges} from '../components/Badges'
 import {IconExplorer} from '../components/IconExplorer'
 
 icons.forEach(icon => {
@@ -41,24 +42,7 @@ search.addDocuments(icons)
 const IndexPage = () => (
   <div>
     <h1>Styled Icons 💅</h1>
-    <div className="badges">
-      <a href="https://travis-ci.org/jacobwgillespie/styled-icons">
-        <img
-          alt="Build Status"
-          src="https://travis-ci.org/jacobwgillespie/styled-icons.svg?branch=master"
-        />
-      </a>
-      <a href="https://www.npmjs.com/package/styled-icons">
-        <img alt="npm" src="https://img.shields.io/npm/dm/styled-icons.svg" />
-      </a>
-      <a href="https://www.npmjs.com/package/styled-icons">
-        <img alt="npm" src="https://img.shields.io/npm/v/styled-icons.svg" />
-      </a>
-      <img
-        alt="Built with TypeScript"
-        src="https://img.shields.io/badge/built%20with-typescript-blue.svg"
-      />
-    </div>
+    <Badges />
 
     <p>
       Import icons from the <a href="https://fontawesome.com/">Font Awesome (free)</a>,{' '}
