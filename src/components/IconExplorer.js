@@ -25,7 +25,7 @@ export class IconExplorer extends React.Component {
       const {importPath, icon, name, pack} = filteredIcons[idx]
 
       return (
-        <div class="icon-card-wrapper" style={style}>
+        <div className="icon-card-wrapper" style={style}>
           <IconCard Icon={icon} name={name} pack={pack} key={importPath} />
         </div>
       )
