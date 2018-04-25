@@ -102,7 +102,7 @@ code.demo {
 
 .badges {
   padding: 0;
-  height: 26px;
+  min-height: 26px;
 }
 
 .badges > * {
