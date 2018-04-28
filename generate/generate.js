@@ -109,9 +109,14 @@ export {StyledIcon, StyledIconProps} from '..'
 
 ${PACKS.map((pack, idx) => `import * as ${fastCase.camelize(pack)} from './${pack}'`).join('\n')}
 
-export interface StyledIconProps<T> extends React.SVGProps<SVGSVGElement> {
-  size?: number | string
+export interface AriaAttributes {
+  'aria-hidden'?: string
+}
+
+export interface StyledIconProps<T> extends React.SVGProps<SVGSVGElement>, AriaAttributes {
   css?: Interpolation<ThemedStyledProps<StyledIconProps<T>, T>>
+  size?: number | string
+  title?: string | null
 }
 
 export interface StyledIcon<T = any> extends StyledComponentClass<StyledIconProps<T>, T> {}
