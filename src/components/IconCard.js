@@ -33,7 +33,7 @@ export class IconCard extends React.PureComponent {
     return (
       <div className="icon-card" onClick={() => this.copy()}>
         <div>
-          <Icon size="48" />
+          <Icon size="48" title={`${name} icon`} />
         </div>
         <div className="name">{name}</div>
         <code>{this.state.copied ? 'Copied!' : this.iconImport}</code>
