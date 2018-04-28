@@ -4,13 +4,16 @@ import styled from 'styled-components'
 import {StyledIcon, StyledIconProps} from '..'
 
 export const {{name}} = styled.svg.attrs({
-  children: [
-    {{svg}}
-  ],
-  'aria-hidden': 'true',
+  children: (props: StyledIconProps<any>) => (
+    props.title != null
+      ? [<title key="{{name}}-title">{props.title}</title>, {{svg}}]
+      : [{{svg}}]
+  ),
   viewBox: '{{viewBox}}',
   height: (props: StyledIconProps<any>) => (props.height !== undefined ? props.height : props.size),
   width: (props: StyledIconProps<any>) => (props.width !== undefined ? props.width : props.size),
+  'aria-hidden': (props: StyledIconProps<any>) => (props.title == null ? 'true' : undefined),
+  role: (props: StyledIconProps<any>) => (props.title != null ? 'img' : undefined),
 })`
   ${(props: StyledIconProps<any>) => props.css};
 ` as StyledIcon

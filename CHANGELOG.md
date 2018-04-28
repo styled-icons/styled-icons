@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+* Improve accessibility with `title` prop
+
 ## v1.3.0
 
 * Add `css` prop for passing additional CSS
