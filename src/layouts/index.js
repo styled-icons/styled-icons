@@ -25,7 +25,9 @@ const Layout = ({children, data}) => (
         />
       </svg>
     </a>
-    <Helmet title={data.site.siteMetadata.title} />
+    <Helmet title={data.site.siteMetadata.title}>
+      <html lang="en" />
+    </Helmet>
     {children()}
   </div>
 )
