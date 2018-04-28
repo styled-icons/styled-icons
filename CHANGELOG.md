@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## v1.4.0
+
 * Improve accessibility with `title` prop
 
 ## v1.3.0
