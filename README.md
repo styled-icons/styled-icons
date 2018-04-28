@@ -145,7 +145,7 @@ Alternatively the icon could be used in standalone mode, meaning the icon itself
 <svg role="img"><title>Lock account</title> ...</svg>
 ```
 
-Since Style Icons accept all prop values of an `<svg>` element, you are free to override these `aria-*` attributes if you have a more complex use-case.
+Since Style Icons accept all `<svg>` element attributes as props, you are free to override these `aria-*` attributes if you have a more complex use-case.
 
 ### Tree Shaking
 
