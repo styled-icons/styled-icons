@@ -62,7 +62,7 @@ code.demo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 1rem;
   cursor: pointer;
   color: #000;
@@ -76,14 +76,6 @@ code.demo {
   transform: scale(1.05);
 }
 
-.icon-card > * {
-  margin-bottom: 1rem;
-}
-
-.icon-card > *:last-child {
-  margin-bottom: 0;
-}
-
 .icon-card .name {
   font-weight: 500;
   overflow-x: scroll;
@@ -93,7 +85,7 @@ code.demo {
 .icon-card code {
   width: 100%;
   text-align: center;
-  padding-bottom: 12px;
+  padding: 0;
 }
 
 .icon-card ::-webkit-scrollbar {
@@ -163,6 +155,10 @@ code.demo {
 
 .github-corner:hover .octo-arm {
   animation: octocat-wave 560ms ease-in-out;
+}
+
+.ReactVirtualized__Grid {
+  outline: none;
 }
 
 @media (max-width: 500px) {
