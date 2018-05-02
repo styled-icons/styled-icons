@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+* Add `focusable="false"` for accessibility, adjust default display CSS
+
 ## v1.5.0
 
 * Upgrade FontAwesome to v5.0.11
