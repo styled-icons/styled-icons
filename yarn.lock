@@ -16,9 +16,13 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@fortawesome/fontawesome-common-types@^0.1.3", "@fortawesome/fontawesome-common-types@^0.1.4":
+"@fortawesome/fontawesome-common-types@^0.1.4":
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.1.4.tgz#1fbc66f0223646f23c5550c2c12e341078e2c262"
+
+"@fortawesome/fontawesome-common-types@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.1.5.tgz#d44485071f94ffac7f66ff6117b290eb7c908d58"
 
 "@fortawesome/fontawesome-free-brands@^5.0.10":
   version "5.0.10"
@@ -39,10 +43,10 @@
     "@fortawesome/fontawesome-common-types" "^0.1.4"
 
 "@fortawesome/fontawesome@^1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome/-/fontawesome-1.1.5.tgz#c7cfafdd3364245626293cc670357f9fb8487170"
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome/-/fontawesome-1.1.6.tgz#edee6108aa3485c6f0fb3a16e6a222086b2abb42"
   dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.1.3"
+    "@fortawesome/fontawesome-common-types" "^0.1.5"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
