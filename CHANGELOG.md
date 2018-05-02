@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## v1.6.0
+
 * Add `focusable="false"` for accessibility, adjust default display CSS
 * Default the `fill` prop to `currentColor` (allows setting the color of the icon by the CSS `color`)
 
