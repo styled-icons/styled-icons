@@ -64,7 +64,7 @@
     "execa": "^0.10.0",
     "fast-case": "^1.1.0",
     "fast-glob": "^2.2.0",
-    "fs-extra": "^5.0.0",
+    "fs-extra": "^6.0.0",
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-favicon": "^2.1.1",
