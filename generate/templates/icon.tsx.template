@@ -14,8 +14,12 @@ export const {{name}} = styled.svg.attrs({
   width: (props: StyledIconProps<any>) => (props.width !== undefined ? props.width : props.size),
   fill: 'currentColor',
   'aria-hidden': (props: StyledIconProps<any>) => (props.title == null ? 'true' : undefined),
+  focusable: 'false',
   role: (props: StyledIconProps<any>) => (props.title != null ? 'img' : undefined),
 })`
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
   ${(props: StyledIconProps<any>) => props.css};
 ` as StyledIcon
 
