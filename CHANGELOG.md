@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+* Default the `fill` prop to `currentColor` (allows setting the color of the icon by the CSS `color`)
+
 ## v1.5.0
 
 * Upgrade FontAwesome to v5.0.11

@@ -86,7 +86,14 @@ module.exports = (code, state) => {
   // Second pass over the extracted children
   return state.children.map(replacement =>
     transform('<svg />', {
-      plugins: [replaceChildren, jsx, stripAttribute('xmlns'), removeComments, removeStyle],
+      plugins: [
+        replaceChildren,
+        jsx,
+        stripAttribute('xmlns'),
+        stripAttribute('path'),
+        removeComments,
+        removeStyle,
+      ],
       state: {replacement},
     }),
   )

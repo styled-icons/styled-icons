@@ -12,6 +12,7 @@ export const {{name}} = styled.svg.attrs({
   viewBox: '{{viewBox}}',
   height: (props: StyledIconProps<any>) => (props.height !== undefined ? props.height : props.size),
   width: (props: StyledIconProps<any>) => (props.width !== undefined ? props.width : props.size),
+  fill: 'currentColor',
   'aria-hidden': (props: StyledIconProps<any>) => (props.title == null ? 'true' : undefined),
   role: (props: StyledIconProps<any>) => (props.title != null ? 'img' : undefined),
 })`
