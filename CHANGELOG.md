@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+## v1.5.0
+
+* Upgrade FontAwesome to v5.0.11
+  * New user icons
+  * Creative Commons symbols
+  * Top new brand icons: R, Ebay, Mastodon, Researchgate, Keybase, Teamspeak
+
 ## v1.4.0
 
 * Improve accessibility with `title` prop
