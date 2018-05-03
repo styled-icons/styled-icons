@@ -43,10 +43,10 @@
     "@fortawesome/fontawesome-common-types" "^0.1.5"
 
 "@fortawesome/fontawesome@^1.1.5":
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome/-/fontawesome-1.1.6.tgz#edee6108aa3485c6f0fb3a16e6a222086b2abb42"
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome/-/fontawesome-1.1.7.tgz#15a6508cd6ab465b6a5bd1fb83f4c962a8c7df7a"
   dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.1.5"
+    "@fortawesome/fontawesome-common-types" "^0.1.6"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
