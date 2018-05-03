@@ -37,10 +37,10 @@
     "@fortawesome/fontawesome-common-types" "^0.1.5"
 
 "@fortawesome/fontawesome-free-solid@^5.0.10":
-  version "5.0.11"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free-solid/-/fontawesome-free-solid-5.0.11.tgz#e6959def67f073b32c6ff419da0c99795f130248"
+  version "5.0.12"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free-solid/-/fontawesome-free-solid-5.0.12.tgz#5cfa458336554139d16a9bce8df7c60b9aee1dc3"
   dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.1.5"
+    "@fortawesome/fontawesome-common-types" "^0.1.6"
 
 "@fortawesome/fontawesome@^1.1.5":
   version "1.1.7"
