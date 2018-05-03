@@ -20,11 +20,15 @@
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.1.5.tgz#d44485071f94ffac7f66ff6117b290eb7c908d58"
 
+"@fortawesome/fontawesome-common-types@^0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.1.6.tgz#3cefd6cd88a2256e1daa69b6fc9a6ab5e3c33e4a"
+
 "@fortawesome/fontawesome-free-brands@^5.0.10":
-  version "5.0.11"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free-brands/-/fontawesome-free-brands-5.0.11.tgz#1e2eda34f2c6208facabe44a90a49972b37307e9"
+  version "5.0.12"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free-brands/-/fontawesome-free-brands-5.0.12.tgz#2e8dfc4d92d95a9ed7aa27f93bccec08317ddcaa"
   dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.1.5"
+    "@fortawesome/fontawesome-common-types" "^0.1.6"
 
 "@fortawesome/fontawesome-free-regular@^5.0.10":
   version "5.0.11"
