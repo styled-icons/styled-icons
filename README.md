@@ -8,7 +8,7 @@
 
 [![View Icons](https://gui.apex.sh/component?name=ShadowButton&config=%7B%22text%22%3A%22ICON%20EXPLORER%22%2C%22color%22%3A%22db7093%22%7D)](https://styled-icons.js.org)
 
-`styled-icons` provides the [Font Awesome](https://fontawesome.com/), [Material Design](https://material.io/icons/) and [Octicons](https://octicons.github.com/) icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules.
+`styled-icons` provides the [Font Awesome](https://fontawesome.com/), [Feather](https://feathericons.com/), [Material Design](https://material.io/icons/), and [Octicons](https://octicons.github.com/) icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules.
 
 ---
 
@@ -51,6 +51,7 @@ import {material, octicons} from 'styled-icons'
 import * as faBrands from 'styled-icons/fa-brands'
 import * as faRegular from 'styled-icons/fa-regular'
 import * as faSolid from 'styled-icons/fa-solid'
+import * as feather from 'styled-icons/feather'
 import * as material from 'styled-icons/material'
 import * as octicons from 'styled-icons/octicons'
 ```
@@ -226,6 +227,8 @@ Contributions are welcome! Feel free to open an issue or a pull request and part
 The MIT License - see `LICENSE`.
 
 The Font Awesome icons are licensed under the [CC BY 4.0 License](https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt).
+
+The Feather icons are licensed under the [MIT License](https://github.com/feathericons/feather/blob/master/LICENSE).
 
 The Material Design icons are licensed under the [Apache License Version 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE).
 

@@ -12,10 +12,11 @@ export const {{name}} = styled.svg.attrs({
   viewBox: '{{viewBox}}',
   height: (props: StyledIconProps<any>) => (props.height !== undefined ? props.height : props.size),
   width: (props: StyledIconProps<any>) => (props.width !== undefined ? props.width : props.size),
-  fill: 'currentColor',
+  // @ts-ignore - aria is not always defined on SVG in React TypeScript types
   'aria-hidden': (props: StyledIconProps<any>) => (props.title == null ? 'true' : undefined),
   focusable: 'false',
   role: (props: StyledIconProps<any>) => (props.title != null ? 'img' : undefined),
+  {{attrs}},
 })`
   display: inline-block;
   vertical-align: middle;
