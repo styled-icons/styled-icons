@@ -3,7 +3,6 @@
   "compilerOptions": {
     "declaration": false,
     "module": "commonjs",
-    "outDir": "./build/icons-es5",
-    "target": "es5"
+    "outDir": "./build/icons-cjs"
   }
 }

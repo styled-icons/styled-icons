@@ -178,16 +178,16 @@ const VisuallyHidden = styled.span`
 
 **NOTE:** tree shaking should work without modification using [Create React App](https://github.com/facebook/create-react-app).
 
-Tree shaking has been tested with Create React App, Rollup, and Webpack. If your bundler is unable to import the icons, additional CommonJS/ES5 bundles are available:
+Tree shaking has been tested with Create React App, Rollup, and Webpack. If your bundler is unable to import the icons, additional CommonJS bundles are available as `.cjs`:
 
 ```javascript
 import React, {Fragment} from 'react'
 
 // This will result in all Material icons being bundled
-import {Account} from 'styled-icons/material.es5'
+import {Account} from 'styled-icons/material.cjs'
 
 // This will only include the Lock icon
-import {Lock} from 'styled-icons/material/Lock.es5'
+import {Lock} from 'styled-icons/material/Lock.cjs'
 
 const App = () => (
   <Fragment>
@@ -197,7 +197,7 @@ const App = () => (
 )
 ```
 
-Be aware though that importing from the plain ES5 icon pack bundles will likely result in significantly larger bundle sizes, because unused icons will be included in the final bundle. If you are unable to configure your bundler to process the ES module bundles, you should import icons individually to avoid large bundles.
+Be aware though that importing from the CommonJS icon pack bundles will likely result in significantly larger bundle sizes, because unused icons will be included in the final bundle. If you are unable to configure your bundler to process the ES module bundles, you should import icons individually to avoid large bundles.
 
 ### TypeScript
 
