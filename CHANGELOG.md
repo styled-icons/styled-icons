@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## v2.0.0
+
 * Add [Feather](https://feathericons.com/) icon pack
 * **(breaking)** Switch all bundles to ES5, rename `.es5` bundles to `.cjs`
 
