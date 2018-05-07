@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+* Add [Feather](https://feathericons.com/) icon pack
+
 ## v1.7.0
 
 * Update FontAwesome to v5.0.12 ([changes](https://github.com/FortAwesome/Font-Awesome/blob/b60cbbecb438831419bbe83d838e33e6b7327b38/CHANGELOG.md#5012----2018-05-03))

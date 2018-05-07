@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 import * as JSSearch from 'js-search'
 
-import {faBrands, faRegular, faSolid, material, octicons} from '../..'
+import {faBrands, faRegular, faSolid, feather, material, octicons} from '../..'
 import icons from '../../manifest.json'
 import {Badges} from '../components/Badges'
 import {IconExplorer} from '../components/IconExplorer'
@@ -20,6 +20,10 @@ icons.forEach(icon => {
 
     case 'fa-solid':
       icon.icon = faSolid[icon.name]
+      break
+
+    case 'feather':
+      icon.icon = feather[icon.name]
       break
 
     case 'material':

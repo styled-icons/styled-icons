@@ -9,7 +9,20 @@ const path = require('path')
 const h2x = require('./transform/h2x')
 const svgo = require('./transform/svgo')
 
-const PACKS = ['fa-regular', 'fa-solid', 'fa-brands', 'material', 'octicons']
+const PACKS = ['fa-regular', 'fa-solid', 'fa-brands', 'feather', 'material', 'octicons']
+
+const SVG_ATTRS = [
+  'fill',
+  'fill-opacity',
+  'fill-rule',
+  'stroke',
+  'stroke-dasharray',
+  'stroke-dashoffset',
+  'stroke-linecap',
+  'stroke-linejoin',
+  'stroke-miterlimit',
+  'stroke-opacity',
+]
 
 let spinner
 
@@ -61,6 +74,13 @@ const generate = async () => {
     icon.height = state.height || icon.height
     icon.width = state.width || icon.width
     icon.viewBox = state.viewBox || `0 0 ${icon.width} ${icon.height}`
+    icon.attrs = {fill: 'currentColor'}
+
+    for (const attr of SVG_ATTRS) {
+      if (attr in state.attrs) {
+        icon.attrs[fastCase.camelize(attr)] = state.attrs[attr]
+      }
+    }
 
     // Special-case the `React` icon
     if (icon.name === 'React') icon.name = 'ReactLogo'
@@ -71,6 +91,7 @@ const generate = async () => {
       .replace(/{{svg}}/g, result)
       .replace(/{{viewBox}}/g, icon.viewBox)
       .replace(/{{width}}/g, icon.width)
+      .replace(/{{attrs}}/g, JSON.stringify(icon.attrs, null, 2).slice(2, -2))
 
     const destinationFilename = path.join(baseDir, 'typescript', icon.pack, `${icon.name}.tsx`)
     await fs.outputFile(destinationFilename, component)

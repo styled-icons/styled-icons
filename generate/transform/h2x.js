@@ -64,6 +64,11 @@ const processSVG = () => ({
         if (path.node.tagName === 'svg') {
           const attributes = Array.from(path.node.attributes)
 
+          state.attrs = attributes.reduce(
+            (attrs, attr) => ({...attrs, [attr.name]: attr.value}),
+            {},
+          )
+
           const heightAttribute = attributes.find(attr => attr.name === 'height')
           const widthAttribute = attributes.find(attr => attr.name === 'width')
           const viewBoxAttribute = attributes.find(attr => attr.name === 'viewBox')
