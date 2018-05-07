@@ -53,7 +53,7 @@ const generate = async () => {
   const template = await getTemplate()
 
   spinner.text = 'Clearing desination files...'
-  const destinationFiles = ['build', ...PACKS, 'index.d.ts', 'index.es5.js', 'index.js']
+  const destinationFiles = ['build', ...PACKS, 'index.d.ts', 'index.cjs.js', 'index.js']
   for (const destinationFile of destinationFiles) {
     await fs.remove(path.join(__dirname, '..', destinationFile))
   }
@@ -146,7 +146,7 @@ export {${PACKS.map(fastCase.camelize).join(', ')}}
 `,
   )
 
-  spinner.text = 'Building modern JavaScript...'
+  spinner.text = 'Building ESM JavaScript...'
 
   let compiler = execa('./node_modules/.bin/tsc', [
     '--project',
@@ -157,11 +157,11 @@ export {${PACKS.map(fastCase.camelize).join(', ')}}
   compiler.stderr.pipe(process.stderr)
   await compiler
 
-  spinner.text = 'Building ES5 bundles...'
+  spinner.text = 'Building CJS bundles...'
 
   compiler = execa('./node_modules/.bin/tsc', [
     '--project',
-    './tsconfig.icons.es5.json',
+    './tsconfig.icons.cjs.json',
     '--pretty',
   ])
   compiler.stdout.pipe(process.stdout)
@@ -175,14 +175,14 @@ export {${PACKS.map(fastCase.camelize).join(', ')}}
     await fs.move(path.join(baseDir, 'icons', builtFile), path.join(__dirname, '..', builtFile))
   }
 
-  const es5Files = await fg('build/icons-es5/**/*.js')
-  for (const es5File of es5Files) {
+  const cjsFiles = await fg('build/icons-cjs/**/*.js')
+  for (const cjsFile of cjsFiles) {
     const destination = path.join(
       __dirname,
       '..',
-      es5File.replace('build/icons-es5/', '').replace(/\.js$/, '.es5.js'),
+      cjsFile.replace('build/icons-cjs/', '').replace(/\.js$/, '.cjs.js'),
     )
-    await fs.move(path.join(__dirname, '..', es5File), destination)
+    await fs.move(path.join(__dirname, '..', cjsFile), destination)
   }
 
   spinner.text = 'Writing icon manifest for website...'

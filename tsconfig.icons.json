@@ -6,6 +6,6 @@
     "outDir": "./build/icons",
     "rootDir": "./build/typescript",
     "strict": false,
-    "target": "es6"
+    "target": "es5"
   }
 }
