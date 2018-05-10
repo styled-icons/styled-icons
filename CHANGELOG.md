@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## v2.1.0
+
+* Upgrade Octicons to v7.3.0 ([changes](https://github.com/primer/octicons/blob/master/CHANGELOG.md#730))
+
 ## v2.0.0
 
 * Add [Feather](https://feathericons.com/) icon pack
