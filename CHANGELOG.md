@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## v2.2.0
+
+* Upgrade FontAwesome to v5.0.13 - 68 new icons ([changes](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md#5013----2018-05-10))
+
 ## v2.1.0
 
 * Upgrade Octicons to v7.3.0 ([changes](https://github.com/primer/octicons/blob/master/CHANGELOG.md#730))
