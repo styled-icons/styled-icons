@@ -16,10 +16,6 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@fortawesome/fontawesome-common-types@^0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.1.6.tgz#3cefd6cd88a2256e1daa69b6fc9a6ab5e3c33e4a"
-
 "@fortawesome/fontawesome-common-types@^0.1.7":
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.1.7.tgz#4336c4b06d0b5608ff1215464b66fcf9f4795284"
@@ -7054,6 +7050,10 @@ promise-each@^2.2.0:
   dependencies:
     any-promise "^0.1.0"
 
+promise-timeout@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/promise-timeout/-/promise-timeout-1.3.0.tgz#d1c78dd50a607d5f0a5207410252a3a0914e1014"
+
 promise@^7.1.1:
   version "7.3.1"
   resolved "https://registry.yarnpkg.com/promise/-/promise-7.3.1.tgz#064b72602b18f90f29192b8b1bc418ffd1ebd3bf"
@@ -7979,8 +7979,8 @@ serve-static@1.13.2:
     send "0.16.2"
 
 serve@^6.4.0, serve@^6.5.5:
-  version "6.5.6"
-  resolved "https://registry.yarnpkg.com/serve/-/serve-6.5.6.tgz#579136688f80f6bf4a618ca8e8cba10dfb4d95e3"
+  version "6.5.7"
+  resolved "https://registry.yarnpkg.com/serve/-/serve-6.5.7.tgz#2b3709a3db1ef8a1e7f017d1c074b0d7e7ed18db"
   dependencies:
     args "4.0.0"
     basic-auth "2.0.0"
@@ -8002,8 +8002,9 @@ serve@^6.4.0, serve@^6.5.5:
     opn "5.3.0"
     path-is-inside "1.0.2"
     path-type "3.0.0"
+    promise-timeout "1.3.0"
     send "0.16.2"
-    update-check "1.3.2"
+    update-check "1.5.0"
 
 serviceworker-cache-polyfill@^4.0.0:
   version "4.0.0"
@@ -9018,9 +9019,9 @@ unzip-response@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/unzip-response/-/unzip-response-2.0.1.tgz#d2f0f737d16b0615e72a6935ed04214572d56f97"
 
-update-check@1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/update-check/-/update-check-1.3.2.tgz#460f9e9ab24820367f3edbeb4d4142d9936ff171"
+update-check@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/update-check/-/update-check-1.5.0.tgz#9faf2d4ff3c50bcf058df61cebf690c8b484e7bc"
   dependencies:
     registry-auth-token "3.3.2"
     registry-url "3.1.0"
