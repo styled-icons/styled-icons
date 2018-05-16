@@ -96,8 +96,8 @@
   resolved "https://registry.yarnpkg.com/@types/mkdirp/-/mkdirp-0.3.29.tgz#7f2ad7ec55f914482fc9b1ec4bb1ae6028d46066"
 
 "@types/node@*", "@types/node@^10.0.3":
-  version "10.0.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.0.9.tgz#7cb73a6ef9cf4e41e5354e114e824bfdfd96a6b4"
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.1.0.tgz#2783ee1b6c47cbd4044f4a233976c1ac5fa9e942"
 
 "@types/node@^7.0.11":
   version "7.0.63"
