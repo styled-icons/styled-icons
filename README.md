@@ -41,7 +41,7 @@ Additionally, you will need to have installed a version of `styled-components`, 
 
 ## Usage
 
-All Font Awesome (free), Material, and Octicon icons are available for preview at the [Icon Explorer](https://styled-icons.js.org).
+All Font Awesome (free), Feather, Material, and Octicon icons are available for preview at the [Icon Explorer](https://styled-icons.js.org).
 
 The entire icon packs are available via the main import and sub-imports:
 
