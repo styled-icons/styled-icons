@@ -85,7 +85,7 @@
     "number-to-words": "^1.2.3",
     "octicons": "^7.2.0",
     "ora": "^2.0.0",
-    "prettier": "^1.12.0",
+    "prettier": "^1.13.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-helmet": "^5.2.0",
