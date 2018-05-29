@@ -8029,9 +8029,9 @@ send@0.16.2:
     range-parser "~1.2.0"
     statuses "~1.4.0"
 
-serve-handler@2.3.10:
-  version "2.3.10"
-  resolved "https://registry.yarnpkg.com/serve-handler/-/serve-handler-2.3.10.tgz#d4a953d5f0ce8d1a936f91f4f182e1f6d626f273"
+serve-handler@2.3.12:
+  version "2.3.12"
+  resolved "https://registry.yarnpkg.com/serve-handler/-/serve-handler-2.3.12.tgz#7c4f402753c74a7ff33b8607130b28bc45a07222"
   dependencies:
     bytes "3.0.0"
     fast-url-parser "1.1.3"
@@ -8089,14 +8089,14 @@ serve@^6.4.0:
     update-check "1.5.1"
 
 serve@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/serve/-/serve-7.0.1.tgz#46f93e85c745ba7e79527169b9b49b0667dd4169"
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/serve/-/serve-7.1.1.tgz#1d028cfcbad60aa977c9a399b9520849416cc72f"
   dependencies:
     "@zeit/schemas" "1.1.1"
     ajv "6.5.0"
     arg "2.0.0"
     chalk "2.4.1"
-    serve-handler "2.3.10"
+    serve-handler "2.3.12"
     update-check "1.5.2"
 
 serviceworker-cache-polyfill@^4.0.0:
