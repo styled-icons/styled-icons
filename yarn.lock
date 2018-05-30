@@ -128,9 +128,9 @@
   version "0.0.32"
   resolved "https://registry.yarnpkg.com/@types/tmp/-/tmp-0.0.32.tgz#0d3cb31022f8427ea58c008af32b80da126ca4e3"
 
-"@zeit/schemas@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@zeit/schemas/-/schemas-1.1.1.tgz#728177acb96d8ea8e9ac07e0cbee3f8d0cd0fcf2"
+"@zeit/schemas@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@zeit/schemas/-/schemas-1.1.2.tgz#ac16e541311bd7bd211aad25bb525f2686f600e8"
 
 abab@^1.0.3:
   version "1.0.4"
@@ -8029,9 +8029,9 @@ send@0.16.2:
     range-parser "~1.2.0"
     statuses "~1.4.0"
 
-serve-handler@2.3.12:
-  version "2.3.12"
-  resolved "https://registry.yarnpkg.com/serve-handler/-/serve-handler-2.3.12.tgz#7c4f402753c74a7ff33b8607130b28bc45a07222"
+serve-handler@2.3.13:
+  version "2.3.13"
+  resolved "https://registry.yarnpkg.com/serve-handler/-/serve-handler-2.3.13.tgz#f897dd1d2af7003c0e7e9e84b55e3dd4ef51d6bb"
   dependencies:
     bytes "3.0.0"
     fast-url-parser "1.1.3"
@@ -8089,14 +8089,14 @@ serve@^6.4.0:
     update-check "1.5.1"
 
 serve@^7.0.1:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/serve/-/serve-7.1.1.tgz#1d028cfcbad60aa977c9a399b9520849416cc72f"
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/serve/-/serve-7.1.2.tgz#faf04375a79dd812d8ab757ef03bb6af6d27d5e2"
   dependencies:
-    "@zeit/schemas" "1.1.1"
+    "@zeit/schemas" "1.1.2"
     ajv "6.5.0"
     arg "2.0.0"
     chalk "2.4.1"
-    serve-handler "2.3.12"
+    serve-handler "2.3.13"
     update-check "1.5.2"
 
 serviceworker-cache-polyfill@^4.0.0:
