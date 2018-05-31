@@ -3691,8 +3691,8 @@ gatsby-plugin-netlify@^1.0.19:
     webpack-assets-manifest "^1.0.0"
 
 gatsby-plugin-offline@^1.0.15:
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-1.0.17.tgz#631af4cf0392ed3622eb84aa5fe5304b2bc53390"
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-1.0.18.tgz#2ee2a24d2f69fcc43a015132f07141b69295318d"
   dependencies:
     babel-runtime "^6.26.0"
     sw-precache "^5.0.0"
