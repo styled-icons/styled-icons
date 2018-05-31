@@ -3678,8 +3678,8 @@ gatsby-plugin-favicon@^2.1.1:
     favicons-webpack-plugin "0.0.7"
 
 gatsby-plugin-manifest@^1.0.20:
-  version "1.0.22"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-1.0.22.tgz#0b5088f3913d310160af759ba92bfbe819e6ad6a"
+  version "1.0.23"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-1.0.23.tgz#82d118a2adb74f02f823d9852356e5c2decf9bba"
   dependencies:
     babel-runtime "^6.26.0"
     bluebird "^3.5.0"
