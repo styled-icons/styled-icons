@@ -3727,8 +3727,8 @@ gatsby-react-router-scroll@^1.0.17:
     warning "^3.0.0"
 
 gatsby@^1.9.247:
-  version "1.9.266"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.266.tgz#73b6a1d50effef0d4036dc4a5c3c020059dd276f"
+  version "1.9.267"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.267.tgz#7d28724f355393827cdec18fb8245012badd0d8f"
   dependencies:
     async "^2.1.2"
     babel-code-frame "^6.22.0"
