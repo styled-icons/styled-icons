@@ -8082,8 +8082,8 @@ serve@^6.4.0:
     update-check "1.5.1"
 
 serve@^7.0.1:
-  version "7.1.5"
-  resolved "https://registry.yarnpkg.com/serve/-/serve-7.1.5.tgz#503eb3d5d0d4b0243474444db0077f69415e1b40"
+  version "7.1.6"
+  resolved "https://registry.yarnpkg.com/serve/-/serve-7.1.6.tgz#67b314ec5a69ca93c3a89bd9e033cb09d63db0cd"
   dependencies:
     "@zeit/schemas" "1.1.2"
     ajv "6.5.0"
