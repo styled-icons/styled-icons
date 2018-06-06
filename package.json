@@ -90,7 +90,7 @@
     "react-dom": "^16.3.2",
     "react-helmet": "^5.2.0",
     "react-virtualized": "^9.18.5",
-    "serve": "^7.0.1",
+    "serve": "^8.1.0",
     "styled-components": "^3.2.5",
     "svgo": "^1.0.5",
     "typescript": "^2.8.1"
