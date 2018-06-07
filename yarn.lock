@@ -8088,8 +8088,8 @@ serve@^6.4.0:
     update-check "1.5.1"
 
 serve@^8.1.0:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/serve/-/serve-8.1.0.tgz#c63adf76431503eddb5c40111e7e19765bf0e248"
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/serve/-/serve-8.1.1.tgz#21bf75ffc967c60b8e4c69e81bb82c476543150f"
   dependencies:
     "@zeit/schemas" "1.2.0"
     ajv "6.5.0"
