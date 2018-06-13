@@ -7407,8 +7407,8 @@ react@^15.6.0:
     prop-types "^15.5.10"
 
 react@^16.0.0, react@^16.3.2:
-  version "16.4.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.4.0.tgz#402c2db83335336fba1962c08b98c6272617d585"
+  version "16.4.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.4.1.tgz#de51ba5764b5dbcd1f9079037b862bd26b82fe32"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
