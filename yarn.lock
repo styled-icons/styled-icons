@@ -8043,9 +8043,9 @@ send@0.16.2:
     range-parser "~1.2.0"
     statuses "~1.4.0"
 
-serve-handler@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/serve-handler/-/serve-handler-3.2.0.tgz#c94015abf09471ece634c32d221f4b0f36500f0b"
+serve-handler@3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/serve-handler/-/serve-handler-3.2.1.tgz#522f1df51172cadbb00409bda196565a8c73ba64"
   dependencies:
     bytes "3.0.0"
     content-disposition "0.5.2"
@@ -8104,15 +8104,17 @@ serve@^6.4.0:
     send "0.16.2"
     update-check "1.5.1"
 
-serve@^8.1.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/serve/-/serve-8.2.0.tgz#508a47bdaa40b8f4d2648470f3e0f83713cf6ab1"
+serve@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/serve/-/serve-9.0.0.tgz#5a485aaf4e24ab4bffc65eaca134ea19e36824fc"
   dependencies:
     "@zeit/schemas" "1.2.0"
     ajv "6.5.1"
     arg "2.0.0"
+    boxen "1.3.0"
     chalk "2.4.1"
-    serve-handler "3.2.0"
+    clipboardy "1.2.3"
+    serve-handler "3.2.1"
     update-check "1.5.2"
 
 serviceworker-cache-polyfill@^4.0.0:
