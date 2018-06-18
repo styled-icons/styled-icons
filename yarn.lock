@@ -8105,8 +8105,8 @@ serve@^6.4.0:
     update-check "1.5.1"
 
 serve@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/serve/-/serve-9.0.0.tgz#5a485aaf4e24ab4bffc65eaca134ea19e36824fc"
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/serve/-/serve-9.1.0.tgz#5b5d80d0934bc710bd97035475fad585415437af"
   dependencies:
     "@zeit/schemas" "1.2.0"
     ajv "6.5.1"
