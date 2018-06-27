@@ -19,7 +19,7 @@ export const {{name}} = styled.svg.attrs({
   {{attrs}},
 })`
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: {{verticalAlign}};
   overflow: hidden;
   ${(props: StyledIconProps<any>) => props.css};
 ` as StyledIcon

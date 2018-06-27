@@ -86,12 +86,13 @@ const generate = async () => {
     if (icon.name === 'React') icon.name = 'ReactLogo'
 
     const component = template
+      .replace(/{{attrs}}/g, JSON.stringify(icon.attrs, null, 2).slice(2, -2))
       .replace(/{{height}}/g, icon.height)
       .replace(/{{name}}/g, icon.name)
       .replace(/{{svg}}/g, result)
+      .replace(/{{verticalAlign}}/g, icon.verticalAlign || 'middle')
       .replace(/{{viewBox}}/g, icon.viewBox)
       .replace(/{{width}}/g, icon.width)
-      .replace(/{{attrs}}/g, JSON.stringify(icon.attrs, null, 2).slice(2, -2))
 
     const destinationFilename = path.join(baseDir, 'typescript', icon.pack, `${icon.name}.tsx`)
     await fs.outputFile(destinationFilename, component)
