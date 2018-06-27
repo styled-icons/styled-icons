@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## v2.3.0
+
 - Set `vertical-align` of FontAwesome icons to `-.125em` to match FontAwesome styles
 
 ## v2.2.0
