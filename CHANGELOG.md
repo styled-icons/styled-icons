@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Set `vertical-align` of FontAwesome icons to `-.125em` to match FontAwesome styles
+
 ## v2.2.0
 
 - Upgrade FontAwesome to v5.0.13 - 68 new icons ([changes](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md#5013----2018-05-10))

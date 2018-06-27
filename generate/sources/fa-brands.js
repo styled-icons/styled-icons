@@ -8,5 +8,6 @@ module.exports = async () =>
       originalName: icon.iconName,
       source: icon.html,
       pack: 'fa-brands',
+      verticalAlign: '-.125em',
     }
   })
