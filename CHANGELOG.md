@@ -4,66 +4,66 @@
 
 ## v2.2.0
 
-* Upgrade FontAwesome to v5.0.13 - 68 new icons ([changes](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md#5013----2018-05-10))
+- Upgrade FontAwesome to v5.0.13 - 68 new icons ([changes](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md#5013----2018-05-10))
 
 ## v2.1.0
 
-* Upgrade Octicons to v7.3.0 ([changes](https://github.com/primer/octicons/blob/master/CHANGELOG.md#730))
+- Upgrade Octicons to v7.3.0 ([changes](https://github.com/primer/octicons/blob/master/CHANGELOG.md#730))
 
 ## v2.0.0
 
-* Add [Feather](https://feathericons.com/) icon pack
-* **(breaking)** Switch all bundles to ES5, rename `.es5` bundles to `.cjs`
+- Add [Feather](https://feathericons.com/) icon pack
+- **(breaking)** Switch all bundles to ES5, rename `.es5` bundles to `.cjs`
 
 ## v1.7.0
 
-* Update FontAwesome to v5.0.12 ([changes](https://github.com/FortAwesome/Font-Awesome/blob/b60cbbecb438831419bbe83d838e33e6b7327b38/CHANGELOG.md#5012----2018-05-03))
+- Update FontAwesome to v5.0.12 ([changes](https://github.com/FortAwesome/Font-Awesome/blob/b60cbbecb438831419bbe83d838e33e6b7327b38/CHANGELOG.md#5012----2018-05-03))
 
 ## v1.6.0
 
-* Add `focusable="false"` for accessibility, adjust default display CSS
-* Default the `fill` prop to `currentColor` (allows setting the color of the icon by the CSS `color`)
+- Add `focusable="false"` for accessibility, adjust default display CSS
+- Default the `fill` prop to `currentColor` (allows setting the color of the icon by the CSS `color`)
 
 ## v1.5.0
 
-* Upgrade FontAwesome to v5.0.11
-  * New user icons
-  * Creative Commons symbols
-  * Top new brand icons: R, Ebay, Mastodon, Researchgate, Keybase, Teamspeak
+- Upgrade FontAwesome to v5.0.11
+  - New user icons
+  - Creative Commons symbols
+  - Top new brand icons: R, Ebay, Mastodon, Researchgate, Keybase, Teamspeak
 
 ## v1.4.0
 
-* Improve accessibility with `title` prop
+- Improve accessibility with `title` prop
 
 ## v1.3.0
 
-* Add `css` prop for passing additional CSS
-* Fix `module` and `jsnext:main` file extensions in `package.json`
+- Add `css` prop for passing additional CSS
+- Fix `module` and `jsnext:main` file extensions in `package.json`
 
 ## v1.2.0
 
-* Support automatic tree shaking ([#8](https://github.com/jacobwgillespie/styled-icons/pull/8))
+- Support automatic tree shaking ([#8](https://github.com/jacobwgillespie/styled-icons/pull/8))
 
 ## v1.1.1
 
-* Fix npm bundle (missing Font Awesome icons)
+- Fix npm bundle (missing Font Awesome icons)
 
 ## v1.1.0
 
-* Add Font Awesome (free) icon packs
+- Add Font Awesome (free) icon packs
 
 ## v1.0.0
 
-* First "real" release
-* Reworked TypeScript types
-* Generated files target ES5 for browser support
-* Updated website
-* Publish to NPM from Travis CI
+- First "real" release
+- Reworked TypeScript types
+- Generated files target ES5 for browser support
+- Updated website
+- Publish to NPM from Travis CI
 
 ## v0.2.0
 
-* Test deployment from Travis CI to NPM
+- Test deployment from Travis CI to NPM
 
 ## v0.1.0
 
-* Initial release with Material and Octocon icons
+- Initial release with Material and Octocon icons
