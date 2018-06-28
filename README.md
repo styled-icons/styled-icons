@@ -112,12 +112,13 @@ import {octicons} from 'styled-icons'
 
 ### Styled Components
 
-All icons are exported as [Styled Components](https://www.styled-components.com/), which means it is possible to extend their styles or otherwise utilize the Styled Components API:
+All icons are exported as [Styled Components](https://www.styled-components.com/), which means it is possible to utilize the Styled Components API:
 
 ```javascript
+import styled from 'styled-components'
 import {Lock} from 'styled-icons/material'
 
-export const RedLock = Lock.extend`
+export const RedLock = styled(Lock)`
   color: red;
 
   font-weight: ${props => (props.important ? 'bold' : 'normal')};
@@ -204,6 +205,7 @@ Be aware though that importing from the CommonJS icon pack bundles will likely r
 The icons of `styled-icons` are built using TypeScript and export type definitions. By default, the `theme` prop is typed as `any`, but if you would like to override the theme interface, this is possible via the `StyledIcon` type:
 
 ```typescript
+import styled from 'styled-components'
 import {StyledIcon} from 'styled-icons/material'
 import {Lock} from 'styled-icons/material'
 
@@ -211,7 +213,7 @@ interface ThemeInterface {
   lockColor: string
 }
 
-export const ThemedLock: StyledIcon<ThemeInterface> = Lock.extend`
+export const ThemedLock: StyledIcon<ThemeInterface> = styled(Lock)`
   color: ${props => props.theme.lockColor};
 `
 ```
