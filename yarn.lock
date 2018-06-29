@@ -119,8 +119,8 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@^16.3.11":
-  version "16.4.4"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.4.4.tgz#ffaa339e41346a7c65ddc914779ae43fa522a39a"
+  version "16.4.5"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.4.5.tgz#98a00fdd2c512ed5d7399d3f2660ce9d6152bce6"
   dependencies:
     csstype "^2.2.0"
 
