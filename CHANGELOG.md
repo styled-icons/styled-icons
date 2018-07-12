@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## v2.3.1
+
 - Fix issue where `.cjs` entrypoints required non-CommonJS files
 
 ## v2.3.0
