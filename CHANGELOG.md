@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Fix issue where `.cjs` entrypoints required non-CommonJS files
+
 ## v2.3.0
 
 - Set `vertical-align` of FontAwesome icons to `-.125em` to match FontAwesome styles

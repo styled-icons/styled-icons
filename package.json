@@ -46,7 +46,7 @@
   "scripts": {
     "build": "node generate/generate.js",
     "build-website": "gatsby build",
-    "clean": "rm -rf build fa-brands fa-regular fa-solid material octicons public manifest.json index.d.ts index.cjs.js index.js",
+    "clean": "rm -rf build fa-brands fa-regular fa-solid feather material octicons public manifest.json index.d.ts index.cjs.js index.js",
     "dev": "gatsby develop",
     "serve": "serve public"
   },

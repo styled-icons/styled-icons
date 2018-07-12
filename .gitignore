@@ -14,5 +14,6 @@ octicons/
 public/
 /index.d.ts
 /index.cjs.js
+/index.cjs.d.ts
 /index.js
 manifest.json
