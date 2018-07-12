@@ -6118,8 +6118,8 @@ object.values@^1.0.4:
     has "^1.0.1"
 
 octicons@^7.2.0:
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/octicons/-/octicons-7.3.0.tgz#ad2612b483cd4da4f655384294787cb2967beb17"
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/octicons/-/octicons-7.4.0.tgz#0be0082ed75b81e680800ef978bf47078b670091"
   dependencies:
     object-assign "^4.1.1"
 
