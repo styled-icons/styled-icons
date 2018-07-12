@@ -53,7 +53,14 @@ const generate = async () => {
   const template = await getTemplate()
 
   spinner.text = 'Clearing desination files...'
-  const destinationFiles = ['build', ...PACKS, 'index.d.ts', 'index.cjs.js', 'index.js']
+  const destinationFiles = [
+    'build',
+    ...PACKS,
+    'index.d.ts',
+    'index.cjs.d.ts',
+    'index.cjs.js',
+    'index.js',
+  ]
   for (const destinationFile of destinationFiles) {
     await fs.remove(path.join(__dirname, '..', destinationFile))
   }
@@ -85,51 +92,58 @@ const generate = async () => {
     // Special-case the `React` icon
     if (icon.name === 'React') icon.name = 'ReactLogo'
 
-    const component = template
-      .replace(/{{attrs}}/g, JSON.stringify(icon.attrs, null, 2).slice(2, -2))
-      .replace(/{{height}}/g, icon.height)
-      .replace(/{{name}}/g, icon.name)
-      .replace(/{{svg}}/g, result)
-      .replace(/{{verticalAlign}}/g, icon.verticalAlign || 'middle')
-      .replace(/{{viewBox}}/g, icon.viewBox)
-      .replace(/{{width}}/g, icon.width)
+    const component = (cjs = false) =>
+      template
+        .replace(/{{attrs}}/g, JSON.stringify(icon.attrs, null, 2).slice(2, -2))
+        .replace(/{{height}}/g, icon.height)
+        .replace(/{{cjs}}/g, cjs ? '/index.cjs' : '')
+        .replace(/{{name}}/g, icon.name)
+        .replace(/{{svg}}/g, result)
+        .replace(/{{verticalAlign}}/g, icon.verticalAlign || 'middle')
+        .replace(/{{viewBox}}/g, icon.viewBox)
+        .replace(/{{width}}/g, icon.width)
 
-    const destinationFilename = path.join(baseDir, 'typescript', icon.pack, `${icon.name}.tsx`)
-    await fs.outputFile(destinationFilename, component)
+    const destinationPath = path.join(baseDir, 'typescript', icon.pack)
+    await fs.outputFile(path.join(destinationPath, `${icon.name}.tsx`), component())
+    await fs.outputFile(path.join(destinationPath, `${icon.name}.cjs.tsx`), component(true))
 
     spinner.text = `[${++builtIcons} / ${totalIcons}] Built ${icon.pack}/${icon.name}...`
   }
 
   spinner.text = 'Writing index files...'
 
-  for (const iconPack of PACKS) {
-    const seenNames = new Set()
+  const writeIndexFiles = async (cjs = false) => {
+    for (const iconPack of PACKS) {
+      const seenNames = new Set()
 
-    const packIcons = icons.filter(({pack}) => pack === iconPack)
-    await fs.outputFile(
-      path.join(baseDir, 'typescript', iconPack, 'index.ts'),
+      const packIcons = icons.filter(({pack}) => pack === iconPack)
+      await fs.outputFile(
+        path.join(baseDir, 'typescript', iconPack, cjs ? 'index.cjs.ts' : 'index.ts'),
 
-      packIcons
-        .map(({name}) => {
-          // The Material icon pack has one icon incorrectly in the pack twice
-          const seen = seenNames.has(name)
-          seenNames.add(name)
-          return seen ? null : `export {${name}} from './${name}'`
-        })
-        .filter(lines => lines)
-        .join('\n') +
-        `
+        packIcons
+          .map(({name}) => {
+            // The Material icon pack has one icon incorrectly in the pack twice
+            const seen = seenNames.has(name)
+            seenNames.add(name)
+            return seen ? null : `export {${name}} from './${name}${cjs ? '.cjs' : ''}'`
+          })
+          .filter(lines => lines)
+          .join('\n') +
+          `
 
-export {StyledIcon, StyledIconProps} from '..'
+export {StyledIcon, StyledIconProps} from '..${cjs ? '/index.cjs' : ''}'
 `,
-    )
-  }
+      )
+    }
 
-  await fs.writeFileSync(
-    path.join(baseDir, 'typescript', 'index.ts'),
-    `import {StyledComponentClass, Interpolation, ThemedStyledProps} from 'styled-components'
+    await fs.writeFileSync(
+      path.join(baseDir, 'typescript', cjs ? 'index.cjs.ts' : 'index.ts'),
+      `import {StyledComponentClass, Interpolation, ThemedStyledProps} from 'styled-components'
 
-${PACKS.map((pack, idx) => `import * as ${fastCase.camelize(pack)} from './${pack}'`).join('\n')}
+${PACKS.map(
+        (pack, idx) =>
+          `import * as ${fastCase.camelize(pack)} from './${pack}${cjs ? '/index.cjs' : ''}'`,
+      ).join('\n')}
 
 export interface AriaAttributes {
   'aria-hidden'?: string
@@ -145,7 +159,11 @@ export interface StyledIcon<T = any> extends StyledComponentClass<StyledIconProp
 
 export {${PACKS.map(fastCase.camelize).join(', ')}}
 `,
-  )
+    )
+  }
+
+  await writeIndexFiles()
+  await writeIndexFiles(true)
 
   spinner.text = 'Building ESM JavaScript...'
 
@@ -170,20 +188,16 @@ export {${PACKS.map(fastCase.camelize).join(', ')}}
   await compiler
 
   spinner.text = 'Copying files to destination...'
-  const builtFiles = [...PACKS, 'index.d.ts', 'index.js']
+  const builtFiles = [...PACKS, 'index.d.ts', 'index.cjs.d.ts', 'index.js']
   for (const builtFile of builtFiles) {
     await fs.remove(path.join(__dirname, '..', builtFile))
     await fs.move(path.join(baseDir, 'icons', builtFile), path.join(__dirname, '..', builtFile))
   }
 
-  const cjsFiles = await fg('build/icons-cjs/**/*.js')
+  const cjsFiles = await fg('build/icons-cjs/**/*.cjs.js')
   for (const cjsFile of cjsFiles) {
-    const destination = path.join(
-      __dirname,
-      '..',
-      cjsFile.replace('build/icons-cjs/', '').replace(/\.js$/, '.cjs.js'),
-    )
-    await fs.move(path.join(__dirname, '..', cjsFile), destination)
+    const destination = path.join(__dirname, '..', cjsFile.replace('build/icons-cjs/', ''))
+    await fs.move(path.join(__dirname, '..', cjsFile), destination, {overwrite: true})
   }
 
   spinner.text = 'Writing icon manifest for website...'
