@@ -4077,11 +4077,11 @@ h2x-parse@^0.1.0:
   dependencies:
     jsdom "11.1.0"
 
-h2x-plugin-jsx@^0.1.9:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/h2x-plugin-jsx/-/h2x-plugin-jsx-0.1.9.tgz#2ef41f4da1e2c92680fac3425fcce63696107f11"
+h2x-plugin-jsx@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/h2x-plugin-jsx/-/h2x-plugin-jsx-1.0.0.tgz#9307cc58d75bd241f6c25aef152501fda2bdf43d"
   dependencies:
-    h2x-types "^0.1.0"
+    h2x-types "^1.0.0"
 
 h2x-traverse@^0.1.9:
   version "0.1.9"
@@ -4092,6 +4092,10 @@ h2x-traverse@^0.1.9:
 h2x-types@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/h2x-types/-/h2x-types-0.1.0.tgz#0528342cd63631ec147f98ffa7a25279b5bd0f1f"
+
+h2x-types@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/h2x-types/-/h2x-types-1.0.0.tgz#4822816ffddf51e4a383aa00594770e8ce230d1f"
 
 har-schema@^2.0.0:
   version "2.0.0"
