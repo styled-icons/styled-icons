@@ -3604,17 +3604,7 @@ gatsby-cli@^1.1.58:
     yargs "^11.1.0"
     yurnalist "^0.2.1"
 
-gatsby-link@^1.6.40:
-  version "1.6.45"
-  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-1.6.45.tgz#6a28d377cd9eee4bf5454be5a9292550b5d1d929"
-  dependencies:
-    "@types/history" "^4.6.2"
-    "@types/react-router-dom" "^4.2.2"
-    babel-runtime "^6.26.0"
-    prop-types "^15.5.8"
-    ric "^1.3.0"
-
-gatsby-link@^1.6.46:
+gatsby-link@^1.6.40, gatsby-link@^1.6.46:
   version "1.6.46"
   resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-1.6.46.tgz#1f9f6bd7a4d448a856c2035e54f2263d7933f4fd"
   dependencies:
