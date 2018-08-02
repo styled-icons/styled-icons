@@ -6029,9 +6029,9 @@ object.values@^1.0.4:
     function-bind "^1.1.0"
     has "^1.0.1"
 
-octicons@^7.2.0:
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/octicons/-/octicons-7.3.0.tgz#ad2612b483cd4da4f655384294787cb2967beb17"
+octicons@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/octicons/-/octicons-8.0.0.tgz#4f8263f984a1b265d507f7b9851e249d87593b20"
   dependencies:
     object-assign "^4.1.1"
 
