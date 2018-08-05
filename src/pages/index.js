@@ -49,7 +49,9 @@ const IndexPage = () => (
     <Badges />
 
     <p>
-      Import icons from the <a href="https://fontawesome.com/">Font Awesome (free)</a>,{' '}
+      Import icons from the
+      <a href="https://feathericons.com/">Feather</a>,{' '}
+      <a href="https://fontawesome.com/">Font Awesome (free)</a>,{' '}
       <a href="https://material.io/icons/">Material</a>, or{' '}
       <a href="https://octicons.github.com/">Octicons</a> icon packs as{' '}
       <a href="https://www.styled-components.com/">Styled Components</a>
