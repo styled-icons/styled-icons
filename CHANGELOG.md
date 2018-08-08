@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Disable `convertShapeToPath` transformation that simplified icon SVGs as it was breaking certain icons
+
 ## v2.3.1
 
 - Fix issue where `.cjs` entrypoints required non-CommonJS files
