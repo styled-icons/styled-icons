@@ -32,6 +32,7 @@ const svgoOptions = {
     {removeScriptElement: true},
     {removeTitle: true},
     {convertStyleToAttrs: false},
+    {convertShapeToPath: false},
     {removeStyleElement: true},
     {removeDimensions: true},
     {removeViewBox: false},
