@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## v2.3.2
+
 - Disable `convertShapeToPath` transformation that simplified icon SVGs as it was breaking certain icons
 
 ## v2.3.1
