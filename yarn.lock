@@ -135,9 +135,9 @@
   version "0.0.32"
   resolved "https://registry.yarnpkg.com/@types/tmp/-/tmp-0.0.32.tgz#0d3cb31022f8427ea58c008af32b80da126ca4e3"
 
-"@zeit/schemas@1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@zeit/schemas/-/schemas-1.7.0.tgz#84624e270a0d420714be7279ffabc7e1745afc1a"
+"@zeit/schemas@2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@zeit/schemas/-/schemas-2.1.1.tgz#bca9d84df177c85f2d2a7dad37512f384761b23d"
 
 abab@^1.0.3:
   version "1.0.4"
@@ -7173,7 +7173,7 @@ randomfill@^1.0.3:
     randombytes "^2.0.5"
     safe-buffer "^5.1.0"
 
-range-parser@^1.0.3, range-parser@~1.2.0:
+range-parser@1.2.0, range-parser@^1.0.3, range-parser@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.0.tgz#f49be6b487894ddc40dcc94a322f611092e00d5e"
 
@@ -7952,9 +7952,9 @@ send@0.16.2:
     range-parser "~1.2.0"
     statuses "~1.4.0"
 
-serve-handler@3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/serve-handler/-/serve-handler-3.6.0.tgz#f4167c06d0a26c38ed753418230ed43a59adf9cb"
+serve-handler@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/serve-handler/-/serve-handler-4.0.0.tgz#cf2a40f27f7a5ec29cbbd1732fcd6a16afdc0c41"
   dependencies:
     bytes "3.0.0"
     content-disposition "0.5.2"
@@ -7964,6 +7964,7 @@ serve-handler@3.6.0:
     minimatch "3.0.4"
     path-is-inside "1.0.2"
     path-to-regexp "2.2.1"
+    range-parser "1.2.0"
 
 serve-index@^1.7.2:
   version "1.9.1"
@@ -7987,16 +7988,16 @@ serve-static@1.13.2:
     send "0.16.2"
 
 serve@^9.0.0, serve@^9.2.0:
-  version "9.4.2"
-  resolved "https://registry.yarnpkg.com/serve/-/serve-9.4.2.tgz#943a1526f424de74ac874aea449d9f9c74ffad2d"
+  version "9.6.0"
+  resolved "https://registry.yarnpkg.com/serve/-/serve-9.6.0.tgz#303f198c03ad2d47eb90972447c7bd5878a4c7ac"
   dependencies:
-    "@zeit/schemas" "1.7.0"
+    "@zeit/schemas" "2.1.1"
     ajv "6.5.2"
     arg "2.0.0"
     boxen "1.3.0"
     chalk "2.4.1"
     clipboardy "1.2.3"
-    serve-handler "3.6.0"
+    serve-handler "4.0.0"
     update-check "1.5.2"
 
 serviceworker-cache-polyfill@^4.0.0:
