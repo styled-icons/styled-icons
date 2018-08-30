@@ -64,7 +64,7 @@
     "babel-plugin-styled-components": "^1.5.1",
     "caniuse-db": "^1.0.30000652",
     "copy-to-clipboard": "^3.0.8",
-    "execa": "^0.11.0",
+    "execa": "^1.0.0",
     "fast-case": "^1.1.0",
     "fast-glob": "^2.2.0",
     "feather-icons": "^4.7.0",
