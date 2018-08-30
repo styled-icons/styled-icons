@@ -6052,8 +6052,8 @@ object.values@^1.0.4:
     has "^1.0.1"
 
 octicons@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/octicons/-/octicons-8.0.0.tgz#4f8263f984a1b265d507f7b9851e249d87593b20"
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/octicons/-/octicons-8.1.0.tgz#e609066618080868f9aa810c71e7692acf9063c6"
   dependencies:
     object-assign "^4.1.1"
 
