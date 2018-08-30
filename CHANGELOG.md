@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## v2.4.0
+
+- Upgrade Octicons to v8.1.0 (new `arrow-both` icon)
+
 ## v2.3.2
 
 - Disable `convertShapeToPath` transformation that simplified icon SVGs as it was breaking certain icons
