@@ -3,19 +3,19 @@ import styled from 'styled-components'
 
 import {StyledIcon, StyledIconProps} from '..{{cjs}}'
 
-export const {{name}} = styled.svg.attrs({
-  children: (props: StyledIconProps<any>) => (
+export const {{name}} = styled.svg.attrs<StyledIconProps>({
+  children: props => (
     props.title != null
       ? [<title key="{{name}}-title">{props.title}</title>, {{svg}}]
       : [{{svg}}]
   ),
   viewBox: '{{viewBox}}',
-  height: (props: StyledIconProps<any>) => (props.height !== undefined ? props.height : props.size),
-  width: (props: StyledIconProps<any>) => (props.width !== undefined ? props.width : props.size),
+  height: props => (props.height !== undefined ? props.height : props.size),
+  width: props => (props.width !== undefined ? props.width : props.size),
   // @ts-ignore - aria is not always defined on SVG in React TypeScript types
-  'aria-hidden': (props: StyledIconProps<any>) => (props.title == null ? 'true' : undefined),
+  'aria-hidden': props => (props.title == null ? 'true' : undefined),
   focusable: 'false',
-  role: (props: StyledIconProps<any>) => (props.title != null ? 'img' : undefined),
+  role: props => (props.title != null ? 'img' : undefined),
   {{attrs}},
 })`
   display: inline-block;
