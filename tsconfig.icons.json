@@ -7,5 +7,6 @@
     "rootDir": "./build/typescript",
     "strict": false,
     "target": "es5"
-  }
+  },
+  "exclude": ["./build/typescript/**/*.cjs.ts", "./build/typescript/**/*.cjs.tsx"]
 }

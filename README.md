@@ -14,16 +14,16 @@
 
 ### Table of Contents
 
-* [Installation](#installation)
-* [Usage](#usage)
-  * [Props](#props)
-  * [Icon Dimensions](#icon-dimensions)
-  * [Styled Components](#styled-components)
-  * [Accessibility](#accessibility)
-  * [Tree Shaking](#tree-shaking)
-  * [TypeScript](#typescript)
-* [Contributing](#contributing)
-* [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Props](#props)
+  - [Icon Dimensions](#icon-dimensions)
+  - [Styled Components](#styled-components)
+  - [Accessibility](#accessibility)
+  - [Tree Shaking](#tree-shaking)
+  - [TypeScript](#typescript)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Installation
 
@@ -74,11 +74,10 @@ const App = () => (
 
 Styled Icons accept all the valid props of an `<svg />` element, in addition to the following custom props:
 
-| Prop    | Required | Type                                                                                            | Description                                                                                                                                   |
-| ------- | -------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| `size`  | optional | string, number                                                                                  | This is a convenience for setting both `width` and `height` to the same value                                                                 |
-| `title` | optional | string                                                                                          | This sets the icon title and enables the standalone icon accessability mode. See [accessibility](#accessibility) below for additional details |
-| `css`   | optional | string, function, [css tagged template literal](https://www.styled-components.com/docs/api#css) | This prop accepts additional CSS to attach to the icon. It accepts the CSS as a string or as any valid Style Components interpolation         |
+| Prop    | Required | Type           | Description                                                                                                                                   |
+| ------- | -------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| `size`  | optional | string, number | This is a convenience for setting both `width` and `height` to the same value                                                                 |
+| `title` | optional | string         | This sets the icon title and enables the standalone icon accessability mode. See [accessibility](#accessibility) below for additional details |
 
 **Example**
 
@@ -86,7 +85,7 @@ Styled Icons accept all the valid props of an `<svg />` element, in addition to 
 import React from 'react'
 import {Lock} from 'styled-icons/material'
 
-const App = () => <Lock size="48" title="Unlock account" css="color: red;" />
+const App = () => <Lock size="48" title="Unlock account" />
 ```
 
 ### Icon Dimensions
