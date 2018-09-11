@@ -138,24 +138,20 @@ export {StyledIcon, StyledIconProps} from '..${cjs ? '/index.cjs' : ''}'
 
     await fs.writeFileSync(
       path.join(baseDir, 'typescript', cjs ? 'index.cjs.ts' : 'index.ts'),
-      `import {StyledComponentClass, Interpolation, ThemedStyledProps} from 'styled-components'
+      `import {StyledComponentClass} from 'styled-components'
 
 ${PACKS.map(
         (pack, idx) =>
           `import * as ${fastCase.camelize(pack)} from './${pack}${cjs ? '/index.cjs' : ''}'`,
       ).join('\n')}
 
-export interface AriaAttributes {
+export interface StyledIconProps extends React.SVGProps<SVGSVGElement> {
   'aria-hidden'?: string
-}
-
-export interface StyledIconProps<T> extends React.SVGProps<SVGSVGElement>, AriaAttributes {
-  css?: Interpolation<ThemedStyledProps<StyledIconProps<T>, T>>
   size?: number | string
   title?: string | null
 }
 
-export interface StyledIcon<T = any> extends StyledComponentClass<StyledIconProps<T>, T> {}
+export interface StyledIcon<T = any> extends StyledComponentClass<StyledIconProps, T> {}
 
 export {${PACKS.map(fastCase.camelize).join(', ')}}
 `,

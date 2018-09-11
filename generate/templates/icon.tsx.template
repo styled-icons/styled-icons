@@ -21,7 +21,6 @@ export const {{name}} = styled.svg.attrs({
   display: inline-block;
   vertical-align: {{verticalAlign}};
   overflow: hidden;
-  ${(props: StyledIconProps<any>) => props.css};
 ` as StyledIcon
 
 {{name}}.displayName = '{{name}}'
