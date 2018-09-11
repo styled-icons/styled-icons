@@ -49,8 +49,7 @@ const IndexPage = () => (
     <Badges />
 
     <p>
-      Import icons from the{' '}
-      <a href="https://feathericons.com/">Feather</a>,{' '}
+      Import icons from the <a href="https://feathericons.com/">Feather</a>,{' '}
       <a href="https://fontawesome.com/">Font Awesome (free)</a>,{' '}
       <a href="https://material.io/icons/">Material</a>, or{' '}
       <a href="https://octicons.github.com/">Octicons</a> icon packs as{' '}
@@ -59,9 +58,10 @@ const IndexPage = () => (
 
     <code className="demo">
       {`
+import styled from 'styled-components'
 import {Zap} from 'styled-icons/octicons/Zap'
 
-const RedZap = Zap.extend\`
+const RedZap = styled(Zap)\`
   color: red;
 \`
 
