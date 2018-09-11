@@ -1,5 +1,5 @@
-const fontawesome = require('@fortawesome/fontawesome').default
-const brands = require('@fortawesome/fontawesome-free-brands').default
+const fontawesome = require('@fortawesome/fontawesome-svg-core')
+const brands = require('@fortawesome/free-brands-svg-icons').fab
 
 module.exports = async () =>
   Object.keys(brands).map(iconKey => {

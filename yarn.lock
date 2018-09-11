@@ -2,33 +2,33 @@
 # yarn lockfile v1
 
 
-"@fortawesome/fontawesome-common-types@^0.1.7":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.1.7.tgz#4336c4b06d0b5608ff1215464b66fcf9f4795284"
+"@fortawesome/fontawesome-common-types@^0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.4.tgz#7c560ff732c6c7c7c179ae25227ce5449e6f6d65"
 
-"@fortawesome/fontawesome-free-brands@^5.0.10":
-  version "5.0.13"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free-brands/-/fontawesome-free-brands-5.0.13.tgz#4d15ff4e1e862d5e4a4df3654f8e8acbd47e9c09"
+"@fortawesome/fontawesome-svg-core@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.4.tgz#2e40c65e66c7ad5aabc179a2d7c5827b1599905c"
   dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.1.7"
+    "@fortawesome/fontawesome-common-types" "^0.2.4"
 
-"@fortawesome/fontawesome-free-regular@^5.0.10":
-  version "5.0.13"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free-regular/-/fontawesome-free-regular-5.0.13.tgz#eb78c30184e3f456a423a1dcfa0f682f7b50de4a"
+"@fortawesome/free-brands-svg-icons@^5.3.1":
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.3.1.tgz#a26d3f5036c115477abdc957b1ad48eb389f69f3"
   dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.1.7"
+    "@fortawesome/fontawesome-common-types" "^0.2.4"
 
-"@fortawesome/fontawesome-free-solid@^5.0.10":
-  version "5.0.13"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free-solid/-/fontawesome-free-solid-5.0.13.tgz#24b61aaf471a9d34a5364b052d64a516285ba894"
+"@fortawesome/free-regular-svg-icons@^5.3.1":
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-5.3.1.tgz#edd019dc61a991c7e3cb9d862a6efd971675e3ba"
   dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.1.7"
+    "@fortawesome/fontawesome-common-types" "^0.2.4"
 
-"@fortawesome/fontawesome@^1.1.5":
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome/-/fontawesome-1.1.8.tgz#75fe66a60f95508160bb16bd781ad7d89b280f5b"
+"@fortawesome/free-solid-svg-icons@^5.3.1":
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.3.1.tgz#9660bece3c4850d58f1653e26c1693487ff74b08"
   dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.1.7"
+    "@fortawesome/fontawesome-common-types" "^0.2.4"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -2420,7 +2420,7 @@ debug@^3.1.0, debug@~3.1.0:
 
 debug@~2.2.0:
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-2.2.0.tgz#f87057e995b1a1f6ae6a4960664137bc56f039da"
+  resolved "http://registry.npmjs.org/debug/-/debug-2.2.0.tgz#f87057e995b1a1f6ae6a4960664137bc56f039da"
   dependencies:
     ms "0.7.1"
 
@@ -3167,13 +3167,13 @@ extsprintf@^1.2.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
 
-fast-case@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/fast-case/-/fast-case-1.1.0.tgz#be69e8869ffea2454ee5d56908a038b568c8c34e"
+fast-case@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/fast-case/-/fast-case-1.2.1.tgz#fefb58ee2c506f00b5a9e6150931e87bb76ebea1"
   dependencies:
     bindings "^1.3.0"
-    nan "^2.9.2"
-    prebuild-install "^2.5.1"
+    nan "^2.11.0"
+    prebuild-install "^5.1.0"
 
 fast-deep-equal@^1.0.0:
   version "1.1.0"
@@ -6980,9 +6980,9 @@ postcss@^6.0.1:
     source-map "^0.6.1"
     supports-color "^5.4.0"
 
-prebuild-install@^2.5.1:
-  version "2.5.3"
-  resolved "https://registry.yarnpkg.com/prebuild-install/-/prebuild-install-2.5.3.tgz#9f65f242782d370296353710e9bc843490c19f69"
+prebuild-install@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/prebuild-install/-/prebuild-install-4.0.0.tgz#206ce8106ce5efa4b6cf062fc8a0a7d93c17f3a8"
   dependencies:
     detect-libc "^1.0.3"
     expand-template "^1.0.2"
@@ -7000,9 +7000,9 @@ prebuild-install@^2.5.1:
     tunnel-agent "^0.6.0"
     which-pm-runs "^1.0.0"
 
-prebuild-install@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/prebuild-install/-/prebuild-install-4.0.0.tgz#206ce8106ce5efa4b6cf062fc8a0a7d93c17f3a8"
+prebuild-install@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/prebuild-install/-/prebuild-install-5.1.0.tgz#799cf2e443065eaff4880ecfa32b4d1a4a3ad000"
   dependencies:
     detect-libc "^1.0.3"
     expand-template "^1.0.2"
@@ -7014,7 +7014,7 @@ prebuild-install@^4.0.0:
     npmlog "^4.0.1"
     os-homedir "^1.0.1"
     pump "^2.0.1"
-    rc "^1.1.6"
+    rc "^1.2.7"
     simple-get "^2.7.0"
     tar-fs "^1.13.0"
     tunnel-agent "^0.6.0"

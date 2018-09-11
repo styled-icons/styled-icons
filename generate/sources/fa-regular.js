@@ -1,5 +1,5 @@
-const fontawesome = require('@fortawesome/fontawesome').default
-const regular = require('@fortawesome/fontawesome-free-regular').default
+const fontawesome = require('@fortawesome/fontawesome-svg-core')
+const regular = require('@fortawesome/free-regular-svg-icons').far
 
 module.exports = async () =>
   Object.keys(regular).map(iconKey => {

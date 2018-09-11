@@ -1,5 +1,5 @@
-const fontawesome = require('@fortawesome/fontawesome').default
-const solid = require('@fortawesome/fontawesome-free-solid').default
+const fontawesome = require('@fortawesome/fontawesome-svg-core')
+const solid = require('@fortawesome/free-solid-svg-icons').fas
 
 module.exports = async () =>
   Object.keys(solid).map(iconKey => {
