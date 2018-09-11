@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## v3.0.0
+
 - **Breaking:** remove `css` prop for adding additional styles. This shortcuts the built-in inheritance capabilities of Styled Components and generally led to hard-to-debug edge cases
 - Upgrade FontAwesome to v5.3.1
 
