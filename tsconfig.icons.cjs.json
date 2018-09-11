@@ -4,5 +4,7 @@
     "declaration": false,
     "module": "commonjs",
     "outDir": "./build/icons-cjs"
-  }
+  },
+  "include": ["./build/typescript/**/*.cjs.ts", "./build/typescript/**/*.cjs.tsx"],
+  "exclude": []
 }

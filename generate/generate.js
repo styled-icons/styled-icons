@@ -184,7 +184,7 @@ export {${PACKS.map(fastCase.camelize).join(', ')}}
   await compiler
 
   spinner.text = 'Copying files to destination...'
-  const builtFiles = [...PACKS, 'index.d.ts', 'index.cjs.d.ts', 'index.js']
+  const builtFiles = [...PACKS, 'index.d.ts', 'index.js']
   for (const builtFile of builtFiles) {
     await fs.remove(path.join(__dirname, '..', builtFile))
     await fs.move(path.join(baseDir, 'icons', builtFile), path.join(__dirname, '..', builtFile))
