@@ -635,8 +635,8 @@ babel-plugin-check-es2015-constants@^6.22.0, babel-plugin-check-es2015-constants
     babel-runtime "^6.22.0"
 
 babel-plugin-styled-components@^1.5.1:
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/babel-plugin-styled-components/-/babel-plugin-styled-components-1.6.4.tgz#24677e5b37a85b04aed855a5f81f1c7bfec77784"
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-styled-components/-/babel-plugin-styled-components-1.7.0.tgz#2bc9c5ed58fc3ab239299826274389a43d6ad9c9"
   dependencies:
     lodash "^4.17.10"
 
