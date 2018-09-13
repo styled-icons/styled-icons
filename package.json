@@ -78,7 +78,7 @@
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-react-next": "^1.0.11",
     "gatsby-plugin-styled-components": "^2.0.11",
-    "h2x-core": "^0.1.9",
+    "h2x-core": "^1.0.0",
     "h2x-plugin-jsx": "^0.1.9",
     "js-search": "^1.4.2",
     "material-design-icons": "^3.0.1",
