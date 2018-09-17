@@ -70,7 +70,7 @@
     "feather-icons": "^4.7.0",
     "fs-extra": "^7.0.0",
     "gatsby": "^1.9.247",
-    "gatsby-link": "^1.6.40",
+    "gatsby-link": "^2.0.1",
     "gatsby-plugin-favicon": "^2.1.1",
     "gatsby-plugin-manifest": "^1.0.20",
     "gatsby-plugin-netlify": "^1.0.19",
