@@ -5709,12 +5709,12 @@ h2x-parse@^0.1.0:
   dependencies:
     jsdom "11.1.0"
 
-h2x-plugin-jsx@^0.1.9:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/h2x-plugin-jsx/-/h2x-plugin-jsx-0.1.9.tgz#2ef41f4da1e2c92680fac3425fcce63696107f11"
-  integrity sha512-1x7yrBVhopSVXZ04iBHGrpetdFDmFvEcR2jWOU5kH1wg1/85MXq4GH4xTFdnNfjUe44/zyBQ5FBpLsmNZcU0PA==
+h2x-plugin-jsx@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/h2x-plugin-jsx/-/h2x-plugin-jsx-1.2.0.tgz#211fa02e5c4e0a07307b0005629923910e631c01"
+  integrity sha512-a7Vb3BHhJJq0dPDNdqguEyQirENkVsFtvM2YkiaT5h/fmGhmM1nDy3BLeJeSKi2tL2g9v4ykm2Z+GG9QrhDgPA==
   dependencies:
-    h2x-types "^0.1.0"
+    h2x-types "^1.1.0"
 
 h2x-traverse@^0.1.9:
   version "0.1.9"
@@ -5727,6 +5727,11 @@ h2x-types@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/h2x-types/-/h2x-types-0.1.0.tgz#0528342cd63631ec147f98ffa7a25279b5bd0f1f"
   integrity sha512-KVDsHyXBSHgABm14mIH973S8xhGXzpejpqE8iXGXl8YHuKyHuV0JfMEQxheTCoA+wnHWQLQiDX0DP/MaOQ65jA==
+
+h2x-types@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/h2x-types/-/h2x-types-1.1.0.tgz#ec0d5e3674e2207269f32976ac9c82aaff4818e6"
+  integrity sha512-QdH5qfLcdF209UsCdM0ZNZ9Dwm2PHvMfeLZtivBrjX3Y/df4US2pwsUC4HBfWhye/mx/t6puODeC7Oacb/Ol8g==
 
 handle-thing@^1.2.5:
   version "1.2.5"
