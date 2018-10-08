@@ -34,7 +34,12 @@ module.exports = {
         icon: 'src/images/styled-icons.png',
       },
     },
-    'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-offline',
+      options: {
+        maximumFileSizeToCacheInBytes: 6 * 1024 * 1024, // 6MB
+      },
+    },
     'gatsby-plugin-netlify',
   ],
 }
