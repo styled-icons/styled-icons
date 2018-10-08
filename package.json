@@ -72,7 +72,7 @@
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-favicon": "^2.1.1",
-    "gatsby-plugin-manifest": "^1.0.20",
+    "gatsby-plugin-manifest": "^2.0.2",
     "gatsby-plugin-netlify": "^1.0.19",
     "gatsby-plugin-offline": "^1.0.15",
     "gatsby-plugin-react-helmet": "^2.0.10",
