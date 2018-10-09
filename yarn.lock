@@ -5210,9 +5210,9 @@ gatsby-plugin-favicon@^3.1.4:
     lodash "^4.17.10"
 
 gatsby-plugin-manifest@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.0.4.tgz#c53ed4181bf1f6fef621469ab2b43c67081c76df"
-  integrity sha512-ErCJTR2UdHxspl22L/qZRs8zx6ETF3+TlTewqeLur7aCSF6qjyPwzFOTqSlaP/N3dW6cusL4c6za7jCXAiV0GQ==
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.0.5.tgz#511b604dd92d7917d06a338b338b63d621282c23"
+  integrity sha512-iemgD5bczubqhkH6J66Sr9rGrC0i0V0vIox9xHwBdEy/6NC5yPSBntxfIK/Zknd2XMOrQ3ndQaUtYKipOzPLJw==
   dependencies:
     "@babel/runtime" "^7.0.0"
     bluebird "^3.5.0"
