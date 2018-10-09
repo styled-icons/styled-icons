@@ -795,11 +795,11 @@
     "@fortawesome/fontawesome-common-types" "^0.2.5"
 
 "@fortawesome/free-brands-svg-icons@^5.3.1":
-  version "5.3.1"
-  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.3.1.tgz#a26d3f5036c115477abdc957b1ad48eb389f69f3"
-  integrity sha512-CmvAgNVvfBvNFiPLFugmafNzU6t9auy1kGDv+U6Q81XD/QS7FsnJk8pnPftFnaoXJOlpchVNxz31tNjorM3LOQ==
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.4.0.tgz#54f7ef554eec1c309cf158b75469ea25a37b45a2"
+  integrity sha512-X4+m/+Akd4Kt4jAD2tK9WNcm1T5EOnHB6HscX0dJpj6YJJfrGXXBFN5RPxM+9k5qOrWkT3X2eS0PGDK/M4BPKw==
   dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.2.4"
+    "@fortawesome/fontawesome-common-types" "^0.2.5"
 
 "@fortawesome/free-regular-svg-icons@^5.3.1":
   version "5.4.0"
