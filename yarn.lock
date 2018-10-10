@@ -5163,10 +5163,10 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-gatsby-cli@^2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.4.2.tgz#6a89a854c5fdc285d9a01f7874f96994ae24a2b4"
-  integrity sha512-NUVU0+w8DG3Bihh8bZcr9AHiubvV0NRObu8esmKqVdUvsb+yTmDErSA4AOq4sbviIST/beLCH67je46S1bJpIw==
+gatsby-cli@^2.4.3:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.4.3.tgz#355b2278ec3936618516935426ae0d164a75b994"
+  integrity sha512-syIrRagg7a0i4XgWCnAzUmDV3RZXsIiuNwn7P9L1OH00bCJfp5Q3cnjQa5VbRF8i8fWQX/rh/RBmpdFUJZVdNg==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/runtime" "^7.0.0"
@@ -5277,9 +5277,9 @@ gatsby-react-router-scroll@^2.0.0:
     warning "^3.0.0"
 
 gatsby@^2.0.19:
-  version "2.0.19"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.19.tgz#d59498567460d147f0ea0d9038a7d276e5994a49"
-  integrity sha512-l6AjOJALxPmydYS3JSbUr4FeVMyKCJ3nEC5Bx2tcaulzhZ+ypseXV/l7TZ9EWrYpAyIOV8GfiZJ6SCy9HV1WOA==
+  version "2.0.21"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.21.tgz#c182ad534f5f6cc19cc1dbf0ac6c267b39e42652"
+  integrity sha512-Wh8AsbzqrmQhI+VwZxRESN9/qtrwtSF8OIQZ1l14ydcH2vGcjsWws11Nbe15BITYfoT9cqVMxMVR8iDeR+6yPA==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
@@ -5334,7 +5334,7 @@ gatsby@^2.0.19:
     flat "^4.0.0"
     friendly-errors-webpack-plugin "^1.6.1"
     fs-extra "^5.0.0"
-    gatsby-cli "^2.4.2"
+    gatsby-cli "^2.4.3"
     gatsby-link "^2.0.4"
     gatsby-plugin-page-creator "^2.0.1"
     gatsby-react-router-scroll "^2.0.0"
