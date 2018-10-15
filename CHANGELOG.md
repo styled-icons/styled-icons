@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## v3.2.0
+
+- Upgrade FontAwesome to v5.4.1
+
 ## v3.1.0
 
 - Upgrade FontAwesome to v5.4.0
