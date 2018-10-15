@@ -1,9 +1,9 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import {StaticQuery, graphql} from 'gatsby'
-import {injectGlobal} from 'styled-components'
+import {createGlobalStyle} from 'styled-components'
 
-injectGlobal`
+const GlobalStyle = createGlobalStyle`
   html {
     height: 100%;
     font-family: 'Avenir Next', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
@@ -214,6 +214,7 @@ const Layout = ({children}) => (
         <Helmet title={data.site.siteMetadata.title}>
           <html lang="en" />
         </Helmet>
+        <GlobalStyle />
         {children}
       </div>
     )}
