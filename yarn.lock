@@ -777,11 +777,6 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@fortawesome/fontawesome-common-types@^0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.5.tgz#a7f660607997b019cc985d525ec37d2fb72df926"
-  integrity sha512-hkKASkxINPqAyhYDF9QVtDK02hcleUzGxXnGmFkF/fIJgHaGaI4lVV07OfLsC6KIlgXQfIAAf3PNR2C74HN6xg==
-
 "@fortawesome/fontawesome-common-types@^0.2.6":
   version "0.2.6"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.6.tgz#3f26b9d1bf2d057dfe0f448fe4a2c372508e97f0"
@@ -5235,9 +5230,9 @@ gatsby-plugin-netlify@^2.0.1:
     webpack-assets-manifest "^3.0.2"
 
 gatsby-plugin-offline@^2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-2.0.5.tgz#11cd7941116ea3f7d3127a4343ce880ca1d10497"
-  integrity sha512-sxdhaylmVlgdW7Vi2DmoKx12/OvpbzxLtn9JfM1MnhG4AGVhXPtbVAfPhx4oaai966A6ze3Bh7XM4DaPEY6WUA==
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-2.0.6.tgz#09b729d30a9cb2524d4fa5adfe706e1160a7604f"
+  integrity sha512-sitjfwEuNK7Fx4zwphCCda+CpzbV6mSlDM4CFyB4xByHjrFL/TQCqb0cZ8t8ln3N6ja2NhnKRZ2HgwFTtWKI6g==
   dependencies:
     "@babel/runtime" "^7.0.0"
     cheerio "^1.0.0-rc.2"
