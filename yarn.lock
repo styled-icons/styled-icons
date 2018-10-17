@@ -5292,9 +5292,9 @@ gatsby-react-router-scroll@^2.0.0:
     warning "^3.0.0"
 
 gatsby@^2.0.19:
-  version "2.0.22"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.22.tgz#bbce1efd2993705be91b2c06ace1bb1d2183976a"
-  integrity sha512-EySP701DiZqpqyWZyaWaeYrK4oAzx3lYSo/j3L7ja+uTjQ216L5gDr5QKXviJqP1MOg6Sh1TguflnbJk7EgHdg==
+  version "2.0.25"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.25.tgz#ec4ad24585a06b700b39fe81c197caf01f2e170d"
+  integrity sha512-OLj0PrywrFNxt3SglotvB/iNVVgI2QndpF43MXJfWWCGeMB6D8H81PSPj3H3d9DvJ3SE5k2pMZZH+pRYNSKofw==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
