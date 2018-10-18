@@ -10465,9 +10465,9 @@ style-to-object@0.2.2:
     css "2.2.4"
 
 styled-components@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-4.0.0.tgz#bd37d79408246302051cd63f52a3539f70aa3197"
-  integrity sha512-+SXoKjaXmApQHjQXNY5pxuRpnabR7vnL6J59Gtcj118ll8gsg9MM8gkjWu6Ahc0NB9kLjh3O9Ho2iun6uLunVA==
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-4.0.2.tgz#7d4409ada019cdd34c25ba68c4577ea95dbcf0c5"
+  integrity sha512-VTNCmBLNx0OS2GRaYk0yRAnQVDBCGnnxGkR6+BCmkKVv9VgICO7bEn3UDjlnwCw8hgIyecMzVLOPl+p1zqUxog==
   dependencies:
     "@emotion/is-prop-valid" "^0.6.8"
     babel-plugin-styled-components ">= 1"
