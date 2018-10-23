@@ -5234,9 +5234,9 @@ gatsby-plugin-manifest@^2.0.4:
     sharp "^0.20.2"
 
 gatsby-plugin-netlify@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.0.1.tgz#285fc47296d6eaa21c3329181bcf44f4173df3a5"
-  integrity sha512-rEqn8C6LTZffSEs0PmC3iiQqF93L/dR0JD/ecYTVQQy74Fh0dVJCT/s7qwUyR5ksbdHT2MOK8kOkXrm5eBDo4w==
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.0.2.tgz#1dc2da6ce79bf2572b1dc11b3a9527ae90bd2b1b"
+  integrity sha512-Aa/Bby2Hcx/OzpyByPAVw9UER0HGsM5giACnMfkqX4nt8Ev/ScSt3LnPOJHUhICXSDOtmtQrWGOetsVtbRj4zg==
   dependencies:
     "@babel/runtime" "^7.0.0"
     fs-extra "^4.0.2"
