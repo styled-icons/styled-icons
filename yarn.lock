@@ -1174,9 +1174,9 @@
     csstype "^2.2.0"
 
 "@types/styled-components@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-4.0.1.tgz#5eb9a5474dbde3becab2bcc8f04e0b8e8dcf8c06"
-  integrity sha512-y6BV+wMRengSgc5GiMi2xwT8VqjgrZFF+x/OForTnIX/VMoYvZY+Kk6mUOeGBscVaUfiAU9PU0YLsKS2y8mP9A==
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-4.0.2.tgz#4d60af452fd35e6be6bc7a46d1a317daaab613ea"
+  integrity sha512-LIm9OqdtG4WHDGkdPDOGpeIlIVYs2IBxXsW5xgt4tKwY/VGY40YvmlUq69GbHkvX+i35236GOcXh6DmYCFDrDg==
   dependencies:
     "@types/node" "*"
     "@types/react" "*"
