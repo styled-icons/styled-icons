@@ -5205,15 +5205,14 @@ gatsby-cli@^2.4.3:
     yurnalist "^0.2.1"
 
 gatsby-link@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-2.0.4.tgz#2af30f21171261d7b5ab61954704a399f81ca28f"
-  integrity sha512-yz5tRpEPfabYrauOL/lg76z+TbV8Et3nmGX4vxfdiVI1pSsEsFyWIJwlK2z6cKGuBBvReoVmGQSYtvcRibgcpw==
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-2.0.5.tgz#67ed7bf67c892452695659e0e0fc0f9ba5c1fc34"
+  integrity sha512-BmUmyq+ra2B7KlmbkLcn2WBwBcfQ+FEQUyW9KBpTewKB+5CBzsjb0UzqGPFdbnSHeT2HcqDD0PlZ1PaBl+EWZw==
   dependencies:
     "@babel/runtime" "^7.0.0"
     "@reach/router" "^1.1.1"
     "@types/reach__router" "^1.0.0"
     prop-types "^15.6.1"
-    ric "^1.3.0"
 
 gatsby-link@^2.0.5:
   version "2.0.5"
@@ -9705,11 +9704,6 @@ rgba-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/rgba-regex/-/rgba-regex-1.0.0.tgz#43374e2e2ca0968b0ef1523460b7d730ff22eeb3"
   integrity sha1-QzdOLiyglosO8VI0YLfXMP8i7rM=
-
-ric@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/ric/-/ric-1.3.0.tgz#8e95042609ce8213548a83164d08e94fae94909f"
-  integrity sha1-jpUEJgnOghNUioMWTQjpT66UkJ8=
 
 rimraf@^2.2.8, rimraf@^2.5.0, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.2:
   version "2.6.2"
