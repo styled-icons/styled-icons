@@ -55,10 +55,10 @@
     "styled-components": ">=3 <5"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.4",
-    "@fortawesome/free-brands-svg-icons": "^5.3.1",
-    "@fortawesome/free-regular-svg-icons": "^5.3.1",
-    "@fortawesome/free-solid-svg-icons": "^5.3.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.7",
+    "@fortawesome/free-brands-svg-icons": "^5.4.2",
+    "@fortawesome/free-regular-svg-icons": "^5.4.2",
+    "@fortawesome/free-solid-svg-icons": "^5.4.2",
     "@types/node": "^10.11.4",
     "@types/react": "^16.4.16",
     "@types/styled-components": "^4.0.1",
@@ -75,7 +75,7 @@
     "gatsby-plugin-favicon": "^3.1.4",
     "gatsby-plugin-manifest": "^2.0.4",
     "gatsby-plugin-netlify": "^2.0.1",
-    "gatsby-plugin-offline": "^2.0.5",
+    "gatsby-plugin-offline": "^2.0.9",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-styled-components": "^3.0.0",
     "h2x-core": "^0.1.9",
