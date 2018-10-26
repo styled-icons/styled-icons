@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## v3.4.0
+
+- Upgrade FontAwesome to v5.4.2
+
 ## v3.3.0
 
 - Add Styled Components v4 compatibility
