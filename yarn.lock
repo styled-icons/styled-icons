@@ -1174,9 +1174,9 @@
     csstype "^2.2.0"
 
 "@types/styled-components@^4.0.1":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-4.0.2.tgz#4d60af452fd35e6be6bc7a46d1a317daaab613ea"
-  integrity sha512-LIm9OqdtG4WHDGkdPDOGpeIlIVYs2IBxXsW5xgt4tKwY/VGY40YvmlUq69GbHkvX+i35236GOcXh6DmYCFDrDg==
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-4.0.3.tgz#8287e54e446302369eecc521243a2f32cf9122ee"
+  integrity sha512-LzntHlOKEOxUxMkVmQPNG88TsldeHO2NlwNkzHnw4wL8qhHQgd7u+u3yw84hZgoFh4ugsLCbFtjYcbP7v5WC5Q==
   dependencies:
     "@types/node" "*"
     "@types/react" "*"
@@ -5204,17 +5204,7 @@ gatsby-cli@^2.4.3:
     yargs "^11.1.0"
     yurnalist "^0.2.1"
 
-gatsby-link@^2.0.4:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-2.0.5.tgz#67ed7bf67c892452695659e0e0fc0f9ba5c1fc34"
-  integrity sha512-BmUmyq+ra2B7KlmbkLcn2WBwBcfQ+FEQUyW9KBpTewKB+5CBzsjb0UzqGPFdbnSHeT2HcqDD0PlZ1PaBl+EWZw==
-  dependencies:
-    "@babel/runtime" "^7.0.0"
-    "@reach/router" "^1.1.1"
-    "@types/reach__router" "^1.0.0"
-    prop-types "^15.6.1"
-
-gatsby-link@^2.0.5:
+gatsby-link@^2.0.4, gatsby-link@^2.0.5:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-2.0.5.tgz#67ed7bf67c892452695659e0e0fc0f9ba5c1fc34"
   integrity sha512-BmUmyq+ra2B7KlmbkLcn2WBwBcfQ+FEQUyW9KBpTewKB+5CBzsjb0UzqGPFdbnSHeT2HcqDD0PlZ1PaBl+EWZw==
