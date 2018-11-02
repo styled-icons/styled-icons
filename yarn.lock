@@ -5204,9 +5204,9 @@ gatsby-cli@^2.4.3:
     yurnalist "^0.2.1"
 
 gatsby-link@^2.0.4, gatsby-link@^2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-2.0.5.tgz#67ed7bf67c892452695659e0e0fc0f9ba5c1fc34"
-  integrity sha512-BmUmyq+ra2B7KlmbkLcn2WBwBcfQ+FEQUyW9KBpTewKB+5CBzsjb0UzqGPFdbnSHeT2HcqDD0PlZ1PaBl+EWZw==
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-2.0.6.tgz#0a3fc871b4635b817b145d06ed7542b8f49b9c7b"
+  integrity sha512-JZM1FLjAH1zDIyUAV9QGpufxoQ3q7JmWtnXW+op5PZTjC1aLJefKYwkTYExYJ6v+ti1ketTauE2eckjQgKiO4w==
   dependencies:
     "@babel/runtime" "^7.0.0"
     "@reach/router" "^1.1.1"
