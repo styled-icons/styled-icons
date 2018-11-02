@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## v3.5.0
+
+- Upgrade Feather icons to v4.8.1
+
 ## v3.4.0
 
 - Upgrade FontAwesome to v5.4.2
