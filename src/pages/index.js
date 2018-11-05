@@ -41,6 +41,7 @@ search.searchIndex = new JSSearch.UnorderedSearchIndex()
 search.indexStrategy = new JSSearch.AllSubstringsIndexStrategy()
 search.addIndex('name')
 search.addIndex('originalName')
+search.addIndex('pack')
 search.addDocuments(icons)
 
 const IndexPage = () => (
