@@ -9,7 +9,7 @@ export class IconExplorer extends React.Component {
   constructor(props) {
     super(props)
 
-    const query = queryString.parse(window.location.search)
+    const query = typeof window !== 'undefined' ? queryString.parse(window.location.search) : {}
 
     const search = query.s ? decodeURIComponent(query.s) : ''
 
