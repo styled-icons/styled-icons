@@ -1,16 +1,27 @@
 import * as React from 'react'
-import {AutoSizer, Grid, WindowScroller, defaultCellRangeRenderer} from 'react-virtualized'
+import {navigate} from 'gatsby'
+import {AutoSizer, Grid, WindowScroller} from 'react-virtualized'
+import queryString from 'query-string'
 
 import {IconCard} from './IconCard'
 
 export class IconExplorer extends React.Component {
-  state = {
-    search: '',
+  constructor(props) {
+    super(props)
+
+    const query = queryString.parse(window.location.search)
+
+    const search = query.s ? decodeURIComponent(query.s) : ''
+
+    this.state = {
+      search,
+    }
   }
 
   updateSearch = event => {
     const search = event.target.value
     this.setState({search})
+    navigate(`/?s=${encodeURIComponent(search)}`, {replace: true})
   }
 
   render() {
@@ -37,6 +48,7 @@ export class IconExplorer extends React.Component {
           className="search-box"
           type="text"
           onChange={this.updateSearch}
+          value={this.state.search}
           placeholder="search icons"
         />
 
