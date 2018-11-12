@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## v3.7.0
+
+- Upgrade Octicons to v8.1.2
+
 ## v3.6.0
 
 - Upgrade FontAwesome to v5.5.0
