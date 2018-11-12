@@ -8893,9 +8893,9 @@ preserve@^0.2.0:
   integrity sha1-gV7R9uvGWSb4ZbMQwHE7yzMVzks=
 
 prettier@^1.13.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.15.0.tgz#c6191a50fbc9056ff770577d64ebd9987cca1dd7"
-  integrity sha512-NtSOnDRmJaNuruoX0KhDdQ3UGyLNJaSuP2eJn6Q6uSvzQBAJQHZbXgraFPbv8sYbNaMR9nz7scMy55WC+78E6w==
+  version "1.15.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.15.2.tgz#d31abe22afa4351efa14c7f8b94b58bb7452205e"
+  integrity sha512-YgPLFFA0CdKL4Eg2IHtUSjzj/BWgszDHiNQAe0VAIBse34148whfdzLagRL+QiKS+YfK5ftB6X4v/MBw8yCoug==
 
 pretty-bytes@^4.0.2:
   version "4.0.2"
