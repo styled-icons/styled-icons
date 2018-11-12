@@ -9836,10 +9836,10 @@ serialize-javascript@^1.4.0:
   resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-1.5.0.tgz#1aa336162c88a890ddad5384baebc93a655161fe"
   integrity sha512-Ga8c8NjAAp46Br4+0oZ2WxJCwIzwP60Gq1YPgU+39PiTVxyed/iKE/zyZI6+UlVYH5Q4PaQdHhcegIFPZTUfoQ==
 
-serve-handler@5.0.6:
-  version "5.0.6"
-  resolved "https://registry.yarnpkg.com/serve-handler/-/serve-handler-5.0.6.tgz#da15ca35a7d8106010108478f0a30114b21ccd1a"
-  integrity sha512-o0Ydyn0+wpaTrNhvgrVzaWWSsRU2Zg78ryjbRZdcDPn01/RkX8tnRJsOG+NvkPhpH96EzgHneymisHn+N/wFDg==
+serve-handler@5.0.7:
+  version "5.0.7"
+  resolved "https://registry.yarnpkg.com/serve-handler/-/serve-handler-5.0.7.tgz#317877420925913e99e4dc228e67f6e5774e5387"
+  integrity sha512-PuLoJHAO2jj3p1fYWfXVHsEqNesx1+h+6qj0FIWrCe526ZtpDqeYuKA4knE5pjK9xoOVShoB+qGOP93EY46xEw==
   dependencies:
     bytes "3.0.0"
     content-disposition "0.5.2"
@@ -9874,9 +9874,9 @@ serve-static@1.13.2:
     send "0.16.2"
 
 serve@^10.0.2:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/serve/-/serve-10.1.0.tgz#f3f51b145d23f6b37e39ae919fa5930b0fdabdaa"
-  integrity sha512-i0Od6vZn8xZq2ROuLLPJxyDV0QdYoozoN6c9AsjTMi1KFrXhjhdnp/GATCG+X3LhMxdBkKOB2xygL6gAjtfP/w==
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/serve/-/serve-10.1.1.tgz#29a0210fc6fc2d9bbd67e977a0e487deb0e86789"
+  integrity sha512-B1ca73zGFRS/bYQkbDw6BVEpRiUKdtnkwtvkMjx598jU5tyieua9lHyqdwUoup4/ek20I74EzncTC0gZuYng4Q==
   dependencies:
     "@zeit/schemas" "2.6.0"
     ajv "6.5.3"
@@ -9885,7 +9885,7 @@ serve@^10.0.2:
     chalk "2.4.1"
     clipboardy "1.2.3"
     compression "1.7.3"
-    serve-handler "5.0.6"
+    serve-handler "5.0.7"
     update-check "1.5.2"
 
 set-blocking@^2.0.0, set-blocking@~2.0.0:
