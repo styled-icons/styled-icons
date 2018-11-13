@@ -1,12 +1,13 @@
 const {transform} = require('h2x-core')
+const {fromHtmlElement} = require('h2x-types')
 const jsx = require('h2x-plugin-jsx').default
 
 const extractChildren = () => ({
   visitor: {
     HTMLElement: {
       enter(path, state) {
-        if (path.node.tagName !== 'svg') return
-        state.children = Array.from(path.node.childNodes)
+        if (path.node.originalNode.tagName !== 'svg') return
+        state.children = Array.from(path.node.originalNode.childNodes)
       },
     },
   },
@@ -16,8 +17,8 @@ const replaceChildren = () => ({
   visitor: {
     HTMLElement: {
       enter(path, state) {
-        if (path.node.tagName !== 'svg') return
-        path.replace(state.replacement)
+        if (path.node.originalNode.tagName !== 'svg') return
+        path.replace(fromHtmlElement(state.replacement))
       },
     },
   },
@@ -61,8 +62,8 @@ const processSVG = () => ({
   visitor: {
     HTMLElement: {
       enter(path, state) {
-        if (path.node.tagName === 'svg') {
-          const attributes = Array.from(path.node.attributes)
+        if (path.node.originalNode.tagName === 'svg') {
+          const attributes = Array.from(path.node.originalNode.attributes)
 
           state.attrs = attributes.reduce(
             (attrs, attr) => ({...attrs, [attr.name]: attr.value}),
@@ -77,7 +78,7 @@ const processSVG = () => ({
           state.width = widthAttribute ? widthAttribute.value : null
           state.viewBox = viewBoxAttribute ? viewBoxAttribute.value : null
 
-          state.children = Array.from(path.node.children)
+          state.children = Array.from(path.node.originalNode.children)
         }
       },
     },
