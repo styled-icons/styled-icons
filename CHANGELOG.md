@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+## v4.0.0
+
+- **(breaking)** require Styled Components >= v4.1.0
+- Fix Styled Components deprecation warning
+- Update Styled Components TypeScript types
+- Upgrade build-the-scenes build dependencies
+
 ## v3.7.0
 
 - Upgrade Octicons to v8.1.2
