@@ -52,7 +52,7 @@
   },
   "peerDependencies": {
     "react": "*",
-    "styled-components": ">=3 <5"
+    "styled-components": ">=4.1.0 <5"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.8",
