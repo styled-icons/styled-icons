@@ -3,9 +3,10 @@ module.exports = {
     title: 'Styled Icons - a Styled Components icon library',
   },
   plugins: [
+    'gatsby-plugin-remove-serviceworker',
     'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-plugin-favicon`,
+      resolve: 'gatsby-plugin-favicon',
       options: {
         logo: './src/images/styled-icons.png',
         injectHTML: true,
@@ -32,12 +33,6 @@ module.exports = {
         theme_color: '#db7093',
         display: 'minimal-ui',
         icon: 'src/images/styled-icons.png',
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-offline',
-      options: {
-        maximumFileSizeToCacheInBytes: 6 * 1024 * 1024, // 6MB
       },
     },
     'gatsby-plugin-netlify',
