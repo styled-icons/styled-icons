@@ -138,7 +138,8 @@ export {StyledIcon, StyledIconProps} from '..${cjs ? '/index.cjs' : ''}'
 
     await fs.writeFileSync(
       path.join(baseDir, 'typescript', cjs ? 'index.cjs.ts' : 'index.ts'),
-      `import {StyledComponentClass} from 'styled-components'
+      `import React from 'react'
+import {StyledComponent} from 'styled-components'
 
 ${PACKS.map(
         (pack, idx) =>
@@ -151,7 +152,7 @@ export interface StyledIconProps extends React.SVGProps<SVGSVGElement> {
   title?: string | null
 }
 
-export interface StyledIcon<T = any> extends StyledComponentClass<StyledIconProps, T> {}
+export interface StyledIcon<T extends object = {}> extends StyledComponent<React.ComponentType<any>, StyledIconProps, T> {}
 
 export {${PACKS.map(fastCase.camelize).join(', ')}}
 `,
