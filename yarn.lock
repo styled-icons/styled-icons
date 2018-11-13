@@ -5315,9 +5315,9 @@ gatsby-react-router-scroll@^2.0.1:
     warning "^3.0.0"
 
 gatsby@^2.0.37:
-  version "2.0.47"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.47.tgz#e4a8f856520d146584f0b78b4e7e131d4c283c94"
-  integrity sha512-rQD3jUpCXL2nlW/v8N9Z1U8nNoeLCYMYyywlgBkr+0msNvfAB+I6P8ZPqJ9RSP9wyLv9KuMpxGs9anvew7szYQ==
+  version "2.0.48"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.48.tgz#083173a4f5dd319cbd68f3036eedcdfbc07812f6"
+  integrity sha512-X7/BC/4II+D2sH0Wggys2CMRzcEKOYEvjeFkPC/cpHDFPs5h2Q7JrXJnvi2ZkWX7tBur7XsVGSnXlAgi29xtIg==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
@@ -5384,7 +5384,7 @@ gatsby@^2.0.37:
     jest-worker "^23.2.0"
     joi "12.x.x"
     json-loader "^0.5.7"
-    json-stream-stringify "^2.0.1"
+    json-stringify-safe "^5.0.1"
     kebab-hash "^0.1.2"
     lodash "^4.17.10"
     md5 "^2.2.1"
@@ -6858,12 +6858,7 @@ json-stable-stringify-without-jsonify@^1.0.1:
   resolved "https://registry.yarnpkg.com/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz#9db7b59496ad3f3cfef30a75142d2d930ad72651"
   integrity sha1-nbe1lJatPzz+8wp1FC0tkwrXJlE=
 
-json-stream-stringify@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/json-stream-stringify/-/json-stream-stringify-2.0.1.tgz#8bc0e65ff94567d9010e14c27c043a951cb14939"
-  integrity sha512-5XymtJXPmzRWZ1UdLQQQXbjHV/E7NAanSClikEqORbkZKOYLSYLNHqRuooyju9W90kJUzknFhX2xvWn4cHluHQ==
-
-json-stringify-safe@~5.0.1:
+json-stringify-safe@^5.0.1, json-stringify-safe@~5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
   integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
