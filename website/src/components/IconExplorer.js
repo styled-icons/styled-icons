@@ -2,10 +2,54 @@ import * as React from 'react'
 import {AutoSizer, Grid, WindowScroller} from 'react-virtualized'
 import queryString from 'query-string'
 
+import * as JSSearch from 'js-search'
+
+import {faBrands, faRegular, faSolid, feather, material, octicons} from 'styled-icons'
+import icons from 'styled-icons/manifest.json'
+
 import {history} from '../history'
 import {IconCard} from './IconCard'
 
-export class IconExplorer extends React.Component {
+icons.forEach(icon => {
+  switch (icon.pack) {
+    case 'fa-brands':
+      icon.icon = faBrands[icon.name]
+      break
+
+    case 'fa-regular':
+      icon.icon = faRegular[icon.name]
+      break
+
+    case 'fa-solid':
+      icon.icon = faSolid[icon.name]
+      break
+
+    case 'feather':
+      icon.icon = feather[icon.name]
+      break
+
+    case 'material':
+      icon.icon = material[icon.name]
+      break
+
+    case 'octicons':
+      icon.icon = octicons[icon.name]
+      break
+
+    default:
+      icon.icon = null
+  }
+})
+
+const searchIndex = new JSSearch.Search('importPath')
+searchIndex.searchIndex = new JSSearch.UnorderedSearchIndex()
+searchIndex.indexStrategy = new JSSearch.AllSubstringsIndexStrategy()
+searchIndex.addIndex('name')
+searchIndex.addIndex('originalName')
+searchIndex.addIndex('pack')
+searchIndex.addDocuments(icons)
+
+export default class IconExplorer extends React.Component {
   constructor(props) {
     super(props)
 
@@ -25,9 +69,7 @@ export class IconExplorer extends React.Component {
   }
 
   render() {
-    const filteredIcons = this.state.search
-      ? this.props.search.search(this.state.search)
-      : this.props.icons
+    const filteredIcons = this.state.search ? searchIndex.search(this.state.search) : icons
 
     const cellRenderer = ({columnIndex, key, rowIndex, style}) => {
       const idx = rowIndex * 4 + columnIndex

@@ -1,51 +1,9 @@
-import React from 'react'
+import React, {Suspense} from 'react'
 
-import * as JSSearch from 'js-search'
-
-import {faBrands, faRegular, faSolid, feather, material, octicons} from 'styled-icons'
-import icons from 'styled-icons/manifest.json'
 import {Badges} from './components/Badges'
-import {IconExplorer} from './components/IconExplorer'
 import Layout from './components/Layout'
 
-icons.forEach(icon => {
-  switch (icon.pack) {
-    case 'fa-brands':
-      icon.icon = faBrands[icon.name]
-      break
-
-    case 'fa-regular':
-      icon.icon = faRegular[icon.name]
-      break
-
-    case 'fa-solid':
-      icon.icon = faSolid[icon.name]
-      break
-
-    case 'feather':
-      icon.icon = feather[icon.name]
-      break
-
-    case 'material':
-      icon.icon = material[icon.name]
-      break
-
-    case 'octicons':
-      icon.icon = octicons[icon.name]
-      break
-
-    default:
-      icon.icon = null
-  }
-})
-
-const search = new JSSearch.Search('importPath')
-search.searchIndex = new JSSearch.UnorderedSearchIndex()
-search.indexStrategy = new JSSearch.AllSubstringsIndexStrategy()
-search.addIndex('name')
-search.addIndex('originalName')
-search.addIndex('pack')
-search.addDocuments(icons)
+const IconExplorer = React.lazy(() => import('./components/IconExplorer'))
 
 const IndexPage = () => (
   <Layout>
@@ -85,7 +43,9 @@ const App = () => <RedZap />
 
       <h2>Icon Explorer</h2>
 
-      <IconExplorer icons={icons} search={search} />
+      <Suspense fallback={<div>Loading...</div>}>
+        <IconExplorer />
+      </Suspense>
     </div>
   </Layout>
 )
