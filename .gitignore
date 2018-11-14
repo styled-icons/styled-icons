@@ -11,9 +11,8 @@ fa-solid/
 feather/
 material/
 octicons/
-public/
 /index.d.ts
 /index.cjs.js
 /index.cjs.d.ts
 /index.js
-manifest.json
+/manifest.json

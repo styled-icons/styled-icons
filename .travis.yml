@@ -11,7 +11,9 @@ before_install:
 
 script:
   - yarn build
-  - yarn build-website
+  - cd website
+  - yarn install
+  - yarn build
 
 deploy:
   provider: npm

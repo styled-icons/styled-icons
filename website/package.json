@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "homepage": "/",
+  "scripts": {
+    "build": "react-scripts build",
+    "serve": "serve -s build",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
+  "dependencies": {
+    "copy-to-clipboard": "^3.0.8",
+    "history": "^4.7.2",
+    "js-search": "^1.4.2",
+    "query-string": "^6.2.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "2.1.1",
+    "react-virtualized": "^9.18.5",
+    "styled-components": "^4.0.3",
+    "styled-icons": "link:.."
+  },
+  "devDependencies": {
+    "@types/history": "^4.7.2",
+    "@types/node": "^10.12.7",
+    "@types/query-string": "^6.1.1",
+    "@types/react": "^16.4.16",
+    "@types/styled-components": "^4.1.0",
+    "serve": "^10.0.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
