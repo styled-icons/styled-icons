@@ -1,8 +1,8 @@
 import * as React from 'react'
-import {navigate} from 'gatsby'
 import {AutoSizer, Grid, WindowScroller} from 'react-virtualized'
 import queryString from 'query-string'
 
+import {history} from '../history'
 import {IconCard} from './IconCard'
 
 export class IconExplorer extends React.Component {
@@ -21,7 +21,7 @@ export class IconExplorer extends React.Component {
   updateSearch = event => {
     const search = event.target.value
     this.setState({search})
-    navigate(`/?s=${encodeURIComponent(search)}`, {replace: true})
+    history.replace(`/?s=${encodeURIComponent(search)}`)
   }
 
   render() {

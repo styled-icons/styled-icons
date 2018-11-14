@@ -45,10 +45,7 @@
   },
   "scripts": {
     "build": "node generate/generate.js",
-    "build-website": "gatsby build",
-    "clean": "rm -rf build fa-brands fa-regular fa-solid feather material octicons public manifest.json index.d.ts index.cjs.js index.js",
-    "dev": "gatsby develop",
-    "serve": "serve public"
+    "clean": "rm -rf build fa-brands fa-regular fa-solid feather material octicons public manifest.json index.d.ts index.cjs.js index.js"
   },
   "peerDependencies": {
     "react": "*",
@@ -60,41 +57,32 @@
     "@fortawesome/free-regular-svg-icons": "^5.5.0",
     "@fortawesome/free-solid-svg-icons": "^5.5.0",
     "@types/node": "^10.12.7",
-    "@types/query-string": "^6.1.1",
     "@types/react": "^16.4.16",
     "@types/styled-components": "^4.1.0",
-    "babel-plugin-styled-components": "^1.8.0",
-    "caniuse-db": "^1.0.30000903",
-    "copy-to-clipboard": "^3.0.8",
     "execa": "^1.0.0",
     "fast-case": "^1.2.1",
     "fast-glob": "^2.2.3",
     "feather-icons": "^4.9.0",
     "fs-extra": "^7.0.0",
-    "gatsby": "^2.0.37",
-    "gatsby-link": "^2.0.4",
-    "gatsby-plugin-favicon": "^3.1.4",
-    "gatsby-plugin-manifest": "^2.0.4",
-    "gatsby-plugin-netlify": "^2.0.1",
-    "gatsby-plugin-react-helmet": "^3.0.0",
-    "gatsby-plugin-remove-serviceworker": "^1.0.0",
-    "gatsby-plugin-styled-components": "^3.0.0",
     "h2x-core": "^1.1.1",
     "h2x-plugin-jsx": "^1.2.0",
-    "js-search": "^1.4.2",
     "material-design-icons": "^3.0.1",
     "number-to-words": "^1.2.3",
     "octicons": "^8.0.0",
     "ora": "^3.0.0",
     "prettier": "^1.13.0",
-    "query-string": "^6.2.0",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-helmet": "^5.2.0",
-    "react-virtualized": "^9.18.5",
-    "serve": "^10.0.2",
     "styled-components": "^4.0.3",
     "svgo": "^1.0.5",
     "typescript": "^3.1.6"
-  }
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

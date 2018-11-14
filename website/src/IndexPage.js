@@ -2,11 +2,11 @@ import React from 'react'
 
 import * as JSSearch from 'js-search'
 
-import {faBrands, faRegular, faSolid, feather, material, octicons} from '../..'
-import icons from '../../manifest.json'
-import {Badges} from '../components/Badges'
-import {IconExplorer} from '../components/IconExplorer'
-import Layout from '../components/Layout'
+import {faBrands, faRegular, faSolid, feather, material, octicons} from 'styled-icons'
+import icons from 'styled-icons/manifest.json'
+import {Badges} from './components/Badges'
+import {IconExplorer} from './components/IconExplorer'
+import Layout from './components/Layout'
 
 icons.forEach(icon => {
   switch (icon.pack) {
@@ -33,6 +33,9 @@ icons.forEach(icon => {
     case 'octicons':
       icon.icon = octicons[icon.name]
       break
+
+    default:
+      icon.icon = null
   }
 })
 
@@ -47,7 +50,12 @@ search.addDocuments(icons)
 const IndexPage = () => (
   <Layout>
     <div>
-      <h1>Styled Icons 💅</h1>
+      <h1>
+        Styled Icons{' '}
+        <span role="img" aria-label="icon">
+          💅
+        </span>
+      </h1>
       <Badges />
 
       <p>
