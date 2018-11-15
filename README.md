@@ -60,11 +60,11 @@ The icons are also available as individual imports - it is recommended that you 
 
 ```javascript
 import React, {Fragment} from 'react'
-import {Account, Lock} from 'styled-icons/material'
+import {AccountCircle, Lock} from 'styled-icons/material'
 
 const App = () => (
   <Fragment>
-    <Account />
+    <AccountCircle />
     <Lock />
   </Fragment>
 )
