@@ -14,6 +14,7 @@ script:
   - cd website
   - yarn install
   - yarn build
+  - cd ..
 
 deploy:
   provider: npm
