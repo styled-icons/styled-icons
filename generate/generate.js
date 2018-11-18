@@ -148,7 +148,7 @@ export {StyledIcon, StyledIconProps} from '..${cjs ? '/index.cjs' : ''}'
 
     await fs.writeFileSync(
       path.join(baseDir, 'typescript', cjs ? 'index.cjs.ts' : 'index.ts'),
-      `import React from 'react'
+      `import * as React from 'react'
 import {StyledComponent} from 'styled-components'
 
 ${PACKS.map(
