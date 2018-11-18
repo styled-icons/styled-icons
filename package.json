@@ -59,6 +59,7 @@
     "@types/node": "^10.12.7",
     "@types/react": "^16.4.16",
     "@types/styled-components": "^4.1.0",
+    "boxicons": "^1.8.0",
     "execa": "^1.0.0",
     "fast-case": "^1.2.1",
     "fast-glob": "^2.2.3",
