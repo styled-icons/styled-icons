@@ -9,7 +9,17 @@ const path = require('path')
 const h2x = require('./transform/h2x')
 const svgo = require('./transform/svgo')
 
-const PACKS = ['fa-regular', 'fa-solid', 'fa-brands', 'feather', 'material', 'octicons']
+const PACKS = [
+  'fa-regular',
+  'fa-solid',
+  'fa-brands',
+  'feather',
+  'material',
+  'octicons',
+  'boxicons-regular',
+  'boxicons-solid',
+  'boxicons-logos',
+]
 
 const SVG_ATTRS = [
   'fill',
