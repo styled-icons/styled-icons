@@ -8,7 +8,7 @@
 
 [![View Icons](https://gui.apex.sh/component?name=ShadowButton&config=%7B%22text%22%3A%22ICON%20EXPLORER%22%2C%22color%22%3A%22db7093%22%7D)](https://styled-icons.js.org)
 
-`styled-icons` provides the [Font Awesome](https://fontawesome.com/), [Feather](https://feathericons.com/), [Material Design](https://material.io/icons/), and [Octicons](https://octicons.github.com/) icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules.
+`styled-icons` provides the [Font Awesome](https://fontawesome.com/), [Feather](https://feathericons.com/), [Material Design](https://material.io/icons/), [Octicons](https://octicons.github.com/), and [Boxicons](https://boxicons.com/) icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules.
 
 ---
 
@@ -54,6 +54,9 @@ import * as faSolid from 'styled-icons/fa-solid'
 import * as feather from 'styled-icons/feather'
 import * as material from 'styled-icons/material'
 import * as octicons from 'styled-icons/octicons'
+import * as boxiconsRegular from 'styled-icons/boxicons-regular'
+import * as boxiconsSolid from 'styled-icons/boxicons-solid'
+import * as boxiconsLogos from 'styled-icons/boxicons-logos'
 ```
 
 The icons are also available as individual imports - it is recommended that you import icons individually using ES modules along with a module bundler like Webpack or Rollup in order to enable tree-shaking. This means that the module bundler will remove unused icons from the final JavaScript bundle, saving bandwidth and speeding up loading:

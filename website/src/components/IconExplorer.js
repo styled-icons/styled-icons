@@ -4,7 +4,17 @@ import queryString from 'query-string'
 
 import * as JSSearch from 'js-search'
 
-import {faBrands, faRegular, faSolid, feather, material, octicons} from 'styled-icons'
+import {
+  faBrands,
+  faRegular,
+  faSolid,
+  feather,
+  material,
+  octicons,
+  boxiconsRegular,
+  boxiconsSolid,
+  boxiconsLogos,
+} from 'styled-icons'
 import icons from 'styled-icons/manifest.json'
 
 import {history} from '../history'
@@ -34,6 +44,18 @@ icons.forEach(icon => {
 
     case 'octicons':
       icon.icon = octicons[icon.name]
+      break
+
+    case 'boxicons-regular':
+      icon.icon = boxiconsRegular[icon.name]
+      break
+
+    case 'boxicons-solid':
+      icon.icon = boxiconsSolid[icon.name]
+      break
+
+    case 'boxicons-logos':
+      icon.icon = boxiconsLogos[icon.name]
       break
 
     default:
