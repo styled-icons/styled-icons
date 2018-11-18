@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## v4.1.0
+
+- Add [Boxicons](https://boxicons.com/) v1.8.0 ([#408](https://github.com/jacobwgillespie/styled-icons/pull/418), [@jgierer12](https://github.com/jgierer12))
+- Fix React import in TypeScript type definitions
+
 ## v4.0.0
 
 - **(breaking)** require Styled Components >= v4.1.0
