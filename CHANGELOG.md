@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## v4.2.0
+
+- Upgrade Octicons to v8.1.3
+
 ## v4.1.0
 
 - Add [Boxicons](https://boxicons.com/) v1.8.0 ([#408](https://github.com/jacobwgillespie/styled-icons/pull/418), [@jgierer12](https://github.com/jgierer12))
