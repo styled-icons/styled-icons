@@ -141,7 +141,7 @@ const generate = async () => {
           .join('\n') +
           `
 
-export {StyledIcon, StyledIconProps} from '..${cjs ? '/index.cjs' : ''}'
+export {StyledIconProps} from '..${cjs ? '/index.cjs' : ''}'
 `,
       )
     }
@@ -149,7 +149,6 @@ export {StyledIcon, StyledIconProps} from '..${cjs ? '/index.cjs' : ''}'
     await fs.writeFileSync(
       path.join(baseDir, 'typescript', cjs ? 'index.cjs.ts' : 'index.ts'),
       `import * as React from 'react'
-import {StyledComponent} from 'styled-components'
 
 ${PACKS.map(
         (pack, idx) =>
@@ -161,8 +160,6 @@ export interface StyledIconProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string
   title?: string | null
 }
-
-export interface StyledIcon<T extends object = {}> extends StyledComponent<React.ComponentType<any>, StyledIconProps, T> {}
 
 export {${PACKS.map(fastCase.camelize).join(', ')}}
 `,
