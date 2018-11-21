@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## v4.3.0
+
+- Upgrade Boxicons to v1.8.1
+
 ## v4.2.0
 
 - Upgrade Octicons to v8.1.3
