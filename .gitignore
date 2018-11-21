@@ -4,6 +4,9 @@ node_modules/
 *.log
 
 # Built files
+boxicons-logos/
+boxicons-regular/
+boxicons-solid/
 build/
 fa-brands/
 fa-regular/
