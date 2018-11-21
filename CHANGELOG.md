@@ -2,6 +2,19 @@
 
 ## Unreleased
 
+## v5.0.0
+
+- **(breaking)** the TypeScript interface `StyledIcon` no longer exists and is not exported anymore.
+
+  TypeScript types are now auto-generated from the `@types/styled-components` definitions rather than explicitly named as the `StyledIcon` interface. This allows `styled-icons` to pick up any changes introduced in `@types/styled-components` automatically, rather than needing to redefine the type to match any updates.
+
+  If you need access to the `StyledIcon` type, you can define it yourself based on an icon import:
+
+  ```typescript
+  import {Alert} from 'styled-icons/octicons'
+  export type StyledIcon = typeof Alert
+  ```
+
 ## v4.3.0
 
 - Upgrade Boxicons to v1.8.1
