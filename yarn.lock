@@ -297,9 +297,9 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
 boxicons@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/boxicons/-/boxicons-1.8.0.tgz#07bd088689c5b6c4d8b654637c3441301dca9da1"
-  integrity sha512-B/CxD/2a23rK+35rzbsdm1FiW/Ka1gfXZjaDZXSDRz8C8p94piUSP1L4ADjx62CwafM9STiPLXoJiSriUq4azg==
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/boxicons/-/boxicons-1.8.1.tgz#b02b3ea07784f9e5136ac43304d89571dc4220ab"
+  integrity sha512-iQVGukTpmwvIQiWr1vtMW6nsndlE7TFGjgOAx/7nJzUo29qpKZfXg7jntbQX2fH4v7yoEXvHGlL23sOi5kzNvQ==
 
 braces@^2.3.1:
   version "2.3.2"
