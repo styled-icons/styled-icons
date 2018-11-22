@@ -161,6 +161,8 @@ export interface StyledIconProps extends React.SVGProps<SVGSVGElement> {
   title?: string | null
 }
 
+export type StyledIcon = typeof import('./octicons/Alert').Alert
+
 export {${PACKS.map(fastCase.camelize).join(', ')}}
 `,
     )
