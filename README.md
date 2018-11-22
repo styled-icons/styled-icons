@@ -204,20 +204,15 @@ Be aware though that importing from the CommonJS icon pack bundles will likely r
 
 ### TypeScript
 
-The icons of `styled-icons` are built using TypeScript and export type definitions. By default, the `theme` prop is typed as `any`, but if you would like to override the theme interface, this is possible via the `StyledIcon` type:
+The icons of `styled-icons` are built using TypeScript and export type definitions. If you need a type to reference any styled icon, there is a `StyledIcon` type exported from the root package import:
 
 ```typescript
 import styled from 'styled-components'
-import {StyledIcon} from 'styled-icons/material'
-import {Lock} from 'styled-icons/material'
+import {StyledIcon} from 'styled-icons'
 
-interface ThemeInterface {
-  lockColor: string
+interface Props {
+  icon: StyledIcon
 }
-
-export const ThemedLock: StyledIcon<ThemeInterface> = styled(Lock)`
-  color: ${props => props.theme.lockColor};
-`
 ```
 
 If you have any ideas for improvements to the TypeScript typing, please open an issue or PR!
