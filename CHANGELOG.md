@@ -4,7 +4,7 @@
 
 ## v5.1.0
 
-- Add back an exported `StyledIcon` type automatically generated from type of an icon
+- Add back an exported `StyledIcon` TypeScript type automatically generated from type of an icon
 
 ## v5.0.0
 
