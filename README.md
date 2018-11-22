@@ -225,6 +225,8 @@ Contributions are welcome! Feel free to open an issue or a pull request and part
 
 The MIT License - see `LICENSE`.
 
+The Boxicons are licensed under the [CC BY 4.0 License](https://boxicons.com/get-started#license).
+
 The Font Awesome icons are licensed under the [CC BY 4.0 License](https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt).
 
 The Feather icons are licensed under the [MIT License](https://github.com/feathericons/feather/blob/master/LICENSE).
