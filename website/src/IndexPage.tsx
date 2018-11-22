@@ -5,7 +5,7 @@ import Layout from './components/Layout'
 
 const IconExplorer = React.lazy(() => import('./components/IconExplorer'))
 
-const IndexPage = () => (
+const IndexPage: React.SFC = () => (
   <Layout>
     <div>
       <h1>

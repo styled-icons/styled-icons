@@ -8,5 +8,5 @@
     "strict": false,
     "target": "es5"
   },
-  "exclude": ["./build/typescript/**/*.cjs.ts", "./build/typescript/**/*.cjs.tsx"]
+  "exclude": ["./build/typescript/**/*.cjs.ts", "./build/typescript/**/*.cjs.tsx", "website"]
 }

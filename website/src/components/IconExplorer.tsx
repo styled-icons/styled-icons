@@ -1,6 +1,7 @@
 import * as React from 'react'
-import {AutoSizer, Grid, WindowScroller} from 'react-virtualized'
+import {AutoSizer, Grid, WindowScroller, GridCellProps} from 'react-virtualized'
 import queryString from 'query-string'
+import {StyledIcon} from 'styled-icons'
 
 import * as JSSearch from 'js-search'
 
@@ -15,53 +16,54 @@ import {
   boxiconsSolid,
   boxiconsLogos,
 } from 'styled-icons'
-import icons from 'styled-icons/manifest.json'
+import iconManifest from 'styled-icons/manifest.json'
 
 import {history} from '../history'
 import {IconCard} from './IconCard'
 
-icons.forEach(icon => {
-  switch (icon.pack) {
-    case 'fa-brands':
-      icon.icon = faBrands[icon.name]
-      break
+interface IconType {
+  importPath: string
+  name: string
+  originalName: string
+  pack: string
+  icon: StyledIcon
+}
 
-    case 'fa-regular':
-      icon.icon = faRegular[icon.name]
-      break
+const icons = iconManifest.map(
+  (icon: any): IconType => {
+    switch (icon.pack) {
+      case 'fa-brands':
+        return {...icon, icon: faBrands[icon.name as keyof typeof faBrands]}
 
-    case 'fa-solid':
-      icon.icon = faSolid[icon.name]
-      break
+      case 'fa-regular':
+        return {...icon, icon: faRegular[icon.name as keyof typeof faRegular]}
 
-    case 'feather':
-      icon.icon = feather[icon.name]
-      break
+      case 'fa-solid':
+        return {...icon, icon: faSolid[icon.name as keyof typeof faSolid]}
 
-    case 'material':
-      icon.icon = material[icon.name]
-      break
+      case 'feather':
+        return {...icon, icon: feather[icon.name as keyof typeof feather]}
 
-    case 'octicons':
-      icon.icon = octicons[icon.name]
-      break
+      case 'material':
+        return {...icon, icon: material[icon.name as keyof typeof material]}
 
-    case 'boxicons-regular':
-      icon.icon = boxiconsRegular[icon.name]
-      break
+      case 'octicons':
+        return {...icon, icon: octicons[icon.name as keyof typeof octicons]}
 
-    case 'boxicons-solid':
-      icon.icon = boxiconsSolid[icon.name]
-      break
+      case 'boxicons-regular':
+        return {...icon, icon: boxiconsRegular[icon.name as keyof typeof boxiconsRegular]}
 
-    case 'boxicons-logos':
-      icon.icon = boxiconsLogos[icon.name]
-      break
+      case 'boxicons-solid':
+        return {...icon, icon: boxiconsSolid[icon.name as keyof typeof boxiconsSolid]}
 
-    default:
-      icon.icon = null
-  }
-})
+      case 'boxicons-logos':
+        return {...icon, icon: boxiconsLogos[icon.name as keyof typeof boxiconsLogos]}
+
+      default:
+        return {...icon, icon: null}
+    }
+  },
+)
 
 const searchIndex = new JSSearch.Search('importPath')
 searchIndex.searchIndex = new JSSearch.UnorderedSearchIndex()
@@ -71,29 +73,43 @@ searchIndex.addIndex('originalName')
 searchIndex.addIndex('pack')
 searchIndex.addDocuments(icons)
 
-export default class IconExplorer extends React.Component {
-  constructor(props) {
+interface Props {}
+
+interface State {
+  search: string
+}
+
+export default class IconExplorer extends React.Component<Props, State> {
+  constructor(props: Props) {
     super(props)
 
-    const query = typeof window !== 'undefined' ? queryString.parse(window.location.search) : {}
+    if (typeof window === 'undefined') {
+      this.state = {
+        search: '',
+      }
 
-    const search = query.s ? decodeURIComponent(query.s) : ''
+      return
+    }
+
+    const query = queryString.parse(window.location.search)
 
     this.state = {
-      search,
+      search: query.s ? decodeURIComponent(Array.isArray(query.s) ? query.s[0] : query.s) : '',
     }
   }
 
-  updateSearch = event => {
+  updateSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     const search = event.target.value
     this.setState({search})
     history.replace(`/?s=${encodeURIComponent(search)}`)
   }
 
   render() {
-    const filteredIcons = this.state.search ? searchIndex.search(this.state.search) : icons
+    const filteredIcons = this.state.search
+      ? (searchIndex.search(this.state.search) as IconType[])
+      : icons
 
-    const cellRenderer = ({columnIndex, key, rowIndex, style}) => {
+    const cellRenderer = ({columnIndex, key, rowIndex, style}: GridCellProps) => {
       const idx = rowIndex * 4 + columnIndex
       if (idx >= filteredIcons.length) return null
 
@@ -117,7 +133,7 @@ export default class IconExplorer extends React.Component {
         />
 
         <WindowScroller>
-          {({height, isScrolling, onChildScroll, scrollTop}) => (
+          {({height, isScrolling, scrollTop}) => (
             <AutoSizer disableHeight>
               {({width}) => {
                 const columnCount = width > 755 ? 4 : width < 600 ? 2 : 3

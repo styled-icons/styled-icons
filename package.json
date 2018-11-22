@@ -16,6 +16,7 @@
     "/fa-regular",
     "/fa-solid",
     "/feather",
+    "/manifest.json",
     "/material",
     "/octicons",
     "/boxicons-regular",
@@ -48,8 +49,8 @@
     "trailingComma": "all"
   },
   "scripts": {
-    "build": "node generate/generate.js",
-    "clean": "rm -rf build fa-brands fa-regular fa-solid feather material octicons public manifest.json index.d.ts index.cjs.js index.js"
+    "build": "node generate/generate.js && yarn pack --filename styled-icons.tgz",
+    "clean": "rm -rf boxicons-logos boxicons-regular boxicons-solid build fa-brands fa-regular fa-solid feather material octicons public manifest.json index.d.ts index.cjs.js index.js"
   },
   "peerDependencies": {
     "react": "*",

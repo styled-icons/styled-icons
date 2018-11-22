@@ -1,7 +1,18 @@
 import * as React from 'react'
 import copy from 'copy-to-clipboard'
+import {StyledIcon} from 'styled-icons'
 
-export class IconCard extends React.PureComponent {
+interface Props {
+  pack: string
+  name: string
+  Icon: StyledIcon
+}
+
+interface State {
+  copied: boolean
+}
+
+export class IconCard extends React.PureComponent<Props, State> {
   mounted = false
   state = {copied: false}
 

@@ -175,7 +175,7 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-const Layout = ({children}) => (
+const Layout: React.SFC = ({children}) => (
   <div>
     <a
       href="https://github.com/jacobwgillespie/styled-icons"
