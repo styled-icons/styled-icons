@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## v5.1.0
+
+- Add back an exported `StyledIcon` type automatically generated from type of an icon
+
 ## v5.0.0
 
 - **(breaking)** the TypeScript interface `StyledIcon` no longer exists and is not exported anymore.
@@ -13,6 +17,12 @@
   ```typescript
   import {Alert} from 'styled-icons/octicons'
   export type StyledIcon = typeof Alert
+  ```
+
+  **Update:** there is now an exported `StyledIcon` type, defined using the above approach, exported from the root package available in v5.1.0:
+
+  ```typescript
+  import {StyledIcon} from 'styled-icons'
   ```
 
 ## v4.3.0
