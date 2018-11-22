@@ -1,6 +1,12 @@
 import * as React from 'react'
 
-export class Badges extends React.Component {
+interface Props {}
+
+interface State {
+  loaded: boolean
+}
+
+export class Badges extends React.Component<Props, State> {
   state = {
     loaded: false,
   }

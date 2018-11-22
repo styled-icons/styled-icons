@@ -2,6 +2,7 @@
 node_modules/
 
 *.log
+*.tgz
 
 # Built files
 boxicons-logos/
@@ -19,3 +20,4 @@ octicons/
 /index.cjs.d.ts
 /index.js
 /manifest.json
+/website/lib
