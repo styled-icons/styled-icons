@@ -37,7 +37,7 @@ or
 npm install styled-icons --save
 ```
 
-Additionally, you will need to have installed a version of `styled-components`, as `styled-icons` depends on `styled-components` as a peer dependency.
+Additionally, you will need to have installed a version of `styled-components` at least version 4.1.0 or newer, as `styled-icons` depends on `styled-components` as a peer dependency.
 
 ## Usage
 
