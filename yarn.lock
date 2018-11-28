@@ -92,9 +92,9 @@
   integrity sha512-ZBFR7TROLVzCkswA3Fmqq+IIJt62/T7aY/Dmz+QkU7CaW2QFqAitCE8Ups7IzmGhcN1YWMBT4Qcoc07jU9hOJQ==
 
 "@types/react@*", "@types/react@^16.4.16":
-  version "16.7.7"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.7.7.tgz#1e5e23e7dd922968ed4b484cdec00a5402c9f31b"
-  integrity sha512-dJiq7CKxD1XJ/GqmbnsQisFnzG4z5lntKBw9X9qeSrguxFbrrhGa8cK9s0ONBp8wL1EfGfofEDVhjen26U46pw==
+  version "16.7.8"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.7.8.tgz#ca24ba280f79debfc86578278a503c6d917d402e"
+  integrity sha512-7Vua2IYokMiPBk0WWXaDt4Cg3XVcwU6HpkuPhvwhBrVEy4SafpcvEfGYByoY9jxyFMiegYQPaSOT+H+AY00CPw==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
