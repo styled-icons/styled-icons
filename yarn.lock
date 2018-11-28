@@ -100,9 +100,9 @@
     csstype "^2.2.0"
 
 "@types/styled-components@^4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-4.1.1.tgz#1a9f8ebff7ee5cbc9ddc08b486e55e5a152bb408"
-  integrity sha512-ye+XXSkaqs7BgCiQx4NQRIUnqo8LDrkRazE9qvBTG//rdAaHH77xshKE3OcWwVuLq283xH2wUW8C8z3eh1l+Wg==
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-4.1.2.tgz#3219dd745cc2638ade5b2f6c0d771a32fdfc855f"
+  integrity sha512-Mi2E14EAd3tOhM2C2nJeracSI0u0EqCaMvtywsfuPnOSUeM3dIhc4mFT5s2ByKN7mV140EJ1AoCMeJq/txpsaQ==
   dependencies:
     "@types/node" "*"
     "@types/react" "*"
