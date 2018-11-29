@@ -1,6 +1,8 @@
 # Changelog
 
-## Unreleased
+## v5.2.1
+
+- Fix npm publish to include README
 
 ## v5.2.0
 
