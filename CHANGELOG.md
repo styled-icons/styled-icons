@@ -1,5 +1,9 @@
 # Changelog
 
+## v5.2.2
+
+- Fix issue where Boxicon and Material icons were missing from published package
+
 ## v5.2.1
 
 - Fix npm publish to include README
