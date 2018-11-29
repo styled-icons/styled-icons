@@ -3,7 +3,6 @@ const execa = require('execa')
 const fastCase = require('fast-case')
 const fg = require('fast-glob')
 const fs = require('fs-extra')
-const ora = require('ora')
 const path = require('path')
 
 const h2x = require('./transform/h2x')
@@ -34,8 +33,6 @@ const SVG_ATTRS = [
   'stroke-opacity',
 ]
 
-let spinner
-
 const getComponentName = originalName => {
   originalName = originalName.replace(/^\d+/, digits => `${toWords(parseInt(digits, 10))}_`)
   return originalName.length === 1 ? originalName.toUpperCase() : fastCase.pascalize(originalName)
@@ -52,17 +49,17 @@ const getTemplate = () =>
 const baseDir = path.join(__dirname, '..', 'build')
 
 const generate = async () => {
-  spinner = ora('Reading icon packs...').start()
+  console.log('Reading icon packs...')
 
   const icons = (await Promise.all(PACKS.map(pack => require(`./sources/${pack}`)()))).reduce(
     (all, icons) => all.concat(...icons),
     [],
   )
 
-  spinner.text = 'Reading template...'
+  console.log('Reading template...')
   const template = await getTemplate()
 
-  spinner.text = 'Clearing desination files...'
+  console.log('Clearing desination files...')
   const destinationFiles = [
     'build',
     ...PACKS,
@@ -75,7 +72,7 @@ const generate = async () => {
     await fs.remove(path.join(__dirname, '..', destinationFile))
   }
 
-  spinner.text = 'Building icons...'
+  console.log('Building icons...')
   const totalIcons = icons.length
   let builtIcons = 0
 
@@ -116,11 +113,9 @@ const generate = async () => {
     const destinationPath = path.join(baseDir, 'typescript', icon.pack)
     await fs.outputFile(path.join(destinationPath, `${icon.name}.tsx`), component())
     await fs.outputFile(path.join(destinationPath, `${icon.name}.cjs.tsx`), component(true))
-
-    spinner.text = `[${++builtIcons} / ${totalIcons}] Built ${icon.pack}/${icon.name}...`
   }
 
-  spinner.text = 'Writing index files...'
+  console.log('Writing index files...')
 
   const writeIndexFiles = async (cjs = false) => {
     for (const iconPack of PACKS) {
@@ -171,7 +166,7 @@ export {${PACKS.map(fastCase.camelize).join(', ')}}
   await writeIndexFiles()
   await writeIndexFiles(true)
 
-  spinner.text = 'Building ESM JavaScript...'
+  console.log('Building ESM JavaScript...')
 
   let compiler = execa('./node_modules/.bin/tsc', [
     '--project',
@@ -182,7 +177,7 @@ export {${PACKS.map(fastCase.camelize).join(', ')}}
   compiler.stderr.pipe(process.stderr)
   await compiler
 
-  spinner.text = 'Building CJS bundles...'
+  console.log('Building CJS bundles...')
 
   compiler = execa('./node_modules/.bin/tsc', [
     '--project',
@@ -193,7 +188,7 @@ export {${PACKS.map(fastCase.camelize).join(', ')}}
   compiler.stderr.pipe(process.stderr)
   await compiler
 
-  spinner.text = 'Copying files to destination...'
+  console.log('Copying files to destination...')
   const builtFiles = [...PACKS, 'index.d.ts', 'index.js']
   for (const builtFile of builtFiles) {
     await fs.remove(path.join(__dirname, '..', builtFile))
@@ -206,7 +201,7 @@ export {${PACKS.map(fastCase.camelize).join(', ')}}
     await fs.move(path.join(__dirname, '..', cjsFile), destination, {overwrite: true})
   }
 
-  spinner.text = 'Writing icon manifest for website...'
+  console.log('Writing icon manifest for website...')
   const seenImports = new Set()
   await fs.writeJSON(
     path.join(__dirname, '..', 'manifest.json'),
@@ -227,14 +222,10 @@ export {${PACKS.map(fastCase.camelize).join(', ')}}
       .filter(icon => icon),
   )
 
-  spinner.succeed(`${totalIcons} icons successfully built!`)
+  console.log(`${totalIcons} icons successfully built!`)
 }
 
 generate().catch(err => {
-  if (spinner) {
-    spinner.fail(err.stack)
-  } else {
-    console.error(err.stack)
-  }
+  console.log(err.stack)
   process.exit(1)
 })
