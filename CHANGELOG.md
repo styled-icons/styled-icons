@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## v5.2.0
+
+- Release [next-plugin-styled-icons](https://github.com/jacobwgillespie/styled-icons/tree/master/packages/next-plugin-styled-icons) to enable tree shaking with [Next.js](https://nextjs.org) applications
+
 ## v5.1.1
 
 - No functional changes
