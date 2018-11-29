@@ -11,17 +11,14 @@ before_install:
 
 script:
   - yarn build
-  - cd website
-  - yarn install
-  - yarn build
-  - cd ..
+
+after_success:
+  - scripts/setup-npm
 
 deploy:
-  provider: npm
-  email: jacobwgillespie@gmail.com
-  api_key:
-    secure: LC69+ZwkhquF6EE2EAzVD2aAuH1ShvgWivR+Ma32mDMatu1A/4iGTY27vCHeeGEjBRnxwdIneJ8WAEk81xY2a8pNFsyeTMamxQg0Z/fCczJDzAiKs5NKUhCH5bG8XCdkpIFsaRNYpvFECsldG/F0xpXB4bE1WHHatNZOYjAThGIu6h/DxTE6SAt1PH9Q1eXVPUT8LhmgX5uAur1+7luq9GQ8PZtCvhKIHx2gXIZgbxKzMg0Ymq/5w+gF6ZTY439TuFd1E4XuRoGg4iqBr4HDktbmU/v7EzfcvRJDJtD6HsiSWXaB4DJN5ATApGdSx/hhiTRJsIhiXnYRyrA5JICaAu9ItISSf1y+w/H5onoVGMLq94vYaJOMpTWTAkvJ7/dU3A+taCfrlRvRONAfnKZZa6cUwoqFzPLTFjaFXNy1oGJAPrebunH6PrD3/Eront+vO/zZP1Q0Cc5s6rk5p0tAgB7jhQ06HAldYb2s5Dcoj6voS2fuEaMA9a1YKoOjGuOCSrpTuq5n64qEZWft9QAQSr6R+pjj0byo3HXcIYagzyYPwT0iTajfuoRrlDgSn+k5lKo6y0irdvZbPwFBhA824KUigMw0oFApH2cqh6A5RfIVBrXFrgv3HvWfg91naAwT4hQqNgiT6fmIwynOoyLxF22Ac9KSgDh7op2ZYKLUF/U=
+  provider: script
+  script: script/release
+  skip_cleanup: true
   on:
     repo: jacobwgillespie/styled-icons
     tags: true
-  skip_cleanup: true

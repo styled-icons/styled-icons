@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if [ ! -z "$TRAVIS_TAG" ]; then
+  npm config set "//registry.npmjs.org/:_authToken=${NPM_API_KEY}"
+fi
