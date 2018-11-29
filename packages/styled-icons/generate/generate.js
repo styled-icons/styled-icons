@@ -51,10 +51,16 @@ const baseDir = path.join(__dirname, '..', 'build')
 const generate = async () => {
   console.log('Reading icon packs...')
 
-  const icons = (await Promise.all(PACKS.map(pack => require(`./sources/${pack}`)()))).reduce(
-    (all, icons) => all.concat(...icons),
-    [],
-  )
+  const packIcons = await Promise.all(PACKS.map(pack => require(`./sources/${pack}`)()))
+
+  for (const [idx, pack] of packIcons.entries()) {
+    if (pack.length === 0) {
+      console.log(`Error reading icons from pack ${PACKS[idx]}`)
+      process.exit(1)
+    }
+  }
+
+  const icons = packIcons.reduce((all, icons) => all.concat(...icons), [])
 
   console.log('Reading template...')
   const template = await getTemplate()
