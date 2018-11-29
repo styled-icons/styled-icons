@@ -1,8 +1,10 @@
 const fg = require('fast-glob')
 const fs = require('fs-extra')
+const path = require('path')
 
 module.exports = async () => {
-  const sourceFiles = await fg('node_modules/boxicons/svg/regular/*.svg')
+  const baseDir = path.dirname(require.resolve('boxicons'))
+  const sourceFiles = await fg(path.join(baseDir, '../svg/regular/*.svg'))
 
   return sourceFiles.map(filename => {
     const match = filename.match(/bx-([^}]+).svg/)
