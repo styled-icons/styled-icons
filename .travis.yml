@@ -13,12 +13,11 @@ script:
   - yarn build
 
 after_success:
-  - chmod +x scripts/*
-  - scripts/setup-npm
+  - npm config set "//registry.npmjs.org/:_authToken=\${NPM_API_KEY}"
 
 deploy:
   provider: script
-  script: script/release
+  script: yarn push from-git -y
   skip_cleanup: true
   on:
     repo: jacobwgillespie/styled-icons
