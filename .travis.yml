@@ -13,6 +13,7 @@ script:
   - yarn build
 
 after_success:
+  - chmod +x scripts/*
   - scripts/setup-npm
 
 deploy:
