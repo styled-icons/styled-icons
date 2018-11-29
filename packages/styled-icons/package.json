@@ -39,7 +39,7 @@
     "svg"
   ],
   "scripts": {
-    "build": "node generate/generate.js",
+    "build": "node generate/generate.js && cp ../../README.md .",
     "clean": "rm -rf boxicons-logos boxicons-regular boxicons-solid build fa-brands fa-regular fa-solid feather material octicons public manifest.json index.d.ts index.cjs.js index.js"
   },
   "peerDependencies": {
