@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## v5.1.1
+
+- No functional changes
+- Updated repository to monorepo structure
+
 ## v5.1.0
 
 - Add back an exported `StyledIcon` TypeScript type automatically generated from type of an icon
