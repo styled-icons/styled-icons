@@ -1,8 +1,9 @@
 {
   "private": true,
+  "name": "@styled-icons/website",
+  "version": "5.1.0",
   "homepage": "/",
   "scripts": {
-    "preinstall": "rm -rf lib/styled-icons node_modules/styled-icons node_modules/.yarn-integrity && mkdir -p lib/styled-icons && tar zxf ../styled-icons.tgz -C lib/styled-icons --strip-components=1",
     "build": "react-scripts build",
     "serve": "serve -s build",
     "start": "react-scripts start",
@@ -18,7 +19,7 @@
     "react-scripts": "2.1.1",
     "react-virtualized": "^9.18.5",
     "styled-components": "^4.0.3",
-    "styled-icons": "./lib/styled-icons"
+    "styled-icons": "^5.1.0"
   },
   "devDependencies": {
     "@types/history": "^4.7.2",

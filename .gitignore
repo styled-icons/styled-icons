@@ -3,21 +3,3 @@ node_modules/
 
 *.log
 *.tgz
-
-# Built files
-boxicons-logos/
-boxicons-regular/
-boxicons-solid/
-build/
-fa-brands/
-fa-regular/
-fa-solid/
-feather/
-material/
-octicons/
-/index.d.ts
-/index.cjs.js
-/index.cjs.d.ts
-/index.js
-/manifest.json
-/website/lib
