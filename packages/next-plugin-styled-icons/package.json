@@ -1,0 +1,19 @@
+{
+  "name": "next-plugin-styled-icons",
+  "version": "5.1.1",
+  "description": "Next plugin to enable Styled Icons tree shaking",
+  "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
+  "homepage": "https://github.com/jacobwgillespie/styled-icons/tree/master/packages/next-plugin-styled-icons",
+  "repository": "git://github.com/jacobwgillespie/styled-icons.git",
+  "license": "MIT",
+  "main": "index.js",
+  "sideEffects": false,
+  "files": [
+    "/index.js",
+    "/README.md"
+  ],
+  "keywords": [
+    "styled-icons",
+    "nextjs"
+  ]
+}
