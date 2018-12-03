@@ -1519,9 +1519,9 @@
     "@types/react" "*"
 
 "@types/react-virtualized@^9.18.9":
-  version "9.18.9"
-  resolved "https://registry.yarnpkg.com/@types/react-virtualized/-/react-virtualized-9.18.9.tgz#3115743fe2e8dd8094134c07930e52b821846182"
-  integrity sha512-sJ93QlIc9/BOVvdBx0kurwZxWqTPOscVXksksna0foLEGF7iVvXJ2gHTJT5PPamOYnp7Okd5080GmJAdzhTQmw==
+  version "9.18.11"
+  resolved "https://registry.yarnpkg.com/@types/react-virtualized/-/react-virtualized-9.18.11.tgz#921d20bea4f18de533f89539f313f7688aededdf"
+  integrity sha512-KT2FzDtV9YT2uN+5g9HPaME4Dtdlh7tEHEqTsOExWYzJGZjGKqHgBHTZC0vnHkzU1rXF9rVDxpi5MZuApoO7rA==
   dependencies:
     "@types/prop-types" "*"
     "@types/react" "*"
