@@ -8107,9 +8107,9 @@ obuf@^1.0.0, obuf@^1.1.1:
   integrity sha512-PX1wu0AmAdPqOL1mWhqmlOd8kOIZQwGZw6rh7uby9fTc5lhaOWFLX3I6R1hrF9k3zUY40e6igsLGkDXK92LJNg==
 
 octicons@^8.0.0:
-  version "8.1.3"
-  resolved "https://registry.yarnpkg.com/octicons/-/octicons-8.1.3.tgz#a6780e4025b714be9629ac407bd8b06e6360b9ad"
-  integrity sha512-i4niyiKz5NF+I66XtvJRK+P5LeDcDKNksa/ch8+pAONK8ru1PopD4cXf2pMWraOZTqiRIaR4uDSUIkT35pb24w==
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/octicons/-/octicons-8.2.0.tgz#cf077d62442248c1c54d1b00df3b19913d47f29d"
+  integrity sha512-m8qID8+tU9ETSwaHVWq8Z9Nv8dW08sPGpSuV1nyf8ziG3EdE7phUOxwW+ev5saeY9UnwwFCaHsE8ymZFq6vhDQ==
   dependencies:
     object-assign "^4.1.1"
 
