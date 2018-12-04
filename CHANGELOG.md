@@ -1,5 +1,9 @@
 # Changelog
 
+## v5.3.0
+
+- Upgrade Octicons to v8.2.0
+
 ## v5.2.2
 
 - Fix issue where Boxicon and Material icons were missing from published package
