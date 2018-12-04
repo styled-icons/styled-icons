@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@styled-icons/website",
-  "version": "5.2.2",
+  "version": "5.3.0",
   "homepage": "/",
   "scripts": {
     "build": "react-scripts build",
@@ -19,7 +19,7 @@
     "react-scripts": "2.1.1",
     "react-virtualized": "^9.18.5",
     "styled-components": "^4.0.3",
-    "styled-icons": "^5.2.2"
+    "styled-icons": "^5.3.0"
   },
   "devDependencies": {
     "@types/history": "^4.7.2",
