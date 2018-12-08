@@ -26,7 +26,7 @@
     "@types/js-search": "^1.4.0",
     "@types/node": "^10.12.7",
     "@types/query-string": "^6.1.1",
-    "@types/react": "^16.4.16",
+    "@types/react": "^16.7.13",
     "@types/react-dom": "^16.0.9",
     "@types/react-virtualized": "^9.18.9",
     "@types/styled-components": "^4.1.0",
