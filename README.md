@@ -1,10 +1,10 @@
-# 💅 styled-icons
+<h1 align="center">💅 styled-icons</h1>
 
-[![Build Status](https://img.shields.io/travis/jacobwgillespie/styled-icons/master.svg)](https://travis-ci.org/jacobwgillespie/styled-icons)
-[![npm](https://img.shields.io/npm/dm/styled-icons.svg)](https://www.npmjs.com/package/styled-icons)
-[![npm](https://img.shields.io/npm/v/styled-icons.svg)](https://www.npmjs.com/package/styled-icons)
-[![Built with Styled Components](https://img.shields.io/badge/built%20with-styled%20components-db7093.svg)](https://www.styled-components.com/)
-![Powered by TypeScript](https://img.shields.io/badge/powered%20by-typescript-blue.svg)
+<p align="center"><a href="https://travis-ci.org/jacobwgillespie/styled-icons"><img src="https://img.shields.io/travis/jacobwgillespie/styled-icons/master.svg" alt="Build Status" /></a>
+<a href="https://www.npmjs.com/package/styled-icons"><img src="https://img.shields.io/npm/dm/styled-icons.svg" alt="npm" /></a>
+<a href="https://www.npmjs.com/package/styled-icons"><img src="https://img.shields.io/npm/v/styled-icons.svg" alt="npm" /></a>
+<a href="https://www.styled-components.com/"><img src="https://img.shields.io/badge/built%20with-styled%20components-db7093.svg" alt="Built with Styled Components" /></a>
+<img src="https://img.shields.io/badge/powered%20by-typescript-blue.svg" alt="Powered by TypeScript" /></p>
 
 [![View Icons](https://gui.apex.sh/component?name=ShadowButton&config=%7B%22text%22%3A%22ICON%20EXPLORER%22%2C%22color%22%3A%22db7093%22%7D)](https://styled-icons.js.org)
 
