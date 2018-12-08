@@ -1,5 +1,9 @@
 # Changelog
 
+## v5.4.0
+
+- Upgrade FontAwesome to v5.6.0
+
 ## v5.3.0
 
 - Upgrade Octicons to v8.2.0
