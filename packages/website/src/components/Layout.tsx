@@ -46,7 +46,7 @@ const GlobalStyle = createGlobalStyle`
     white-space: pre;
     padding: 12px;
     text-align: left;
-    color: #000;
+    color: #fff;
     overflow-x: scroll;
   }
 
@@ -54,7 +54,7 @@ const GlobalStyle = createGlobalStyle`
     display: inline-block;
     margin-bottom: 12px;
     margin-top: 1em;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(255,255,255, 0.2);
   }
 
   .icon-card-wrapper {
@@ -69,7 +69,7 @@ const GlobalStyle = createGlobalStyle`
     justify-content: space-evenly;
     padding: 1rem;
     cursor: pointer;
-    color: #000;
+    color: #fff;
     transition: transform 0.5s ease-out;
     will-change: transform;
     width: 100%;
@@ -111,13 +111,13 @@ const GlobalStyle = createGlobalStyle`
 
   .search-box {
     background: rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 4px;
     margin-bottom: 1.5em;
     padding: 12px;
     width: 100%;
     max-width: 400px;
-    color: #000;
+    color: #fff;
     font-weight: 300;
     outline: none;
     text-align: center;
@@ -125,7 +125,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   ::placeholder {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.5);
   }
 
   @keyframes octocat-wave {
