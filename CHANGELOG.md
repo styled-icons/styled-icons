@@ -1,5 +1,9 @@
 # Changelog
 
+## v5.6.0
+
+- Upgrade FontAwesome to v5.6.3
+
 ## v5.5.0
 
 - Upgrade FontAwesome to v5.6.1
