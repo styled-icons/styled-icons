@@ -238,3 +238,28 @@ The Feather icons are licensed under the [MIT License](https://github.com/feathe
 The Material Design icons are licensed under the [Apache License Version 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE).
 
 The Octicons are licensed under the [MIT License](https://github.com/primer/octicons/blob/master/LICENSE).
+
+## Contributors
+
+<a href="https://opencollective.com/styled-icons/backers/0/website"><img src="https://opencollective.com/styled-icons/backers/0/avatar"></a>
+<a href="https://opencollective.com/styled-icons/backers/1/website"><img src="https://opencollective.com/styled-icons/backers/1/avatar"></a>
+<a href="https://opencollective.com/styled-icons/backers/2/website"><img src="https://opencollective.com/styled-icons/backers/2/avatar"></a>
+<a href="https://opencollective.com/styled-icons/backers/3/website"><img src="https://opencollective.com/styled-icons/backers/3/avatar"></a>
+<a href="https://opencollective.com/styled-icons/backers/4/website"><img src="https://opencollective.com/styled-icons/backers/4/avatar"></a>
+<a href="https://opencollective.com/styled-icons/backers/5/website"><img src="https://opencollective.com/styled-icons/backers/5/avatar"></a>
+<a href="https://opencollective.com/styled-icons/backers/6/website"><img src="https://opencollective.com/styled-icons/backers/6/avatar"></a>
+<a href="https://opencollective.com/styled-icons/backers/7/website"><img src="https://opencollective.com/styled-icons/backers/7/avatar"></a>
+<a href="https://opencollective.com/styled-icons/backers/8/website"><img src="https://opencollective.com/styled-icons/backers/8/avatar"></a>
+<a href="https://opencollective.com/styled-icons/backers/9/website"><img src="https://opencollective.com/styled-icons/backers/9/avatar"></a>
+
+
+<a href="https://opencollective.com/styled-icons/sponsors/0/website"><img src="https://opencollective.com/styled-icons/sponsors/0/avatar"></a>
+<a href="https://opencollective.com/styled-icons/sponsors/1/website"><img src="https://opencollective.com/styled-icons/sponsors/1/avatar"></a>
+<a href="https://opencollective.com/styled-icons/sponsors/2/website"><img src="https://opencollective.com/styled-icons/sponsors/2/avatar"></a>
+<a href="https://opencollective.com/styled-icons/sponsors/3/website"><img src="https://opencollective.com/styled-icons/sponsors/3/avatar"></a>
+<a href="https://opencollective.com/styled-icons/sponsors/4/website"><img src="https://opencollective.com/styled-icons/sponsors/4/avatar"></a>
+<a href="https://opencollective.com/styled-icons/sponsors/5/website"><img src="https://opencollective.com/styled-icons/sponsors/5/avatar"></a>
+<a href="https://opencollective.com/styled-icons/sponsors/6/website"><img src="https://opencollective.com/styled-icons/sponsors/6/avatar"></a>
+<a href="https://opencollective.com/styled-icons/sponsors/7/website"><img src="https://opencollective.com/styled-icons/sponsors/7/avatar"></a>
+<a href="https://opencollective.com/styled-icons/sponsors/8/website"><img src="https://opencollective.com/styled-icons/sponsors/8/avatar"></a>
+<a href="https://opencollective.com/styled-icons/sponsors/9/website"><img src="https://opencollective.com/styled-icons/sponsors/9/avatar"></a>
