@@ -2,6 +2,7 @@ import * as React from 'react'
 import {AutoSizer, Grid, WindowScroller, GridCellProps} from 'react-virtualized'
 import queryString from 'query-string'
 import {StyledIcon} from 'styled-icons'
+import Router from 'next/router'
 
 import * as JSSearch from 'js-search'
 
@@ -18,7 +19,6 @@ import {
 } from 'styled-icons'
 import iconManifest from 'styled-icons/manifest.json'
 
-import {history} from '../history'
 import {IconCard} from './IconCard'
 
 interface IconType {
@@ -101,7 +101,7 @@ export default class IconExplorer extends React.Component<Props, State> {
   updateSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     const search = event.target.value
     this.setState({search})
-    history.replace(`/?s=${encodeURIComponent(search)}`)
+    Router.replace(`/?s=${encodeURIComponent(search)}`)
   }
 
   render() {
