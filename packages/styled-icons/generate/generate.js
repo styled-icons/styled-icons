@@ -80,7 +80,6 @@ const generate = async () => {
 
   console.log('Building icons...')
   const totalIcons = icons.length
-  let builtIcons = 0
 
   for (const icon of icons) {
     const state = {}
