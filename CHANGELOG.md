@@ -1,5 +1,11 @@
 # Changelog
 
+## v5.7.0
+
+- Upgrade Feather icons to v4.10.0
+- Wrap SVGs with `React.forwardRef` to fix Styled Components `as` prop, `attrs`, and the `ref` prop
+- Use Next.js to build the website
+
 ## v5.6.0
 
 - Upgrade FontAwesome to v5.6.3
