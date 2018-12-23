@@ -2,21 +2,18 @@
   "private": true,
   "name": "@styled-icons/website",
   "version": "5.6.0",
-  "homepage": "/",
   "scripts": {
-    "build": "react-scripts build",
-    "serve": "serve -s build",
-    "start": "react-scripts start",
-    "test": "react-scripts test"
+    "build": "next build && next export -o build",
+    "start": "next dev"
   },
   "dependencies": {
+    "@loadable/component": "^5.2.2",
     "copy-to-clipboard": "^3.0.8",
     "history": "^4.7.2",
     "js-search": "^1.4.2",
     "query-string": "^6.2.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.1.1",
     "react-virtualized": "^9.18.5",
     "styled-components": "^4.0.3",
     "styled-icons": "^5.6.0"
@@ -30,15 +27,8 @@
     "@types/react-dom": "^16.0.9",
     "@types/react-virtualized": "^9.18.11",
     "@types/styled-components": "^4.1.4",
-    "serve": "^10.0.2"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+    "@zeit/next-typescript": "^1.1.1",
+    "next": "^7.0.2",
+    "next-plugin-styled-icons": "^5.2.0"
+  }
 }

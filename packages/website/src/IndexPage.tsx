@@ -1,9 +1,8 @@
-import React, {Suspense} from 'react'
+import React from 'react'
 
 import {Badges} from './components/Badges'
 import Layout from './components/Layout'
-
-const IconExplorer = React.lazy(() => import('./components/IconExplorer'))
+import IconExplorer from './components/IconExplorer'
 
 const IndexPage: React.SFC = () => (
   <Layout>
@@ -44,9 +43,7 @@ const App = () => <RedZap />
 
       <h2>Icon Explorer</h2>
 
-      <Suspense fallback={<div>Loading...</div>}>
-        <IconExplorer />
-      </Suspense>
+      <IconExplorer />
     </div>
   </Layout>
 )
