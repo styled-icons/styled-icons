@@ -3,19 +3,29 @@ import styled from 'styled-components'
 
 import {StyledIconProps} from '..{{cjs}}'
 
-export const {{name}} = styled.svg.attrs<any, StyledIconProps>(props => ({
-  children: props.title != null
-    ? [<title key="{{name}}-title">{props.title}</title>, {{svg}}]
-    : [{{svg}}],
-  viewBox: '{{viewBox}}',
-  height: props.height !== undefined ? props.height : props.size,
-  width: props.width !== undefined ? props.width : props.size,
-  // @ts-ignore - aria is not always defined on SVG in React TypeScript types
-  'aria-hidden': props.title == null ? 'true' : undefined,
-  focusable: 'false',
-  role: props.title != null ? 'img' : undefined,
-  {{attrs}},
-}))`
+const StyledIcon = React.forwardRef<SVGSVGElement, StyledIconProps>((props, ref) => {
+  const {title, size, ...svgProps} = props
+
+  const iconProps: React.SVGProps<SVGSVGElement> = {
+    viewBox: '{{viewBox}}',
+    height: props.height !== undefined ? props.height : props.size,
+    width: props.width !== undefined ? props.width : props.size,
+    // @ts-ignore - aria is not always defined on SVG in React TypeScript types
+    'aria-hidden': props.title == null ? 'true' : undefined,
+    focusable: 'false',
+    role: props.title != null ? 'img' : undefined,
+    {{attrs}},
+  }
+
+  return (
+    <svg {...iconProps} {...svgProps} ref={ref}>
+      {props.title && <title key="{{name}}-title">{props.title}</title>}
+      {{svg}}
+    </svg>
+  )
+})
+
+export const {{name}} = styled(StyledIcon)`
   display: inline-block;
   vertical-align: {{verticalAlign}};
   overflow: hidden;
