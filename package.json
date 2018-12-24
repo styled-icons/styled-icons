@@ -1,6 +1,8 @@
 {
   "private": true,
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "prettier": {
     "bracketSpacing": false,
     "printWidth": 100,
@@ -17,6 +19,7 @@
   },
   "devDependencies": {
     "lerna": "^3.5.0",
+    "netlify": "^2.2.1",
     "prettier": "^1.13.0"
   }
 }
