@@ -31,7 +31,7 @@ deploy:
     skip_cleanup: true
     on:
       repo: jacobwgillespie/styled-icons
-      condition: $TRAVIS_BRANCH != "master" && $TRAVIS_PULL_REQUEST == "false"
+      condition: $TRAVIS_BRANCH != "master" && $TRAVIS_PULL_REQUEST != "false"
   - provider: script
     script: yarn netlify deploy --dir packages/website/build --prod
     skip_cleanup: true
