@@ -48,11 +48,13 @@
     "styled-components": ">=4.1.0 <5"
   },
   "devDependencies": {
+    "@babel/core": "^7.2.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
     "@fortawesome/free-brands-svg-icons": "^5.6.3",
     "@fortawesome/free-regular-svg-icons": "^5.6.3",
     "@fortawesome/free-solid-svg-icons": "^5.6.3",
     "@styled-icons/icomoon-source": "Keyamoon/IcoMoon-Free#d006795ede82361e1bac1ee76f215cf1dc51e4ca",
+    "@types/next": "^7.0.5",
     "@types/node": "^10.12.7",
     "@types/react": "^16.7.14",
     "@types/styled-components": "^4.1.4",
