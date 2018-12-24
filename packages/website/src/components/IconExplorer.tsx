@@ -11,6 +11,7 @@ import {
   faRegular,
   faSolid,
   feather,
+  icomoon,
   material,
   octicons,
   boxiconsRegular,
@@ -43,6 +44,9 @@ const icons = iconManifest.map(
 
       case 'feather':
         return {...icon, icon: feather[icon.name as keyof typeof feather]}
+
+      case 'icomoon':
+        return {...icon, icon: icomoon[icon.name as keyof typeof icomoon]}
 
       case 'material':
         return {...icon, icon: material[icon.name as keyof typeof material]}
