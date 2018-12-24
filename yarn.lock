@@ -1401,6 +1401,10 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
+"@styled-icons/icomoon-source@Keyamoon/IcoMoon-Free#d006795ede82361e1bac1ee76f215cf1dc51e4ca":
+  version "0.0.0"
+  resolved "https://codeload.github.com/Keyamoon/IcoMoon-Free/tar.gz/d006795ede82361e1bac1ee76f215cf1dc51e4ca"
+
 "@types/history@^4.7.2":
   version "4.7.2"
   resolved "https://registry.yarnpkg.com/@types/history/-/history-4.7.2.tgz#0e670ea254d559241b6eeb3894f8754991e73220"

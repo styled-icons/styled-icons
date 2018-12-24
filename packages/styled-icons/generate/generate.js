@@ -13,6 +13,7 @@ const PACKS = [
   'fa-solid',
   'fa-brands',
   'feather',
+  'icomoon',
   'material',
   'octicons',
   'boxicons-regular',
