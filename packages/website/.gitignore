@@ -1,2 +1,5 @@
 .next/
-build
+build/404/
+build/index/
+build/index.html
+build/_next/

@@ -20,9 +20,22 @@ after_success:
   - npm config set "//registry.npmjs.org/:_authToken=\${NPM_API_KEY}"
 
 deploy:
-  provider: script
-  script: yarn push from-git -y
-  skip_cleanup: true
-  on:
-    repo: jacobwgillespie/styled-icons
-    tags: true
+  - provider: script
+    script: yarn push from-git -y
+    skip_cleanup: true
+    on:
+      repo: jacobwgillespie/styled-icons
+      tags: true
+  - provider: script
+    script: yarn netlify deploy --dir packages/website/build
+    skip_cleanup: true
+    on:
+      repo: jacobwgillespie/styled-icons
+      all_branches: true
+      condition: $TRAVIS_BRANCH != "master"
+  - provider: script
+    script: yarn netlify deploy --dir packages/website/build --prod
+    skip_cleanup: true
+    on:
+      repo: jacobwgillespie/styled-icons
+      branch: master

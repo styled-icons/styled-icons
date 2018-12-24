@@ -1,11 +1,20 @@
 import React from 'react'
+import Head from 'next/head'
+import Loadable from 'react-loadable'
 
 import {Badges} from './components/Badges'
 import Layout from './components/Layout'
-import IconExplorer from './components/IconExplorer'
+
+const IconExplorer = Loadable({
+  loader: () => import('./components/IconExplorer'),
+  loading: () => <div>Loading...</div>,
+})
 
 const IndexPage: React.SFC = () => (
   <Layout>
+    <Head>
+      <title>Styled Icons - a Styled Components icon library</title>
+    </Head>
     <div>
       <h1>
         Styled Icons{' '}
