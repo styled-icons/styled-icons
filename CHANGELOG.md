@@ -1,5 +1,9 @@
 # Changelog
 
+## v5.8.0
+
+- Add Icomoon free icons
+
 ## v5.7.0
 
 - Upgrade Feather icons to v4.10.0
