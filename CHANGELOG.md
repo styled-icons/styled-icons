@@ -1,5 +1,25 @@
 # Changelog
 
+## v6.0.0
+
+- **(breaking)** remove an export of the `StyledIconProps` TypeScript type from each of the icon pack exports. This export was previously accidental. Each of the exports from the icon packs was assumed to be an icon, so unless you are depending on the extra export, you do not need to change anything.
+
+  As an example, if you have this code:
+
+  ```typescript
+  import {StyledIconProps} from 'styled-icons/material' // or any other pack
+  ```
+
+  You should replace it with:
+
+  ```typescript
+  import {StyledIconProps} from 'styled-icons'
+  ```
+
+- Use Babel to build the library files
+  - Reduces bundle size by avoiding duplication of helper functions
+  - Pre-processes Styled Icons with the Styled Components Babel plugin to fix issues with server-side rendering
+
 ## v5.8.0
 
 - Add Icomoon free icons
