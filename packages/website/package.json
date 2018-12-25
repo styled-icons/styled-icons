@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@styled-icons/website",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "scripts": {
     "build": "next build && next export -o build && cp -r public/* build/",
     "start": "next dev"
@@ -17,7 +17,7 @@
     "react-loadable": "^5.5.0",
     "react-virtualized": "^9.18.5",
     "styled-components": "^4.0.3",
-    "styled-icons": "^6.0.0"
+    "styled-icons": "^6.0.1"
   },
   "devDependencies": {
     "@types/history": "^4.7.2",
@@ -30,6 +30,6 @@
     "@types/styled-components": "^4.1.4",
     "@zeit/next-typescript": "^1.1.1",
     "next": "^7.0.2",
-    "next-plugin-styled-icons": "^6.0.0"
+    "next-plugin-styled-icons": "^6.0.1"
   }
 }
