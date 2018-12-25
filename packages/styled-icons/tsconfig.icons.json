@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "emitDeclarationOnly": true,
     "declaration": true,
     "module": "es2015",
     "outDir": "./build/icons",
@@ -8,5 +9,5 @@
     "strict": false,
     "target": "es5"
   },
-  "exclude": ["./build/typescript/**/*.cjs.ts", "./build/typescript/**/*.cjs.tsx", "website"]
+  "exclude": []
 }

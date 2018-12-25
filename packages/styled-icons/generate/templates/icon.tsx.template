@@ -8,18 +8,18 @@ const StyledIcon = React.forwardRef<SVGSVGElement, StyledIconProps>((props, ref)
 
   const iconProps: React.SVGProps<SVGSVGElement> = {
     viewBox: '{{viewBox}}',
-    height: props.height !== undefined ? props.height : props.size,
-    width: props.width !== undefined ? props.width : props.size,
+    height: props.height !== undefined ? props.height : size,
+    width: props.width !== undefined ? props.width : size,
     // @ts-ignore - aria is not always defined on SVG in React TypeScript types
-    'aria-hidden': props.title == null ? 'true' : undefined,
+    'aria-hidden': title == null ? 'true' : undefined,
     focusable: 'false',
-    role: props.title != null ? 'img' : undefined,
+    role: title != null ? 'img' : undefined,
     {{attrs}},
   }
 
   return (
     <svg {...iconProps} {...svgProps} ref={ref}>
-      {props.title && <title key="{{name}}-title">{props.title}</title>}
+      {title && <title key="{{name}}-title">{title}</title>}
       {{svg}}
     </svg>
   )
