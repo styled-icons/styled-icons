@@ -145,11 +145,7 @@ const generate = async () => {
             return seen ? null : `export {${name}} from './${name}${cjs ? '.cjs' : ''}'`
           })
           .filter(lines => lines)
-          .join('\n') +
-          `
-
-export {StyledIconProps} from '..${cjs ? '/index.cjs' : ''}'
-`,
+          .join('\n'),
       )
     }
 
