@@ -3,7 +3,7 @@
   "name": "@styled-icons/website",
   "version": "6.0.0",
   "scripts": {
-    "build": "next build && next export -o build",
+    "build": "next build && next export -o build && cp -r public/* build/",
     "start": "next dev"
   },
   "dependencies": {
