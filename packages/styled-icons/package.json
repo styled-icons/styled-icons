@@ -48,7 +48,14 @@
     "styled-components": ">=4.1.0 <5"
   },
   "devDependencies": {
+    "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.1.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
     "@fortawesome/free-brands-svg-icons": "^5.6.3",
     "@fortawesome/free-regular-svg-icons": "^5.6.3",
@@ -58,6 +65,7 @@
     "@types/node": "^10.12.7",
     "@types/react": "^16.7.14",
     "@types/styled-components": "^4.1.4",
+    "babel-plugin-styled-components": "^1.10.0",
     "boxicons": "^1.8.0",
     "execa": "^1.0.0",
     "fast-case": "^1.2.1",
@@ -74,5 +82,8 @@
     "styled-components": "^4.0.3",
     "svgo": "^1.0.5",
     "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.2.0"
   }
 }

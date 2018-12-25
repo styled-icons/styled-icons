@@ -116,9 +116,9 @@ const generate = async () => {
         .replace(/{{viewBox}}/g, icon.viewBox)
         .replace(/{{width}}/g, icon.width)
 
-    const destinationPath = path.join(baseDir, 'typescript', icon.pack)
-    await fs.outputFile(path.join(destinationPath, `${icon.name}.tsx`), component())
-    await fs.outputFile(path.join(destinationPath, `${icon.name}.cjs.tsx`), component(true))
+    const destinationPath = cjs => path.join(baseDir, 'typescript', cjs ? 'cjs' : 'esm', icon.pack)
+    await fs.outputFile(path.join(destinationPath(), `${icon.name}.tsx`), component())
+    await fs.outputFile(path.join(destinationPath(true), `${icon.name}.cjs.tsx`), component(true))
   }
 
   console.log('Writing index files...')
@@ -129,7 +129,13 @@ const generate = async () => {
 
       const packIcons = icons.filter(({pack}) => pack === iconPack)
       await fs.outputFile(
-        path.join(baseDir, 'typescript', iconPack, cjs ? 'index.cjs.ts' : 'index.ts'),
+        path.join(
+          baseDir,
+          'typescript',
+          cjs ? 'cjs' : 'esm',
+          iconPack,
+          cjs ? 'index.cjs.ts' : 'index.ts',
+        ),
 
         packIcons
           .map(({name}) => {
@@ -148,7 +154,7 @@ export {StyledIconProps} from '..${cjs ? '/index.cjs' : ''}'
     }
 
     await fs.writeFileSync(
-      path.join(baseDir, 'typescript', cjs ? 'index.cjs.ts' : 'index.ts'),
+      path.join(baseDir, 'typescript', cjs ? 'cjs' : 'esm', cjs ? 'index.cjs.ts' : 'index.ts'),
       `import * as React from 'react'
 
 ${PACKS.map(
@@ -162,7 +168,7 @@ export interface StyledIconProps extends React.SVGProps<SVGSVGElement> {
   title?: string | null
 }
 
-export type StyledIcon = typeof import('./octicons/Alert').Alert
+export type StyledIcon = typeof octicons.Alert
 
 export {${PACKS.map(fastCase.camelize).join(', ')}}
 `,
@@ -172,7 +178,7 @@ export {${PACKS.map(fastCase.camelize).join(', ')}}
   await writeIndexFiles()
   await writeIndexFiles(true)
 
-  console.log('Building ESM JavaScript...')
+  console.log('Generating TypeScript types...')
 
   let compiler = execa('./node_modules/.bin/tsc', [
     '--project',
@@ -183,28 +189,50 @@ export {${PACKS.map(fastCase.camelize).join(', ')}}
   compiler.stderr.pipe(process.stderr)
   await compiler
 
+  console.log('Building ESM JavaScript...')
+
+  compiler = execa('./node_modules/.bin/babel', [
+    'build/typescript/esm',
+    '--out-dir',
+    'build/icons',
+    '--extensions',
+    '.ts,.tsx',
+    '--config-file',
+    './.babelrc.esm',
+    '--no-babelrc',
+  ])
+  compiler.stdout.pipe(process.stdout)
+  compiler.stderr.pipe(process.stderr)
+  await compiler
+
   console.log('Building CJS bundles...')
 
-  compiler = execa('./node_modules/.bin/tsc', [
-    '--project',
-    './tsconfig.icons.cjs.json',
-    '--pretty',
+  compiler = execa('./node_modules/.bin/babel', [
+    'build/typescript/cjs',
+    '--out-dir',
+    'build/icons',
+    '--extensions',
+    '.ts,.tsx',
   ])
   compiler.stdout.pipe(process.stdout)
   compiler.stderr.pipe(process.stderr)
   await compiler
 
   console.log('Copying files to destination...')
-  const builtFiles = [...PACKS, 'index.d.ts', 'index.js']
+  const builtFiles = [...PACKS, 'index.js', 'index.cjs.js']
   for (const builtFile of builtFiles) {
     await fs.remove(path.join(__dirname, '..', builtFile))
     await fs.move(path.join(baseDir, 'icons', builtFile), path.join(__dirname, '..', builtFile))
   }
 
-  const cjsFiles = await fg('build/icons-cjs/**/*.cjs.js')
-  for (const cjsFile of cjsFiles) {
-    const destination = path.join(__dirname, '..', cjsFile.replace('build/icons-cjs/', ''))
-    await fs.move(path.join(__dirname, '..', cjsFile), destination, {overwrite: true})
+  const tsFiles = await fg('build/icons/**/*.d.ts')
+  for (const tsFile of tsFiles) {
+    const destination = path.join(
+      __dirname,
+      '..',
+      tsFile.replace('build/icons/cjs/', '').replace('build/icons/esm/', ''),
+    )
+    await fs.move(path.join(__dirname, '..', tsFile), destination)
   }
 
   console.log('Writing icon manifest for website...')

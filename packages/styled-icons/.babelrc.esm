@@ -1,0 +1,22 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "useBuiltIns": "entry",
+        "modules": false,
+        "targets": {
+          "esmodules": true
+        }
+      }
+    ],
+    "@babel/preset-typescript",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/proposal-class-properties",
+    "@babel/proposal-object-rest-spread",
+    "@babel/plugin-transform-runtime",
+    "babel-plugin-styled-components"
+  ]
+}
