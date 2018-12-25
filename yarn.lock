@@ -1617,9 +1617,9 @@
     "@types/react-loadable" "*"
 
 "@types/next@^7.0.5":
-  version "7.0.5"
-  resolved "https://registry.yarnpkg.com/@types/next/-/next-7.0.5.tgz#6802383cb1985f88a05130f1cacb32653acea7ef"
-  integrity sha512-XAUVUk9OaprcKIKsUTlND4maL0xPO+8tnLw62pE+MbFTGe+IaFYkvvycQV9we2mDk3ZLt3wHaKqbyVHdhzvNkQ==
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/@types/next/-/next-7.0.6.tgz#c4dabfe8707404160651ecf1fa35fd33cc566cdb"
+  integrity sha512-umm6e2UcVxO5HFZCpvFbedIW62Dv+6TS64hPdtgnzvlwsTNcILTXdq7virH+UWWDI/qdMQiiZHcqbXDzF0AUzA==
   dependencies:
     "@types/next-server" "*"
     "@types/node" "*"
