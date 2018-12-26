@@ -1,5 +1,9 @@
 # Changelog
 
+## v6.1.0
+
+- Add Typicons icon pack
+
 ## v6.0.1
 
 - No code changes, fix issue with broken CI deployment
