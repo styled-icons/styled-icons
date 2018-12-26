@@ -9056,6 +9056,11 @@ typescript@^3.1.6:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.2.2.tgz#fe8101c46aa123f8353523ebdcf5730c2ae493e5"
   integrity sha512-VCj5UiSyHBjwfYacmDuc/NOk4QQixbE+Wn7MFJuS0nRuPQbof132Pw4u53dm264O8LPc2MVsc7RJNml5szurkg==
 
+typicons.font@^2.0.9:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/typicons.font/-/typicons.font-2.0.9.tgz#caa15c3d0c92219356342d9ca138adda793b9548"
+  integrity sha1-yqFcPQySIZNWNC2coTit2nk7lUg=
+
 ua-parser-js@^0.7.18:
   version "0.7.19"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.19.tgz#94151be4c0a7fb1d001af7022fdaca4642659e4b"

@@ -16,6 +16,7 @@ const PACKS = [
   'icomoon',
   'material',
   'octicons',
+  'typicons',
   'boxicons-regular',
   'boxicons-solid',
   'boxicons-logos',

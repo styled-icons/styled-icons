@@ -54,6 +54,9 @@ const icons = iconManifest.map(
       case 'octicons':
         return {...icon, icon: octicons[icon.name as keyof typeof octicons]}
 
+      case 'typicons':
+        return {...icon, icon: typicons[icon.name as keyof typeof typicons]}
+
       case 'boxicons-regular':
         return {...icon, icon: boxiconsRegular[icon.name as keyof typeof boxiconsRegular]}
 
