@@ -9,17 +9,18 @@ const h2x = require('./transform/h2x')
 const svgo = require('./transform/svgo')
 
 const PACKS = [
+  'boxicons-logos',
+  'boxicons-regular',
+  'boxicons-solid',
+  'crypto',
+  'fa-brands',
   'fa-regular',
   'fa-solid',
-  'fa-brands',
   'feather',
   'icomoon',
   'material',
   'octicons',
   'typicons',
-  'boxicons-regular',
-  'boxicons-solid',
-  'boxicons-logos',
 ]
 
 const SVG_ATTRS = [

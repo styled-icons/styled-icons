@@ -7,6 +7,10 @@ import Router from 'next/router'
 import * as JSSearch from 'js-search'
 
 import {
+  boxiconsLogos,
+  boxiconsRegular,
+  boxiconsSolid,
+  crypto,
   faBrands,
   faRegular,
   faSolid,
@@ -14,9 +18,7 @@ import {
   icomoon,
   material,
   octicons,
-  boxiconsRegular,
-  boxiconsSolid,
-  boxiconsLogos,
+  typicons,
 } from 'styled-icons'
 import iconManifest from 'styled-icons/manifest.json'
 
@@ -33,6 +35,18 @@ interface IconType {
 const icons = iconManifest.map(
   (icon: any): IconType => {
     switch (icon.pack) {
+      case 'boxicons-logos':
+        return {...icon, icon: boxiconsLogos[icon.name as keyof typeof boxiconsLogos]}
+
+      case 'boxicons-regular':
+        return {...icon, icon: boxiconsRegular[icon.name as keyof typeof boxiconsRegular]}
+
+      case 'boxicons-solid':
+        return {...icon, icon: boxiconsSolid[icon.name as keyof typeof boxiconsSolid]}
+
+      case 'crypto':
+        return {...icon, icon: crypto[icon.name as keyof typeof crypto]}
+
       case 'fa-brands':
         return {...icon, icon: faBrands[icon.name as keyof typeof faBrands]}
 
@@ -56,15 +70,6 @@ const icons = iconManifest.map(
 
       case 'typicons':
         return {...icon, icon: typicons[icon.name as keyof typeof typicons]}
-
-      case 'boxicons-regular':
-        return {...icon, icon: boxiconsRegular[icon.name as keyof typeof boxiconsRegular]}
-
-      case 'boxicons-solid':
-        return {...icon, icon: boxiconsSolid[icon.name as keyof typeof boxiconsSolid]}
-
-      case 'boxicons-logos':
-        return {...icon, icon: boxiconsLogos[icon.name as keyof typeof boxiconsLogos]}
 
       default:
         return {...icon, icon: null}
