@@ -12,6 +12,9 @@
   "typings": "./index.d.ts",
   "sideEffects": false,
   "files": [
+    "/boxicons-regular",
+    "/boxicons-solid",
+    "/boxicons-logos",
     "/fa-brands",
     "/fa-regular",
     "/fa-solid",
@@ -20,9 +23,7 @@
     "/manifest.json",
     "/material",
     "/octicons",
-    "/boxicons-regular",
-    "/boxicons-solid",
-    "/boxicons-logos",
+    "/typicons",
     "/index.d.ts",
     "/index.cjs.js",
     "/index.js",
@@ -41,7 +42,7 @@
   ],
   "scripts": {
     "build": "node generate/generate.js && cp ../../README.md .",
-    "clean": "rm -rf boxicons-logos boxicons-regular boxicons-solid build fa-brands fa-regular fa-solid feather icomoon material octicons public manifest.json index.d.ts index.cjs.js index.js"
+    "clean": "rm -rf boxicons-logos boxicons-regular boxicons-solid build fa-brands fa-regular fa-solid feather icomoon material octicons typicons public manifest.json index.d.ts index.cjs.js index.js"
   },
   "peerDependencies": {
     "react": "*",
@@ -81,7 +82,8 @@
     "react-dom": "^16.5.2",
     "styled-components": "^4.0.3",
     "svgo": "^1.0.5",
-    "typescript": "^3.1.6"
+    "typescript": "^3.1.6",
+    "typicons.font": "^2.0.9"
   },
   "dependencies": {
     "@babel/runtime": "^7.2.0"

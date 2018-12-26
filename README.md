@@ -8,7 +8,7 @@
 
 [![View Icons](https://gui.apex.sh/component?name=ShadowButton&config=%7B%22text%22%3A%22ICON%20EXPLORER%22%2C%22color%22%3A%22db7093%22%7D)](https://styled-icons.js.org)
 
-`styled-icons` provides the [Font Awesome](https://fontawesome.com/), [Feather](https://feathericons.com/), [Icomoon](https://icomoon.io), [Material Design](https://material.io/icons/), [Octicons](https://octicons.github.com/), and [Boxicons](https://boxicons.com/) icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules.
+`styled-icons` provides the [Font Awesome](https://fontawesome.com/), [Feather](https://feathericons.com/), [Icomoon](https://icomoon.io), [Material Design](https://material.io/icons/), [Octicons](https://octicons.github.com/), [Typicons](https://www.s-ings.com/typicons/), and [Boxicons](https://boxicons.com/) icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules.
 
 ---
 
@@ -57,6 +57,7 @@ import * as feather from 'styled-icons/feather'
 import * as icomoon from 'styled-icons/icomoon'
 import * as material from 'styled-icons/material'
 import * as octicons from 'styled-icons/octicons'
+import * as typicons from 'styled-icons/typicons'
 import * as boxiconsRegular from 'styled-icons/boxicons-regular'
 import * as boxiconsSolid from 'styled-icons/boxicons-solid'
 import * as boxiconsLogos from 'styled-icons/boxicons-logos'
@@ -236,11 +237,13 @@ The Font Awesome icons are licensed under the [CC BY 4.0 License](https://github
 
 The Feather icons are licensed under the [MIT License](https://github.com/feathericons/feather/blob/master/LICENSE).
 
-The Icomoon icons are dual licensed under [GPL](http://www.gnu.org/licenses/gpl.html) / [CC BY 4.0 License](http://creativecommons.org/licenses/by/4.0/)
+The Icomoon icons are dual licensed under [GPL](http://www.gnu.org/licenses/gpl.html) / [CC BY 4.0 License](http://creativecommons.org/licenses/by/4.0/).
 
 The Material Design icons are licensed under the [Apache License Version 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE).
 
 The Octicons are licensed under the [MIT License](https://github.com/primer/octicons/blob/master/LICENSE).
+
+The Typicons are licensed under the [CC BY SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/).
 
 ## Contributors
 
