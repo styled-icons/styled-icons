@@ -1,5 +1,9 @@
 # Changelog
 
+## v6.2.0
+
+- Add Cryptocurrency icon pack
+
 ## v6.1.0
 
 - Add Typicons icon pack
