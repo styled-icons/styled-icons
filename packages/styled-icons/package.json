@@ -15,6 +15,7 @@
     "/boxicons-regular",
     "/boxicons-solid",
     "/boxicons-logos",
+    "/crypto",
     "/fa-brands",
     "/fa-regular",
     "/fa-solid",
@@ -42,7 +43,7 @@
   ],
   "scripts": {
     "build": "node generate/generate.js && cp ../../README.md .",
-    "clean": "rm -rf boxicons-logos boxicons-regular boxicons-solid build fa-brands fa-regular fa-solid feather icomoon material octicons typicons public manifest.json index.d.ts index.cjs.js index.js"
+    "clean": "rm -rf boxicons-logos boxicons-regular boxicons-solid build crypto fa-brands fa-regular fa-solid feather icomoon material octicons typicons public manifest.json index.d.ts index.cjs.js index.js"
   },
   "peerDependencies": {
     "react": "*",
@@ -68,6 +69,7 @@
     "@types/styled-components": "^4.1.4",
     "babel-plugin-styled-components": "^1.10.0",
     "boxicons": "^1.8.0",
+    "cryptocurrency-icons": "^0.9.3",
     "execa": "^1.0.0",
     "fast-case": "^1.2.1",
     "fast-glob": "^2.2.3",

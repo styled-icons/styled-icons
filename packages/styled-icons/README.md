@@ -8,7 +8,7 @@
 
 [![View Icons](https://gui.apex.sh/component?name=ShadowButton&config=%7B%22text%22%3A%22ICON%20EXPLORER%22%2C%22color%22%3A%22db7093%22%7D)](https://styled-icons.js.org)
 
-`styled-icons` provides the [Font Awesome](https://fontawesome.com/), [Feather](https://feathericons.com/), [Icomoon](https://icomoon.io), [Material Design](https://material.io/icons/), [Octicons](https://octicons.github.com/), [Typicons](https://www.s-ings.com/typicons/), and [Boxicons](https://boxicons.com/) icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules.
+`styled-icons` provides the [Font Awesome](https://fontawesome.com/), [Feather](https://feathericons.com/), [Icomoon](https://icomoon.io), [Material Design](https://material.io/icons/), [Octicons](https://octicons.github.com/), [Typicons](https://www.s-ings.com/typicons/), [Crypto Icons](http://cryptoicons.co) and [Boxicons](https://boxicons.com/) icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules.
 
 ---
 
@@ -50,6 +50,10 @@ The entire icon packs are available via the main import and sub-imports:
 ```javascript
 import {material, octicons} from 'styled-icons'
 
+import * as boxiconsLogos from 'styled-icons/boxicons-logos'
+import * as boxiconsRegular from 'styled-icons/boxicons-regular'
+import * as boxiconsSolid from 'styled-icons/boxicons-solid'
+import * as crypto from 'styled-icons/crypto'
 import * as faBrands from 'styled-icons/fa-brands'
 import * as faRegular from 'styled-icons/fa-regular'
 import * as faSolid from 'styled-icons/fa-solid'
@@ -58,9 +62,6 @@ import * as icomoon from 'styled-icons/icomoon'
 import * as material from 'styled-icons/material'
 import * as octicons from 'styled-icons/octicons'
 import * as typicons from 'styled-icons/typicons'
-import * as boxiconsRegular from 'styled-icons/boxicons-regular'
-import * as boxiconsSolid from 'styled-icons/boxicons-solid'
-import * as boxiconsLogos from 'styled-icons/boxicons-logos'
 ```
 
 The icons are also available as individual imports - it is recommended that you import icons individually using ES modules along with a module bundler like Webpack or Rollup in order to enable tree-shaking. This means that the module bundler will remove unused icons from the final JavaScript bundle, saving bandwidth and speeding up loading:
@@ -232,6 +233,8 @@ Contributions are welcome! Feel free to open an issue or a pull request and part
 The MIT License - see `LICENSE`.
 
 The Boxicons are licensed under the [CC BY 4.0 License](https://boxicons.com/get-started#license).
+
+The Cryptocurrency icons are licensed under the [CC0 1.0 Universal License](https://github.com/atomiclabs/cryptocurrency-icons/blob/master/LICENSE.md).
 
 The Font Awesome icons are licensed under the [CC BY 4.0 License](https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt).
 
