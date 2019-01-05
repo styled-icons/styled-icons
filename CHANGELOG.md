@@ -1,5 +1,9 @@
 # Changelog
 
+## v6.2.1
+
+- Fix issue where custom props that were not valid DOM attributes were passed through to the `<svg>` element
+
 ## v6.2.0
 
 - Add Cryptocurrency icon pack
