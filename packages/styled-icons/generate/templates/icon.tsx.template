@@ -1,10 +1,11 @@
 import * as React from 'react'
 import styled from 'styled-components'
+import validProp from '@emotion/is-prop-valid'
 
 import {StyledIconProps} from '..{{cjs}}'
 
 const StyledIcon = React.forwardRef<SVGSVGElement, StyledIconProps>((props, ref) => {
-  const {title, size, ...svgProps} = props
+  const {title, size, ...otherProps} = props
 
   const iconProps: React.SVGProps<SVGSVGElement> = {
     viewBox: '{{viewBox}}',
@@ -16,6 +17,15 @@ const StyledIcon = React.forwardRef<SVGSVGElement, StyledIconProps>((props, ref)
     role: title != null ? 'img' : undefined,
     {{attrs}},
   }
+
+  const svgProps = Object.keys(otherProps).reduce(
+    (p, k) => {
+      if (validProp(k)) {
+        p[k] = otherProps[k]
+      }
+      return p
+    }, {}
+  )
 
   return (
     <svg {...iconProps} {...svgProps} ref={ref}>
