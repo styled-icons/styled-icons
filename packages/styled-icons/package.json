@@ -28,7 +28,11 @@
     "/index.d.ts",
     "/index.cjs.js",
     "/index.js",
-    "/README.md"
+    "/README.md",
+    "/types.cjs.d.ts",
+    "/types.cjs.js",
+    "/types.d.ts",
+    "/types.js"
   ],
   "keywords": [
     "styled-components",
@@ -43,7 +47,7 @@
   ],
   "scripts": {
     "build": "node generate/generate.js && cp ../../README.md .",
-    "clean": "rm -rf boxicons-logos boxicons-regular boxicons-solid build crypto fa-brands fa-regular fa-solid feather icomoon material octicons typicons public manifest.json index.d.ts index.cjs.js index.js"
+    "clean": "rm -rf boxicons-logos boxicons-regular boxicons-solid build crypto fa-brands fa-regular fa-solid feather icomoon material octicons typicons public manifest.json index.d.ts index.cjs.js index.js types.cjs.d.ts types.cjs.js types.d.ts types.js"
   },
   "peerDependencies": {
     "react": "*",

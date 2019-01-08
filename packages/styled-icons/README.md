@@ -211,11 +211,11 @@ Be aware though that importing from the CommonJS icon pack bundles will likely r
 
 ### TypeScript
 
-The icons of `styled-icons` are built using TypeScript and export type definitions. If you need a type to reference any styled icon, there is a `StyledIcon` type exported from the root package import:
+The icons of `styled-icons` are built using TypeScript and export type definitions. If you need a type to reference any styled icon, there is a `StyledIcon` type exported from the `styled-icons/types` import:
 
 ```typescript
 import styled from 'styled-components'
-import {StyledIcon} from 'styled-icons'
+import {StyledIcon} from 'styled-icons/types'
 
 interface Props {
   icon: StyledIcon

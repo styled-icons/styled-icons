@@ -2,7 +2,7 @@ import * as React from 'react'
 import styled from 'styled-components'
 import validProp from '@emotion/is-prop-valid'
 
-import {StyledIconProps} from '..{{cjs}}'
+import {StyledIconProps} from '../types{{cjs}}'
 
 const StyledIcon = React.forwardRef<SVGSVGElement, StyledIconProps>((props, ref) => {
   const {title, size, ...otherProps} = props

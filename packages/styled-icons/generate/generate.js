@@ -76,6 +76,10 @@ const generate = async () => {
     'index.cjs.d.ts',
     'index.cjs.js',
     'index.js',
+    'types.d.ts',
+    'types.cjs.d.ts',
+    'types.js',
+    'types.cjs.js',
   ]
   for (const destinationFile of destinationFiles) {
     await fs.remove(path.join(__dirname, '..', destinationFile))
@@ -111,7 +115,7 @@ const generate = async () => {
       template
         .replace(/{{attrs}}/g, JSON.stringify(icon.attrs, null, 2).slice(2, -2))
         .replace(/{{height}}/g, icon.height)
-        .replace(/{{cjs}}/g, cjs ? '/index.cjs' : '')
+        .replace(/{{cjs}}/g, cjs ? '.cjs' : '')
         .replace(/{{name}}/g, icon.name)
         .replace(/{{svg}}/g, result)
         .replace(/{{verticalAlign}}/g, icon.verticalAlign || 'middle')
@@ -160,13 +164,7 @@ ${PACKS.map(
           `import * as ${fastCase.camelize(pack)} from './${pack}${cjs ? '/index.cjs' : ''}'`,
       ).join('\n')}
 
-export interface StyledIconProps extends React.SVGProps<SVGSVGElement> {
-  'aria-hidden'?: string
-  size?: number | string
-  title?: string | null
-}
-
-export type StyledIcon = typeof octicons.Alert
+export {StyledIcon, StyledIconProps} from './types${cjs ? '.cjs' : ''}'
 
 export {${PACKS.map(fastCase.camelize).join(', ')}}
 `,
@@ -175,6 +173,26 @@ export {${PACKS.map(fastCase.camelize).join(', ')}}
 
   await writeIndexFiles()
   await writeIndexFiles(true)
+
+  console.log('Writing shared types file...')
+
+  const sharedTypesFile = cjs => `import * as React from 'react'
+import {Alert} from './octicons/Alert${cjs ? '.cjs' : ''}'
+
+export interface StyledIconProps extends React.SVGProps<SVGSVGElement> {
+  'aria-hidden'?: string
+  size?: number | string
+  title?: string | null
+}
+
+export type StyledIcon = typeof Alert
+`
+
+  await fs.writeFileSync(path.join(baseDir, 'typescript', 'esm', 'types.ts'), sharedTypesFile())
+  await fs.writeFileSync(
+    path.join(baseDir, 'typescript', 'cjs', 'types.cjs.ts'),
+    sharedTypesFile(true),
+  )
 
   console.log('Generating TypeScript types...')
 
@@ -217,7 +235,7 @@ export {${PACKS.map(fastCase.camelize).join(', ')}}
   await compiler
 
   console.log('Copying files to destination...')
-  const builtFiles = [...PACKS, 'index.js', 'index.cjs.js']
+  const builtFiles = [...PACKS, 'index.js', 'index.cjs.js', 'types.js', 'types.cjs.js']
   for (const builtFile of builtFiles) {
     await fs.remove(path.join(__dirname, '..', builtFile))
     await fs.move(path.join(baseDir, 'icons', builtFile), path.join(__dirname, '..', builtFile))

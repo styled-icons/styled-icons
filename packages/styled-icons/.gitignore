@@ -17,3 +17,7 @@ typicons/
 /index.cjs.d.ts
 /index.js
 /manifest.json
+/types.cjs.d.ts
+/types.cjs.js
+/types.d.ts
+/types.js
