@@ -1,5 +1,21 @@
 # Changelog
 
+## v6.3.0
+
+- Fix issue where TypeScript compiler would evaluate all icon files, regardless of what icons were imported, significantly increasing compile time. This was due to the `StyledIcon` TypeScript type. To resolve, there is now a `styled-icons/types` import for that type. If you previously imported it from `styled-icons`, you should update to speed up your builds.
+
+  If you previously had this code:
+
+  ```typescript
+  import {StyledIcon} from 'styled-icons'
+  ```
+
+  You should replace it with:
+
+  ```typescript
+  import {StyledIcon} from 'styled-icons/types'
+  ```
+
 ## v6.2.1
 
 - Fix issue where custom props that were not valid DOM attributes were passed through to the `<svg>` element
