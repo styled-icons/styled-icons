@@ -906,12 +906,12 @@
   resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.1.tgz#82d0993d8882bb05e0645fbb4731d9e939e895b3"
   integrity sha512-I2EjI9TbEFJNLziNPFfpo64PNanOaK17iL2kTW/jGlGOa4bvHw4VEied83kOEB7NJjXf1KfvmsQ2aEjy3xjiGg==
 
-"@lerna/add@^3.9.0":
-  version "3.9.0"
-  resolved "https://registry.yarnpkg.com/@lerna/add/-/add-3.9.0.tgz#cc6bacfdc549e914bf52ea6a7adfe2d9bcd67cfe"
-  integrity sha512-07kYOC5zXQKII9Dz7g6ZlSb5Ey34JEiI32np08bDija2AfKou5rdDJ/BMOQF9J6VwyKgakSOB9batgF7QYcapg==
+"@lerna/add@^3.9.1":
+  version "3.9.1"
+  resolved "https://registry.yarnpkg.com/@lerna/add/-/add-3.9.1.tgz#1ffe18a97539fc6d2bdf2d434b233d07703938b1"
+  integrity sha512-zSDkqW1yL4hyu6awDsnjxXWcrRFeT4BNjXEkJ4DGnYOMDkxRwpHnZaYhcIdWyJFm/IMfhUD61v+VyPtqMosHKw==
   dependencies:
-    "@lerna/bootstrap" "^3.9.0"
+    "@lerna/bootstrap" "^3.9.1"
     "@lerna/command" "^3.8.5"
     "@lerna/filter-options" "^3.9.0"
     "@lerna/npm-conf" "^3.7.0"
@@ -930,10 +930,10 @@
     "@lerna/validation-error" "^3.6.0"
     libnpm "^2.0.1"
 
-"@lerna/bootstrap@^3.9.0":
-  version "3.9.0"
-  resolved "https://registry.yarnpkg.com/@lerna/bootstrap/-/bootstrap-3.9.0.tgz#c21ad5a8bba09a71f0977e7d13b1ef420272630b"
-  integrity sha512-oH0FeR3EKiLxGQAAwZFRa4UCdhNqzxGVmqTDzEzZpAwLzygVrKJ0XZWI/efQ8zloPYS5JoLsVfcKZTpKWz47Pg==
+"@lerna/bootstrap@^3.9.1":
+  version "3.9.1"
+  resolved "https://registry.yarnpkg.com/@lerna/bootstrap/-/bootstrap-3.9.1.tgz#caa6378d451f35cfd98d1f6f24c73a967253a0a8"
+  integrity sha512-MjA9Q0xe191TSQVnc92SOicN63dQKzP3X+nj51fHmWmRBCeLrNAhhl5Dig6pMiFVcK8oxuCP5XPYfIDGY9DWuw==
   dependencies:
     "@lerna/batch-packages" "^3.6.0"
     "@lerna/command" "^3.8.5"
@@ -5610,12 +5610,12 @@ lcid@^2.0.0:
     invert-kv "^2.0.0"
 
 lerna@^3.5.0:
-  version "3.9.0"
-  resolved "https://registry.yarnpkg.com/lerna/-/lerna-3.9.0.tgz#19e0f5fb824167e696c14fcc7abd66ddeec64daa"
-  integrity sha512-XBKPp4r8CzAx/gXDFv2h4WmjP288v2iepDUlPyHBMGU5jmeOG/z43Ks4dJXG1NP9GhPDVEvVxbr4yn1vJEoMZg==
+  version "3.9.1"
+  resolved "https://registry.yarnpkg.com/lerna/-/lerna-3.9.1.tgz#3a4735f9ea68e6f17299d76758f94e74c2cf1efd"
+  integrity sha512-GZ6pgvcu8N+Uza1SKsKLyjm28/Msju/xHIA+5moXGFW0MfKwcArf/x4WRTk2HbD6FaSARcRfhyuLyEougmVPFg==
   dependencies:
-    "@lerna/add" "^3.9.0"
-    "@lerna/bootstrap" "^3.9.0"
+    "@lerna/add" "^3.9.1"
+    "@lerna/bootstrap" "^3.9.1"
     "@lerna/changed" "^3.9.0"
     "@lerna/clean" "^3.9.0"
     "@lerna/cli" "^3.6.0"
