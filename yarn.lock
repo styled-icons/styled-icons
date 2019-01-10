@@ -1532,7 +1532,7 @@
     supports-color "^5.4.0"
     tslib "^1"
 
-"@oclif/command@^1", "@oclif/command@^1.4.31", "@oclif/command@^1.5.3", "@oclif/command@^1.5.4":
+"@oclif/command@^1", "@oclif/command@^1.5.3", "@oclif/command@^1.5.4":
   version "1.5.8"
   resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.5.8.tgz#cd09d4f3183123548cb25d1b12b92e41277ac3e9"
   integrity sha512-+Xuqp7by9jmB+GvR2r450wUXkCpZVdeOXQD0mLSEm3h+Mxhp0NPHuhzXZQvLI0/2fXR+cmJLv1CfpaCYaflL/g==
@@ -1542,7 +1542,7 @@
     debug "^4.1.0"
     semver "^5.6.0"
 
-"@oclif/config@^1", "@oclif/config@^1.6.22":
+"@oclif/config@^1":
   version "1.10.3"
   resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.10.3.tgz#401c12bd40e1073d2c2051aa1c991cdc5fb9fca3"
   integrity sha512-F3G4kZZ4kMHlyOcNZiztT4E6E7LzFGlTfxyXIOax+D+3drK5fFkZXLr1Bjs5otdtd2jDFT3CpO7Qrkc9hYZUmA==
@@ -1574,20 +1574,6 @@
     "@oclif/linewrap" "^1.0.0"
     chalk "^2.4.1"
     tslib "^1.9.3"
-
-"@oclif/plugin-autocomplete@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-autocomplete/-/plugin-autocomplete-0.1.0.tgz#3e813277deaa5f9fc6a67878a20bd337ee3776ec"
-  integrity sha512-Dz2dGyBoOUcv6/gqr9qaG7KTIkYxILL0MvMVwlhkS0f6UqCsh8fC3adYTr8BeIPQmUqWkACtC7bYp9DyQ8m2Jw==
-  dependencies:
-    "@oclif/command" "^1.4.31"
-    "@oclif/config" "^1.6.22"
-    "@types/fs-extra" "^5.0.2"
-    chalk "^2.4.1"
-    cli-ux "^4.4.0"
-    debug "^3.1.0"
-    fs-extra "^6.0.1"
-    moment "^2.22.1"
 
 "@oclif/plugin-help@^2.1.4":
   version "2.1.4"
@@ -1681,13 +1667,6 @@
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@types/anymatch/-/anymatch-1.3.0.tgz#d1d55958d1fccc5527d4aba29fc9c4b942f563ff"
   integrity sha512-7WcbyctkE8GTzogDb0ulRAEw7v8oIS54ft9mQTU7PfM0hp5e+8kpa+HeQ7IQrFbKtJXBKcZ4bh+Em9dTw5L6AQ==
-
-"@types/fs-extra@^5.0.2":
-  version "5.0.4"
-  resolved "https://registry.yarnpkg.com/@types/fs-extra/-/fs-extra-5.0.4.tgz#b971134d162cc0497d221adde3dbb67502225599"
-  integrity sha512-DsknoBvD8s+RFfSGjmERJ7ZOP1HI0UZRA3FSI+Zakhrc/Gy26YQsLI+m5V5DHxroHRJqCDLKJp7Hixn8zyaF7g==
-  dependencies:
-    "@types/node" "*"
 
 "@types/history@^4.7.2":
   version "4.7.2"
@@ -2971,7 +2950,7 @@ cli-spinners@^1.1.0, cli-spinners@^1.3.1:
   resolved "https://registry.yarnpkg.com/cli-spinners/-/cli-spinners-1.3.1.tgz#002c1990912d0d59580c93bd36c056de99e4259a"
   integrity sha512-1QL4544moEsDVH9T/l6Cemov/37iv1RtoKf7NJ04A60+4MREXNfx/QvavbH6QoGdsD4N4Mwy49cmaINR/o2mdg==
 
-cli-ux@^4.4.0, cli-ux@^4.7.3, cli-ux@^4.9.0, cli-ux@^4.9.3:
+cli-ux@^4.7.3, cli-ux@^4.9.0, cli-ux@^4.9.3:
   version "4.9.3"
   resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-4.9.3.tgz#4c3e070c1ea23eef010bbdb041192e0661be84ce"
   integrity sha512-/1owvF0SZ5Gn54cgrikJ0QskgTzeg30HGjkmjFoaHDJzAqFpuX1DBpFR8aLvsE1J5s9MgeYRENQK4BFwOag5VA==
@@ -4374,15 +4353,6 @@ fs-constants@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs-constants/-/fs-constants-1.0.0.tgz#6be0de9be998ce16af8afc24497b9ee9b7ccd9ad"
   integrity sha512-y6OAwoSIf7FyjMIv94u+b5rdheZEjzR63GTyZJm5qh4Bi+2YgwLCcI/fPFZkL5PSixOt6ZNKm+w+Hfp/Bciwow==
-
-fs-extra@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-6.0.1.tgz#8abc128f7946e310135ddc93b98bddb410e7a34b"
-  integrity sha512-GnyIkKhhzXZUWFCaJzvyDLEEgDkPfb4/TPvJCJVuS8MWZgoSsErf++QpiAlDnKFcqhRlm+tIOcencCjyJE6ZCA==
-  dependencies:
-    graceful-fs "^4.1.2"
-    jsonfile "^4.0.0"
-    universalify "^0.1.0"
 
 fs-extra@^7.0.0, fs-extra@^7.0.1:
   version "7.0.1"
@@ -6397,15 +6367,14 @@ neo-async@^2.5.0:
   integrity sha512-MFh0d/Wa7vkKO3Y3LlacqAEeHK0mckVqzDieUKTT+KGxi+zIpeVsFxymkIiRpbpDziHc290Xr9A1O4Om7otoRA==
 
 netlify-cli@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.6.0.tgz#1eabc85e649354c7fc64adf1c20a3c0c4510d9a4"
-  integrity sha512-wKGUb0hHYMDQmg94KnI+dpjQVD2dto7/smyRqHkoTSn0HLvG/LW2nFxd1XzTS5Wal1/o8XcaozK3PbLikWiJXg==
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.6.1.tgz#f67d75ed2ca91e9549b812facb60e3ea482f4d6b"
+  integrity sha512-UeAV8/nT1O+VoHP/ZPwoO5qWwqNrNbJdjBS9TF+Yz46hOpXlpR3iEW9U8a66Mem8KUBcWPw1DsdLUqcwO/ywuA==
   dependencies:
     "@iarna/toml" "^2.0.0"
     "@oclif/command" "^1"
     "@oclif/config" "^1"
     "@oclif/errors" "^1.1.2"
-    "@oclif/plugin-autocomplete" "^0.1.0"
     "@oclif/plugin-help" "^2.1.4"
     "@oclif/plugin-not-found" "^1.1.4"
     "@oclif/plugin-plugins" "^1.7.3"
