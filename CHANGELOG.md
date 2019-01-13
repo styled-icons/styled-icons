@@ -1,5 +1,10 @@
 # Changelog
 
+## v6.4.0
+
+- Upgrade Octicons to v8.3.0
+- Upgrade Cryptocurrency Icons to v0.10.0
+
 ## v6.3.0
 
 - Fix issue where TypeScript compiler would evaluate all icon files, regardless of what icons were imported, significantly increasing compile time. This was due to the `StyledIcon` TypeScript type. To resolve, there is now a `styled-icons/types` import for that type. If you previously imported it from `styled-icons`, you should update to speed up your builds.
@@ -8,12 +13,17 @@
 
   ```typescript
   import {StyledIcon} from 'styled-icons'
+
+  // or
+  import {StyledIconProps} from 'styled-icons'
   ```
 
   You should replace it with:
 
   ```typescript
   import {StyledIcon} from 'styled-icons/types'
+
+  import {StyledIconProps} from 'styled-icons/types'
   ```
 
 ## v6.2.1
