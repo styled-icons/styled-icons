@@ -15,11 +15,20 @@
     "bump": "lerna version",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna run clean",
-    "push": "lerna publish"
+    "push": "lerna publish",
+    "postinstall": "opencollective-postinstall"
   },
   "devDependencies": {
     "lerna": "^3.5.0",
     "netlify-cli": "^2.6.0",
     "prettier": "^1.13.0"
+  },
+  "dependencies": {
+    "opencollective-postinstall": "^2.0.1",
+    "opencollective": "^1.0.3"
+  },
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/styled-icons"
   }
 }
