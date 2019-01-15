@@ -1,6 +1,6 @@
 <h1 align="center">💅 styled-icons</h1>
 
-<p align="center"><a href="https://travis-ci.org/jacobwgillespie/styled-icons"><img src="https://img.shields.io/travis/jacobwgillespie/styled-icons/master.svg" alt="Build Status" /></a>
+<p align="center"><a href="https://travis-ci.org/jacobwgillespie/styled-icons"><a href="#backers" alt="sponsors on Open Collective"><img src="https://opencollective.com/styled-icons/backers/badge.svg" /></a> <a href="#sponsors" alt="Sponsors on Open Collective"><img src="https://opencollective.com/styled-icons/sponsors/badge.svg" /></a> <img src="https://img.shields.io/travis/jacobwgillespie/styled-icons/master.svg" alt="Build Status" /></a>
 <a href="https://www.npmjs.com/package/styled-icons"><img src="https://img.shields.io/npm/dm/styled-icons.svg" alt="npm" /></a>
 <a href="https://www.npmjs.com/package/styled-icons"><img src="https://img.shields.io/npm/v/styled-icons.svg" alt="npm" /></a>
 <a href="https://www.styled-components.com/"><img src="https://img.shields.io/badge/built%20with-styled%20components-db7093.svg" alt="Built with Styled Components" /></a>
@@ -228,6 +228,10 @@ If you have any ideas for improvements to the TypeScript typing, please open an 
 
 Contributions are welcome! Feel free to open an issue or a pull request and participate at whatever level you would like.
 
+
+
+
+
 ## License
 
 The MIT License - see `LICENSE`.
@@ -250,24 +254,28 @@ The Typicons are licensed under the [CC BY SA 3.0 License](http://creativecommon
 
 ## Contributors
 
-<a href="https://opencollective.com/styled-icons/backers/0/website"><img src="https://opencollective.com/styled-icons/backers/0/avatar"></a>
-<a href="https://opencollective.com/styled-icons/backers/1/website"><img src="https://opencollective.com/styled-icons/backers/1/avatar"></a>
-<a href="https://opencollective.com/styled-icons/backers/2/website"><img src="https://opencollective.com/styled-icons/backers/2/avatar"></a>
-<a href="https://opencollective.com/styled-icons/backers/3/website"><img src="https://opencollective.com/styled-icons/backers/3/avatar"></a>
-<a href="https://opencollective.com/styled-icons/backers/4/website"><img src="https://opencollective.com/styled-icons/backers/4/avatar"></a>
-<a href="https://opencollective.com/styled-icons/backers/5/website"><img src="https://opencollective.com/styled-icons/backers/5/avatar"></a>
-<a href="https://opencollective.com/styled-icons/backers/6/website"><img src="https://opencollective.com/styled-icons/backers/6/avatar"></a>
-<a href="https://opencollective.com/styled-icons/backers/7/website"><img src="https://opencollective.com/styled-icons/backers/7/avatar"></a>
-<a href="https://opencollective.com/styled-icons/backers/8/website"><img src="https://opencollective.com/styled-icons/backers/8/avatar"></a>
-<a href="https://opencollective.com/styled-icons/backers/9/website"><img src="https://opencollective.com/styled-icons/backers/9/avatar"></a>
+This project exists thanks to all the people who contribute. 
+<a href="https://github.com/jacobwgillespie/styled-icons/graphs/contributors"><img src="https://opencollective.com/styled-icons/contributors.svg?width=890&button=false" /></a>
 
-<a href="https://opencollective.com/styled-icons/sponsors/0/website"><img src="https://opencollective.com/styled-icons/sponsors/0/avatar"></a>
-<a href="https://opencollective.com/styled-icons/sponsors/1/website"><img src="https://opencollective.com/styled-icons/sponsors/1/avatar"></a>
-<a href="https://opencollective.com/styled-icons/sponsors/2/website"><img src="https://opencollective.com/styled-icons/sponsors/2/avatar"></a>
-<a href="https://opencollective.com/styled-icons/sponsors/3/website"><img src="https://opencollective.com/styled-icons/sponsors/3/avatar"></a>
-<a href="https://opencollective.com/styled-icons/sponsors/4/website"><img src="https://opencollective.com/styled-icons/sponsors/4/avatar"></a>
-<a href="https://opencollective.com/styled-icons/sponsors/5/website"><img src="https://opencollective.com/styled-icons/sponsors/5/avatar"></a>
-<a href="https://opencollective.com/styled-icons/sponsors/6/website"><img src="https://opencollective.com/styled-icons/sponsors/6/avatar"></a>
-<a href="https://opencollective.com/styled-icons/sponsors/7/website"><img src="https://opencollective.com/styled-icons/sponsors/7/avatar"></a>
-<a href="https://opencollective.com/styled-icons/sponsors/8/website"><img src="https://opencollective.com/styled-icons/sponsors/8/avatar"></a>
-<a href="https://opencollective.com/styled-icons/sponsors/9/website"><img src="https://opencollective.com/styled-icons/sponsors/9/avatar"></a>
+
+## Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/styled-icons#backer)]
+
+<a href="https://opencollective.com/styled-icons#backers" target="_blank"><img src="https://opencollective.com/styled-icons/backers.svg?width=890"></a>
+
+
+## Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/styled-icons#sponsor)]
+
+<a href="https://opencollective.com/styled-icons/sponsor/0/website" target="_blank"><img src="https://opencollective.com/styled-icons/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/styled-icons/sponsor/1/website" target="_blank"><img src="https://opencollective.com/styled-icons/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/styled-icons/sponsor/2/website" target="_blank"><img src="https://opencollective.com/styled-icons/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/styled-icons/sponsor/3/website" target="_blank"><img src="https://opencollective.com/styled-icons/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/styled-icons/sponsor/4/website" target="_blank"><img src="https://opencollective.com/styled-icons/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/styled-icons/sponsor/5/website" target="_blank"><img src="https://opencollective.com/styled-icons/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/styled-icons/sponsor/6/website" target="_blank"><img src="https://opencollective.com/styled-icons/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/styled-icons/sponsor/7/website" target="_blank"><img src="https://opencollective.com/styled-icons/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/styled-icons/sponsor/8/website" target="_blank"><img src="https://opencollective.com/styled-icons/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/styled-icons/sponsor/9/website" target="_blank"><img src="https://opencollective.com/styled-icons/sponsor/9/avatar.svg"></a>
