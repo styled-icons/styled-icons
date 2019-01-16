@@ -1,10 +1,10 @@
 <h1 align="center">💅 styled-icons</h1>
 
-<p align="center"><a href="https://travis-ci.org/jacobwgillespie/styled-icons"><a href="#backers" alt="sponsors on Open Collective"><img src="https://opencollective.com/styled-icons/backers/badge.svg" /></a> <a href="#sponsors" alt="Sponsors on Open Collective"><img src="https://opencollective.com/styled-icons/sponsors/badge.svg" /></a> <img src="https://img.shields.io/travis/jacobwgillespie/styled-icons/master.svg" alt="Build Status" /></a>
+<p align="center"><a href="https://travis-ci.org/jacobwgillespie/styled-icons"><img src="https://img.shields.io/travis/jacobwgillespie/styled-icons/master.svg" alt="Build Status" /></a>
 <a href="https://www.npmjs.com/package/styled-icons"><img src="https://img.shields.io/npm/dm/styled-icons.svg" alt="npm" /></a>
 <a href="https://www.npmjs.com/package/styled-icons"><img src="https://img.shields.io/npm/v/styled-icons.svg" alt="npm" /></a>
 <a href="https://www.styled-components.com/"><img src="https://img.shields.io/badge/built%20with-styled%20components-db7093.svg" alt="Built with Styled Components" /></a>
-<img src="https://img.shields.io/badge/powered%20by-typescript-blue.svg" alt="Powered by TypeScript" /></p>
+<img src="https://img.shields.io/badge/powered%20by-typescript-blue.svg" alt="Powered by TypeScript" /> <a href="#contributors" alt="sponsors on Open Collective"><img src="https://opencollective.com/styled-icons/backers/badge.svg" /></a> <a href="#contributors" alt="Sponsors on Open Collective"><img src="https://opencollective.com/styled-icons/sponsors/badge.svg" /></a></p>
 
 [![View Icons](https://gui.apex.sh/component?name=ShadowButton&config=%7B%22text%22%3A%22ICON%20EXPLORER%22%2C%22color%22%3A%22db7093%22%7D)](https://styled-icons.js.org)
 
@@ -24,6 +24,7 @@
   - [TypeScript](#typescript)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contributors](#contributors)
 
 ## Installation
 
@@ -228,10 +229,6 @@ If you have any ideas for improvements to the TypeScript typing, please open an 
 
 Contributions are welcome! Feel free to open an issue or a pull request and participate at whatever level you would like.
 
-
-
-
-
 ## License
 
 The MIT License - see `LICENSE`.
@@ -254,18 +251,9 @@ The Typicons are licensed under the [CC BY SA 3.0 License](http://creativecommon
 
 ## Contributors
 
-This project exists thanks to all the people who contribute. 
-<a href="https://github.com/jacobwgillespie/styled-icons/graphs/contributors"><img src="https://opencollective.com/styled-icons/contributors.svg?width=890&button=false" /></a>
-
-
-## Backers
-
 Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/styled-icons#backer)]
 
 <a href="https://opencollective.com/styled-icons#backers" target="_blank"><img src="https://opencollective.com/styled-icons/backers.svg?width=890"></a>
-
-
-## Sponsors
 
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/styled-icons#sponsor)]
 
