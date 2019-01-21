@@ -1,5 +1,9 @@
 # Changelog
 
+## v6.5.0
+
+- Upgrade Boxicons to v1.9.0
+
 ## v6.4.0
 
 - Upgrade Octicons to v8.3.0
