@@ -2484,10 +2484,10 @@ boxen@^1.2.1:
     term-size "^1.2.0"
     widest-line "^2.0.0"
 
-boxicons@^1.8.0:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/boxicons/-/boxicons-1.8.1.tgz#b02b3ea07784f9e5136ac43304d89571dc4220ab"
-  integrity sha512-iQVGukTpmwvIQiWr1vtMW6nsndlE7TFGjgOAx/7nJzUo29qpKZfXg7jntbQX2fH4v7yoEXvHGlL23sOi5kzNvQ==
+boxicons@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/boxicons/-/boxicons-1.9.0.tgz#492503607767a61ebdee8c09d847519d83e5856d"
+  integrity sha512-BarSFQfDgpVVYkLQoVqJcSunrEFRLazFoLvnz3WgeYFXMxFu1bj7VBGa39L4VElekwotNqp/njm3GNdVtf/knA==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -7300,10 +7300,10 @@ prepend-http@^1.0.1:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
   integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
 
-prettier@^1.13.0:
-  version "1.15.3"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.15.3.tgz#1feaac5bdd181237b54dbe65d874e02a1472786a"
-  integrity sha512-gAU9AGAPMaKb3NNSUUuhhFAS7SCO4ALTN4nRIn6PJ075Qd28Yn2Ig2ahEJWdJwJmlEBTUfC7mMUSFy8MwsOCfg==
+prettier@^1.16.0:
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.16.0.tgz#104dd25f5ee3d0c9d0a6ce4bb40ced8481d51219"
+  integrity sha512-MCBCYeAuZfejUPdEpkleLWvpRBwLii/Sp5jQs0eb8Ul/drGIDjkL6tAU24tk6yCGf0KPV5rhPPPlczfBmN2pWQ==
 
 pretty-time@^1.1.0:
   version "1.1.0"
