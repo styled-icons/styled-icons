@@ -4,7 +4,7 @@ const path = require('path')
 
 module.exports = async () => {
   const baseDir = path.dirname(require.resolve('boxicons'))
-  const sourceFiles = await fg(path.join(baseDir, '../svg/logos/*.svg'))
+  const sourceFiles = await fg(path.join(baseDir, '../svg/logo/*.svg'))
 
   return sourceFiles.map(filename => {
     const match = filename.match(/bxl-([^}]+).svg/)
