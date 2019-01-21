@@ -2485,9 +2485,9 @@ boxen@^1.2.1:
     widest-line "^2.0.0"
 
 boxicons@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/boxicons/-/boxicons-1.9.0.tgz#492503607767a61ebdee8c09d847519d83e5856d"
-  integrity sha512-BarSFQfDgpVVYkLQoVqJcSunrEFRLazFoLvnz3WgeYFXMxFu1bj7VBGa39L4VElekwotNqp/njm3GNdVtf/knA==
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/boxicons/-/boxicons-1.9.1.tgz#fc7a469a109ad29822db329ba6ce91e9f913e132"
+  integrity sha512-PdczPojtlsaY6hM82ykDNoBGBivwWRiKzQCgZx5093pqgN3beJ8XjkUKuZ3CzK2i5bgQTqfRz+a7dhVZBFqbBw==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
