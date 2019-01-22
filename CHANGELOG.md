@@ -1,5 +1,9 @@
 # Changelog
 
+## v6.5.1
+
+- Upgrade Boxicons to v1.9.1 (fixes issue with missing icons)
+
 ## v6.5.0
 
 - Upgrade Boxicons to v1.9.0
