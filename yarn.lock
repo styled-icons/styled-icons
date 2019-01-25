@@ -4234,9 +4234,9 @@ fbjs@^0.8.5:
     ua-parser-js "^0.7.18"
 
 feather-icons@^4.9.0:
-  version "4.10.0"
-  resolved "https://registry.yarnpkg.com/feather-icons/-/feather-icons-4.10.0.tgz#5c2ba00ecf6f0529e99ab445d054fa6bd0b9c8d6"
-  integrity sha512-oxAlPBN6nO5IkRg0+hOOm26lDCEREcNpTTqSKKp8bYMyqKK1OIAjlbxMvLz8tSkS/hToTBEb/IhqIyt/aP9Z3w==
+  version "4.11.0"
+  resolved "https://registry.yarnpkg.com/feather-icons/-/feather-icons-4.11.0.tgz#5555648d86576db9a08d13829df6af4c4702e3b7"
+  integrity sha512-FsKEBqiW0ENa0oLoLSqGz16weXXO/IuCMbAO58vTC9Z19vmKwWgziDhWUdpuKOGUPFCgxXTIPfGjzrZlJ7/FAQ==
   dependencies:
     classnames "^2.2.5"
     core-js "^2.5.3"
