@@ -1,5 +1,9 @@
 # Changelog
 
+## v6.6.0
+
+- Upgrade Feather icons to v4.12.0
+
 ## v6.5.1
 
 - Upgrade Boxicons to v1.9.1 (fixes issue with missing icons)
