@@ -1,5 +1,9 @@
 # Changelog
 
+## v6.9.0
+
+- Upgrade Font Awesome to v5.7.1
+
 ## v6.8.0
 
 - Upgrade Feather icons to v4.15.0
