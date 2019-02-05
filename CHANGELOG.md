@@ -1,5 +1,9 @@
 # Changelog
 
+## v6.11.0
+
+- Upgrade Feather icons to v4.17.0
+
 ## v6.10.0
 
 - Upgrade Feather icons to v4.16.0
