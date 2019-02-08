@@ -6889,9 +6889,9 @@ object.values@^1.0.4:
     has "^1.0.3"
 
 octicons@^8.0.0:
-  version "8.3.0"
-  resolved "https://registry.yarnpkg.com/octicons/-/octicons-8.3.0.tgz#88206818d8b531317ede7d5e1bb53beee62b7a9e"
-  integrity sha512-zyc72Pz2TV4Ae3pcrmy9zUhG9QFU1CtS682Cp6fV4o36fskN+RJsaA1L5bFg6xMASDPX+glnjv0B7Tp1uz6J5A==
+  version "8.4.0"
+  resolved "https://registry.yarnpkg.com/octicons/-/octicons-8.4.0.tgz#8070b089a231f765b927d65b499bd87982ce7ff0"
+  integrity sha512-1IP1bTZCsW60PJMNTXK0K+Mu0fpoBFDTKuft/Godz5La3TDyZ2WWx8x7QGQYkHD07bXitZuvhiDXX1g/Y1aJ0Q==
   dependencies:
     object-assign "^4.1.1"
 
