@@ -29,7 +29,7 @@
     "@types/react-virtualized": "^9.18.11",
     "@types/styled-components": "^4.1.4",
     "@zeit/next-typescript": "^1.1.1",
-    "next": "^7.0.2",
+    "next": "^8.0.0",
     "next-plugin-styled-icons": "^6.0.1"
   }
 }
