@@ -51,6 +51,13 @@ const getTemplate = () =>
 
 const baseDir = path.join(__dirname, '..', 'build')
 
+const pkgJSON = name => `{
+  "private": true,
+  "main": "./${name}",
+  "module": "./${name}.esm"
+}
+`
+
 const generate = async () => {
   console.log('Reading icon packs...')
 
@@ -73,13 +80,10 @@ const generate = async () => {
     'build',
     ...PACKS,
     'index.d.ts',
-    'index.cjs.d.ts',
-    'index.cjs.js',
+    'index.esm.js',
     'index.js',
-    'types.d.ts',
-    'types.cjs.d.ts',
-    'types.js',
-    'types.cjs.js',
+    'index.ts',
+    'types',
   ]
   for (const destinationFile of destinationFiles) {
     await fs.remove(path.join(__dirname, '..', destinationFile))
@@ -111,60 +115,47 @@ const generate = async () => {
     // Special-case the `React` icon
     if (icon.name === 'React') icon.name = 'ReactLogo'
 
-    const component = (cjs = false) =>
+    const component = () =>
       template
         .replace(/{{attrs}}/g, JSON.stringify(icon.attrs, null, 2).slice(2, -2))
         .replace(/{{height}}/g, icon.height)
-        .replace(/{{cjs}}/g, cjs ? '.cjs' : '')
         .replace(/{{name}}/g, icon.name)
         .replace(/{{svg}}/g, result)
         .replace(/{{verticalAlign}}/g, icon.verticalAlign || 'middle')
         .replace(/{{viewBox}}/g, icon.viewBox)
         .replace(/{{width}}/g, icon.width)
 
-    const destinationPath = cjs => path.join(baseDir, 'typescript', cjs ? 'cjs' : 'esm', icon.pack)
-    await fs.outputFile(path.join(destinationPath(), `${icon.name}.tsx`), component())
-    await fs.outputFile(path.join(destinationPath(true), `${icon.name}.cjs.tsx`), component(true))
+    const destinationPath = path.join(baseDir, icon.pack, icon.name)
+    await fs.mkdirp(destinationPath)
+    await fs.outputFile(path.join(destinationPath, `${icon.name}.tsx`), component())
+    await fs.outputFile(path.join(destinationPath, 'package.json'), pkgJSON(icon.name))
   }
 
   console.log('Writing index files...')
 
-  const writeIndexFiles = async (cjs = false) => {
+  const writeIndexFiles = async () => {
     for (const iconPack of PACKS) {
       const seenNames = new Set()
 
       const packIcons = icons.filter(({pack}) => pack === iconPack)
       await fs.outputFile(
-        path.join(
-          baseDir,
-          'typescript',
-          cjs ? 'cjs' : 'esm',
-          iconPack,
-          cjs ? 'index.cjs.ts' : 'index.ts',
-        ),
+        path.join(baseDir, iconPack, 'index.ts'),
 
         packIcons
           .map(({name}) => {
             // The Material icon pack has one icon incorrectly in the pack twice
             const seen = seenNames.has(name)
             seenNames.add(name)
-            return seen ? null : `export {${name}} from './${name}${cjs ? '.cjs' : ''}'`
+            return seen ? null : `export {${name}} from './${name}'`
           })
           .filter(lines => lines)
           .join('\n'),
       )
     }
 
-    await fs.writeFileSync(
-      path.join(baseDir, 'typescript', cjs ? 'cjs' : 'esm', cjs ? 'index.cjs.ts' : 'index.ts'),
-      `import * as React from 'react'
-
-${PACKS.map(
-        (pack, idx) =>
-          `import * as ${fastCase.camelize(pack)} from './${pack}${cjs ? '/index.cjs' : ''}'`,
-      ).join('\n')}
-
-export {StyledIcon, StyledIconProps} from './types${cjs ? '.cjs' : ''}'
+    await fs.outputFile(
+      path.join(baseDir, 'index.ts'),
+      `${PACKS.map(pack => `import * as ${fastCase.camelize(pack)} from './${pack}'`).join('\n')}
 
 export {${PACKS.map(fastCase.camelize).join(', ')}}
 `,
@@ -172,12 +163,11 @@ export {${PACKS.map(fastCase.camelize).join(', ')}}
   }
 
   await writeIndexFiles()
-  await writeIndexFiles(true)
 
   console.log('Writing shared types file...')
 
-  const sharedTypesFile = cjs => `import * as React from 'react'
-import {Alert} from './octicons/Alert${cjs ? '.cjs' : ''}'
+  const sharedTypesFile = () => `import * as React from 'react'
+import {Alert} from '../octicons/Alert'
 
 export interface StyledIconProps extends React.SVGProps<SVGSVGElement> {
   'aria-hidden'?: string
@@ -188,15 +178,13 @@ export interface StyledIconProps extends React.SVGProps<SVGSVGElement> {
 export type StyledIcon = typeof Alert
 `
 
-  await fs.writeFileSync(path.join(baseDir, 'typescript', 'esm', 'types.ts'), sharedTypesFile())
-  await fs.writeFileSync(
-    path.join(baseDir, 'typescript', 'cjs', 'types.cjs.ts'),
-    sharedTypesFile(true),
-  )
+  await fs.mkdirp(path.join(baseDir, 'types'))
+  await fs.outputFile(path.join(baseDir, 'types', 'types.ts'), sharedTypesFile())
+  await fs.outputFile(path.join(baseDir, 'types', 'package.json'), pkgJSON('types'))
 
-  console.log('Generating TypeScript types...')
+  console.log('Generating ESM JavaScript and TypeScript types...')
 
-  let compiler = execa('./node_modules/.bin/tsc', [
+  let compiler = execa('./node_modules/.bin/ttsc', [
     '--project',
     './tsconfig.icons.json',
     '--pretty',
@@ -205,50 +193,32 @@ export type StyledIcon = typeof Alert
   compiler.stderr.pipe(process.stderr)
   await compiler
 
-  console.log('Building ESM JavaScript...')
+  console.log('Moving ESM JavaScript files...')
+  const esmFiles = await fg(path.join(baseDir, '**/*.js'))
+  for (const esmFile of esmFiles) {
+    const filepath = typeof esmFile === 'string' ? esmFile : esmFile.path
+    await fs.move(
+      filepath,
+      path.join(path.dirname(filepath), path.basename(filepath).replace('.js', '.esm.js')),
+    )
+  }
 
-  compiler = execa('./node_modules/.bin/babel', [
-    'build/typescript/esm',
-    '--out-dir',
-    'build/icons',
-    '--extensions',
-    '.ts,.tsx',
-    '--config-file',
-    './.babelrc.esm',
-    '--no-babelrc',
-  ])
-  compiler.stdout.pipe(process.stdout)
-  compiler.stderr.pipe(process.stderr)
-  await compiler
+  console.log('Building CJS JavaScript...')
 
-  console.log('Building CJS bundles...')
-
-  compiler = execa('./node_modules/.bin/babel', [
-    'build/typescript/cjs',
-    '--out-dir',
-    'build/icons',
-    '--extensions',
-    '.ts,.tsx',
+  compiler = execa('./node_modules/.bin/ttsc', [
+    '--project',
+    './tsconfig.icons-cjs.json',
+    '--pretty',
   ])
   compiler.stdout.pipe(process.stdout)
   compiler.stderr.pipe(process.stderr)
   await compiler
 
   console.log('Copying files to destination...')
-  const builtFiles = [...PACKS, 'index.js', 'index.cjs.js', 'types.js', 'types.cjs.js']
+  const builtFiles = await fg('build/**/*')
   for (const builtFile of builtFiles) {
-    await fs.remove(path.join(__dirname, '..', builtFile))
-    await fs.move(path.join(baseDir, 'icons', builtFile), path.join(__dirname, '..', builtFile))
-  }
-
-  const tsFiles = await fg('build/icons/**/*.d.ts')
-  for (const tsFile of tsFiles) {
-    const destination = path.join(
-      __dirname,
-      '..',
-      tsFile.replace('build/icons/cjs/', '').replace('build/icons/esm/', ''),
-    )
-    await fs.move(path.join(__dirname, '..', tsFile), destination)
+    const destination = path.join(__dirname, '..', builtFile.replace('build/', ''))
+    await fs.move(path.join(__dirname, '..', builtFile), destination)
   }
 
   console.log('Writing icon manifest for website...')

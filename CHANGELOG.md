@@ -1,5 +1,43 @@
 # Changelog
 
+## v7.0.0
+
+#### Features
+
+- Support automatic management of CommonJS and ES Modules code.
+
+  Styled Icons will now correctly be imported as either CommonJS or ES Modules based on whichever the JavaScript bundler supports. This allows you to directly import an icon or an icon pack, and the bundler will automatically select the version it can process. This causes `styled-icons` to work out-of-the-box with Webpack, Rollup, Create React App, Next.js, Jest, Node, and many more!
+
+  **(breaking)** if you previously imported icons with a `.cjs` suffix, you can remove the suffix as it is no longer required. For example, if you had any of this code:
+
+  ```typescript
+  import * as octicons from 'styled-icons/octicons.cjs'
+  import {Alert} from 'styled-icons/octicons/Alert.cjs'
+  ```
+
+  You should remove the `.cjs` suffix:
+
+  ```typescript
+  import * as octicons from 'styled-icons/octicons'
+  import {Alert} from 'styled-icons/octicons/Alert'
+  ```
+
+  The `.cjs` imports no longer exist in version 7.0.0.
+
+#### Changes
+
+- Removed the type imports from the root module entrypoint - these were deprecated in v6.0.0. If you need to import the type of a styled icon or its props, you should import those from `style-icons/types`:
+
+  ```typescript
+  import {StyledIcon, StyledIconProps} from 'styled-icons/types'
+  ```
+
+- Upgraded all dependencies, including upgrading the website to Next.js 8
+
+#### Fixes
+
+- Fixed an issue that prevented the `typicons` icons from being included in the bundle
+
 ## v6.12.0
 
 - Upgrade Octicons to v8.4.0

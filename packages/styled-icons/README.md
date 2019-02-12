@@ -40,8 +40,6 @@ npm install styled-icons --save
 
 Additionally, you will need to have installed a version of `styled-components` at least version 4.1.0 or newer, as `styled-icons` depends on `styled-components` as a peer dependency.
 
-If you are using [Next.js](https://nextjs.org), you likely also want to install [next-plugin-styled-icons](https://github.com/jacobwgillespie/styled-icons/tree/master/packages/next-plugin-styled-icons) to take advantage of tree shaking.
-
 ## Usage
 
 All Font Awesome (free), Feather, Material, and Octicon icons are available for preview at the [Icon Explorer](https://styled-icons.js.org).
@@ -185,30 +183,7 @@ const VisuallyHidden = styled.span`
 
 ### Tree Shaking
 
-**NOTE:** tree shaking should work without modification using [Create React App](https://github.com/facebook/create-react-app).
-
-Tree shaking has been tested with Create React App v2, Rollup, and Webpack v4. If you are using [Next.js](https://nextjs.org), you will want to install [next-plugin-styled-icons](https://github.com/jacobwgillespie/styled-icons/tree/master/packages/next-plugin-styled-icons) to take advantage of tree shaking.
-
-If you aren't using any of those bundlers or if your bundler is otherwise unable to import the icons, additional CommonJS bundles are available as `.cjs`:
-
-```javascript
-import React, {Fragment} from 'react'
-
-// This will result in all Material icons being bundled
-import {Account} from 'styled-icons/material.cjs'
-
-// This will only include the Lock icon
-import {Lock} from 'styled-icons/material/Lock.cjs'
-
-const App = () => (
-  <Fragment>
-    <Account />
-    <Lock />
-  </Fragment>
-)
-```
-
-Be aware though that importing from the CommonJS icon pack bundles will likely result in significantly larger bundle sizes, because unused icons will be included in the final bundle. If you are unable to configure your bundler to process the ES module bundles, you should import icons individually to avoid large bundles.
+Styled Icons supports automatic tree-shaking via the `package.json` `module` property from any of the import paths (icon pack, individual icon, etc.). Tree shaking has been tested with Create React App v2, Next.js, Rollup, and Webpack v4.
 
 ### TypeScript
 

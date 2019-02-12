@@ -1,9 +1,8 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "declaration": true,
     "importHelpers": true,
-    "module": "es2015",
+    "module": "commonjs",
     "outDir": "./build",
     "rootDir": "./build",
     "strict": false,
