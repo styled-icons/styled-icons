@@ -18,13 +18,13 @@ const StyledIcon = React.forwardRef<SVGSVGElement, StyledIconProps>((props, ref)
     {{attrs}},
   }
 
-  const svgProps = Object.keys(otherProps).reduce(
+  const svgProps = (Object.keys(otherProps) as Array<keyof typeof otherProps>).reduce(
     (p, k) => {
       if (validProp(k)) {
         p[k] = otherProps[k]
       }
       return p
-    }, {}
+    }, {} as {[x:string]: typeof otherProps[keyof typeof otherProps]}
   )
 
   return (
