@@ -217,6 +217,10 @@ export type StyledIcon = typeof Alert
   console.log('Copying files to destination...')
   const builtFiles = await fg('build/**/*')
   for (const builtFile of builtFiles) {
+    if (builtFile.match(/\.tsx?$/) && !builtFile.match(/\.d\.ts$/)) {
+      continue
+    }
+
     const destination = path.join(__dirname, '..', builtFile.replace('build/', ''))
     await fs.move(path.join(__dirname, '..', builtFile), destination)
   }
