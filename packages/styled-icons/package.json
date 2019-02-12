@@ -68,7 +68,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.7.0",
     "@styled-icons/icomoon-source": "Keyamoon/IcoMoon-Free#d006795ede82361e1bac1ee76f215cf1dc51e4ca",
     "@types/next": "^7.0.7",
-    "@types/node": "^10.12.7",
+    "@types/node": "^11.9.0",
     "@types/react": "^16.7.14",
     "@types/styled-components": "^4.1.4",
     "babel-plugin-styled-components": "^1.10.0",

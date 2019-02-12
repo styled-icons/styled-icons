@@ -22,7 +22,7 @@
   "devDependencies": {
     "@types/history": "^4.7.2",
     "@types/js-search": "^1.4.0",
-    "@types/node": "^10.12.7",
+    "@types/node": "^11.9.0",
     "@types/query-string": "^6.1.1",
     "@types/react": "^16.7.14",
     "@types/react-dom": "^16.0.9",
