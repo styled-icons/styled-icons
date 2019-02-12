@@ -7,7 +7,7 @@ module.exports = async () => {
   const sourceFiles = await fg(path.join(baseDir, 'SVG/*.svg'))
 
   return sourceFiles.map(filename => {
-    const match = filename.match(/\d+-([^}]+).svg/)
+    const match = filename.match(/\d+-([^}]+)\.svg$/)
     return {
       originalName: match[1] === 'pagebreak' ? 'pagebreak2' : match[1].toLowerCase(),
       source: fs.readFileSync(filename).toString(),

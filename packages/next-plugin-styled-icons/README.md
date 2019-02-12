@@ -1,5 +1,11 @@
 # next-plugin-styled-icons
 
+> ## Deprecated
+>
+> **NOTE:** As of `styled-icons` v7.0.0, this plugin should no longer be required, and `styled-icons` imports should work with Next.js out of the box.
+
+---
+
 A [Next.js](https://nextjs.org/) plugin to enable tree shaking for [Styled Icons](https://github.com/jacobwgillespie/styled-icons).
 
 ## Installation

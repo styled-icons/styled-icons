@@ -7,7 +7,7 @@ module.exports = async () => {
   const sourceFiles = await fg(path.join(baseDir, '../svg/solid/*.svg'))
 
   return sourceFiles.map(filename => {
-    const match = filename.match(/bxs-([^}]+).svg/)
+    const match = filename.match(/bxs-([^}]+)\.svg$/)
     return {
       originalName: match[1],
       source: fs.readFileSync(filename).toString(),

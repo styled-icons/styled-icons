@@ -7,9 +7,8 @@
   "repository": "git://github.com/jacobwgillespie/styled-icons.git",
   "license": "MIT",
   "main": "index.js",
-  "module": "index.js",
-  "jsnext:main": "index.js",
-  "typings": "./index.d.ts",
+  "module": "index.esm.js",
+  "types": "./index.d.ts",
   "sideEffects": false,
   "files": [
     "/boxicons-regular",
@@ -24,15 +23,12 @@
     "/manifest.json",
     "/material",
     "/octicons",
+    "/types",
     "/typicons",
     "/index.d.ts",
-    "/index.cjs.js",
+    "/index.esm.js",
     "/index.js",
-    "/README.md",
-    "/types.cjs.d.ts",
-    "/types.cjs.js",
-    "/types.d.ts",
-    "/types.js"
+    "/README.md"
   ],
   "keywords": [
     "styled-components",
@@ -47,31 +43,22 @@
   ],
   "scripts": {
     "build": "node generate/generate.js && cp ../../README.md .",
-    "clean": "rm -rf boxicons-logos boxicons-regular boxicons-solid build crypto fa-brands fa-regular fa-solid feather icomoon material octicons typicons public manifest.json index.d.ts index.cjs.js index.js types.cjs.d.ts types.cjs.js types.d.ts types.js"
+    "clean": "rm -rf boxicons-logos boxicons-regular boxicons-solid build crypto fa-brands fa-regular fa-solid feather icomoon material octicons types typicons public manifest.json index.d.ts index.esm.js index.js"
   },
   "peerDependencies": {
     "react": "*",
     "styled-components": ">=4.1.0 <5"
   },
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.2.2",
-    "@babel/plugin-proposal-class-properties": "^7.3.0",
-    "@babel/plugin-proposal-object-rest-spread": "^7.3.0",
-    "@babel/plugin-transform-runtime": "^7.2.0",
-    "@babel/preset-env": "^7.3.0",
-    "@babel/preset-react": "^7.0.0",
-    "@babel/preset-typescript": "^7.1.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.13",
     "@fortawesome/free-brands-svg-icons": "^5.7.0",
     "@fortawesome/free-regular-svg-icons": "^5.7.0",
     "@fortawesome/free-solid-svg-icons": "^5.7.0",
     "@styled-icons/icomoon-source": "Keyamoon/IcoMoon-Free#d006795ede82361e1bac1ee76f215cf1dc51e4ca",
-    "@types/next": "^7.0.7",
-    "@types/node": "^10.12.7",
+    "@types/next": "^8.0.0",
+    "@types/node": "^11.9.0",
     "@types/react": "^16.7.14",
     "@types/styled-components": "^4.1.4",
-    "babel-plugin-styled-components": "^1.10.0",
     "boxicons": "^1.9.1",
     "cryptocurrency-icons": "^0.10.0",
     "execa": "^1.0.0",
@@ -88,11 +75,13 @@
     "react-dom": "^16.5.2",
     "styled-components": "^4.0.3",
     "svgo": "^1.0.5",
+    "ttypescript": "^1.5.6",
     "typescript": "^3.1.6",
+    "typescript-plugin-styled-components": "^1.2.0",
     "typicons.font": "^2.0.9"
   },
   "dependencies": {
-    "@babel/runtime": "^7.3.0",
-    "@emotion/is-prop-valid": "^0.7.3"
+    "@emotion/is-prop-valid": "^0.7.3",
+    "tslib": "^1.9.3"
   }
 }
