@@ -1,5 +1,10 @@
 # Changelog
 
+## v7.0.1
+
+- Remove TypeScript source files from the NPM package
+- Fix TypeScript strict build ([@caseylucas](https://github.com/caseylucas))
+
 ## v7.0.0
 
 #### Features
