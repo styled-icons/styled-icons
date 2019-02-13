@@ -23,6 +23,7 @@
     "/manifest.json",
     "/material",
     "/octicons",
+    "/StyledIconBase",
     "/types",
     "/typicons",
     "/index.d.ts",
