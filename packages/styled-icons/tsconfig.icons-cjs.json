@@ -8,5 +8,5 @@
     "target": "es5",
     "plugins": [{"transform": "typescript-plugin-styled-components"}]
   },
-  "exclude": []
+  "exclude": ["generate"]
 }

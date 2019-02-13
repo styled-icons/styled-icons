@@ -83,6 +83,7 @@ const generate = async () => {
     'index.esm.js',
     'index.js',
     'index.ts',
+    'StyledIcon',
     'types',
   ]
   for (const destinationFile of destinationFiles) {
@@ -98,7 +99,7 @@ const generate = async () => {
     let result = icon.source
     result = await svgo(result)
     result = await h2x(result, state)
-    result = result.join(',\n')
+    result = result.join('\n      ')
 
     icon.name = getComponentName(icon.originalName)
     icon.height = state.height || icon.height
@@ -130,6 +131,13 @@ const generate = async () => {
     await fs.outputFile(path.join(destinationPath, `${icon.name}.tsx`), component())
     await fs.outputFile(path.join(destinationPath, 'package.json'), pkgJSON(icon.name))
   }
+
+  await fs.mkdirp(path.join(baseDir, 'StyledIcon'))
+  await fs.copy(
+    path.join(__dirname, 'templates', 'StyledIcon.tsx'),
+    path.join(baseDir, 'StyledIcon', 'StyledIcon.tsx'),
+  )
+  await fs.writeFile(path.join(baseDir, 'StyledIcon', 'package.json'), pkgJSON('StyledIcon'))
 
   console.log('Writing index files...')
 
@@ -166,20 +174,14 @@ export {${PACKS.map(fastCase.camelize).join(', ')}}
 
   console.log('Writing shared types file...')
 
-  const sharedTypesFile = () => `import * as React from 'react'
-import {Alert} from '../octicons/Alert'
-
-export interface StyledIconProps extends React.SVGProps<SVGSVGElement> {
-  'aria-hidden'?: string
-  size?: number | string
-  title?: string | null
-}
-
-export type StyledIcon = typeof Alert
+  const typesFile = () => `import * as React from 'react'
+import {StyledIconProps} from '../StyledIcon'
+export type StyledIcon = React.ForwardRefExoticComponent<React.PropsWithoutRef<StyledIconProps> & React.RefAttributes<SVGSVGElement>>;
+export {StyledIconProps}
 `
 
   await fs.mkdirp(path.join(baseDir, 'types'))
-  await fs.outputFile(path.join(baseDir, 'types', 'types.ts'), sharedTypesFile())
+  await fs.outputFile(path.join(baseDir, 'types', 'types.ts'), typesFile())
   await fs.outputFile(path.join(baseDir, 'types', 'package.json'), pkgJSON('types'))
 
   console.log('Generating ESM JavaScript and TypeScript types...')
