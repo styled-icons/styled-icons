@@ -83,7 +83,7 @@ const generate = async () => {
     'index.esm.js',
     'index.js',
     'index.ts',
-    'StyledIcon',
+    'StyledIconBase',
     'types',
   ]
   for (const destinationFile of destinationFiles) {
@@ -132,12 +132,15 @@ const generate = async () => {
     await fs.outputFile(path.join(destinationPath, 'package.json'), pkgJSON(icon.name))
   }
 
-  await fs.mkdirp(path.join(baseDir, 'StyledIcon'))
+  await fs.mkdirp(path.join(baseDir, 'StyledIconBase'))
   await fs.copy(
-    path.join(__dirname, 'templates', 'StyledIcon.tsx'),
-    path.join(baseDir, 'StyledIcon', 'StyledIcon.tsx'),
+    path.join(__dirname, 'templates', 'StyledIconBase.tsx'),
+    path.join(baseDir, 'StyledIconBase', 'StyledIconBase.tsx'),
   )
-  await fs.writeFile(path.join(baseDir, 'StyledIcon', 'package.json'), pkgJSON('StyledIcon'))
+  await fs.writeFile(
+    path.join(baseDir, 'StyledIconBase', 'package.json'),
+    pkgJSON('StyledIconBase'),
+  )
 
   console.log('Writing index files...')
 
@@ -175,7 +178,7 @@ export {${PACKS.map(fastCase.camelize).join(', ')}}
   console.log('Writing shared types file...')
 
   const typesFile = () => `import * as React from 'react'
-import {StyledIconProps} from '../StyledIcon'
+import {StyledIconProps} from '../StyledIconBase'
 export type StyledIcon = React.ForwardRefExoticComponent<React.PropsWithoutRef<StyledIconProps> & React.RefAttributes<SVGSVGElement>>;
 export {StyledIconProps}
 `

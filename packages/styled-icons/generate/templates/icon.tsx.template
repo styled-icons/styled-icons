@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {StyledIcon, StyledIconProps} from '../../StyledIcon'
+import {StyledIconBase, StyledIconProps} from '../../StyledIconBase'
 
 export const {{name}} = React.forwardRef<SVGSVGElement, StyledIconProps>((props, ref) => {
   const attrs: React.SVGProps<SVGSVGElement> = {
@@ -7,7 +7,7 @@ export const {{name}} = React.forwardRef<SVGSVGElement, StyledIconProps>((props,
   }
 
   return (
-    <StyledIcon
+    <StyledIconBase
       iconAttrs={attrs}
       iconVerticalAlign="{{verticalAlign}}"
       iconViewBox="{{viewBox}}"
@@ -15,7 +15,7 @@ export const {{name}} = React.forwardRef<SVGSVGElement, StyledIconProps>((props,
       ref={ref}
     >
       {{svg}}
-    </StyledIcon>
+    </StyledIconBase>
   )
 })
 

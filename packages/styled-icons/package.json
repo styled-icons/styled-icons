@@ -43,7 +43,7 @@
   ],
   "scripts": {
     "build": "node generate/generate.js && cp ../../README.md .",
-    "clean": "rm -rf boxicons-logos boxicons-regular boxicons-solid build crypto fa-brands fa-regular fa-solid feather icomoon material octicons StyledIcon types typicons public manifest.json index.d.ts index.esm.js index.js"
+    "clean": "rm -rf boxicons-logos boxicons-regular boxicons-solid build crypto fa-brands fa-regular fa-solid feather icomoon material octicons StyledIconBase types typicons public manifest.json index.d.ts index.esm.js index.js"
   },
   "peerDependencies": {
     "react": "*",

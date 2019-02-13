@@ -30,7 +30,7 @@ function filterSVGProps(props: StyledIconProps): React.SVGProps<SVGSVGElement> {
   )
 }
 
-const StyledIconBase = React.forwardRef<SVGSVGElement, StyledIconProps & StyledIconBaseProps>(
+const StyledIconBaseBase = React.forwardRef<SVGSVGElement, StyledIconProps & StyledIconBaseProps>(
   (props, ref) => {
     const {children, iconAttrs, iconVerticalAlign, iconViewBox, size, title, ...otherProps} = props
 
@@ -56,7 +56,7 @@ const StyledIconBase = React.forwardRef<SVGSVGElement, StyledIconProps & StyledI
   },
 )
 
-export const StyledIcon = styled(StyledIconBase)`
+export const StyledIconBase = styled(StyledIconBaseBase)`
   display: inline-block;
   vertical-align: ${props => props.iconVerticalAlign};
   overflow: hidden;
