@@ -1,5 +1,9 @@
 # Changelog
 
+## v7.1.1
+
+- Fix issue that omitted certain files from the NPM bundle
+
 ## v7.1.0
 
 - Centralize Styled Components code into internal `StyledIconBase` component for significantly faster type-checking
