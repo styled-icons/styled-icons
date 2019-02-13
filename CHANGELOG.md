@@ -1,5 +1,10 @@
 # Changelog
 
+## v7.1.0
+
+- Centralize Styled Components code into internal `StyledIconBase` component for significantly faster type-checking
+- Optimize Styled Icon render method performance, don't create new functions on each render
+
 ## v7.0.1
 
 - Remove TypeScript source files from the NPM package
