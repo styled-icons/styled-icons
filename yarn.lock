@@ -798,10 +798,10 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.15"
 
-"@iarna/toml@^2.0.0":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.1.tgz#82d0993d8882bb05e0645fbb4731d9e939e895b3"
-  integrity sha512-I2EjI9TbEFJNLziNPFfpo64PNanOaK17iL2kTW/jGlGOa4bvHw4VEied83kOEB7NJjXf1KfvmsQ2aEjy3xjiGg==
+"@iarna/toml@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.2.tgz#76f6ce878d436c5cece0229ef1d24e796b2c596c"
+  integrity sha512-xm/Wpip5LRK1y1ZlzQLC/pDHlk0e1lNpQgOqWamfZSAU9pbTBHJFLM8wS4EB7LOc3EySARf9lZoGVX7cO26tJQ==
 
 "@lerna/add@3.13.0":
   version "3.13.0"
@@ -1438,15 +1438,15 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@netlify/open-api@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-0.5.0.tgz#9b4e4930c66326c73e09d0ec854a98eee75e660d"
-  integrity sha512-9Lm4kM6uU7EN2IeV2LDt9oKReGLfU+Qxk9qbH4oReU21/vZIuEc41B8jWLN0/M8AuKRJtCERaMDboNvAE0kpsg==
+"@netlify/open-api@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-0.8.0.tgz#4d4592c68f30b0a96ba58ecbacd6f96f321ea0c6"
+  integrity sha512-SiglzDOK89WcDnVqNOpPeq6LtSl9wc4TXOvfT0A7gY4JxmKWn8P/P888dMslvToUAHObI0zpsc7io9fUy0Ehjw==
 
-"@netlify/zip-it-and-ship-it@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-0.2.0.tgz#3e714980b7fc1d3d0c9db459c40b6f32ac9abc62"
-  integrity sha512-69/djm/Cmou19gZsV3GvQlBvCsCUa3XCfR96UcerVFxGVhVWbyU3KdALB5LrfGCMcrDBW9BHcJbxH5Aw/tJcPg==
+"@netlify/zip-it-and-ship-it@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-0.2.1.tgz#22a256048ae3e0b08b7636eb7be45f0ff6ca2718"
+  integrity sha512-ot3S0kbLhAK56VH1xyDQ8kFkKsKjhHfwKLRjZ05yU4S8P96gPWyqxANLUKzSZfT8BoeUCjMy6l59WPa7lgHzCg==
   dependencies:
     archiver "^3.0.0"
     body-parser "^1.18.3"
@@ -1462,6 +1462,7 @@
     precinct "^5.2.1"
     read-pkg-up "^4.0.0"
     require-package-name "^2.0.1"
+    resolve "^1.10.0"
 
 "@nodelib/fs.stat@^1.1.2":
   version "1.1.3"
@@ -1477,7 +1478,7 @@
     supports-color "^5.4.0"
     tslib "^1"
 
-"@oclif/command@^1.5.1", "@oclif/command@^1.5.3", "@oclif/command@^1.5.4", "@oclif/command@^1.5.8":
+"@oclif/command@^1.5.1", "@oclif/command@^1.5.10", "@oclif/command@^1.5.3", "@oclif/command@^1.5.4", "@oclif/command@^1.5.8":
   version "1.5.10"
   resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.5.10.tgz#74696d9d76e1b83c13ec21df98e90ecc99f8482a"
   integrity sha512-zZdPHKj7u7d50XIcWer0x/YriL8c3NHPZCNhqA/RP62Bg9BgmvLAdn1dJ8YuxxNrhFCv+DmTyukyCYGLle+eNQ==
@@ -1487,10 +1488,10 @@
     debug "^4.1.1"
     semver "^5.6.0"
 
-"@oclif/config@^1.12.4":
-  version "1.12.6"
-  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.12.6.tgz#dacdb8fdf4eeb3d7fde22bc5d45b5b7b8ba3fc35"
-  integrity sha512-1xrLZkx6v/g+9FCYiyqfqikn4MtlQMH5+REZ2BOfwmcj43TBStHXylp9JtMWDvoYZpJLK/wSbBSzAxMum8LJRQ==
+"@oclif/config@^1.12.8":
+  version "1.12.8"
+  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.12.8.tgz#801469b9174ad0aaa26ab9132c68559fce0ac866"
+  integrity sha512-NNJ0lMowYwmfdoiwswfN9PKO71mGe031kgx9MVcp0nrMNzafO/Xa4Xw7tSzpeal7+wZRsrg/Xt6p4VfCK3UqLw==
   dependencies:
     debug "^4.1.1"
     tslib "^1.9.3"
@@ -1593,10 +1594,10 @@
     node-fetch "^2.3.0"
     universal-user-agent "^2.0.1"
 
-"@octokit/rest@^16.15.0":
-  version "16.15.0"
-  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.15.0.tgz#648a88d5de055bcf38976709c5b2bdf1227b926f"
-  integrity sha512-Un+e7rgh38RtPOTe453pT/KPM/p2KZICimBmuZCd2wEo8PacDa4h6RqTPZs+f2DPazTTqdM7QU4LKlUjgiBwWw==
+"@octokit/rest@^16.15.0", "@octokit/rest@^16.16.0":
+  version "16.16.0"
+  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.16.0.tgz#b686407d34c756c3463f8a7b1e42aa035a504306"
+  integrity sha512-Q6L5OwQJrdJ188gLVmUHLKNXBoeCU0DynKPYW8iZQQoGNGws2hkP/CePVNlzzDgmjuv7o8dCrJgecvDcIHccTA==
   dependencies:
     "@octokit/request" "2.3.0"
     before-after-hook "^1.2.0"
@@ -2937,10 +2938,10 @@ cli-ux@^4.9.0:
     treeify "^1.1.0"
     tslib "^1.9.3"
 
-cli-ux@^5.0.0, cli-ux@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-5.1.0.tgz#945c672bb835f68f590924cbf83b975743299c64"
-  integrity sha512-cSBrgGkS1yDC7aHVZU9+TzLdqyvHumyyKXs3Ts4q3YKzOPFy2d9EaNkBgeV5JVR4gdCwNJuQJhYTXguewE70lA==
+cli-ux@^5.0.0, cli-ux@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-5.2.0.tgz#a6c170e306beece72d916cbac49e175b134b1ea2"
+  integrity sha512-Z1fkInh/k+VBpBi4UkeUGr7Ees6HX4P5+LMdgNlqkq06e7XQDmZkz65smc/PMiF5WfecD2MW58MaUbvJmS2Xww==
   dependencies:
     "@oclif/command" "^1.5.1"
     "@oclif/errors" "^1.2.1"
@@ -2958,7 +2959,7 @@ cli-ux@^5.0.0, cli-ux@^5.1.0:
     is-wsl "^1.1.0"
     lodash "^4.17.11"
     natural-orderby "^1.0.2"
-    password-prompt "^1.0.7"
+    password-prompt "^1.1.0"
     semver "^5.6.0"
     string-width "^2.1.1"
     strip-ansi "^5.0.0"
@@ -6459,24 +6460,24 @@ neo-async@^2.5.0:
   integrity sha512-MFh0d/Wa7vkKO3Y3LlacqAEeHK0mckVqzDieUKTT+KGxi+zIpeVsFxymkIiRpbpDziHc290Xr9A1O4Om7otoRA==
 
 netlify-cli@^2.6.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.7.0.tgz#3c672468abbb51b6ef9740afe1e944db12ef8eb8"
-  integrity sha512-jTJYenN6eRPd3iSeO1x88xepG5JxWhveEENXEBtQCi4TcD+MhKsO1WuemfrhUI1/7SGCgTbtu/ma9HDsirrr+w==
+  version "2.7.4"
+  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.7.4.tgz#66dd83e091232595e4528fb75234119268aea8fa"
+  integrity sha512-3Zir9wNJLOTjS8+j02BaQ0ffyy/C1IwDDqaw1MbvshSqYdKnX/GKhcADYmr/u2C7FepN+j92RnBJzUgyl0dLDQ==
   dependencies:
-    "@iarna/toml" "^2.0.0"
-    "@oclif/command" "^1.5.8"
-    "@oclif/config" "^1.12.4"
+    "@iarna/toml" "^2.2.2"
+    "@oclif/command" "^1.5.10"
+    "@oclif/config" "^1.12.8"
     "@oclif/errors" "^1.1.2"
     "@oclif/plugin-help" "^2.1.6"
     "@oclif/plugin-not-found" "^1.1.4"
     "@oclif/plugin-plugins" "^1.7.7"
-    "@octokit/rest" "^16.15.0"
+    "@octokit/rest" "^16.16.0"
     ascii-table "0.0.9"
     chalk "^2.4.2"
     ci-info "^2.0.0"
     clean-deep "^3.0.2"
     cli-spinners "^1.3.1"
-    cli-ux "^5.1.0"
+    cli-ux "^5.2.0"
     configstore "^4.0.0"
     dot-prop "^4.2.0"
     find-up "^3.0.0"
@@ -6491,9 +6492,9 @@ netlify-cli@^2.6.0:
     lodash.snakecase "^4.1.1"
     log-symbols "^2.2.0"
     make-dir "^2.0.0"
-    netlify "^2.3.0"
+    netlify "^2.3.1"
     node-fetch "^2.2.0"
-    ora "^3.0.0"
+    ora "^3.1.0"
     p-wait-for "^2.0.0"
     parse-github-url "^1.0.2"
     prettyjson "^1.2.1"
@@ -6502,13 +6503,13 @@ netlify-cli@^2.6.0:
     uuid "^3.3.2"
     write-file-atomic "^2.4.2"
 
-netlify@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/netlify/-/netlify-2.3.0.tgz#467d5fb84169d386a08fff1b3ad04eb5cad9be82"
-  integrity sha512-FI5PGYDR44NrHf7xxQ/Q3m+JwG4sHBvJuvkdW65Zd51FNbyOeLZAZk7BRrbhNIlO65VzPn0JJJNB7T3EQH0uGQ==
+netlify@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/netlify/-/netlify-2.3.1.tgz#9476142e57cebdcb9c3a84f019c04fb6d9bf2c29"
+  integrity sha512-iuRP0yYH1o/9lw3O2KWUmorsmYWCoDpNWF+PuY/r24kAPtZF3CVEGxswJtzSdr1oXenPTvYq9oYwN+MQ12KsEw==
   dependencies:
-    "@netlify/open-api" "^0.5.0"
-    "@netlify/zip-it-and-ship-it" "^0.2.0"
+    "@netlify/open-api" "^0.8.0"
+    "@netlify/zip-it-and-ship-it" "^0.2.1"
     backoff "^2.5.0"
     clean-deep "^3.0.2"
     debug "^4.1.1"
@@ -6969,7 +6970,7 @@ optionator@^0.8.1:
     type-check "~0.3.2"
     wordwrap "~1.0.0"
 
-ora@^3.0.0:
+ora@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/ora/-/ora-3.1.0.tgz#dbedd8c03b5d017fb67083e87ee52f5ec89823ed"
   integrity sha512-vRBPaNCclUi8pUxRF/G8+5qEQkc6EgzKK1G2ZNJUIGu088Un5qIxFXeDgymvPRM9nmrcUOGzQgS1Vmtz+NtlMw==
@@ -7260,6 +7261,14 @@ password-prompt@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/password-prompt/-/password-prompt-1.0.7.tgz#8e27748d3400bc9c9140d5ade705dfb7aeb7d91a"
   integrity sha1-jid0jTQAvJyRQNWt5wXft6632Ro=
+  dependencies:
+    ansi-escapes "^3.1.0"
+    cross-spawn "^6.0.5"
+
+password-prompt@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/password-prompt/-/password-prompt-1.1.0.tgz#6aca8ba62a5c0c4dfe5957b2760db1fc1d0fe7ac"
+  integrity sha512-dTjuMS9bDxeLBbkX7C3GzuzooEFXrKdAmLcuWwuS0H6BVicfM5J2OVTaseS6nf+T92jJLXenDj0r6U79Chs7EA==
   dependencies:
     ansi-escapes "^3.1.0"
     cross-spawn "^6.0.5"
