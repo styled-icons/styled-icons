@@ -1,5 +1,9 @@
 # Changelog
 
+## v7.2.0
+
+- Upgrade Octicons to v8.4.2
+
 ## v7.1.1
 
 - Fix issue that omitted certain files from the NPM bundle
