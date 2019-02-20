@@ -798,10 +798,10 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.15"
 
-"@iarna/toml@^2.0.0":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.1.tgz#82d0993d8882bb05e0645fbb4731d9e939e895b3"
-  integrity sha512-I2EjI9TbEFJNLziNPFfpo64PNanOaK17iL2kTW/jGlGOa4bvHw4VEied83kOEB7NJjXf1KfvmsQ2aEjy3xjiGg==
+"@iarna/toml@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.2.tgz#76f6ce878d436c5cece0229ef1d24e796b2c596c"
+  integrity sha512-xm/Wpip5LRK1y1ZlzQLC/pDHlk0e1lNpQgOqWamfZSAU9pbTBHJFLM8wS4EB7LOc3EySARf9lZoGVX7cO26tJQ==
 
 "@lerna/add@3.13.0":
   version "3.13.0"
@@ -1477,7 +1477,7 @@
     supports-color "^5.4.0"
     tslib "^1"
 
-"@oclif/command@^1.5.1", "@oclif/command@^1.5.3", "@oclif/command@^1.5.4", "@oclif/command@^1.5.8":
+"@oclif/command@^1.5.1", "@oclif/command@^1.5.10", "@oclif/command@^1.5.3", "@oclif/command@^1.5.4", "@oclif/command@^1.5.8":
   version "1.5.10"
   resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.5.10.tgz#74696d9d76e1b83c13ec21df98e90ecc99f8482a"
   integrity sha512-zZdPHKj7u7d50XIcWer0x/YriL8c3NHPZCNhqA/RP62Bg9BgmvLAdn1dJ8YuxxNrhFCv+DmTyukyCYGLle+eNQ==
@@ -1487,10 +1487,10 @@
     debug "^4.1.1"
     semver "^5.6.0"
 
-"@oclif/config@^1.12.4":
-  version "1.12.6"
-  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.12.6.tgz#dacdb8fdf4eeb3d7fde22bc5d45b5b7b8ba3fc35"
-  integrity sha512-1xrLZkx6v/g+9FCYiyqfqikn4MtlQMH5+REZ2BOfwmcj43TBStHXylp9JtMWDvoYZpJLK/wSbBSzAxMum8LJRQ==
+"@oclif/config@^1.12.8":
+  version "1.12.8"
+  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.12.8.tgz#801469b9174ad0aaa26ab9132c68559fce0ac866"
+  integrity sha512-NNJ0lMowYwmfdoiwswfN9PKO71mGe031kgx9MVcp0nrMNzafO/Xa4Xw7tSzpeal7+wZRsrg/Xt6p4VfCK3UqLw==
   dependencies:
     debug "^4.1.1"
     tslib "^1.9.3"
@@ -1593,10 +1593,10 @@
     node-fetch "^2.3.0"
     universal-user-agent "^2.0.1"
 
-"@octokit/rest@^16.15.0":
-  version "16.15.0"
-  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.15.0.tgz#648a88d5de055bcf38976709c5b2bdf1227b926f"
-  integrity sha512-Un+e7rgh38RtPOTe453pT/KPM/p2KZICimBmuZCd2wEo8PacDa4h6RqTPZs+f2DPazTTqdM7QU4LKlUjgiBwWw==
+"@octokit/rest@^16.15.0", "@octokit/rest@^16.16.0":
+  version "16.16.0"
+  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.16.0.tgz#b686407d34c756c3463f8a7b1e42aa035a504306"
+  integrity sha512-Q6L5OwQJrdJ188gLVmUHLKNXBoeCU0DynKPYW8iZQQoGNGws2hkP/CePVNlzzDgmjuv7o8dCrJgecvDcIHccTA==
   dependencies:
     "@octokit/request" "2.3.0"
     before-after-hook "^1.2.0"
@@ -6459,18 +6459,18 @@ neo-async@^2.5.0:
   integrity sha512-MFh0d/Wa7vkKO3Y3LlacqAEeHK0mckVqzDieUKTT+KGxi+zIpeVsFxymkIiRpbpDziHc290Xr9A1O4Om7otoRA==
 
 netlify-cli@^2.6.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.7.0.tgz#3c672468abbb51b6ef9740afe1e944db12ef8eb8"
-  integrity sha512-jTJYenN6eRPd3iSeO1x88xepG5JxWhveEENXEBtQCi4TcD+MhKsO1WuemfrhUI1/7SGCgTbtu/ma9HDsirrr+w==
+  version "2.7.3"
+  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.7.3.tgz#23f3b0cc0225b30bb3a08f053c68c697cbc20bcc"
+  integrity sha512-XDDVv2LFusqAJ7cdSGtBM2nEWO5Blgzb35XsA734K41Tn31IPa5cS56rlSV++pKnEYW2Y0ya/svpmA7NHDzWnw==
   dependencies:
-    "@iarna/toml" "^2.0.0"
-    "@oclif/command" "^1.5.8"
-    "@oclif/config" "^1.12.4"
+    "@iarna/toml" "^2.2.2"
+    "@oclif/command" "^1.5.10"
+    "@oclif/config" "^1.12.8"
     "@oclif/errors" "^1.1.2"
     "@oclif/plugin-help" "^2.1.6"
     "@oclif/plugin-not-found" "^1.1.4"
     "@oclif/plugin-plugins" "^1.7.7"
-    "@octokit/rest" "^16.15.0"
+    "@octokit/rest" "^16.16.0"
     ascii-table "0.0.9"
     chalk "^2.4.2"
     ci-info "^2.0.0"
@@ -6493,7 +6493,7 @@ netlify-cli@^2.6.0:
     make-dir "^2.0.0"
     netlify "^2.3.0"
     node-fetch "^2.2.0"
-    ora "^3.0.0"
+    ora "^3.1.0"
     p-wait-for "^2.0.0"
     parse-github-url "^1.0.2"
     prettyjson "^1.2.1"
@@ -6969,7 +6969,7 @@ optionator@^0.8.1:
     type-check "~0.3.2"
     wordwrap "~1.0.0"
 
-ora@^3.0.0:
+ora@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/ora/-/ora-3.1.0.tgz#dbedd8c03b5d017fb67083e87ee52f5ec89823ed"
   integrity sha512-vRBPaNCclUi8pUxRF/G8+5qEQkc6EgzKK1G2ZNJUIGu088Un5qIxFXeDgymvPRM9nmrcUOGzQgS1Vmtz+NtlMw==
