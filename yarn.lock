@@ -6545,10 +6545,10 @@ netlify@^2.4.0:
     through2-map "^3.0.0"
     util.promisify "^1.0.0"
 
-next-server@8.0.2:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/next-server/-/next-server-8.0.2.tgz#b93797ec6b0ba5ac360c57a33a185967191156df"
-  integrity sha512-OODyysPPJY4f8Oy60+y1ALe4DODZofEGGZGoGkVbYDVddz70H5GRFhcYdmsd/0x/lrhSXs8V4LrFTpntMKSmcA==
+next-server@8.0.3:
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/next-server/-/next-server-8.0.3.tgz#47c5ad0317cd712f5ad8d35d817ad0668b7341cc"
+  integrity sha512-SuxJEY2TTECloHU1zn7xfOtm6Jnc3F6T6QxkT82BFbSIaPA2jEMLLBys8ov7eMpiTIQ8H6F5Y0stNsZSYSZczg==
   dependencies:
     etag "1.8.1"
     find-up "3.0.0"
@@ -6559,9 +6559,9 @@ next-server@8.0.2:
     url "0.11.0"
 
 next@^8.0.0:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/next/-/next-8.0.2.tgz#d50b5233e813dc39d43239158981892a7fefbfe4"
-  integrity sha512-qHs/IhfJK58CWfUlWKDpoDV7UjI36ebk1tdnnSY0jhSqH0EhB2PjXfuvcdpd9RoaA3kvbsZ6Ip+KxxSHhEvG/g==
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/next/-/next-8.0.3.tgz#7f27172e9441aacb21b04aaaaa663af43aceea3b"
+  integrity sha512-Q4GHUZPzQrjBAWPOBBbWVlKUj9XPc/OsLc7svEXG+c/k9K9piQHDewtI9g4jQPAQlKOqt9BcRk8s5teV4SFPfQ==
   dependencies:
     "@babel/core" "7.1.2"
     "@babel/plugin-proposal-class-properties" "7.1.0"
@@ -6574,7 +6574,6 @@ next@^8.0.0:
     "@babel/runtime" "7.1.2"
     "@babel/runtime-corejs2" "7.1.2"
     "@babel/template" "7.1.2"
-    ansi-html "0.0.7"
     arg "3.0.0"
     async-sema "2.1.4"
     autodll-webpack-plugin "0.4.2"
@@ -6598,7 +6597,7 @@ next@^8.0.0:
     loader-utils "1.1.0"
     mkdirp-then "1.2.0"
     nanoid "1.2.1"
-    next-server "8.0.2"
+    next-server "8.0.3"
     prop-types "15.6.2"
     prop-types-exact "1.2.0"
     react-error-overlay "4.0.0"
