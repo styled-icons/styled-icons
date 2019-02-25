@@ -1424,11 +1424,11 @@
     write-file-atomic "^2.3.0"
 
 "@loadable/component@^5.2.2":
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/@loadable/component/-/component-5.6.0.tgz#28f79caeccc956205a0e38494ea26c49428461d7"
-  integrity sha512-GeVzzAiKLC+CFr/Pf7uIsbRmzDLJ9XC4rb6AM2zIns6yziOvJTjKsO31PUuIxuMwNEKwlOpUkkBarBbwb45bHA==
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/@loadable/component/-/component-5.6.1.tgz#7c4cc7619280ae39a770583e05c3e9980bb3a615"
+  integrity sha512-lkRMQiekLmBIANxdx/Ybod8s2KQKnS0yAHl6abv1MenSjV9OmtLMjeOMz3RB7AItgOo6D7GPTWIJr1eHswV/Iw==
   dependencies:
-    hoist-non-react-statics "^3.2.1"
+    hoist-non-react-statics "^3.3.0"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -4949,7 +4949,7 @@ hoist-non-react-statics@3.2.0:
   dependencies:
     react-is "^16.3.2"
 
-hoist-non-react-statics@^3.2.1:
+hoist-non-react-statics@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.0.tgz#b09178f0122184fb95acf525daaecb4d8f45958b"
   integrity sha512-0XsbTXxgiaCDYDIWFcwkmerZPSwywfUqYmwT4jzewKTQSWoE6FCMoUVOeBJWK3E/CrWbxRG3m5GzY4lnIwGRBA==
