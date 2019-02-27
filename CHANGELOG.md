@@ -1,5 +1,9 @@
 # Changelog
 
+## v7.3.0
+
+- Upgrade Feather icons to v4.19.0
+
 ## v7.2.0
 
 - Upgrade Octicons to v8.4.2
