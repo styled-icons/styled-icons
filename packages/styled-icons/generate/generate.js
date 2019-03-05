@@ -58,6 +58,14 @@ const pkgJSON = name => `{
 }
 `
 
+const pkgJSONBuilt = name => `{
+  "private": true,
+  "main": "./${name}.js",
+  "module": "./${name}.esm.js",
+  "types": "./${name}.d.ts"
+}
+`
+
 const generate = async () => {
   console.log('Reading icon packs...')
 
@@ -218,6 +226,26 @@ export {StyledIconProps}
   compiler.stdout.pipe(process.stdout)
   compiler.stderr.pipe(process.stderr)
   await compiler
+
+  console.log('Moving ESM JavaScript files...')
+  const cjsFiles = await fg('build/**/*.js')
+  for (const builtFile of cjsFiles) {
+    const destination = path.join(__dirname, '..', builtFile.replace('build/', ''))
+    await fs.move(path.join(__dirname, '..', builtFile), destination)
+  }
+
+  console.log('Rewriting package.json files...')
+  await fs.writeFile(
+    path.join(baseDir, 'StyledIconBase', 'package.json'),
+    pkgJSONBuilt('StyledIconBase', '.js'),
+  )
+  await fs.outputFile(path.join(baseDir, 'types', 'package.json'), pkgJSONBuilt('types', '.js'))
+  for (const icon of icons) {
+    await fs.outputFile(
+      path.join(baseDir, icon.pack, icon.name, 'package.json'),
+      pkgJSONBuilt(icon.name, '.js'),
+    )
+  }
 
   console.log('Copying files to destination...')
   const builtFiles = await fg('build/**/*')
