@@ -1,5 +1,9 @@
 # Changelog
 
+## v7.4.1
+
+- Fix TypeScript type issue where `StyledIconProps` incorrectly allowed a string value as a `ref` which prevented that type from actually being used.
+
 ## v7.4.0
 
 - Upgrade Octicons to v8.5.0
