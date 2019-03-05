@@ -1,5 +1,9 @@
 # Changelog
 
+## v7.4.2
+
+- Add file extensions to icon `package.json` files to fix issues with certain bundlers not resolving icon files
+
 ## v7.4.1
 
 - Fix TypeScript type issue where `StyledIconProps` incorrectly allowed a string value as a `ref` which prevented that type from actually being used.
