@@ -2,7 +2,7 @@ import * as React from 'react'
 import styled from 'styled-components'
 import validProp from '@emotion/is-prop-valid'
 
-export interface StyledIconProps extends React.SVGProps<SVGSVGElement> {
+export interface StyledIconProps extends React.PropsWithRef<React.SVGProps<SVGSVGElement>> {
   'aria-hidden'?: string
   size?: number | string
   title?: string | null
