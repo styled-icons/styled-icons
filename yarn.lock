@@ -1424,9 +1424,9 @@
     write-file-atomic "^2.3.0"
 
 "@loadable/component@^5.2.2":
-  version "5.6.1"
-  resolved "https://registry.yarnpkg.com/@loadable/component/-/component-5.6.1.tgz#7c4cc7619280ae39a770583e05c3e9980bb3a615"
-  integrity sha512-lkRMQiekLmBIANxdx/Ybod8s2KQKnS0yAHl6abv1MenSjV9OmtLMjeOMz3RB7AItgOo6D7GPTWIJr1eHswV/Iw==
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/@loadable/component/-/component-5.7.0.tgz#6d6b5afc2c18b9bbcb2adf1b581621e5291feecf"
+  integrity sha512-yHe2WrqUqw2zyS5MnHziVfhMONFe7Pd8oMO2UB/G9XxkXLZkSvFZQIpNouHNNE1Kc29asIYXnR42vMD5IjruSQ==
   dependencies:
     hoist-non-react-statics "^3.3.0"
 
