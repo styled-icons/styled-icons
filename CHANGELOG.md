@@ -1,5 +1,10 @@
 # Changelog
 
+## v7.5.0
+
+- Upgrade Boxicons to v1.9.2
+- Upgrade Cryptocurrency Icons to v0.11.0
+
 ## v7.4.2
 
 - Add file extensions to icon `package.json` files to fix issues with certain bundlers not resolving icon files
