@@ -60,8 +60,8 @@
     "@types/node": "^11.9.2",
     "@types/react": "^16.7.14",
     "@types/styled-components": "^4.1.9",
-    "boxicons": "^1.9.1",
-    "cryptocurrency-icons": "^0.10.0",
+    "boxicons": "^1.9.2",
+    "cryptocurrency-icons": "^0.11.0",
     "execa": "^1.0.0",
     "fast-case": "^1.2.1",
     "fast-glob": "^2.2.3",
@@ -78,7 +78,7 @@
     "svgo": "^1.0.5",
     "ttypescript": "^1.5.6",
     "typescript": "^3.1.6",
-    "typescript-plugin-styled-components": "^1.2.0",
+    "typescript-plugin-styled-components": "^1.4.0-rc",
     "typicons.font": "^2.0.9"
   },
   "dependencies": {
