@@ -51,10 +51,10 @@
     "styled-components": ">=4.1.0 <5"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.13",
-    "@fortawesome/free-brands-svg-icons": "^5.7.0",
-    "@fortawesome/free-regular-svg-icons": "^5.7.0",
-    "@fortawesome/free-solid-svg-icons": "^5.7.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.16",
+    "@fortawesome/free-brands-svg-icons": "^5.8.0",
+    "@fortawesome/free-regular-svg-icons": "^5.8.0",
+    "@fortawesome/free-solid-svg-icons": "^5.8.0",
     "@styled-icons/icomoon-source": "Keyamoon/IcoMoon-Free#d006795ede82361e1bac1ee76f215cf1dc51e4ca",
     "@types/next": "^8.0.0",
     "@types/node": "^11.9.2",
