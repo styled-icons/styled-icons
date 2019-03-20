@@ -1,5 +1,9 @@
 # Changelog
 
+## v7.8.0
+
+- Upgrade Font Awesome to v5.8.0
+
 ## v7.5.0
 
 - Upgrade Boxicons to v1.9.2
