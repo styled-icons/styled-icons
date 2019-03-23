@@ -1,5 +1,9 @@
 # Changelog
 
+## v7.7.0
+
+- Upgrade Font Awesome to v5.8.1
+
 ## v7.6.0
 
 - Upgrade Font Awesome to v5.8.0
