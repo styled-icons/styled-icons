@@ -9240,9 +9240,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 typescript-plugin-styled-components@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/typescript-plugin-styled-components/-/typescript-plugin-styled-components-1.4.0.tgz#c5332b742ee24ab37e1d31c07aac6625375b22c3"
-  integrity sha512-GaHJ3Ic40t8SiA9e29IFM7f04+M9sWg8ES9mdr+W02r6P7y5OaY4Me+swQYL3/dQiAo/OUQzbJDhxuwjlginEQ==
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/typescript-plugin-styled-components/-/typescript-plugin-styled-components-1.4.1.tgz#41bbc8f21e2193a6b3d1663d07b7a294caece3ad"
+  integrity sha512-PrPkEfL/tN3GynBH3hsGb7j/Ii1PIfW0uRjSVa1hLtbWW3Q/68ZlMJEgASbycuerFtl5gORSL3Fzy4mR1sSkcA==
 
 typescript@3.3.3333:
   version "3.3.3333"
