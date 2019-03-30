@@ -1,5 +1,10 @@
 # Changelog
 
+## v7.8.0
+
+- Upgrade Feather icons to v4.20.0
+- Upgrade Boxicons to v1.9.3
+
 ## v7.7.0
 
 - Upgrade Font Awesome to v5.8.1
