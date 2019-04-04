@@ -5532,10 +5532,10 @@ js-string-escape@^1.0.1:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
-js-yaml@^3.12.0, js-yaml@^3.9.0:
-  version "3.12.2"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.2.tgz#ef1d067c5a9d9cb65bd72f285b5d8105c77f14fc"
-  integrity sha512-QHn/Lh/7HhZ/Twc7vJYQTkjuCa0kaCcDcjK5Zlk2rvnUpy7DxMJ23+Jc2dcyvltwQVg1nygAVlB2oRDFHoRS5Q==
+js-yaml@^3.13.0, js-yaml@^3.9.0:
+  version "3.13.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.0.tgz#38ee7178ac0eea2c97ff6d96fff4b18c7d8cf98e"
+  integrity sha512-pZZoSxcCYco+DIKBTimr67J6Hy+EYGZDY/HCWC+iAEA9h1ByhMXAIVUXMcMFpOCxQ/xjXmPI2MkDL5HRm5eFrQ==
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
@@ -8824,9 +8824,9 @@ supports-hyperlinks@^1.0.1:
     supports-color "^5.0.0"
 
 svgo@^1.0.5:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/svgo/-/svgo-1.2.0.tgz#305a8fc0f4f9710828c65039bb93d5793225ffc3"
-  integrity sha512-xBfxJxfk4UeVN8asec9jNxHiv3UAMv/ujwBWGYvQhhMb2u3YTGKkiybPcLFDLq7GLLWE9wa73e0/m8L5nTzQbw==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/svgo/-/svgo-1.2.1.tgz#3fedde75a4016193e1c2608b5fdef6f3e4a9fd99"
+  integrity sha512-Y1+LyT4/y1ms4/0yxPMSlvx6dIbgklE9w8CIOnfeoFGB74MEkq8inSfEr6NhocTaFbyYp0a1dvNgRKGRmEBlzA==
   dependencies:
     chalk "^2.4.1"
     coa "^2.0.2"
@@ -8835,7 +8835,7 @@ svgo@^1.0.5:
     css-tree "1.0.0-alpha.28"
     css-url-regex "^1.1.0"
     csso "^3.5.1"
-    js-yaml "^3.12.0"
+    js-yaml "^3.13.0"
     mkdirp "~0.5.1"
     object.values "^1.1.0"
     sax "~1.2.4"
