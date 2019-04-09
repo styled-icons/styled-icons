@@ -6454,9 +6454,9 @@ neo-async@^2.5.0, neo-async@^2.6.0:
   integrity sha512-MFh0d/Wa7vkKO3Y3LlacqAEeHK0mckVqzDieUKTT+KGxi+zIpeVsFxymkIiRpbpDziHc290Xr9A1O4Om7otoRA==
 
 netlify-cli@^2.9.1:
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.10.0.tgz#55537de42b72cc5c350ab621ecf60260fdfdcdf3"
-  integrity sha512-wJajcaT/u6ID2C44nVp+zOQvf6DNZH0G9Xgy53Eagh+EG/TzxUtk2pj1SJmGOxKUx+0k6B3kdkr9k+9vWGCgpg==
+  version "2.10.1"
+  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.10.1.tgz#749686d69a626e652a8208cebb2336977258a77d"
+  integrity sha512-a+yMIr3ywS9MtnZ9N7WP534HggpG7FsMa1fZ4cRgK3llNdq+AwE0k8Tq8Qqq/uJcniFZLhxWZ1OieRce2JDdXA==
   dependencies:
     "@iarna/toml" "^2.2.3"
     "@oclif/command" "^1.5.11"
