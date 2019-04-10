@@ -61,7 +61,7 @@
     "@types/react": "^16.7.14",
     "@types/styled-components": "^4.1.9",
     "boxicons": "^1.9.2",
-    "cryptocurrency-icons": "^0.11.0",
+    "cryptocurrency-icons": "^0.12.0",
     "execa": "^1.0.0",
     "fast-case": "^1.2.1",
     "fast-glob": "^2.2.3",

@@ -3423,10 +3423,10 @@ crypto-random-string@^1.0.0:
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
   integrity sha1-ojD2T1aDEOFJgAmUB5DsmVRbyn4=
 
-cryptocurrency-icons@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/cryptocurrency-icons/-/cryptocurrency-icons-0.11.0.tgz#1c6e2171147326a767f03a2a9435108c3b088786"
-  integrity sha512-BctVhu+S1kyRrvz83Cu1EYZfF042zuL246xyfSP5ZATZPXMwbXQgjy+BGtqp4xGrwypxbzrBG1mqapW4CwZMeg==
+cryptocurrency-icons@^0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/cryptocurrency-icons/-/cryptocurrency-icons-0.12.0.tgz#c7b8581c9d6fe118ddb5b1f8168f0739cd548670"
+  integrity sha512-kwOSKDrJVYrdD5Gi7PDpJHLmXrcVhMPE2zQ8yoqzioI3BIjjJfak7ODr1bldtJXGcJd0d7zORahy/O8s7qNVDA==
 
 css-color-keywords@^1.0.0:
   version "1.0.0"
