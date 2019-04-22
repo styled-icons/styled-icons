@@ -1,5 +1,9 @@
 # Changelog
 
+## v7.10.0
+
+- Upgrade Cryptocurrency Icons to v0.13.0
+
 ## v7.9.0
 
 - Upgrade Feather icons to v4.21.0
