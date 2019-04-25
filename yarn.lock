@@ -7117,9 +7117,9 @@ netlify-cli-logo@^1.0.0:
     chalk "^2.4.2"
 
 netlify-cli@^2.9.1:
-  version "2.11.12"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.11.12.tgz#1dba80e6b499997ebcc4230fa1a5487d8d0f91fa"
-  integrity sha512-23rN2ursKLZHtbL96PaO/NPH8RPIA+uiQ0f7flYa+PGn4O03MAVksuSXko3zKYCnhPqBU9mLN52sFKd6n012pA==
+  version "2.11.13"
+  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.11.13.tgz#8d6c11fa4180d35ed10a01bd5179064839c8c849"
+  integrity sha512-ZQxbqnI2JBF2o21mX93kqKxpkZYBWnmj10GsFACqOyDK/esJmfpai//zvj+54kIuyK0yvj5v7OvYPQL2TzC1lA==
   dependencies:
     "@netlify/cli-utils" "^1.0.2"
     "@oclif/command" "^1.5.13"
@@ -7147,7 +7147,7 @@ netlify-cli@^2.9.1:
     lodash.isequal "^4.5.0"
     log-symbols "^2.2.0"
     netlify "^2.4.4"
-    netlify-dev-plugin "^1.0.12"
+    netlify-dev-plugin "^1.0.14"
     node-fetch "^2.2.0"
     ora "^3.4.0"
     p-wait-for "^2.0.0"
@@ -7156,10 +7156,10 @@ netlify-cli@^2.9.1:
     random-item "^1.0.0"
     update-notifier "^2.5.0"
 
-netlify-dev-plugin@^1.0.12:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/netlify-dev-plugin/-/netlify-dev-plugin-1.0.12.tgz#befa3b6740f0b6ab57b436f7ad6655975c1ad084"
-  integrity sha512-Igr3rI2fZ5A9yTDpT9pVBaCmaQKjZbOCO9ff9CMWYb00zGWsdzy0TUyJZSHggaUPHA8Jp7XzPzSEh9QShNSZUQ==
+netlify-dev-plugin@^1.0.14:
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/netlify-dev-plugin/-/netlify-dev-plugin-1.0.14.tgz#0ddb442c409c18b0e17dbbdefd51dbe76d30daef"
+  integrity sha512-cDZuiLA0vptGhp/nSrYwaVTJcIR8CPr8ve/zBURd3AycpS6oC5Zxmh40ZMVdBkAkrKiUUH1effsEjqLA14+A6Q==
   dependencies:
     "@netlify/cli-utils" "^1.0.1"
     "@netlify/rules-proxy" "^0.1.3"
