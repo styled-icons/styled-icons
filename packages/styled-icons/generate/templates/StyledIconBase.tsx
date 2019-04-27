@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import validProp from '@emotion/is-prop-valid'
 
 export interface StyledIconProps extends React.PropsWithRef<React.SVGProps<SVGSVGElement>> {
-  'aria-hidden'?: string
   size?: number | string
   title?: string | null
 }
@@ -38,7 +37,6 @@ const StyledIconBaseBase = React.forwardRef<SVGSVGElement, StyledIconProps & Sty
       viewBox: iconViewBox,
       height: props.height !== undefined ? props.height : size,
       width: props.width !== undefined ? props.width : size,
-      // @ts-ignore - aria is not always defined on SVG in React TypeScript types
       'aria-hidden': title == null ? 'true' : undefined,
       focusable: 'false',
       role: title != null ? 'img' : undefined,
