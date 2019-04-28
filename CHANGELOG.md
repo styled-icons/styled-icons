@@ -1,5 +1,10 @@
 # Changelog
 
+## v7.11.0
+
+- Upgrade Boxicons to v1.9.4
+- Fix TypeScript types for `aria-hidden` prop
+
 ## v7.10.0
 
 - Upgrade Cryptocurrency Icons to v0.13.0
