@@ -22,9 +22,8 @@
   "devDependencies": {
     "@types/history": "^4.7.2",
     "@types/js-search": "^1.4.0",
-    "@types/node": "^11.11.6",
-    "@types/query-string": "^6.1.1",
-    "@types/react": "^16.7.14",
+    "@types/node": "^11.13.8",
+    "@types/react": "^16.8.14",
     "@types/react-dom": "^16.0.9",
     "@types/react-virtualized": "^9.18.11",
     "@types/styled-components": "^4.1.9",
