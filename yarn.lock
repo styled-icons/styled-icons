@@ -7101,9 +7101,9 @@ netlify-cli-logo@^1.0.0:
     chalk "^2.4.2"
 
 netlify-cli@^2.9.1:
-  version "2.11.14"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.11.14.tgz#5464fbbcebb839cde1fa2f3b8e18a06ba4c8983a"
-  integrity sha512-ndqKvF+iNDJDXWNB4BGqnskYqynhqye7aIgeaQF9fs/ArtqKMxGq8As7BDbnkU7phnu9u7mQA3gIRv811RPnhw==
+  version "2.11.15"
+  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.11.15.tgz#14a758bb601634dc00dfe2f2b566873fe233909a"
+  integrity sha512-94QQoE1ZVaffMQFXYK4Df9G7M07+JpKb0RCBOcyrBFpr9J3T3pa+DjZv75nMp8anAK2vR+kmzfu+PkWcmjspwg==
   dependencies:
     "@netlify/cli-utils" "^1.0.2"
     "@oclif/command" "^1.5.13"
@@ -7131,8 +7131,8 @@ netlify-cli@^2.9.1:
     lodash.isequal "^4.5.0"
     log-symbols "^2.2.0"
     netlify "^2.4.4"
-    netlify-dev-plugin "^1.0.15"
-    node-fetch "^2.2.0"
+    netlify-dev-plugin "^1.0.16"
+    node-fetch "^2.4.1"
     ora "^3.4.0"
     p-wait-for "^2.0.0"
     parse-github-url "^1.0.2"
@@ -7140,10 +7140,10 @@ netlify-cli@^2.9.1:
     random-item "^1.0.0"
     update-notifier "^2.5.0"
 
-netlify-dev-plugin@^1.0.15:
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/netlify-dev-plugin/-/netlify-dev-plugin-1.0.15.tgz#c6964a80126c63bfda008d64eb702510ec78e4d1"
-  integrity sha512-QaPKnqCgF7MJb2M6YDz1Qes1pkoW3s1YlgaSOyvw9BMDhMCZcc3dFt1Gij5Kfzt7Wbdcoy37Qw535YzvOmU7vQ==
+netlify-dev-plugin@^1.0.16:
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/netlify-dev-plugin/-/netlify-dev-plugin-1.0.16.tgz#66b3f7ca1d8a571f17543b51ba993ffea0996cbc"
+  integrity sha512-0mhhDsJEJ+C3VuDTViM1OxoGjGBWnWqS7FmaukBnb+YRkXFYa+et4u68tOz+zfHBYTaY2lCNRtLQ/V7Lu7P7CQ==
   dependencies:
     "@netlify/cli-utils" "^1.0.1"
     "@netlify/rules-proxy" "^0.1.3"
@@ -7343,7 +7343,7 @@ node-fetch@2.3.0:
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.3.0.tgz#1a1d940bbfb916a1d3e0219f037e89e71f8c5fa5"
   integrity sha512-MOd8pV3fxENbryESLgVIeaGKrdl+uaYhCSSVkjeOb/31/njTpcis5aWfdqgNlHIrKOLRbMnfPINPOML2CIFeXA==
 
-node-fetch@^2.2.0, node-fetch@^2.3.0:
+node-fetch@^2.2.0, node-fetch@^2.3.0, node-fetch@^2.4.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.4.1.tgz#b2e38f1117b8acbedbe0524f041fb3177188255d"
   integrity sha512-P9UbpFK87NyqBZzUuDBDz4f6Yiys8xm8j7ACDbi6usvFm6KItklQUKjeoqTrYS/S1k6I8oaOC2YLLDr/gg26Mw==
