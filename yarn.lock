@@ -2667,10 +2667,10 @@ boxen@^3.0.0:
     type-fest "^0.3.0"
     widest-line "^2.0.0"
 
-boxicons@^1.9.4:
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/boxicons/-/boxicons-1.9.4.tgz#6f63a637dda5434f715842155e135587a095823c"
-  integrity sha512-JEzu63ickPDzQf63tN6vsmlHNBfQOnN3fv07VK1MR0cK/lQmLiuo1ZNov6XqxbvVg3gKOquTqivMpQsRhXpLnw==
+boxicons@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/boxicons/-/boxicons-2.0.0.tgz#cfd9f80c58ad787135f5e6b15d06e0bc1a2ef67c"
+  integrity sha512-c88Jfh7Te1EwX1F7YTiqqBCBF+m34h09L4KndG+FFgFptc39jnZpmRsXQ9MemJJJ2l1i3TZb+myJBzzPHTJ1+w==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
