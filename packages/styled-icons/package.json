@@ -60,7 +60,7 @@
     "@types/node": "^11.13.8",
     "@types/react": "^16.8.14",
     "@types/styled-components": "^4.1.9",
-    "boxicons": "^1.9.4",
+    "boxicons": "^2.0.0",
     "cryptocurrency-icons": "^0.13.0",
     "execa": "^1.0.0",
     "fast-case": "^1.2.1",
