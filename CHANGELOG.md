@@ -1,5 +1,9 @@
 # Changelog
 
+## v7.12.0
+
+- Upgrade Boxicons v2.0.1
+
 ## v7.11.0
 
 - Upgrade Boxicons to v1.9.4
