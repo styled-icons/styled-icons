@@ -11,6 +11,7 @@ import {
   boxiconsRegular,
   boxiconsSolid,
   crypto,
+  evil,
   faBrands,
   faRegular,
   faSolid,
@@ -46,6 +47,9 @@ const icons = iconManifest.map(
 
       case 'crypto':
         return {...icon, icon: crypto[icon.name as keyof typeof crypto]}
+
+      case 'evil':
+        return {...icon, icon: evil[icon.name as keyof typeof evil]}
 
       case 'fa-brands':
         return {...icon, icon: faBrands[icon.name as keyof typeof faBrands]}

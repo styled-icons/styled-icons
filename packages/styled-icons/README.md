@@ -8,7 +8,7 @@
 
 [![View Icons](https://gui.apex.sh/component?name=ShadowButton&config=%7B%22text%22%3A%22ICON%20EXPLORER%22%2C%22color%22%3A%22db7093%22%7D)](https://styled-icons.js.org)
 
-`styled-icons` provides the [Font Awesome](https://fontawesome.com/), [Feather](https://feathericons.com/), [Icomoon](https://icomoon.io), [Material Design](https://material.io/icons/), [Octicons](https://octicons.github.com/), [Typicons](https://www.s-ings.com/typicons/), [Crypto Icons](http://cryptoicons.co) and [Boxicons](https://boxicons.com/) icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules.
+`styled-icons` provides the [Font Awesome](https://fontawesome.com/), [Feather](https://feathericons.com/), [Icomoon](https://icomoon.io), [Material Design](https://material.io/icons/), [Octicons](https://octicons.github.com/), [Typicons](https://www.s-ings.com/typicons/), [Crypto Icons](http://cryptoicons.co), [Evil Icons](https://evil-icons.io), and [Boxicons](https://boxicons.com/) icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules.
 
 ---
 
@@ -53,6 +53,7 @@ import * as boxiconsLogos from 'styled-icons/boxicons-logos'
 import * as boxiconsRegular from 'styled-icons/boxicons-regular'
 import * as boxiconsSolid from 'styled-icons/boxicons-solid'
 import * as crypto from 'styled-icons/crypto'
+import * as evil from 'styled-icons/evil'
 import * as faBrands from 'styled-icons/fa-brands'
 import * as faRegular from 'styled-icons/fa-regular'
 import * as faSolid from 'styled-icons/fa-solid'
@@ -211,6 +212,8 @@ The MIT License - see `LICENSE`.
 The Boxicons are licensed under the [CC BY 4.0 License](https://boxicons.com/get-started#license).
 
 The Cryptocurrency icons are licensed under the [CC0 1.0 Universal License](https://github.com/atomiclabs/cryptocurrency-icons/blob/master/LICENSE.md).
+
+The Evil Icons are licensed under the [MIT License](https://github.com/evil-icons/evil-icons/blob/master/LICENSE.txt).
 
 The Font Awesome icons are licensed under the [CC BY 4.0 License](https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt).
 
