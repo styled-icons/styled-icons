@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "lerna": "^3.10.8",
-    "netlify-cli": "^2.9.1",
+    "netlify-cli": "^2.11.16",
     "prettier": "^1.16.0"
   }
 }
