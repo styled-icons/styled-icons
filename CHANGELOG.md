@@ -1,5 +1,9 @@
 # Changelog
 
+## v7.14.0
+
+- Add Evil Icons v1.10.1
+
 ## v7.13.0
 
 - Upgrade Font Awesome to v5.8.2
