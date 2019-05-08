@@ -13,6 +13,7 @@ const PACKS = [
   'boxicons-regular',
   'boxicons-solid',
   'crypto',
+  'evil',
   'fa-brands',
   'fa-regular',
   'fa-solid',
