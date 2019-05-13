@@ -68,7 +68,7 @@
     "fast-case": "^1.2.1",
     "fast-glob": "^2.2.3",
     "feather-icons": "^4.9.0",
-    "fs-extra": "^7.0.0",
+    "fs-extra": "^8.0.0",
     "h2x-core": "^1.1.1",
     "h2x-plugin-jsx": "^1.2.0",
     "material-design-icons": "^3.0.1",
