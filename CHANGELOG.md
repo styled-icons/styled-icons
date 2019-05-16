@@ -1,5 +1,9 @@
 # Changelog
 
+## v7.15.0
+
+- Upgrade Boxicons to v2.0.2
+
 ## v7.14.0
 
 - Add Evil Icons v1.10.1
