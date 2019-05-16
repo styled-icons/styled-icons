@@ -1,5 +1,9 @@
 # Changelog
 
+## v7.15.1
+
+- Fix issue with tree shaking caused by missing `package.json` files, mark everything with `"sideEffects": false`
+
 ## v7.15.0
 
 - Upgrade Boxicons to v2.0.2

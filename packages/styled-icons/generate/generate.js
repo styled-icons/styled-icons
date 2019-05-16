@@ -54,6 +54,7 @@ const baseDir = path.join(__dirname, '..', 'build')
 
 const pkgJSON = name => `{
   "private": true,
+  "sideEffects": false,
   "main": "./${name}",
   "module": "./${name}.esm"
 }
@@ -61,6 +62,7 @@ const pkgJSON = name => `{
 
 const pkgJSONBuilt = name => `{
   "private": true,
+  "sideEffects": false,
   "main": "./${name}.js",
   "module": "./${name}.esm.js",
   "types": "./${name}.d.ts"
@@ -241,6 +243,9 @@ export {StyledIconProps}
     pkgJSONBuilt('StyledIconBase', '.js'),
   )
   await fs.outputFile(path.join(baseDir, 'types', 'package.json'), pkgJSONBuilt('types', '.js'))
+  for (const pack of PACKS) {
+    await fs.outputFile(path.join(baseDir, pack, 'package.json'), pkgJSONBuilt('index', '.js'))
+  }
   for (const icon of icons) {
     await fs.outputFile(
       path.join(baseDir, icon.pack, icon.name, 'package.json'),
