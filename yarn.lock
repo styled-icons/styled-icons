@@ -1642,7 +1642,7 @@
     once "^1.4.0"
     universal-user-agent "^2.0.1"
 
-"@octokit/rest@^16.16.0", "@octokit/rest@^16.25.2":
+"@octokit/rest@^16.16.0", "@octokit/rest@^16.25.3":
   version "16.25.3"
   resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.25.3.tgz#ce9e7a6230d20d58574ec929f622f2778ead7eb4"
   integrity sha512-/6/Isn9pNoKUQwuWUaskxMC6kFxtXTHhzsgYbyirEQ3UvcLciHvPgtRTbuV3bbVf0x4+4WEfKaI9UzxmPQ3W3A==
@@ -7130,9 +7130,9 @@ netlify-cli-logo@^1.0.0:
     chalk "^2.4.2"
 
 netlify-cli@^2.11.16:
-  version "2.11.16"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.11.16.tgz#663011874799fd27ab924f96768c88c7252c68b9"
-  integrity sha512-ZbvW0epwcEoKUwNvu9i6hkb0gTeqZb8hUzdxfOakIBFrBSIwTfykIQqHQqJMQEozYYN0/ImRYhpDhx0X0WpHiQ==
+  version "2.11.18"
+  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.11.18.tgz#8b9007fd34922869d47d6b11accf9d8e14aa23c8"
+  integrity sha512-kUHvll0HH1RZqh9kAcZNomdmdL4zAXlmSdkChxHOLJPNTkAABVUoZkuu1VpSnmLVaEfKwc1OX+AE8BWpwXKtUw==
   dependencies:
     "@netlify/cli-utils" "^1.0.2"
     "@oclif/command" "^1.5.13"
@@ -7141,7 +7141,7 @@ netlify-cli@^2.11.16:
     "@oclif/plugin-help" "^2.1.6"
     "@oclif/plugin-not-found" "^1.1.4"
     "@oclif/plugin-plugins" "^1.7.8"
-    "@octokit/rest" "^16.25.2"
+    "@octokit/rest" "^16.25.3"
     ansi-styles "^3.2.1"
     ascii-table "0.0.9"
     chalk "^2.4.2"
@@ -7160,7 +7160,7 @@ netlify-cli@^2.11.16:
     lodash.isequal "^4.5.0"
     log-symbols "^2.2.0"
     netlify "^2.4.4"
-    netlify-dev-plugin "^1.0.17"
+    netlify-dev-plugin "^1.0.19"
     node-fetch "^2.5.0"
     ora "^3.4.0"
     p-wait-for "^2.0.0"
@@ -7169,10 +7169,10 @@ netlify-cli@^2.11.16:
     random-item "^1.0.0"
     update-notifier "^2.5.0"
 
-netlify-dev-plugin@^1.0.17:
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/netlify-dev-plugin/-/netlify-dev-plugin-1.0.17.tgz#3c0ab3b5cd94a0bd8fb5b961eb65c9d56da2b412"
-  integrity sha512-dFx2+oLucjZoki8ehmVv7HJ6v4ioejswANhbADGECs/0NAVQjgh/lVDot06P1X2aECvi9+Dalnp1aS3JuRar0w==
+netlify-dev-plugin@^1.0.19:
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/netlify-dev-plugin/-/netlify-dev-plugin-1.0.19.tgz#41e6af19a3ff7466de4ef7b401047217b3784041"
+  integrity sha512-vgq0em+buh0bR+8N02aKjf/3dMqUtcciL5Nj0Db0wc+VkC6OMDG+PYILtPSONbzAq/EaretdM+YtbHImAxmCsg==
   dependencies:
     "@netlify/cli-utils" "^1.0.1"
     "@netlify/rules-proxy" "^0.1.3"
