@@ -199,6 +199,8 @@ interface Props {
 }
 ```
 
+**NOTE:** you should ensure that the version of `@types/react` in your project is at least `16.8.14` or greater.  That version of the React types package added support for ARIA attributes on SVG elements, which Styled Icons uses.
+
 If you have any ideas for improvements to the TypeScript typing, please open an issue or PR!
 
 ## Contributing
