@@ -1581,10 +1581,10 @@
     debug "^4.1.1"
     semver "^5.6.0"
 
-"@oclif/config@^1", "@oclif/config@^1.12.12":
-  version "1.12.12"
-  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.12.12.tgz#09e6628fe454214bbd7630ae18d2bee0db6bd533"
-  integrity sha512-0vlX5VYvOfF9QbkCqMyPSzH9GMp6at4Mbqn8CxCskxhKvNZoPD5ocda2ku0zEnoqxGAQ4VfQP7NCqJthuiStfg==
+"@oclif/config@^1", "@oclif/config@^1.13.0":
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.13.0.tgz#fc2bd82a9cb30a73faf7d2aa5ae937c719492bd1"
+  integrity sha512-ttb4l85q7SBx+WlUJY4A9eXLgv4i7hGDNGaXnY9fDKrYD7PBMwNOQ3Ssn2YT2yARAjyOxVE/5LfcwhQGq4kzqg==
   dependencies:
     debug "^4.1.1"
     tslib "^1.9.3"
@@ -1677,28 +1677,38 @@
   resolved "https://registry.yarnpkg.com/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-2.2.2.tgz#c0e22067a043e19f96ff9c7832e2a3019f9be75c"
   integrity sha512-CTZr64jZYhGWNTDGlSJ2mvIlFsm9OEO3LqWn9I/gmoHI4jRBp4kpHoFYNemG4oA75zUAcmbuWblb7jjP877YZw==
 
-"@octokit/request@3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@octokit/request/-/request-3.0.2.tgz#dd2424691f486d7ea332ec06e3de55b1ea13c5dc"
-  integrity sha512-lBH2hf2Yuh9XlmP3MSpn3jL9DyCGG+cuPXDRQiJMK42BwW6xFhwWmG1k6xWykcLM4GwZG/5fuwcqnQXYG0ZTSg==
+"@octokit/request-error@^1.0.1", "@octokit/request-error@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@octokit/request-error/-/request-error-1.0.2.tgz#e6dbc5be13be1041ef8eca9225520982add574cf"
+  integrity sha512-T9swMS/Vc4QlfWrvyeSyp/GjhXtYaBzCcibjGywV4k4D2qVrQKfEMPy8OxMDEj7zkIIdpHwqdpVbKCvnUPqkXw==
+  dependencies:
+    deprecation "^2.0.0"
+    once "^1.4.0"
+
+"@octokit/request@^4.0.1":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@octokit/request/-/request-4.1.0.tgz#e85dc377113baf2fe24433af8feb20e8a32e21b0"
+  integrity sha512-RvpQAba4i+BNH0z8i0gPRc1ShlHidj4puQjI/Tno6s+Q3/Mzb0XRSHJiOhpeFrZ22V7Mwjq1E7QS27P5CgpWYA==
   dependencies:
     "@octokit/endpoint" "^5.1.0"
-    deprecation "^1.0.1"
+    "@octokit/request-error" "^1.0.1"
+    deprecation "^2.0.0"
     is-plain-object "^3.0.0"
     node-fetch "^2.3.0"
     once "^1.4.0"
-    universal-user-agent "^2.0.1"
+    universal-user-agent "^2.1.0"
 
-"@octokit/rest@^16.16.0", "@octokit/rest@^16.25.3":
-  version "16.25.3"
-  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.25.3.tgz#ce9e7a6230d20d58574ec929f622f2778ead7eb4"
-  integrity sha512-/6/Isn9pNoKUQwuWUaskxMC6kFxtXTHhzsgYbyirEQ3UvcLciHvPgtRTbuV3bbVf0x4+4WEfKaI9UzxmPQ3W3A==
+"@octokit/rest@^16.16.0", "@octokit/rest@^16.26.0":
+  version "16.26.0"
+  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.26.0.tgz#5c12b28763219045e1c9a15182e8dfaed10004e8"
+  integrity sha512-NBpzre44ZAQWZhlH+zUYTgqI0pHN+c9rNj4d+pCydGEiKTGc1HKmoTghEUyr9GxazDyoAvmpx9nL0I7QS1Olvg==
   dependencies:
-    "@octokit/request" "3.0.2"
+    "@octokit/request" "^4.0.1"
+    "@octokit/request-error" "^1.0.2"
     atob-lite "^2.0.0"
     before-after-hook "^1.4.0"
     btoa-lite "^1.0.0"
-    deprecation "^1.0.1"
+    deprecation "^2.0.0"
     lodash.get "^4.4.2"
     lodash.set "^4.3.2"
     lodash.uniq "^4.5.0"
@@ -4128,10 +4138,10 @@ depd@~1.1.1, depd@~1.1.2:
   resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
   integrity sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
 
-deprecation@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/deprecation/-/deprecation-1.0.1.tgz#2df79b79005752180816b7b6e079cbd80490d711"
-  integrity sha512-ccVHpE72+tcIKaGMql33x5MAjKQIZrk+3x2GbJ7TeraUCZWHoT+KSZpoC+JQFsUBlSTXUrBaGiF0j6zVTepPLg==
+deprecation@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/deprecation/-/deprecation-2.0.0.tgz#dd0427cd920c78bc575ec39dab2f22e7c304fb9d"
+  integrity sha512-lbQN037mB3VfA2JFuguM5GCJ+zPinMeCrFe+AfSZ6eqrnJA/Fs+EYMnd6Nb2mn9lf2jO9xwEd9o9lic+D4vkcw==
 
 des.js@^1.0.0:
   version "1.0.0"
@@ -7221,18 +7231,18 @@ netlify-cli-logo@^1.0.0:
     chalk "^2.4.2"
 
 netlify-cli@^2.11.16:
-  version "2.11.18"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.11.18.tgz#8b9007fd34922869d47d6b11accf9d8e14aa23c8"
-  integrity sha512-kUHvll0HH1RZqh9kAcZNomdmdL4zAXlmSdkChxHOLJPNTkAABVUoZkuu1VpSnmLVaEfKwc1OX+AE8BWpwXKtUw==
+  version "2.11.19"
+  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.11.19.tgz#1ca94fd2715e7fccd8e9848d407f6f26cbc86a71"
+  integrity sha512-yWq9xWhHBjAAa3/YOcE1Evvve58wvp6EdqN2al2evLYWcKGYKmGpqxjlJo8FBObfdr43hp/ZHMzwPwQJw4fNjQ==
   dependencies:
     "@netlify/cli-utils" "^1.0.2"
     "@oclif/command" "^1.5.13"
-    "@oclif/config" "^1.12.12"
+    "@oclif/config" "^1.13.0"
     "@oclif/errors" "^1.1.2"
     "@oclif/plugin-help" "^2.1.6"
     "@oclif/plugin-not-found" "^1.1.4"
     "@oclif/plugin-plugins" "^1.7.8"
-    "@octokit/rest" "^16.25.3"
+    "@octokit/rest" "^16.26.0"
     ansi-styles "^3.2.1"
     ascii-table "0.0.9"
     chalk "^2.4.2"
@@ -7251,8 +7261,8 @@ netlify-cli@^2.11.16:
     lodash.isequal "^4.5.0"
     log-symbols "^2.2.0"
     netlify "^2.4.4"
-    netlify-dev-plugin "^1.0.19"
-    node-fetch "^2.5.0"
+    netlify-dev-plugin "^1.0.20"
+    node-fetch "^2.6.0"
     ora "^3.4.0"
     p-wait-for "^2.0.0"
     parse-github-url "^1.0.2"
@@ -7260,10 +7270,10 @@ netlify-cli@^2.11.16:
     random-item "^1.0.0"
     update-notifier "^2.5.0"
 
-netlify-dev-plugin@^1.0.19:
-  version "1.0.19"
-  resolved "https://registry.yarnpkg.com/netlify-dev-plugin/-/netlify-dev-plugin-1.0.19.tgz#41e6af19a3ff7466de4ef7b401047217b3784041"
-  integrity sha512-vgq0em+buh0bR+8N02aKjf/3dMqUtcciL5Nj0Db0wc+VkC6OMDG+PYILtPSONbzAq/EaretdM+YtbHImAxmCsg==
+netlify-dev-plugin@^1.0.20:
+  version "1.0.20"
+  resolved "https://registry.yarnpkg.com/netlify-dev-plugin/-/netlify-dev-plugin-1.0.20.tgz#8806c5b81806f0c3773cdcd13bd68121f8ba22d1"
+  integrity sha512-M5m6GlOH8paQa1mQki/idrihsCRzptMktxtxGpZMqJdcU8R4AQXCUZedfpM/rKbv0Ck02/AKMvJPXjllVoL4LA==
   dependencies:
     "@netlify/cli-utils" "^1.0.1"
     "@netlify/rules-proxy" "^0.1.3"
@@ -7463,10 +7473,10 @@ node-fetch@2.3.0:
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.3.0.tgz#1a1d940bbfb916a1d3e0219f037e89e71f8c5fa5"
   integrity sha512-MOd8pV3fxENbryESLgVIeaGKrdl+uaYhCSSVkjeOb/31/njTpcis5aWfdqgNlHIrKOLRbMnfPINPOML2CIFeXA==
 
-node-fetch@^2.2.0, node-fetch@^2.3.0, node-fetch@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.5.0.tgz#8028c49fc1191bba56a07adc6e2a954644a48501"
-  integrity sha512-YuZKluhWGJwCcUu4RlZstdAxr8bFfOVHakc1mplwHkk8J+tqM1Y5yraYvIUpeX8aY7+crCwiELJq7Vl0o0LWXw==
+node-fetch@^2.2.0, node-fetch@^2.3.0, node-fetch@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
+  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
 
 node-gyp@^4.0.0:
   version "4.0.0"
@@ -10465,6 +10475,13 @@ universal-user-agent@^2.0.0, universal-user-agent@^2.0.1:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/universal-user-agent/-/universal-user-agent-2.0.3.tgz#9f6f09f9cc33de867bb720d84c08069b14937c6c"
   integrity sha512-eRHEHhChCBHrZsA4WEhdgiOKgdvgrMIHwnwnqD0r5C6AO8kwKcG7qSku3iXdhvHL3YvsS9ZkSGN8h/hIpoFC8g==
+  dependencies:
+    os-name "^3.0.0"
+
+universal-user-agent@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/universal-user-agent/-/universal-user-agent-2.1.0.tgz#5abfbcc036a1ba490cb941f8fd68c46d3669e8e4"
+  integrity sha512-8itiX7G05Tu3mGDTdNY2fB4KJ8MgZLS54RdG6PkkfwMAavrXu1mV/lls/GABx9O3Rw4PnTtasxrvbMQoBYY92Q==
   dependencies:
     os-name "^3.0.0"
 
