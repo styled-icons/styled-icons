@@ -127,6 +127,9 @@ const generate = async () => {
     // Special-case the `React` icon
     if (icon.name === 'React') icon.name = 'ReactLogo'
 
+    // Special-case the `Package` icon (conflicts with the package.json file)
+    if (icon.name === 'Package') icon.name = 'PackageIcon'
+
     const component = () =>
       template
         .replace(/{{attrs}}/g, JSON.stringify(icon.attrs, null, 2).slice(2, -2))
