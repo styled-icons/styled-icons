@@ -1,5 +1,25 @@
 # Changelog
 
+## v8.0.0
+
+- **(breaking)** renamed the `Package` icon in all icon packs to `PackageIcon`. If you previously had the following:
+
+  ```typescript
+  import {Package} from 'styled-icons/pack-name'
+  // or
+  import {Package} from 'styled-icons/pack-name/Package'
+  ```
+
+  You will want to replace with:
+
+  ```typescript
+  import {PackageIcon} from 'styled-icons/pack-name'
+  // or
+  import {PackageIcon} from 'styled-icons/pack-name/PackageIcon'
+  ```
+
+  This fixes an issue experienced where certain bundlers would, on case-insensitive file systems, try to load a `package.json` file instead of the icon source.
+
 ## v7.15.1
 
 - Fix issue with tree shaking caused by missing `package.json` files, mark everything with `"sideEffects": false`
