@@ -26,7 +26,7 @@
     "@types/react": "^16.8.17",
     "@types/react-dom": "^16.0.9",
     "@types/react-virtualized": "^9.18.11",
-    "@types/styled-components": "^4.1.9",
+    "@types/styled-components": "^4.1.16",
     "@zeit/next-typescript": "^1.1.1",
     "lerna": "^3.11.1",
     "next": "^8.0.0"
