@@ -1,5 +1,9 @@
 # Changelog
 
+## v8.1.0
+
+- Upgrade Font Awesome to v5.9.0
+
 ## v8.0.0
 
 - **(breaking)** renamed the `Package` icon in all icon packs to `PackageIcon`. If you previously had the following:
