@@ -1571,17 +1571,17 @@
     supports-color "^5.4.0"
     tslib "^1"
 
-"@oclif/command@^1", "@oclif/command@^1.5.1", "@oclif/command@^1.5.12", "@oclif/command@^1.5.13", "@oclif/command@^1.5.3", "@oclif/command@^1.5.8":
-  version "1.5.13"
-  resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.5.13.tgz#7047f3e5c3abb8a08fb88ba3bf00ea96ea9a1d77"
-  integrity sha512-zkO8hRd5Sjl7a+GM9ZMNHLD8rneAPjFBFjkAwLPs/hEv72RnFeWSyW6eE1nDbKVzMyDUYmmWNQFp0lQuwhHCdA==
+"@oclif/command@^1", "@oclif/command@^1.5.1", "@oclif/command@^1.5.12", "@oclif/command@^1.5.13", "@oclif/command@^1.5.14", "@oclif/command@^1.5.3", "@oclif/command@^1.5.8":
+  version "1.5.14"
+  resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.5.14.tgz#cdf6013134abfb5630783f27e78436096ce3ed88"
+  integrity sha512-R9gat0yUjamDVd4trvFgjlx2XYuMz1nM0uEBFP6nR1zOQAwJ3E1zqYbsVlCMWiUDGjU1hYmudmK7IjAxDUoqDw==
   dependencies:
     "@oclif/errors" "^1.2.2"
     "@oclif/parser" "^3.7.3"
     debug "^4.1.1"
     semver "^5.6.0"
 
-"@oclif/config@^1", "@oclif/config@^1.13.0":
+"@oclif/config@^1":
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.13.0.tgz#fc2bd82a9cb30a73faf7d2aa5ae937c719492bd1"
   integrity sha512-ttb4l85q7SBx+WlUJY4A9eXLgv4i7hGDNGaXnY9fDKrYD7PBMwNOQ3Ssn2YT2yARAjyOxVE/5LfcwhQGq4kzqg==
@@ -1614,12 +1614,12 @@
     chalk "^2.4.2"
     tslib "^1.9.3"
 
-"@oclif/plugin-help@^2.1.6":
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-2.1.6.tgz#ae14cbe2c5cd3eaf5f796d205ffbe66d3e369173"
-  integrity sha512-M4kTERpPWNSM1Mga7K/zo9DWHLCVf2FRaIeXPoytmTPd+0kSvG3TR0Vc1bwx9/cxXoYyYGgEejwNlrfayr8FZw==
+"@oclif/plugin-help@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-2.2.0.tgz#8dfc1c80deae47a205fbc70b018747ba93f31cc3"
+  integrity sha512-56iIgE7NQfwy/ZrWrvrEfJGb5rrMUt409yoQGw4feiU101UudA1btN1pbUbcKBr7vY9KFeqZZcftXEGxOp7zBg==
   dependencies:
-    "@oclif/command" "^1.5.8"
+    "@oclif/command" "^1.5.13"
     chalk "^2.4.1"
     indent-string "^3.2.0"
     lodash.template "^4.4.0"
@@ -1698,10 +1698,10 @@
     once "^1.4.0"
     universal-user-agent "^2.1.0"
 
-"@octokit/rest@^16.16.0", "@octokit/rest@^16.26.0":
-  version "16.26.0"
-  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.26.0.tgz#5c12b28763219045e1c9a15182e8dfaed10004e8"
-  integrity sha512-NBpzre44ZAQWZhlH+zUYTgqI0pHN+c9rNj4d+pCydGEiKTGc1HKmoTghEUyr9GxazDyoAvmpx9nL0I7QS1Olvg==
+"@octokit/rest@^16.16.0", "@octokit/rest@^16.27.3":
+  version "16.27.3"
+  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.27.3.tgz#20ad5d0c7043364d1e1f72fa74f825c181771fc0"
+  integrity sha512-WWH/SHF4kus6FG+EAfX7/JYH70EjgFYa4AAd2Lf1hgmgzodhrsoxpXPSZliZ5BdJruZPMP7ZYaPoTrYCCKYzmQ==
   dependencies:
     "@octokit/request" "^4.0.1"
     "@octokit/request-error" "^1.0.2"
@@ -7231,18 +7231,17 @@ netlify-cli-logo@^1.0.0:
     chalk "^2.4.2"
 
 netlify-cli@^2.11.16:
-  version "2.11.19"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.11.19.tgz#1ca94fd2715e7fccd8e9848d407f6f26cbc86a71"
-  integrity sha512-yWq9xWhHBjAAa3/YOcE1Evvve58wvp6EdqN2al2evLYWcKGYKmGpqxjlJo8FBObfdr43hp/ZHMzwPwQJw4fNjQ==
+  version "2.11.20"
+  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.11.20.tgz#2bff6688a00f75002a8a98bfceccc68d22479bb9"
+  integrity sha512-xutUBGrGTXRLm35w4L2j1/cTPkw6AN1p9w3MucFRd9Vimvo0Bv7tuhlzoCPgA6efnWXpBdzkCLCkziy3iR6RVQ==
   dependencies:
     "@netlify/cli-utils" "^1.0.2"
-    "@oclif/command" "^1.5.13"
-    "@oclif/config" "^1.13.0"
+    "@oclif/command" "^1.5.14"
     "@oclif/errors" "^1.1.2"
-    "@oclif/plugin-help" "^2.1.6"
+    "@oclif/plugin-help" "^2.2.0"
     "@oclif/plugin-not-found" "^1.1.4"
     "@oclif/plugin-plugins" "^1.7.8"
-    "@octokit/rest" "^16.26.0"
+    "@octokit/rest" "^16.27.3"
     ansi-styles "^3.2.1"
     ascii-table "0.0.9"
     chalk "^2.4.2"
@@ -7261,7 +7260,7 @@ netlify-cli@^2.11.16:
     lodash.isequal "^4.5.0"
     log-symbols "^2.2.0"
     netlify "^2.4.4"
-    netlify-dev-plugin "^1.0.20"
+    netlify-dev-plugin "^1.0.21"
     node-fetch "^2.6.0"
     ora "^3.4.0"
     p-wait-for "^2.0.0"
@@ -7270,10 +7269,10 @@ netlify-cli@^2.11.16:
     random-item "^1.0.0"
     update-notifier "^2.5.0"
 
-netlify-dev-plugin@^1.0.20:
-  version "1.0.20"
-  resolved "https://registry.yarnpkg.com/netlify-dev-plugin/-/netlify-dev-plugin-1.0.20.tgz#8806c5b81806f0c3773cdcd13bd68121f8ba22d1"
-  integrity sha512-M5m6GlOH8paQa1mQki/idrihsCRzptMktxtxGpZMqJdcU8R4AQXCUZedfpM/rKbv0Ck02/AKMvJPXjllVoL4LA==
+netlify-dev-plugin@^1.0.21:
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/netlify-dev-plugin/-/netlify-dev-plugin-1.0.21.tgz#b2a0ea2672761dc2dfabdbbb30f55425514afc04"
+  integrity sha512-+pkV7LPhCBiCMPyvtvsrYBmoTuPeUwufzueOeqeM7in8LdVY4NzZMhP+JgjGqlpvnaTz1Kc8DGFLj31IS7QLWQ==
   dependencies:
     "@netlify/cli-utils" "^1.0.1"
     "@netlify/rules-proxy" "^0.1.3"
