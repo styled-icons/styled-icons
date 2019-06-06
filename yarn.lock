@@ -7243,9 +7243,9 @@ netlify-cli-logo@^1.0.0:
     chalk "^2.4.2"
 
 netlify-cli@^2.11.16:
-  version "2.11.20"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.11.20.tgz#2bff6688a00f75002a8a98bfceccc68d22479bb9"
-  integrity sha512-xutUBGrGTXRLm35w4L2j1/cTPkw6AN1p9w3MucFRd9Vimvo0Bv7tuhlzoCPgA6efnWXpBdzkCLCkziy3iR6RVQ==
+  version "2.11.21"
+  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.11.21.tgz#665c950992fab522d9f6758833ce1b68855b4c7f"
+  integrity sha512-ugYPQ8IHdvroU7E6QgUCu/cQd16ekIkNYwNI3Ll9FfJ9j0u02uMobuE1jqIBdoF2OGLCBnS56bcco08V/95rEQ==
   dependencies:
     "@netlify/cli-utils" "^1.0.2"
     "@oclif/command" "^1.5.14"
@@ -7271,7 +7271,7 @@ netlify-cli@^2.11.16:
     lodash.isempty "^4.4.0"
     lodash.isequal "^4.5.0"
     log-symbols "^2.2.0"
-    netlify "^2.4.4"
+    netlify "^2.4.5"
     netlify-dev-plugin "^1.0.21"
     node-fetch "^2.6.0"
     ora "^3.4.0"
@@ -7366,10 +7366,10 @@ netlify@2.4.1:
     through2-map "^3.0.0"
     util.promisify "^1.0.0"
 
-netlify@^2.2.1, netlify@^2.4.4:
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/netlify/-/netlify-2.4.4.tgz#72ba73d63fb39589b9143fdfe36d39bfe01bfb26"
-  integrity sha512-8Z6Fx3yz/zIt9oGTvnMaRGgErxtAYkp4lgZm8O7ooWKrxo2V2148sK+t1Wob6Dt9x1oOvTkAn8PA6eXjXft2+A==
+netlify@^2.2.1, netlify@^2.4.5:
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/netlify/-/netlify-2.4.5.tgz#0f54534e931f07f369554f03720a6eea44f7641a"
+  integrity sha512-qDuWfYp8cR5O8Brn/1vRT3zAuDay4ne/Dj5qxgt5p85ongZlwpl2VHJ+JxB60LYam8uSOFzx8c6U0R9o7RZd+g==
   dependencies:
     "@netlify/open-api" "^0.9.0"
     "@netlify/zip-it-and-ship-it" "^0.3.1"
