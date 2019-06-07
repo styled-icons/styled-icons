@@ -78,7 +78,7 @@
     "react-dom": "^16.8.5",
     "styled-components": "^4.0.3",
     "svgo": "^1.0.5",
-    "ttypescript": "^1.5.6",
+    "ttypescript": "^2.5.2",
     "typescript": "^3.1.6",
     "typescript-plugin-styled-components": "^1.4.0",
     "typicons.font": "^2.0.9"
