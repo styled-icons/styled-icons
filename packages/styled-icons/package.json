@@ -84,7 +84,7 @@
     "typicons.font": "^2.0.9"
   },
   "dependencies": {
-    "@emotion/is-prop-valid": "^0.7.3",
+    "@emotion/is-prop-valid": "^0.8.1",
     "tslib": "^1.9.3"
   }
 }
