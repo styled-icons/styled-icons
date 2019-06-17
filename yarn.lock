@@ -3878,10 +3878,10 @@ crypto-random-string@^1.0.0:
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
   integrity sha1-ojD2T1aDEOFJgAmUB5DsmVRbyn4=
 
-cryptocurrency-icons@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/cryptocurrency-icons/-/cryptocurrency-icons-0.13.0.tgz#0db234c2417454c4354f5ced8a1927afcf89f455"
-  integrity sha512-jYln6EgxDFBVpQ7ePA9W8c1BIqLodkuZ5KFJTZrcbz43sAMIBBhAUTcOWcCN/qGenQR3it0V333F3k06rrvF5Q==
+cryptocurrency-icons@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/cryptocurrency-icons/-/cryptocurrency-icons-0.14.0.tgz#b01451eba6953f68ac2f8945ace82cc125ab81ba"
+  integrity sha512-pOEUyjnDDW7GxpH44LZHLoD72khQc4M86Ub23T6xWTY7CuqMLlvX8CJDQYSJ11Fmf84OkygDdMythEJdLb/EIQ==
 
 css-color-keywords@^1.0.0:
   version "1.0.0"
@@ -10407,9 +10407,9 @@ typescript@3.3.3333:
   integrity sha512-JjSKsAfuHBE/fB2oZ8NxtRTk5iGcg6hkYXMnZ3Wc+b2RSqejEqTaem11mHASMnFilHrax3sLK0GDzcJrekZYLw==
 
 typescript@^3.1.6:
-  version "3.4.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.5.tgz#2d2618d10bb566572b8d7aad5180d84257d70a99"
-  integrity sha512-YycBxUb49UUhdNMU5aJ7z5Ej2XGmaIBL0x34vZ82fn3hGvD+bgrMrVDpatgz2f7YxUMJxMkbWxJZeAvDxVe7Vw==
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.2.tgz#a09e1dc69bc9551cadf17dba10ee42cf55e5d56c"
+  integrity sha512-7KxJovlYhTX5RaRbUdkAXN1KUZ8PwWlTzQdHV6xNqvuFOs7+WBo10TQUqT19Q/Jz2hk5v9TQDIhyLhhJY4p5AA==
 
 typicons.font@^2.0.9:
   version "2.0.9"
