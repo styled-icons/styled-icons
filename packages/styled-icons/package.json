@@ -66,7 +66,7 @@
     "evil-icons": "^1.10.1",
     "execa": "^1.0.0",
     "fast-case": "^1.2.1",
-    "fast-glob": "^2.2.3",
+    "fast-glob": "^3.0.0",
     "feather-icons": "^4.9.0",
     "fs-extra": "^8.0.1",
     "h2x-core": "^1.1.1",
