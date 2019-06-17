@@ -1786,10 +1786,10 @@
     once "^1.4.0"
     universal-user-agent "^2.1.0"
 
-"@octokit/rest@^16.16.0", "@octokit/rest@^16.27.3":
-  version "16.27.3"
-  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.27.3.tgz#20ad5d0c7043364d1e1f72fa74f825c181771fc0"
-  integrity sha512-WWH/SHF4kus6FG+EAfX7/JYH70EjgFYa4AAd2Lf1hgmgzodhrsoxpXPSZliZ5BdJruZPMP7ZYaPoTrYCCKYzmQ==
+"@octokit/rest@^16.16.0", "@octokit/rest@^16.28.1":
+  version "16.28.2"
+  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.28.2.tgz#3fc3b8700046ab29ab1e2a4bdf49f89e94f7ba27"
+  integrity sha512-csuYiHvJ1P/GFDadVn0QhwO83R1+YREjcwCY7ZIezB6aJTRIEidJZj+R7gAkUhT687cqYb4cXTZsDVu9F+Fmug==
   dependencies:
     "@octokit/request" "^4.0.1"
     "@octokit/request-error" "^1.0.2"
@@ -3878,10 +3878,10 @@ crypto-random-string@^1.0.0:
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
   integrity sha1-ojD2T1aDEOFJgAmUB5DsmVRbyn4=
 
-cryptocurrency-icons@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/cryptocurrency-icons/-/cryptocurrency-icons-0.13.0.tgz#0db234c2417454c4354f5ced8a1927afcf89f455"
-  integrity sha512-jYln6EgxDFBVpQ7ePA9W8c1BIqLodkuZ5KFJTZrcbz43sAMIBBhAUTcOWcCN/qGenQR3it0V333F3k06rrvF5Q==
+cryptocurrency-icons@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/cryptocurrency-icons/-/cryptocurrency-icons-0.14.0.tgz#b01451eba6953f68ac2f8945ace82cc125ab81ba"
+  integrity sha512-pOEUyjnDDW7GxpH44LZHLoD72khQc4M86Ub23T6xWTY7CuqMLlvX8CJDQYSJ11Fmf84OkygDdMythEJdLb/EIQ==
 
 css-color-keywords@^1.0.0:
   version "1.0.0"
@@ -7311,9 +7311,9 @@ netlify-cli-logo@^1.0.0:
     chalk "^2.4.2"
 
 netlify-cli@^2.11.16:
-  version "2.11.22"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.11.22.tgz#1de62781057d418459ee0f2acd8bef08b1b6719f"
-  integrity sha512-1PviUHi487rVzrJ8XOxW8WevVVGlSTcroPZ+rdIOh/CzSFHPM2qn7MEE0ytdriif3vNL5jqk/lEIktSfSr1QUQ==
+  version "2.11.23"
+  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.11.23.tgz#6b7035852da0e3c4f57d24512adbd4153af74b88"
+  integrity sha512-CWyuFxydDkTgi9gT/GH4n5o4ABodaiqBFSgjg9YIbZA3SgGrny+jTQKSRlK0g6JEgvwESkSU8iMwcm1ywJtwxA==
   dependencies:
     "@netlify/cli-utils" "^1.0.2"
     "@oclif/command" "^1.5.14"
@@ -7321,7 +7321,7 @@ netlify-cli@^2.11.16:
     "@oclif/plugin-help" "^2.2.0"
     "@oclif/plugin-not-found" "^1.1.4"
     "@oclif/plugin-plugins" "^1.7.8"
-    "@octokit/rest" "^16.27.3"
+    "@octokit/rest" "^16.28.1"
     ansi-styles "^3.2.1"
     ascii-table "0.0.9"
     chalk "^2.4.2"
@@ -7340,7 +7340,7 @@ netlify-cli@^2.11.16:
     lodash.isequal "^4.5.0"
     log-symbols "^2.2.0"
     netlify "^2.4.6"
-    netlify-dev-plugin "^1.0.21"
+    netlify-dev-plugin "^1.0.22"
     node-fetch "^2.6.0"
     ora "^3.4.0"
     p-wait-for "^2.0.0"
@@ -7349,10 +7349,10 @@ netlify-cli@^2.11.16:
     random-item "^1.0.0"
     update-notifier "^2.5.0"
 
-netlify-dev-plugin@^1.0.21:
-  version "1.0.21"
-  resolved "https://registry.yarnpkg.com/netlify-dev-plugin/-/netlify-dev-plugin-1.0.21.tgz#b2a0ea2672761dc2dfabdbbb30f55425514afc04"
-  integrity sha512-+pkV7LPhCBiCMPyvtvsrYBmoTuPeUwufzueOeqeM7in8LdVY4NzZMhP+JgjGqlpvnaTz1Kc8DGFLj31IS7QLWQ==
+netlify-dev-plugin@^1.0.22:
+  version "1.0.22"
+  resolved "https://registry.yarnpkg.com/netlify-dev-plugin/-/netlify-dev-plugin-1.0.22.tgz#5e5e8ec0b5a76db44b827c15f1585246c2711a06"
+  integrity sha512-gl5AjDFXzubgvCrLVojSTL/KABxcctcfh+cdaLMOi+C8blX2gW7kXO+2p3gwQ5FA3OzkTdZMlVe3wL3V7aPDXQ==
   dependencies:
     "@netlify/cli-utils" "^1.0.1"
     "@netlify/rules-proxy" "^0.1.3"
