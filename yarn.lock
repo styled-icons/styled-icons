@@ -3878,10 +3878,10 @@ crypto-random-string@^1.0.0:
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
   integrity sha1-ojD2T1aDEOFJgAmUB5DsmVRbyn4=
 
-cryptocurrency-icons@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/cryptocurrency-icons/-/cryptocurrency-icons-0.13.0.tgz#0db234c2417454c4354f5ced8a1927afcf89f455"
-  integrity sha512-jYln6EgxDFBVpQ7ePA9W8c1BIqLodkuZ5KFJTZrcbz43sAMIBBhAUTcOWcCN/qGenQR3it0V333F3k06rrvF5Q==
+cryptocurrency-icons@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/cryptocurrency-icons/-/cryptocurrency-icons-0.14.0.tgz#b01451eba6953f68ac2f8945ace82cc125ab81ba"
+  integrity sha512-pOEUyjnDDW7GxpH44LZHLoD72khQc4M86Ub23T6xWTY7CuqMLlvX8CJDQYSJ11Fmf84OkygDdMythEJdLb/EIQ==
 
 css-color-keywords@^1.0.0:
   version "1.0.0"
@@ -8657,9 +8657,9 @@ query-string@^5.0.1:
     strict-uri-encode "^1.0.0"
 
 query-string@^6.2.0:
-  version "6.7.0"
-  resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.7.0.tgz#7e92bf8525140cf8c5ebf500f26716b0de5b7023"
-  integrity sha512-oQ01H1jrgDRbPq5SjtJF470S418GOrKkds+fpvAt6DQatHXl7bmkaJulHbTIM+QNGtoPpa8f5k9W3Zk50zXRPQ==
+  version "6.8.1"
+  resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.8.1.tgz#62c54a7ef37d01b538c8fd56f95740c81d438a26"
+  integrity sha512-g6y0Lbq10a5pPQpjlFuojfMfV1Pd2Jw9h75ypiYPPia3Gcq2rgkKiIwbkS6JxH7c5f5u/B/sB+d13PU+g1eu4Q==
   dependencies:
     decode-uri-component "^0.2.0"
     split-on-first "^1.0.0"
