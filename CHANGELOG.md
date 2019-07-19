@@ -1,5 +1,9 @@
 # Changelog
 
+## v8.3.0
+
+- Upgrade Octicons to v9.1.1
+
 ## v8.2.0
 
 - Upgrade Cryptocurrency Icons to v0.14.0
