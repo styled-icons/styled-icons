@@ -1,5 +1,10 @@
 # Changelog
 
+## v8.2.0
+
+- Upgrade Cryptocurrency Icons to v0.14.0
+- Upgrade Feather Icons to v4.22.1
+
 ## v8.1.0
 
 - Upgrade Font Awesome to v5.9.0
