@@ -116,7 +116,7 @@ const generate = async () => {
     icon.height = state.height || icon.height
     icon.width = state.width || icon.width
     icon.viewBox = state.viewBox || `0 0 ${icon.width} ${icon.height}`
-    icon.attrs = {fill: 'currentColor'}
+    icon.attrs = {fill: 'currentColor', xmlns: 'http://www.w3.org/2000/svg'}
 
     for (const attr of SVG_ATTRS) {
       if (attr in state.attrs) {
