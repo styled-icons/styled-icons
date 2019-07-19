@@ -21,7 +21,8 @@ function filterSVGProps(props: StyledIconProps): React.SVGProps<SVGSVGElement> {
   return (Object.keys(props) as Array<keyof (StyledIconProps)>).reduce(
     (p, k) => {
       if (isValidProp(k)) {
-        p[k] = props[k]
+        // hack to satisfy TypeScript complexity
+        ;(p as any)[k] = props[k]
       }
       return p
     },

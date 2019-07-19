@@ -18,8 +18,8 @@
     "push": "lerna publish"
   },
   "devDependencies": {
-    "lerna": "^3.10.8",
-    "netlify-cli": "^2.11.16",
+    "lerna": "^3.16.0",
+    "netlify-cli": "^2.11.27",
     "prettier": "^1.16.0"
   }
 }
