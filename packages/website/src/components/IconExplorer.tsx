@@ -1,7 +1,7 @@
 import * as React from 'react'
 import {AutoSizer, Grid, WindowScroller, GridCellProps} from 'react-virtualized'
 import queryString from 'query-string'
-import {StyledIcon} from 'styled-icons'
+import {StyledIcon} from 'styled-icons/types'
 import Router from 'next/router'
 
 import * as JSSearch from 'js-search'

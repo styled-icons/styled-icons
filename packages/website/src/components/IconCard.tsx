@@ -1,6 +1,6 @@
 import * as React from 'react'
 import copy from 'copy-to-clipboard'
-import {StyledIcon} from 'styled-icons'
+import {StyledIcon} from 'styled-icons/types'
 
 interface Props {
   pack: string

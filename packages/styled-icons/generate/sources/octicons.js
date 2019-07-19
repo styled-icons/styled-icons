@@ -1,4 +1,4 @@
-const octicons = require('octicons')
+const octicons = require('@primer/octicons')
 
 module.exports = async () =>
   Object.keys(octicons).map(originalName => {
