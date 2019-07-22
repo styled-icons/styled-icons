@@ -62,7 +62,7 @@
     "@types/react": "^16.8.23",
     "@types/styled-components": "^4.1.18",
     "boxicons": "^2.0.1",
-    "cryptocurrency-icons": "^0.14.0",
+    "cryptocurrency-icons": "^0.15.0",
     "evil-icons": "^1.10.1",
     "execa": "^2.0.3",
     "fast-case": "^1.2.1",
