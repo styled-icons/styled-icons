@@ -1994,9 +1994,9 @@
     "@types/react" "*"
 
 "@types/react-virtualized@^9.21.3":
-  version "9.21.3"
-  resolved "https://registry.yarnpkg.com/@types/react-virtualized/-/react-virtualized-9.21.3.tgz#79a44b870a4848cbc7cc04ff4bc06e5a10955262"
-  integrity sha512-QhXeiVwXrshVAoq2Cy3SGZEDiFdeFfup2ciQya5RTgr5uycQ2alIKzLfy4X38UCrxonwxe8byk5q8fYV0U87Zg==
+  version "9.21.4"
+  resolved "https://registry.yarnpkg.com/@types/react-virtualized/-/react-virtualized-9.21.4.tgz#8f76a8a3e6d868cd6553e1671e047ec9a919788d"
+  integrity sha512-bvyAp67FNvFIz1GPaonAx6c6Ll8Cr9mVRgUTn5HHSKw5zmqTaxB7qnIl3is+fp7xwXDNBSw191pxpy3ACtTbyw==
   dependencies:
     "@types/prop-types" "*"
     "@types/react" "*"
