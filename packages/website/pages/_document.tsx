@@ -103,6 +103,13 @@ export default class MyDocument extends Document {
           <link rel="shortcut icon" href="/icons/icon-48x48.png" />
           <link rel="manifest" href="/manifest.webmanifest" />
           <meta name="theme-color" content="#db7093" />
+
+          <link
+            rel="search"
+            type="application/opensearchdescription+xml"
+            title="Styled Icons"
+            href="/opensearch.xml"
+          />
         </Head>
         <body className="custom_class">
           <Main />
