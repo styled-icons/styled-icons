@@ -17,7 +17,7 @@ const addKeyPropToChildren = {
 
       const value = child.attr('id') || `k${keyCount++}`
 
-      child.addAttr({local: 'key', name: 'key', prefix: '', value})
+      child.addAttr({ local: 'key', name: 'key', prefix: '', value })
 
       return child
     })
@@ -28,17 +28,17 @@ const addKeyPropToChildren = {
 
 const svgoOptions = {
   plugins: [
-    {removeXMLNS: true},
-    {removeScriptElement: true},
-    {removeTitle: true},
-    {convertStyleToAttrs: false},
-    {convertShapeToPath: false},
-    {removeStyleElement: true},
-    {removeDimensions: true},
-    {removeViewBox: false},
-    {addKeyPropToChildren},
-    {removeAttrs: {attrs: ['id']}},
-    {sortAttrs: true},
+    { removeXMLNS: true },
+    { removeScriptElement: true },
+    { removeTitle: true },
+    { convertStyleToAttrs: false },
+    { convertShapeToPath: false },
+    { removeStyleElement: true },
+    { removeDimensions: true },
+    { removeViewBox: false },
+    { addKeyPropToChildren },
+    { removeAttrs: { attrs: ['id', '*:(stroke|fill):((?!^none$).)*'] } },
+    { sortAttrs: true },
   ],
 }
 

@@ -71,7 +71,7 @@
     "fs-extra": "^8.1.0",
     "h2x-core": "^1.1.1",
     "h2x-plugin-jsx": "^1.2.0",
-    "material-design-icons": "^3.0.1",
+    "material-design-icons-updated": "^4.8.2",
     "number-to-words": "^1.2.3",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
