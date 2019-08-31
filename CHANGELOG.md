@@ -1,5 +1,10 @@
 # Changelog
 
+## v8.4.0
+
+- Upgrade Cryptocurrency Icons to v0.16.1
+- Switch Material Icons source to `material-design-icons-updated`, upgrade to v4.8.2 (thank you [@stramel](https://github.com/stramel)!)
+
 ## v8.3.0
 
 - Upgrade Octicons to v9.1.1

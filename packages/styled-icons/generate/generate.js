@@ -1,4 +1,4 @@
-const { toWords } = require('number-to-words')
+const {toWords} = require('number-to-words')
 const execa = require('execa')
 const fastCase = require('fast-case')
 const fg = require('fast-glob')
@@ -38,7 +38,9 @@ const SVG_ATTRS = [
 ]
 
 const getComponentName = originalName => {
-  originalName = originalName.replace(/^\d+/, digits => `${toWords(parseInt(digits, 10))}_`).replace(/_$/, '')
+  originalName = originalName
+    .replace(/^\d+/, digits => `${toWords(parseInt(digits, 10))}_`)
+    .replace(/_$/, '')
   return originalName.length === 1 ? originalName.toUpperCase() : fastCase.pascalize(originalName)
 }
 
@@ -116,7 +118,7 @@ const generate = async () => {
     icon.height = state.height || icon.height
     icon.width = state.width || icon.width
     icon.viewBox = state.viewBox || `0 0 ${icon.width} ${icon.height}`
-    icon.attrs = { fill: 'currentColor', xmlns: 'http://www.w3.org/2000/svg' }
+    icon.attrs = {fill: 'currentColor', xmlns: 'http://www.w3.org/2000/svg'}
 
     for (const attr of SVG_ATTRS) {
       if (attr in state.attrs) {
@@ -162,12 +164,12 @@ const generate = async () => {
     for (const iconPack of PACKS) {
       const seenNames = new Set()
 
-      const packIcons = icons.filter(({ pack }) => pack === iconPack)
+      const packIcons = icons.filter(({pack}) => pack === iconPack)
       await fs.outputFile(
         path.join(baseDir, iconPack, 'index.ts'),
 
         packIcons
-          .map(({ name }) => {
+          .map(({name}) => {
             // The Material icon pack has one icon incorrectly in the pack twice
             const seen = seenNames.has(name)
             seenNames.add(name)
@@ -272,7 +274,7 @@ export {StyledIconProps}
   await fs.writeJSON(
     path.join(__dirname, '..', 'manifest.json'),
     icons
-      .map(({ name, originalName, pack }) => {
+      .map(({name, originalName, pack}) => {
         const importPath = `styled-icons/${pack}/${name}`
 
         if (seenImports.has(importPath)) return null
