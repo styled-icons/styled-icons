@@ -1,5 +1,9 @@
 # Changelog
 
+## v8.4.1
+
+- Fix issue where Feather icons were transparent (`fill="none"`)
+
 ## v8.4.0
 
 - Upgrade Cryptocurrency Icons to v0.16.1

@@ -126,6 +126,11 @@ const generate = async () => {
       }
     }
 
+    // If the base icon has a fill of `none`, replace it
+    if (icon.attrs.fill === 'none') {
+      icon.attrs.fill = 'currentColor'
+    }
+
     // Special-case the `React` icon
     if (icon.name === 'React') icon.name = 'ReactLogo'
 
