@@ -18,6 +18,10 @@ import {
   feather,
   icomoon,
   material,
+  materialOutlined,
+  materialRounded,
+  materialTwotone,
+  materialSharp,
   octicons,
   typicons,
 } from 'styled-icons'
@@ -68,6 +72,18 @@ const icons = iconManifest.map(
 
       case 'material':
         return {...icon, icon: material[icon.name as keyof typeof material]}
+
+      case 'material-outlined':
+        return {...icon, icon: materialOutlined[icon.name as keyof typeof materialOutlined]}
+
+      case 'material-rounded':
+        return {...icon, icon: materialRounded[icon.name as keyof typeof materialRounded]}
+
+      case 'material-twotone':
+        return {...icon, icon: materialTwotone[icon.name as keyof typeof materialTwotone]}
+
+      case 'material-sharp':
+        return {...icon, icon: materialSharp[icon.name as keyof typeof materialSharp]}
 
       case 'octicons':
         return {...icon, icon: octicons[icon.name as keyof typeof octicons]}

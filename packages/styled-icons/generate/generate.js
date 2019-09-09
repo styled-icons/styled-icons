@@ -20,6 +20,10 @@ const PACKS = [
   'feather',
   'icomoon',
   'material',
+  'material-outlined',
+  'material-rounded',
+  'material-sharp',
+  'material-twotone',
   'octicons',
   'typicons',
 ]

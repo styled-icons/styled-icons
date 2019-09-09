@@ -60,6 +60,10 @@ import * as faSolid from 'styled-icons/fa-solid'
 import * as feather from 'styled-icons/feather'
 import * as icomoon from 'styled-icons/icomoon'
 import * as material from 'styled-icons/material'
+import * as materialOutlined from 'styled-icons/material-outlined'
+import * as materialRounded from 'styled-icons/material-rounded'
+import * as materialTwoTone from 'styled-icons/material-twotone'
+import * as materialSharp from 'styled-icons/material-sharp'
 import * as octicons from 'styled-icons/octicons'
 import * as typicons from 'styled-icons/typicons'
 ```
@@ -199,7 +203,7 @@ interface Props {
 }
 ```
 
-**NOTE:** you should ensure that the version of `@types/react` in your project is at least `16.8.14` or greater.  That version of the React types package added support for ARIA attributes on SVG elements, which Styled Icons uses.
+**NOTE:** you should ensure that the version of `@types/react` in your project is at least `16.8.14` or greater. That version of the React types package added support for ARIA attributes on SVG elements, which Styled Icons uses.
 
 If you have any ideas for improvements to the TypeScript typing, please open an issue or PR!
 
