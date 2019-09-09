@@ -126,8 +126,8 @@ const generate = async () => {
       }
     }
 
-    // If the base icon has a fill of `none`, replace it
-    if (icon.attrs.fill === 'none') {
+    // If the base icon has a fill of `none`, replace it unless stroke is the desired effect
+    if (icon.attrs.fill === 'none' && icon.attrs.stroke !== 'currentColor') {
       icon.attrs.fill = 'currentColor'
     }
 
