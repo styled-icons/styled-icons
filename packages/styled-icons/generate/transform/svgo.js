@@ -37,7 +37,7 @@ const svgoOptions = {
     {removeDimensions: true},
     {removeViewBox: false},
     {addKeyPropToChildren},
-    {removeAttrs: {attrs: ['id', '*:(stroke|fill):((?!^none$).)*']}},
+    {removeAttrs: {attrs: ['id', '*:(stroke|fill):((?!^none$)(?!^currentColor$).)*']}},
     {sortAttrs: true},
   ],
 }
