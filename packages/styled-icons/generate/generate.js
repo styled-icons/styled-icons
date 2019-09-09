@@ -126,11 +126,6 @@ const generate = async () => {
       }
     }
 
-    // If the base icon has a fill of `none`, replace it unless stroke is the desired effect
-    if (icon.attrs.fill === 'none' && icon.attrs.stroke !== 'currentColor') {
-      icon.attrs.fill = 'currentColor'
-    }
-
     // Special-case the `React` icon
     if (icon.name === 'React') icon.name = 'ReactLogo'
 
