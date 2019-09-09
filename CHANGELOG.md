@@ -1,5 +1,9 @@
 # Changelog
 
+## v8.4.2
+
+- Fix issue where Feather icons were too solid (thank you [@stramel](https://github.com/stramel)!)
+
 ## v8.4.1
 
 - Fix issue where Feather icons were transparent (`fill="none"`)
