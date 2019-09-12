@@ -1832,18 +1832,6 @@
   resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-0.9.0.tgz#8ac676555df6d2ab38d1397f3b772e04fd518596"
   integrity sha512-9HpbxZX0LnU2IkaIYIjw6GCQZ6JMQ0Ai3F+9RrHr2jMAgXiiHRT19h2CiKEbjv44lYD5a0sRyV6kr+YRJVUQjg==
 
-"@netlify/rules-proxy@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@netlify/rules-proxy/-/rules-proxy-0.1.4.tgz#89a3d88a2396f0128721460bad4e71e568f698f7"
-  integrity sha512-7xie1bD1Av3Iecc0Q4wNQhVUA9poqD1lSeIBQGDOLm2zslLLjp9ucub7xjFw0QgjxoIWAo2ZHVtDezbz+Nr4vQ==
-  dependencies:
-    chokidar "^2.0.4"
-    cookie "^0.3.1"
-    http-proxy-middleware "^0.19.1"
-    netlify-cli-logo "^1.0.0"
-    netlify-redirect-parser "^1.0.3"
-    netlify-redirector "^0.0.4"
-
 "@netlify/zip-it-and-ship-it@^0.3.1":
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-0.3.1.tgz#931ba0b6f8d086b8ea2dba7cd69bf10959d3e529"
@@ -4160,15 +4148,10 @@ cookie-signature@1.0.6:
   resolved "https://registry.yarnpkg.com/cookie-signature/-/cookie-signature-1.0.6.tgz#e303a882b342cc3ee8ca513a79999734dab3ae2c"
   integrity sha1-4wOogrNCzD7oylE6eZmXNNqzriw=
 
-cookie@0.4.0:
+cookie@0.4.0, cookie@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.4.0.tgz#beb437e7022b3b6d49019d088665303ebe9c14ba"
   integrity sha512-+Hp8fLp57wnUSt0tY0tHEXh4voZRDnoIrZPqlo3DPiI4y9lwg/jqx+1Om94/W6ZaPDOUbnjOt/99w66zk+l1Xg==
-
-cookie@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
-  integrity sha1-5+Ch+e9DtMi6klxcWpboBtFoc7s=
 
 copy-concurrently@^1.0.0:
   version "1.0.5"
@@ -6343,15 +6326,15 @@ http-proxy-agent@^2.1.0:
     agent-base "4"
     debug "3.1.0"
 
-http-proxy-middleware@^0.19.1:
-  version "0.19.1"
-  resolved "https://registry.yarnpkg.com/http-proxy-middleware/-/http-proxy-middleware-0.19.1.tgz#183c7dc4aa1479150306498c210cdaf96080a43a"
-  integrity sha512-yHYTgWMQO8VvwNS22eLLloAkvungsKdKTLO8AJlftYIKNfJr3GK3zK0ZCfzDDGUBttdGc8xFy1mCitvNKQtC3Q==
+http-proxy-middleware@^0.20.0:
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/http-proxy-middleware/-/http-proxy-middleware-0.20.0.tgz#5b128f7207985c4ea91b53fab8ad897a48c690d6"
+  integrity sha512-dNJAk71nEJhPiAczQH9hGvE/MT9kEs+zn2Dh+Hi94PGZe1GluQirC7mw5rdREUtWx6qGS1Gu0bZd4qEAg+REgw==
   dependencies:
     http-proxy "^1.17.0"
-    is-glob "^4.0.0"
-    lodash "^4.17.11"
-    micromatch "^3.1.10"
+    is-glob "^4.0.1"
+    lodash "^4.17.14"
+    micromatch "^4.0.2"
 
 http-proxy@^1.17.0:
   version "1.17.0"
@@ -8435,12 +8418,12 @@ netlify-cli-logo@^1.0.0:
     chalk "^2.4.2"
 
 netlify-cli@^2.13.0:
-  version "2.13.1"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.13.1.tgz#623cd68028e2f0a11acb83fb7bea5296a093d4af"
-  integrity sha512-Y4tdbCCfN6zAr0yVheiHj0dR/5dAbq/2kX/7BUzRd+HfJn/1h1jaUVnh/0TWjJyf8ydb227cwi1Tf4H7ziA62Q==
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.15.0.tgz#e0ccb35a64b796bd3c524e066bc744004948cbea"
+  integrity sha512-uVo2aMJf6gyjTK/7p0AaNKDfqETwIXPSXYQjGgojAiVQ4Xg9CbOK6fXkUoHtaAY213WU0nC9H0xNaRbvsizDjA==
   dependencies:
+    "@iarna/toml" "^2.2.3"
     "@netlify/cli-utils" "^1.0.7"
-    "@netlify/rules-proxy" "^0.1.4"
     "@netlify/zip-it-and-ship-it" "^0.3.1"
     "@oclif/command" "^1.5.18"
     "@oclif/config" "^1.13.2"
@@ -8460,6 +8443,7 @@ netlify-cli@^2.13.0:
     cli-spinners "^1.3.1"
     cli-ux "^5.2.1"
     concordance "^4.0.0"
+    cookie "^0.4.0"
     copy-template-dir "^1.4.0"
     debug "^4.1.1"
     envinfo "^7.3.1"
@@ -8474,6 +8458,7 @@ netlify-cli@^2.13.0:
     git-remote-origin-url "^2.0.0"
     git-repo-info "^2.1.0"
     http-proxy "^1.17.0"
+    http-proxy-middleware "^0.20.0"
     inquirer "^6.5.1"
     inquirer-autocomplete-prompt "^1.0.1"
     is-docker "^1.1.0"
@@ -8486,6 +8471,7 @@ netlify-cli@^2.13.0:
     log-symbols "^2.2.0"
     netlify "^2.4.8"
     netlify-cli-logo "^1.0.0"
+    netlify-redirector "0.0.4"
     node-fetch "^2.6.0"
     npm-packlist "^1.4.4"
     open "^6.4.0"
@@ -8505,14 +8491,7 @@ netlify-cli@^2.13.0:
     wait-port "^0.2.2"
     wrap-ansi "^6.0.0"
 
-netlify-redirect-parser@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/netlify-redirect-parser/-/netlify-redirect-parser-1.0.3.tgz#ce7dba7f9aef2c0bd60c35ce585f8360a33671a8"
-  integrity sha512-NDQKgrN5DgWIYvEyVRG8OgiM1KV140D+4f8rJkqbTCKj32uXokMuJ38woTyGnqBb565ygiFuU6uA0czHbvGxaw==
-  dependencies:
-    "@iarna/toml" "^2.2.3"
-
-netlify-redirector@^0.0.4:
+netlify-redirector@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/netlify-redirector/-/netlify-redirector-0.0.4.tgz#fa41fb8f6f1301357bfd5f0672dcce344a0012b1"
   integrity sha512-fpWNspMjASA0nguPk/43YBv5JzL/lvqXMWUqBvKccBH3TF6V+3N5mL0/VHIpmEJMGnicxS+p4fQIupDyb5U/XQ==
