@@ -11573,9 +11573,9 @@ trim-right@^1.0.1:
   integrity sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=
 
 ts-node@^8.3.0:
-  version "8.3.0"
-  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-8.3.0.tgz#e4059618411371924a1fb5f3b125915f324efb57"
-  integrity sha512-dyNS/RqyVTDcmNM4NIBAeDMpsAdaQ+ojdf0GOLqE6nwJOgzEkdRNzJywhDfwnuvB10oa6NLVG1rUJQCpRN7qoQ==
+  version "8.4.0"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-8.4.0.tgz#b6def962ed6ce5cbcf3bafb4be8453d41e2d46bc"
+  integrity sha512-yGSU5gwuDC3Kigr9kszHcMOhTc4AaeBkHTbDMt2qFYFJxGh3Qho/gq7tWEI6DjVsQUdzO+QrccuuNh8Ylk5KYg==
   dependencies:
     arg "^4.1.0"
     diff "^4.0.1"
