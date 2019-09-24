@@ -13,6 +13,9 @@ feather/
 material/
 octicons/
 StyledIconBase/
+integration/tests/*
+!integration/tests/__image_snapshots__/
+integration/tests/__image_snapshots__/__diff_output__/
 types/
 typicons/
 

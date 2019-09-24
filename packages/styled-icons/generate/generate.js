@@ -44,9 +44,9 @@ const getComponentName = originalName => {
   return originalName.length === 1 ? originalName.toUpperCase() : fastCase.pascalize(originalName)
 }
 
-const getTemplate = () =>
+const getTemplate = filePath =>
   new Promise((resolve, reject) =>
-    fs.readFile(path.join(__dirname, 'templates', 'icon.tsx.template'), (err, data) => {
+    fs.readFile(filePath, (err, data) => {
       if (err) reject(err)
       else resolve(data.toString())
     }),
@@ -86,7 +86,7 @@ const generate = async () => {
   const icons = packIcons.reduce((all, icons) => all.concat(...icons), [])
 
   console.log('Reading template...')
-  const template = await getTemplate()
+  const template = await getTemplate(path.join(__dirname, 'templates', 'icon.tsx.template'))
 
   console.log('Clearing desination files...')
   const destinationFiles = [
@@ -289,6 +289,19 @@ export {StyledIconProps}
       })
       .filter(icon => icon),
   )
+
+  console.log('Building integration tests...')
+  const testSuiteTemplate = await getTemplate(
+    path.join(__dirname, '../integration/templates', 'tests.js.template'),
+  )
+
+  for (const pack of packIcons) {
+    const packName = pack[0].pack
+    const getTestFile = () => testSuiteTemplate.replace(/{{pack}}/g, packName)
+    const testPath = path.join(baseDir, '../integration/tests')
+    await fs.mkdirp(testPath)
+    await fs.outputFile(path.join(testPath, `${packName}.test.js`), getTestFile())
+  }
 
   console.log(`${totalIcons} icons successfully built!`)
 }

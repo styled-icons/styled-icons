@@ -45,13 +45,17 @@
   ],
   "scripts": {
     "build": "node generate/generate.js && cp ../../README.md .",
-    "clean": "rm -rf boxicons-logos boxicons-regular boxicons-solid build crypto evil fa-brands fa-regular fa-solid feather icomoon material octicons StyledIconBase types typicons public manifest.json index.d.ts index.esm.js index.js"
+    "clean": "rm -rf boxicons-logos boxicons-regular boxicons-solid build crypto evil fa-brands fa-regular fa-solid feather icomoon material octicons StyledIconBase types typicons public manifest.json index.d.ts index.esm.js index.js",
+    "test:integration": "jest -c integration/jest.config.js",
+    "test:ci": "jest -c integration/jest.config.js --runInBand --ci"
   },
   "peerDependencies": {
     "react": "*",
     "styled-components": ">=4.1.0 <5"
   },
   "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-brands-svg-icons": "^5.9.0",
     "@fortawesome/free-regular-svg-icons": "^5.9.0",
@@ -61,6 +65,7 @@
     "@types/node": "^12.7.3",
     "@types/react": "^16.8.23",
     "@types/styled-components": "^4.1.18",
+    "babel-jest": "^24.9.0",
     "boxicons": "^2.0.1",
     "cryptocurrency-icons": "^0.16.1",
     "evil-icons": "^1.10.1",
@@ -71,8 +76,12 @@
     "fs-extra": "^8.1.0",
     "h2x-core": "^1.1.1",
     "h2x-plugin-jsx": "^1.2.0",
+    "jest": "^24.9.0",
+    "jest-image-snapshot": "^2.11.0",
+    "jest-puppeteer": "^4.3.0",
     "material-design-icons-updated": "^4.8.2",
     "number-to-words": "^1.2.3",
+    "puppeteer": "^1.20.0",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "styled-components": "^4.3.2",

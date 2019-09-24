@@ -1,0 +1,22 @@
+const screenshotIcon = require('./utils')
+const icons = require('../../{{pack}}')
+
+const pack = '{{pack}}'
+const table = Object.values(icons).map(({displayName}) => [displayName])
+
+describe(pack, () => {
+  beforeAll(async () => {
+    await page.goto('http://localhost:5000')
+  })
+
+  it.each(table)('%s', async (iconName) => {
+    await page.focus('.search-box')
+    await page.evaluate(() => {
+      document.querySelector('.search-box').value = ''
+    })
+    await page.keyboard.type(`${pack}/${iconName}`)
+    //await jestPuppeteer.debug()
+    const image = await screenshotIcon()
+    expect(image).toMatchImageSnapshot()
+  })
+})
