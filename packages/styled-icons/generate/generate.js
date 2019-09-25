@@ -9,6 +9,7 @@ const h2x = require('./transform/h2x')
 const svgo = require('./transform/svgo')
 
 const PACKS = [
+  'remix',
   'boxicons-logos',
   'boxicons-regular',
   'boxicons-solid',
@@ -235,7 +236,7 @@ export {StyledIconProps}
   compiler.stderr.pipe(process.stderr)
   await compiler
 
-  console.log('Moving ESM JavaScript files...')
+  console.log('Moving CJS JavaScript files...')
   const cjsFiles = await fg('build/**/*.js')
   for (const builtFile of cjsFiles) {
     const destination = path.join(__dirname, '..', builtFile.replace('build/', ''))
