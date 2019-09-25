@@ -11,13 +11,14 @@ feather/
 icomoon/
 material/
 octicons/
-remix/
+remix-fill/
+remix-line/
+typicons/
 
 # Built files
 build/
 StyledIconBase/
 types/
-typicons/
 
 /index.d.ts
 /index.esm.js

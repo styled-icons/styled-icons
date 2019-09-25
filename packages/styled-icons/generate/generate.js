@@ -9,7 +9,6 @@ const h2x = require('./transform/h2x')
 const svgo = require('./transform/svgo')
 
 const PACKS = [
-  'remix',
   'boxicons-logos',
   'boxicons-regular',
   'boxicons-solid',
@@ -22,6 +21,8 @@ const PACKS = [
   'icomoon',
   'material',
   'octicons',
+  'remix-fill',
+  'remix-line',
   'typicons',
 ]
 

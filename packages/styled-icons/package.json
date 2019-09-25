@@ -24,10 +24,11 @@
     "/manifest.json",
     "/material",
     "/octicons",
-    "/remix",
+    "/remix-fill",
+    "/remix-line",
+    "/typicons",
     "/StyledIconBase",
     "/types",
-    "/typicons",
     "/index.d.ts",
     "/index.esm.js",
     "/index.js",
@@ -46,7 +47,7 @@
   ],
   "scripts": {
     "build": "node generate/generate.js && cp ../../README.md .",
-    "clean": "rm -rf boxicons-logos boxicons-regular boxicons-solid build crypto evil fa-brands fa-regular fa-solid feather icomoon material octicons remix StyledIconBase types typicons public manifest.json index.d.ts index.esm.js index.js"
+    "clean": "rm -rf boxicons-logos boxicons-regular boxicons-solid crypto evil fa-brands fa-regular fa-solid feather icomoon material octicons remix-fill remix-line typicons build StyledIconBase types public manifest.json index.d.ts index.esm.js index.js"
   },
   "peerDependencies": {
     "react": "*",
