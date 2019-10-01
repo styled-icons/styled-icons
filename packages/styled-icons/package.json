@@ -47,7 +47,7 @@
     "build": "node generate/generate.js && cp ../../README.md .",
     "clean": "rm -rf boxicons-logos boxicons-regular boxicons-solid build crypto evil fa-brands fa-regular fa-solid feather icomoon material octicons StyledIconBase types typicons public manifest.json index.d.ts index.esm.js index.js",
     "test:integration": "jest -c integration/jest.config.js",
-    "test:ci": "jest -c integration/jest.config.js --runInBand --ci"
+    "test:ci": "jest -c integration/jest.config.js --ci"
   },
   "peerDependencies": {
     "react": "*",

@@ -1,32 +1,43 @@
 dist: trusty
-addons:
-  apt:
-    packages:
-      # This is required to run new chrome on old trusty
-      - libnss3
-
+sudo: required
 language: node_js
-node_js: '10'
+node_js: lts/*
 
 cache:
   yarn: true
-  directories:
-    - node_modules
 
 env:
   global:
     - NODE_OPTIONS=--max-old-space-size=4096
+    - USE_REMOTE_DUBUG=false
+  matrix:
+    - ICON_PACK=all
+    - ICON_PACK=boxicons-logos
+    - ICON_PACK=boxicons-regular
+    - ICON_PACK=boxicons-solid
+    - ICON_PACK=crypto
+    - ICON_PACK=evil
+    - ICON_PACK=fa-brands
+    - ICON_PACK=fa-regular
+    - ICON_PACK=fa-solid
+    - ICON_PACK=feather
+    - ICON_PACK=icomoon
+    - ICON_PACK=material
+    - ICON_PACK=octicons
+    - ICON_PACK=typicons
 
 before_install:
+  # Enable user namespace cloning
   - "sysctl kernel.unprivileged_userns_clone=1"
+  # Launch XVFB
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
-  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.12.3
-  - export PATH=$HOME/.yarn/bin:$PATH
 
 script:
   - yarn build
-  - yarn test:integration
+  - if [ "${ICON_PACK}" != "all" ]; then travis_wait 30 yarn test:integration; fi
+  # Clear cache so we don't try to upload on all packs
+  - if [ "${ICON_PACK}" != "all" ]; then rm -f $CASHER_DIR/mtime.yml; fi
 
 after_success:
   - npm config set "//registry.npmjs.org/:_authToken=\${NPM_API_KEY}"

@@ -12,7 +12,7 @@
   },
   "scripts": {
     "build": "lerna run build --stream",
-    "test:integration": "cd packages/styled-icons && yarn test:ci",
+    "test:integration": "(cd packages/styled-icons && yarn test:ci)",
     "bump": "lerna version",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna run clean",
