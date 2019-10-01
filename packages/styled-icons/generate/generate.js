@@ -134,6 +134,9 @@ const generate = async () => {
     // Special-case the `Package` icon (conflicts with the package.json file)
     if (icon.name === 'Package') icon.name = 'PackageIcon'
 
+    // Special-case the `BookMark` icon (conflicts with the `Bookmark` icon)
+    if (icon.name === 'BookMark') icon.name = 'BookWithMark'
+
     const component = () =>
       template
         .replace(/{{attrs}}/g, JSON.stringify(icon.attrs, null, 2).slice(2, -2))
