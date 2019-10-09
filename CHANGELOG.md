@@ -1,5 +1,10 @@
 # Changelog
 
+## v8.5.0
+
+- Add Remix icon pack v2.0.0
+- Upgrade Font Awesome icons to v5.11.2
+
 ## v8.4.2
 
 - Fix issue where Feather icons were too solid (thank you [@stramel](https://github.com/stramel)!)
