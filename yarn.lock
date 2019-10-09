@@ -10258,6 +10258,11 @@ regjsparser@^0.6.0:
   dependencies:
     jsesc "~0.5.0"
 
+remixicon@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/remixicon/-/remixicon-2.0.0.tgz#65ba15651ed575882f1e4059b9aae7d14625d9ee"
+  integrity sha512-dXCuXawug6pegCsYtOaHIQIg1DHvKwOk3WzK2pvS+nNw/3dDn/ezHoQhoZWjZS/iGOx75nXvwHwSJS7znHVv3w==
+
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"

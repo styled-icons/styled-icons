@@ -1,20 +1,24 @@
-# Built files
+# Built Icon Packs
 boxicons-logos/
 boxicons-regular/
 boxicons-solid/
-build/
 crypto/
 evil/
 fa-brands/
 fa-regular/
 fa-solid/
-icomoon/
 feather/
+icomoon/
 material/
 octicons/
+remix-fill/
+remix-line/
+typicons/
+
+# Built files
+build/
 StyledIconBase/
 types/
-typicons/
 
 /index.d.ts
 /index.esm.js

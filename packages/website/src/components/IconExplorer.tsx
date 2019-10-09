@@ -20,6 +20,8 @@ import {
   material,
   octicons,
   typicons,
+  remixFill,
+  remixLine,
 } from 'styled-icons'
 import iconManifest from 'styled-icons/manifest.json'
 
@@ -71,6 +73,12 @@ const icons = iconManifest.map(
 
       case 'octicons':
         return {...icon, icon: octicons[icon.name as keyof typeof octicons]}
+
+      case 'remix-fill':
+        return {...icon, icon: remixFill[icon.name as keyof typeof remixFill]}
+
+      case 'remix-line':
+        return {...icon, icon: remixLine[icon.name as keyof typeof remixLine]}
 
       case 'typicons':
         return {...icon, icon: typicons[icon.name as keyof typeof typicons]}

@@ -21,6 +21,8 @@ const PACKS = [
   'icomoon',
   'material',
   'octicons',
+  'remix-fill',
+  'remix-line',
   'typicons',
 ]
 
@@ -132,6 +134,9 @@ const generate = async () => {
     // Special-case the `Package` icon (conflicts with the package.json file)
     if (icon.name === 'Package') icon.name = 'PackageIcon'
 
+    // Special-case the `BookMark` icon (conflicts with the `Bookmark` icon)
+    if (icon.name === 'BookMark') icon.name = 'BookWithMark'
+
     const component = () =>
       template
         .replace(/{{attrs}}/g, JSON.stringify(icon.attrs, null, 2).slice(2, -2))
@@ -235,7 +240,7 @@ export {StyledIconProps}
   compiler.stderr.pipe(process.stderr)
   await compiler
 
-  console.log('Moving ESM JavaScript files...')
+  console.log('Moving CJS JavaScript files...')
   const cjsFiles = await fg('build/**/*.js')
   for (const builtFile of cjsFiles) {
     const destination = path.join(__dirname, '..', builtFile.replace('build/', ''))
