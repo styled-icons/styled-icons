@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@styled-icons/website",
-  "version": "8.4.2",
+  "version": "8.5.0",
   "scripts": {
     "build": "next build && next export -o build && cp -r public/* build/",
     "start": "next dev"
@@ -17,7 +17,7 @@
     "react-loadable": "^5.5.0",
     "react-virtualized": "^9.21.1",
     "styled-components": "^4.4.0",
-    "styled-icons": "^8.4.2"
+    "styled-icons": "^8.5.0"
   },
   "devDependencies": {
     "@types/history": "^4.7.2",
