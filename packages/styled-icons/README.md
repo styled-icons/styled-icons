@@ -85,7 +85,7 @@ Styled Icons accept all the valid props of an `<svg />` element, in addition to 
 | Prop    | Required | Type           | Description                                                                                                                                   |
 | ------- | -------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | `size`  | optional | string, number | This is a convenience for setting both `width` and `height` to the same value                                                                 |
-| `title` | optional | string         | This sets the icon title and enables the standalone icon accessability mode. See [accessibility](#accessibility) below for additional details |
+| `title` | optional | string         | This sets the icon title and enables the standalone icon accessibility mode. See [accessibility](#accessibility) below for additional details |
 
 **Example**
 
