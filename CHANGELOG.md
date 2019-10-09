@@ -1,5 +1,9 @@
 # Changelog
 
+## v8.5.1
+
+- Fix issue with README that prevented publishing v8.5.0
+
 ## v8.5.0
 
 - Add Remix icon pack v2.0.0
