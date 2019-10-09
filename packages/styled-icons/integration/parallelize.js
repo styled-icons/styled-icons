@@ -4,8 +4,8 @@ const fg = require('fast-glob')
 const {ICON_PACK} = process.env
 
 function getFiles() {
-  const packs = [ICON_PACK]
-  if (packs) {
+  const packs = ICON_PACK ? [ICON_PACK] : []
+  if (packs.length > 0) {
     return packs.map(pack => `tests/${pack}.test.js`)
   }
 
