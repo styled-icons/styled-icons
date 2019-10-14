@@ -66,7 +66,7 @@
     "boxicons": "^2.0.1",
     "cryptocurrency-icons": "^0.16.1",
     "evil-icons": "^1.10.1",
-    "execa": "^2.1.0",
+    "execa": "^3.0.0",
     "fast-case": "^1.2.1",
     "fast-glob": "^3.1.0",
     "feather-icons": "^4.9.0",
