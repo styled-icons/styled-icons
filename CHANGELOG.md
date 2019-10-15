@@ -1,5 +1,9 @@
 # Changelog
 
+## v8.6.0
+
+- Upgrade Octicons to v9.2.0
+
 ## v8.5.1
 
 - Fix issue with README that prevented publishing v8.5.0
