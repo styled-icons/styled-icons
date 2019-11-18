@@ -4974,12 +4974,13 @@ execa@^2.0.3:
     strip-final-newline "^2.0.0"
 
 execa@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/execa/-/execa-3.0.0.tgz#f38e3c24932c2ee0f472383b0dcbd40aa42f61f5"
-  integrity sha512-U3sotWWSGb19r7wVY3OcUgS/S/7VXbh3DQkYfPHaEKveYhgb+GqNN0YTkpnaeI7Ho2oIQ0Na6Mt98M93/wtqGw==
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-3.3.0.tgz#7e348eef129a1937f21ecbbd53390942653522c1"
+  integrity sha512-j5Vit5WZR/cbHlqU97+qcnw9WHRCIL4V1SVe75VcHcD1JRBdt8fv0zw89b7CQHQdUHTt2VjuhcF5ibAgVOxqpg==
   dependencies:
     cross-spawn "^7.0.0"
     get-stream "^5.0.0"
+    human-signals "^1.1.1"
     is-stream "^2.0.0"
     merge-stream "^2.0.0"
     npm-run-path "^4.0.0"
@@ -6120,6 +6121,11 @@ https-proxy-agent@^2.2.1:
   dependencies:
     agent-base "^4.3.0"
     debug "^3.1.0"
+
+human-signals@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
+  integrity sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
 
 humanize-ms@^1.2.1:
   version "1.2.1"
