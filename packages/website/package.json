@@ -3,7 +3,7 @@
   "name": "@styled-icons/website",
   "version": "8.6.0",
   "scripts": {
-    "build-disabled": "next build && next export -o build && cp -r public/* build/",
+    "build": "next build && next export -o build && cp -r public/* build/",
     "start": "next dev"
   },
   "dependencies": {
