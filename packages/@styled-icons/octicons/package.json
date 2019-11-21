@@ -22,7 +22,8 @@
     "tslib": "^1.9.3"
   },
   "devDependencies": {
-    "@primer/octicons": "^9.2.0",
+    "@primer/octicons": "9.3.0",
+    "@styled-icons/pack-builder": "^8.6.0",
     "@styled-icons/tsconfig": "^8.6.0"
   }
 }

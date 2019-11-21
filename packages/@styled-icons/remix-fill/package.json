@@ -22,7 +22,8 @@
     "tslib": "^1.9.3"
   },
   "devDependencies": {
+    "@styled-icons/pack-builder": "^8.6.0",
     "@styled-icons/tsconfig": "^8.6.0",
-    "remixicon": "^2.0.0"
+    "remixicon": "2.1.0"
   }
 }

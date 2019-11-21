@@ -23,6 +23,6 @@
   },
   "devDependencies": {
     "@styled-icons/tsconfig": "^8.6.0",
-    "boxicons": "^2.0.1"
+    "boxicons": "2.0.4"
   }
 }

@@ -22,7 +22,8 @@
     "tslib": "^1.9.3"
   },
   "devDependencies": {
+    "@styled-icons/pack-builder": "^8.6.0",
     "@styled-icons/tsconfig": "^8.6.0",
-    "material-design-icons-updated": "^4.8.2"
+    "material-design-icons-updated": "4.8.2"
   }
 }

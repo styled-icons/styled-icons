@@ -50,7 +50,6 @@
     "clean": "clean-pack"
   },
   "dependencies": {
-    "@emotion/is-prop-valid": "^0.8.3",
     "@styled-icons/boxicons-logos": "^8.6.0",
     "@styled-icons/evil": "^8.6.0",
     "@styled-icons/crypto": "^8.6.0",

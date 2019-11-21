@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@styled-icons/icomoon-source": "Keyamoon/IcoMoon-Free#d006795ede82361e1bac1ee76f215cf1dc51e4ca",
+    "@styled-icons/pack-builder": "^8.6.0",
     "@styled-icons/tsconfig": "^8.6.0"
   }
 }

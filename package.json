@@ -20,7 +20,7 @@
     "push": "lerna publish"
   },
   "devDependencies": {
-    "lerna": "^3.16.5",
-    "prettier": "^1.16.0"
+    "lerna": "^3.19.0",
+    "prettier": "^1.19.1"
   }
 }
