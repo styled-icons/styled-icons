@@ -14,6 +14,7 @@
   },
   "scripts": {
     "build": "lerna run build --stream",
+    "build:ci": "lerna run build",
     "bump": "lerna version",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna run clean --stream",
