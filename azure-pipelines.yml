@@ -19,3 +19,11 @@ steps:
 
   - script: yarn build
     displayName: Build styled-icons
+
+  - script: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/repo/.npmrc
+    displayName: Configure npm registry
+    condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
+
+  - script: yarn push from-git -y
+    displayName: Publish npm modules
+    condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
