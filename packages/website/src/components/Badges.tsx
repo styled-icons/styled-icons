@@ -31,10 +31,7 @@ export class Badges extends React.Component<Props, State> {
     return (
       <div className="badges">
         <a href="https://travis-ci.org/jacobwgillespie/styled-icons">
-          <img
-            alt="Build Status"
-            src="https://img.shields.io/travis/jacobwgillespie/styled-icons/master.svg"
-          />
+          <img alt="Build Status" src="https://img.shields.io/travis/jacobwgillespie/styled-icons/master.svg" />
         </a>
         <a href="https://www.npmjs.com/package/styled-icons">
           <img alt="npm" src="https://img.shields.io/npm/dm/styled-icons.svg" />
@@ -46,10 +43,7 @@ export class Badges extends React.Component<Props, State> {
           alt="Built with Styled Components"
           src="https://img.shields.io/badge/built%20with-styled%20components-db7093.svg"
         />
-        <img
-          alt="Powered by TypeScript"
-          src="https://img.shields.io/badge/powered%20by-typescript-blue.svg"
-        />
+        <img alt="Powered by TypeScript" src="https://img.shields.io/badge/powered%20by-typescript-blue.svg" />
       </div>
     )
   }

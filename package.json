@@ -17,6 +17,8 @@
     "bump": "lerna version",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna run clean --stream",
+    "format": "prettier --write './**/*.{ts,tsx,js,md,json}'",
+    "format:check": "prettier --list-different './**/*.{ts,tsx,js,md,json}'",
     "push": "lerna publish"
   },
   "devDependencies": {

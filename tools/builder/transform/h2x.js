@@ -65,10 +65,7 @@ const processSVG = () => ({
         if (path.node.originalNode.tagName === 'svg') {
           const attributes = Array.from(path.node.originalNode.attributes)
 
-          state.attrs = attributes.reduce(
-            (attrs, attr) => ({...attrs, [attr.name]: attr.value}),
-            {},
-          )
+          state.attrs = attributes.reduce((attrs, attr) => ({...attrs, [attr.name]: attr.value}), {})
 
           const heightAttribute = attributes.find(attr => attr.name === 'height')
           const widthAttribute = attributes.find(attr => attr.name === 'width')
@@ -92,14 +89,7 @@ module.exports = (code, state) => {
   // Second pass over the extracted children
   return state.children.map(replacement =>
     transform('<svg />', {
-      plugins: [
-        replaceChildren,
-        jsx,
-        stripAttribute('xmlns'),
-        stripAttribute('path'),
-        removeComments,
-        removeStyle,
-      ],
+      plugins: [replaceChildren, jsx, stripAttribute('xmlns'), stripAttribute('path'), removeComments, removeStyle],
       state: {replacement},
     }),
   )

@@ -22,16 +22,13 @@ function isValidProp(key: string): key is keyof React.SVGProps<SVGSVGElement> {
 }
 
 function filterSVGProps(props: StyledIconProps): React.SVGProps<SVGSVGElement> {
-  return (Object.keys(props) as Array<keyof (StyledIconProps)>).reduce(
-    (p, k) => {
-      if (isValidProp(k)) {
-        // hack to satisfy TypeScript complexity
-        ;(p as any)[k] = props[k]
-      }
-      return p
-    },
-    {} as React.SVGProps<SVGSVGElement>,
-  )
+  return (Object.keys(props) as Array<keyof StyledIconProps>).reduce((p, k) => {
+    if (isValidProp(k)) {
+      // hack to satisfy TypeScript complexity
+      ;(p as any)[k] = props[k]
+    }
+    return p
+  }, {} as React.SVGProps<SVGSVGElement>)
 }
 
 const StyledIconBaseBase = React.forwardRef<SVGSVGElement, StyledIconProps & StyledIconBaseProps>((props, ref) => {
