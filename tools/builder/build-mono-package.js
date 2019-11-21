@@ -48,6 +48,13 @@ async function run() {
       )
     }
   }
+  await fs.mkdirp('types')
+  await fs.writeFile(
+    path.join('types', 'types.ts'),
+    `import {StyledIcon, StyledIconProps} from '@styled-icons/styled-icon'
+export {StyledIcon, StyledIconProps}`,
+  )
+  await fs.writeFile(path.join('types', 'package.json'), pkgJSON('types'))
   await fs.writeFile(
     'index.ts',
     `${packs.map(pack => `import * as ${fastCase.camelize(pack[0].pack)} from './${pack[0].pack}'`).join('\n')}
@@ -92,6 +99,7 @@ export {${packs.map(pack => fastCase.camelize(pack[0].pack)).join(', ')}}
       await fs.writeFile(path.join(icon.pack, icon.name, 'package.json'), pkgJSONBuilt(icon.name))
     }
   }
+  await fs.writeFile(path.join('types', 'package.json'), pkgJSONBuilt('types'))
 
   // Write icon manifest
   console.log('Writing icon manifest')

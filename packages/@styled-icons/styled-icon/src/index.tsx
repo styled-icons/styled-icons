@@ -2,6 +2,10 @@ import * as React from 'react'
 import styled from 'styled-components'
 import validProp from '@emotion/is-prop-valid'
 
+export type StyledIcon = React.ForwardRefExoticComponent<
+  React.PropsWithoutRef<StyledIconProps> & React.RefAttributes<SVGSVGElement>
+>
+
 export interface StyledIconProps extends React.PropsWithRef<React.SVGProps<SVGSVGElement>> {
   size?: number | string
   title?: string | null

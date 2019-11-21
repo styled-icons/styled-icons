@@ -118,16 +118,6 @@ const generate = async () => {
     await fs.outputFile(path.join(destinationPath, 'package.json'), pkgJSON(icon.name))
   }
 
-  // await fs.mkdirp(path.join(buildDir, 'StyledIconBase'))
-  // await fs.copy(
-  //   path.join(__dirname, 'templates', 'StyledIconBase.tsx'),
-  //   path.join(buildDir, 'StyledIconBase', 'StyledIconBase.tsx'),
-  // )
-  // await fs.writeFile(
-  //   path.join(buildDir, 'StyledIconBase', 'package.json'),
-  //   pkgJSON('StyledIconBase'),
-  // )
-
   console.log('Writing index files...')
 
   const writeIndexFiles = async () => {
@@ -149,18 +139,6 @@ const generate = async () => {
   }
 
   await writeIndexFiles()
-
-  console.log('Writing shared types file...')
-
-  //   const typesFile = () => `import * as React from 'react'
-  // import {StyledIconProps} from '../StyledIconBase'
-  // export type StyledIcon = React.ForwardRefExoticComponent<React.PropsWithoutRef<StyledIconProps> & React.RefAttributes<SVGSVGElement>>;
-  // export {StyledIconProps}
-  // `
-
-  //   await fs.mkdirp(path.join(buildDir, 'types'))
-  //   await fs.outputFile(path.join(buildDir, 'types', 'types.ts'), typesFile())
-  //   await fs.outputFile(path.join(buildDir, 'types', 'package.json'), pkgJSON('types'))
 
   console.log('Generating ESM JavaScript and TypeScript types...')
 
@@ -200,14 +178,6 @@ const generate = async () => {
   }
 
   console.log('Rewriting package.json files...')
-  // await fs.writeFile(
-  //   path.join(buildDir, 'StyledIconBase', 'package.json'),
-  //   pkgJSONBuilt('StyledIconBase'),
-  // )
-  // await fs.outputFile(path.join(buildDir, 'types', 'package.json'), pkgJSONBuilt('types'))
-  // for (const pack of PACKS) {
-  // await fs.outputFile(path.join(buildDir, 'package.json'), pkgJSONBuilt('index'))
-  // }
   for (const icon of icons) {
     await fs.outputFile(path.join(buildDir, icon.name, 'package.json'), pkgJSONBuilt(icon.name))
   }
