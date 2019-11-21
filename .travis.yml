@@ -26,16 +26,3 @@ deploy:
     on:
       repo: jacobwgillespie/styled-icons
       tags: true
-  - provider: script
-    script: yarn netlify deploy --dir packages/website/build
-    skip_cleanup: true
-    on:
-      repo: jacobwgillespie/styled-icons
-      all_branches: true
-      condition: $TRAVIS_BRANCH != "master"
-  - provider: script
-    script: yarn netlify deploy --dir packages/website/build --prod
-    skip_cleanup: true
-    on:
-      repo: jacobwgillespie/styled-icons
-      branch: master
