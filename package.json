@@ -13,7 +13,7 @@
     "trailingComma": "all"
   },
   "scripts": {
-    "build": "rm -rf packages/styled-icons/node_modules && yarn install && yarn check && lerna run build --stream",
+    "build": "rm -rf packages/@styled-icons/styled-icon/node_modules && rm -rf packages/styled-icons/node_modules && yarn install && yarn check && lerna run build --stream",
     "bump": "lerna version",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna run clean --stream",
