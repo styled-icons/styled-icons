@@ -3,6 +3,8 @@ jobs:
   build:
     docker:
       - image: circleci/node:12
+        environment:
+          NODE_OPTIONS: --max-old-space-size=4096
     working_directory: ~/styled-icons
     steps:
       - checkout
