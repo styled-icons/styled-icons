@@ -4,7 +4,7 @@
 const fg = require('fast-glob')
 const fs = require('fs-extra')
 
-const ALLOWED_FILES = ['source.js', 'package.json', 'README.md']
+const ALLOWED_FILES = ['node_modules', 'source.js', 'package.json', 'README.md']
 
 async function run() {
   const files = await fg('*', {onlyFiles: false})

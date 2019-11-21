@@ -3,6 +3,7 @@
   "name": "@styled-icons/pack-builder",
   "version": "8.6.0",
   "bin": {
+    "build-mono-package": "./build-mono-package.js",
     "build-pack": "./build-pack.js",
     "clean-pack": "./clean-pack.js"
   },

@@ -171,7 +171,7 @@ const generate = async () => {
       rootDir: './build',
     },
   })
-  await execa('yarn', ['ttsc', '--project', './tsconfig.json', '--pretty'], {stdio: 'inherit'})
+  await execa('yarn', ['ttsc', '--project', './tsconfig.json'], {stdio: 'inherit'})
   await fs.remove('tsconfig.json')
 
   console.log('Moving ESM JavaScript files...')
@@ -189,7 +189,7 @@ const generate = async () => {
       rootDir: './build',
     },
   })
-  await execa('yarn', ['ttsc', '--project', './tsconfig.json', '--pretty'], {stdio: 'inherit'})
+  await execa('yarn', ['ttsc', '--project', './tsconfig.json'], {stdio: 'inherit'})
   await fs.remove('tsconfig.json')
 
   console.log('Moving CJS JavaScript files...')
