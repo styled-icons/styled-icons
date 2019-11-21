@@ -23,12 +23,9 @@
   "devDependencies": {
     "@types/history": "^4.7.2",
     "@types/js-search": "^1.4.0",
-    "@types/node": "^12.12.11",
-    "@types/react": "^16.9.11",
     "@types/react-dom": "^16.9.4",
     "@types/react-loadable": "^5.5.2",
     "@types/react-virtualized": "^9.21.5",
-    "@types/styled-components": "^4.4.0",
     "lerna": "^3.19.0",
     "next": "^9.1.4"
   }
