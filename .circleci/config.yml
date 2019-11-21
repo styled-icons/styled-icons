@@ -1,25 +1,54 @@
-version: 2
+version: 2.1
 jobs:
   build:
     docker:
       - image: circleci/node:12
     working_directory: ~/styled-icons
-
     steps:
       - checkout
-
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "yarn.lock" }}
             - v1-dependencies-
-
       - run: yarn install
-
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "yarn.lock" }}
-
       - run: yarn format:check
-
       - run: yarn build
+      - persist_to_workspace:
+          root: ~/styled-icons
+          paths:
+            - .
+
+  deploy:
+    docker:
+      - image: circleci/node:12
+    working_directory: ~/styled-icons
+    steps:
+      - attach_workspace:
+          at: ~/styled-icons
+      - run:
+          name: Authenticate with registry
+          command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/styled-icons/.npmrc
+      - run:
+          name: Publish packages
+          command: yarn push from-git -y
+
+workflows:
+  version: 2
+  styled-icons:
+    jobs:
+      - build:
+          filters:
+            tags:
+              only: /^v.*/
+      - deploy:
+          requires:
+            - build
+          filters:
+            tags:
+              only: /^v.*/
+            branches:
+              ignore: /.*/
