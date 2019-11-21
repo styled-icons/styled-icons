@@ -1,4 +1,4 @@
 {
-  "packages": ["packages/styled-icons"],
+  "packages": ["packages/styled-icons", "packages/@styled-icons/*"],
   "sandboxes": ["new", "vanilla"]
 }
