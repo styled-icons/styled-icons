@@ -17,5 +17,5 @@ steps:
   - script: yarn --frozen-lockfile
     displayName: Install dependencies
 
-  - script: yarn build:ci
+  - script: yarn build
     displayName: Build styled-icons
