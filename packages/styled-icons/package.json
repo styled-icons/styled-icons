@@ -65,6 +65,7 @@
     "@styled-icons/octicons": "^8.6.0",
     "@styled-icons/remix-fill": "^8.6.0",
     "@styled-icons/remix-line": "^8.6.0",
+    "@styled-icons/styled-icon": "^8.6.0",
     "@styled-icons/typicons": "^8.6.0",
     "tslib": "^1.9.3"
   },
