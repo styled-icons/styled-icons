@@ -1,3 +1,4 @@
 {
+  "buildCommand": "build:ci",
   "sandboxes": ["new", "vanilla"]
 }
