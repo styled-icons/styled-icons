@@ -30,30 +30,28 @@ function filterSVGProps(props: StyledIconProps): React.SVGProps<SVGSVGElement> {
   )
 }
 
-const StyledIconBaseBase = React.forwardRef<SVGSVGElement, StyledIconProps & StyledIconBaseProps>(
-  (props, ref) => {
-    const {children, iconAttrs, iconVerticalAlign, iconViewBox, size, title, ...otherProps} = props
+const StyledIconBaseBase = React.forwardRef<SVGSVGElement, StyledIconProps & StyledIconBaseProps>((props, ref) => {
+  const {children, iconAttrs, iconVerticalAlign, iconViewBox, size, title, ...otherProps} = props
 
-    const iconProps: React.SVGProps<SVGSVGElement> = {
-      viewBox: iconViewBox,
-      height: props.height !== undefined ? props.height : size,
-      width: props.width !== undefined ? props.width : size,
-      'aria-hidden': title == null ? 'true' : undefined,
-      focusable: 'false',
-      role: title != null ? 'img' : undefined,
-      ...iconAttrs,
-    }
+  const iconProps: React.SVGProps<SVGSVGElement> = {
+    viewBox: iconViewBox,
+    height: props.height !== undefined ? props.height : size,
+    width: props.width !== undefined ? props.width : size,
+    'aria-hidden': title == null ? 'true' : undefined,
+    focusable: 'false',
+    role: title != null ? 'img' : undefined,
+    ...iconAttrs,
+  }
 
-    const svgProps = filterSVGProps(otherProps)
+  const svgProps = filterSVGProps(otherProps)
 
-    return (
-      <svg {...iconProps} {...svgProps} ref={ref}>
-        {title && <title key="icon-title">{title}</title>}
-        {children}
-      </svg>
-    )
-  },
-)
+  return (
+    <svg {...iconProps} {...svgProps} ref={ref}>
+      {title && <title key="icon-title">{title}</title>}
+      {children}
+    </svg>
+  )
+})
 
 export const StyledIconBase = styled(StyledIconBaseBase)`
   display: inline-block;

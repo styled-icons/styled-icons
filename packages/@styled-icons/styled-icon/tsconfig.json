@@ -1,0 +1,8 @@
+{
+  "extends": "@styled-icons/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "importHelpers": true,
+    "rootDir": "src",
+    "outDir": "dist"
+  }
+}

@@ -1,11 +1,13 @@
 {
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "packages/@styled-icons/*",
+    "tools/*"
   ],
   "prettier": {
     "bracketSpacing": false,
-    "printWidth": 100,
+    "printWidth": 120,
     "semi": false,
     "singleQuote": true,
     "trailingComma": "all"
@@ -14,7 +16,7 @@
     "build": "lerna run build --stream",
     "bump": "lerna version",
     "bootstrap": "lerna bootstrap",
-    "clean": "lerna run clean",
+    "clean": "lerna run clean --stream",
     "push": "lerna publish"
   },
   "devDependencies": {
