@@ -3,9 +3,9 @@ jobs:
   build:
     docker:
       - image: circleci/node:12
-        environment:
-          NODE_OPTIONS: --max-old-space-size=4096
     working_directory: ~/styled-icons
+    environment:
+      NODE_OPTIONS: --max_old_space_size=4096
     steps:
       - checkout
       - restore_cache:

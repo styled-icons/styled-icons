@@ -155,7 +155,9 @@ const generate = async () => {
   console.log('Moving ESM JavaScript files...')
   const esmFiles = await fg(path.join(buildDir, '**/*.js'))
   for (const filepath of esmFiles) {
-    await fs.move(filepath, path.join(path.dirname(filepath), path.basename(filepath).replace('.js', '.esm.js')))
+    await fs.move(filepath, path.join(path.dirname(filepath), path.basename(filepath).replace('.js', '.esm.js')), {
+      overwrite: true,
+    })
   }
 
   console.log('Building CJS JavaScript...')
@@ -174,7 +176,7 @@ const generate = async () => {
   const cjsFiles = await fg('build/**/*.js')
   for (const builtFile of cjsFiles) {
     const destination = path.join(baseDir, builtFile.replace('build/', ''))
-    await fs.move(path.join(baseDir, builtFile), destination)
+    await fs.move(path.join(baseDir, builtFile), destination, {overwrite: true})
   }
 
   console.log('Rewriting package.json files...')
@@ -190,7 +192,7 @@ const generate = async () => {
     }
 
     const destination = path.join(baseDir, builtFile.replace('build/', ''))
-    await fs.move(path.join(baseDir, builtFile), destination)
+    await fs.move(path.join(baseDir, builtFile), destination, {overwrite: true})
   }
 
   console.log('Writing icon manifest for website...')
