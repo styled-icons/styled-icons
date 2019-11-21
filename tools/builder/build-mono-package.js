@@ -48,7 +48,13 @@ async function run() {
       )
     }
   }
-  await fs.writeFile('index.ts', packs.map(pack => `export * as ${fastCase.camelize(pack[0].pack)} from './${pack[0].pack}'`).join('\n'))
+  await fs.writeFile(
+    'index.ts',
+    `${packs.map(pack => `import * as ${fastCase.camelize(pack[0].pack)} from './${pack[0].pack}'`).join('\n')}
+
+export {${packs.map(pack => fastCase.camelize(pack[0].pack)).join(', ')}}
+`,
+  )
 
   // Compile ESM
   console.log('Compiling ESM')
@@ -57,7 +63,7 @@ async function run() {
     compilerOptions: {
       declaration: true,
       importHelpers: true,
-      module: 'es2015'
+      module: 'es2015',
     },
   })
   await execa('yarn', ['ttsc', '--project', './tsconfig.json'], {stdio: 'inherit'})
@@ -72,7 +78,7 @@ async function run() {
   await fs.writeJSON('tsconfig.json', {
     extends: '@styled-icons/tsconfig/tsconfig.json',
     compilerOptions: {
-      importHelpers: true
+      importHelpers: true,
     },
   })
   await execa('yarn', ['ttsc', '--project', './tsconfig.json'], {stdio: 'inherit'})
