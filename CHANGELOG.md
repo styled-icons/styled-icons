@@ -1,5 +1,9 @@
 # Changelog
 
+## v9.0.1 - 2019-11-22
+
+- Fix publish issue where built files were missing from `@styled-icons/styled-icon`
+
 ## v9.0.0 - 2019-11-22
 
 Styled Icons v9 adds individual icon pack NPM modules (`@styled-icons/pack-name`) for each icon pack - you now have the option of only installing specific packs. For instance:
