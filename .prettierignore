@@ -1,2 +1,5 @@
-package.json
-tsconfig.json
+.next
+build
+dist
+public
+node_modules

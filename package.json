@@ -1,25 +1,33 @@
 {
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "packages/@styled-icons/*",
+    "tools/*"
   ],
   "prettier": {
     "bracketSpacing": false,
-    "printWidth": 100,
+    "printWidth": 120,
     "semi": false,
     "singleQuote": true,
     "trailingComma": "all"
   },
   "scripts": {
     "build": "lerna run build --stream",
+    "build:ci": "lerna run build",
+    "build:codesandbox": "./tools/build-codesandbox.sh",
     "bump": "lerna version",
     "bootstrap": "lerna bootstrap",
-    "clean": "lerna run clean",
+    "clean": "lerna run clean --stream",
+    "format": "prettier --write './**/*.{ts,tsx,js,md,json}'",
+    "format:check": "prettier --list-different './**/*.{ts,tsx,js,md,json}'",
     "push": "lerna publish"
   },
   "devDependencies": {
-    "lerna": "^3.16.5",
-    "netlify-cli": "^2.17.0",
-    "prettier": "^1.16.0"
+    "@types/node": "^12.12.11",
+    "@types/react": "^16.9.11",
+    "@types/styled-components": "^4.4.0",
+    "lerna": "^3.19.0",
+    "prettier": "^1.19.1"
   }
 }

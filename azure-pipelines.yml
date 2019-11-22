@@ -5,16 +5,25 @@ variables:
   YARN_CACHE_FOLDER: $(Pipeline.Workspace)/.yarn
 
 steps:
-- task: Cache@2
-  inputs:
-    key: 'yarn | "$(Agent.OS)" | yarn.lock'
-    restoreKeys: |
-       yarn | "$(Agent.OS)"
-       yarn
-    path: $(YARN_CACHE_FOLDER)
-  displayName: Cache Yarn packages
+  - task: Cache@2
+    inputs:
+      key: 'yarn | "$(Agent.OS)" | yarn.lock'
+      restoreKeys: |
+        yarn | "$(Agent.OS)"
+        yarn
+      path: $(YARN_CACHE_FOLDER)
+    displayName: Cache Yarn packages
 
-- script: yarn --frozen-lockfile
+  - script: yarn --frozen-lockfile
+    displayName: Install dependencies
 
-- script: yarn build
-  displayName: Build styled-icons
+  - script: yarn build
+    displayName: Build styled-icons
+
+  - script: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/repo/.npmrc
+    displayName: Configure npm registry
+    condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
+
+  - script: yarn push from-git -y
+    displayName: Publish npm modules
+    condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))

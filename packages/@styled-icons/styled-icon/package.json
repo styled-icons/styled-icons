@@ -1,0 +1,31 @@
+{
+  "name": "@styled-icons/styled-icon",
+  "version": "8.6.0",
+  "description": "Styled Icons base component",
+  "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
+  "homepage": "https://github.com/jacobwgillespie/styled-icons",
+  "repository": "git://github.com/jacobwgillespie/styled-icons.git",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "keywords": [
+    "styled-icons"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.esm.json && mv dist/index.js dist/index.esm.js && tsc --project tsconfig.json",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@emotion/is-prop-valid": "^0.8.5",
+    "tslib": "^1.9.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "styled-components": ">=4.1.0 <5"
+  },
+  "devDependencies": {
+    "@styled-icons/tsconfig": "^8.6.0"
+  }
+}

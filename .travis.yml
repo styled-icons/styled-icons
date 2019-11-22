@@ -2,40 +2,6 @@ sudo: false
 language: node_js
 node_js: '10'
 
-cache:
-  yarn: true
-
-env:
-  global:
-    - NODE_OPTIONS=--max-old-space-size=4096
-
-before_install:
-  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.12.3
-  - export PATH=$HOME/.yarn/bin:$PATH
-
-script:
-  - yarn build
-
-after_success:
-  - npm config set "//registry.npmjs.org/:_authToken=\${NPM_API_KEY}"
-
-deploy:
-  - provider: script
-    script: yarn push from-git -y
-    skip_cleanup: true
-    on:
-      repo: jacobwgillespie/styled-icons
-      tags: true
-  - provider: script
-    script: yarn netlify deploy --dir packages/website/build
-    skip_cleanup: true
-    on:
-      repo: jacobwgillespie/styled-icons
-      all_branches: true
-      condition: $TRAVIS_BRANCH != "master"
-  - provider: script
-    script: yarn netlify deploy --dir packages/website/build --prod
-    skip_cleanup: true
-    on:
-      repo: jacobwgillespie/styled-icons
-      branch: master
+before_install: true
+install: true
+script: true

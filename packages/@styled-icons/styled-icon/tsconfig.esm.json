@@ -1,0 +1,10 @@
+{
+  "extends": "@styled-icons/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "importHelpers": true,
+    "declaration": true,
+    "module": "es2015",
+    "rootDir": "src",
+    "outDir": "dist"
+  }
+}

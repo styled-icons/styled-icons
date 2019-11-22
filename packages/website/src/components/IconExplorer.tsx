@@ -129,9 +129,7 @@ export default class IconExplorer extends React.Component<Props, State> {
   }
 
   render() {
-    const filteredIcons = this.state.search
-      ? (searchIndex.search(this.state.search) as IconType[])
-      : icons
+    const filteredIcons = this.state.search ? (searchIndex.search(this.state.search) as IconType[]) : icons
 
     const cellRenderer = ({columnIndex, key, rowIndex, style}: GridCellProps) => {
       const idx = rowIndex * 4 + columnIndex
