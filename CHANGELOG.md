@@ -1,5 +1,12 @@
 # Changelog
 
+## v9.0.0
+
+- Upgrade Boxicons to v2.0.4
+- Upgrade Feather Icons to v4.24.1
+- Upgrade Octicons to v9.3.0
+- Upgrade Remix Icons to v2.1.0
+
 ## v8.6.0
 
 - Upgrade Octicons to v9.2.0
