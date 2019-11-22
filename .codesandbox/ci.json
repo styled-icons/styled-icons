@@ -1,4 +1,4 @@
 {
-  "buildCommand": "build:ci",
-  "sandboxes": ["new", "vanilla"]
+  "buildCommand": "build:codesandbox",
+  "sandboxes": ["new"]
 }
