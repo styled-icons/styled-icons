@@ -1,4 +1,0 @@
-{
-  "buildCommand": "build:codesandbox",
-  "sandboxes": ["new"]
-}
