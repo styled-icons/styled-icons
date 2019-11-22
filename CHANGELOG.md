@@ -1,11 +1,28 @@
 # Changelog
 
-## v9.0.0
+## v9.0.0 - 2019-11-22
 
+Styled Icons v9 adds individual icon pack NPM modules (`@styled-icons/pack-name`) for each icon pack - you now have the option of only installing specific packs. For instance:
+
+```typescript
+// this still works:
+import {Alert} from 'styled-icons/material'
+
+// NEW - this pack can be installed individually:
+import {Alert} from '@styled-icons/material'
+```
+
+These new individual icon pack modules are _optional_, you can continue to utilize the `styled-icons` package as before.
+
+- **(breaking)** removed `styled-icons/StyledIconBase` export - this is an internal export, this shouldn't affect your applications
+- Create individual `@styled-icons/pack` NPM packages
 - Upgrade Boxicons to v2.0.4
 - Upgrade Feather Icons to v4.24.1
 - Upgrade Octicons to v9.3.0
 - Upgrade Remix Icons to v2.1.0
+- Infrastructure: switch CI providers to Azure Pipelines
+- Infrastructure: convert `styled-icons` package to re-export individual icon packages
+- Infrastructure: deploy website with Zeit Now
 
 ## v8.6.0
 
