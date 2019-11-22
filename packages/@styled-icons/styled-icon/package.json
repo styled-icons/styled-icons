@@ -13,6 +13,9 @@
   "keywords": [
     "styled-icons"
   ],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc --project tsconfig.esm.json && mv dist/index.js dist/index.esm.js && tsc --project tsconfig.json",
     "clean": "rm -rf dist"
