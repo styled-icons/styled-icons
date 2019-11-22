@@ -1,0 +1,5 @@
+{
+  "buildCommand": "build:codesandbox-ci",
+  "sandboxes": ["new"],
+  "packages": ["packages/@styled-icons/styled-icon", "packages/@styled-icons/*", "packages/styled-icons"]
+}
