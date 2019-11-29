@@ -40,6 +40,10 @@ npm install styled-icons --save
 
 Additionally, you will need to have installed a version of `styled-components` at least version 4.1.0 or newer, as `styled-icons` depends on `styled-components` as a peer dependency.
 
+If you are using [pnpm](https://pnpm.js.org/) as a package manager, you will have to install each icon package separately to make it work. e.g. if you use an icon from `boxicons-solid` you should install `@styled-icons/boxicons-solid` and include the icons from that package, not from `styled-icons/boxicons-solid`.
+
+This is because [pnpm](https://pnpm.js.org/) only allows you to use direct installed dependencies and since the files in the packages all import from there `@styled-icons/...` counterpart, it is required to also install that counterpart when using [pnpm](https://pnpm.js.org/).
+
 ## Usage
 
 All Font Awesome (free), Feather, Material, and Octicon icons are available for preview at the [Icon Explorer](https://styled-icons.js.org).
