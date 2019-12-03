@@ -1714,10 +1714,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@primer/octicons@9.3.0":
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/@primer/octicons/-/octicons-9.3.0.tgz#9795efae1f1025e283a4bb38469abb6e8c92138c"
-  integrity sha512-ZI5pxAY8L/xB49OAqEhUcWQGRi7wWYFYI5KYglwKNEts0kFxcgHCqqqqHz3b8ZZBv7Z8wTac/iuo6F4SMbKOeA==
+"@primer/octicons@9.3.1":
+  version "9.3.1"
+  resolved "https://registry.yarnpkg.com/@primer/octicons/-/octicons-9.3.1.tgz#adc2673d9d4f5dae2e829679df3e2d1078a10ed8"
+  integrity sha512-E0Knv/hUfwpfJOVh7cPXXJf6gfNiIMBtMbhnqjkWHnpT/+bPJk4Q3l/YG6sCWELZ05KYpHBunpHNOlTyw3mbwg==
   dependencies:
     object-assign "^4.1.1"
 
