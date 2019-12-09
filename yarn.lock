@@ -4144,9 +4144,9 @@ extsprintf@^1.2.0:
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
 
 fast-case@^1.2.1:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/fast-case/-/fast-case-1.3.0.tgz#31f6edcd2abe048d15f103f7b2292a12e6211f2f"
-  integrity sha512-T2QM/HgpC6t4u7RafGcwCCp4VIZTOr0hmnztPAtue97CJlEu1TOwG8nzbGVG/FbioU0SnsBjyumXhRYyirG0yA==
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/fast-case/-/fast-case-1.4.0.tgz#d54677572d5590c3f47a65623bd8970bcba25ecf"
+  integrity sha512-m9b3bWbuj+ii9MMYA6yr4DUdrMPetoQosqKlTe1AH2hlAmN9CI7StJU5ZwY017Z2uW3uG6n7YtakxpnDyw+HOA==
 
 fast-deep-equal@^2.0.1:
   version "2.0.1"
