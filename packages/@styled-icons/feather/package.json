@@ -24,6 +24,6 @@
   "devDependencies": {
     "@styled-icons/pack-builder": "^9.0.0",
     "@styled-icons/tsconfig": "^9.0.0",
-    "feather-icons": "4.24.1"
+    "feather-icons": "4.25.0"
   }
 }
