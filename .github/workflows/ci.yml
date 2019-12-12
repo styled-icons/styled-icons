@@ -25,3 +25,13 @@ jobs:
 
       - name: Build
         run: yarn build
+
+      - name: Configure NPM
+        if: contains(github.ref, "refs/tags/v")
+        run: echo "//registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN" >> ~/.npmrc
+        env:
+          NODE_AUTH_TOKEN: '${{ secrets.NPM_BOT_TOKEN }}'
+
+      - name: Publish to NPM
+        if: contains(github.ref, "refs/tags/v")
+        run: yarn push from-git -y
