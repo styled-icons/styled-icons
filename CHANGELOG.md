@@ -1,5 +1,11 @@
 # Changelog
 
+## v9.1.0 - 2019-12-12
+
+- Upgrade Feather Icons to v4.25.0
+- Upgrade Font Awesome to v5.12.0
+- Upgrade Octicons to v9.3.1
+
 ## v9.0.1 - 2019-11-22
 
 - Fix publish issue where built files were missing from `@styled-icons/styled-icon`
