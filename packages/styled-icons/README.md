@@ -1,10 +1,10 @@
 <h1 align="center">💅 styled-icons</h1>
 
-<p align="center"><a href="https://travis-ci.org/jacobwgillespie/styled-icons"><img src="https://img.shields.io/travis/jacobwgillespie/styled-icons/master.svg" alt="Build Status" /></a>
-<a href="https://www.npmjs.com/package/styled-icons"><img src="https://img.shields.io/npm/dm/styled-icons.svg" alt="npm" /></a>
-<a href="https://www.npmjs.com/package/styled-icons"><img src="https://img.shields.io/npm/v/styled-icons.svg" alt="npm" /></a>
-<a href="https://www.styled-components.com/"><img src="https://img.shields.io/badge/built%20with-styled%20components-db7093.svg" alt="Built with Styled Components" /></a>
-<img src="https://img.shields.io/badge/powered%20by-typescript-blue.svg" alt="Powered by TypeScript" /> <a href="#contributors" alt="sponsors on Open Collective"><img src="https://opencollective.com/styled-icons/backers/badge.svg" /></a> <a href="#contributors" alt="Sponsors on Open Collective"><img src="https://opencollective.com/styled-icons/sponsors/badge.svg" /></a></p>
+<p align="center"><a href="https://github.com/jacobwgillespie/styled-icons/actions"><img src="https://github.com/jacobwgillespie/styled-icons/workflows/CI/badge.svg" alt="Build Status" /></a>
+<a href="https://www.npmjs.com/package/styled-icons"><img src="https://badgen.net/npm/dm/styled-icons" alt="npm" /></a>
+<a href="https://www.npmjs.com/package/styled-icons"><img src="https://badgen.net/npm/v/styled-icons" alt="npm" /></a>
+<a href="https://www.styled-components.com/"><img src="https://badgen.net/badge/built%20with/styled%20components/db7093" alt="Built with Styled Components" /></a>
+<img src="https://badgen.net/badge/powered%20by/typescript/blue" alt="Powered by TypeScript" /> <a href="#contributors" alt="sponsors on Open Collective"><img src="https://opencollective.com/styled-icons/backers/badge.svg" /></a> <a href="#contributors" alt="Sponsors on Open Collective"><img src="https://opencollective.com/styled-icons/sponsors/badge.svg" /></a></p>
 
 [![View Icons](https://gui.apex.sh/component?name=ShadowButton&config=%7B%22text%22%3A%22ICON%20EXPLORER%22%2C%22color%22%3A%22db7093%22%7D)](https://styled-icons.js.org)
 
