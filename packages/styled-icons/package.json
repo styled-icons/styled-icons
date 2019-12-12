@@ -6,6 +6,10 @@
   "homepage": "https://github.com/jacobwgillespie/styled-icons",
   "repository": "git://github.com/jacobwgillespie/styled-icons.git",
   "license": "MIT",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/jacobwgillespie"
+  },
   "main": "./index.js",
   "module": "./index.esm.js",
   "types": "./index.d.ts",
