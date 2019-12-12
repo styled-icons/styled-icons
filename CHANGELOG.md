@@ -2,7 +2,7 @@
 
 ## v9.1.0 - 2019-12-12
 
-- Upgrade Feather Icons oto v4.25.0
+- Upgrade Feather Icons to v4.25.0
 - Upgrade Font Awesome to v5.12.0
 - Upgrade Octicons to v9.3.1
 
