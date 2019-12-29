@@ -21,7 +21,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@emotion/is-prop-valid": "^0.8.5",
+    "@emotion/is-prop-valid": "^0.8.6",
     "tslib": "^1.9.3"
   },
   "peerDependencies": {
