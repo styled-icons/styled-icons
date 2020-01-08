@@ -9139,9 +9139,9 @@ tty-browserify@0.0.0:
   integrity sha1-oVe6QC2iTpv5V/mqadUk7tQpAaY=
 
 ttypescript@^1.5.8:
-  version "1.5.9"
-  resolved "https://registry.yarnpkg.com/ttypescript/-/ttypescript-1.5.9.tgz#5d667398bb9b52e0f82a310d52639578b3e92b3d"
-  integrity sha512-6qZ0H1357pMaXIB2kTKsCYD02/S2PTDHt4iPvGYgAptxqWUn8POShK7HRVnZOMsbjJtbIpiVlFL3JvAsNAEPNw==
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/ttypescript/-/ttypescript-1.5.10.tgz#5045083a91cf09a735ecc95d4711c1f3b83f2059"
+  integrity sha512-Hk7TRej1hM+p+Fo+Pyb/XK9pe9CAt3Sh5n5YRutxFS8hUgkh2u1Vd2K40kMcNP3WYhiVFBMqXwM/2E8O95Ep6g==
   dependencies:
     resolve "^1.9.0"
 
