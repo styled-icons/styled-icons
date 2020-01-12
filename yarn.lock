@@ -8036,10 +8036,10 @@ regjsparser@^0.6.0:
   dependencies:
     jsesc "~0.5.0"
 
-remixicon@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/remixicon/-/remixicon-2.1.0.tgz#cc53b8c3ed0210894ae12228b0f568df507e4a5b"
-  integrity sha512-6f2IzIDveqoNzi9/s84MeK064t89gJFdWsTDYt/IG3E03Ho4YQTu/3U8grM9nKRNL7FuTCixMypwqFzqzKlTzA==
+remixicon@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/remixicon/-/remixicon-2.2.0.tgz#ec421352fbb0f4e2fe38d1ba524b1ac7ace0a020"
+  integrity sha512-wmTHS2Z/T+vfUAsRZnDDbfBzx1qgdkiqgdGgpITJi554cy7HnX6IoJ5eSXHdCHgJGDuKSzOSwYXpKjPrkBjLSg==
 
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
