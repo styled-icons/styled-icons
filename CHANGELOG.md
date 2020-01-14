@@ -1,5 +1,10 @@
 # Changelog
 
+## v9.2.0 - 2020-01-14
+
+- Upgrade Remix Icons to v2.2.0
+- Enable support for Styled Components v5
+
 ## v9.1.0 - 2019-12-12
 
 - Upgrade Feather Icons to v4.25.0
