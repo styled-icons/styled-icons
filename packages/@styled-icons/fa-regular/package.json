@@ -1,6 +1,6 @@
 {
   "name": "@styled-icons/fa-regular",
-  "version": "9.1.0",
+  "version": "9.2.0",
   "description": "Font Awesome Regular icons available as Styled Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
   "homepage": "https://github.com/jacobwgillespie/styled-icons",
@@ -18,13 +18,13 @@
     "clean": "clean-pack"
   },
   "dependencies": {
-    "@styled-icons/styled-icon": "^9.0.1",
+    "@styled-icons/styled-icon": "^9.2.0",
     "tslib": "^1.9.3"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.26",
     "@fortawesome/free-regular-svg-icons": "5.12.0",
-    "@styled-icons/pack-builder": "^9.0.0",
+    "@styled-icons/pack-builder": "^9.2.0",
     "@styled-icons/tsconfig": "^9.0.0"
   }
 }
