@@ -12,7 +12,7 @@
     "copy-to-clipboard": "^3.0.8",
     "history": "^4.10.1",
     "js-search": "^1.4.3",
-    "query-string": "^6.9.0",
+    "query-string": "^6.10.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-loadable": "^5.5.0",
@@ -21,12 +21,12 @@
     "styled-icons": "^9.2.0"
   },
   "devDependencies": {
-    "@types/history": "^4.7.2",
+    "@types/history": "^4.7.4",
     "@types/js-search": "^1.4.0",
-    "@types/react-dom": "^16.9.4",
+    "@types/react-dom": "^16.9.5",
     "@types/react-loadable": "^5.5.3",
     "@types/react-virtualized": "^9.21.7",
     "lerna": "^3.20.2",
-    "next": "^9.1.7"
+    "next": "^9.2.1"
   }
 }
