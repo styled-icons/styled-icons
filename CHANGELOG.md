@@ -1,5 +1,9 @@
 # Changelog
 
+## v9.3.0 - 2020-01-31
+
+- Upgrade Octicons to v9.4.0
+
 ## v9.2.0 - 2020-01-14
 
 - Upgrade Remix Icons to v2.2.0
