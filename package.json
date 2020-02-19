@@ -24,9 +24,9 @@
     "push": "lerna publish"
   },
   "devDependencies": {
-    "@types/node": "^13.5.3",
-    "@types/react": "^16.9.19",
-    "@types/styled-components": "^4.4.1",
+    "@types/node": "^13.7.2",
+    "@types/react": "^16.9.20",
+    "@types/styled-components": "^4.4.3",
     "lerna": "^3.20.2",
     "prettier": "^1.19.1"
   }
