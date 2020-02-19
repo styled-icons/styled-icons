@@ -1,6 +1,6 @@
 {
   "name": "@styled-icons/material",
-  "version": "9.3.0",
+  "version": "9.4.0",
   "description": "Material icons available as Styled Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
   "homepage": "https://github.com/jacobwgillespie/styled-icons",
@@ -22,7 +22,7 @@
     "tslib": "^1.9.3"
   },
   "devDependencies": {
-    "@styled-icons/pack-builder": "^9.3.0",
+    "@styled-icons/pack-builder": "^9.4.0",
     "@styled-icons/tsconfig": "^9.0.0",
     "material-design-icons-updated": "4.8.2"
   }
