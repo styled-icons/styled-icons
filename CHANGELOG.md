@@ -1,5 +1,13 @@
 # Changelog
 
+## v9.4.0 - 2020-02-19
+
+- Upgrade Boxicons to v2.0.5
+- Upgrade Feather Icons to v4.26.0
+- Upgrade Font Awesome to v5.12.1
+- Upgrade Remix icons to v2.3.0
+- Fix issue where TypeScript incorrectly expanded a type and required specifying `crossOrigin` as a prop
+
 ## v9.3.0 - 2020-01-31
 
 - Upgrade Octicons to v9.4.0
