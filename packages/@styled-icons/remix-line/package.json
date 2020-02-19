@@ -24,6 +24,6 @@
   "devDependencies": {
     "@styled-icons/pack-builder": "^9.3.0",
     "@styled-icons/tsconfig": "^9.0.0",
-    "remixicon": "2.2.0"
+    "remixicon": "2.3.0"
   }
 }
