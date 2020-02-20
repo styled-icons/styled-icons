@@ -21,6 +21,10 @@
     "@styled-icons/styled-icon": "^9.2.0",
     "tslib": "^1.9.3"
   },
+  "peerDependencies": {
+    "react": "*",
+    "styled-components": "*"
+  },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.27",
     "@fortawesome/free-solid-svg-icons": "5.12.1",
