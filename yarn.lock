@@ -3471,9 +3471,9 @@ copy-descriptor@^0.1.0:
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
 copy-to-clipboard@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/copy-to-clipboard/-/copy-to-clipboard-3.2.1.tgz#b1a1137100e5665d5a96015cb579e30e90e07c44"
-  integrity sha512-btru1Q6RD9wbonIvEU5EfnhIRGHLo//BGXQ1hNAD2avIs/nBZlpbOeKtv3mhoUByN4DB9Cb6/vXBymj1S43KmA==
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/copy-to-clipboard/-/copy-to-clipboard-3.3.0.tgz#c6d2da6f9d50499873cde9d09e0e11f1503feba5"
+  integrity sha512-ohs2Uq0LcJiv97RNY1m/p0YV/SZ3KaXF9P+ZLaKZq+4T7d7Eb5D03ZEqzH1+z41e8vm/fIonGDrkYu9IfxZ3Uw==
   dependencies:
     toggle-selection "^1.0.6"
 
