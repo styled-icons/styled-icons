@@ -1,6 +1,6 @@
 {
   "name": "@styled-icons/crypto",
-  "version": "9.4.0",
+  "version": "9.4.1",
   "description": "Crypto icons available as Styled Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
   "homepage": "https://github.com/jacobwgillespie/styled-icons",
@@ -18,7 +18,7 @@
     "clean": "clean-pack"
   },
   "dependencies": {
-    "@styled-icons/styled-icon": "^9.2.0",
+    "@styled-icons/styled-icon": "^9.4.1",
     "tslib": "^1.9.3"
   },
   "peerDependencies": {
@@ -26,7 +26,7 @@
     "styled-components": "*"
   },
   "devDependencies": {
-    "@styled-icons/pack-builder": "^9.4.0",
+    "@styled-icons/pack-builder": "^9.4.1",
     "@styled-icons/tsconfig": "^9.0.0",
     "cryptocurrency-icons": "0.16.1",
     "react": "^16.12.0",

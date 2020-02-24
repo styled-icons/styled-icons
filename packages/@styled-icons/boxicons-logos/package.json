@@ -1,6 +1,6 @@
 {
   "name": "@styled-icons/boxicons-logos",
-  "version": "9.4.0",
+  "version": "9.4.1",
   "description": "Boxicons Logos icons available as Styled Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
   "homepage": "https://github.com/jacobwgillespie/styled-icons",
@@ -18,7 +18,7 @@
     "clean": "clean-pack"
   },
   "dependencies": {
-    "@styled-icons/styled-icon": "^9.2.0",
+    "@styled-icons/styled-icon": "^9.4.1",
     "tslib": "^1.9.3"
   },
   "peerDependencies": {
