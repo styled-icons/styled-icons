@@ -25,12 +25,55 @@ const IndexPage: React.SFC = () => (
       <Badges />
 
       <p>
-        Import icons from the <a href="https://boxicons.com/">Boxicons</a>, <a href="http://cryptoicons.co/">Crypto</a>,{' '}
-        <a href="https://evil-icons.co/">Evil</a>, <a href="https://feathericons.com/">Feather</a>,{' '}
-        <a href="https://fontawesome.com/">Font Awesome (free)</a>, <a href="https://icomoon.io">Icomoon (free)</a>,{' '}
-        <a href="https://material.io/icons/">Material</a>, <a href="https://octicons.github.com/">Octicons</a>, or{' '}
-        <a href="https://www.s-ings.com/typicons/">Typicons</a> icon packs as{' '}
-        <a href="https://www.styled-components.com/">Styled Components</a>
+        Import icons from the following icon packs as <a href="https://www.styled-components.com/">Styled Components</a>
+        :
+      </p>
+
+      <p>
+        <ul>
+          <li>
+            <a href="https://boxicons.com/">Boxicons</a>
+          </li>
+          <li>
+            <a href="http://cryptoicons.co">Crypto Icons</a>
+          </li>
+          <li>
+            <a href="http://www.entypo.com/">Entypo</a>
+          </li>
+          <li>
+            <a href="https://evil-icons.io">Evil Icons</a>
+          </li>
+          <li>
+            <a href="https://feathericons.com/">Feather</a>
+          </li>
+          <li>
+            <a href="https://fontawesome.com/">Font Awesome</a>
+          </li>
+          <li>
+            <a href="https://zurb.com/playground/foundation-icon-fonts-3">Foundation</a>
+          </li>
+          <li>
+            <a href="https://github.com/refactoringui/heroicons">Heroicons</a>
+          </li>
+          <li>
+            <a href="https://icomoon.io">Icomoon</a>
+          </li>
+          <li>
+            <a href="https://material.io/icons/">Material Design</a>
+          </li>
+          <li>
+            <a href="https://octicons.github.com/">Octicons</a>
+          </li>
+          <li>
+            <a href="https://www.npmjs.com/package/open-iconic">Open Iconic</a>
+          </li>
+          <li>
+            <a href="https://www.s-ings.com/typicons/">Typicons</a>
+          </li>
+          <li>
+            <a href="https://www.zondicons.com/">Zondicons</a>
+          </li>
+        </ul>
       </p>
 
       <code className="demo">

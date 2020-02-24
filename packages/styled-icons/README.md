@@ -57,7 +57,7 @@ Additionally, you will need to have installed a version of `styled-components` a
 
 ## Usage
 
-All Font Awesome (free), Feather, Material, and Octicon icons are available for preview at the [Icon Explorer](https://styled-icons.js.org).
+All icons are available for preview at the [Icon Explorer](https://styled-icons.js.org).
 
 The entire icon packs are available via the main import and sub-imports:
 
@@ -68,15 +68,22 @@ import * as boxiconsLogos from 'styled-icons/boxicons-logos'
 import * as boxiconsRegular from 'styled-icons/boxicons-regular'
 import * as boxiconsSolid from 'styled-icons/boxicons-solid'
 import * as crypto from 'styled-icons/crypto'
+import * as entypo from 'styled-icons/entypo'
+import * as entypoSocial from 'styled-icons/entypo-social'
 import * as evil from 'styled-icons/evil'
 import * as faBrands from 'styled-icons/fa-brands'
 import * as faRegular from 'styled-icons/fa-regular'
 import * as faSolid from 'styled-icons/fa-solid'
 import * as feather from 'styled-icons/feather'
+import * as foundation from 'styled-icons/foundation'
+import * as heroiconsOutline from 'styled-icons/heroicons-outline'
+import * as heroiconsSolid from 'styled-icons/heroicons-solid'
 import * as icomoon from 'styled-icons/icomoon'
 import * as material from 'styled-icons/material'
 import * as octicons from 'styled-icons/octicons'
+import * as openIconic from 'styled-icons/open-iconic'
 import * as typicons from 'styled-icons/typicons'
+import * as zondicons from 'styled-icons/zondicons'
 ```
 
 The icons are also available as individual imports - it is recommended that you import icons individually using ES modules along with a module bundler like Webpack or Rollup in order to enable tree-shaking. This means that the module bundler will remove unused icons from the final JavaScript bundle, saving bandwidth and speeding up loading:
