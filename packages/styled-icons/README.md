@@ -8,7 +8,22 @@
 
 [![View Icons](https://gui.apex.sh/component?name=ShadowButton&config=%7B%22text%22%3A%22ICON%20EXPLORER%22%2C%22color%22%3A%22db7093%22%7D)](https://styled-icons.js.org)
 
-`styled-icons` provides the [Font Awesome](https://fontawesome.com/), [Feather](https://feathericons.com/), [Icomoon](https://icomoon.io), [Material Design](https://material.io/icons/), [Octicons](https://octicons.github.com/), [Typicons](https://www.s-ings.com/typicons/), [Crypto Icons](http://cryptoicons.co), [Evil Icons](https://evil-icons.io), and [Boxicons](https://boxicons.com/) icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules.
+`styled-icons` provides the following icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules:
+
+- [Boxicons](https://boxicons.com/)
+- [Crypto Icons](http://cryptoicons.co)
+- [Entypo](http://www.entypo.com/)
+- [Evil Icons](https://evil-icons.io)
+- [Feather](https://feathericons.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [Foundation](https://zurb.com/playground/foundation-icon-fonts-3)
+- [Heroicons](https://github.com/refactoringui/heroicons)
+- [Icomoon](https://icomoon.io)
+- [Material Design](https://material.io/icons/)
+- [Octicons](https://octicons.github.com/)
+- [Open Iconic](https://www.npmjs.com/package/open-iconic)
+- [Typicons](https://www.s-ings.com/typicons/)
+- [Zondicons](https://www.zondicons.com/)
 
 ---
 
