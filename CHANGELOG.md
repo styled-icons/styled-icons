@@ -1,5 +1,9 @@
 # Changelog
 
+## v9.4.1 - 2020-02-24
+
+- Fix issue with `peerDependencies` that prevented Styled Icons from being used with Yarn 2 (berry).
+
 ## v9.4.0 - 2020-02-19
 
 - Upgrade Boxicons to v2.0.5
