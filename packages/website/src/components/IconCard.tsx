@@ -1,54 +1,76 @@
-import * as React from 'react'
+import React, {useEffect, useRef, useState, useCallback, useMemo} from 'react'
 import copy from 'copy-to-clipboard'
 import {StyledIcon} from 'styled-icons/types'
+
+const importMap: any = {
+  'boxicons-logos': import('styled-icons/boxicons-logos'),
+  'boxicons-regular': import('styled-icons/boxicons-regular'),
+  'boxicons-solid': import('styled-icons/boxicons-solid'),
+  crypto: import('styled-icons/crypto'),
+  'entypo-social': import('styled-icons/entypo-social'),
+  entypo: import('styled-icons/entypo'),
+  evil: import('styled-icons/evil'),
+  'fa-brands': import('styled-icons/fa-brands'),
+  'fa-regular': import('styled-icons/fa-regular'),
+  'fa-solid': import('styled-icons/fa-solid'),
+  feather: import('styled-icons/feather'),
+  foundation: import('styled-icons/foundation'),
+  'heroicons-outline': import('styled-icons/heroicons-outline'),
+  'heroicons-solid': import('styled-icons/heroicons-solid'),
+  icomoon: import('styled-icons/icomoon'),
+  material: import('styled-icons/material'),
+  octicons: import('styled-icons/octicons'),
+  'open-iconic': import('styled-icons/open-iconic'),
+  'remix-fill': import('styled-icons/remix-fill'),
+  'remix-line': import('styled-icons/remix-line'),
+  typicons: import('styled-icons/typicons'),
+  zondicons: import('styled-icons/zondicons'),
+}
+
+function useIsMounted() {
+  const isMounted = useRef(false)
+  useEffect(() => {
+    isMounted.current = true
+    return () => {
+      isMounted.current = false
+    }
+  }, [])
+  return isMounted
+}
 
 interface Props {
   pack: string
   name: string
-  Icon: StyledIcon
 }
 
-interface State {
-  copied: boolean
-}
+export const IconCard: React.SFC<Props> = ({name, pack}) => {
+  const isMounted = useIsMounted()
+  const [copied, setCopied] = useState(false)
+  const iconImport = useMemo(() => `styled-icons/${pack}/${name}`, [pack, name])
+  const [Icon, setIcon] = useState<StyledIcon | null>(null)
 
-export class IconCard extends React.PureComponent<Props, State> {
-  mounted = false
-  state = {copied: false}
-
-  componentDidMount() {
-    this.mounted = true
-  }
-
-  componentWillUnmount() {
-    this.mounted = false
-  }
-
-  get iconImport() {
-    return `styled-icons/${this.props.pack}/${this.props.name}`
-  }
-
-  copy = () => {
-    copy(this.iconImport)
-    this.setState({copied: true})
+  const copyCallback = useCallback(() => {
+    copy(iconImport)
+    setCopied(true)
 
     setTimeout(() => {
-      if (this.mounted) {
-        this.setState({copied: false})
+      if (isMounted.current) {
+        setCopied(false)
       }
     }, 2000)
-  }
+  }, [iconImport, isMounted])
 
-  render() {
-    const {Icon, name} = this.props
-    return (
-      <div className="icon-card" onClick={() => this.copy()}>
-        <div>
-          <Icon size="48" title={`${name} icon`} />
-        </div>
-        <div className="name">{name}</div>
-        <code>{this.state.copied ? 'Copied!' : this.iconImport}</code>
-      </div>
-    )
-  }
+  useEffect(() => {
+    importMap[pack].then((packImport: any) => {
+      setIcon(packImport[name])
+    })
+  }, [name, pack])
+
+  return (
+    <div className="icon-card" onClick={copyCallback}>
+      <div>{Icon ? <Icon size="48" title={`${name} icon`} /> : null}</div>
+      <div className="name">{name}</div>
+      <code>{copied ? 'Copied!' : iconImport}</code>
+    </div>
+  )
 }
