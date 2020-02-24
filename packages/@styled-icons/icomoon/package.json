@@ -21,6 +21,10 @@
     "@styled-icons/styled-icon": "^9.2.0",
     "tslib": "^1.9.3"
   },
+  "peerDependencies": {
+    "react": "*",
+    "styled-components": "*"
+  },
   "devDependencies": {
     "@styled-icons/icomoon-source": "Keyamoon/IcoMoon-Free#d006795ede82361e1bac1ee76f215cf1dc51e4ca",
     "@styled-icons/pack-builder": "^9.4.0",
