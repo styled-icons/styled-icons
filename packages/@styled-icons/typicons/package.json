@@ -28,6 +28,8 @@
   "devDependencies": {
     "@styled-icons/pack-builder": "^9.4.0",
     "@styled-icons/tsconfig": "^9.0.0",
+    "react": "^16.12.0",
+    "styled-components": "^5.0.1",
     "typicons.font": "2.0.9"
   }
 }

@@ -27,6 +27,8 @@
   },
   "devDependencies": {
     "@styled-icons/tsconfig": "^9.0.0",
-    "boxicons": "2.0.5"
+    "boxicons": "2.0.5",
+    "react": "^16.12.0",
+    "styled-components": "^5.0.1"
   }
 }

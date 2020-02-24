@@ -28,6 +28,8 @@
   "devDependencies": {
     "@styled-icons/icomoon-source": "Keyamoon/IcoMoon-Free#d006795ede82361e1bac1ee76f215cf1dc51e4ca",
     "@styled-icons/pack-builder": "^9.4.0",
-    "@styled-icons/tsconfig": "^9.0.0"
+    "@styled-icons/tsconfig": "^9.0.0",
+    "react": "^16.12.0",
+    "styled-components": "^5.0.1"
   }
 }
