@@ -11,17 +11,24 @@ import {
   boxiconsRegular,
   boxiconsSolid,
   crypto,
+  entypo,
+  entypoSocial,
   evil,
   faBrands,
   faRegular,
   faSolid,
   feather,
+  foundation,
+  heroiconsOutline,
+  heroiconsSolid,
   icomoon,
   material,
   octicons,
-  typicons,
+  openIconic,
   remixFill,
   remixLine,
+  typicons,
+  zondicons,
 } from 'styled-icons'
 import iconManifest from 'styled-icons/manifest.json'
 
@@ -50,6 +57,12 @@ const icons = iconManifest.map(
       case 'crypto':
         return {...icon, icon: crypto[icon.name as keyof typeof crypto]}
 
+      case 'entypo':
+        return {...icon, icon: entypo[icon.name as keyof typeof entypo]}
+
+      case 'entypo-social':
+        return {...icon, icon: entypoSocial[icon.name as keyof typeof entypoSocial]}
+
       case 'evil':
         return {...icon, icon: evil[icon.name as keyof typeof evil]}
 
@@ -65,6 +78,15 @@ const icons = iconManifest.map(
       case 'feather':
         return {...icon, icon: feather[icon.name as keyof typeof feather]}
 
+      case 'founcation':
+        return {...icon, icon: foundation[icon.name as keyof typeof foundation]}
+
+      case 'heroicons-outline':
+        return {...icon, icon: heroiconsOutline[icon.name as keyof typeof heroiconsOutline]}
+
+      case 'heroicons-solid':
+        return {...icon, icon: heroiconsSolid[icon.name as keyof typeof heroiconsSolid]}
+
       case 'icomoon':
         return {...icon, icon: icomoon[icon.name as keyof typeof icomoon]}
 
@@ -74,6 +96,9 @@ const icons = iconManifest.map(
       case 'octicons':
         return {...icon, icon: octicons[icon.name as keyof typeof octicons]}
 
+      case 'open-iconic':
+        return {...icon, icon: openIconic[icon.name as keyof typeof openIconic]}
+
       case 'remix-fill':
         return {...icon, icon: remixFill[icon.name as keyof typeof remixFill]}
 
@@ -82,6 +107,9 @@ const icons = iconManifest.map(
 
       case 'typicons':
         return {...icon, icon: typicons[icon.name as keyof typeof typicons]}
+
+      case 'zondicons':
+        return {...icon, icon: zondicons[icon.name as keyof typeof zondicons]}
 
       default:
         return {...icon, icon: null}
