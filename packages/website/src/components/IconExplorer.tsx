@@ -78,7 +78,7 @@ const icons = iconManifest.map(
       case 'feather':
         return {...icon, icon: feather[icon.name as keyof typeof feather]}
 
-      case 'founcation':
+      case 'foundation':
         return {...icon, icon: foundation[icon.name as keyof typeof foundation]}
 
       case 'heroicons-outline':
