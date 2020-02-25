@@ -1,14 +1,11 @@
 import React from 'react'
+import dynamic from 'next/dynamic'
 import Head from 'next/head'
-import Loadable from 'react-loadable'
 
 import {Badges} from './components/Badges'
 import Layout from './components/Layout'
 
-const IconExplorer = Loadable({
-  loader: () => import('./components/IconExplorer'),
-  loading: () => <div>Loading...</div>,
-})
+const IconExplorer = dynamic(() => import('./components/IconExplorer'), {loading: () => <div>Loading...</div>})
 
 const IndexPage: React.SFC = () => (
   <Layout>
@@ -25,12 +22,15 @@ const IndexPage: React.SFC = () => (
       <Badges />
 
       <p>
-        Import icons from the <a href="https://boxicons.com/">Boxicons</a>, <a href="http://cryptoicons.co/">Crypto</a>,{' '}
-        <a href="https://evil-icons.co/">Evil</a>, <a href="https://feathericons.com/">Feather</a>,{' '}
-        <a href="https://fontawesome.com/">Font Awesome (free)</a>, <a href="https://icomoon.io">Icomoon (free)</a>,{' '}
-        <a href="https://material.io/icons/">Material</a>, <a href="https://octicons.github.com/">Octicons</a>, or{' '}
-        <a href="https://www.s-ings.com/typicons/">Typicons</a> icon packs as{' '}
-        <a href="https://www.styled-components.com/">Styled Components</a>
+        Import icons from the following icon packs as <a href="https://www.styled-components.com/">Styled Components</a>
+        : <a href="https://boxicons.com/">Boxicons</a>, <a href="http://cryptoicons.co">Crypto Icons</a>,{' '}
+        <a href="http://www.entypo.com/">Entypo</a>, <a href="https://evil-icons.io">Evil Icons</a>,{' '}
+        <a href="https://feathericons.com/">Feather</a>, <a href="https://fontawesome.com/">Font Awesome</a>,{' '}
+        <a href="https://zurb.com/playground/foundation-icon-fonts-3">Foundation</a>,{' '}
+        <a href="https://github.com/refactoringui/heroicons">Heroicons</a>, <a href="https://icomoon.io">Icomoon</a>,{' '}
+        <a href="https://material.io/icons/">Material Design</a>, <a href="https://octicons.github.com/">Octicons</a>,{' '}
+        <a href="https://www.npmjs.com/package/open-iconic">Open Iconic</a>,{' '}
+        <a href="https://www.s-ings.com/typicons/">Typicons</a>, <a href="https://www.zondicons.com/">Zondicons</a>
       </p>
 
       <code className="demo">

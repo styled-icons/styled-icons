@@ -1,5 +1,13 @@
 # Changelog
 
+## v9.5.0 - 2020-02-24
+
+- Add [Entypo](http://www.entypo.com/) icons
+- Add [Foundation](https://zurb.com/playground/foundation-icon-fonts-3) icons
+- Add [Heroicons](https://github.com/refactoringui/heroicons)
+- Add [Open Iconic](https://www.npmjs.com/package/open-iconic) icons
+- Add [Zondicons](https://www.zondicons.com/)
+
 ## v9.4.1 - 2020-02-24
 
 - Fix issue with `peerDependencies` that prevented Styled Icons from being used with Yarn 2 (berry).
