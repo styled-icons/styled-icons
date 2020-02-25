@@ -1,5 +1,9 @@
 # Changelog
 
+## v9.6.0 - 2020-02-25
+
+- Add Material icon variants (`material-outlined`, `material-rounded`, `material-sharp`, `material-twotone`)
+
 ## v9.5.0 - 2020-02-24
 
 - Add [Entypo](http://www.entypo.com/) icons
