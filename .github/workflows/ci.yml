@@ -34,7 +34,4 @@ jobs:
 
       - name: Publish to NPM
         if: startsWith(github.ref, 'refs/tags/v')
-        # We use Docker to publish to NPM to bypass ulimit restrictions for GitHub Actions
-        run: |
-          docker build -t publish .
-          docker run -v ~/.npmrc:/root/.npmrc --rm publish yarn push from-git -y
+        run: yarn push from-git -y
