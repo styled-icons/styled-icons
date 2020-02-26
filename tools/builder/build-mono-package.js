@@ -37,16 +37,7 @@ async function run() {
     await fs.mkdirp(packName)
 
     await fs.writeFile(path.join(packName, 'package.json'), pkgJSON('index'))
-    await fs.writeFile(path.join(packName, 'index.ts'), pack.map(icon => `export * from './${icon.name}'`).join('\n'))
-
-    for (const icon of pack) {
-      await fs.mkdirp(path.join(icon.pack, icon.name))
-      await fs.writeFile(path.join(icon.pack, icon.name, 'package.json'), pkgJSON(icon.name))
-      await fs.writeFile(
-        path.join(icon.pack, icon.name, `${icon.name}.ts`),
-        `export * from '@styled-icons/${icon.pack}/${icon.name}'`,
-      )
-    }
+    await fs.writeFile(path.join(packName, 'index.ts'), `export * from '@styled-icons/${packName}'`)
   }
   await fs.mkdirp('types')
   await fs.writeFile(
@@ -95,9 +86,6 @@ export {${packs.map(pack => fastCase.camelize(pack[0].pack)).join(', ')}}
   console.log('Generating package.json files')
   for (const pack of packs) {
     await fs.writeFile(path.join(pack[0].pack, 'package.json'), pkgJSONBuilt('index'))
-    for (const icon of pack) {
-      await fs.writeFile(path.join(icon.pack, icon.name, 'package.json'), pkgJSONBuilt(icon.name))
-    }
   }
   await fs.writeFile(path.join('types', 'package.json'), pkgJSONBuilt('types'))
 
