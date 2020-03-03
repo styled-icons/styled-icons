@@ -8,7 +8,7 @@
 
 [![View Icons](https://gui.apex.sh/component?name=ShadowButton&config=%7B%22text%22%3A%22ICON%20EXPLORER%22%2C%22color%22%3A%22db7093%22%7D)](https://styled-icons.js.org)
 
-`styled-icons` provides the following icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules:
+`styled-icons` provides over 13,500 icons from the following icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules:
 
 - [Boxicons](https://boxicons.com/)
 - [Crypto Icons](http://cryptoicons.co)
@@ -34,6 +34,7 @@
   - [Props](#props)
   - [Icon Dimensions](#icon-dimensions)
   - [Styled Components](#styled-components)
+  - [Base Icon Styles](#base-icon-styles)
   - [Accessibility](#accessibility)
   - [Tree Shaking](#tree-shaking)
   - [TypeScript](#typescript)
@@ -42,6 +43,8 @@
 - [Contributors](#contributors)
 
 ## Installation
+
+You can install all the icon packs simultaneously:
 
 ```
 yarn add styled-icons
@@ -53,7 +56,36 @@ or
 npm install styled-icons --save
 ```
 
-Additionally, you will need to have installed a version of `styled-components` at least version 4.1.0 or newer, as `styled-icons` depends on `styled-components` as a peer dependency.
+Alternatively you can install only the icon packs you need:
+
+```
+yarn add @styled-icons/boxicons-logos
+yarn add @styled-icons/boxicons-regular
+yarn add @styled-icons/boxicons-solid
+yarn add @styled-icons/crypto
+yarn add @styled-icons/entypo
+yarn add @styled-icons/entypo-social
+yarn add @styled-icons/evil
+yarn add @styled-icons/fa-brands
+yarn add @styled-icons/fa-regular
+yarn add @styled-icons/fa-solid
+yarn add @styled-icons/feather
+yarn add @styled-icons/foundation
+yarn add @styled-icons/heroicons-outline
+yarn add @styled-icons/heroicons-solid
+yarn add @styled-icons/icomoon
+yarn add @styled-icons/material
+yarn add @styled-icons/material-outlined
+yarn add @styled-icons/material-rounded
+yarn add @styled-icons/material-twotone
+yarn add @styled-icons/material-sharp
+yarn add @styled-icons/octicons
+yarn add @styled-icons/open-iconic
+yarn add @styled-icons/typicons
+yarn add @styled-icons/zondicons
+```
+
+Finally, you will need to have installed a version of `styled-components` at least version 4.1.0 or newer, as `styled-icons` depends on `styled-components` as a peer dependency.
 
 ## Usage
 
@@ -64,37 +96,37 @@ The entire icon packs are available via the main import and sub-imports:
 ```javascript
 import {material, octicons} from 'styled-icons'
 
-import * as boxiconsLogos from 'styled-icons/boxicons-logos'
-import * as boxiconsRegular from 'styled-icons/boxicons-regular'
-import * as boxiconsSolid from 'styled-icons/boxicons-solid'
-import * as crypto from 'styled-icons/crypto'
-import * as entypo from 'styled-icons/entypo'
-import * as entypoSocial from 'styled-icons/entypo-social'
-import * as evil from 'styled-icons/evil'
-import * as faBrands from 'styled-icons/fa-brands'
-import * as faRegular from 'styled-icons/fa-regular'
-import * as faSolid from 'styled-icons/fa-solid'
-import * as feather from 'styled-icons/feather'
-import * as foundation from 'styled-icons/foundation'
-import * as heroiconsOutline from 'styled-icons/heroicons-outline'
-import * as heroiconsSolid from 'styled-icons/heroicons-solid'
-import * as icomoon from 'styled-icons/icomoon'
-import * as material from 'styled-icons/material'
-import * as materialOutlined from 'styled-icons/material-outlined'
-import * as materialRounded from 'styled-icons/material-rounded'
-import * as materialTwoTone from 'styled-icons/material-twotone'
-import * as materialSharp from 'styled-icons/material-sharp'
-import * as octicons from 'styled-icons/octicons'
-import * as openIconic from 'styled-icons/open-iconic'
-import * as typicons from 'styled-icons/typicons'
-import * as zondicons from 'styled-icons/zondicons'
+import * as boxiconsLogos from '@styled-icons/boxicons-logos'
+import * as boxiconsRegular from '@styled-icons/boxicons-regular'
+import * as boxiconsSolid from '@styled-icons/boxicons-solid'
+import * as crypto from '@styled-icons/crypto'
+import * as entypo from '@styled-icons/entypo'
+import * as entypoSocial from '@styled-icons/entypo-social'
+import * as evil from '@styled-icons/evil'
+import * as faBrands from '@styled-icons/fa-brands'
+import * as faRegular from '@styled-icons/fa-regular'
+import * as faSolid from '@styled-icons/fa-solid'
+import * as feather from '@styled-icons/feather'
+import * as foundation from '@styled-icons/foundation'
+import * as heroiconsOutline from '@styled-icons/heroicons-outline'
+import * as heroiconsSolid from '@styled-icons/heroicons-solid'
+import * as icomoon from '@styled-icons/icomoon'
+import * as material from '@styled-icons/material'
+import * as materialOutlined from '@styled-icons/material-outlined'
+import * as materialRounded from '@styled-icons/material-rounded'
+import * as materialTwoTone from '@styled-icons/material-twotone'
+import * as materialSharp from '@styled-icons/material-sharp'
+import * as octicons from '@styled-icons/octicons'
+import * as openIconic from '@styled-icons/open-iconic'
+import * as typicons from '@styled-icons/typicons'
+import * as zondicons from '@styled-icons/zondicons'
 ```
 
-The icons are also available as individual imports - it is recommended that you import icons individually using ES modules along with a module bundler like Webpack or Rollup in order to enable tree-shaking. This means that the module bundler will remove unused icons from the final JavaScript bundle, saving bandwidth and speeding up loading:
+You can also import just the icons you need:
 
 ```javascript
 import React, {Fragment} from 'react'
-import {AccountCircle, Lock} from 'styled-icons/material'
+import {AccountCircle, Lock} from '@styled-icons/material'
 
 const App = () => (
   <Fragment>
@@ -102,6 +134,15 @@ const App = () => (
     <Lock />
   </Fragment>
 )
+```
+
+For the individual icon pack packages (`@styled-icons/PACK`), the icons are also importable individually - this is not possible with the uber-`styled-icons` package containing all the packs:
+
+```javascript
+import React from 'react'
+import {Lock} from '@styled-icons/material/Lock'
+
+const App = () => <Lock />
 ```
 
 ### Props
@@ -117,7 +158,7 @@ Styled Icons accept all the valid props of an `<svg />` element, in addition to 
 
 ```javascript
 import React from 'react'
-import {Lock} from 'styled-icons/material'
+import {Lock} from '@styled-icons/material'
 
 const App = () => <Lock size="48" title="Unlock account" />
 ```
@@ -127,7 +168,7 @@ const App = () => <Lock size="48" title="Unlock account" />
 Some icons natively have non-square dimensions - original dimensions are exported from the individual icon exports:
 
 ```javascript
-import {LogoGithub, LogoGithubDimensions} from 'styled-icons/octicons/LogoGithub'
+import {LogoGithub, LogoGithubDimensions} from '@styled-icons/octicons/LogoGithub'
 
 const App = () => <LogoGithub />
 
@@ -137,7 +178,7 @@ console.log(LogoGithubDimension) // {height: 16, width: 45}
 Dimension exports are not available on the icon pack or index exports:
 
 ```javascript
-import * as octicons from 'styled-icons/octicons'
+import * as octicons from '@styled-icons/octicons'
 import {octicons} from 'styled-icons'
 
 // octicons contains only icon exports
@@ -149,12 +190,28 @@ All icons are exported as [Styled Components](https://www.styled-components.com/
 
 ```javascript
 import styled from 'styled-components'
-import {Lock} from 'styled-icons/material'
+import {Lock} from '@styled-icons/material'
 
 export const RedLock = styled(Lock)`
   color: red;
 
   font-weight: ${props => (props.important ? 'bold' : 'normal')};
+`
+```
+
+### Base Icon Styles
+
+If you wish to style all icons at once, you can create a wrapper styled component that imparts a particular style to all icons contained within the wrapper by targeting the `StyledIconBase` component:
+
+```javascript
+import styled from 'styled-components'
+import {StyledIconBase} from '@styled-icons/styled-icon'
+
+export const IconStyleWrapper = styled.div`
+  ${StyledIconBase} {
+    color: red;
+    /* icon styles go here */
+  }
 `
 ```
 
@@ -186,7 +243,7 @@ As this library provides direct access to the `<svg>` element, you may wish to f
 
 ```javascript
 import styled from 'styled-components'
-import {Spinner} from 'styled-icons/fa-solid/Spinner'
+import {Spinner} from '@styled-icons/fa-solid/Spinner'
 
 const VisuallyHidden = styled.span`
   border: 0 !important;
@@ -214,10 +271,14 @@ Styled Icons supports automatic tree-shaking via the `package.json` `module` pro
 
 ### TypeScript
 
-The icons of `styled-icons` are built using TypeScript and export type definitions. If you need a type to reference any styled icon, there is a `StyledIcon` type exported from the `styled-icons/types` import:
+The icons of `styled-icons` are built using TypeScript and export type definitions. If you need a type to reference any styled icon, there is a `StyledIcon` type exported from the `@styled-icons/styled-icon` package (recommended) or the `styled-icons/types` import:
 
 ```typescript
 import styled from 'styled-components'
+
+// Recommended:
+import {StyledIcon} from '@styled-icons/styled-icon'
+// Alternatively:
 import {StyledIcon} from 'styled-icons/types'
 
 interface Props {

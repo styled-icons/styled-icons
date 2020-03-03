@@ -36,7 +36,7 @@ const IndexPage: React.SFC = () => (
       <code className="demo">
         {`
 import styled from 'styled-components'
-import {Zap} from 'styled-icons/octicons/Zap'
+import {Zap} from '@styled-icons/octicons'
 
 const RedZap = styled(Zap)\`
   color: red;

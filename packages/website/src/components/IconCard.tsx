@@ -50,7 +50,7 @@ interface Props {
 export const IconCard: React.SFC<Props> = ({name, pack}) => {
   const isMounted = useIsMounted()
   const [copied, setCopied] = useState(false)
-  const iconImport = useMemo(() => `styled-icons/${pack}/${name}`, [pack, name])
+  const iconImport = useMemo(() => `@styled-icons/${pack}/${name}`, [pack, name])
   const [Icon, setIcon] = useState<StyledIcon | null>(null)
 
   const copyCallback = useCallback(() => {

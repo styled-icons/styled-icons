@@ -1,5 +1,26 @@
 # Changelog
 
+## v10.0.0 - 2020-02-26
+
+Styled Icons v10 introduces individual NPM modules for icon packs, originally introduced in v9, as the preferred way to install Styled Icons. It also deprecates single icon imports (`styled-icons/PACK/ICON`) on the main `styled-icons` package in favor of the new individual icon packages (`@styled-icons/PACK/ICON`).
+
+To upgrade, you only need to update your code if you import icons individually (`styled-icons/PACK/ICON`) - you will need to change the following:
+
+```typescript
+import {Icon} from 'styled-icons/pack/icon'
+```
+
+To the following (also install the `@styled-icons/pack` module):
+
+```typescript
+import {Icon} from '@styled-icons/pack/icon'
+```
+
+All other imports from `styled-icons` still function as before (for instance `import {Icon} from 'styled-icons/pack'`), though you are welcome to migrate to the new `@styled-icons/PACK` modules. See the README for a list of icon packs.
+
+- **(breaking)** Remove individual icon imports from the `styled-icons` package (`styled-icons/PACK/ICON`)
+- Update documentation to introduce new `@styled-icons/PACK` NPM modules as the first-class install method
+
 ## v9.6.0 - 2020-02-25
 
 - Add Material icon variants (`material-outlined`, `material-rounded`, `material-sharp`, `material-twotone`)
