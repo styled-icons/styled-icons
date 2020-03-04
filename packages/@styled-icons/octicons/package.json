@@ -1,6 +1,6 @@
 {
   "name": "@styled-icons/octicons",
-  "version": "9.4.1",
+  "version": "10.0.0",
   "description": "Octicons icons available as Styled Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
   "homepage": "https://github.com/jacobwgillespie/styled-icons",
@@ -18,7 +18,7 @@
     "clean": "clean-pack"
   },
   "dependencies": {
-    "@styled-icons/styled-icon": "^9.4.1",
+    "@styled-icons/styled-icon": "^10.0.0",
     "tslib": "^1.11.1"
   },
   "peerDependencies": {
@@ -27,8 +27,8 @@
   },
   "devDependencies": {
     "@primer/octicons": "9.4.0",
-    "@styled-icons/pack-builder": "^9.4.1",
-    "@styled-icons/tsconfig": "^9.0.0",
+    "@styled-icons/pack-builder": "^10.0.0",
+    "@styled-icons/tsconfig": "^10.0.0",
     "react": "^16.13.0",
     "styled-components": "^5.0.1"
   }
