@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@styled-icons/website",
-  "version": "10.0.0",
+  "version": "10.1.0",
   "scripts": {
     "build": "next build && next export -o build && cp -r public/* build/ && mv build ../../public",
     "clean": "rm -rf ./build ../../public",
@@ -17,7 +17,7 @@
     "react-dom": "^16.13.0",
     "react-virtualized": "^9.21.2",
     "styled-components": "^5.0.1",
-    "styled-icons": "^10.0.0"
+    "styled-icons": "^10.1.0"
   },
   "devDependencies": {
     "@types/history": "^4.7.5",
