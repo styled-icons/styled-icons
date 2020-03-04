@@ -1,6 +1,10 @@
 # Changelog
 
-## v10.0.0 - 2020-02-26
+## v10.1.0 - 2020-03-04
+
+- Upgrade Octicons to v9.5.0
+
+## v10.0.0 - 2020-03-03
 
 Styled Icons v10 introduces individual NPM modules for icon packs, originally introduced in v9, as the preferred way to install Styled Icons. It also deprecates single icon imports (`styled-icons/PACK/ICON`) on the main `styled-icons` package in favor of the new individual icon packages (`@styled-icons/PACK/ICON`).
 
