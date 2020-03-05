@@ -1,6 +1,6 @@
 # Changelog
 
-## v10.2.0 - 2020-02-25
+## v10.2.0 - 2020-03-05
 
 - Add Eva Icons variants (`evaicons-solid`, `evaicons-outline`) ([@Jensderond](https://github.com/jensderond))
 
