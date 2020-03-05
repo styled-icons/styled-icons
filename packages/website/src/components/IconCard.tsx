@@ -9,6 +9,8 @@ const importMap: any = {
   crypto: import('styled-icons/crypto'),
   entypo: import('styled-icons/entypo'),
   'entypo-social': import('styled-icons/entypo-social'),
+  'evaicons-outline': import('styled-icons/evaicons-outline'),
+  'evaicons-solid': import('styled-icons/evaicons-solid'),
   evil: import('styled-icons/evil'),
   'fa-brands': import('styled-icons/fa-brands'),
   'fa-regular': import('styled-icons/fa-regular'),
