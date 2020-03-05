@@ -1,5 +1,9 @@
 # Changelog
 
+## v10.2.1 - 2020-03-05
+
+- Fix issue where the new Eva Icons packs weren't listed in `styled-icon`'s dependencies
+
 ## v10.2.0 - 2020-03-05
 
 - Add Eva Icons variants (`evaicons-solid`, `evaicons-outline`) ([@Jensderond](https://github.com/jensderond))
