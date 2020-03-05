@@ -307,6 +307,8 @@ The Boxicons are licensed under the [CC BY 4.0 License](https://boxicons.com/get
 
 The Cryptocurrency icons are licensed under the [CC0 1.0 Universal License](https://github.com/atomiclabs/cryptocurrency-icons/blob/master/LICENSE.md).
 
+The Eva Icons are licensed under the [MIT License](https://github.com/akveo/eva-icons/blob/master/LICENSE.txt).
+
 The Evil Icons are licensed under the [MIT License](https://github.com/evil-icons/evil-icons/blob/master/LICENSE.txt).
 
 The Font Awesome icons are licensed under the [CC BY 4.0 License](https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt).
