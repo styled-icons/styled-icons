@@ -13,6 +13,7 @@
 - [Boxicons](https://boxicons.com/)
 - [Crypto Icons](http://cryptoicons.co)
 - [Entypo](http://www.entypo.com/)
+- [Eva Icons](https://akveo.github.io/eva-icons/)
 - [Evil Icons](https://evil-icons.io)
 - [Feather](https://feathericons.com/)
 - [Font Awesome](https://fontawesome.com/)
@@ -65,6 +66,8 @@ yarn add @styled-icons/boxicons-solid
 yarn add @styled-icons/crypto
 yarn add @styled-icons/entypo
 yarn add @styled-icons/entypo-social
+yarn add @styled-icons/evaicons-outline
+yarn add @styled-icons/evaicons-solid
 yarn add @styled-icons/evil
 yarn add @styled-icons/fa-brands
 yarn add @styled-icons/fa-regular
@@ -102,6 +105,8 @@ import * as boxiconsSolid from '@styled-icons/boxicons-solid'
 import * as crypto from '@styled-icons/crypto'
 import * as entypo from '@styled-icons/entypo'
 import * as entypoSocial from '@styled-icons/entypo-social'
+import * as evaiconsOutline from '@styled-icons/evaicons-outline'
+import * as evaiconsSolid from '@styled-icons/evaicons-solid'
 import * as evil from '@styled-icons/evil'
 import * as faBrands from '@styled-icons/fa-brands'
 import * as faRegular from '@styled-icons/fa-regular'

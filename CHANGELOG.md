@@ -1,5 +1,9 @@
 # Changelog
 
+## v10.2.0 - 2020-02-25
+
+- Add Eva Icons variants (`evaicons-solid`, `evaicons-outline`) ([@Jensderond](https://github.com/jensderond))
+
 ## v10.1.0 - 2020-03-04
 
 - Upgrade Octicons to v9.5.0
