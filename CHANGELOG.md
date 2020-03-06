@@ -1,5 +1,9 @@
 # Changelog
 
+## v10.3.0 - 2020-03-06
+
+- Add Ionicons variants (`ionicons-sharp`, `ionicons-solid`, `ionicons-outline`) ([@Jensderond](https://github.com/jensderond))
+
 ## v10.2.1 - 2020-03-05
 
 - Fix issue where the new Eva Icons packs weren't listed in `styled-icon`'s dependencies

@@ -20,6 +20,7 @@
 - [Foundation](https://zurb.com/playground/foundation-icon-fonts-3)
 - [Heroicons](https://github.com/refactoringui/heroicons)
 - [Icomoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com)
 - [Material Design](https://material.io/icons/)
 - [Octicons](https://octicons.github.com/)
 - [Open Iconic](https://www.npmjs.com/package/open-iconic)
@@ -77,6 +78,9 @@ yarn add @styled-icons/foundation
 yarn add @styled-icons/heroicons-outline
 yarn add @styled-icons/heroicons-solid
 yarn add @styled-icons/icomoon
+yarn add @styled-icons/ionicons-sharp
+yarn add @styled-icons/ionicons-solid
+yarn add @styled-icons/ionicons-outline
 yarn add @styled-icons/material
 yarn add @styled-icons/material-outlined
 yarn add @styled-icons/material-rounded
@@ -116,6 +120,9 @@ import * as foundation from '@styled-icons/foundation'
 import * as heroiconsOutline from '@styled-icons/heroicons-outline'
 import * as heroiconsSolid from '@styled-icons/heroicons-solid'
 import * as icomoon from '@styled-icons/icomoon'
+import * as ioniconsSharp from '@styled-icons/ionicons-sharp'
+import * as ioniconsSolid from '@styled-icons/ionicons-solid'
+import * as ioniconsOutline from '@styled-icons/ionicons-outline'
 import * as material from '@styled-icons/material'
 import * as materialOutlined from '@styled-icons/material-outlined'
 import * as materialRounded from '@styled-icons/material-rounded'
@@ -316,6 +323,8 @@ The Font Awesome icons are licensed under the [CC BY 4.0 License](https://github
 The Feather icons are licensed under the [MIT License](https://github.com/feathericons/feather/blob/master/LICENSE).
 
 The Icomoon icons are dual licensed under [GPL](http://www.gnu.org/licenses/gpl.html) / [CC BY 4.0 License](http://creativecommons.org/licenses/by/4.0/).
+
+The Ionicons are licensed under the [MIT License](https://github.com/ionic-team/ionicons/blob/master/LICENSE).
 
 The Material Design icons are licensed under the [Apache License Version 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE).
 
