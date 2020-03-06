@@ -29,8 +29,8 @@ const IndexPage: React.SFC = () => (
         <a href="https://fontawesome.com/">Font Awesome</a>,{' '}
         <a href="https://zurb.com/playground/foundation-icon-fonts-3">Foundation</a>,{' '}
         <a href="https://github.com/refactoringui/heroicons">Heroicons</a>, <a href="https://icomoon.io">Icomoon</a>,{' '}
-        <a href="https://material.io/icons/">Material Design</a>, <a href="https://octicons.github.com/">Octicons</a>,{' '}
-        <a href="https://www.npmjs.com/package/open-iconic">Open Iconic</a>, <a href="https://ionicons.com">Ionicons</a>,{' '}
+        <a href="https://ionicons.com">Ionicons</a>, <a href="https://material.io/icons/">Material Design</a>,{' '}
+        <a href="https://octicons.github.com/">Octicons</a>, <a href="https://www.npmjs.com/package/open-iconic">Open Iconic</a>,{' '}
         <a href="https://www.s-ings.com/typicons/">Typicons</a>, <a href="https://www.zondicons.com/">Zondicons</a>
       </p>
 
