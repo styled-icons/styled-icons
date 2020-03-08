@@ -1,6 +1,6 @@
 # Changelog
 
-## v10.3.0 - 2020-03-06
+## v10.3.0 - 2020-03-08
 
 - Add Ionicons variants (`ionicons-sharp`, `ionicons-solid`, `ionicons-outline`) ([@Jensderond](https://github.com/jensderond))
 
