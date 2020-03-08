@@ -26,18 +26,37 @@ const addKeyPropToChildren = {
   },
 }
 
+// const generalizeStrokeColor = {
+//   type: 'perItem',
+//   fn(item) {
+//     console.log(item.isElem())
+//     if (!item.isElem()) {
+//       return
+//     }
+
+//     item.eachAttr(attr => {
+//       console.log(attr)
+//       if (attr.name === 'stroke' && attr.value !== 'currentColor') {
+//         console.log(attr)
+//         attr.value = 'currentColor'
+//       }
+//     })
+//   },
+// }
+
 const svgoOptions = {
   plugins: [
     {removeXMLNS: true},
     {removeScriptElement: true},
     {removeTitle: true},
-    {convertStyleToAttrs: false},
+    {convertStyleToAttrs: true},
     {convertShapeToPath: false},
     {removeStyleElement: true},
     {removeDimensions: true},
     {removeViewBox: false},
     {addKeyPropToChildren},
     {removeAttrs: {attrs: ['id', '*:(stroke|fill):((?!^none$)(?!^currentColor$).)*']}},
+    // {generalizeStrokeColor},
     {sortAttrs: true},
   ],
 }
