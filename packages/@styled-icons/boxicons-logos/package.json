@@ -14,7 +14,7 @@
     "styled-icons"
   ],
   "scripts": {
-    "build": "build-pack",
+    "build": "build-pack @svg-icons/boxicons-logos",
     "clean": "clean-pack"
   },
   "dependencies": {
@@ -26,8 +26,9 @@
     "styled-components": "*"
   },
   "devDependencies": {
+    "@styled-icons/pack-builder": "^10.0.0",
     "@styled-icons/tsconfig": "^10.0.0",
-    "boxicons": "2.0.5",
+    "@svg-icons/boxicons-logos": "0.1.1",
     "react": "^16.13.0",
     "styled-components": "^5.0.1"
   }

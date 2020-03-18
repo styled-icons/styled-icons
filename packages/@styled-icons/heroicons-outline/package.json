@@ -14,7 +14,7 @@
     "styled-icons"
   ],
   "scripts": {
-    "build": "build-pack",
+    "build": "build-pack @svg-icons/heroicons-outline",
     "clean": "clean-pack"
   },
   "dependencies": {
@@ -28,7 +28,7 @@
   "devDependencies": {
     "@styled-icons/pack-builder": "^10.0.0",
     "@styled-icons/tsconfig": "^10.0.0",
-    "heroicons": "refactoringui/heroicons#2abb8143c5cf89633d38565b2df44a392bd3d2fd",
+    "@svg-icons/heroicons-outline": "0.1.1",
     "react": "^16.13.0",
     "styled-components": "^5.0.1"
   }

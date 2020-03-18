@@ -9,7 +9,6 @@ const fs = require('fs-extra')
 const path = require('path')
 
 const h2x = require('./transform/h2x')
-const svgo = require('./transform/svgo')
 
 const SVG_ATTRS = [
   'fill',
@@ -38,7 +37,7 @@ const getTemplate = () =>
   )
 
 const baseDir = process.cwd()
-const buildDir = path.join(baseDir, 'build')
+const buildDir = path.join(baseDir, '__build')
 
 const pkgJSON = name => `{
   "private": true,
@@ -60,7 +59,8 @@ const pkgJSONBuilt = name => `{
 const generate = async () => {
   console.log('Reading icon packs...')
 
-  const icons = await require(path.join(baseDir, 'source.js'))()
+  const packModuleName = process.argv[2]
+  const icons = require(path.join(packModuleName, 'metadata.json'))
 
   if (icons.length === 0) {
     console.log('Error reading icons from pack')
@@ -76,20 +76,22 @@ const generate = async () => {
   for (const icon of icons) {
     const state = {}
 
-    let result = icon.source
-    result = await svgo(result)
-    result = await h2x(result, state)
-    result = result.join('\n      ')
+    let result = fs
+      .readFileSync(
+        path.join(path.dirname(require.resolve(path.join(packModuleName, 'metadata.json'))), `${icon.name}.svg`),
+      )
+      .toString('utf8')
+    result = await h2x(result, state).join('\n      ')
 
-    icon.name = getComponentName(icon.originalName)
-    icon.height = state.height || icon.height
-    icon.width = state.width || icon.width
-    icon.viewBox = state.viewBox || `0 0 ${icon.width} ${icon.height}`
-    icon.attrs = {fill: 'currentColor', xmlns: 'http://www.w3.org/2000/svg'}
+    icon.name = getComponentName(icon.name)
+    icon.pack = path.basename(baseDir)
+    icon.viewBox = icon.viewBox || `0 0 ${icon.width} ${icon.height}`
+
+    const attrs = {fill: 'currentColor', xmlns: 'http://www.w3.org/2000/svg'}
 
     for (const attr of SVG_ATTRS) {
-      if (attr in state.attrs) {
-        icon.attrs[fastCase.camelize(attr)] = state.attrs[attr]
+      if (attr in icon.attrs) {
+        attrs[fastCase.camelize(attr)] = state.attrs[attr]
       }
     }
 
@@ -104,7 +106,7 @@ const generate = async () => {
 
     const component = () =>
       template
-        .replace(/{{attrs}}/g, JSON.stringify(icon.attrs, null, 2).slice(2, -2))
+        .replace(/{{attrs}}/g, JSON.stringify(attrs, null, 2).slice(2, -2))
         .replace(/{{height}}/g, icon.height)
         .replace(/{{name}}/g, icon.name)
         .replace(/{{svg}}/g, result)
@@ -145,8 +147,8 @@ const generate = async () => {
   await fs.writeJSON('tsconfig.json', {
     extends: '@styled-icons/tsconfig/tsconfig.icons.json',
     compilerOptions: {
-      outDir: './build',
-      rootDir: './build',
+      outDir: './__build',
+      rootDir: './__build',
     },
   })
   await execa('yarn', ['ttsc', '--project', './tsconfig.json'], {stdio: 'inherit'})
@@ -165,8 +167,8 @@ const generate = async () => {
   await fs.writeJSON('tsconfig.json', {
     extends: '@styled-icons/tsconfig/tsconfig.icons-cjs.json',
     compilerOptions: {
-      outDir: './build',
-      rootDir: './build',
+      outDir: './__build',
+      rootDir: './__build',
     },
   })
   await execa('yarn', ['ttsc', '--project', './tsconfig.json'], {stdio: 'inherit'})

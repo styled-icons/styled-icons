@@ -14,7 +14,7 @@
     "styled-icons"
   ],
   "scripts": {
-    "build": "build-pack",
+    "build": "build-pack @svg-icons/typicons",
     "clean": "clean-pack"
   },
   "dependencies": {
@@ -28,8 +28,8 @@
   "devDependencies": {
     "@styled-icons/pack-builder": "^10.0.0",
     "@styled-icons/tsconfig": "^10.0.0",
+    "@svg-icons/typicons": "0.1.1",
     "react": "^16.13.0",
-    "styled-components": "^5.0.1",
-    "typicons.font": "2.0.9"
+    "styled-components": "^5.0.1"
   }
 }

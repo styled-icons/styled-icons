@@ -3,8 +3,8 @@
   "compilerOptions": {
     "importHelpers": true,
     "module": "commonjs",
-    "outDir": "./build",
-    "rootDir": "./build",
+    "outDir": "./__build",
+    "rootDir": "./__build",
     "target": "es5",
     "plugins": [{"transform": "typescript-plugin-styled-components"}]
   },

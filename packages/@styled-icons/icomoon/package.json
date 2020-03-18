@@ -14,7 +14,7 @@
     "styled-icons"
   ],
   "scripts": {
-    "build": "build-pack",
+    "build": "build-pack @svg-icons/icomoon",
     "clean": "clean-pack"
   },
   "dependencies": {
@@ -26,9 +26,9 @@
     "styled-components": "*"
   },
   "devDependencies": {
-    "@styled-icons/icomoon-source": "Keyamoon/IcoMoon-Free#d006795ede82361e1bac1ee76f215cf1dc51e4ca",
     "@styled-icons/pack-builder": "^10.0.0",
     "@styled-icons/tsconfig": "^10.0.0",
+    "@svg-icons/icomoon": "0.1.1",
     "react": "^16.13.0",
     "styled-components": "^5.0.1"
   }

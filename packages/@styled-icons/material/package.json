@@ -14,7 +14,7 @@
     "styled-icons"
   ],
   "scripts": {
-    "build": "build-pack",
+    "build": "build-pack @svg-icons/material-filled",
     "clean": "clean-pack"
   },
   "dependencies": {
@@ -28,7 +28,7 @@
   "devDependencies": {
     "@styled-icons/pack-builder": "^10.0.0",
     "@styled-icons/tsconfig": "^10.0.0",
-    "material-design-icons-updated": "4.8.2",
+    "@svg-icons/material-filled": "0.1.1",
     "react": "^16.13.0",
     "styled-components": "^5.0.1"
   }
