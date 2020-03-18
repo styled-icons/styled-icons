@@ -175,9 +175,9 @@ const generate = async () => {
   await fs.remove('tsconfig.json')
 
   console.log('Moving CJS JavaScript files...')
-  const cjsFiles = await fg('build/**/*.js')
+  const cjsFiles = await fg('__build/**/*.js')
   for (const builtFile of cjsFiles) {
-    const destination = path.join(baseDir, builtFile.replace('build/', ''))
+    const destination = path.join(baseDir, builtFile.replace('__build/', ''))
     await fs.move(path.join(baseDir, builtFile), destination, {overwrite: true})
   }
 
@@ -187,13 +187,13 @@ const generate = async () => {
   }
 
   console.log('Copying files to destination...')
-  const builtFiles = await fg('build/**/*')
+  const builtFiles = await fg('__build/**/*')
   for (const builtFile of builtFiles) {
     if (builtFile.match(/\.tsx?$/) && !builtFile.match(/\.d\.ts$/)) {
       continue
     }
 
-    const destination = path.join(baseDir, builtFile.replace('build/', ''))
+    const destination = path.join(baseDir, builtFile.replace('__build/', ''))
     await fs.move(path.join(baseDir, builtFile), destination, {overwrite: true})
   }
 
