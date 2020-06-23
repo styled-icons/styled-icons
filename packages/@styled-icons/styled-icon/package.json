@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@emotion/is-prop-valid": "^0.8.7",
-    "tslib": "^1.11.1"
+    "tslib": "^2.0.0"
   },
   "peerDependencies": {
     "react": "*",
@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@styled-icons/tsconfig": "^10.3.0",
-    "react": "^16.13.0",
-    "styled-components": "^5.0.1"
+    "react": "^16.13.1",
+    "styled-components": "^5.1.1"
   }
 }
