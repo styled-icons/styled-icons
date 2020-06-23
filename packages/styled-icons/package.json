@@ -101,7 +101,7 @@
     "@styled-icons/styled-icon": "^10.3.0",
     "@styled-icons/typicons": "^10.3.0",
     "@styled-icons/zondicons": "^10.3.0",
-    "tslib": "^1.11.1"
+    "tslib": "^2.0.0"
   },
   "peerDependencies": {
     "react": "*",
