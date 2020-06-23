@@ -1,6 +1,6 @@
 {
   "name": "@styled-icons/styled-icon",
-  "version": "10.0.0",
+  "version": "10.3.0",
   "description": "Styled Icons base component",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
   "homepage": "https://github.com/jacobwgillespie/styled-icons",
@@ -29,7 +29,7 @@
     "styled-components": ">=4.1.0 <6"
   },
   "devDependencies": {
-    "@styled-icons/tsconfig": "^10.0.0",
+    "@styled-icons/tsconfig": "^10.3.0",
     "react": "^16.13.0",
     "styled-components": "^5.0.1"
   }

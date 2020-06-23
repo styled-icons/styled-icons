@@ -1,6 +1,6 @@
 {
   "name": "@styled-icons/icomoon",
-  "version": "10.0.0",
+  "version": "10.3.0",
   "description": "Icomoon icons available as Styled Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
   "homepage": "https://github.com/jacobwgillespie/styled-icons",
@@ -18,7 +18,7 @@
     "clean": "clean-pack"
   },
   "dependencies": {
-    "@styled-icons/styled-icon": "^10.0.0",
+    "@styled-icons/styled-icon": "^10.3.0",
     "tslib": "^1.11.1"
   },
   "peerDependencies": {
@@ -26,8 +26,8 @@
     "styled-components": "*"
   },
   "devDependencies": {
-    "@styled-icons/pack-builder": "^10.0.0",
-    "@styled-icons/tsconfig": "^10.0.0",
+    "@styled-icons/pack-builder": "^10.3.0",
+    "@styled-icons/tsconfig": "^10.3.0",
     "@svg-icons/icomoon": "0.2.0",
     "react": "^16.13.0",
     "styled-components": "^5.0.1"
