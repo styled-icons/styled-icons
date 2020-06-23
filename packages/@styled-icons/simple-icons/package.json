@@ -1,7 +1,7 @@
 {
-  "name": "@styled-icons/ionicons-sharp",
+  "name": "@styled-icons/simple-icons",
   "version": "10.3.0",
-  "description": "Ionicons available as Styled Components",
+  "description": "Simple Icons available as Styled Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
   "homepage": "https://github.com/jacobwgillespie/styled-icons",
   "repository": "git://github.com/jacobwgillespie/styled-icons.git",
@@ -14,7 +14,7 @@
     "styled-icons"
   ],
   "scripts": {
-    "build": "build-pack @svg-icons/ionicons-sharp",
+    "build": "build-pack @svg-icons/simple-icons",
     "clean": "clean-pack"
   },
   "dependencies": {
@@ -28,7 +28,7 @@
   "devDependencies": {
     "@styled-icons/pack-builder": "^10.3.0",
     "@styled-icons/tsconfig": "^10.3.0",
-    "@svg-icons/ionicons-sharp": "0.4.0",
+    "@svg-icons/simple-icons": "0.4.0",
     "react": "^16.13.1",
     "styled-components": "^5.1.1"
   }

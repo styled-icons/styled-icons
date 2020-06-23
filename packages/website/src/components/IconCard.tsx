@@ -32,6 +32,7 @@ const importMap: any = {
   octicons: import('styled-icons/octicons'),
   'remix-fill': import('styled-icons/remix-fill'),
   'remix-line': import('styled-icons/remix-line'),
+  'simple-icons': import('styled-icons/simple-icons'),
   typicons: import('styled-icons/typicons'),
   zondicons: import('styled-icons/zondicons'),
 }
