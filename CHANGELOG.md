@@ -1,5 +1,14 @@
 # Changelog
 
+## v10.4.0 - 2020-06-23
+
+- Add [Simple Icons](https://github.com/simple-icons/simple-icons), a large collection of icons for popular brands
+- Upgrade Feather Icons to v4.28.0
+- Upgrade Font Awesome icons to v5.13.1
+- Upgrade Heroicons to v0.3.6
+- Upgrade Octicons to v10.0.0
+- Upgrade Remixicon icons to v2.5.0
+
 ## v10.3.0 - 2020-06-23
 
 - Add Ionicons variants (`ionicons-sharp`, `ionicons-solid`, `ionicons-outline`) ([@Jensderond](https://github.com/jensderond))

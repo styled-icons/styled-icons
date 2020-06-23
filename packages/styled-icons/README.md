@@ -24,6 +24,7 @@
 - [Material Design](https://material.io/icons/)
 - [Octicons](https://octicons.github.com/)
 - [Open Iconic](https://www.npmjs.com/package/open-iconic)
+- [Simple Icons](https://github.com/simple-icons/simple-icons)
 - [Typicons](https://www.s-ings.com/typicons/)
 - [Zondicons](https://www.zondicons.com/)
 
@@ -88,6 +89,7 @@ yarn add @styled-icons/material-twotone
 yarn add @styled-icons/material-sharp
 yarn add @styled-icons/octicons
 yarn add @styled-icons/open-iconic
+yarn add @styled-icons/simple-icons
 yarn add @styled-icons/typicons
 yarn add @styled-icons/zondicons
 ```
@@ -130,6 +132,7 @@ import * as materialTwoTone from '@styled-icons/material-twotone'
 import * as materialSharp from '@styled-icons/material-sharp'
 import * as octicons from '@styled-icons/octicons'
 import * as openIconic from '@styled-icons/open-iconic'
+import * as simpleIcons from '@styled-icons/simple-icons'
 import * as typicons from '@styled-icons/typicons'
 import * as zondicons from '@styled-icons/zondicons'
 ```
@@ -207,7 +210,7 @@ import {Lock} from '@styled-icons/material'
 export const RedLock = styled(Lock)`
   color: red;
 
-  font-weight: ${props => (props.important ? 'bold' : 'normal')};
+  font-weight: ${(props) => (props.important ? 'bold' : 'normal')};
 `
 ```
 
@@ -329,6 +332,8 @@ The Ionicons are licensed under the [MIT License](https://github.com/ionic-team/
 The Material Design icons are licensed under the [Apache License Version 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE).
 
 The Octicons are licensed under the [MIT License](https://github.com/primer/octicons/blob/master/LICENSE).
+
+The Typicons are licensed under the [CC0 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/).
 
 The Typicons are licensed under the [CC BY SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/).
 

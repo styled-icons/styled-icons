@@ -56,7 +56,14 @@ const IconExporer: React.SFC = () => {
 
   return (
     <div>
-      <input className="search-box" type="text" onChange={updateSearch} value={search} placeholder="search icons" aria-label="search icons" />
+      <input
+        className="search-box"
+        type="text"
+        onChange={updateSearch}
+        value={search}
+        placeholder="search icons"
+        aria-label="search icons"
+      />
 
       <WindowScroller>
         {({height, isScrolling, scrollTop}) => (

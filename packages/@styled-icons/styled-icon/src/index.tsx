@@ -56,6 +56,6 @@ const StyledIconBaseBase = React.forwardRef<SVGSVGElement, StyledIconProps & Sty
 
 export const StyledIconBase = styled(StyledIconBaseBase)`
   display: inline-block;
-  vertical-align: ${props => props.iconVerticalAlign};
+  vertical-align: ${(props) => props.iconVerticalAlign};
   overflow: hidden;
 `

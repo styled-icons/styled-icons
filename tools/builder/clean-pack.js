@@ -21,7 +21,7 @@ async function run() {
   console.log('Done')
 }
 
-run().catch(err => {
+run().catch((err) => {
   console.log(err.stack)
   process.exit(1)
 })

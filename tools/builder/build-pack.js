@@ -23,8 +23,15 @@ const SVG_ATTRS = [
   'stroke-opacity',
 ]
 
-const getComponentName = originalName => {
-  originalName = originalName.replace(/^\d+/, digits => `${toWords(parseInt(digits, 10))}_`).replace(/_$/, '')
+const getComponentName = (originalName) => {
+  originalName = originalName
+    .replace(/^\d+/, (digits) => {
+      const words = toWords(parseInt(digits, 10)).replace(/[^-a-zA-Z\s]/g, '')
+      return `${words}_`
+    })
+    .replace(/_-/g, '-')
+    .replace(/_$/, '')
+
   return originalName.length === 1 ? originalName.toUpperCase() : fastCase.pascalize(originalName)
 }
 
@@ -39,7 +46,7 @@ const getTemplate = () =>
 const baseDir = process.cwd()
 const buildDir = path.join(baseDir, '__build')
 
-const pkgJSON = name => `{
+const pkgJSON = (name) => `{
   "private": true,
   "sideEffects": false,
   "main": "./${name}",
@@ -47,7 +54,7 @@ const pkgJSON = name => `{
 }
 `
 
-const pkgJSONBuilt = name => `{
+const pkgJSONBuilt = (name) => `{
   "private": true,
   "sideEffects": false,
   "main": "./${name}.js",
@@ -135,7 +142,7 @@ const generate = async () => {
           seenNames.add(name)
           return seen ? null : `export {${name}} from './${name}'`
         })
-        .filter(lines => lines)
+        .filter((lines) => lines)
         .join('\n'),
     )
   }
@@ -215,13 +222,13 @@ const generate = async () => {
           pack,
         }
       })
-      .filter(icon => icon),
+      .filter((icon) => icon),
   )
 
   console.log(`${totalIcons} icons successfully built!`)
 }
 
-generate().catch(err => {
+generate().catch((err) => {
   console.log(err.stack)
   process.exit(1)
 })

@@ -24,7 +24,7 @@ const replaceChildren = () => ({
   },
 })
 
-const stripAttribute = attribute => () => ({
+const stripAttribute = (attribute) => () => ({
   visitor: {
     JSXAttribute: {
       enter(path) {
@@ -67,9 +67,9 @@ const processSVG = () => ({
 
           state.attrs = attributes.reduce((attrs, attr) => ({...attrs, [attr.name]: attr.value}), {})
 
-          const heightAttribute = attributes.find(attr => attr.name === 'height')
-          const widthAttribute = attributes.find(attr => attr.name === 'width')
-          const viewBoxAttribute = attributes.find(attr => attr.name === 'viewBox')
+          const heightAttribute = attributes.find((attr) => attr.name === 'height')
+          const widthAttribute = attributes.find((attr) => attr.name === 'width')
+          const viewBoxAttribute = attributes.find((attr) => attr.name === 'viewBox')
 
           state.height = heightAttribute ? heightAttribute.value : null
           state.width = widthAttribute ? widthAttribute.value : null
@@ -87,7 +87,7 @@ module.exports = (code, state) => {
   transform(code, {plugins: [extractChildren, processSVG], state})
 
   // Second pass over the extracted children
-  return state.children.map(replacement =>
+  return state.children.map((replacement) =>
     transform('<svg />', {
       plugins: [replaceChildren, jsx, stripAttribute('xmlns'), stripAttribute('path'), removeComments, removeStyle],
       state: {replacement},
