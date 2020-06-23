@@ -14,7 +14,7 @@
     "styled-icons"
   ],
   "scripts": {
-    "build": "build-pack",
+    "build": "build-pack @svg-icons/evaicons-solid",
     "clean": "clean-pack"
   },
   "dependencies": {
@@ -28,7 +28,7 @@
   "devDependencies": {
     "@styled-icons/pack-builder": "^10.0.0",
     "@styled-icons/tsconfig": "^10.0.0",
-    "eva-icons": "1.1.3",
+    "@svg-icons/evaicons-solid": "0.2.0",
     "react": "^16.13.0",
     "styled-components": "^5.0.1"
   }

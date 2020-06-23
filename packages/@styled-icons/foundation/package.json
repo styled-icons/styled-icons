@@ -14,7 +14,7 @@
     "styled-icons"
   ],
   "scripts": {
-    "build": "build-pack",
+    "build": "build-pack @svg-icons/foundation",
     "clean": "clean-pack"
   },
   "dependencies": {
@@ -26,9 +26,9 @@
     "styled-components": "*"
   },
   "devDependencies": {
-    "@icon/foundation-icons": "^3.0.0-alpha.3",
     "@styled-icons/pack-builder": "^10.0.0",
     "@styled-icons/tsconfig": "^10.0.0",
+    "@svg-icons/foundation": "0.2.0",
     "react": "^16.13.0",
     "styled-components": "^5.0.1"
   }

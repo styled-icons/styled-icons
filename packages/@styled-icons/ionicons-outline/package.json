@@ -1,7 +1,7 @@
 {
   "name": "@styled-icons/ionicons-outline",
   "version": "10.3.0",
-  "description": "Ion Icons available as Styled Components",
+  "description": "Ionicons available as Styled Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
   "homepage": "https://github.com/jacobwgillespie/styled-icons",
   "repository": "git://github.com/jacobwgillespie/styled-icons.git",
@@ -14,7 +14,7 @@
     "styled-icons"
   ],
   "scripts": {
-    "build": "build-pack",
+    "build": "build-pack @svg-icons/ionicons-outline",
     "clean": "clean-pack"
   },
   "dependencies": {
@@ -28,7 +28,7 @@
   "devDependencies": {
     "@styled-icons/pack-builder": "^10.0.0",
     "@styled-icons/tsconfig": "^10.0.0",
-    "ionicons": "5.0.1",
+    "@svg-icons/ionicons-outline": "0.2.0",
     "react": "^16.13.0",
     "styled-components": "^5.0.1"
   }

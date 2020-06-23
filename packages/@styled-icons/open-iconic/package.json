@@ -14,7 +14,7 @@
     "styled-icons"
   ],
   "scripts": {
-    "build": "build-pack",
+    "build": "build-pack @svg-icons/open-iconic",
     "clean": "clean-pack"
   },
   "dependencies": {
@@ -28,7 +28,7 @@
   "devDependencies": {
     "@styled-icons/pack-builder": "^10.0.0",
     "@styled-icons/tsconfig": "^10.0.0",
-    "open-iconic": "^1.1.1",
+    "@svg-icons/open-iconic": "0.2.0",
     "react": "^16.13.0",
     "styled-components": "^5.0.1"
   }
