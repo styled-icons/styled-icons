@@ -11,7 +11,7 @@
     "execa": "^4.0.0",
     "fast-case": "^1.2.1",
     "fast-glob": "^3.1.0",
-    "fs-extra": "^8.1.0",
+    "fs-extra": "^9.0.1",
     "h2x-core": "^1.1.1",
     "h2x-plugin-jsx": "^1.2.0",
     "number-to-words": "^1.2.3",
