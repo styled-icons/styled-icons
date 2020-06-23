@@ -1,6 +1,6 @@
 {
   "name": "@styled-icons/ionicons-sharp",
-  "version": "10.3.0",
+  "version": "10.4.0",
   "description": "Ionicons available as Styled Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
   "homepage": "https://github.com/jacobwgillespie/styled-icons",
@@ -18,7 +18,7 @@
     "clean": "clean-pack"
   },
   "dependencies": {
-    "@styled-icons/styled-icon": "^10.3.0",
+    "@styled-icons/styled-icon": "^10.4.0",
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
@@ -26,7 +26,7 @@
     "styled-components": "*"
   },
   "devDependencies": {
-    "@styled-icons/pack-builder": "^10.3.0",
+    "@styled-icons/pack-builder": "^10.4.0",
     "@styled-icons/tsconfig": "^10.3.0",
     "@svg-icons/ionicons-sharp": "0.4.0",
     "react": "^16.13.1",
