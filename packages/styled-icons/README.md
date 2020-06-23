@@ -210,7 +210,7 @@ import {Lock} from '@styled-icons/material'
 export const RedLock = styled(Lock)`
   color: red;
 
-  font-weight: ${props => (props.important ? 'bold' : 'normal')};
+  font-weight: ${(props) => (props.important ? 'bold' : 'normal')};
 `
 ```
 

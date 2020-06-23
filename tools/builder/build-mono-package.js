@@ -28,7 +28,7 @@ function pkgJSONBuilt(name) {
 
 async function run() {
   const sources = await fg('packages/@styled-icons/*/manifest.json', {cwd: baseDir})
-  const packs = sources.map(source => require(path.join(baseDir, source)))
+  const packs = sources.map((source) => require(path.join(baseDir, source)))
 
   // Prepare for build
   console.log('Generating source files')
@@ -48,9 +48,9 @@ export {StyledIcon, StyledIconProps}`,
   await fs.writeFile(path.join('types', 'package.json'), pkgJSON('types'))
   await fs.writeFile(
     'index.ts',
-    `${packs.map(pack => `import * as ${fastCase.camelize(pack[0].pack)} from './${pack[0].pack}'`).join('\n')}
+    `${packs.map((pack) => `import * as ${fastCase.camelize(pack[0].pack)} from './${pack[0].pack}'`).join('\n')}
 
-export {${packs.map(pack => fastCase.camelize(pack[0].pack)).join(', ')}}
+export {${packs.map((pack) => fastCase.camelize(pack[0].pack)).join(', ')}}
 `,
   )
 
@@ -98,7 +98,7 @@ export {${packs.map(pack => fastCase.camelize(pack[0].pack)).join(', ')}}
   await fs.writeJSON('manifest.json', icons)
 }
 
-run().catch(err => {
+run().catch((err) => {
   console.log(err.stack)
   process.exit(1)
 })

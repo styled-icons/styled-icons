@@ -26,8 +26,7 @@ const SVG_ATTRS = [
 const getComponentName = (originalName) => {
   originalName = originalName
     .replace(/^\d+/, (digits) => {
-      const words = toWords(parseInt(digits, 10))
-        .replace(/[^-a-zA-Z\s]/g, '')
+      const words = toWords(parseInt(digits, 10)).replace(/[^-a-zA-Z\s]/g, '')
       return `${words}_`
     })
     .replace(/_-/g, '-')
