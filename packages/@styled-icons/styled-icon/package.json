@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@emotion/is-prop-valid": "^0.8.7",
-    "tslib": "^1.11.1"
+    "tslib": "^2.0.0"
   },
   "peerDependencies": {
     "react": "*",
