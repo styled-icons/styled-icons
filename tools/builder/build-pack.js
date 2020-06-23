@@ -60,7 +60,7 @@ const generate = async () => {
   console.log('Reading icon packs...')
 
   const packModuleName = process.argv[2]
-  const icons = require(path.join(packModuleName, 'metadata.json'))
+  const icons = require(path.join(packModuleName, '__manifest.json'))
 
   if (icons.length === 0) {
     console.log('Error reading icons from pack')
@@ -78,7 +78,7 @@ const generate = async () => {
 
     let result = fs
       .readFileSync(
-        path.join(path.dirname(require.resolve(path.join(packModuleName, 'metadata.json'))), `${icon.name}.svg`),
+        path.join(path.dirname(require.resolve(path.join(packModuleName, '__manifest.json'))), `${icon.name}.svg`),
       )
       .toString('utf8')
     result = await h2x(result, state).join('\n      ')

@@ -28,7 +28,7 @@
   "devDependencies": {
     "@styled-icons/pack-builder": "^10.0.0",
     "@styled-icons/tsconfig": "^10.0.0",
-    "@svg-icons/entypo-social": "0.1.1",
+    "@svg-icons/entypo-social": "0.2.0",
     "react": "^16.13.0",
     "styled-components": "^5.0.1"
   }
