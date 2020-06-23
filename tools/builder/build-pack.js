@@ -24,7 +24,7 @@ const SVG_ATTRS = [
 ]
 
 const getComponentName = originalName => {
-  originalName = originalName.replace(/^\d+/, digits => `${toWords(parseInt(digits, 10))}_`).replace(/_$/, '')
+  originalName = originalName.replace(/^\d+/, digits => `${toWords(parseInt(digits, 10)).replace(/[^\w\s]/, '')}_`).replace(/_$/, '')
   return originalName.length === 1 ? originalName.toUpperCase() : fastCase.pascalize(originalName)
 }
 
