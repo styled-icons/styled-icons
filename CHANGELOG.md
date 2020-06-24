@@ -1,5 +1,9 @@
 # Changelog
 
+## v10.4.2 - 2020-06-23
+
+- Fix issue where `@styled-icons/simple-icons` was missing from the `styled-icons` dependencies
+
 ## v10.4.1 - 2020-06-23
 
 - Fix issue where some new icon packs were mistakenly omitted from the `styled-icons` mono-package
