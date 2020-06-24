@@ -1,5 +1,9 @@
 # Changelog
 
+## v10.4.1 - 2020-06-23
+
+- Fix issue where some new icon packs were mistakenly omitted from the `styled-icons` mono-package
+
 ## v10.4.0 - 2020-06-23
 
 - Add [Simple Icons](https://github.com/simple-icons/simple-icons), a large collection of icons for popular brands
