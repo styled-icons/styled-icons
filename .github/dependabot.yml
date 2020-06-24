@@ -1,15 +1,7 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: daily
-    time: "07:00"
-  open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: entypo
-    versions:
-    - ">= 2.1.a, < 2.2"
-  - dependency-name: ttypescript
-    versions:
-    - ">= 2.5.2.a, < 2.5.3"
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 100
