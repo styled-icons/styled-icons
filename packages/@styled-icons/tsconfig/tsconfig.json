@@ -7,9 +7,10 @@
     "lib": ["dom", "es6"],
     "module": "commonjs",
     "moduleResolution": "node",
+    "plugins": [{"transform": "typescript-plugin-styled-components"}],
     "skipLibCheck": true,
     "strict": true,
-    "target": "es2015",
+    "target": "es5",
     "types": ["node"]
   }
 }
