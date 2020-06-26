@@ -1,6 +1,6 @@
 {
   "name": "@styled-icons/remix-line",
-  "version": "10.4.0",
+  "version": "10.5.0",
   "description": "Remix Line icons available as Styled Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
   "homepage": "https://github.com/jacobwgillespie/styled-icons",
@@ -18,7 +18,7 @@
     "clean": "clean-pack"
   },
   "dependencies": {
-    "@styled-icons/styled-icon": "^10.4.0",
+    "@styled-icons/styled-icon": "^10.5.0",
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@styled-icons/pack-builder": "^10.4.0",
-    "@styled-icons/tsconfig": "^10.3.0",
+    "@styled-icons/tsconfig": "^10.5.0",
     "@svg-icons/remix-line": "1.0.0",
     "react": "^16.13.1",
     "styled-components": "^5.1.1"
