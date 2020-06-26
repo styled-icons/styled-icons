@@ -14,8 +14,7 @@
   },
   "scripts": {
     "build": "lerna run build --stream",
-    "build:ci": "lerna run build",
-    "build:codesandbox": "./tools/build-codesandbox.sh",
+    "build:icons": "lerna run build --stream --ignore @styled-icons/website",
     "bump": "lerna version",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna run clean --stream",
