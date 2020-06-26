@@ -1,5 +1,10 @@
 # Changelog
 
+## v10.5.0 - 2020-06-26
+
+- Upgrade Ionicons to v5.1.2
+- Fix issue where the `@styled-icons/styled-icon` accidentally built as ES6 instead of ES5, breaking IE11
+
 ## v10.4.2 - 2020-06-23
 
 - Fix issue where `@styled-icons/simple-icons` was missing from the `styled-icons` dependencies
