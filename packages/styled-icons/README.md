@@ -8,7 +8,7 @@
 
 [![View Icons](https://gui.apex.sh/component?name=ShadowButton&config=%7B%22text%22%3A%22ICON%20EXPLORER%22%2C%22color%22%3A%22db7093%22%7D)](https://styled-icons.js.org)
 
-`styled-icons` provides over 13,500 icons from the following icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules:
+`styled-icons` provides almost 17,000 icons from the following icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules:
 
 - [Boxicons](https://boxicons.com/)
 - [Crypto Icons](http://cryptoicons.co)
