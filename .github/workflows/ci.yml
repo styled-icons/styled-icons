@@ -19,6 +19,8 @@ jobs:
             ${{ runner.os }}-yarn-v1-
       - run: yarn install --frozen-lockfile
       - run: yarn build:icons
+      - run: yarn chromatic --exit-once-uploaded --exit-zero-on-changes
+        working-directory: storybook/
       - uses: changesets/action@master
         if: github.ref == 'refs/heads/main' && github.repository == 'styled-icons/styled-icons'
         with:

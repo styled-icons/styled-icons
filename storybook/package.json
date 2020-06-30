@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "@styled-icons/storybook",
+  "version": "10.5.0",
+  "scripts": {
+    "build-storybook": "build-storybook",
+    "clean": "rm -rf stories",
+    "generate": "node generate-stories.js",
+    "storybook": "start-storybook -p 6006"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1",
+    "styled-icons": "^10.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0",
+    "chromatic": "^5.0.0",
+    "fs-extra": "^9.0.1"
+  }
+}
