@@ -1,6 +1,6 @@
 <h1 align="center">💅 styled-icons</h1>
 
-<p align="center"><a href="https://github.com/jacobwgillespie/styled-icons/actions"><img src="https://github.com/jacobwgillespie/styled-icons/workflows/CI/badge.svg" alt="Build Status" /></a>
+<p align="center"><a href="https://github.com/styled-icons/styled-icons/actions"><img src="https://github.com/styled-icons/styled-icons/workflows/CI/badge.svg" alt="Build Status" /></a>
 <a href="https://www.npmjs.com/package/styled-icons"><img src="https://badgen.net/npm/dm/styled-icons" alt="npm" /></a>
 <a href="https://www.npmjs.com/package/styled-icons"><img src="https://badgen.net/npm/v/styled-icons" alt="npm" /></a>
 <a href="https://www.styled-components.com/"><img src="https://badgen.net/badge/built%20with/styled%20components/db7093" alt="Built with Styled Components" /></a>
