@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
+    "declaration": true,
     "esModuleInterop": true,
     "importHelpers": true,
     "jsx": "react",
@@ -12,5 +13,6 @@
     "strict": true,
     "target": "es5",
     "types": ["node"]
-  }
+  },
+  "include": ["packages"]
 }

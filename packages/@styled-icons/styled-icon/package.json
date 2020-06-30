@@ -13,12 +13,8 @@
   "keywords": [
     "styled-icons"
   ],
-  "files": [
-    "dist"
-  ],
   "scripts": {
-    "build": "tsc --project tsconfig.esm.json && mv dist/index.js dist/index.esm.js && tsc --project tsconfig.json",
-    "clean": "rm -rf dist"
+    "clean": "ALLOWED_FILES=index.tsx clean-pack"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "^0.8.7",
@@ -29,7 +25,7 @@
     "styled-components": ">=4.1.0 <6"
   },
   "devDependencies": {
-    "@styled-icons/tsconfig": "^10.5.0",
+    "@styled-icons/pack-builder": "^10.4.0",
     "react": "^16.13.1",
     "styled-components": "^5.1.1"
   }

@@ -27,7 +27,6 @@
   },
   "devDependencies": {
     "@styled-icons/pack-builder": "^10.4.0",
-    "@styled-icons/tsconfig": "^10.5.0",
     "@svg-icons/heroicons-solid": "1.0.0",
     "react": "^16.13.1",
     "styled-components": "^5.1.1"

@@ -14,14 +14,12 @@
     "trailingComma": "all"
   },
   "scripts": {
-    "build": "lerna run build --stream",
-    "build:icons": "lerna run build --stream --ignore @styled-icons/website",
-    "bump": "lerna version",
-    "bootstrap": "lerna bootstrap",
+    "build": "yarn build:icons && yarn build:website",
+    "build:icons": "./build.sh",
+    "build:website": "lerna run build --scope @styled-icons/website",
     "clean": "lerna run clean --stream",
     "format": "prettier --write './**/*.{ts,tsx,js,md,json}'",
-    "format:check": "prettier --list-different './**/*.{ts,tsx,js,md,json}'",
-    "push": "lerna publish"
+    "format:check": "prettier --list-different './**/*.{ts,tsx,js,md,json}'"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.2.6",
