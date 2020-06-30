@@ -64,20 +64,16 @@ const pkgJSONBuilt = (name) => `{
 `
 
 const generate = async () => {
-  console.log('Reading icon packs...')
-
   const packModuleName = process.argv[2]
   const icons = require(path.join(packModuleName, '__manifest.json'))
 
   if (icons.length === 0) {
-    console.log('Error reading icons from pack')
+    console.error('Error reading icons from pack')
     process.exit(1)
   }
 
-  console.log('Reading template...')
   const template = await getTemplate()
 
-  console.log('Building icons...')
   const totalIcons = icons.length
 
   for (const icon of icons) {
@@ -128,8 +124,6 @@ const generate = async () => {
     await fs.outputFile(path.join(destinationPath, 'package.built.json'), pkgJSONBuilt(icon.name))
   }
 
-  console.log('Writing index files...')
-
   const writeIndexFiles = async () => {
     const seenNames = new Set()
 
@@ -150,7 +144,6 @@ const generate = async () => {
 
   await writeIndexFiles()
 
-  console.log('Writing icon manifest for website...')
   const seenImports = new Set()
   await fs.writeJSON(
     path.join(baseDir, 'manifest.json'),
@@ -175,6 +168,6 @@ const generate = async () => {
 }
 
 generate().catch((err) => {
-  console.log(err.stack)
+  console.error(err.stack)
   process.exit(1)
 })

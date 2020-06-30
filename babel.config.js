@@ -1,0 +1,30 @@
+module.exports = {
+  plugins: [['babel-plugin-styled-components', {fileName: false, pure: true}]],
+  env: {
+    legacy: {
+      presets: [
+        '@babel/preset-typescript',
+        [
+          '@babel/preset-env',
+          {
+            bugfixes: true,
+            targets: {ie: '11'},
+          },
+        ],
+      ],
+    },
+    modern: {
+      presets: [
+        '@babel/preset-typescript',
+        [
+          '@babel/preset-modules',
+          {
+            bugfixes: true,
+            modules: false,
+            targets: {esmodules: true},
+          },
+        ],
+      ],
+    },
+  },
+}

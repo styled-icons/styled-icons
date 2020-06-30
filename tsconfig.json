@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "emitDeclarationOnly": true,
     "allowSyntheticDefaultImports": true,
     "declaration": true,
     "esModuleInterop": true,
@@ -8,7 +9,6 @@
     "lib": ["dom", "es6"],
     "module": "commonjs",
     "moduleResolution": "node",
-    "plugins": [{"transform": "typescript-plugin-styled-components"}],
     "skipLibCheck": true,
     "strict": true,
     "target": "es5",

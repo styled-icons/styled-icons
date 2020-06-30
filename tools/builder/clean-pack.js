@@ -17,7 +17,7 @@ async function run() {
       continue
     }
 
-    console.log(`Removing ${file}`)
+    // console.log(`Removing ${file}`)
     await fs.remove(file)
   }
 

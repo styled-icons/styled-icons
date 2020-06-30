@@ -16,8 +16,6 @@
     "h2x-plugin-jsx": "^1.2.0",
     "number-to-words": "^1.2.3",
     "ts-node": "^8.10.2",
-    "ttypescript": "^1.5.10",
-    "typescript": "^3.9.5",
-    "typescript-plugin-styled-components": "^1.4.4"
+    "typescript": "^3.9.5"
   }
 }

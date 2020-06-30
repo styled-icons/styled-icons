@@ -2,17 +2,16 @@
 set -euo pipefail
 
 echo "Generating icon sources"
-yarn lerna run build --stream --ignore @styled-icons/website
+yarn wsrun -t -x @styled-icons/website -m -c build
+
+echo "Generating TypeScript declaration files"
+yarn tsc --emitDeclarationOnly
 
 echo "Building ESM JavaScript"
-yarn ttsc -b tsconfig.esm.json
-
-echo "Renaming ESM JavaScript"
-find packages -name '*.js' -not -name '*.esm.js' -not -path '*/node_modules/*' \
-  -exec bash -c 'mv "$1" "${1%.js}".esm.js' - '{}' \;
+BABEL_ENV=modern yarn babel packages --extensions '.ts,.tsx' --out-dir packages --out-file-extension .esm.js
 
 echo "Building CJS JavaScript"
-yarn ttsc -b tsconfig.json
+BABEL_ENV=legacy yarn babel packages --extensions '.ts,.tsx' --out-dir packages
 
 echo "Creating package.json files"
 find packages -name 'package.built.json' -not -path '*/node_modules/*' \

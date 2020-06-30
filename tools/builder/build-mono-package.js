@@ -31,7 +31,6 @@ async function run() {
   const packs = sources.map((source) => require(path.join(baseDir, source)))
 
   // Prepare for build
-  console.log('Generating source files')
   for (const pack of packs) {
     const packName = pack[0].pack
     await fs.mkdirp(packName)
@@ -57,7 +56,6 @@ export {${packs.map((pack) => fastCase.camelize(pack[0].pack)).join(', ')}}
   )
 
   // Write icon manifest
-  console.log('Writing icon manifest')
   const icons = packs.reduce((arr, pack) => [...arr, ...pack], [])
   for (const icon of icons) {
     icon.importPath = icon.importPath.replace('@styled-icons', 'styled-icons')
@@ -66,6 +64,6 @@ export {${packs.map((pack) => fastCase.camelize(pack[0].pack)).join(', ')}}
 }
 
 run().catch((err) => {
-  console.log(err.stack)
+  console.error(err.stack)
   process.exit(1)
 })
