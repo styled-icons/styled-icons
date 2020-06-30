@@ -30,6 +30,7 @@
     "clean": "clean-pack"
   },
   "dependencies": {
+    "@babel/runtime": "^7.10.3",
     "@styled-icons/boxicons-logos": "^10.5.0",
     "@styled-icons/boxicons-regular": "^10.5.0",
     "@styled-icons/boxicons-solid": "^10.5.0",
@@ -62,8 +63,7 @@
     "@styled-icons/simple-icons": "^10.5.0",
     "@styled-icons/styled-icon": "^10.5.0",
     "@styled-icons/typicons": "^10.5.0",
-    "@styled-icons/zondicons": "^10.5.0",
-    "tslib": "^2.0.0"
+    "@styled-icons/zondicons": "^10.5.0"
   },
   "peerDependencies": {
     "react": "*",

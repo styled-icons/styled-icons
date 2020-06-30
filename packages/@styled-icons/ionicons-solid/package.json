@@ -18,8 +18,8 @@
     "clean": "clean-pack"
   },
   "dependencies": {
-    "@styled-icons/styled-icon": "^10.5.0",
-    "tslib": "^2.0.0"
+    "@babel/runtime": "^7.10.3",
+    "@styled-icons/styled-icon": "^10.5.0"
   },
   "peerDependencies": {
     "react": "*",

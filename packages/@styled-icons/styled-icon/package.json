@@ -17,8 +17,8 @@
     "clean": "ALLOWED_FILES=index.tsx clean-pack"
   },
   "dependencies": {
-    "@emotion/is-prop-valid": "^0.8.7",
-    "tslib": "^2.0.0"
+    "@babel/runtime": "^7.10.3",
+    "@emotion/is-prop-valid": "^0.8.7"
   },
   "peerDependencies": {
     "react": "*",

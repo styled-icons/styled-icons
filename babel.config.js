@@ -1,5 +1,8 @@
 module.exports = {
-  plugins: [['babel-plugin-styled-components', {fileName: false, pure: true}]],
+  plugins: [
+    '@babel/plugin-transform-runtime',
+    ['babel-plugin-styled-components', {fileName: false, pure: true}]
+  ],
   env: {
     legacy: {
       presets: [
