@@ -20,8 +20,6 @@ async function run() {
     // console.log(`Removing ${file}`)
     await fs.remove(file)
   }
-
-  console.log('Done')
 }
 
 run().catch((err) => {
