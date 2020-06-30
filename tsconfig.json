@@ -4,6 +4,7 @@
     "allowSyntheticDefaultImports": true,
     "declaration": true,
     "esModuleInterop": true,
+    "isolatedModules": true,
     "jsx": "react",
     "lib": ["dom", "es6"],
     "module": "commonjs",

@@ -43,7 +43,7 @@ async function run() {
   await fs.writeFile(
     path.join('types', 'types.ts'),
     `import {StyledIcon, StyledIconProps} from '@styled-icons/styled-icon'
-export {StyledIcon, StyledIconProps}`,
+export type {StyledIcon, StyledIconProps}`,
   )
   await fs.writeFile(path.join('types', 'package.json'), pkgJSON('types'))
   await fs.writeFile(path.join('types', 'package.built.json'), pkgJSONBuilt('types'))
