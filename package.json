@@ -3,7 +3,8 @@
   "workspaces": [
     "packages/*",
     "packages/@styled-icons/*",
-    "tools/*"
+    "tools/*",
+    "website"
   ],
   "prettier": {
     "bracketSpacing": false,
