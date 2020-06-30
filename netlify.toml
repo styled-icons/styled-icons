@@ -1,0 +1,9 @@
+[build]
+base = "/"
+publish = "public/"
+command = "yarn build"
+
+[[plugins]]
+package = "netlify-plugin-cache-nextjs"
+[plugins.inputs]
+build_dir_path = "website"
