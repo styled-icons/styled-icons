@@ -22,7 +22,7 @@ import * as icons from 'styled-icons/${pack}'
 storiesOf('${pack}')
   .add('icons', () => (
     <>
-${packIcons.map(icon => `      <div><icons.${icon} size="32" color="red" /></div>`).join('\n')}
+${packIcons.map((icon) => `      <div><icons.${icon} size="32" color="red" /></div>`).join('\n')}
     </>
   ))
 
@@ -31,7 +31,7 @@ ${packIcons.map(icon => `      <div><icons.${icon} size="32" color="red" /></div
   }
 }
 
-run().catch(error => {
+run().catch((error) => {
   console.error(error)
   process.exit(1)
 })

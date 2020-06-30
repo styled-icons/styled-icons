@@ -1,5 +1,6 @@
 .next
 build
 dist
-public
 node_modules
+public
+storybook-static
