@@ -2,6 +2,14 @@
   "private": true,
   "name": "@styled-icons/website",
   "version": "10.5.0",
+  "license": "MIT",
+  "funding": {
+    "type": "GitHub",
+    "url": "https://github.com/sponsors/jacobwgillespie"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "next build && next export -o build && cp -r public/* build/ && mv build ../public",
     "clean": "rm -rf ./build ../public",

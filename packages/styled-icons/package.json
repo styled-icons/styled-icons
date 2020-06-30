@@ -1,19 +1,11 @@
 {
   "name": "styled-icons",
   "version": "10.5.0",
+  "license": "MIT",
   "description": "Icons from packs like Font Awesome, Material, Octicons, Feather, Icomoon, and Boxicons available as Styled Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
   "homepage": "https://github.com/jacobwgillespie/styled-icons",
   "repository": "git://github.com/jacobwgillespie/styled-icons.git",
-  "license": "MIT",
-  "funding": {
-    "type": "github",
-    "url": "https://github.com/sponsors/jacobwgillespie"
-  },
-  "main": "./index.js",
-  "module": "./index.esm.js",
-  "types": "./index.d.ts",
-  "sideEffects": false,
   "keywords": [
     "styled-components",
     "icons",
@@ -25,9 +17,20 @@
     "boxicons",
     "svg"
   ],
+  "funding": {
+    "type": "GitHub",
+    "url": "https://github.com/sponsors/jacobwgillespie"
+  },
+  "main": "./index.js",
+  "module": "./index.esm.js",
+  "types": "./index.d.ts",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "generate": "generate-icon-mono-package",
-    "clean": "clean-package"
+    "clean": "clean-package",
+    "generate": "generate-icon-mono-package"
   },
   "dependencies": {
     "@babel/runtime": "^7.10.3",

@@ -2,10 +2,18 @@
   "private": true,
   "name": "@styled-icons/pack-builder",
   "version": "10.4.0",
+  "license": "MIT",
+  "funding": {
+    "type": "GitHub",
+    "url": "https://github.com/sponsors/jacobwgillespie"
+  },
   "bin": {
     "generate-icon-mono-package": "./generate-icon-mono-package.js",
     "generate-icon-package": "./generate-icon-package.js",
     "clean-package": "./clean-package.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "execa": "^4.0.2",

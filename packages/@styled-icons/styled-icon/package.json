@@ -1,18 +1,25 @@
 {
   "name": "@styled-icons/styled-icon",
   "version": "10.5.0",
+  "license": "MIT",
   "description": "Styled Icons base component",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
   "homepage": "https://github.com/jacobwgillespie/styled-icons",
   "repository": "git://github.com/jacobwgillespie/styled-icons.git",
-  "license": "MIT",
+  "keywords": [
+    "styled-icons"
+  ],
+  "funding": {
+    "type": "GitHub",
+    "url": "https://github.com/sponsors/jacobwgillespie"
+  },
   "main": "./dist/index.js",
   "module": "./dist/index.esm.js",
   "types": "./dist/index.d.ts",
   "sideEffects": false,
-  "keywords": [
-    "styled-icons"
-  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "clean": "ALLOWED_FILES=index.tsx clean-package"
   },
