@@ -2,9 +2,17 @@
   "private": true,
   "name": "@styled-icons/website",
   "version": "10.5.0",
+  "license": "MIT",
+  "funding": {
+    "type": "GitHub",
+    "url": "https://github.com/sponsors/jacobwgillespie"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "build": "next build && next export -o build && cp -r public/* build/ && mv build ../../public",
-    "clean": "rm -rf ./build ../../public",
+    "build": "next build && next export -o build && cp -r public/* build/ && mv build ../public",
+    "clean": "rm -rf ./build ../public",
     "start": "next dev"
   },
   "dependencies": {
@@ -23,7 +31,6 @@
     "@types/js-search": "^1.4.0",
     "@types/react-dom": "^16.9.8",
     "@types/react-virtualized": "^9.21.10",
-    "lerna": "^3.22.1",
     "next": "^9.4.4"
   }
 }

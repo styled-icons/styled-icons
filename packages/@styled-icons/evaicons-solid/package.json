@@ -1,25 +1,32 @@
 {
   "name": "@styled-icons/evaicons-solid",
   "version": "10.5.0",
+  "license": "MIT",
   "description": "Eva Icons available as Styled Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
   "homepage": "https://github.com/jacobwgillespie/styled-icons",
   "repository": "git://github.com/jacobwgillespie/styled-icons.git",
-  "license": "MIT",
+  "keywords": [
+    "styled-icons"
+  ],
+  "funding": {
+    "type": "GitHub",
+    "url": "https://github.com/sponsors/jacobwgillespie"
+  },
   "main": "./index.js",
   "module": "./index.esm.js",
   "types": "./index.d.ts",
   "sideEffects": false,
-  "keywords": [
-    "styled-icons"
-  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "build": "build-pack @svg-icons/evaicons-solid",
-    "clean": "clean-pack"
+    "clean": "clean-package",
+    "generate": "generate-icon-package @svg-icons/evaicons-solid"
   },
   "dependencies": {
-    "@styled-icons/styled-icon": "^10.5.0",
-    "tslib": "^2.0.0"
+    "@babel/runtime": "^7.10.3",
+    "@styled-icons/styled-icon": "^10.5.0"
   },
   "peerDependencies": {
     "react": "*",
@@ -27,7 +34,6 @@
   },
   "devDependencies": {
     "@styled-icons/pack-builder": "^10.4.0",
-    "@styled-icons/tsconfig": "^10.5.0",
     "@svg-icons/evaicons-solid": "1.0.0",
     "react": "^16.13.1",
     "styled-components": "^5.1.1"

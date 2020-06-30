@@ -1,16 +1,18 @@
 {
   "compilerOptions": {
+    "emitDeclarationOnly": true,
     "allowSyntheticDefaultImports": true,
+    "declaration": true,
     "esModuleInterop": true,
-    "importHelpers": true,
+    "isolatedModules": true,
     "jsx": "react",
     "lib": ["dom", "es6"],
     "module": "commonjs",
     "moduleResolution": "node",
-    "plugins": [{"transform": "typescript-plugin-styled-components"}],
     "skipLibCheck": true,
     "strict": true,
     "target": "es5",
     "types": ["node"]
-  }
+  },
+  "include": ["packages"]
 }

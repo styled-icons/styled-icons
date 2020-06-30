@@ -44,7 +44,7 @@ const getTemplate = () =>
   )
 
 const baseDir = process.cwd()
-const buildDir = path.join(baseDir, '__build')
+const buildDir = path.join(baseDir)
 
 const pkgJSON = (name) => `{
   "private": true,
@@ -64,20 +64,16 @@ const pkgJSONBuilt = (name) => `{
 `
 
 const generate = async () => {
-  console.log('Reading icon packs...')
-
   const packModuleName = process.argv[2]
   const icons = require(path.join(packModuleName, '__manifest.json'))
 
   if (icons.length === 0) {
-    console.log('Error reading icons from pack')
+    console.error('Error reading icons from pack')
     process.exit(1)
   }
 
-  console.log('Reading template...')
   const template = await getTemplate()
 
-  console.log('Building icons...')
   const totalIcons = icons.length
 
   for (const icon of icons) {
@@ -125,9 +121,8 @@ const generate = async () => {
     await fs.mkdirp(destinationPath)
     await fs.outputFile(path.join(destinationPath, `${icon.name}.tsx`), component())
     await fs.outputFile(path.join(destinationPath, 'package.json'), pkgJSON(icon.name))
+    await fs.outputFile(path.join(destinationPath, 'package.built.json'), pkgJSONBuilt(icon.name))
   }
-
-  console.log('Writing index files...')
 
   const writeIndexFiles = async () => {
     const seenNames = new Set()
@@ -149,62 +144,6 @@ const generate = async () => {
 
   await writeIndexFiles()
 
-  console.log('Generating ESM JavaScript and TypeScript types...')
-
-  await fs.writeJSON('tsconfig.json', {
-    extends: '@styled-icons/tsconfig/tsconfig.icons.json',
-    compilerOptions: {
-      outDir: './__build',
-      rootDir: './__build',
-    },
-  })
-  await execa('yarn', ['ttsc', '--project', './tsconfig.json'], {stdio: 'inherit'})
-  await fs.remove('tsconfig.json')
-
-  console.log('Moving ESM JavaScript files...')
-  const esmFiles = await fg(path.join(buildDir, '**/*.js'))
-  for (const filepath of esmFiles) {
-    await fs.move(filepath, path.join(path.dirname(filepath), path.basename(filepath).replace('.js', '.esm.js')), {
-      overwrite: true,
-    })
-  }
-
-  console.log('Building CJS JavaScript...')
-
-  await fs.writeJSON('tsconfig.json', {
-    extends: '@styled-icons/tsconfig/tsconfig.icons-cjs.json',
-    compilerOptions: {
-      outDir: './__build',
-      rootDir: './__build',
-    },
-  })
-  await execa('yarn', ['ttsc', '--project', './tsconfig.json'], {stdio: 'inherit'})
-  await fs.remove('tsconfig.json')
-
-  console.log('Moving CJS JavaScript files...')
-  const cjsFiles = await fg('__build/**/*.js')
-  for (const builtFile of cjsFiles) {
-    const destination = path.join(baseDir, builtFile.replace('__build/', ''))
-    await fs.move(path.join(baseDir, builtFile), destination, {overwrite: true})
-  }
-
-  console.log('Rewriting package.json files...')
-  for (const icon of icons) {
-    await fs.outputFile(path.join(buildDir, icon.name, 'package.json'), pkgJSONBuilt(icon.name))
-  }
-
-  console.log('Copying files to destination...')
-  const builtFiles = await fg('__build/**/*')
-  for (const builtFile of builtFiles) {
-    if (builtFile.match(/\.tsx?$/) && !builtFile.match(/\.d\.ts$/)) {
-      continue
-    }
-
-    const destination = path.join(baseDir, builtFile.replace('__build/', ''))
-    await fs.move(path.join(baseDir, builtFile), destination, {overwrite: true})
-  }
-
-  console.log('Writing icon manifest for website...')
   const seenImports = new Set()
   await fs.writeJSON(
     path.join(baseDir, 'manifest.json'),
@@ -225,10 +164,10 @@ const generate = async () => {
       .filter((icon) => icon),
   )
 
-  console.log(`${totalIcons} icons successfully built!`)
+  console.log(`${totalIcons} icons generated!`)
 }
 
 generate().catch((err) => {
-  console.log(err.stack)
+  console.error(err.stack)
   process.exit(1)
 })
