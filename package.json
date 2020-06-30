@@ -28,7 +28,7 @@
     "generate:pkg": "find packages -name 'package.built.json' -not -path '*/node_modules/*' -exec bash -c 'mv \"$1\" \"${1%.built.json}\".json' - '{}' \\;"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.3",
+    "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.3",
     "@babel/plugin-transform-runtime": "^7.10.3",
     "@babel/preset-env": "^7.10.3",
