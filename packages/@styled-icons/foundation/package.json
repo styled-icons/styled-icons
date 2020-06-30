@@ -4,8 +4,8 @@
   "license": "MIT",
   "description": "Foundation icons available as Styled Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
-  "homepage": "https://github.com/jacobwgillespie/styled-icons",
-  "repository": "git://github.com/jacobwgillespie/styled-icons.git",
+  "homepage": "https://github.com/styled-icons/styled-icons",
+  "repository": "git://github.com/styled-icons/styled-icons.git",
   "keywords": [
     "styled-icons"
   ],

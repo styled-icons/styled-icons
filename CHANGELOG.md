@@ -443,7 +443,7 @@ These new individual icon pack modules are _optional_, you can continue to utili
 
 ## v5.2.0
 
-- Release [next-plugin-styled-icons](https://github.com/jacobwgillespie/styled-icons/tree/master/packages/next-plugin-styled-icons) to enable tree shaking with [Next.js](https://nextjs.org) applications
+- Release [next-plugin-styled-icons](https://github.com/styled-icons/styled-icons/tree/master/packages/next-plugin-styled-icons) to enable tree shaking with [Next.js](https://nextjs.org) applications
 
 ## v5.1.1
 
@@ -483,7 +483,7 @@ These new individual icon pack modules are _optional_, you can continue to utili
 
 ## v4.1.0
 
-- Add [Boxicons](https://boxicons.com/) v1.8.0 ([#408](https://github.com/jacobwgillespie/styled-icons/pull/418), [@jgierer12](https://github.com/jgierer12))
+- Add [Boxicons](https://boxicons.com/) v1.8.0 ([#408](https://github.com/styled-icons/styled-icons/pull/418), [@jgierer12](https://github.com/jgierer12))
 - Fix React import in TypeScript type definitions
 
 ## v4.0.0
@@ -583,7 +583,7 @@ These new individual icon pack modules are _optional_, you can continue to utili
 
 ## v1.2.0
 
-- Support automatic tree shaking ([#8](https://github.com/jacobwgillespie/styled-icons/pull/8))
+- Support automatic tree shaking ([#8](https://github.com/styled-icons/styled-icons/pull/8))
 
 ## v1.1.1
 
