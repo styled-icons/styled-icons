@@ -2,8 +2,8 @@ import * as React from 'react'
 
 export const Badges: React.SFC = () => (
   <div className="badges">
-    <a href="https://github.com/jacobwgillespie/styled-icons/actions">
-      <img src="https://github.com/jacobwgillespie/styled-icons/workflows/CI/badge.svg" alt="Build Status" />
+    <a href="https://github.com/styled-icons/styled-icons/actions">
+      <img src="https://github.com/styled-icons/styled-icons/workflows/CI/badge.svg" alt="Build Status" />
     </a>
     <a href="https://www.npmjs.com/package/styled-icons">
       <img src="https://badgen.net/npm/dm/styled-icons" alt="npm" />

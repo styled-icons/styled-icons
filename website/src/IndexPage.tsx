@@ -50,7 +50,7 @@ const App = () => <RedZap />
       </code>
 
       <p>
-        <a href="https://github.com/jacobwgillespie/styled-icons">View documentation on GitHub</a>
+        <a href="https://github.com/styled-icons/styled-icons">View documentation on GitHub</a>
       </p>
 
       <h2>Icon Explorer</h2>
