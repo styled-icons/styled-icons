@@ -21,6 +21,8 @@ jobs:
       - run: yarn build:icons
       - run: yarn chromatic --exit-once-uploaded --exit-zero-on-changes
         working-directory: storybook/
+        env:
+          CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
       - uses: changesets/action@master
         if: github.ref == 'refs/heads/main' && github.repository == 'styled-icons/styled-icons'
         with:
