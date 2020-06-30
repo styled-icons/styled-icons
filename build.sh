@@ -8,10 +8,10 @@ echo "Generating TypeScript declaration files"
 yarn tsc --emitDeclarationOnly
 
 echo "Building ESM JavaScript"
-BABEL_ENV=modern yarn babel packages --extensions '.ts,.tsx' --out-dir packages --out-file-extension .esm.js
+BABEL_ENV=modern yarn babel packages --extensions '.ts,.tsx' --out-dir packages --source-maps --out-file-extension .esm.js
 
 echo "Building CJS JavaScript"
-BABEL_ENV=legacy yarn babel packages --extensions '.ts,.tsx' --out-dir packages
+BABEL_ENV=legacy yarn babel packages --extensions '.ts,.tsx' --out-dir packages --source-maps
 
 echo "Creating package.json files"
 find packages -name 'package.built.json' -not -path '*/node_modules/*' \
