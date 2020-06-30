@@ -13,7 +13,7 @@ async function run() {
   await fs.mkdirp(path.join(__dirname, 'stories'))
 
   for (const pack of Object.keys(packs)) {
-    const packIcons = packs[pack]
+    const packIcons = packs[pack].sort()
     const stories = `
 import React from 'react'
 import {storiesOf} from '@storybook/react'
