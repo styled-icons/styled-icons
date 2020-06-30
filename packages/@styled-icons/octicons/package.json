@@ -14,7 +14,7 @@
     "styled-icons"
   ],
   "scripts": {
-    "build": "generate-icon-package @svg-icons/octicons",
+    "generate": "generate-icon-package @svg-icons/octicons",
     "clean": "clean-package"
   },
   "dependencies": {

@@ -14,7 +14,7 @@
     "styled-icons"
   ],
   "scripts": {
-    "build": "generate-icon-package @svg-icons/fa-regular",
+    "generate": "generate-icon-package @svg-icons/fa-regular",
     "clean": "clean-package"
   },
   "dependencies": {

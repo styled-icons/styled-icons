@@ -14,7 +14,7 @@
     "styled-icons"
   ],
   "scripts": {
-    "build": "generate-icon-package @svg-icons/remix-line",
+    "generate": "generate-icon-package @svg-icons/remix-line",
     "clean": "clean-package"
   },
   "dependencies": {

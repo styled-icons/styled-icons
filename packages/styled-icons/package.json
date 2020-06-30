@@ -26,7 +26,7 @@
     "svg"
   ],
   "scripts": {
-    "build": "generate-icon-mono-package",
+    "generate": "generate-icon-mono-package",
     "clean": "clean-package"
   },
   "dependencies": {

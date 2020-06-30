@@ -14,7 +14,7 @@
     "styled-icons"
   ],
   "scripts": {
-    "build": "generate-icon-package @svg-icons/material-filled",
+    "generate": "generate-icon-package @svg-icons/material-filled",
     "clean": "clean-package"
   },
   "dependencies": {

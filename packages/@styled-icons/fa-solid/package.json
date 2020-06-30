@@ -14,7 +14,7 @@
     "styled-icons"
   ],
   "scripts": {
-    "build": "generate-icon-package @svg-icons/fa-solid",
+    "generate": "generate-icon-package @svg-icons/fa-solid",
     "clean": "clean-package"
   },
   "dependencies": {

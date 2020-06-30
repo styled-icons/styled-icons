@@ -14,7 +14,7 @@
     "styled-icons"
   ],
   "scripts": {
-    "build": "generate-icon-package @svg-icons/boxicons-regular",
+    "generate": "generate-icon-package @svg-icons/boxicons-regular",
     "clean": "clean-package"
   },
   "dependencies": {

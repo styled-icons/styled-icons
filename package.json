@@ -15,11 +15,16 @@
   },
   "scripts": {
     "build": "yarn build:icons && yarn build:website",
-    "build:icons": "./build.sh",
+    "build:icons": "yarn generate && run-p 'build:icons:*' && yarn generate:pkg",
+    "build:icons:cjs": "env BABEL_ENV=legacy yarn babel packages --extensions '.ts,.tsx' --out-dir packages --source-maps",
+    "build:icons:esm": "env BABEL_ENV=modern yarn babel packages --extensions '.ts,.tsx' --out-dir packages --source-maps --out-file-extension .esm.js",
+    "build:icons:typescript": "yarn tsc --emitDeclarationOnly",
     "build:website": "wsrun -p @styled-icons/website -c build",
     "clean": "wsrun -m -c clean",
     "format": "prettier --write './**/*.{ts,tsx,js,md,json}'",
-    "format:check": "prettier --list-different './**/*.{ts,tsx,js,md,json}'"
+    "format:check": "prettier --list-different './**/*.{ts,tsx,js,md,json}'",
+    "generate": "yarn wsrun -t -m -c generate",
+    "generate:pkg": "find packages -name 'package.built.json' -not -path '*/node_modules/*' -exec bash -c 'mv \"$1\" \"${1%.built.json}\".json' - '{}' \\;"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.3",
@@ -35,6 +40,7 @@
     "@types/react": "^16.9.41",
     "@types/styled-components": "^5.1.0",
     "babel-plugin-styled-components": "^1.10.7",
+    "npm-run-all": "^4.1.5",
     "prettier": "^2.0.5",
     "wsrun": "^5.2.1"
   }
