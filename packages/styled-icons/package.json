@@ -26,8 +26,8 @@
     "svg"
   ],
   "scripts": {
-    "build": "build-mono-package",
-    "clean": "clean-pack"
+    "build": "generate-icon-mono-package",
+    "clean": "clean-package"
   },
   "dependencies": {
     "@babel/runtime": "^7.10.3",

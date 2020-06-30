@@ -14,7 +14,7 @@
     "styled-icons"
   ],
   "scripts": {
-    "clean": "ALLOWED_FILES=index.tsx clean-pack"
+    "clean": "ALLOWED_FILES=index.tsx clean-package"
   },
   "dependencies": {
     "@babel/runtime": "^7.10.3",

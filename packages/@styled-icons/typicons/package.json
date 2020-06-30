@@ -14,8 +14,8 @@
     "styled-icons"
   ],
   "scripts": {
-    "build": "build-pack @svg-icons/typicons",
-    "clean": "clean-pack"
+    "build": "generate-icon-package @svg-icons/typicons",
+    "clean": "clean-package"
   },
   "dependencies": {
     "@babel/runtime": "^7.10.3",

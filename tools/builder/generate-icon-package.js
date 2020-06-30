@@ -164,7 +164,7 @@ const generate = async () => {
       .filter((icon) => icon),
   )
 
-  console.log(`${totalIcons} icons successfully built!`)
+  console.log(`${totalIcons} icons generated!`)
 }
 
 generate().catch((err) => {

@@ -3,9 +3,9 @@
   "name": "@styled-icons/pack-builder",
   "version": "10.4.0",
   "bin": {
-    "build-mono-package": "./build-mono-package.js",
-    "build-pack": "./build-pack.js",
-    "clean-pack": "./clean-pack.js"
+    "generate-icon-mono-package": "./generate-icon-mono-package.js",
+    "generate-icon-package": "./generate-icon-package.js",
+    "clean-package": "./clean-package.js"
   },
   "devDependencies": {
     "execa": "^4.0.2",

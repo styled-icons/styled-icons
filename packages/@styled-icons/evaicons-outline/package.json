@@ -14,8 +14,8 @@
     "styled-icons"
   ],
   "scripts": {
-    "build": "build-pack @svg-icons/evaicons-outline",
-    "clean": "clean-pack"
+    "build": "generate-icon-package @svg-icons/evaicons-outline",
+    "clean": "clean-package"
   },
   "dependencies": {
     "@babel/runtime": "^7.10.3",

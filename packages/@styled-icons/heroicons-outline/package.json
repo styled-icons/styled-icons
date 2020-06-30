@@ -14,8 +14,8 @@
     "styled-icons"
   ],
   "scripts": {
-    "build": "build-pack @svg-icons/heroicons-outline",
-    "clean": "clean-pack"
+    "build": "generate-icon-package @svg-icons/heroicons-outline",
+    "clean": "clean-package"
   },
   "dependencies": {
     "@babel/runtime": "^7.10.3",
