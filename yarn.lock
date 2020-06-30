@@ -1754,13 +1754,14 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@loadable/component@^5.12.0":
-  version "5.12.0"
-  resolved "https://registry.yarnpkg.com/@loadable/component/-/component-5.12.0.tgz#34d056d15f53dc08d04e9203cad6867cf4f7306c"
-  integrity sha512-eDG7FPZ8tCFA/mqu2IrYV6eS+UxGBo21PwtEV9QpkpYrx25xKRXzJUm36yfQPK3o7jXu43xpPkwiU4mLWcjJlw==
+"@loadable/component@^5.13.0":
+  version "5.13.0"
+  resolved "https://registry.yarnpkg.com/@loadable/component/-/component-5.13.0.tgz#001cb299eabd2c521a8aaf74509eb74cdf9d2c62"
+  integrity sha512-+qS6xoA4DN5Pjm5sR6vWuuYEhMWZ9Y7ALgI8JuDOMCiqOG+PTau0phOyqFgrFqDXijVpeInoIoZQdW1FKjGBYA==
   dependencies:
     "@babel/runtime" "^7.7.7"
     hoist-non-react-statics "^3.3.1"
+    react-is "^16.12.0"
 
 "@manypkg/find-root@^1.1.0":
   version "1.1.0"

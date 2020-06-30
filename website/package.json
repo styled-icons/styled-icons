@@ -16,7 +16,7 @@
     "start": "next dev"
   },
   "dependencies": {
-    "@loadable/component": "^5.12.0",
+    "@loadable/component": "^5.13.0",
     "copy-to-clipboard": "^3.2.1",
     "history": "^5.0.0",
     "js-search": "^2.0.0",
