@@ -2397,10 +2397,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/evil/-/evil-1.1.0.tgz#432a5852b2350b47f36e95674ba095c9ebbb798b"
   integrity sha512-dOovOmJ4OXroaV2TzymICbpXuHAGI4zmY7wNeeDC7/xXUMc/xvvW7tKhrnBn/VWtFS53Hallofu69qoGt2kNmQ==
 
-"@svg-icons/fa-brands@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/fa-brands/-/fa-brands-1.0.0.tgz#84aaff45fd8432a9b1ef118b626d1bd8a8caa6ff"
-  integrity sha512-UF86g7/wy0Ua3+HDShvCt7I89vyzgmqM31TLEF1Qwwmjj6ajwC88ad8NAqQH658Xh4BA3bf8ceFYdYeV8f1ZFQ==
+"@svg-icons/fa-brands@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/fa-brands/-/fa-brands-1.1.0.tgz#53ff79319d71fbc7a1cc99a5d41a8ef1ecc96670"
+  integrity sha512-qVG22yOFIUZt69H4EBtLJSZqYUqtueFYqXUNQ4MvoAvWTc24D9DV6JkrEEp/QcvHT2AFbs4KHH9fof8971qzhQ==
 
 "@svg-icons/fa-regular@1.0.0":
   version "1.0.0"
@@ -2422,10 +2422,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/foundation/-/foundation-1.0.0.tgz#f0e1700cb3b6231bc84ddaeeaf3424eef21b3721"
   integrity sha512-zuo3k5VNlC+lbNPQyllE7ozLYqKPY42X71Q2Uzf5MYuuY09UWsGAVM6ydEpRGyky4wgCf6sur084+eCKa+5AkQ==
 
-"@svg-icons/heroicons-outline@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/heroicons-outline/-/heroicons-outline-1.0.0.tgz#f56968208f659a5ff54229735a647a3603deb450"
-  integrity sha512-HkPKsafttWss7KqzYuv8SyUuJ3pGiGXanO+gnPNm+7ooyNvRS02raCx0CFDRqULiHEnK3h7ssQnaZipYiEP1iQ==
+"@svg-icons/heroicons-outline@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/heroicons-outline/-/heroicons-outline-1.1.0.tgz#4337d8b104edf5c482d2c37f059bf3d81c5c4859"
+  integrity sha512-kslpItvI/Sa99bEhOL3JA2JE0C8R4MSj42xL5YzKP4V90kPog58abI1TJx510I8mEqIuR0lAiAH1tBoQ1uJtYA==
 
 "@svg-icons/heroicons-solid@1.1.0":
   version "1.1.0"
