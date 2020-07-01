@@ -1,6 +1,6 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@1.3.0/schema.json",
-  "changelog": ["@changesets/changelog-github", {"repo": "styled-icons/styled-icons"}],
+  "changelog": ["./changelog.js", {"repo": "styled-icons/styled-icons"}],
   "commit": false,
   "linked": [],
   "access": "public",
