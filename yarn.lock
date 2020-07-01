@@ -2487,10 +2487,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/open-iconic/-/open-iconic-1.0.0.tgz#cdf18a0721bf231cabb90d158d10dad980d0062d"
   integrity sha512-hwcDLiQPDluCG0dweqyRsaCUGvvcNg9gQ3EirtoxtFCXZCKW4iLh/ffmLkgJpUnp0so50CPxBM7d92R9Ifm2lw==
 
-"@svg-icons/remix-fill@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/remix-fill/-/remix-fill-1.0.0.tgz#9bdadc76eae289e949923288ae7c63d6b4c1beb8"
-  integrity sha512-JTh2rtyYyTmGSLMvfbI508tEjzSR7Rn8PWLb3bpfSA3BCRdnZVWGS5PSnaFZw7dpRwtHCnhZ+yAneqOUWZYuDA==
+"@svg-icons/remix-fill@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/remix-fill/-/remix-fill-1.1.0.tgz#d7e78df5f2c7ac650e17cf5c93070b803f56684e"
+  integrity sha512-0rE9Fb3YUBAokWWdX1PhsiSVnWPagF6xE8feydjmH+6XV6UhbP9c6s1CiLejy4AeMdopU0Cxe5pC1okuIBcq0Q==
 
 "@svg-icons/remix-line@1.0.0":
   version "1.0.0"
