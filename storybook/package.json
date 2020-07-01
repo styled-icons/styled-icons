@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@styled-icons/storybook",
-  "version": "10.5.0",
+  "version": "10.6.0",
   "license": "MIT",
   "funding": {
     "type": "GitHub",
@@ -20,7 +20,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "styled-components": "^5.1.1",
-    "styled-icons": "^10.5.0"
+    "styled-icons": "^10.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",

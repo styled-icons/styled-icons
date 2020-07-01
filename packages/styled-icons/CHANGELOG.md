@@ -1,5 +1,48 @@
 # styled-icons
 
+## 10.6.0
+
+### Minor Changes
+
+- [#1286](https://github.com/styled-icons/styled-icons/pull/1286): Revamp all build tooling, build icon source files with Babel (TypeScript still type-checks and builds `.d.ts` files) ([`57170c8`](https://github.com/styled-icons/styled-icons/commit/57170c86283d1ddbe541c6124f06b6a7f227b45b), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+### Patch Changes
+
+- Updated dependencies [[`57170c8`](https://github.com/styled-icons/styled-icons/commit/57170c86283d1ddbe541c6124f06b6a7f227b45b), [`7296cea`](https://github.com/styled-icons/styled-icons/commit/7296cea89f1580ea0d38d70476c7be8c5394bb08)]:
+  - @styled-icons/boxicons-logos@10.6.0
+  - @styled-icons/boxicons-regular@10.6.0
+  - @styled-icons/boxicons-solid@10.6.0
+  - @styled-icons/crypto@10.6.0
+  - @styled-icons/entypo@10.6.0
+  - @styled-icons/entypo-social@10.6.0
+  - @styled-icons/evaicons-outline@10.6.0
+  - @styled-icons/evaicons-solid@10.6.0
+  - @styled-icons/evil@10.6.0
+  - @styled-icons/fa-brands@10.6.0
+  - @styled-icons/fa-regular@10.6.0
+  - @styled-icons/fa-solid@10.6.0
+  - @styled-icons/feather@10.6.0
+  - @styled-icons/foundation@10.6.0
+  - @styled-icons/heroicons-outline@10.6.0
+  - @styled-icons/heroicons-solid@10.6.0
+  - @styled-icons/icomoon@10.6.0
+  - @styled-icons/ionicons-outline@10.6.0
+  - @styled-icons/ionicons-sharp@10.6.0
+  - @styled-icons/ionicons-solid@10.6.0
+  - @styled-icons/material@10.6.0
+  - @styled-icons/material-outlined@10.6.0
+  - @styled-icons/material-rounded@10.6.0
+  - @styled-icons/material-sharp@10.6.0
+  - @styled-icons/material-twotone@10.6.0
+  - @styled-icons/octicons@10.6.0
+  - @styled-icons/open-iconic@10.6.0
+  - @styled-icons/remix-fill@10.6.0
+  - @styled-icons/remix-line@10.6.0
+  - @styled-icons/simple-icons@10.6.0
+  - @styled-icons/styled-icon@10.6.0
+  - @styled-icons/typicons@10.6.0
+  - @styled-icons/zondicons@10.6.0
+
 ## 10.5.0
 
 - Upgrade Ionicons to v5.1.2

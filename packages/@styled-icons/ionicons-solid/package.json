@@ -1,6 +1,6 @@
 {
   "name": "@styled-icons/ionicons-solid",
-  "version": "10.5.0",
+  "version": "10.6.0",
   "license": "MIT",
   "description": "Ionicons available as Styled Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
@@ -26,14 +26,14 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.10.3",
-    "@styled-icons/styled-icon": "^10.5.0"
+    "@styled-icons/styled-icon": "^10.6.0"
   },
   "peerDependencies": {
     "react": "*",
     "styled-components": "*"
   },
   "devDependencies": {
-    "@styled-icons/pack-builder": "^10.4.0",
+    "@styled-icons/pack-builder": "^10.6.0",
     "@svg-icons/ionicons-solid": "1.0.0",
     "react": "^16.13.1",
     "styled-components": "^5.1.1"
