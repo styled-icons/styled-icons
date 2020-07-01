@@ -2397,10 +2397,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/evil/-/evil-1.0.0.tgz#dbbda0fd4276141b7407a6eaa0be9b65c6e439cc"
   integrity sha512-oune7w8d8ftW075Zj3X0hnO4gJWwTkUzNb+E4Yk05+GJlM3d5BTgkX2p7BUrrmnq60MWuls6rJFubX0m5ldveQ==
 
-"@svg-icons/fa-brands@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/fa-brands/-/fa-brands-1.0.0.tgz#84aaff45fd8432a9b1ef118b626d1bd8a8caa6ff"
-  integrity sha512-UF86g7/wy0Ua3+HDShvCt7I89vyzgmqM31TLEF1Qwwmjj6ajwC88ad8NAqQH658Xh4BA3bf8ceFYdYeV8f1ZFQ==
+"@svg-icons/fa-brands@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/fa-brands/-/fa-brands-1.1.0.tgz#53ff79319d71fbc7a1cc99a5d41a8ef1ecc96670"
+  integrity sha512-qVG22yOFIUZt69H4EBtLJSZqYUqtueFYqXUNQ4MvoAvWTc24D9DV6JkrEEp/QcvHT2AFbs4KHH9fof8971qzhQ==
 
 "@svg-icons/fa-regular@1.0.0":
   version "1.0.0"
