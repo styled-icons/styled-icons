@@ -2431,10 +2431,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/feather/-/feather-1.0.0.tgz#390d6afe2981e9ad685b9349ab477ffb382cb246"
   integrity sha512-poCDD6kSeE1Bx+ATfZ8nGMLOUS+cG2q+x49r8YghQxgkDyLz/GDGqCW27isQIwykpAx9nZw8ZqRkrK+0r5UaVg==
 
-"@svg-icons/foundation@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/foundation/-/foundation-1.0.0.tgz#f0e1700cb3b6231bc84ddaeeaf3424eef21b3721"
-  integrity sha512-zuo3k5VNlC+lbNPQyllE7ozLYqKPY42X71Q2Uzf5MYuuY09UWsGAVM6ydEpRGyky4wgCf6sur084+eCKa+5AkQ==
+"@svg-icons/foundation@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/foundation/-/foundation-1.1.0.tgz#66a7e54c2808471941187122ce2e1c6198c3bf3a"
+  integrity sha512-n7QtXUu2JI2OpAifUONEg2IWGDndfaHahbkryyyKsgjjmPSVoCQPVz9MTEyy1UdauiQIfn1FtyECuubniKZnGQ==
 
 "@svg-icons/heroicons-outline@1.1.0":
   version "1.1.0"
