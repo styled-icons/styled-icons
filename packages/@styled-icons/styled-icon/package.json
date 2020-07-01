@@ -1,6 +1,6 @@
 {
   "name": "@styled-icons/styled-icon",
-  "version": "10.5.0",
+  "version": "10.6.0",
   "license": "MIT",
   "description": "Styled Icons base component",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
@@ -32,7 +32,7 @@
     "styled-components": ">=4.1.0 <6"
   },
   "devDependencies": {
-    "@styled-icons/pack-builder": "^10.4.0",
+    "@styled-icons/pack-builder": "^10.6.0",
     "react": "^16.13.1",
     "styled-components": "^5.1.1"
   }

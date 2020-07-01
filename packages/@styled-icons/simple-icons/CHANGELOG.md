@@ -1,5 +1,18 @@
 # @styled-icons/simple-icons
 
+## 10.6.0
+
+### Minor Changes
+
+- [#1286](https://github.com/styled-icons/styled-icons/pull/1286): Revamp all build tooling, build icon source files with Babel (TypeScript still type-checks and builds `.d.ts` files) ([`57170c8`](https://github.com/styled-icons/styled-icons/commit/57170c86283d1ddbe541c6124f06b6a7f227b45b), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+### Patch Changes
+
+- [#1284](https://github.com/styled-icons/styled-icons/pull/1284): Upgrade simple-icons to v2.19.0 ([`7296cea`](https://github.com/styled-icons/styled-icons/commit/7296cea89f1580ea0d38d70476c7be8c5394bb08), [@dependabot](https://github.com/apps/dependabot))
+
+- Updated dependencies [[`57170c8`](https://github.com/styled-icons/styled-icons/commit/57170c86283d1ddbe541c6124f06b6a7f227b45b)]:
+  - @styled-icons/styled-icon@10.6.0
+
 ## 10.5.0
 
 - Upgrade Ionicons to v5.1.2
