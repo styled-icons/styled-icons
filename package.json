@@ -25,7 +25,8 @@
     "fmt": "prettier --write './**/*.{ts,tsx,js,md,json}'",
     "fmt:check": "prettier --list-different './**/*.{ts,tsx,js,md,json}'",
     "generate": "yarn wsrun -t -m -c generate",
-    "generate:pkg": "find packages -name 'package.built.json' -not -path '*/node_modules/*' -exec bash -c 'mv \"$1\" \"${1%.built.json}\".json' - '{}' \\;"
+    "generate:pkg": "find packages -name 'package.built.json' -not -path '*/node_modules/*' -exec bash -c 'mv \"$1\" \"${1%.built.json}\".json' - '{}' \\;",
+    "release": "yarn build:icons && yarn changeset publish"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.4",

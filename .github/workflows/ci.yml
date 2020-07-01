@@ -24,13 +24,6 @@ jobs:
         working-directory: storybook/
         env:
           CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-      - uses: changesets/action@master
-        if: github.ref == 'refs/heads/main' && github.repository == 'styled-icons/styled-icons'
-        with:
-          publish: yarn changeset publish
-        env:
-          GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   lint:
     name: Lint
