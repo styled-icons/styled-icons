@@ -2376,10 +2376,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/boxicons-regular/-/boxicons-regular-1.0.0.tgz#e7dd8801bb72c7c21a1643102ae1cf6ade20f24a"
   integrity sha512-g0xkjHxG7VqtbfKZ78HLSdflcnV2AhZlB1t/9/1o93wKvet4zffwaDq4cP5yXG40oJmQNY5chlI0MYv5Si1UkQ==
 
-"@svg-icons/boxicons-solid@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/boxicons-solid/-/boxicons-solid-1.0.0.tgz#956998d4573a3de792416edfd430c2cba0cc46c7"
-  integrity sha512-kbYkWTgSRCVDI39bqLJy+krG1Srxpi7SvIMAadAjuStxW3r2Ffba8TsHs6Z1otK0pHD0pZHbjQJSRa1e6CA3ag==
+"@svg-icons/boxicons-solid@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/boxicons-solid/-/boxicons-solid-1.1.0.tgz#87e757e15bba260ab5e1c71256fee449a81751bf"
+  integrity sha512-xTftZkWH3oNxFG36lpEXr0jXYvg4WOlYGFZO+jkB2v/+0ZW4PSF75uaV9j6fU07j6+elXq9gIHmkqwuQUwcIJA==
 
 "@svg-icons/crypto@1.0.0":
   version "1.0.0"
