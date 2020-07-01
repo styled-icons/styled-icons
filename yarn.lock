@@ -322,13 +322,6 @@
   dependencies:
     "@babel/types" "^7.10.4"
 
-"@babel/helper-module-imports@^7.10.4":
-  version "7.10.4"
-  resolved "https://registry.yarnpkg.com/@babel/helper-module-imports/-/helper-module-imports-7.10.4.tgz#4c5c54be04bd31670a7382797d75b9fa2e5b5620"
-  integrity sha512-nEQJHqYavI217oD9+s5MUBzk6x1IlvoS9WTPfgG43CbMEeStE0v+r+TucWdx8KFGowPGvyOkDT9+7DHedIDnVw==
-  dependencies:
-    "@babel/types" "^7.10.4"
-
 "@babel/helper-module-transforms@^7.10.1", "@babel/helper-module-transforms@^7.9.0":
   version "7.10.1"
   resolved "https://registry.yarnpkg.com/@babel/helper-module-transforms/-/helper-module-transforms-7.10.1.tgz#24e2f08ee6832c60b157bb0936c86bef7210c622"
@@ -2481,10 +2474,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/material-rounded/-/material-rounded-1.0.0.tgz#27ffcfea153f38e96792569c45f24ae4d0146338"
   integrity sha512-5PoEJwY6QhkKNUUJXr0E5IubQ2JYXDH2UCwZl+2KO4eG0vAYSCdKF2/VsrPI80LMIGp1UoIc5Yz4l3aNApeY0w==
 
-"@svg-icons/material-sharp@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/material-sharp/-/material-sharp-1.0.0.tgz#2a63f3e83f0214d3e5e1d3d14d73880224d7ffad"
-  integrity sha512-pXrDHv6QQGPrMMWqidB6SbGSPBrGv/Rr56wZsbuKyg8/81CPDcBvxb11chDV9jScO6fWsAan70XfGBJlUb+oyg==
+"@svg-icons/material-sharp@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/material-sharp/-/material-sharp-1.1.0.tgz#6109c943fe7c8f92b18e99045c8bc154a170b79d"
+  integrity sha512-nH9+hCUv/kSr+/roDvn0K9HzIujrStrllPa1bhRrUWrlGSPBLVGkqOoRtU9EbLcdm6ifXOr1Z+tMftFIisbJyA==
 
 "@svg-icons/material-twotone@1.0.0":
   version "1.0.0"
