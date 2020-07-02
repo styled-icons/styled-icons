@@ -1,5 +1,11 @@
 # @styled-icons/material-twotone
 
+## 10.7.0
+
+### Minor Changes
+
+- [#1308](https://github.com/styled-icons/styled-icons/pull/1308): Upgrade Material icons to v5.0.1 ([`b9b56e3`](https://github.com/styled-icons/styled-icons/commit/b9b56e36c3d3a5244725cc31dfbc9e0286398cf3), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
 ## 10.6.0
 
 ### Minor Changes
