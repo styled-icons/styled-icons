@@ -53,6 +53,12 @@ const App = () => <RedZap />
         <a href="https://github.com/styled-icons/styled-icons">View documentation on GitHub</a>
       </p>
 
+      <p>
+        <a href="https://vercel.com/?utm_source=styled-icons">
+          <img height="22" width="106" src="/powered-by-vercel.svg" alt="Powered by Vercel" />
+        </a>
+      </p>
+
       <h2>Icon Explorer</h2>
 
       <IconExplorer />

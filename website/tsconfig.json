@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "es2015"],
-    "allowJs": true,
-    "skipLibCheck": false,
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
@@ -14,7 +16,15 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
-    "typeRoots": ["node_modules/@types"]
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "allowJs": true
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
