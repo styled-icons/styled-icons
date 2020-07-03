@@ -55,7 +55,7 @@ const App = () => <RedZap />
 
       <p>
         <a href="https://vercel.com/?utm_source=styled-icons">
-          <img height="22" width="106" src="/powered-by-vercel.svg" alt="Powered by Vercel" />
+          <img height="30" src="/powered-by-vercel.svg" alt="Powered by Vercel" />
         </a>
       </p>
 
