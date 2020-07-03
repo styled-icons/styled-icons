@@ -6,9 +6,11 @@
 <a href="https://www.styled-components.com/"><img src="https://badgen.net/badge/built%20with/styled%20components/db7093" alt="Built with Styled Components" /></a>
 <img src="https://badgen.net/badge/powered%20by/typescript/blue" alt="Powered by TypeScript" /> <a href="#contributors" alt="sponsors on Open Collective"><img src="https://opencollective.com/styled-icons/backers/badge.svg" /></a> <a href="#contributors" alt="Sponsors on Open Collective"><img src="https://opencollective.com/styled-icons/sponsors/badge.svg" /></a></p>
 
-[![View Icons](https://gui.apex.sh/component?name=ShadowButton&config=%7B%22text%22%3A%22ICON%20EXPLORER%22%2C%22color%22%3A%22db7093%22%7D)](https://styled-icons.js.org)
+<p align="center"><a href="https://vercel.com/?utm_source=styled-icons"><img height="32" src="https://styled-icons.js.org/powered-by-vercel.svg" alt="Powered by Vercel" /></a></p>
 
-`styled-icons` provides almost 17,000 icons from the following icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules:
+`styled-icons` provides almost 17,000 icons from the following icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules.
+
+**[➡️ View the Icon Explorer](https://styled-icons.js.org)**
 
 - [Boxicons](https://boxicons.com/)
 - [Crypto Icons](http://cryptoicons.co)
