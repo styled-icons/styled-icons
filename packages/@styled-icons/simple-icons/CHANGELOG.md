@@ -1,5 +1,11 @@
 # @styled-icons/simple-icons
 
+## 10.8.0
+
+### Minor Changes
+
+- [#1314](https://github.com/styled-icons/styled-icons/pull/1314): Upgrade simple-icons to v3.0.1 ([`8470e93`](https://github.com/styled-icons/styled-icons/commit/8470e931f86061f83b27f19c936d1deba1ce9bea), [@dependabot](https://github.com/apps/dependabot))
+
 ## 10.6.0
 
 ### Minor Changes
