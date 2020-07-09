@@ -32,6 +32,16 @@
 
 ---
 
+<p align="center"><strong>Do you use Emotion?</strong></p>
+
+<p align="center">Check out <a href="https://github.com/emotion-icons/emotion-icons">👩‍🎤 Emotion Icons</a></p>
+
+<p align="center"><strong>Would you prefer plain SVGs?</strong></p>
+
+<p align="center">Check out <a href="https://github.com/svg-icons/svg-icons">🎛️ SVG Icons</a></p>
+
+---
+
 ### Table of Contents
 
 - [Installation](#installation)
