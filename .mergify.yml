@@ -1,0 +1,10 @@
+# Automatically merge PRs labelled with `automerge`
+pull_request_rules:
+  - name: automerge
+    conditions:
+      - base=main
+      - label=automerge
+    actions:
+      merge:
+        method: merge
+        strict: true
