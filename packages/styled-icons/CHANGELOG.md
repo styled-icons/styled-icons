@@ -1,5 +1,18 @@
 # styled-icons
 
+## 10.10.0
+
+### Minor Changes
+
+- [#1334](https://github.com/styled-icons/styled-icons/pull/1334): Upgrade Font Awesome to v5.14.0 ([`92ce3be`](https://github.com/styled-icons/styled-icons/commit/92ce3be49623fd9639d32c7f9948c098276ee2ac), [@dependabot](https://github.com/apps/dependabot))
+
+### Patch Changes
+
+- Updated dependencies [[`92ce3be`](https://github.com/styled-icons/styled-icons/commit/92ce3be49623fd9639d32c7f9948c098276ee2ac)]:
+  - @styled-icons/fa-regular@10.10.0
+  - @styled-icons/fa-brands@10.10.0
+  - @styled-icons/fa-solid@10.10.0
+
 ## 10.9.0
 
 ### Minor Changes
