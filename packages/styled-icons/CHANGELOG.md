@@ -1,5 +1,17 @@
 # styled-icons
 
+## 10.12.0
+
+### Minor Changes
+
+- [#1342](https://github.com/styled-icons/styled-icons/pull/1342): Upgrade Heroicons to v0.3.7 ([`e4958ab`](https://github.com/styled-icons/styled-icons/commit/e4958ab0b607839d2fa10f3b69c9a8be08949bd3), [@dependabot](https://github.com/apps/dependabot))
+
+### Patch Changes
+
+- Updated dependencies [[`e4958ab`](https://github.com/styled-icons/styled-icons/commit/e4958ab0b607839d2fa10f3b69c9a8be08949bd3)]:
+  - @styled-icons/heroicons-outline@10.12.0
+  - @styled-icons/heroicons-solid@10.12.0
+
 ## 10.11.0
 
 ### Minor Changes
