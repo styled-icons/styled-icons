@@ -2907,10 +2907,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/heroicons-outline/-/heroicons-outline-1.1.0.tgz#4337d8b104edf5c482d2c37f059bf3d81c5c4859"
   integrity sha512-kslpItvI/Sa99bEhOL3JA2JE0C8R4MSj42xL5YzKP4V90kPog58abI1TJx510I8mEqIuR0lAiAH1tBoQ1uJtYA==
 
-"@svg-icons/heroicons-solid@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/heroicons-solid/-/heroicons-solid-1.1.0.tgz#7378fb6f5609e7d5d50c8e977877ebbf2dfb1711"
-  integrity sha512-CjifgchsofEPZD1iidCiNYus35iTXGhk7ONhcSk/vfFdj7X/oUGuafKHe0Na4XzR1DhwCuinn0inqKNzSCiF5w==
+"@svg-icons/heroicons-solid@1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/heroicons-solid/-/heroicons-solid-1.7.0.tgz#e9a383673aa3eb8bcd45d4ae79f189270595a302"
+  integrity sha512-gaPrPbIQJBSCkJ7GvtZ/G5O5pVtfhlTGeSq3o7xIqS3atrEI0VxBJSQ4j8gmeQGaL053r+BzBrkLZbuoTTSE+g==
 
 "@svg-icons/icomoon@1.1.0":
   version "1.1.0"
