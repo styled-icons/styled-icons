@@ -2907,10 +2907,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/heroicons-outline/-/heroicons-outline-1.7.0.tgz#b546b41283cd5c73ff36e071298f16bcdb40b0d6"
   integrity sha512-OJnMYKn6ofihKvcGbyJTvbi6/KVRWucZITgiirFBBB9vJylBtuD64oK9cTEm6UAFalZp8Bebrw9bh7eI1A1OfA==
 
-"@svg-icons/heroicons-solid@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/heroicons-solid/-/heroicons-solid-1.1.0.tgz#7378fb6f5609e7d5d50c8e977877ebbf2dfb1711"
-  integrity sha512-CjifgchsofEPZD1iidCiNYus35iTXGhk7ONhcSk/vfFdj7X/oUGuafKHe0Na4XzR1DhwCuinn0inqKNzSCiF5w==
+"@svg-icons/heroicons-solid@1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/heroicons-solid/-/heroicons-solid-1.7.0.tgz#e9a383673aa3eb8bcd45d4ae79f189270595a302"
+  integrity sha512-gaPrPbIQJBSCkJ7GvtZ/G5O5pVtfhlTGeSq3o7xIqS3atrEI0VxBJSQ4j8gmeQGaL053r+BzBrkLZbuoTTSE+g==
 
 "@svg-icons/icomoon@1.1.0":
   version "1.1.0"
@@ -3203,10 +3203,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.0.tgz#69a23a3ad29caf0097f06eda59b361ee2f0639f6"
   integrity sha1-aaI6OtKcrwCX8G7aWbNh7i8GOfY=
 
-"@types/node@*", "@types/node@^14.0.25":
-  version "14.0.25"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.25.tgz#7ad8b00a1206d6c9e94810e49f3115f0bcc30456"
-  integrity sha512-okMqUHqrMlGOxfDZliX1yFX5MV6qcd5PpRz96XYtjkM0Ws/hwg23FMUqt6pETrVRZS+EKUB5HY19mmo54EuQbA==
+"@types/node@*", "@types/node@^14.0.26":
+  version "14.0.26"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.26.tgz#22a3b8a46510da8944b67bfc27df02c34a35331c"
+  integrity sha512-W+fpe5s91FBGE0pEa0lnqGLL4USgpLgs4nokw16SrBBco/gQxuua7KnArSEOd5iaMqbbSHV10vUDkJYJJqpXKA==
 
 "@types/node@^12.7.1":
   version "12.12.47"
