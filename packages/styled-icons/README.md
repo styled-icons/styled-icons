@@ -12,6 +12,7 @@
 
 **[➡️ View the Icon Explorer](https://styled-icons.js.org)**
 
+- [Bootstrap](https://icons.getbootstrap.com/)
 - [Boxicons](https://boxicons.com/)
 - [Crypto Icons](http://cryptoicons.co)
 - [Entypo](http://www.entypo.com/)
@@ -74,6 +75,7 @@ npm install styled-icons --save
 Alternatively you can install only the icon packs you need:
 
 ```
+yarn add @styled-icons/bootstrap
 yarn add @styled-icons/boxicons-logos
 yarn add @styled-icons/boxicons-regular
 yarn add @styled-icons/boxicons-solid
@@ -117,6 +119,7 @@ The entire icon packs are available via the main import and sub-imports:
 ```javascript
 import {material, octicons} from 'styled-icons'
 
+import * as bootstrap from '@styled-icons/bootstrap'
 import * as boxiconsLogos from '@styled-icons/boxicons-logos'
 import * as boxiconsRegular from '@styled-icons/boxicons-regular'
 import * as boxiconsSolid from '@styled-icons/boxicons-solid'
@@ -324,6 +327,8 @@ Contributions are welcome! Feel free to open an issue or a pull request and part
 ## License
 
 The MIT License - see `LICENSE`.
+
+The Bootstrap icons are licensed under the [MIT License](https://github.com/twbs/icons/blob/main/LICENSE.md).
 
 The Boxicons are licensed under the [CC BY 4.0 License](https://boxicons.com/get-started#license).
 

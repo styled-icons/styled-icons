@@ -1,0 +1,41 @@
+{
+  "name": "@styled-icons/bootstrap",
+  "version": "10.13.0",
+  "license": "MIT",
+  "description": "Bootstrap icons available as Styled Components",
+  "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
+  "homepage": "https://github.com/styled-icons/styled-icons",
+  "repository": "git://github.com/styled-icons/styled-icons.git",
+  "keywords": [
+    "styled-icons"
+  ],
+  "funding": {
+    "type": "GitHub",
+    "url": "https://github.com/sponsors/jacobwgillespie"
+  },
+  "main": "./index.js",
+  "module": "./index.esm.js",
+  "types": "./index.d.ts",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "clean": "clean-package",
+    "generate": "generate-icon-package @svg-icons/bootstrap"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.10.5",
+    "@styled-icons/styled-icon": "^10.6.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "styled-components": "*"
+  },
+  "devDependencies": {
+    "@styled-icons/pack-builder": "^10.6.0",
+    "@svg-icons/bootstrap": "1.9.0",
+    "react": "^16.13.1",
+    "styled-components": "^5.1.1"
+  }
+}

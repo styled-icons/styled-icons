@@ -2694,6 +2694,11 @@
     telejson "^3.2.0"
     util-deprecate "^1.0.2"
 
+"@svg-icons/bootstrap@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/bootstrap/-/bootstrap-1.9.0.tgz#49e2ab1909db9187b0aa8fcca8fc7739716ac48e"
+  integrity sha512-Z3MdXXKXBrqOodG7a8UyiDysB3KF0B9v3ExTqB3SRAu7NowbsNrJ/sbqeVH4aO0yG0rmVfO20OCDAEukzHzUEQ==
+
 "@svg-icons/boxicons-logos@1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@svg-icons/boxicons-logos/-/boxicons-logos-1.1.0.tgz#b7d281ff5502bd68d290c42cc19bd9091233d9b8"

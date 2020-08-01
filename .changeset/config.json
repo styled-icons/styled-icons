@@ -4,6 +4,7 @@
   "commit": false,
   "linked": [
     [
+      "@styled-icons/bootstrap",
       "@styled-icons/boxicons-logos",
       "@styled-icons/boxicons-regular",
       "@styled-icons/boxicons-solid",
@@ -36,7 +37,6 @@
       "@styled-icons/simple-icons",
       "@styled-icons/typicons",
       "@styled-icons/zondicons",
-      "@styled-icons/pack-builder",
       "styled-icons"
     ]
   ],
