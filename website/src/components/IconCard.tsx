@@ -3,6 +3,7 @@ import copy from 'copy-to-clipboard'
 import {StyledIcon} from 'styled-icons/types'
 
 const importMap: any = {
+  bootstrap: import('styled-icons/bootstrap'),
   'boxicons-logos': import('styled-icons/boxicons-logos'),
   'boxicons-regular': import('styled-icons/boxicons-regular'),
   'boxicons-solid': import('styled-icons/boxicons-solid'),
