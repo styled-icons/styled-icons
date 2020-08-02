@@ -1,5 +1,11 @@
 # @styled-icons/entypo
 
+## 10.14.1
+
+### Patch Changes
+
+- [#1358](https://github.com/styled-icons/styled-icons/pull/1358): Fix issue where `.tsx` files were accidentally included in the NPM package (breaking some builds) ([`fad866b`](https://github.com/styled-icons/styled-icons/commit/fad866bd6c6dc31226c7011dca564393c2d6469a), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
 ## 10.7.0
 
 ### Minor Changes
