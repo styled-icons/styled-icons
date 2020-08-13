@@ -1,5 +1,16 @@
 # styled-icons
 
+## 10.16.0
+
+### Minor Changes
+
+- [#1379](https://github.com/styled-icons/styled-icons/pull/1379): Upgrade Simple Icons to v3.4.1 ([`4323c39`](https://github.com/styled-icons/styled-icons/commit/4323c39de49bf0af61ebc41680096d2f55318ef6), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+### Patch Changes
+
+- Updated dependencies [[`4323c39`](https://github.com/styled-icons/styled-icons/commit/4323c39de49bf0af61ebc41680096d2f55318ef6)]:
+  - @styled-icons/simple-icons@10.16.0
+
 ## 10.15.1
 
 ### Patch Changes
