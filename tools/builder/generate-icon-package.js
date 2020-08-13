@@ -65,11 +65,15 @@ const pkgJSONBuilt = (name) => `{
 
 const generate = async () => {
   const packModuleName = process.argv[2]
-  const icons = require(path.join(packModuleName, '__manifest.json'))
+  let icons = require(path.join(packModuleName, '__manifest.json'))
 
   if (icons.length === 0) {
     console.error('Error reading icons from pack')
     process.exit(1)
+  }
+
+  if (process.env.SMALL === '1') {
+    icons = icons.slice(0, 10)
   }
 
   const template = await getTemplate()

@@ -19,11 +19,11 @@ module.exports = {
         '@babel/preset-react',
         '@babel/preset-typescript',
         [
-          '@babel/preset-modules',
+          '@babel/preset-env',
           {
             bugfixes: true,
             modules: false,
-            targets: {esmodules: true},
+            targets: {ie: '11'},
           },
         ],
       ],
