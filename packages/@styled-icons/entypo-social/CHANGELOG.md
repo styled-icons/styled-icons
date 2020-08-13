@@ -1,5 +1,11 @@
 # @styled-icons/entypo-social
 
+## 10.15.1
+
+### Patch Changes
+
+- [#1377](https://github.com/styled-icons/styled-icons/pull/1377): Fix IE11 compatibility issue ([`08883e2`](https://github.com/styled-icons/styled-icons/commit/08883e2dc7b3799c0bcca790ac85b6aa5f1d8af3), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
 ## 10.14.1
 
 ### Patch Changes
