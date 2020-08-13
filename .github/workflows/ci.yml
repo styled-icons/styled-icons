@@ -24,6 +24,7 @@ jobs:
         working-directory: storybook/
         env:
           CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          NODE_OPTIONS: --max_old_space_size=6144 # 6 GiB
       - run: cat /home/runner/work/styled-icons/styled-icons/storybook/build-storybook.log || true
         if: always()
 
