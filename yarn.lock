@@ -2450,10 +2450,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/ionicons-solid/-/ionicons-solid-1.1.0.tgz#6bc233a13dca5d3e62a49fc300ed61ecbec11043"
   integrity sha512-ei9S45eh4NPo22K+9OZ2U3y1PQFovPGG8nvlct9YsOy8xNND1ehoI2mNcvQO4K7ku847Me9ZZu3TMG+2sVVTPQ==
 
-"@svg-icons/material-filled@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/material-filled/-/material-filled-1.1.0.tgz#2dc174236ccfc6112b9be3b3a52efef2b857233c"
-  integrity sha512-LySuwCQoO8hLli3JelbeTicj5VojGYwheCxvVTMZOCyhlZneh95CEKP/9B/syi4X+S7ki/diyM0wTbQGrQAfpw==
+"@svg-icons/material-filled@1.12.0":
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/material-filled/-/material-filled-1.12.0.tgz#6bee0fec6df8fbc67cf55136714a065eaa4b9b7c"
+  integrity sha512-hkh0X4yibRLtOSZpjHpP1+RcnGowa3Eh/FQc6P0BHGj+agkS3POqLgOJId3r4hoyapVHSmt0/YLdBxE2Z1tvfA==
 
 "@svg-icons/material-outlined@1.1.0":
   version "1.1.0"
