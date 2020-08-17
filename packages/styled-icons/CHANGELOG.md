@@ -1,5 +1,23 @@
 # styled-icons
 
+## 10.17.0
+
+### Minor Changes
+
+- Upgrade Simple Icons to v3.5.0 ([`ecbcff5`](https://github.com/styled-icons/styled-icons/commit/ecbcff5e474cba74dd6484a0a77a5ce03631f4a0), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+* Upgrade Material Icons to v6.0.0 ([`ecbcff5`](https://github.com/styled-icons/styled-icons/commit/ecbcff5e474cba74dd6484a0a77a5ce03631f4a0), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+### Patch Changes
+
+- Updated dependencies [[`ecbcff5`](https://github.com/styled-icons/styled-icons/commit/ecbcff5e474cba74dd6484a0a77a5ce03631f4a0), [`ecbcff5`](https://github.com/styled-icons/styled-icons/commit/ecbcff5e474cba74dd6484a0a77a5ce03631f4a0)]:
+  - @styled-icons/simple-icons@10.17.0
+  - @styled-icons/material@10.17.0
+  - @styled-icons/material-outlined@10.17.0
+  - @styled-icons/material-rounded@10.17.0
+  - @styled-icons/material-sharp@10.17.0
+  - @styled-icons/material-twotone@10.17.0
+
 ## 10.16.0
 
 ### Minor Changes

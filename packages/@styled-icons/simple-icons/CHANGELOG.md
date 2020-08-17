@@ -1,5 +1,11 @@
 # @styled-icons/simple-icons
 
+## 10.17.0
+
+### Minor Changes
+
+- Upgrade Simple Icons to v3.5.0 ([`ecbcff5`](https://github.com/styled-icons/styled-icons/commit/ecbcff5e474cba74dd6484a0a77a5ce03631f4a0), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
 ## 10.16.0
 
 ### Minor Changes
