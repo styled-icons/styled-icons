@@ -1866,45 +1866,45 @@
     globby "^11.0.0"
     read-yaml-file "^1.1.0"
 
-"@monorepolint/cli@^0.5.0-alpha.49+151895d":
-  version "0.5.0-alpha.49"
-  resolved "https://registry.yarnpkg.com/@monorepolint/cli/-/cli-0.5.0-alpha.49.tgz#a3ef64c3d33c1e192af859b05f2dcd7c6cf80de4"
-  integrity sha512-IL8+fzL80KNEJvhE7xSYU3g4k5Gh7zRcRW5vufRtM9EmvP7+OK4+q7S68Tkn1eoOMNzXyhNepCB29fwqqPbZVw==
+"@monorepolint/cli@^0.5.0-alpha.50+b1f0201":
+  version "0.5.0-alpha.50"
+  resolved "https://registry.yarnpkg.com/@monorepolint/cli/-/cli-0.5.0-alpha.50.tgz#5d17c453b731ac3e12b352020056cf028d0de0a9"
+  integrity sha512-7VjWG6lIy1U78EmvjSlNeFZSx4qbZadsnVbezk+io7VYFkJkPWXqPo3FUUD2aUrPbhIttQuynlhAW4nq0s8D6w==
   dependencies:
-    "@monorepolint/core" "^0.5.0-alpha.49+151895d"
-    "@monorepolint/utils" "^0.5.0-alpha.49+151895d"
+    "@monorepolint/core" "^0.5.0-alpha.50+b1f0201"
+    "@monorepolint/utils" "^0.5.0-alpha.50+b1f0201"
     chalk "^4.1.0"
     yargs "^15.3.1"
 
-"@monorepolint/core@^0.5.0-alpha.49+151895d":
-  version "0.5.0-alpha.49"
-  resolved "https://registry.yarnpkg.com/@monorepolint/core/-/core-0.5.0-alpha.49.tgz#dc550acdadc11f2c702b12ff75ff7b4d66a586cd"
-  integrity sha512-MYINYRP55aQq4x1jUV/zfGW/l64gD5YqdPBT8olPKzM8C7AqCpm0ahurFQW26WJWmFBi9MiTfquPR+LO/7rdeg==
+"@monorepolint/core@^0.5.0-alpha.50+b1f0201":
+  version "0.5.0-alpha.50"
+  resolved "https://registry.yarnpkg.com/@monorepolint/core/-/core-0.5.0-alpha.50.tgz#ae55d5102d012e416d929134f948f9871bf80a5b"
+  integrity sha512-BP2q3jdnaxovSpq/oQqr9JZneTcrirEwePbWltpY7/f6tIVYy9Hpn0d2t54mMUdClXzEUuiU5nOA/rr7Lpe2aQ==
   dependencies:
-    "@monorepolint/utils" "^0.5.0-alpha.49+151895d"
+    "@monorepolint/utils" "^0.5.0-alpha.50+b1f0201"
     camelcase "^6.0.0"
     chalk "^4.1.0"
     minimatch "^3.0.4"
     runtypes "^4.0.0"
     tslib "^2.0.0"
 
-"@monorepolint/rules@^0.5.0-alpha.49+151895d":
-  version "0.5.0-alpha.49"
-  resolved "https://registry.yarnpkg.com/@monorepolint/rules/-/rules-0.5.0-alpha.49.tgz#256a79cae528aebd548dafdf1828c62636e64695"
-  integrity sha512-kvZhiMMiIiAHh4gga/HqmC5XXJZr+yFrXfIt1TSLHnfLEIhUMJzlozn/W13thUK3rX3Qkzs9rJFWp9msDK7c2Q==
+"@monorepolint/rules@^0.5.0-alpha.50+b1f0201":
+  version "0.5.0-alpha.50"
+  resolved "https://registry.yarnpkg.com/@monorepolint/rules/-/rules-0.5.0-alpha.50.tgz#a9a95ff084f3ffe83d761c9a2a5d9c41d55696cb"
+  integrity sha512-VBHF8z6pSCn7MsTZX8Sm7trUGUcrlnv2h9sZVJ+CyVjG0RsuVkP0eg90VgyoZQd5Xy7atBwTyMVIDZsCdnU+Ew==
   dependencies:
-    "@monorepolint/core" "^0.5.0-alpha.49+151895d"
-    "@monorepolint/utils" "^0.5.0-alpha.49+151895d"
+    "@monorepolint/core" "^0.5.0-alpha.50+b1f0201"
+    "@monorepolint/utils" "^0.5.0-alpha.50+b1f0201"
     globby "^11.0.1"
     jest-diff "^26.0.1"
     minimatch "^3.0.4"
     runtypes "^4.0.0"
     semver "^7.3.2"
 
-"@monorepolint/utils@^0.5.0-alpha.49+151895d":
-  version "0.5.0-alpha.49"
-  resolved "https://registry.yarnpkg.com/@monorepolint/utils/-/utils-0.5.0-alpha.49.tgz#e1e0c184da2cfa0f8a43a55d32fa19aa47fc0685"
-  integrity sha512-LNKsXDPdufdPVMTOV/T6FZtQJioBpwCYQjPXLGqwEBASKEB/hVcVJ/I24KSavcOGTuga+u0bIRRk8cosUDYyzQ==
+"@monorepolint/utils@^0.5.0-alpha.50+b1f0201":
+  version "0.5.0-alpha.50"
+  resolved "https://registry.yarnpkg.com/@monorepolint/utils/-/utils-0.5.0-alpha.50.tgz#fe23df36093a2a9384c282ef83f0cf374354f2af"
+  integrity sha512-bScEPq2VNYRrouuWVutMFNstToqysrQaOKq4kvy9P1gClAv40MUCIQwgHzLXDTCPRGS9K4l5iNfShxytj1bnBQ==
   dependencies:
     glob "^7.1.3"
 
@@ -9371,15 +9371,15 @@ moment@^2.18.1:
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.27.0.tgz#8bff4e3e26a236220dfe3e36de756b6ebaa0105d"
   integrity sha512-al0MUK7cpIcglMv3YF13qSgdAIqxHTO7brRtaz3DlSULbqfazqkc5kEjNrLDOM7fsjshoFIihnU8snrP7zUvhQ==
 
-monorepolint@^0.5.0-alpha.49:
-  version "0.5.0-alpha.49"
-  resolved "https://registry.yarnpkg.com/monorepolint/-/monorepolint-0.5.0-alpha.49.tgz#a6db7918151fb160b5f9cabc56231b90f4be9e68"
-  integrity sha512-yvHedopztz5kqf4c/TdugfA8nkLcqBqMfiCVezVtfw/8GugPO+BOCAGwHEWSbEB4UWytG5q6wF6n7y2GBI24JA==
+monorepolint@^0.5.0-alpha.50:
+  version "0.5.0-alpha.50"
+  resolved "https://registry.yarnpkg.com/monorepolint/-/monorepolint-0.5.0-alpha.50.tgz#30057d575bea8896599a9e229c2a3c522777c5b1"
+  integrity sha512-+ESYL55pJ5Vgni0GNQr0rCk/ucani5saGw/CXNBRKk2qNJTFWF5Tn0Ef0+ncF6XXGlG0TmoV9GwF1Vwd0cWdGQ==
   dependencies:
-    "@monorepolint/cli" "^0.5.0-alpha.49+151895d"
-    "@monorepolint/core" "^0.5.0-alpha.49+151895d"
-    "@monorepolint/rules" "^0.5.0-alpha.49+151895d"
-    "@monorepolint/utils" "^0.5.0-alpha.49+151895d"
+    "@monorepolint/cli" "^0.5.0-alpha.50+b1f0201"
+    "@monorepolint/core" "^0.5.0-alpha.50+b1f0201"
+    "@monorepolint/rules" "^0.5.0-alpha.50+b1f0201"
+    "@monorepolint/utils" "^0.5.0-alpha.50+b1f0201"
 
 move-concurrently@^1.0.1:
   version "1.0.1"
