@@ -13,9 +13,9 @@
     "type": "GitHub",
     "url": "https://github.com/sponsors/jacobwgillespie"
   },
-  "main": "./dist/index.js",
-  "module": "./dist/index.esm.js",
-  "types": "./dist/index.d.ts",
+  "main": "./index.js",
+  "module": "./index.esm.js",
+  "types": "./index.d.ts",
   "sideEffects": false,
   "publishConfig": {
     "access": "public"
