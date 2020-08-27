@@ -1,5 +1,15 @@
 # @styled-icons/material-sharp
 
+## 10.18.0
+
+### Minor Changes
+
+- [#1416](https://github.com/styled-icons/styled-icons/pull/1416): Upgrade Material Icons from 6.0.0 to 6.1.0 ([`0af3250`](https://github.com/styled-icons/styled-icons/commit/0af3250c0f2a5b9064a580c4de1b13af2c73b64a), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+### Patch Changes
+
+- [#1415](https://github.com/styled-icons/styled-icons/pull/1415): Fix issue where @styled-icons/styled-icon package.json incorrectly referenced its built files, breaking some builds ([`bddd470`](https://github.com/styled-icons/styled-icons/commit/bddd47013d035410e9e603207e0d203a5e584ef5), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
 ## 10.17.0
 
 ### Minor Changes

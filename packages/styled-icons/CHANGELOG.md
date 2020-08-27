@@ -1,5 +1,56 @@
 # styled-icons
 
+## 10.18.0
+
+### Minor Changes
+
+- [#1416](https://github.com/styled-icons/styled-icons/pull/1416): Bump Simple Icons from 3.5.0 to 3.6.0 ([`0af3250`](https://github.com/styled-icons/styled-icons/commit/0af3250c0f2a5b9064a580c4de1b13af2c73b64a), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+* [#1416](https://github.com/styled-icons/styled-icons/pull/1416): Upgrade Material Icons from 6.0.0 to 6.1.0 ([`0af3250`](https://github.com/styled-icons/styled-icons/commit/0af3250c0f2a5b9064a580c4de1b13af2c73b64a), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+- [#1416](https://github.com/styled-icons/styled-icons/pull/1416): Bump heroicons from 0.3.7 to 0.4.0 ([`0af3250`](https://github.com/styled-icons/styled-icons/commit/0af3250c0f2a5b9064a580c4de1b13af2c73b64a), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+* [#1416](https://github.com/styled-icons/styled-icons/pull/1416): Bump Octicons from 10.0.0 to 10.1.0 ([`0af3250`](https://github.com/styled-icons/styled-icons/commit/0af3250c0f2a5b9064a580c4de1b13af2c73b64a), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+### Patch Changes
+
+- [#1415](https://github.com/styled-icons/styled-icons/pull/1415): Fix issue where @styled-icons/styled-icon package.json incorrectly referenced its built files, breaking some builds ([`bddd470`](https://github.com/styled-icons/styled-icons/commit/bddd47013d035410e9e603207e0d203a5e584ef5), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+- Updated dependencies [[`0af3250`](https://github.com/styled-icons/styled-icons/commit/0af3250c0f2a5b9064a580c4de1b13af2c73b64a), [`0af3250`](https://github.com/styled-icons/styled-icons/commit/0af3250c0f2a5b9064a580c4de1b13af2c73b64a), [`bddd470`](https://github.com/styled-icons/styled-icons/commit/bddd47013d035410e9e603207e0d203a5e584ef5), [`0af3250`](https://github.com/styled-icons/styled-icons/commit/0af3250c0f2a5b9064a580c4de1b13af2c73b64a), [`0af3250`](https://github.com/styled-icons/styled-icons/commit/0af3250c0f2a5b9064a580c4de1b13af2c73b64a)]:
+  - @styled-icons/simple-icons@10.18.0
+  - @styled-icons/material@10.18.0
+  - @styled-icons/material-outlined@10.18.0
+  - @styled-icons/material-rounded@10.18.0
+  - @styled-icons/material-sharp@10.18.0
+  - @styled-icons/material-twotone@10.18.0
+  - @styled-icons/bootstrap@10.18.0
+  - @styled-icons/boxicons-logos@10.18.0
+  - @styled-icons/boxicons-regular@10.18.0
+  - @styled-icons/boxicons-solid@10.18.0
+  - @styled-icons/crypto@10.18.0
+  - @styled-icons/entypo@10.18.0
+  - @styled-icons/entypo-social@10.18.0
+  - @styled-icons/evaicons-outline@10.18.0
+  - @styled-icons/evaicons-solid@10.18.0
+  - @styled-icons/evil@10.18.0
+  - @styled-icons/fa-brands@10.18.0
+  - @styled-icons/fa-regular@10.18.0
+  - @styled-icons/fa-solid@10.18.0
+  - @styled-icons/feather@10.18.0
+  - @styled-icons/foundation@10.18.0
+  - @styled-icons/heroicons-outline@10.18.0
+  - @styled-icons/heroicons-solid@10.18.0
+  - @styled-icons/icomoon@10.18.0
+  - @styled-icons/ionicons-outline@10.18.0
+  - @styled-icons/ionicons-sharp@10.18.0
+  - @styled-icons/ionicons-solid@10.18.0
+  - @styled-icons/octicons@10.18.0
+  - @styled-icons/open-iconic@10.18.0
+  - @styled-icons/remix-fill@10.18.0
+  - @styled-icons/remix-line@10.18.0
+  - @styled-icons/typicons@10.18.0
+  - @styled-icons/zondicons@10.18.0
+
 ## 10.17.0
 
 ### Minor Changes
