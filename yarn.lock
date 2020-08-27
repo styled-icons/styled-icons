@@ -2425,10 +2425,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/heroicons-outline/-/heroicons-outline-1.7.0.tgz#b546b41283cd5c73ff36e071298f16bcdb40b0d6"
   integrity sha512-OJnMYKn6ofihKvcGbyJTvbi6/KVRWucZITgiirFBBB9vJylBtuD64oK9cTEm6UAFalZp8Bebrw9bh7eI1A1OfA==
 
-"@svg-icons/heroicons-solid@1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/heroicons-solid/-/heroicons-solid-1.7.0.tgz#e9a383673aa3eb8bcd45d4ae79f189270595a302"
-  integrity sha512-gaPrPbIQJBSCkJ7GvtZ/G5O5pVtfhlTGeSq3o7xIqS3atrEI0VxBJSQ4j8gmeQGaL053r+BzBrkLZbuoTTSE+g==
+"@svg-icons/heroicons-solid@1.14.0":
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/heroicons-solid/-/heroicons-solid-1.14.0.tgz#8f2635c9323521aac58b54b8af5e8938dfaf9e60"
+  integrity sha512-N8KLd1gaiAbCXlfJDaB9wqFmrypXuRmE0OmwRz3ZV2oBXRvymCv1J9yDgG+iA8Y2GHrk6WqohsWPyH92ib48fw==
 
 "@svg-icons/icomoon@1.1.0":
   version "1.1.0"
