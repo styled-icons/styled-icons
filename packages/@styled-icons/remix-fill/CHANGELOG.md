@@ -1,5 +1,11 @@
 # @styled-icons/remix-fill
 
+## 10.18.0
+
+### Patch Changes
+
+- [#1415](https://github.com/styled-icons/styled-icons/pull/1415): Fix issue where @styled-icons/styled-icon package.json incorrectly referenced its built files, breaking some builds ([`bddd470`](https://github.com/styled-icons/styled-icons/commit/bddd47013d035410e9e603207e0d203a5e584ef5), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
 ## 10.15.1
 
 ### Patch Changes
