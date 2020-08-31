@@ -1,5 +1,11 @@
 # @styled-icons/heroicons-solid
 
+## 10.19.0
+
+### Minor Changes
+
+- [#1426](https://github.com/styled-icons/styled-icons/pull/1426): Bump heroicons from 0.4.0 to 0.4.1 ([`08ac798`](https://github.com/styled-icons/styled-icons/commit/08ac7987d21a5db3420efcac92d429b08c032e69), [@dependabot](https://github.com/apps/dependabot))
+
 ## 10.18.0
 
 ### Minor Changes
