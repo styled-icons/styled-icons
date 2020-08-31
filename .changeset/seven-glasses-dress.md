@@ -1,5 +1,6 @@
 ---
 "@styled-icons/heroicons-solid": minor
+"@styled-icons/heroicons-ouline": minor
 "styled-icons": minor
 ---
 
