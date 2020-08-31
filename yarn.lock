@@ -2420,10 +2420,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/foundation/-/foundation-1.1.0.tgz#66a7e54c2808471941187122ce2e1c6198c3bf3a"
   integrity sha512-n7QtXUu2JI2OpAifUONEg2IWGDndfaHahbkryyyKsgjjmPSVoCQPVz9MTEyy1UdauiQIfn1FtyECuubniKZnGQ==
 
-"@svg-icons/heroicons-outline@1.14.0":
-  version "1.14.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/heroicons-outline/-/heroicons-outline-1.14.0.tgz#ba559e19e0bb443fdb635b033193475197c2e549"
-  integrity sha512-6ly86cC/+yQQ2d6sEVmGTZ2KqIUIl/GI1ValXPR+HR7jwykqSKH4/JR1gX90ELIdtJPnLR2q91I7g7Xc4HVQUw==
+"@svg-icons/heroicons-outline@1.16.0":
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/heroicons-outline/-/heroicons-outline-1.16.0.tgz#cbf983470b50d01cb30ee05530a47f5a92eab939"
+  integrity sha512-Lzw/Dakv0nulyn+NQpPeQ7J6g7UmXdQn5QvvVYIqiV/hYia+GP80J5+lyI7Kf3TF5DSq28CpNoKEVyC8/Z4N1w==
 
 "@svg-icons/heroicons-solid@1.14.0":
   version "1.14.0"
