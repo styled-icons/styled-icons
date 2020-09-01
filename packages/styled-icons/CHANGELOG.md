@@ -1,5 +1,20 @@
 # styled-icons
 
+## 10.19.0
+
+### Minor Changes
+
+- [#1427](https://github.com/styled-icons/styled-icons/pull/1427): Bump bootstrap-icons from 1.0.0-alpha5 to 1.0.0 ([`63257f0`](https://github.com/styled-icons/styled-icons/commit/63257f03764d4e99143f6e949196b76b679090c4), [@dependabot](https://github.com/apps/dependabot))
+
+* [#1426](https://github.com/styled-icons/styled-icons/pull/1426): Bump heroicons from 0.4.0 to 0.4.1 ([`08ac798`](https://github.com/styled-icons/styled-icons/commit/08ac7987d21a5db3420efcac92d429b08c032e69), [@dependabot](https://github.com/apps/dependabot))
+
+### Patch Changes
+
+- Updated dependencies [[`63257f0`](https://github.com/styled-icons/styled-icons/commit/63257f03764d4e99143f6e949196b76b679090c4), [`08ac798`](https://github.com/styled-icons/styled-icons/commit/08ac7987d21a5db3420efcac92d429b08c032e69)]:
+  - @styled-icons/bootstrap@10.19.0
+  - @styled-icons/heroicons-solid@10.19.0
+  - @styled-icons/heroicons-outline@10.19.0
+
 ## 10.18.0
 
 ### Minor Changes
