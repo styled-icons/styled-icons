@@ -1,5 +1,11 @@
 # @styled-icons/octicons
 
+## 10.20.0
+
+### Minor Changes
+
+- [#1444](https://github.com/styled-icons/styled-icons/pull/1444): Upgrade Octicons to v11.0.0 ([`90d570a`](https://github.com/styled-icons/styled-icons/commit/90d570a8e42e5574adc34455461c388e26aecdbd), [@dependabot](https://github.com/apps/dependabot))
+
 ## 10.18.0
 
 ### Minor Changes
