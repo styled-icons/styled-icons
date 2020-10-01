@@ -36,6 +36,6 @@
     "@styled-icons/pack-builder": "^10.6.0",
     "@svg-icons/evaicons-solid": "1.1.0",
     "react": "^16.13.1",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.2.0"
   }
 }
