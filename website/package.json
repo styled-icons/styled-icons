@@ -20,7 +20,7 @@
     "copy-to-clipboard": "^3.2.1",
     "history": "^5.0.0",
     "js-search": "^2.0.0",
-    "query-string": "^6.13.1",
+    "query-string": "^6.13.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-virtualized": "^9.22.2",
