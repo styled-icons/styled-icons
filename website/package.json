@@ -16,15 +16,15 @@
     "start": "next dev"
   },
   "dependencies": {
-    "@loadable/component": "^5.13.1",
+    "@loadable/component": "^5.13.2",
     "copy-to-clipboard": "^3.2.1",
     "history": "^5.0.0",
     "js-search": "^2.0.0",
-    "query-string": "^6.13.1",
+    "query-string": "^6.13.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-virtualized": "^9.22.2",
-    "styled-components": "^5.1.1",
+    "styled-components": "^5.2.0",
     "styled-icons": "^10.6.0"
   },
   "devDependencies": {

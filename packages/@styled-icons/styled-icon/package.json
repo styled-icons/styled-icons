@@ -34,6 +34,6 @@
   "devDependencies": {
     "@styled-icons/pack-builder": "^10.6.0",
     "react": "^16.13.1",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.2.0"
   }
 }
