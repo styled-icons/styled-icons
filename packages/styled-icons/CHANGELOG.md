@@ -1,5 +1,23 @@
 # styled-icons
 
+## 10.22.0
+
+### Minor Changes
+
+- [#1467](https://github.com/styled-icons/styled-icons/pull/1467): Upgrade Font Awesome icons to v5.15.0 ([`a775c53`](https://github.com/styled-icons/styled-icons/commit/a775c53096f2a80c3230cb3ce6bd6003d0249488), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+* [#1467](https://github.com/styled-icons/styled-icons/pull/1467): Upgrade Simple Icons to v3.10.0 ([`a775c53`](https://github.com/styled-icons/styled-icons/commit/a775c53096f2a80c3230cb3ce6bd6003d0249488), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+- [#1457](https://github.com/styled-icons/styled-icons/pull/1457): Upgrade Simple Icons to 3.9.0 ([`cc54737`](https://github.com/styled-icons/styled-icons/commit/cc5473713b57c367f061ed1fa63d3596504d6184), [@dependabot](https://github.com/apps/dependabot))
+
+### Patch Changes
+
+- Updated dependencies [[`a775c53`](https://github.com/styled-icons/styled-icons/commit/a775c53096f2a80c3230cb3ce6bd6003d0249488), [`a775c53`](https://github.com/styled-icons/styled-icons/commit/a775c53096f2a80c3230cb3ce6bd6003d0249488), [`cc54737`](https://github.com/styled-icons/styled-icons/commit/cc5473713b57c367f061ed1fa63d3596504d6184)]:
+  - @styled-icons/fa-brands@10.22.0
+  - @styled-icons/fa-regular@10.22.0
+  - @styled-icons/fa-solid@10.22.0
+  - @styled-icons/simple-icons@10.22.0
+
 ## 10.21.0
 
 ### Minor Changes

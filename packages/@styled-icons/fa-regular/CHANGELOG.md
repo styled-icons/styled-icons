@@ -1,5 +1,11 @@
 # @styled-icons/fa-regular
 
+## 10.22.0
+
+### Minor Changes
+
+- [#1467](https://github.com/styled-icons/styled-icons/pull/1467): Upgrade Font Awesome icons to v5.15.0 ([`a775c53`](https://github.com/styled-icons/styled-icons/commit/a775c53096f2a80c3230cb3ce6bd6003d0249488), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
 ## 10.18.0
 
 ### Patch Changes
