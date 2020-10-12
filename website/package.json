@@ -31,6 +31,6 @@
     "@types/js-search": "^1.4.0",
     "@types/react-dom": "^16.9.8",
     "@types/react-virtualized": "^9.21.10",
-    "next": "^9.5.3"
+    "next": "^9.5.5"
   }
 }
