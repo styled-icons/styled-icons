@@ -2238,10 +2238,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/bootstrap/-/bootstrap-1.17.0.tgz#16286b9409292870a7449472fca5c01d0047e68a"
   integrity sha512-BoBCevl+3j754arp7OEo6yiUEDHXD+t5C6I5apYRrhWB1g4tdNgWehB8iddW00+hX8lHrEyIkrSqLrtBVpJ0Zw==
 
-"@svg-icons/boxicons-logos@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/boxicons-logos/-/boxicons-logos-1.1.0.tgz#b7d281ff5502bd68d290c42cc19bd9091233d9b8"
-  integrity sha512-0RmNlgGG3yVmEJTBcXzG73RkVAUYd7aL+gsN61/2xqsKqBH1hPLemFlDuOjdVeYmuBXcCyzHaNM+iBQ90sSNKA==
+"@svg-icons/boxicons-logos@1.23.0":
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/boxicons-logos/-/boxicons-logos-1.23.0.tgz#c816e16e42a244833c74dfb3355b3e5589ac2d5e"
+  integrity sha512-jNpQp34Ijp3xn9ezz7HJlGIYQzwHEYOfzFs0blGcsSMuJaaLFha53vyznXdJuHkbN42eWlQce/FEGosHE0lyrg==
 
 "@svg-icons/boxicons-regular@1.1.0":
   version "1.1.0"
