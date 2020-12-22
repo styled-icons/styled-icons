@@ -2353,10 +2353,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/material-rounded/-/material-rounded-1.15.0.tgz#8b592e7eaa2fa26dc4f200247fa43ff871c0174b"
   integrity sha512-9XprdTFQf1ERSvZms5IDKIJwqMTosWoD0pT//TH1T4VtFALR50nzYMY4tvFTkzaYpayxN0hG+0wGNMnaITBnxw==
 
-"@svg-icons/material-sharp@1.15.0":
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/material-sharp/-/material-sharp-1.15.0.tgz#994716747108f5fbe27266482d83ed6aae1e4384"
-  integrity sha512-IP/COpzghhP891c+SJEHGjFsv4ViUvqTIOxYcAxEwi0i34WBfaAjCI7Miss0tPz9dyWSQWVIovN7ZQbFUGHIeg==
+"@svg-icons/material-sharp@1.25.0":
+  version "1.25.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/material-sharp/-/material-sharp-1.25.0.tgz#a5a8c5a999a825561dce811946c7806ba6731023"
+  integrity sha512-/hebQM//Fqwjacfi/k7QRQ0eZy1Rb/mZKz8hYedh9siXAxgE6q/nEsT27CZVmWpCsGr1cYYKksJ0e76+UE3hTA==
 
 "@svg-icons/material-twotone@1.15.0":
   version "1.15.0"
