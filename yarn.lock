@@ -2293,10 +2293,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/fa-regular/-/fa-regular-1.21.0.tgz#3ddc81653afbf6d555c7b6092444777df087f2c1"
   integrity sha512-RG7uCavbpc05AFQ8aM+S0CRPyPMA1DQZWtq/HuNMJsHMNWIWN5z+VfGEbrA0vr1blNNP1r9Z1zL4ZHuBK8GsZg==
 
-"@svg-icons/fa-solid@1.21.0":
-  version "1.21.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/fa-solid/-/fa-solid-1.21.0.tgz#56933ec4f94e7a7df2d5306707b2f303084a445d"
-  integrity sha512-hpb9R62I1YPcs9f0Hf7elMnar37F5oJacPHIFRcy58cXnnZeMGXSVM121mdyTZRt/VHf2mdOzd1bvNjKPGZGlQ==
+"@svg-icons/fa-solid@1.22.0":
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/fa-solid/-/fa-solid-1.22.0.tgz#32f25d728b3a2937f1821077abdc029eb828ea01"
+  integrity sha512-BeXWPiIGUX2wCcovQD1kNmGrA++6JB7nFZqwuv7LHoMWCUx9dfYiI/xOhZ7k58PqtG3c8DGAP5zfjaLcSuFYSg==
 
 "@svg-icons/feather@1.1.0":
   version "1.1.0"
