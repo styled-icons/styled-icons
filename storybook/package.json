@@ -17,17 +17,17 @@
     "storybook": "start-storybook -p 6006"
   },
   "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "styled-components": "^5.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1",
     "styled-icons": "^10.6.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.6",
-    "@storybook/addons": "^6.0.22",
-    "@storybook/react": "^6.0.22",
-    "babel-loader": "^8.1.0",
-    "chromatic": "^5.2.0",
+    "@babel/core": "^7.12.10",
+    "@storybook/addons": "^6.1.11",
+    "@storybook/react": "^6.1.11",
+    "babel-loader": "^8.2.2",
+    "chromatic": "^5.5.0",
     "fs-extra": "^9.0.1"
   }
 }

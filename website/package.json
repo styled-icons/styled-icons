@@ -16,21 +16,21 @@
     "start": "next dev"
   },
   "dependencies": {
-    "@loadable/component": "^5.13.2",
-    "copy-to-clipboard": "^3.2.1",
+    "@loadable/component": "^5.14.1",
+    "copy-to-clipboard": "^3.3.1",
     "history": "^5.0.0",
     "js-search": "^2.0.0",
-    "query-string": "^6.13.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "query-string": "^6.13.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "react-virtualized": "^9.22.3",
-    "styled-components": "^5.2.0",
+    "styled-components": "^5.2.1",
     "styled-icons": "^10.6.0"
   },
   "devDependencies": {
     "@types/js-search": "^1.4.0",
-    "@types/react-dom": "^16.9.8",
+    "@types/react-dom": "^17.0.0",
     "@types/react-virtualized": "^9.21.10",
-    "next": "^9.5.3"
+    "next": "^10.0.4"
   }
 }
