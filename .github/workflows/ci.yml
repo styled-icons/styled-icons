@@ -18,7 +18,7 @@ jobs:
           key: ${{ runner.os }}-yarn-v1-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-v1-
-      - run: yarn install --frozen-lockfile
+      - run: yarn install --immutable
       - run: yarn build:icons
       - run: yarn chromatic --exit-once-uploaded --exit-zero-on-changes
         if: github.actor != 'dependabot[bot]'
@@ -44,6 +44,6 @@ jobs:
           key: ${{ runner.os }}-yarn-v1-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-v1-
-      - run: yarn install --frozen-lockfile
+      - run: yarn install --immutable
       - run: yarn fmt:check
       - run: yarn mrl check

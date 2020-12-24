@@ -19,7 +19,7 @@ jobs:
           key: ${{ runner.os }}-yarn-v1-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-v1-
-      - run: yarn install --frozen-lockfile
+      - run: yarn install --immutable
       - uses: changesets/action@master
         with:
           publish: yarn release
