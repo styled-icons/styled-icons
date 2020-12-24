@@ -1,6 +1,9 @@
 name: Release
 on: push
 
+env:
+  NODE_OPTIONS: --max_old_space_size=8192
+
 jobs:
   release:
     name: Release
