@@ -1,5 +1,11 @@
 # @styled-icons/boxicons-solid
 
+## 10.23.0
+
+### Minor Changes
+
+- [#1582](https://github.com/styled-icons/styled-icons/pull/1582): Upgrade Boxicons to v2.0.7 ([`7328ee9`](https://github.com/styled-icons/styled-icons/commit/7328ee9ea82b054a33890267f9c94a647afb5315), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
 ## 10.18.0
 
 ### Patch Changes
