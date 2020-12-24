@@ -3242,7 +3242,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/pack-builder@^10.6.0, @styled-icons/pack-builder@workspace:tools/builder":
+"@styled-icons/pack-builder@^10.6.0, @styled-icons/pack-builder@^10.6.1, @styled-icons/pack-builder@workspace:tools/builder":
   version: 0.0.0-use.local
   resolution: "@styled-icons/pack-builder@workspace:tools/builder"
   dependencies:
@@ -14916,6 +14916,7 @@ fsevents@~2.1.2:
     "@styled-icons/material-twotone": ^10.18.0
     "@styled-icons/octicons": ^10.20.0
     "@styled-icons/open-iconic": ^10.18.0
+    "@styled-icons/pack-builder": ^10.6.1
     "@styled-icons/remix-fill": ^10.18.0
     "@styled-icons/remix-line": ^10.18.0
     "@styled-icons/simple-icons": ^10.22.0
