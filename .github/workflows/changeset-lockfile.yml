@@ -1,0 +1,36 @@
+name: yarn.lock
+on:
+  push:
+    branches: [changeset-release/**]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: contains(github.event.head_commit.message, 'Version Packages')
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+          persist-credentials: false
+      - name: Update lockfile
+        run: |
+          yarn install
+          yarn dedupe
+        env:
+          YARN_ENABLE_SCRIPTS: 0
+      - name: Config Git
+        run: |
+          BASIC_AUTH=$(echo -n "x-access-token:${{ secrets.BOT_GITHUB_TOKEN }}" | base64)
+          echo "::add-mask::$BASIC_AUTH"
+          git config --global user.name '${{ github.event.commits[0].author.name }}'
+          git config --global user.email '${{ github.event.commits[0].author.email }}'
+          git config --local http.$GITHUB_SERVER_URL/.extraheader "AUTHORIZATION: basic $BASIC_AUTH"
+      - name: Commit changes
+        run: |
+          if [[ -n $(git status -s) ]]; then
+            git add yarn.lock
+            git commit -m "Update yarn.lock"
+            git push
+          else
+            echo "No yarn.lock changes necessary"
+          fi
