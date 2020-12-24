@@ -11,14 +11,14 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
-      - run: echo "::set-output name=dir::$(yarn cache dir)"
+      - run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
         id: yarn-cache-dir-path
       - uses: actions/cache@v2
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-v1-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-yarn-v2-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.os }}-yarn-v1-
+            ${{ runner.os }}-yarn-v2-
       - run: yarn install --immutable
       - uses: changesets/action@master
         with:
