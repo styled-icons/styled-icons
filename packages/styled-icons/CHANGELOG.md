@@ -1,5 +1,47 @@
 # styled-icons
 
+## 10.23.0
+
+### Minor Changes
+
+- [#1582](https://github.com/styled-icons/styled-icons/pull/1582): Upgrade Font Awesome to v5.15.1 ([`7328ee9`](https://github.com/styled-icons/styled-icons/commit/7328ee9ea82b054a33890267f9c94a647afb5315), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+* [#1582](https://github.com/styled-icons/styled-icons/pull/1582): Upgrade Cryptocurrency icons to v0.17.0 ([`7328ee9`](https://github.com/styled-icons/styled-icons/commit/7328ee9ea82b054a33890267f9c94a647afb5315), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+- [#1582](https://github.com/styled-icons/styled-icons/pull/1582): Upgrade Octicons to v11.2.0 ([`7328ee9`](https://github.com/styled-icons/styled-icons/commit/7328ee9ea82b054a33890267f9c94a647afb5315), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+* [#1582](https://github.com/styled-icons/styled-icons/pull/1582): Upgrade Bootstrap icons to v1.2.2 ([`7328ee9`](https://github.com/styled-icons/styled-icons/commit/7328ee9ea82b054a33890267f9c94a647afb5315), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+- [#1582](https://github.com/styled-icons/styled-icons/pull/1582): Upgrade Boxicons to v2.0.7 ([`7328ee9`](https://github.com/styled-icons/styled-icons/commit/7328ee9ea82b054a33890267f9c94a647afb5315), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+* [#1582](https://github.com/styled-icons/styled-icons/pull/1582): Upgrade Material icons to v6.2.0 ([`7328ee9`](https://github.com/styled-icons/styled-icons/commit/7328ee9ea82b054a33890267f9c94a647afb5315), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+- [#1582](https://github.com/styled-icons/styled-icons/pull/1582): Upgrade Ionicons to v5.2.3 ([`7328ee9`](https://github.com/styled-icons/styled-icons/commit/7328ee9ea82b054a33890267f9c94a647afb5315), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+* [#1582](https://github.com/styled-icons/styled-icons/pull/1582): Upgrade Simple Icons to v4.3.0 ([`7328ee9`](https://github.com/styled-icons/styled-icons/commit/7328ee9ea82b054a33890267f9c94a647afb5315), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+### Patch Changes
+
+- Updated dependencies [[`7328ee9`](https://github.com/styled-icons/styled-icons/commit/7328ee9ea82b054a33890267f9c94a647afb5315), [`7328ee9`](https://github.com/styled-icons/styled-icons/commit/7328ee9ea82b054a33890267f9c94a647afb5315), [`7328ee9`](https://github.com/styled-icons/styled-icons/commit/7328ee9ea82b054a33890267f9c94a647afb5315), [`7328ee9`](https://github.com/styled-icons/styled-icons/commit/7328ee9ea82b054a33890267f9c94a647afb5315), [`7328ee9`](https://github.com/styled-icons/styled-icons/commit/7328ee9ea82b054a33890267f9c94a647afb5315), [`7328ee9`](https://github.com/styled-icons/styled-icons/commit/7328ee9ea82b054a33890267f9c94a647afb5315), [`7328ee9`](https://github.com/styled-icons/styled-icons/commit/7328ee9ea82b054a33890267f9c94a647afb5315), [`7328ee9`](https://github.com/styled-icons/styled-icons/commit/7328ee9ea82b054a33890267f9c94a647afb5315)]:
+  - @styled-icons/fa-brands@10.23.0
+  - @styled-icons/fa-regular@10.23.0
+  - @styled-icons/fa-solid@10.23.0
+  - @styled-icons/crypto@10.23.0
+  - @styled-icons/octicons@10.23.0
+  - @styled-icons/bootstrap@10.23.0
+  - @styled-icons/boxicons-logos@10.23.0
+  - @styled-icons/boxicons-regular@10.23.0
+  - @styled-icons/boxicons-solid@10.23.0
+  - @styled-icons/material@10.23.0
+  - @styled-icons/material-outlined@10.23.0
+  - @styled-icons/material-rounded@10.23.0
+  - @styled-icons/material-sharp@10.23.0
+  - @styled-icons/material-twotone@10.23.0
+  - @styled-icons/ionicons-outline@10.23.0
+  - @styled-icons/ionicons-sharp@10.23.0
+  - @styled-icons/ionicons-solid@10.23.0
+  - @styled-icons/simple-icons@10.23.0
+
 ## 10.22.0
 
 ### Minor Changes

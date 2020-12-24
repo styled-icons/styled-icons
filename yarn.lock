@@ -2794,7 +2794,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@styled-icons/bootstrap@^10.19.0, @styled-icons/bootstrap@workspace:packages/@styled-icons/bootstrap":
+"@styled-icons/bootstrap@^10.23.0, @styled-icons/bootstrap@workspace:packages/@styled-icons/bootstrap":
   version: 0.0.0-use.local
   resolution: "@styled-icons/bootstrap@workspace:packages/@styled-icons/bootstrap"
   dependencies:
@@ -2810,7 +2810,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/boxicons-logos@^10.18.0, @styled-icons/boxicons-logos@workspace:packages/@styled-icons/boxicons-logos":
+"@styled-icons/boxicons-logos@^10.23.0, @styled-icons/boxicons-logos@workspace:packages/@styled-icons/boxicons-logos":
   version: 0.0.0-use.local
   resolution: "@styled-icons/boxicons-logos@workspace:packages/@styled-icons/boxicons-logos"
   dependencies:
@@ -2826,7 +2826,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/boxicons-regular@^10.18.0, @styled-icons/boxicons-regular@workspace:packages/@styled-icons/boxicons-regular":
+"@styled-icons/boxicons-regular@^10.23.0, @styled-icons/boxicons-regular@workspace:packages/@styled-icons/boxicons-regular":
   version: 0.0.0-use.local
   resolution: "@styled-icons/boxicons-regular@workspace:packages/@styled-icons/boxicons-regular"
   dependencies:
@@ -2842,7 +2842,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/boxicons-solid@^10.18.0, @styled-icons/boxicons-solid@workspace:packages/@styled-icons/boxicons-solid":
+"@styled-icons/boxicons-solid@^10.23.0, @styled-icons/boxicons-solid@workspace:packages/@styled-icons/boxicons-solid":
   version: 0.0.0-use.local
   resolution: "@styled-icons/boxicons-solid@workspace:packages/@styled-icons/boxicons-solid"
   dependencies:
@@ -2858,7 +2858,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/crypto@^10.18.0, @styled-icons/crypto@workspace:packages/@styled-icons/crypto":
+"@styled-icons/crypto@^10.23.0, @styled-icons/crypto@workspace:packages/@styled-icons/crypto":
   version: 0.0.0-use.local
   resolution: "@styled-icons/crypto@workspace:packages/@styled-icons/crypto"
   dependencies:
@@ -2954,7 +2954,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/fa-brands@^10.22.0, @styled-icons/fa-brands@workspace:packages/@styled-icons/fa-brands":
+"@styled-icons/fa-brands@^10.23.0, @styled-icons/fa-brands@workspace:packages/@styled-icons/fa-brands":
   version: 0.0.0-use.local
   resolution: "@styled-icons/fa-brands@workspace:packages/@styled-icons/fa-brands"
   dependencies:
@@ -2970,7 +2970,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/fa-regular@^10.22.0, @styled-icons/fa-regular@workspace:packages/@styled-icons/fa-regular":
+"@styled-icons/fa-regular@^10.23.0, @styled-icons/fa-regular@workspace:packages/@styled-icons/fa-regular":
   version: 0.0.0-use.local
   resolution: "@styled-icons/fa-regular@workspace:packages/@styled-icons/fa-regular"
   dependencies:
@@ -2986,7 +2986,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/fa-solid@^10.22.0, @styled-icons/fa-solid@workspace:packages/@styled-icons/fa-solid":
+"@styled-icons/fa-solid@^10.23.0, @styled-icons/fa-solid@workspace:packages/@styled-icons/fa-solid":
   version: 0.0.0-use.local
   resolution: "@styled-icons/fa-solid@workspace:packages/@styled-icons/fa-solid"
   dependencies:
@@ -3082,7 +3082,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/ionicons-outline@^10.18.0, @styled-icons/ionicons-outline@workspace:packages/@styled-icons/ionicons-outline":
+"@styled-icons/ionicons-outline@^10.23.0, @styled-icons/ionicons-outline@workspace:packages/@styled-icons/ionicons-outline":
   version: 0.0.0-use.local
   resolution: "@styled-icons/ionicons-outline@workspace:packages/@styled-icons/ionicons-outline"
   dependencies:
@@ -3098,7 +3098,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/ionicons-sharp@^10.18.0, @styled-icons/ionicons-sharp@workspace:packages/@styled-icons/ionicons-sharp":
+"@styled-icons/ionicons-sharp@^10.23.0, @styled-icons/ionicons-sharp@workspace:packages/@styled-icons/ionicons-sharp":
   version: 0.0.0-use.local
   resolution: "@styled-icons/ionicons-sharp@workspace:packages/@styled-icons/ionicons-sharp"
   dependencies:
@@ -3114,7 +3114,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/ionicons-solid@^10.18.0, @styled-icons/ionicons-solid@workspace:packages/@styled-icons/ionicons-solid":
+"@styled-icons/ionicons-solid@^10.23.0, @styled-icons/ionicons-solid@workspace:packages/@styled-icons/ionicons-solid":
   version: 0.0.0-use.local
   resolution: "@styled-icons/ionicons-solid@workspace:packages/@styled-icons/ionicons-solid"
   dependencies:
@@ -3130,7 +3130,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/material-outlined@^10.18.0, @styled-icons/material-outlined@workspace:packages/@styled-icons/material-outlined":
+"@styled-icons/material-outlined@^10.23.0, @styled-icons/material-outlined@workspace:packages/@styled-icons/material-outlined":
   version: 0.0.0-use.local
   resolution: "@styled-icons/material-outlined@workspace:packages/@styled-icons/material-outlined"
   dependencies:
@@ -3146,7 +3146,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/material-rounded@^10.18.0, @styled-icons/material-rounded@workspace:packages/@styled-icons/material-rounded":
+"@styled-icons/material-rounded@^10.23.0, @styled-icons/material-rounded@workspace:packages/@styled-icons/material-rounded":
   version: 0.0.0-use.local
   resolution: "@styled-icons/material-rounded@workspace:packages/@styled-icons/material-rounded"
   dependencies:
@@ -3162,7 +3162,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/material-sharp@^10.18.0, @styled-icons/material-sharp@workspace:packages/@styled-icons/material-sharp":
+"@styled-icons/material-sharp@^10.23.0, @styled-icons/material-sharp@workspace:packages/@styled-icons/material-sharp":
   version: 0.0.0-use.local
   resolution: "@styled-icons/material-sharp@workspace:packages/@styled-icons/material-sharp"
   dependencies:
@@ -3178,7 +3178,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/material-twotone@^10.18.0, @styled-icons/material-twotone@workspace:packages/@styled-icons/material-twotone":
+"@styled-icons/material-twotone@^10.23.0, @styled-icons/material-twotone@workspace:packages/@styled-icons/material-twotone":
   version: 0.0.0-use.local
   resolution: "@styled-icons/material-twotone@workspace:packages/@styled-icons/material-twotone"
   dependencies:
@@ -3194,7 +3194,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/material@^10.18.0, @styled-icons/material@workspace:packages/@styled-icons/material":
+"@styled-icons/material@^10.23.0, @styled-icons/material@workspace:packages/@styled-icons/material":
   version: 0.0.0-use.local
   resolution: "@styled-icons/material@workspace:packages/@styled-icons/material"
   dependencies:
@@ -3210,7 +3210,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/octicons@^10.20.0, @styled-icons/octicons@workspace:packages/@styled-icons/octicons":
+"@styled-icons/octicons@^10.23.0, @styled-icons/octicons@workspace:packages/@styled-icons/octicons":
   version: 0.0.0-use.local
   resolution: "@styled-icons/octicons@workspace:packages/@styled-icons/octicons"
   dependencies:
@@ -3294,7 +3294,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/simple-icons@^10.22.0, @styled-icons/simple-icons@workspace:packages/@styled-icons/simple-icons":
+"@styled-icons/simple-icons@^10.23.0, @styled-icons/simple-icons@workspace:packages/@styled-icons/simple-icons":
   version: 0.0.0-use.local
   resolution: "@styled-icons/simple-icons@workspace:packages/@styled-icons/simple-icons"
   dependencies:
@@ -14890,38 +14890,38 @@ fsevents@~2.1.2:
   resolution: "styled-icons@workspace:packages/styled-icons"
   dependencies:
     "@babel/runtime": ^7.12.5
-    "@styled-icons/bootstrap": ^10.19.0
-    "@styled-icons/boxicons-logos": ^10.18.0
-    "@styled-icons/boxicons-regular": ^10.18.0
-    "@styled-icons/boxicons-solid": ^10.18.0
-    "@styled-icons/crypto": ^10.18.0
+    "@styled-icons/bootstrap": ^10.23.0
+    "@styled-icons/boxicons-logos": ^10.23.0
+    "@styled-icons/boxicons-regular": ^10.23.0
+    "@styled-icons/boxicons-solid": ^10.23.0
+    "@styled-icons/crypto": ^10.23.0
     "@styled-icons/entypo": ^10.18.0
     "@styled-icons/entypo-social": ^10.18.0
     "@styled-icons/evaicons-outline": ^10.18.0
     "@styled-icons/evaicons-solid": ^10.18.0
     "@styled-icons/evil": ^10.18.0
-    "@styled-icons/fa-brands": ^10.22.0
-    "@styled-icons/fa-regular": ^10.22.0
-    "@styled-icons/fa-solid": ^10.22.0
+    "@styled-icons/fa-brands": ^10.23.0
+    "@styled-icons/fa-regular": ^10.23.0
+    "@styled-icons/fa-solid": ^10.23.0
     "@styled-icons/feather": ^10.18.0
     "@styled-icons/foundation": ^10.18.0
     "@styled-icons/heroicons-outline": ^10.19.0
     "@styled-icons/heroicons-solid": ^10.19.0
     "@styled-icons/icomoon": ^10.18.0
-    "@styled-icons/ionicons-outline": ^10.18.0
-    "@styled-icons/ionicons-sharp": ^10.18.0
-    "@styled-icons/ionicons-solid": ^10.18.0
-    "@styled-icons/material": ^10.18.0
-    "@styled-icons/material-outlined": ^10.18.0
-    "@styled-icons/material-rounded": ^10.18.0
-    "@styled-icons/material-sharp": ^10.18.0
-    "@styled-icons/material-twotone": ^10.18.0
-    "@styled-icons/octicons": ^10.20.0
+    "@styled-icons/ionicons-outline": ^10.23.0
+    "@styled-icons/ionicons-sharp": ^10.23.0
+    "@styled-icons/ionicons-solid": ^10.23.0
+    "@styled-icons/material": ^10.23.0
+    "@styled-icons/material-outlined": ^10.23.0
+    "@styled-icons/material-rounded": ^10.23.0
+    "@styled-icons/material-sharp": ^10.23.0
+    "@styled-icons/material-twotone": ^10.23.0
+    "@styled-icons/octicons": ^10.23.0
     "@styled-icons/open-iconic": ^10.18.0
     "@styled-icons/pack-builder": ^10.6.1
     "@styled-icons/remix-fill": ^10.18.0
     "@styled-icons/remix-line": ^10.18.0
-    "@styled-icons/simple-icons": ^10.22.0
+    "@styled-icons/simple-icons": ^10.23.0
     "@styled-icons/styled-icon": ^10.6.0
     "@styled-icons/typicons": ^10.18.0
     "@styled-icons/zondicons": ^10.18.0
