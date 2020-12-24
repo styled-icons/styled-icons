@@ -2004,7 +2004,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@monorepolint/cli@npm:^0.5.0-alpha.50+b1f0201":
+"@monorepolint/cli@npm:^0.5.0-alpha.50, @monorepolint/cli@npm:^0.5.0-alpha.50+b1f0201":
   version: 0.5.0-alpha.50
   resolution: "@monorepolint/cli@npm:0.5.0-alpha.50"
   dependencies:
@@ -13818,6 +13818,7 @@ fsevents@~2.1.2:
     "@babel/preset-typescript": ^7.12.7
     "@changesets/changelog-github": ^0.2.7
     "@changesets/cli": ^2.12.0
+    "@monorepolint/cli": ^0.5.0-alpha.50
     "@types/node": ^14.14.16
     "@types/react": ^17.0.0
     "@types/styled-components": ^5.1.7
