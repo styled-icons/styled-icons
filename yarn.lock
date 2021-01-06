@@ -3118,7 +3118,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/ionicons-outline@^10.23.0, @styled-icons/ionicons-outline@workspace:packages/@styled-icons/ionicons-outline":
+"@styled-icons/ionicons-outline@^10.24.0, @styled-icons/ionicons-outline@workspace:packages/@styled-icons/ionicons-outline":
   version: 0.0.0-use.local
   resolution: "@styled-icons/ionicons-outline@workspace:packages/@styled-icons/ionicons-outline"
   dependencies:
@@ -3136,7 +3136,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/ionicons-sharp@^10.23.0, @styled-icons/ionicons-sharp@workspace:packages/@styled-icons/ionicons-sharp":
+"@styled-icons/ionicons-sharp@^10.24.0, @styled-icons/ionicons-sharp@workspace:packages/@styled-icons/ionicons-sharp":
   version: 0.0.0-use.local
   resolution: "@styled-icons/ionicons-sharp@workspace:packages/@styled-icons/ionicons-sharp"
   dependencies:
@@ -3154,7 +3154,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/ionicons-solid@^10.23.0, @styled-icons/ionicons-solid@workspace:packages/@styled-icons/ionicons-solid":
+"@styled-icons/ionicons-solid@^10.24.0, @styled-icons/ionicons-solid@workspace:packages/@styled-icons/ionicons-solid":
   version: 0.0.0-use.local
   resolution: "@styled-icons/ionicons-solid@workspace:packages/@styled-icons/ionicons-solid"
   dependencies:
@@ -3354,7 +3354,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/simple-icons@^10.23.0, @styled-icons/simple-icons@workspace:packages/@styled-icons/simple-icons":
+"@styled-icons/simple-icons@^10.24.0, @styled-icons/simple-icons@workspace:packages/@styled-icons/simple-icons":
   version: 0.0.0-use.local
   resolution: "@styled-icons/simple-icons@workspace:packages/@styled-icons/simple-icons"
   dependencies:
@@ -8194,16 +8194,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esrecurse@npm:^4.1.0":
-  version: 4.2.1
-  resolution: "esrecurse@npm:4.2.1"
-  dependencies:
-    estraverse: ^4.1.0
-  checksum: 9acfa287729037ccb63ee725df2214b313fe1296a91f58fe42b151e1af0d51558ac18486e53f5717477ad9306f7a79d4e20fc7f8bac486d3175f86ab2dc67f73
-  languageName: node
-  linkType: hard
-
-"esrecurse@npm:^4.3.0":
+"esrecurse@npm:^4.1.0, esrecurse@npm:^4.3.0":
   version: 4.3.0
   resolution: "esrecurse@npm:4.3.0"
   dependencies:
@@ -8212,7 +8203,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"estraverse@npm:^4.1.0, estraverse@npm:^4.1.1, estraverse@npm:^4.2.0":
+"estraverse@npm:^4.1.1, estraverse@npm:^4.2.0":
   version: 4.3.0
   resolution: "estraverse@npm:4.3.0"
   checksum: 1e4c627da9e9af07bf7b2817320f606841808fb2ec0cbd81097b30d5f90d8613288b3e523153babe04615d59b54ef876d98f0ca27488b6c0934dacd725a8d338
@@ -10586,18 +10577,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"jest-worker@npm:^26.2.1":
-  version: 26.3.0
-  resolution: "jest-worker@npm:26.3.0"
-  dependencies:
-    "@types/node": "*"
-    merge-stream: ^2.0.0
-    supports-color: ^7.0.0
-  checksum: 6b7190ef8f6e0dec1a2ed865624e45bc7a7d18795911890423813d1972521abe6f1f2e57076070cb70efa3b5f1b5cf54f33bc7e0bcda41d04341df47f0487d59
-  languageName: node
-  linkType: hard
-
-"jest-worker@npm:^26.6.1":
+"jest-worker@npm:^26.2.1, jest-worker@npm:^26.6.1":
   version: 26.6.2
   resolution: "jest-worker@npm:26.6.2"
   dependencies:
@@ -11427,13 +11407,6 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"mime-db@npm:1.44.0":
-  version: 1.44.0
-  resolution: "mime-db@npm:1.44.0"
-  checksum: b4e3b2141418572fba9786f7e36324faef15e23032ad0871f56760cb304ee721ba4c8cc795d3c1cac69a2a8b94045c1d6b08c4a8d1ef6ba1226a3a5193915c57
-  languageName: node
-  linkType: hard
-
 "mime-db@npm:1.45.0":
   version: 1.45.0
   resolution: "mime-db@npm:1.45.0"
@@ -11441,16 +11414,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"mime-types@npm:^2.1.12, mime-types@npm:^2.1.26, mime-types@npm:~2.1.19, mime-types@npm:~2.1.24":
-  version: 2.1.27
-  resolution: "mime-types@npm:2.1.27"
-  dependencies:
-    mime-db: 1.44.0
-  checksum: 51fe2f2c08c10ac7a2f67e2ce5de30f6500faa88d095418a1ab6e90e30960db7c682a8ecce60d3d4e293ac52c4700ca99399833db998ea9ec83d6f0503b70a94
-  languageName: node
-  linkType: hard
-
-"mime-types@npm:^2.1.27":
+"mime-types@npm:^2.1.12, mime-types@npm:^2.1.26, mime-types@npm:^2.1.27, mime-types@npm:~2.1.19, mime-types@npm:~2.1.24":
   version: 2.1.28
   resolution: "mime-types@npm:2.1.28"
   dependencies:
@@ -15288,9 +15252,9 @@ fsevents@~2.1.2:
     "@styled-icons/heroicons-outline": ^10.19.0
     "@styled-icons/heroicons-solid": ^10.19.0
     "@styled-icons/icomoon": ^10.18.0
-    "@styled-icons/ionicons-outline": ^10.23.0
-    "@styled-icons/ionicons-sharp": ^10.23.0
-    "@styled-icons/ionicons-solid": ^10.23.0
+    "@styled-icons/ionicons-outline": ^10.24.0
+    "@styled-icons/ionicons-sharp": ^10.24.0
+    "@styled-icons/ionicons-solid": ^10.24.0
     "@styled-icons/material": ^10.23.0
     "@styled-icons/material-outlined": ^10.23.0
     "@styled-icons/material-rounded": ^10.23.0
@@ -15301,7 +15265,7 @@ fsevents@~2.1.2:
     "@styled-icons/pack-builder": ^10.6.1
     "@styled-icons/remix-fill": ^10.18.0
     "@styled-icons/remix-line": ^10.18.0
-    "@styled-icons/simple-icons": ^10.23.0
+    "@styled-icons/simple-icons": ^10.24.0
     "@styled-icons/styled-icon": ^10.6.0
     "@styled-icons/typicons": ^10.18.0
     "@styled-icons/zondicons": ^10.18.0
