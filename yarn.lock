@@ -3089,7 +3089,7 @@ __metadata:
     "@babel/runtime": ^7.12.5
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/ionicons-outline": 1.22.0
+    "@svg-icons/ionicons-outline": 1.30.0
     react: ^17.0.1
     styled-components: ^5.2.1
   peerDependencies:
@@ -3105,7 +3105,7 @@ __metadata:
     "@babel/runtime": ^7.12.5
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/ionicons-sharp": 1.22.0
+    "@svg-icons/ionicons-sharp": 1.30.0
     react: ^17.0.1
     styled-components: ^5.2.1
   peerDependencies:
@@ -3121,7 +3121,7 @@ __metadata:
     "@babel/runtime": ^7.12.5
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/ionicons-solid": 1.22.0
+    "@svg-icons/ionicons-solid": 1.30.0
     react: ^17.0.1
     styled-components: ^5.2.1
   peerDependencies:
@@ -3521,24 +3521,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/ionicons-outline@npm:1.22.0":
-  version: 1.22.0
-  resolution: "@svg-icons/ionicons-outline@npm:1.22.0"
-  checksum: b34ec07dc7e036f9c71972b41a4406269c4e64df584197fac0f722efc9357b2b8e053673d748c381afd01c133bd3f4ae1cc2db7d26e4f9c64a73595dbd6b3038
+"@svg-icons/ionicons-outline@npm:1.30.0":
+  version: 1.30.0
+  resolution: "@svg-icons/ionicons-outline@npm:1.30.0"
+  checksum: bf9ee67de9716f3bed2331bd787c7a767cf4b9e40850072a3c50b08fa38042a0599a1e9717aa8ce8394588387f6921a156985f506ffe311ed413ff3daf02144a
   languageName: node
   linkType: hard
 
-"@svg-icons/ionicons-sharp@npm:1.22.0":
-  version: 1.22.0
-  resolution: "@svg-icons/ionicons-sharp@npm:1.22.0"
-  checksum: be69270defca858f83a5c544c5ddd8bfa5bad80b94d5d78d5bb5b8600148ed42494c3558defb5e36d7fd51f98208a082abd65c53c4c0e1c7d8376c01cd3e22b7
+"@svg-icons/ionicons-sharp@npm:1.30.0":
+  version: 1.30.0
+  resolution: "@svg-icons/ionicons-sharp@npm:1.30.0"
+  checksum: 0ee4dc261697f88e1cbc4279ef19ce1690791816b1247449300b0b7f6d9f5d8c49c9a301ad491f27d2adf3d0cc65d062bd62a403f82c95dc078f08a45a5d8560
   languageName: node
   linkType: hard
 
-"@svg-icons/ionicons-solid@npm:1.22.0":
-  version: 1.22.0
-  resolution: "@svg-icons/ionicons-solid@npm:1.22.0"
-  checksum: 481e24e9b961c5ae2054f3a1465bbae11bc64e8f0fe5b12cf6543a09047f2be97ea880b27edb13d9fef04e28ecc27f59711bd672d415d12242782350acaca41c
+"@svg-icons/ionicons-solid@npm:1.30.0":
+  version: 1.30.0
+  resolution: "@svg-icons/ionicons-solid@npm:1.30.0"
+  checksum: 1f135ce239915b46cdfa7c263d8b845e9cb44f7d1b5f8e0fd3a338be48a96eab83ae6c1d6c96ed76a37b7c61447b310fdca5fbc81a8b48f4de345a5d9a203ec7
   languageName: node
   linkType: hard
 
