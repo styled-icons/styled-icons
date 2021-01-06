@@ -1,5 +1,11 @@
 # @styled-icons/ionicons-solid
 
+## 10.24.0
+
+### Minor Changes
+
+- [#1592](https://github.com/styled-icons/styled-icons/pull/1592): Upgrade Ionicons to v5.3.0 ([`f75a684`](https://github.com/styled-icons/styled-icons/commit/f75a684046680d08b7190b2915661df3e4628520), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
 ## 10.23.0
 
 ### Minor Changes
