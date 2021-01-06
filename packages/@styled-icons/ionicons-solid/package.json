@@ -36,6 +36,8 @@
     "@styled-icons/pack-builder": "^10.6.0",
     "@svg-icons/ionicons-solid": "1.22.0",
     "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-is": "^17.0.1",
     "styled-components": "^5.2.1"
   }
 }
