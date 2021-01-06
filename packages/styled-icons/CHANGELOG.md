@@ -1,5 +1,21 @@
 # styled-icons
 
+## 10.24.0
+
+### Minor Changes
+
+- [#1588](https://github.com/styled-icons/styled-icons/pull/1588): Upgrade Simple Icons to v4.5.0 ([`0eff7ac`](https://github.com/styled-icons/styled-icons/commit/0eff7accef5b9d917f05cd64000a38c2583ce84b), [@dependabot](https://github.com/apps/dependabot))
+
+* [#1592](https://github.com/styled-icons/styled-icons/pull/1592): Upgrade Ionicons to v5.3.0 ([`f75a684`](https://github.com/styled-icons/styled-icons/commit/f75a684046680d08b7190b2915661df3e4628520), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+### Patch Changes
+
+- Updated dependencies [[`0eff7ac`](https://github.com/styled-icons/styled-icons/commit/0eff7accef5b9d917f05cd64000a38c2583ce84b), [`f75a684`](https://github.com/styled-icons/styled-icons/commit/f75a684046680d08b7190b2915661df3e4628520)]:
+  - @styled-icons/simple-icons@10.24.0
+  - @styled-icons/ionicons-outline@10.24.0
+  - @styled-icons/ionicons-sharp@10.24.0
+  - @styled-icons/ionicons-solid@10.24.0
+
 ## 10.23.0
 
 ### Minor Changes

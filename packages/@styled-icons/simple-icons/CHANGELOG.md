@@ -1,5 +1,11 @@
 # @styled-icons/simple-icons
 
+## 10.24.0
+
+### Minor Changes
+
+- [#1588](https://github.com/styled-icons/styled-icons/pull/1588): Upgrade Simple Icons to v4.5.0 ([`0eff7ac`](https://github.com/styled-icons/styled-icons/commit/0eff7accef5b9d917f05cd64000a38c2583ce84b), [@dependabot](https://github.com/apps/dependabot))
+
 ## 10.23.0
 
 ### Minor Changes
