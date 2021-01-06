@@ -3089,7 +3089,7 @@ __metadata:
     "@babel/runtime": ^7.12.5
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/ionicons-outline": 1.22.0
+    "@svg-icons/ionicons-outline": 1.30.0
     react: ^17.0.1
     styled-components: ^5.2.1
   peerDependencies:
@@ -3521,10 +3521,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/ionicons-outline@npm:1.22.0":
-  version: 1.22.0
-  resolution: "@svg-icons/ionicons-outline@npm:1.22.0"
-  checksum: b34ec07dc7e036f9c71972b41a4406269c4e64df584197fac0f722efc9357b2b8e053673d748c381afd01c133bd3f4ae1cc2db7d26e4f9c64a73595dbd6b3038
+"@svg-icons/ionicons-outline@npm:1.30.0":
+  version: 1.30.0
+  resolution: "@svg-icons/ionicons-outline@npm:1.30.0"
+  checksum: bf9ee67de9716f3bed2331bd787c7a767cf4b9e40850072a3c50b08fa38042a0599a1e9717aa8ce8394588387f6921a156985f506ffe311ed413ff3daf02144a
   languageName: node
   linkType: hard
 
