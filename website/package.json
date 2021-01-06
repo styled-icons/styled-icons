@@ -23,6 +23,7 @@
     "query-string": "^6.13.8",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-is": "^17.0.1",
     "react-virtualized": "^9.22.3",
     "styled-components": "^5.2.1",
     "styled-icons": "^10.6.0"
