@@ -1,5 +1,11 @@
 # @styled-icons/crypto
 
+## 10.25.0
+
+### Minor Changes
+
+- [#1596](https://github.com/styled-icons/styled-icons/pull/1596): Upgrade Cryptocurrency icons to v0.17.1 ([`5e57492`](https://github.com/styled-icons/styled-icons/commit/5e5749272f259b8e64f828f9119cbdb27030dde6), [@dependabot](https://github.com/apps/dependabot))
+
 ## 10.23.0
 
 ### Minor Changes
