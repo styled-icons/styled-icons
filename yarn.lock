@@ -2865,7 +2865,7 @@ __metadata:
     "@babel/runtime": ^7.12.5
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/crypto": 1.23.0
+    "@svg-icons/crypto": 1.31.0
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3486,10 +3486,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/crypto@npm:1.23.0":
-  version: 1.23.0
-  resolution: "@svg-icons/crypto@npm:1.23.0"
-  checksum: 68ad2a1dcaccf8f21a9e88453a8cd64c6b76b167f3b33bb7b821e53acef89a15bb6e396f4991ad0e6bd1571cbdf46a6329ae1fef2e8b6d5cd645a23431be7286
+"@svg-icons/crypto@npm:1.31.0":
+  version: 1.31.0
+  resolution: "@svg-icons/crypto@npm:1.31.0"
+  checksum: fcd7c435be8e593d214a02f318ac9bd5b3f423da5f66ce7a460f3da0b26c687eb928b8ac3aa1d8572937091f26f55f80c3ec04ee4416e931e320039af9ac4d4d
   languageName: node
   linkType: hard
 
