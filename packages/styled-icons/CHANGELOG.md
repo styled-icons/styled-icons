@@ -1,5 +1,22 @@
 # styled-icons
 
+## 10.25.0
+
+### Minor Changes
+
+- [#1599](https://github.com/styled-icons/styled-icons/pull/1599): Upgrade Simple Icons to v4.6.0 ([`fc63b88`](https://github.com/styled-icons/styled-icons/commit/fc63b88f93a88bf6267cf5d918e5728fac0b4299), [@dependabot](https://github.com/apps/dependabot))
+
+* [#1597](https://github.com/styled-icons/styled-icons/pull/1597): Upgrade Bootstrap icons to v1.3.0 ([`d8a5338`](https://github.com/styled-icons/styled-icons/commit/d8a53389c559709bde04684f13bf84166ef4f638), [@dependabot](https://github.com/apps/dependabot))
+
+- [#1596](https://github.com/styled-icons/styled-icons/pull/1596): Upgrade Cryptocurrency icons to v0.17.1 ([`5e57492`](https://github.com/styled-icons/styled-icons/commit/5e5749272f259b8e64f828f9119cbdb27030dde6), [@dependabot](https://github.com/apps/dependabot))
+
+### Patch Changes
+
+- Updated dependencies [[`fc63b88`](https://github.com/styled-icons/styled-icons/commit/fc63b88f93a88bf6267cf5d918e5728fac0b4299), [`d8a5338`](https://github.com/styled-icons/styled-icons/commit/d8a53389c559709bde04684f13bf84166ef4f638), [`5e57492`](https://github.com/styled-icons/styled-icons/commit/5e5749272f259b8e64f828f9119cbdb27030dde6)]:
+  - @styled-icons/simple-icons@10.25.0
+  - @styled-icons/bootstrap@10.25.0
+  - @styled-icons/crypto@10.25.0
+
 ## 10.24.0
 
 ### Minor Changes

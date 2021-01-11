@@ -1,5 +1,11 @@
 # @styled-icons/bootstrap
 
+## 10.25.0
+
+### Minor Changes
+
+- [#1597](https://github.com/styled-icons/styled-icons/pull/1597): Upgrade Bootstrap icons to v1.3.0 ([`d8a5338`](https://github.com/styled-icons/styled-icons/commit/d8a53389c559709bde04684f13bf84166ef4f638), [@dependabot](https://github.com/apps/dependabot))
+
 ## 10.23.0
 
 ### Minor Changes
