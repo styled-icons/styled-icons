@@ -1528,14 +1528,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@changesets/changelog-github@npm:^0.2.7":
-  version: 0.2.7
-  resolution: "@changesets/changelog-github@npm:0.2.7"
+"@changesets/changelog-github@npm:^0.2.8":
+  version: 0.2.8
+  resolution: "@changesets/changelog-github@npm:0.2.8"
   dependencies:
-    "@changesets/get-github-info": ^0.4.4
+    "@changesets/get-github-info": ^0.4.5
     "@changesets/types": ^3.0.0
     dotenv: ^8.1.0
-  checksum: 95efc5d900c2fb9b6c3a7ab208c4a48e786a7b781ad434c5e07f28c4d9e200ae667ce7b0449957c8d537726306ced6aae77f3d49ea4f018ec72a6fbed6725ef9
+  checksum: 7ab004bc4c4a15abde4e6f59a6cd428667ec63ab00c104ba5549aa3bd9bf74fa32b9db58f09288796af717ffd2a0bea3b66d685931e455e78cf3678b1424255c
   languageName: node
   linkType: hard
 
@@ -1616,13 +1616,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@changesets/get-github-info@npm:^0.4.4":
-  version: 0.4.4
-  resolution: "@changesets/get-github-info@npm:0.4.4"
+"@changesets/get-github-info@npm:^0.4.5":
+  version: 0.4.5
+  resolution: "@changesets/get-github-info@npm:0.4.5"
   dependencies:
     dataloader: ^1.4.0
     node-fetch: ^2.5.0
-  checksum: 33601eefb2ba47f5ca0fed9519717103e823862f7694be8cd3cfae099f49a40645c0f17dd90d6f9c037a739e0c83c4b18b02b7ba51d0e50907adde9228664619
+  checksum: 126f660cb1f3bb1eaa9f9326815ed732516f2b9fc62ee2251bc1576d6e2192f05de189492156103db537afcc58a7b89dc9323f41a697362874d6b0fbf24414d3
   languageName: node
   linkType: hard
 
@@ -14144,7 +14144,7 @@ fsevents@~2.1.2:
     "@babel/preset-env": ^7.12.11
     "@babel/preset-react": ^7.12.10
     "@babel/preset-typescript": ^7.12.7
-    "@changesets/changelog-github": ^0.2.7
+    "@changesets/changelog-github": ^0.2.8
     "@changesets/cli": ^2.12.0
     "@monorepolint/cli": ^0.5.0-alpha.50
     "@types/node": ^14.14.16
