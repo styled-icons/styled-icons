@@ -1539,9 +1539,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@changesets/cli@npm:^2.12.0":
-  version: 2.12.0
-  resolution: "@changesets/cli@npm:2.12.0"
+"@changesets/cli@npm:^2.13.0":
+  version: 2.13.0
+  resolution: "@changesets/cli@npm:2.13.0"
   dependencies:
     "@babel/runtime": ^7.10.4
     "@changesets/apply-release-plan": ^4.0.0
@@ -1550,7 +1550,7 @@ __metadata:
     "@changesets/errors": ^0.1.4
     "@changesets/get-dependents-graph": ^1.1.3
     "@changesets/get-release-plan": ^2.0.1
-    "@changesets/git": ^1.0.6
+    "@changesets/git": ^1.1.0
     "@changesets/logger": ^0.0.5
     "@changesets/pre": ^1.0.4
     "@changesets/read": ^0.4.6
@@ -1575,7 +1575,7 @@ __metadata:
     tty-table: ^2.8.10
   bin:
     changeset: bin.js
-  checksum: fea799b298874427c4abd6ee14bec326f1c9c5f3ac5b58be9932ee7c2b6f8072de8ae747eb2d180617791e28339692780d81cd5b286a5707392711e9ea3bd752
+  checksum: 290caed14d2685e38cf66405a6e4ea64edf2ce099633696643de655286fa0eb7557abb14745983afeefc4677e3e49474252cbcee5b37580662a3c7ad1a0cdcb1
   languageName: node
   linkType: hard
 
@@ -1648,9 +1648,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@changesets/git@npm:^1.0.5, @changesets/git@npm:^1.0.6":
-  version: 1.0.6
-  resolution: "@changesets/git@npm:1.0.6"
+"@changesets/git@npm:^1.0.5, @changesets/git@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@changesets/git@npm:1.1.0"
   dependencies:
     "@babel/runtime": ^7.10.4
     "@changesets/errors": ^0.1.4
@@ -1658,7 +1658,7 @@ __metadata:
     "@manypkg/get-packages": ^1.0.1
     is-subdir: ^1.1.1
     spawndamnit: ^2.0.0
-  checksum: e5bef900206adab54d47b31bd2790d2a63f7222d741ab86d070d612639c1115e4c6450d56d322d6aa68e2d6f306674b037e2792a8c5eb140eaf5c53e106199b6
+  checksum: c37715f7f0ab50009d7d369eb9043f9ed8686b2e6b4c49fb3a0990153c136ebc95aada220b7478fd507adb94738b4c96bcc8a0f69e03bb59e1cc667eb55eef72
   languageName: node
   linkType: hard
 
@@ -14145,7 +14145,7 @@ fsevents@~2.1.2:
     "@babel/preset-react": ^7.12.10
     "@babel/preset-typescript": ^7.12.7
     "@changesets/changelog-github": ^0.2.8
-    "@changesets/cli": ^2.12.0
+    "@changesets/cli": ^2.13.0
     "@monorepolint/cli": ^0.5.0-alpha.50
     "@types/node": ^14.14.16
     "@types/react": ^17.0.0
