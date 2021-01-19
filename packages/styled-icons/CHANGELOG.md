@@ -1,5 +1,28 @@
 # styled-icons
 
+## 10.26.0
+
+### Minor Changes
+
+- [#1609](https://github.com/styled-icons/styled-icons/pull/1609): Upgrade Font Awesome to v5.15.2 ([`638b337`](https://github.com/styled-icons/styled-icons/commit/638b3372ddf4cdcf2dfb03a9c7de6b5f1f864e3d), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+* [#1609](https://github.com/styled-icons/styled-icons/pull/1609): Upgrade Material icons to v6.3.0 ([`638b337`](https://github.com/styled-icons/styled-icons/commit/638b3372ddf4cdcf2dfb03a9c7de6b5f1f864e3d), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+- [#1609](https://github.com/styled-icons/styled-icons/pull/1609): Upgrade Simple Icons to v4.7.0 ([`638b337`](https://github.com/styled-icons/styled-icons/commit/638b3372ddf4cdcf2dfb03a9c7de6b5f1f864e3d), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+### Patch Changes
+
+- Updated dependencies [[`638b337`](https://github.com/styled-icons/styled-icons/commit/638b3372ddf4cdcf2dfb03a9c7de6b5f1f864e3d), [`638b337`](https://github.com/styled-icons/styled-icons/commit/638b3372ddf4cdcf2dfb03a9c7de6b5f1f864e3d), [`638b337`](https://github.com/styled-icons/styled-icons/commit/638b3372ddf4cdcf2dfb03a9c7de6b5f1f864e3d)]:
+  - @styled-icons/fa-brands@10.26.0
+  - @styled-icons/fa-regular@10.26.0
+  - @styled-icons/fa-solid@10.26.0
+  - @styled-icons/material@10.26.0
+  - @styled-icons/material-outlined@10.26.0
+  - @styled-icons/material-rounded@10.26.0
+  - @styled-icons/material-sharp@10.26.0
+  - @styled-icons/material-twotone@10.26.0
+  - @styled-icons/simple-icons@10.26.0
+
 ## 10.25.0
 
 ### Minor Changes

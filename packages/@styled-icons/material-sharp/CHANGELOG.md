@@ -1,5 +1,11 @@
 # @styled-icons/material-sharp
 
+## 10.26.0
+
+### Minor Changes
+
+- [#1609](https://github.com/styled-icons/styled-icons/pull/1609): Upgrade Material icons to v6.3.0 ([`638b337`](https://github.com/styled-icons/styled-icons/commit/638b3372ddf4cdcf2dfb03a9c7de6b5f1f864e3d), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
 ## 10.23.0
 
 ### Minor Changes
