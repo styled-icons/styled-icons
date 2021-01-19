@@ -3243,7 +3243,7 @@ __metadata:
     "@babel/runtime": ^7.12.5
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/material-filled": 1.25.0
+    "@svg-icons/material-filled": 1.33.0
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3605,10 +3605,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/material-filled@npm:1.25.0":
-  version: 1.25.0
-  resolution: "@svg-icons/material-filled@npm:1.25.0"
-  checksum: 7de7ef2afd71d353fa1a07145bd13a7ed02efa96be0619f85bc04b1c545c8b455bb8da9155ce020f7286d8000fb0f6f764715f91b1e4c7534a595d98cbb63d74
+"@svg-icons/material-filled@npm:1.33.0":
+  version: 1.33.0
+  resolution: "@svg-icons/material-filled@npm:1.33.0"
+  checksum: 37c4db2288295213f9c3c306b0dcaed44c154331a34de122f0bfe72e698d6042e643d1fc8b7e2268d4ad9e7509a89132622d4b8fa7f68eabb9da61a934bd6f73
   languageName: node
   linkType: hard
 
