@@ -8,7 +8,7 @@
 
 <p align="center"><a href="https://vercel.com/?utm_source=styled-icons"><img height="32" src="https://styled-icons.js.org/powered-by-vercel.svg" alt="Powered by Vercel" /></a></p>
 
-`styled-icons` provides almost 17,000 icons from the following icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules.
+`styled-icons` provides over 20,000 icons from the following icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules.
 
 **[➡️ View the Icon Explorer](https://styled-icons.js.org)**
 
