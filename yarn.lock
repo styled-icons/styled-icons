@@ -3225,7 +3225,7 @@ __metadata:
     "@babel/runtime": ^7.12.5
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/material-twotone": 1.25.0
+    "@svg-icons/material-twotone": 1.33.0
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3633,10 +3633,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/material-twotone@npm:1.25.0":
-  version: 1.25.0
-  resolution: "@svg-icons/material-twotone@npm:1.25.0"
-  checksum: 8a64342bb43e031c4a5722fd64171b939413cc6effd83afe3df9bf7867f240f3510bb774a0dee9c90be064ea8e03f6359f863cd8df391a1de8c39dd3681bd2ea
+"@svg-icons/material-twotone@npm:1.33.0":
+  version: 1.33.0
+  resolution: "@svg-icons/material-twotone@npm:1.33.0"
+  checksum: 248d7f30647266d43ae424559c6ebf4a16ebb38954c9dc587196c554550446bb171aaa2123927f35c1c341c1310cc135214103fbfe9b444fa2ec7b96a87f1557
   languageName: node
   linkType: hard
 
