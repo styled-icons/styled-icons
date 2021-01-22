@@ -3425,7 +3425,7 @@ __metadata:
     "@loadable/component": ^5.14.1
     "@types/js-search": ^1.4.0
     "@types/react-dom": ^17.0.0
-    "@types/react-virtualized": ^9.21.10
+    "@types/react-virtualized": ^9.21.11
     copy-to-clipboard: ^3.3.1
     history: ^5.0.0
     js-search: ^2.0.0
@@ -3979,13 +3979,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-virtualized@npm:^9.21.10":
-  version: 9.21.10
-  resolution: "@types/react-virtualized@npm:9.21.10"
+"@types/react-virtualized@npm:^9.21.11":
+  version: 9.21.11
+  resolution: "@types/react-virtualized@npm:9.21.11"
   dependencies:
     "@types/prop-types": "*"
     "@types/react": "*"
-  checksum: 026297be9fd1e3bef226c1226a9c81b37e0ddcc26bd6d520891d89be4815fd8553a7958ef8a8b3acecc43f96857336dc814c7ccf25e1eea15903cfc8947bad20
+  checksum: 5a030f4be21fe114371b29b315021891a02fd6c6035dcbe7f2eb77dd6f9e78a521e791fab8a24c5b3c5754337e6cca5119635eb6f2c9c70a1550fa61e608030f
   languageName: node
   linkType: hard
 
