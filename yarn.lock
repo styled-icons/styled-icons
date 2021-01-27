@@ -1539,9 +1539,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@changesets/cli@npm:^2.13.0":
-  version: 2.13.0
-  resolution: "@changesets/cli@npm:2.13.0"
+"@changesets/cli@npm:^2.13.1":
+  version: 2.13.1
+  resolution: "@changesets/cli@npm:2.13.1"
   dependencies:
     "@babel/runtime": ^7.10.4
     "@changesets/apply-release-plan": ^4.0.0
@@ -1575,7 +1575,7 @@ __metadata:
     tty-table: ^2.8.10
   bin:
     changeset: bin.js
-  checksum: 290caed14d2685e38cf66405a6e4ea64edf2ce099633696643de655286fa0eb7557abb14745983afeefc4677e3e49474252cbcee5b37580662a3c7ad1a0cdcb1
+  checksum: c7a72082dadadbf074426c13d22668ba8c3cba3265f765f71009b579acab3ffed53a7430f46a7e800f24885f80e487ae370e3e4e20808bbc951fcb21c683a52b
   languageName: node
   linkType: hard
 
@@ -14098,7 +14098,7 @@ fsevents@~2.1.2:
     "@babel/preset-react": ^7.12.10
     "@babel/preset-typescript": ^7.12.7
     "@changesets/changelog-github": ^0.2.8
-    "@changesets/cli": ^2.13.0
+    "@changesets/cli": ^2.13.1
     "@monorepolint/cli": ^0.5.0-alpha.50
     "@types/node": ^14.14.21
     "@types/react": ^17.0.0
