@@ -16,7 +16,7 @@ jobs:
           persist-credentials: false
       - run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
         id: yarn-cache-dir-path
-      - uses: actions/cache@v2
+      - uses: actions/cache@v2.1.4
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
           key: ${{ runner.os }}-yarn-v2-${{ hashFiles('**/yarn.lock') }}
