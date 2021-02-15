@@ -3145,7 +3145,7 @@ __metadata:
     "@babel/runtime": ^7.12.5
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/ionicons-sharp": 1.30.0
+    "@svg-icons/ionicons-sharp": 1.35.0
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3601,10 +3601,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/ionicons-sharp@npm:1.30.0":
-  version: 1.30.0
-  resolution: "@svg-icons/ionicons-sharp@npm:1.30.0"
-  checksum: 0ee4dc261697f88e1cbc4279ef19ce1690791816b1247449300b0b7f6d9f5d8c49c9a301ad491f27d2adf3d0cc65d062bd62a403f82c95dc078f08a45a5d8560
+"@svg-icons/ionicons-sharp@npm:1.35.0":
+  version: 1.35.0
+  resolution: "@svg-icons/ionicons-sharp@npm:1.35.0"
+  checksum: e2622001ecf5cc76624fbeeb6a44fd8556528a3be833d019af7fc692682c68f62dab5c8d75c138254191614dad2b06d72a93ac626bdd481c779f36b1d56e47ed
   languageName: node
   linkType: hard
 
