@@ -3055,7 +3055,7 @@ __metadata:
     "@babel/runtime": ^7.12.5
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/foundation": 1.1.0
+    "@svg-icons/foundation": 1.36.0
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3566,10 +3566,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/foundation@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@svg-icons/foundation@npm:1.1.0"
-  checksum: 5cf1e57030820e758d7bcb74b692e95d6199a9956d36153bdd8714f5426cce38e8d3b8442dcf316dfb3113f8a86e2da14553cd6f93fc7a60e9ebc585e605f123
+"@svg-icons/foundation@npm:1.36.0":
+  version: 1.36.0
+  resolution: "@svg-icons/foundation@npm:1.36.0"
+  checksum: 285761c72ea093c60108222fff3582b86670125392a951bdc73ed3a327cefe48d083b4181f54ed74bc4918afec802b9443ccb5024a741f6d5462ad71fb352f78
   languageName: node
   linkType: hard
 
