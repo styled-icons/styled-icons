@@ -2735,7 +2735,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/bootstrap": 1.31.0
+    "@svg-icons/bootstrap": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -2753,7 +2753,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/boxicons-logos": 1.25.0
+    "@svg-icons/boxicons-logos": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -2771,7 +2771,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/boxicons-regular": 1.23.0
+    "@svg-icons/boxicons-regular": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -2789,7 +2789,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/boxicons-solid": 1.23.0
+    "@svg-icons/boxicons-solid": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -2807,7 +2807,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/crypto": 1.31.0
+    "@svg-icons/crypto": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -2843,7 +2843,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/entypo": 1.1.0
+    "@svg-icons/entypo": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -2861,7 +2861,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/evaicons-outline": 1.1.0
+    "@svg-icons/evaicons-outline": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -2879,7 +2879,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/evaicons-solid": 1.1.0
+    "@svg-icons/evaicons-solid": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -2897,7 +2897,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/evil": 1.1.0
+    "@svg-icons/evil": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -2915,7 +2915,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/fa-brands": 1.33.0
+    "@svg-icons/fa-brands": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -2933,7 +2933,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/fa-regular": 1.33.0
+    "@svg-icons/fa-regular": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -2951,7 +2951,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/fa-solid": 1.33.0
+    "@svg-icons/fa-solid": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -2969,7 +2969,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/feather": 1.1.0
+    "@svg-icons/feather": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -2987,7 +2987,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/foundation": 1.36.0
+    "@svg-icons/foundation": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3005,7 +3005,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/heroicons-outline": 1.16.0
+    "@svg-icons/heroicons-outline": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3023,7 +3023,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/heroicons-solid": 1.16.0
+    "@svg-icons/heroicons-solid": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3041,7 +3041,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/icomoon": 1.1.0
+    "@svg-icons/icomoon": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3059,7 +3059,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/ionicons-outline": 1.35.0
+    "@svg-icons/ionicons-outline": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3095,7 +3095,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/ionicons-solid": 1.35.0
+    "@svg-icons/ionicons-solid": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3203,7 +3203,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/octicons": 1.24.0
+    "@svg-icons/octicons": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3221,7 +3221,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/open-iconic": 1.1.0
+    "@svg-icons/open-iconic": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3259,7 +3259,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/remix-fill": 1.1.0
+    "@svg-icons/remix-fill": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3277,7 +3277,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/remix-line": 1.1.0
+    "@svg-icons/remix-line": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3295,7 +3295,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/simple-icons": 1.38.0
+    "@svg-icons/simple-icons": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3349,7 +3349,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/typicons": 1.1.0
+    "@svg-icons/typicons": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3389,7 +3389,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/zondicons": 1.1.0
+    "@svg-icons/zondicons": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3400,38 +3400,38 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@svg-icons/bootstrap@npm:1.31.0":
-  version: 1.31.0
-  resolution: "@svg-icons/bootstrap@npm:1.31.0"
-  checksum: 0f76dfec80fee44a0a37d3cc1b5e7d2913a388dbeab0a0fd77b9fa634342538532ae44dbeab30d550d389f44d8c5416ddfe221519d1aff8e8629442fb7d6e9ba
+"@svg-icons/bootstrap@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/bootstrap@npm:1.39.1"
+  checksum: 82f5ff1170e094ae8b99fc94bd125395a7399030866a5805d8ea331f8c52e688834fa7d6913403275dd6fde41d621a99af0724ea9fdecf2d06b01cc3f434eb24
   languageName: node
   linkType: hard
 
-"@svg-icons/boxicons-logos@npm:1.25.0":
-  version: 1.25.0
-  resolution: "@svg-icons/boxicons-logos@npm:1.25.0"
-  checksum: 7502b9f35d064ff46a47559778a7febc1db231604db5a54e372bfb966681119c983ec45d50006702c6efbac03c24fcb6aa9ba8e09031237460fa474e0223ec36
+"@svg-icons/boxicons-logos@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/boxicons-logos@npm:1.39.1"
+  checksum: c1c275a25d6da776ad2eb68b2cd6b83aa07379cb1909ed0873fc6faedc80739509939e7d16f11a2e0823ad770dd3f26c5370a8795f402c365e937c0cd82a6b3e
   languageName: node
   linkType: hard
 
-"@svg-icons/boxicons-regular@npm:1.23.0":
-  version: 1.23.0
-  resolution: "@svg-icons/boxicons-regular@npm:1.23.0"
-  checksum: 693481423232ea3305c05337cd1f1c8b5ac9d6f3060036f33086dd3eef6a3ee3b9f5b34684d03df4558490bb7a8f5039a80af778bcc13d2bab73a538b094c375
+"@svg-icons/boxicons-regular@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/boxicons-regular@npm:1.39.1"
+  checksum: 68e211990cb7f025871d7899ee7c26707edb3d11aebd86f643fb045bae0bd5a87032bcca035348f375b85ecabd4f9de22f675e2de1739a069e02e7fcd750a362
   languageName: node
   linkType: hard
 
-"@svg-icons/boxicons-solid@npm:1.23.0":
-  version: 1.23.0
-  resolution: "@svg-icons/boxicons-solid@npm:1.23.0"
-  checksum: c0b12eead6049f0dabd7b26f4948b6fa781508c88ab9e1e67fc1fad1b20c0c6057f9f322eae054e51aeffd47fae92dd0b69b08b1293e251d4ee12d247a6feae8
+"@svg-icons/boxicons-solid@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/boxicons-solid@npm:1.39.1"
+  checksum: 8cece8bdfc8851eb8f0cfe9ac400ca7a5921a2f3ea9c3bf30ec8e1a25c637793a6ff6105210d4e3e70088531fdd4d620fd31aa0accbc4d56e1dfd41bcc1d82df
   languageName: node
   linkType: hard
 
-"@svg-icons/crypto@npm:1.31.0":
-  version: 1.31.0
-  resolution: "@svg-icons/crypto@npm:1.31.0"
-  checksum: fcd7c435be8e593d214a02f318ac9bd5b3f423da5f66ce7a460f3da0b26c687eb928b8ac3aa1d8572937091f26f55f80c3ec04ee4416e931e320039af9ac4d4d
+"@svg-icons/crypto@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/crypto@npm:1.39.1"
+  checksum: f2e1697a93bb5e6e5a8d3b98890c05416880eea67810e6af980c6f534dad66364cbdcce7e9ad402a86589b04e48a0678b742e6c5fc9f4b6fb9fabec28321f3df
   languageName: node
   linkType: hard
 
@@ -3442,94 +3442,94 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/entypo@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@svg-icons/entypo@npm:1.1.0"
-  checksum: 1fe5cd6c8c4093ce4cec01fa07006f7d74a1cba332276867aac529434ba6caa14d44bb3082078f6e1c30d8db932d6db5b780a1089e7661cd37e521ad31be7fba
+"@svg-icons/entypo@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/entypo@npm:1.39.1"
+  checksum: 3a687cda27aeb406fc3d1a85d53ab836591d03e1524843a3f482fd649034c5071bca70b0ac68de807e39edd0b6ac13f404e4fcb24d52a7b108c8a13728347abf
   languageName: node
   linkType: hard
 
-"@svg-icons/evaicons-outline@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@svg-icons/evaicons-outline@npm:1.1.0"
-  checksum: f201c6dd3b77d4c00bd998258dd70c3b4f0da35341579f29c2e16e696ac1333cbcbb501c2565c792c608fcd9dff0b1030e7864b52ab1ce436bef5e7a0e742263
+"@svg-icons/evaicons-outline@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/evaicons-outline@npm:1.39.1"
+  checksum: ec9f319510f6c445ea5fa84e534c147fdfa5f5e7bac090e3195a35ea6fdf2821567da365efea1bfac2b470228481897a423158dfcf45476490970c51957ae431
   languageName: node
   linkType: hard
 
-"@svg-icons/evaicons-solid@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@svg-icons/evaicons-solid@npm:1.1.0"
-  checksum: e826d89667163dc262f4d2bfaa6ca49b2e9cbe6b912842632bee5a3de562cc9ef02bf32a2ad9368ce928365ce25afd90cf47c550f69d518ca7f7d295c0d22cef
+"@svg-icons/evaicons-solid@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/evaicons-solid@npm:1.39.1"
+  checksum: 61f75736c853e2002f8befe70c28eb04b66fadca028daa8df53c8179a11c479c04bbc3c39f5c2e8c899a062348ad85e3c4f11e09e80be5a322a55ac89eaa997d
   languageName: node
   linkType: hard
 
-"@svg-icons/evil@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@svg-icons/evil@npm:1.1.0"
-  checksum: 7e55ff7978d502599431befaf418d20bfd6a2fe58686e7d7197d6f571cb718227d98039b8fde1dc94016294008c3927ac778fc122e086fdc4a6db39ca2183487
+"@svg-icons/evil@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/evil@npm:1.39.1"
+  checksum: 20e2c8d05ae11ddc642d2a14fb2669a9f4c889965072b97ae6dbd15c056c3dd96f3892160f5ad40c2cd2498bd51fd2b4f0a73fbfa16c1754f023bce2f648ee47
   languageName: node
   linkType: hard
 
-"@svg-icons/fa-brands@npm:1.33.0":
-  version: 1.33.0
-  resolution: "@svg-icons/fa-brands@npm:1.33.0"
-  checksum: 6905b9a7f98cdf4c0e12aeec0e3018f88eeeb397cc1e37f53f5097861a6c1a834c0371bbb8c12dc311c4b70e0f0784dd3529cf1fa557ebcaf7757c7806a9c5f4
+"@svg-icons/fa-brands@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/fa-brands@npm:1.39.1"
+  checksum: 774182cde0b545e05eb0010646ce3e98ba8bab74500fa24610592fa9852171b14c78b64ae825f9ac0d7f62287fe945e33c23b9dcdd728973b539c7c7ab72c2b8
   languageName: node
   linkType: hard
 
-"@svg-icons/fa-regular@npm:1.33.0":
-  version: 1.33.0
-  resolution: "@svg-icons/fa-regular@npm:1.33.0"
-  checksum: 5ee91c649feba53f31fc537d1e1505803a43278dde6f64057062a452e8751564985c280ff20e2836bf881ee483e7127a27e7d833b0000574f0ab6dafb3a21bbd
+"@svg-icons/fa-regular@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/fa-regular@npm:1.39.1"
+  checksum: 06aaeacb122d8df901f7016b7b6378640aa1350403c7b8a749b7f0fbaed950d490dd8de1bc69848e4d236dfc85166ee4399c206ca8b80d2831c8afa30679d2d6
   languageName: node
   linkType: hard
 
-"@svg-icons/fa-solid@npm:1.33.0":
-  version: 1.33.0
-  resolution: "@svg-icons/fa-solid@npm:1.33.0"
-  checksum: 6d6f87c1b34c00a230acb4f55d876c62603f0988b04abcdb0f847754122b637dab235e16c998ba9b7113776e4ace8f621dbd9276b1d9425b2e3f762751c0013f
+"@svg-icons/fa-solid@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/fa-solid@npm:1.39.1"
+  checksum: 86ab5f7d1c32ae45adeba9bb7adaa24fd4a2c6e61adf1b0a23ac655ab11182da96cc138e71f6e4a388448d2287e290581ba167443b051e406de076e6eea7a394
   languageName: node
   linkType: hard
 
-"@svg-icons/feather@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@svg-icons/feather@npm:1.1.0"
-  checksum: 5d3213cf25eeacf837fb13f87b724eb775a8a443d3949fb0a9db84e7fa6cf52b6c96c705cc89f2fc5ed5e01f254f5b9047eca2bbcc91e299249e1715921297d8
+"@svg-icons/feather@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/feather@npm:1.39.1"
+  checksum: c63b67d48700e83ffa6e779c91769cd292f47ffd52097e326f773911e75205a139003dfd9ba7c3ec61a735fc60169d4b1c8cf49fb8295d0d5aef9a7387b06d2d
   languageName: node
   linkType: hard
 
-"@svg-icons/foundation@npm:1.36.0":
-  version: 1.36.0
-  resolution: "@svg-icons/foundation@npm:1.36.0"
-  checksum: 285761c72ea093c60108222fff3582b86670125392a951bdc73ed3a327cefe48d083b4181f54ed74bc4918afec802b9443ccb5024a741f6d5462ad71fb352f78
+"@svg-icons/foundation@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/foundation@npm:1.39.1"
+  checksum: 9525dd0c1e3508d022566f619ef18a169ded468afb923ba191773c5b9bf765cfc29e6063cd0fb381d729e463f406d232fde8f074c8be9d3f68401bf32a957f33
   languageName: node
   linkType: hard
 
-"@svg-icons/heroicons-outline@npm:1.16.0":
-  version: 1.16.0
-  resolution: "@svg-icons/heroicons-outline@npm:1.16.0"
-  checksum: 8564f68f5c2d56ddfbcfbb6a6574847b2237811b5c4b1166d59b0c90555061d3061925e404daa3628906e689c35eed18729af8a0a655c447904ae6568665e2ec
+"@svg-icons/heroicons-outline@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/heroicons-outline@npm:1.39.1"
+  checksum: 6828f532468ba3351f3c299988bc041eeb794d2f5a650a0f2dd1bd2e01e35786200a6d2c87748ee2eff1225f008979c262ed5e920fff9b8f2bae8304827512c1
   languageName: node
   linkType: hard
 
-"@svg-icons/heroicons-solid@npm:1.16.0":
-  version: 1.16.0
-  resolution: "@svg-icons/heroicons-solid@npm:1.16.0"
-  checksum: 70ee75ae59fff38660354b63c04e440a3f82c79aa6e78f42c46e14c0e829067ecf571a14dc9c96222c272e42082fc629630b490fab3be59ab308e8441409b2ea
+"@svg-icons/heroicons-solid@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/heroicons-solid@npm:1.39.1"
+  checksum: 88e0af38e423bfe5f020aca38a0d5142900bd99b6ddc2e229fbb8dac164173051776dfc35fe4c4a750d16ff9e2cc0bb1b4526b223ab7441856f46700178d374c
   languageName: node
   linkType: hard
 
-"@svg-icons/icomoon@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@svg-icons/icomoon@npm:1.1.0"
-  checksum: 4a61ee5a508619ca053a68d77bed3de7e26d2e61d987640cd25fc125abc958faa121cd94c8fb5b1a922b617500c49859796693153a91aacdb3b5d32afbec89d5
+"@svg-icons/icomoon@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/icomoon@npm:1.39.1"
+  checksum: 93f133e4f107f73e6386fc05c82becff15d305a6a91a8f1f27662ed9193091eae2bdad9683a60b8ae854de9aae8e9839c675ff104f338cf7532679a1e7a334c8
   languageName: node
   linkType: hard
 
-"@svg-icons/ionicons-outline@npm:1.35.0":
-  version: 1.35.0
-  resolution: "@svg-icons/ionicons-outline@npm:1.35.0"
-  checksum: 9627adfc45d76aeb3cca9f210315aeb0ec5be128032c863c375f11858a103c8256a13b33f9a78ce8a97b911a2a7b45a702c73d7e1b69909691b3d1a934d68138
+"@svg-icons/ionicons-outline@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/ionicons-outline@npm:1.39.1"
+  checksum: fbf45d6aae4b64e714b2dfe47ef3258310e4d11e8475476badbf2a4b3884254f851a6358af9d0638385e265e5ab678b63860a2be573bd59cd25a9744d2fbc378
   languageName: node
   linkType: hard
 
@@ -3540,10 +3540,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/ionicons-solid@npm:1.35.0":
-  version: 1.35.0
-  resolution: "@svg-icons/ionicons-solid@npm:1.35.0"
-  checksum: 942f144b88a2f818eb732c35195ad734b45ea17169170e0ee2e8f61e37656b939763de5034493dd30ad700aae4788538b1057b05acc483dc1441fc36d321039e
+"@svg-icons/ionicons-solid@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/ionicons-solid@npm:1.39.1"
+  checksum: 47635b51accb5fa3cd963d1bc2d4689eb7af80ead537f8904497af34265cd4285517981d86272511842526144607393c4341fbd5fb78f84566201fb0fa2b7576
   languageName: node
   linkType: hard
 
@@ -3582,52 +3582,52 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/octicons@npm:1.24.0":
-  version: 1.24.0
-  resolution: "@svg-icons/octicons@npm:1.24.0"
-  checksum: fa9a6680b13cea56bc7c826cac95df93ab631f521c5c1da16e6722662d1c8aceb9bc8ea42528530c9f6cbb66b37b643e339fbed740dce727854f384ab95a13fe
+"@svg-icons/octicons@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/octicons@npm:1.39.1"
+  checksum: 5c0cbea5fc44fcc6039beac9d7f48a848dbe1960fac8288baa510ae3becfd75927bc1dbd8110ca5ed2c4073d330246333dae83c8b23b0a97dafe1adbd4e1f68e
   languageName: node
   linkType: hard
 
-"@svg-icons/open-iconic@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@svg-icons/open-iconic@npm:1.1.0"
-  checksum: 8312ba7f66d626759e6fabd8bb5fb741771b4cca90848cd31580936b726f17145fcf5772e2f751d01c3a152985279fe669437e649930866acc4d06d12ac8576b
+"@svg-icons/open-iconic@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/open-iconic@npm:1.39.1"
+  checksum: 0356673bff3c5f94b7372cd6145af714bb7a0bcb80c9f6105fdb0fdc3113f6812848729c3a012891d8aa7e83e845d108308140f0f3dd7e2bf5ef66b23c86ecbd
   languageName: node
   linkType: hard
 
-"@svg-icons/remix-fill@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@svg-icons/remix-fill@npm:1.1.0"
-  checksum: 2b86a28a6a056f6d3f8bd40522b5aaea043e51851d3ae6f65d26bcf1de4358a4b1240598e23fed9d2ed7588db448cefa372301f11bf6fc700e307cf13ccf1874
+"@svg-icons/remix-fill@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/remix-fill@npm:1.39.1"
+  checksum: 2b1a2c8648436c5e78fc594a56f0d51463b94b923788e0e2b87be5427e727711cdeb151d8fb566bde9578d93ce979a253810dfcf10e3cfdafe8257ec5373af0a
   languageName: node
   linkType: hard
 
-"@svg-icons/remix-line@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@svg-icons/remix-line@npm:1.1.0"
-  checksum: 2209de19a8a6167a11f90c10d11ce4938780b6e338372f785df1b33c2b655fd9aeba5eedd463dfd2f8437211ea8e2e4449b158d5f4452cd345941846559589b2
+"@svg-icons/remix-line@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/remix-line@npm:1.39.1"
+  checksum: dd5db237160ed372d73ee010aa950b7d30b4c7c1f4e799506baebd77f633348e613c16ca3ec203e49c0e24625979aadadd0a4db4602132a0e7dff96db16f9a86
   languageName: node
   linkType: hard
 
-"@svg-icons/simple-icons@npm:1.38.0":
-  version: 1.38.0
-  resolution: "@svg-icons/simple-icons@npm:1.38.0"
-  checksum: db19eaf14d909dc401b859001e620740ef84b6abe3b413b50da1e2589cc1a1df3094e0a45be2afdb634037990aeaeb1d8a89b3f828932a38289f5d8495805bc8
+"@svg-icons/simple-icons@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/simple-icons@npm:1.39.1"
+  checksum: 236e12e1fb99646e0360bbc24df6e1833d3387007283e97350faaeb9ce38eae2b45b49a3978fee3d832230a04089db18ef41df6c323fa94153b175d4bea425e7
   languageName: node
   linkType: hard
 
-"@svg-icons/typicons@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@svg-icons/typicons@npm:1.1.0"
-  checksum: 4a1dee6e14b80bb88b7184551bdee0f3972f2f3e42c9c206f5ca0a3bde9a248dee5b2dbfc71cc8199da7fac01126c494ac30f112794548d993b0a83836e1cc71
+"@svg-icons/typicons@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/typicons@npm:1.39.1"
+  checksum: 2aa3e07aec7a567efd74806583a80e085bc7ed5af2b4275d0537ad90b7a7381349c6d2e5dacc65a7ee31e0bd78024e6e06b2441b74ba6674878bf18fd199b02a
   languageName: node
   linkType: hard
 
-"@svg-icons/zondicons@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@svg-icons/zondicons@npm:1.1.0"
-  checksum: d92964c837661c8a39e8aa9e514f7898c041a7c2267ae74699db68889d1254187a1b03b5a776a290e845cb7556a56b80de2c0ef197d92ebd53fcd83f4636a725
+"@svg-icons/zondicons@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/zondicons@npm:1.39.1"
+  checksum: 8309f6b44fe23474a6f978a96e4ec59a0408dba96443571d0b9a0a542bfbcdfdef8ea0213525b48c9b419aedeb1be85947c8ec6d79e56cd63b6674637504b8a0
   languageName: node
   linkType: hard
 
