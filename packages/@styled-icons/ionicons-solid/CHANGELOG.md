@@ -1,5 +1,11 @@
 # @styled-icons/ionicons-solid
 
+## 10.28.0
+
+### Minor Changes
+
+- [#1619](https://github.com/styled-icons/styled-icons/pull/1619): Bump @svg-icons/ionicons-solid from 1.30.0 to 1.35.0 ([`55a8559`](https://github.com/styled-icons/styled-icons/commit/55a8559de141e1f047626c6714247ed49037df27), [@dependabot](https://github.com/apps/dependabot))
+
 ## 10.24.0
 
 ### Minor Changes
