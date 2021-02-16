@@ -1,6 +1,5 @@
 import * as React from 'react'
 import styled from 'styled-components'
-import validProp from '@emotion/is-prop-valid'
 
 export type StyledIcon = React.ForwardRefExoticComponent<
   React.PropsWithoutRef<StyledIconProps> & React.RefAttributes<SVGSVGElement>
@@ -17,20 +16,6 @@ interface StyledIconBaseProps {
   iconVerticalAlign: string
 }
 
-function isValidProp(key: string): key is keyof React.SVGProps<SVGSVGElement> {
-  return validProp(key)
-}
-
-function filterSVGProps(props: StyledIconProps): React.SVGProps<SVGSVGElement> {
-  return (Object.keys(props) as Array<keyof StyledIconProps>).reduce<React.SVGProps<SVGSVGElement>>((p, k) => {
-    if (isValidProp(k)) {
-      // hack to satisfy TypeScript complexity
-      ;(p as any)[k] = props[k]
-    }
-    return p
-  }, {})
-}
-
 const StyledIconBaseBase = React.forwardRef<SVGSVGElement, StyledIconProps & StyledIconBaseProps>((props, ref) => {
   const {children, iconAttrs, iconVerticalAlign, iconViewBox, size, title, ...otherProps} = props
 
@@ -42,12 +27,11 @@ const StyledIconBaseBase = React.forwardRef<SVGSVGElement, StyledIconProps & Sty
     focusable: 'false',
     role: title != null ? 'img' : undefined,
     ...iconAttrs,
+    ...otherProps,
   }
 
-  const svgProps = filterSVGProps(otherProps)
-
   return (
-    <svg {...iconProps} {...svgProps} ref={ref}>
+    <svg {...iconProps} ref={ref}>
       {title && <title key="icon-title">{title}</title>}
       {children}
     </svg>
