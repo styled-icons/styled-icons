@@ -3217,7 +3217,7 @@ __metadata:
     "@babel/runtime": ^7.12.5
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/material-sharp": 1.33.0
+    "@svg-icons/material-sharp": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3636,10 +3636,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/material-sharp@npm:1.33.0":
-  version: 1.33.0
-  resolution: "@svg-icons/material-sharp@npm:1.33.0"
-  checksum: 6bea9289944f06c85726d932ecedcbfdf8b982453b63cc8b7b3e0c67ac47085df3ab8635c446f8aec429186744140748fbe706668074224be3cc9e13ca25a2d4
+"@svg-icons/material-sharp@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/material-sharp@npm:1.39.1"
+  checksum: b310b46fc935b871edd119b81db05d0493dbd93dab6ba31ce57d114181f97a2d83137eb89db939616b8e1e10371bb07140cb7e3709f49bea60d50a3db06f57c0
   languageName: node
   linkType: hard
 
