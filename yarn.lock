@@ -3181,7 +3181,7 @@ __metadata:
     "@babel/runtime": ^7.12.5
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/material-outlined": 1.33.0
+    "@svg-icons/material-outlined": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3622,10 +3622,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/material-outlined@npm:1.33.0":
-  version: 1.33.0
-  resolution: "@svg-icons/material-outlined@npm:1.33.0"
-  checksum: 5ba4c20d65d26e7cf615c00290f4d743d44d4189d0ab0ca369409419dead32bda1639432106bf7373930a0496317ce13136013655cfbde14dbddc3ae54d62788
+"@svg-icons/material-outlined@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/material-outlined@npm:1.39.1"
+  checksum: b7eb3a15dc0a71f3fe6a13a8923adc04e1bcefc27cc7f0603855d7eb7d42cb5b362eb59bacbda1c0377d267a4773563d474a5c61f64368677d8df301c804f05b
   languageName: node
   linkType: hard
 
