@@ -2893,7 +2893,7 @@ __metadata:
     "@babel/runtime": ^7.12.5
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/entypo-social": 1.1.0
+    "@svg-icons/entypo-social": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3503,10 +3503,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/entypo-social@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@svg-icons/entypo-social@npm:1.1.0"
-  checksum: 518123de9ad923083b81e20f3bab42420d1bc2d0b744a685dac7ab251ef25bf97025cd5cefd3ede1d26e83b7243adec3ab2d426c8e6a1f736e2d39ceee2965c6
+"@svg-icons/entypo-social@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/entypo-social@npm:1.39.1"
+  checksum: c1e690d84787639a694cbe3ef158e389a3a8036c774af32ebbc242c1f49a16fd983c60504cd1ddf7dc5c4aa3fe00dde30c945008b83f610785ec2e14bceca8d0
   languageName: node
   linkType: hard
 
