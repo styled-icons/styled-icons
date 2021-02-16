@@ -25,7 +25,7 @@
     "generate": "generate-icon-package @svg-icons/material-outlined"
   },
   "dependencies": {
-    "@babel/runtime": "^7.12.5",
+    "@babel/runtime": "^7.12.13",
     "@styled-icons/styled-icon": "^10.6.0"
   },
   "peerDependencies": {
@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@styled-icons/pack-builder": "^10.6.0",
-    "@svg-icons/material-outlined": "1.33.0",
+    "@svg-icons/material-outlined": "1.39.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-is": "^17.0.1",
