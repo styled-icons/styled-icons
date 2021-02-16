@@ -1,5 +1,11 @@
 # @styled-icons/ionicons-sharp
 
+## 10.28.0
+
+### Minor Changes
+
+- [#1618](https://github.com/styled-icons/styled-icons/pull/1618): Bump @svg-icons/ionicons-sharp from 1.30.0 to 1.35.0 ([`2e2b04d`](https://github.com/styled-icons/styled-icons/commit/2e2b04da24351d586135763a0d791eab8a295433), [@dependabot](https://github.com/apps/dependabot))
+
 ## 10.24.0
 
 ### Minor Changes

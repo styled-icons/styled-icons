@@ -1,5 +1,11 @@
 # @styled-icons/ionicons-outline
 
+## 10.28.0
+
+### Minor Changes
+
+- [#1620](https://github.com/styled-icons/styled-icons/pull/1620): Bump @svg-icons/ionicons-outline from 1.30.0 to 1.35.0 ([`67c2ca3`](https://github.com/styled-icons/styled-icons/commit/67c2ca36979cf6cc710f4342e632814c7696d7cc), [@dependabot](https://github.com/apps/dependabot))
+
 ## 10.24.0
 
 ### Minor Changes

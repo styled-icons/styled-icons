@@ -1,5 +1,11 @@
 # @styled-icons/foundation
 
+## 10.28.0
+
+### Minor Changes
+
+- [#1624](https://github.com/styled-icons/styled-icons/pull/1624): Bump @svg-icons/foundation from 1.1.0 to 1.36.0 ([`d0d7a5e`](https://github.com/styled-icons/styled-icons/commit/d0d7a5e234a374d22a9d8836e5b85703b51baf52), [@dependabot](https://github.com/apps/dependabot))
+
 ## 10.18.0
 
 ### Patch Changes

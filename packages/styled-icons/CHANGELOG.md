@@ -1,5 +1,22 @@
 # styled-icons
 
+## 10.28.0
+
+### Patch Changes
+
+- Updated dependencies [[`2e2b04d`](https://github.com/styled-icons/styled-icons/commit/2e2b04da24351d586135763a0d791eab8a295433), [`d0d7a5e`](https://github.com/styled-icons/styled-icons/commit/d0d7a5e234a374d22a9d8836e5b85703b51baf52), [`6787711`](https://github.com/styled-icons/styled-icons/commit/6787711a2b1d931266ce2652d0ba1521bc5ae97e), [`55a8559`](https://github.com/styled-icons/styled-icons/commit/55a8559de141e1f047626c6714247ed49037df27), [`67c2ca3`](https://github.com/styled-icons/styled-icons/commit/67c2ca36979cf6cc710f4342e632814c7696d7cc), [`999c8e0`](https://github.com/styled-icons/styled-icons/commit/999c8e07dc9e54af04158fa2cfea9fab9401f843), [`4365bbb`](https://github.com/styled-icons/styled-icons/commit/4365bbb2325ea313acb3ed1edb307313987d0cd6), [`4365bbb`](https://github.com/styled-icons/styled-icons/commit/4365bbb2325ea313acb3ed1edb307313987d0cd6)]:
+  - @styled-icons/ionicons-sharp@10.28.0
+  - @styled-icons/foundation@10.28.0
+  - @styled-icons/material@10.28.0
+  - @styled-icons/material-outlined@10.28.0
+  - @styled-icons/material-rounded@10.28.0
+  - @styled-icons/material-sharp@10.28.0
+  - @styled-icons/material-twotone@10.28.0
+  - @styled-icons/ionicons-solid@10.28.0
+  - @styled-icons/ionicons-outline@10.28.0
+  - @styled-icons/simple-icons@10.28.0
+  - @styled-icons/octicons@10.28.0
+
 ## 10.27.0
 
 ### Minor Changes

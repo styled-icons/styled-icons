@@ -1,5 +1,11 @@
 # @styled-icons/octicons
 
+## 10.28.0
+
+### Minor Changes
+
+- [#1646](https://github.com/styled-icons/styled-icons/pull/1646): Upgrade @svg-icons/octicons to v1.39.1 ([`4365bbb`](https://github.com/styled-icons/styled-icons/commit/4365bbb2325ea313acb3ed1edb307313987d0cd6), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
 ## 10.23.0
 
 ### Minor Changes
