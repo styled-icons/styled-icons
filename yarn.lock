@@ -3199,7 +3199,7 @@ __metadata:
     "@babel/runtime": ^7.12.5
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/material-rounded": 1.33.0
+    "@svg-icons/material-rounded": 1.39.1
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3629,10 +3629,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/material-rounded@npm:1.33.0":
-  version: 1.33.0
-  resolution: "@svg-icons/material-rounded@npm:1.33.0"
-  checksum: 2c5f63274a0a7fd3d1ee8bb197e8b8030bd9ee19cd045a07e2e8ef2167d2bed436a2f66c566e3818866cc54bf98742a3d335e131a44bbd7e0a6b93d2ee3651d2
+"@svg-icons/material-rounded@npm:1.39.1":
+  version: 1.39.1
+  resolution: "@svg-icons/material-rounded@npm:1.39.1"
+  checksum: 73785aaf60003770d45e9b5bffd17c606e32ad71ecbbb9f8452afaa7153b2e7313891e3b47955558e147d20fdbf6ddef2993f845b657f8638d6e877ed07ee437
   languageName: node
   linkType: hard
 
