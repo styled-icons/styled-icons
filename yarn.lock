@@ -3298,7 +3298,7 @@ __metadata:
     "@storybook/addons": ^6.1.18
     "@storybook/react": ^6.1.18
     babel-loader: ^8.2.2
-    chromatic: ^5.6.2
+    chromatic: ^5.6.3
     fs-extra: ^9.1.0
     react: ^17.0.1
     react-dom: ^17.0.1
@@ -6081,9 +6081,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:^5.6.2":
-  version: 5.6.2
-  resolution: "chromatic@npm:5.6.2"
+"chromatic@npm:^5.6.3":
+  version: 5.6.3
+  resolution: "chromatic@npm:5.6.3"
   dependencies:
     "@actions/core": ^1.2.4
     "@actions/github": ^4.0.0
@@ -6102,7 +6102,7 @@ __metadata:
     jsonfile: ^6.0.1
     junit-report-builder: 2.1.0
     listr: 0.14.3
-    meow: ^9.0.0
+    meow: ^8.0.0
     node-ask: ^1.0.1
     node-fetch: ^2.6.0
     node-loggly-bulk: ^2.2.4
@@ -6124,7 +6124,7 @@ __metadata:
     chroma: bin/register.js
     chromatic: bin/register.js
     chromatic-cli: bin/register.js
-  checksum: 6b5164633b7b4e3631affa5fc75b5ca08818d7b8fe7e6cbaa8c924ce8772752097c84e1861f5067047f43e80b1c4b4e57430181fad6825e53e66098b683b0289
+  checksum: ac2e34ca4da854650c747905c16d1d30ebb995b8447cfedd58ec9e3cd60f37135559abe051f262c145799b9afef17e8e847964bdf902543eeab3d9c47dc1eb57
   languageName: node
   linkType: hard
 
@@ -10926,13 +10926,12 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"meow@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "meow@npm:9.0.0"
+"meow@npm:^8.0.0":
+  version: 8.1.2
+  resolution: "meow@npm:8.1.2"
   dependencies:
     "@types/minimist": ^1.2.0
     camelcase-keys: ^6.2.2
-    decamelize: ^1.2.0
     decamelize-keys: ^1.1.0
     hard-rejection: ^2.1.0
     minimist-options: 4.1.0
@@ -10942,7 +10941,7 @@ fsevents@~2.3.1:
     trim-newlines: ^3.0.0
     type-fest: ^0.18.0
     yargs-parser: ^20.2.3
-  checksum: d1573809d6e3df55ab7b8c49f2ecfb8006664856700b556c794013ef887e47991bf1fef8ba9de60bb4afda9b62136823e4008c7f2cc459a7c036b7b649a42c0d
+  checksum: 7246c3e824298dc1ceddc4b9930bf6a04df8f240d09e76ee180c4f9168df3d6a7d27593a5a3ef7005efbc1557780981e169a7acac56120c7bf2f99f5f54563aa
   languageName: node
   linkType: hard
 
