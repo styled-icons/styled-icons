@@ -1919,7 +1919,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@monorepolint/cli@npm:^0.5.0-alpha.51+f10fea0, @monorepolint/cli@npm:^0.5.0-alpha.52":
+"@monorepolint/cli@npm:^0.5.0-alpha.52, @monorepolint/cli@npm:^0.5.0-alpha.52+2a5e8a6":
   version: 0.5.0-alpha.52
   resolution: "@monorepolint/cli@npm:0.5.0-alpha.52"
   dependencies:
@@ -1934,7 +1934,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@monorepolint/core@npm:^0.5.0-alpha.51+f10fea0, @monorepolint/core@npm:^0.5.0-alpha.52+2a5e8a6":
+"@monorepolint/core@npm:^0.5.0-alpha.52+2a5e8a6":
   version: 0.5.0-alpha.52
   resolution: "@monorepolint/core@npm:0.5.0-alpha.52"
   dependencies:
@@ -1948,22 +1948,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@monorepolint/rules@npm:^0.5.0-alpha.51+f10fea0":
-  version: 0.5.0-alpha.51
-  resolution: "@monorepolint/rules@npm:0.5.0-alpha.51"
+"@monorepolint/rules@npm:^0.5.0-alpha.52+2a5e8a6":
+  version: 0.5.0-alpha.52
+  resolution: "@monorepolint/rules@npm:0.5.0-alpha.52"
   dependencies:
-    "@monorepolint/core": ^0.5.0-alpha.51+f10fea0
-    "@monorepolint/utils": ^0.5.0-alpha.51+f10fea0
+    "@monorepolint/core": ^0.5.0-alpha.52+2a5e8a6
+    "@monorepolint/utils": ^0.5.0-alpha.52+2a5e8a6
     globby: ^11.0.1
     jest-diff: ^26.0.1
     minimatch: ^3.0.4
+    resolve-package-path: ^3.1.0
     runtypes: ^4.0.0
     semver: ^7.3.2
-  checksum: 77d4dd10f4c03edb57e347a68a044e7ce6dfb9214d1a15442e167a35956ccf6a12d3c6eda8a14e2cb921bd1768c1dc7e15f01048abe70feb324eea9853adc90a
+  checksum: 6dc01bd591767bf25e0a1a22a6d107fe04fb4293e0e68aa597e4448d095412ce2841c6759510e89069e9be9c43e48f5e18ed742e0375d2675ab1b3b7e0f807eb
   languageName: node
   linkType: hard
 
-"@monorepolint/utils@npm:^0.5.0-alpha.51+f10fea0, @monorepolint/utils@npm:^0.5.0-alpha.52+2a5e8a6":
+"@monorepolint/utils@npm:^0.5.0-alpha.52+2a5e8a6":
   version: 0.5.0-alpha.52
   resolution: "@monorepolint/utils@npm:0.5.0-alpha.52"
   dependencies:
@@ -11257,15 +11258,15 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"monorepolint@npm:^0.5.0-alpha.51":
-  version: 0.5.0-alpha.51
-  resolution: "monorepolint@npm:0.5.0-alpha.51"
+"monorepolint@npm:^0.5.0-alpha.52":
+  version: 0.5.0-alpha.52
+  resolution: "monorepolint@npm:0.5.0-alpha.52"
   dependencies:
-    "@monorepolint/cli": ^0.5.0-alpha.51+f10fea0
-    "@monorepolint/core": ^0.5.0-alpha.51+f10fea0
-    "@monorepolint/rules": ^0.5.0-alpha.51+f10fea0
-    "@monorepolint/utils": ^0.5.0-alpha.51+f10fea0
-  checksum: dbafac26aa4750cc1283f70f2c18c3ff7eb4c3b0d86e7215ad97ec2af4daee06f96fd576d2eb38c03534607558532f97d3fd10041a58b2edc8e233028d3cd4af
+    "@monorepolint/cli": ^0.5.0-alpha.52+2a5e8a6
+    "@monorepolint/core": ^0.5.0-alpha.52+2a5e8a6
+    "@monorepolint/rules": ^0.5.0-alpha.52+2a5e8a6
+    "@monorepolint/utils": ^0.5.0-alpha.52+2a5e8a6
+  checksum: 04b12d2342dd63ebd507918cd0652b4c9238c2fd94622ec15d099f18d3804bbb3e8d7456b57e455c3336405411758690838ff292cf45e07204580e1a35e219f2
   languageName: node
   linkType: hard
 
@@ -12266,6 +12267,22 @@ fsevents@~2.3.1:
   version: 1.0.6
   resolution: "path-parse@npm:1.0.6"
   checksum: 2eee4b93fb3ae13600e3fca18390d9933bbbcf725a624f6b8df020d87515a74872ff6c58072190d6dc75a5584a683dc6ae5c385ad4e4f4efb6e66af040d56c67
+  languageName: node
+  linkType: hard
+
+"path-root-regex@npm:^0.1.0":
+  version: 0.1.2
+  resolution: "path-root-regex@npm:0.1.2"
+  checksum: f301f42475743fd73ebc47019b0477f1006e427fd73f74a7b2dbca0e41c3cdab00d97d8fac45ba2f9f5f20741d4194e955a6326bac8d832f43fc765f474c9a7f
+  languageName: node
+  linkType: hard
+
+"path-root@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "path-root@npm:0.1.1"
+  dependencies:
+    path-root-regex: ^0.1.0
+  checksum: ccf11d9c9bf9b895f422099021fcff2c5d300f3b032ef5df414fb993cd6968c0c5bab5bdd89e505266f0f156f66bc242a357636d1cbcd8a2cada71e56291269f
   languageName: node
   linkType: hard
 
@@ -13571,6 +13588,16 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"resolve-package-path@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "resolve-package-path@npm:3.1.0"
+  dependencies:
+    path-root: ^0.1.1
+    resolve: ^1.17.0
+  checksum: 82c5134b3261fec9566d3416c8b86c5c346d38302215b0947e8382ea83bb0063114fb39706b7a876976a96ac0b633eecb1b83143cb34574fa4d55891deb98380
+  languageName: node
+  linkType: hard
+
 "resolve-url@npm:^0.2.1":
   version: 0.2.1
   resolution: "resolve-url@npm:0.2.1"
@@ -13686,7 +13713,7 @@ fsevents@~2.3.1:
     "@types/react": ^17.0.2
     "@types/styled-components": ^5.1.7
     babel-plugin-styled-components: ^1.12.0
-    monorepolint: ^0.5.0-alpha.51
+    monorepolint: ^0.5.0-alpha.52
     npm-run-all: ^4.1.5
     prettier: ^2.2.1
     react: ^17.0.1
