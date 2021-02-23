@@ -88,10 +88,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/compat-data@npm:^7.12.13":
-  version: 7.12.13
-  resolution: "@babel/compat-data@npm:7.12.13"
-  checksum: ab32dd78b7cb3c511ca557ec042763007cea6d2419dbf76d2716b7d5184b6f3e9c60e2fb4124ee69a0a4b78582e41a6e83330e99b969843d6daada427fecb877
+"@babel/compat-data@npm:^7.12.13, @babel/compat-data@npm:^7.13.0":
+  version: 7.13.0
+  resolution: "@babel/compat-data@npm:7.13.0"
+  checksum: 74d92839feee9f104f9f8bbee12d39cf4ff87700c285c30d949b568f80b2f8de0cd243c6fb81ead69e2229b6fc31c7b4ff958c20c9e58bb240577d85a110c718
   languageName: node
   linkType: hard
 
@@ -148,17 +148,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-compilation-targets@npm:^7.12.16":
-  version: 7.12.16
-  resolution: "@babel/helper-compilation-targets@npm:7.12.16"
+"@babel/helper-compilation-targets@npm:^7.12.16, @babel/helper-compilation-targets@npm:^7.13.0":
+  version: 7.13.0
+  resolution: "@babel/helper-compilation-targets@npm:7.13.0"
   dependencies:
-    "@babel/compat-data": ^7.12.13
-    "@babel/helper-validator-option": ^7.12.16
+    "@babel/compat-data": ^7.13.0
+    "@babel/helper-validator-option": ^7.12.17
     browserslist: ^4.14.5
-    semver: ^5.5.0
+    semver: 7.0.0
   peerDependencies:
     "@babel/core": ^7.0.0
-  checksum: 3eadb8722a1037a76ad98cabbea306f6f50f2de3f3116bed3d4a3e0cfc919fd5acbfd4eaf816a732be8477b27c45233071c013a3beadf9b3de1950835a37fbdb
+  checksum: 55a5af52e24e21ad8033178e55e6fd480375f0c1558ab80de9927c62635fc10ba9e7345020a3c8ad254b8312f21aa9b1198c65043a50671a520c9439bac03fcc
   languageName: node
   linkType: hard
 
@@ -186,6 +186,24 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.0
   checksum: f1fd81069e4e187848e4e616dd85cf5d2618b56d12a7530d6aa01b322938f50f3ed764ecc537bcf2a853a3e191892d29806218aebadadc0a1c1b07f7b7f6f37d
+  languageName: node
+  linkType: hard
+
+"@babel/helper-define-polyfill-provider@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "@babel/helper-define-polyfill-provider@npm:0.1.2"
+  dependencies:
+    "@babel/helper-compilation-targets": ^7.13.0
+    "@babel/helper-module-imports": ^7.12.13
+    "@babel/helper-plugin-utils": ^7.13.0
+    "@babel/traverse": ^7.13.0
+    debug: ^4.1.1
+    lodash.debounce: ^4.0.8
+    resolve: ^1.14.2
+    semver: ^6.1.2
+  peerDependencies:
+    "@babel/core": ^7.4.0-0
+  checksum: 8f15ee46346788adf70f0a365fc7adb69809cd880b0322d0d6b8873bd5ac06da63d33767ce46b263782908180342f75679e26373fdc198963a05abf1afe3d856
   languageName: node
   linkType: hard
 
@@ -1114,16 +1132,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-runtime@npm:^7.12.17":
-  version: 7.12.17
-  resolution: "@babel/plugin-transform-runtime@npm:7.12.17"
+"@babel/plugin-transform-runtime@npm:^7.13.4":
+  version: 7.13.4
+  resolution: "@babel/plugin-transform-runtime@npm:7.13.4"
   dependencies:
     "@babel/helper-module-imports": ^7.12.13
-    "@babel/helper-plugin-utils": ^7.12.13
-    semver: ^5.5.1
+    "@babel/helper-plugin-utils": ^7.13.0
+    babel-plugin-polyfill-corejs2: ^0.1.2
+    babel-plugin-polyfill-corejs3: ^0.1.2
+    babel-plugin-polyfill-regenerator: ^0.1.1
+    semver: 7.0.0
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: 88dccc8b5d851ddb45755c014bef6c015f7fd9256add3815001373b8ee320565e240b37f5a3bfdca0b2b5fc996346136c76d2a1efaac60f83c1ae3a6e57920f2
+  checksum: a3ddc06a8ae2e2a82bb454740ec8f0bc7a7b7fd3b240b5367656498640b998e82315f6322cfa0cd19f7291399a3495c329eb104668b2c3de30d9dfda91b46504
   languageName: node
   linkType: hard
 
@@ -5217,6 +5238,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"babel-plugin-polyfill-corejs2@npm:^0.1.2":
+  version: 0.1.5
+  resolution: "babel-plugin-polyfill-corejs2@npm:0.1.5"
+  dependencies:
+    "@babel/compat-data": ^7.13.0
+    "@babel/helper-define-polyfill-provider": ^0.1.2
+    semver: ^6.1.1
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: 1311240f983e31978279cdc88649ef62b0bcbd330f65fac7aadab6c48394c215e3e3297739579223967a40b0d133036bbee162a30ab63da7657fd7ded3effb91
+  languageName: node
+  linkType: hard
+
+"babel-plugin-polyfill-corejs3@npm:^0.1.2":
+  version: 0.1.4
+  resolution: "babel-plugin-polyfill-corejs3@npm:0.1.4"
+  dependencies:
+    "@babel/helper-define-polyfill-provider": ^0.1.2
+    core-js-compat: ^3.8.1
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: c2759edc8542373c5b76c393ee9cd99494e87a64d4650b732eebba6324037f97e6da0a18f4e7acbe7c2a84b779d1caf620f5f91f0a6ee7818c1c4ba2d030c4ad
+  languageName: node
+  linkType: hard
+
+"babel-plugin-polyfill-regenerator@npm:^0.1.1":
+  version: 0.1.3
+  resolution: "babel-plugin-polyfill-regenerator@npm:0.1.3"
+  dependencies:
+    "@babel/helper-define-polyfill-provider": ^0.1.2
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: 09ac8e5c4f998d0cde874e3d0d7478a70e4ae5fd1f6fd0040c63971638a6e10111886d0a30a22d8708fe93b35b28e3294473215cc2656167f707fe04d1aa6003
+  languageName: node
+  linkType: hard
+
 "babel-plugin-react-docgen@npm:^4.2.1":
   version: 4.2.1
   resolution: "babel-plugin-react-docgen@npm:4.2.1"
@@ -5696,7 +5753,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:4.16.1, browserslist@npm:^4.12.0, browserslist@npm:^4.14.5, browserslist@npm:^4.15.0":
+"browserslist@npm:4.16.1":
   version: 4.16.1
   resolution: "browserslist@npm:4.16.1"
   dependencies:
@@ -5708,6 +5765,21 @@ __metadata:
   bin:
     browserslist: cli.js
   checksum: 56f51464c3a3bd9b2aeb75ded1dc3fce5ad91bd6d84187aba812a78ba66b69bc97c2de25a1b7409daac3c0049e979bf0faa6cca4aacce0abcaf3107c250ce3fb
+  languageName: node
+  linkType: hard
+
+"browserslist@npm:^4.12.0, browserslist@npm:^4.14.5, browserslist@npm:^4.16.3":
+  version: 4.16.3
+  resolution: "browserslist@npm:4.16.3"
+  dependencies:
+    caniuse-lite: ^1.0.30001181
+    colorette: ^1.2.1
+    electron-to-chromium: ^1.3.649
+    escalade: ^3.1.1
+    node-releases: ^1.1.70
+  bin:
+    browserslist: cli.js
+  checksum: dfab0d3c3d9a3517cf3f8a274bc4e8245f3a02c1a5ae2a0e01498273d363952d11ee09fdce3b0ce551f6cab9d619ed2d9facf7b6471c9190df949a5ad39665c5
   languageName: node
   linkType: hard
 
@@ -5923,10 +5995,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001035, caniuse-lite@npm:^1.0.30001109, caniuse-lite@npm:^1.0.30001173, caniuse-lite@npm:^1.0.30001179":
-  version: 1.0.30001187
-  resolution: "caniuse-lite@npm:1.0.30001187"
-  checksum: 788d977269dd3330d00b04d0d64846d480cda7dc6d78fdbc9bd71021268ba58f6544def556fd738da0dc3b09fb53e13b53703a856cc5406472f1aacb62f36b79
+"caniuse-lite@npm:^1.0.30001035, caniuse-lite@npm:^1.0.30001109, caniuse-lite@npm:^1.0.30001173, caniuse-lite@npm:^1.0.30001179, caniuse-lite@npm:^1.0.30001181":
+  version: 1.0.30001191
+  resolution: "caniuse-lite@npm:1.0.30001191"
+  checksum: 7b9e1d0c16d285800f32bf1f5a2028987b434502f56d4f6549f0648bb240e5528452d0212c49e56ce8f44719ccf43073456291b58fc763f72ff954aa2fb107e8
   languageName: node
   linkType: hard
 
@@ -6557,13 +6629,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js-compat@npm:^3.8.0":
-  version: 3.8.1
-  resolution: "core-js-compat@npm:3.8.1"
+"core-js-compat@npm:^3.8.0, core-js-compat@npm:^3.8.1":
+  version: 3.9.0
+  resolution: "core-js-compat@npm:3.9.0"
   dependencies:
-    browserslist: ^4.15.0
+    browserslist: ^4.16.3
     semver: 7.0.0
-  checksum: 964ad886a9f55399d2f33350d15f4653bfd24cb6de04606c515d0266be4101a1f435bab9a6d76b249de5f573aecb230a98468d6a8141743019abab5edd4d4281
+  checksum: ebcd01c9ad2b3114cfcf9316a8d324dffc2e1362249f48b734e941e8de32e1c7f5f859198a212c0af2e6cef3164fc4457817b4568faec46f815ebb8dcb8f8f11
   languageName: node
   linkType: hard
 
@@ -7501,10 +7573,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-to-chromium@npm:^1.3.378, electron-to-chromium@npm:^1.3.634":
-  version: 1.3.665
-  resolution: "electron-to-chromium@npm:1.3.665"
-  checksum: 0ef6a38888cb2f40836f44f3b9c5491cd94854197ee5cc46dcc3e1b2b576224d23300055044b74425fdc08ee7777063bad99c2a5b56491eb2757d500cfaf74af
+"electron-to-chromium@npm:^1.3.378, electron-to-chromium@npm:^1.3.634, electron-to-chromium@npm:^1.3.649":
+  version: 1.3.672
+  resolution: "electron-to-chromium@npm:1.3.672"
+  checksum: 99e374a0f3e0fc2dccb028133e7d02b820e3ada6d09fcde603082e679e6b999dd2f772273b7a2af46b926e5258f7dc2fcd7bef8f6ca8def568bf1a582254ce6f
   languageName: node
   linkType: hard
 
@@ -9747,6 +9819,15 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"is-core-module@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "is-core-module@npm:2.2.0"
+  dependencies:
+    has: ^1.0.3
+  checksum: 2344744de98a3bc22e2bb30895f307d7889f09e963f9bcb1cc321788f508c8b463f75e0a9ca009eeeb8eb9465181b5c15f1ec9299a6bb6921cfbb2423892e0ba
+  languageName: node
+  linkType: hard
+
 "is-data-descriptor@npm:^0.1.4":
   version: 0.1.4
   resolution: "is-data-descriptor@npm:0.1.4"
@@ -10661,6 +10742,13 @@ fsevents@~2.3.1:
   dependencies:
     p-locate: ^5.0.0
   checksum: 4c379638152e0e5fda9a8cc07005702f81fcb9899db0f66d691ac1e64193dea670af14e96c50f14d82d45959daa4c400cb712c158cffe22ae265bfc1b1e3a221
+  languageName: node
+  linkType: hard
+
+"lodash.debounce@npm:^4.0.8":
+  version: 4.0.8
+  resolution: "lodash.debounce@npm:4.0.8"
+  checksum: b6042bd8c09ff1961c9127d32266316bc21f946ece5e3464a663ec61fadb98e7d56ec0ef7e23b47d393695310c19cf24e651c1756be6da91ac02c72be7f79465
   languageName: node
   linkType: hard
 
@@ -11594,7 +11682,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"node-releases@npm:^1.1.52, node-releases@npm:^1.1.69":
+"node-releases@npm:^1.1.52, node-releases@npm:^1.1.69, node-releases@npm:^1.1.70":
   version: 1.1.70
   resolution: "node-releases@npm:1.1.70"
   checksum: 18e2b4b871614247633a7f246ec04f6eebcb0353c0514c38b5d814be6d067301c4b1b0e7cb53407b36034e79fbc589f77a1acafdaf292abc46a4f65b4b7af2e6
@@ -13605,21 +13693,23 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"resolve@^1.1.6, resolve@^1.10.0, resolve@^1.12.0, resolve@^1.17.0":
-  version: 1.17.0
-  resolution: "resolve@npm:1.17.0"
+"resolve@^1.1.6, resolve@^1.10.0, resolve@^1.12.0, resolve@^1.14.2, resolve@^1.17.0":
+  version: 1.20.0
+  resolution: "resolve@npm:1.20.0"
   dependencies:
+    is-core-module: ^2.2.0
     path-parse: ^1.0.6
-  checksum: 5e3cdb8cf68c20b0c5edeb6505e7fab20c6776af0cae4b978836e557420aef7bb50acd25339bbb143b7f80533aa1988c7e827a0061aee9c237926a7d2c41f8d0
+  checksum: 0f5206d454b30e74d9b2d575b5f8aedf443c4d8b90b84cdf79474ade29bb459075220da3127b682896872a16022ed65cc4db09e0f23849654144d3d75c65cd1b
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@^1.1.6#builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#builtin<compat/resolve>, resolve@patch:resolve@^1.17.0#builtin<compat/resolve>":
-  version: 1.17.0
-  resolution: "resolve@patch:resolve@npm%3A1.17.0#builtin<compat/resolve>::version=1.17.0&hash=3388aa"
+"resolve@patch:resolve@^1.1.6#builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#builtin<compat/resolve>, resolve@patch:resolve@^1.17.0#builtin<compat/resolve>":
+  version: 1.20.0
+  resolution: "resolve@patch:resolve@npm%3A1.20.0#builtin<compat/resolve>::version=1.20.0&hash=3388aa"
   dependencies:
+    is-core-module: ^2.2.0
     path-parse: ^1.0.6
-  checksum: 4bcfb568860d0c361fd16c26b6fce429711138ff0de7dd353bdd73fcb5c7eede2f4602d40ccfa08ff45ec7ef9830845eab2021a46036af0a6e5b58bab1ff6399
+  checksum: c4a515b76026806b5b26513fc7bdb80458c532bc91c02ef45ac928d1025585f93bec0b904be39c02131118a37ff7e3f9258f1526850b025d2ec0948bb5fd03d0
   languageName: node
   linkType: hard
 
@@ -13702,7 +13792,7 @@ fsevents@~2.3.1:
   dependencies:
     "@babel/cli": ^7.12.16
     "@babel/core": ^7.12.16
-    "@babel/plugin-transform-runtime": ^7.12.17
+    "@babel/plugin-transform-runtime": ^7.13.4
     "@babel/preset-env": ^7.12.16
     "@babel/preset-react": ^7.12.13
     "@babel/preset-typescript": ^7.13.0
@@ -13860,7 +13950,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"semver@npm:2 || 3 || 4 || 5, semver@npm:^5.4.1, semver@npm:^5.5.0, semver@npm:^5.5.1, semver@npm:^5.6.0":
+"semver@npm:2 || 3 || 4 || 5, semver@npm:^5.4.1, semver@npm:^5.5.0, semver@npm:^5.6.0":
   version: 5.7.1
   resolution: "semver@npm:5.7.1"
   bin:
@@ -13878,7 +13968,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"semver@npm:^6.0.0, semver@npm:^6.3.0":
+"semver@npm:^6.0.0, semver@npm:^6.1.1, semver@npm:^6.1.2, semver@npm:^6.3.0":
   version: 6.3.0
   resolution: "semver@npm:6.3.0"
   bin:
