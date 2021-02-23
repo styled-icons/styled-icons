@@ -19,7 +19,7 @@ jobs:
           fetch-depth: 2
           persist-credentials: false # minimize exposure
       - name: Use Node.js 12.x
-        uses: actions/setup-node@v2.1.4
+        uses: actions/setup-node@v2.1.5
         with:
           node-version: '12'
       - name: Autofix lockfile
