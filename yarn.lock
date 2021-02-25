@@ -1132,19 +1132,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-runtime@npm:^7.13.4":
-  version: 7.13.4
-  resolution: "@babel/plugin-transform-runtime@npm:7.13.4"
+"@babel/plugin-transform-runtime@npm:^7.13.7":
+  version: 7.13.7
+  resolution: "@babel/plugin-transform-runtime@npm:7.13.7"
   dependencies:
     "@babel/helper-module-imports": ^7.12.13
     "@babel/helper-plugin-utils": ^7.13.0
-    babel-plugin-polyfill-corejs2: ^0.1.2
-    babel-plugin-polyfill-corejs3: ^0.1.2
-    babel-plugin-polyfill-regenerator: ^0.1.1
+    babel-plugin-polyfill-corejs2: ^0.1.4
+    babel-plugin-polyfill-corejs3: ^0.1.3
+    babel-plugin-polyfill-regenerator: ^0.1.2
     semver: 7.0.0
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: a3ddc06a8ae2e2a82bb454740ec8f0bc7a7b7fd3b240b5367656498640b998e82315f6322cfa0cd19f7291399a3495c329eb104668b2c3de30d9dfda91b46504
+  checksum: f1bb7bb8541c483332c48036f4c68e21d5e4a25e8ddb006d390779756276bcae1950121bea5d2a1244b5273f64ed87ed69f038fb8d6415ee352c4856f2c0a2e4
   languageName: node
   linkType: hard
 
@@ -5360,7 +5360,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-polyfill-corejs2@npm:^0.1.2, babel-plugin-polyfill-corejs2@npm:^0.1.4":
+"babel-plugin-polyfill-corejs2@npm:^0.1.4":
   version: 0.1.5
   resolution: "babel-plugin-polyfill-corejs2@npm:0.1.5"
   dependencies:
@@ -5373,7 +5373,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-polyfill-corejs3@npm:^0.1.2, babel-plugin-polyfill-corejs3@npm:^0.1.3":
+"babel-plugin-polyfill-corejs3@npm:^0.1.3":
   version: 0.1.4
   resolution: "babel-plugin-polyfill-corejs3@npm:0.1.4"
   dependencies:
@@ -5385,7 +5385,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-polyfill-regenerator@npm:^0.1.1, babel-plugin-polyfill-regenerator@npm:^0.1.2":
+"babel-plugin-polyfill-regenerator@npm:^0.1.2":
   version: 0.1.3
   resolution: "babel-plugin-polyfill-regenerator@npm:0.1.3"
   dependencies:
@@ -13914,7 +13914,7 @@ fsevents@~2.3.1:
   dependencies:
     "@babel/cli": ^7.12.16
     "@babel/core": ^7.12.16
-    "@babel/plugin-transform-runtime": ^7.13.4
+    "@babel/plugin-transform-runtime": ^7.13.7
     "@babel/preset-env": ^7.13.5
     "@babel/preset-react": ^7.12.13
     "@babel/preset-typescript": ^7.13.0
