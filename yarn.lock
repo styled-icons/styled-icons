@@ -33,9 +33,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/cli@npm:^7.12.16":
-  version: 7.12.16
-  resolution: "@babel/cli@npm:7.12.16"
+"@babel/cli@npm:^7.13.0":
+  version: 7.13.0
+  resolution: "@babel/cli@npm:7.13.0"
   dependencies:
     "@nicolo-ribaudo/chokidar-2": 2.1.8-no-fsevents
     chokidar: ^3.4.0
@@ -57,7 +57,7 @@ __metadata:
   bin:
     babel: ./bin/babel.js
     babel-external-helpers: ./bin/babel-external-helpers.js
-  checksum: b58e2581b8671daf437beac97c290261913bf4b21115b7bcc1f1fcd3feaf5ad16cb135a02ba53e9380d1072aa8f691894d9bb03279f1c14ee0ef0a422d0c969e
+  checksum: a887d985e45a5b97e0d6b4ae403d63033ad8b539b86d1d77b98f1766b2bc219e09797b36eedb03fc9d35f61622b108a38111c5e55d7bf7101de74d788335cf00
   languageName: node
   linkType: hard
 
@@ -13912,7 +13912,7 @@ fsevents@~2.3.1:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@babel/cli": ^7.12.16
+    "@babel/cli": ^7.13.0
     "@babel/core": ^7.12.16
     "@babel/plugin-transform-runtime": ^7.13.7
     "@babel/preset-env": ^7.13.5
