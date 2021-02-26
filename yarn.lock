@@ -95,30 +95,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.12.16, @babel/core@npm:^7.12.3, @babel/core@npm:^7.7.5":
-  version: 7.12.16
-  resolution: "@babel/core@npm:7.12.16"
+"@babel/core@npm:7.13.1, @babel/core@npm:^7.12.3, @babel/core@npm:^7.13.1, @babel/core@npm:^7.7.5":
+  version: 7.13.1
+  resolution: "@babel/core@npm:7.13.1"
   dependencies:
     "@babel/code-frame": ^7.12.13
-    "@babel/generator": ^7.12.15
-    "@babel/helper-module-transforms": ^7.12.13
-    "@babel/helpers": ^7.12.13
-    "@babel/parser": ^7.12.16
+    "@babel/generator": ^7.13.0
+    "@babel/helper-compilation-targets": ^7.13.0
+    "@babel/helper-module-transforms": ^7.13.0
+    "@babel/helpers": ^7.13.0
+    "@babel/parser": ^7.13.0
     "@babel/template": ^7.12.13
-    "@babel/traverse": ^7.12.13
-    "@babel/types": ^7.12.13
+    "@babel/traverse": ^7.13.0
+    "@babel/types": ^7.13.0
     convert-source-map: ^1.7.0
     debug: ^4.1.0
-    gensync: ^1.0.0-beta.1
+    gensync: ^1.0.0-beta.2
     json5: ^2.1.2
     lodash: ^4.17.19
-    semver: ^5.4.1
+    semver: 7.0.0
     source-map: ^0.5.0
-  checksum: 87b621eb25d1c96adb95a4f019659d856aa6c4a45ee3ad234fb8066b1ff40ef9ae0052dcdba549ae92d1505207f1c53203b3e410bdadddedaecd1e45fb1172f7
+  checksum: 3adc8e8ce201f7e45a83c6715b11b353e5083339cf32dc84db10bda63b63e4cd785b57ee8d51e0e049a60ebbbf7cd45d594475b6511607b57917076fd5acd888
   languageName: node
   linkType: hard
 
-"@babel/generator@npm:^7.12.15, @babel/generator@npm:^7.13.0":
+"@babel/generator@npm:^7.13.0":
   version: 7.13.0
   resolution: "@babel/generator@npm:7.13.0"
   dependencies:
@@ -372,14 +373,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helpers@npm:^7.12.13":
-  version: 7.12.13
-  resolution: "@babel/helpers@npm:7.12.13"
+"@babel/helpers@npm:^7.13.0":
+  version: 7.13.0
+  resolution: "@babel/helpers@npm:7.13.0"
   dependencies:
     "@babel/template": ^7.12.13
-    "@babel/traverse": ^7.12.13
-    "@babel/types": ^7.12.13
-  checksum: ebfde3ef2a0bfc4df4a16d51af655bedcb4aa1101f2e2c6f3942a072ee5bd2e53abe2193434c8993379ac480cc4fb2af91d42bf2b8bf0fb5c60ffa40d8162999
+    "@babel/traverse": ^7.13.0
+    "@babel/types": ^7.13.0
+  checksum: 6c435aefe108e85b999570eed9fc2ec10944cb1ed4c3ff6656936c90a6f986174bd5c80ec48ecbbb7042e5eca5761364f484d7e0238a3aa77c2f5099dcac8df0
   languageName: node
   linkType: hard
 
@@ -394,7 +395,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.12.13, @babel/parser@npm:^7.12.16, @babel/parser@npm:^7.13.0":
+"@babel/parser@npm:^7.12.13, @babel/parser@npm:^7.13.0":
   version: 7.13.0
   resolution: "@babel/parser@npm:7.13.0"
   bin:
@@ -1417,7 +1418,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/traverse@npm:^7.12.13, @babel/traverse@npm:^7.13.0, @babel/traverse@npm:^7.4.5":
+"@babel/traverse@npm:^7.13.0, @babel/traverse@npm:^7.4.5":
   version: 7.13.0
   resolution: "@babel/traverse@npm:7.13.0"
   dependencies:
@@ -3438,7 +3439,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@styled-icons/storybook@workspace:storybook"
   dependencies:
-    "@babel/core": ^7.12.16
+    "@babel/core": ^7.13.1
     "@storybook/addons": ^6.1.20
     "@storybook/react": ^6.1.18
     babel-loader: ^8.2.2
@@ -8884,10 +8885,10 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"gensync@npm:^1.0.0-beta.1":
-  version: 1.0.0-beta.1
-  resolution: "gensync@npm:1.0.0-beta.1"
-  checksum: 3d14f7c34fc903dd52c36d0879de2c4afde8315edccd630e97919c365819b32c06d98770ef87f7ba45686ee5d2bd5818354920187659b42828319f7cc3352fdb
+"gensync@npm:^1.0.0-beta.2":
+  version: 1.0.0-beta.2
+  resolution: "gensync@npm:1.0.0-beta.2"
+  checksum: d523437689c97b3aba9c5cdeca4677d5fff9a29d620db693fea40d852bad63563110f16979d0170248439dbcd2ecee0780fb2533d3f0519f019081aa10767c60
   languageName: node
   linkType: hard
 
@@ -13913,7 +13914,7 @@ fsevents@~2.3.1:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@babel/cli": ^7.13.0
-    "@babel/core": ^7.12.16
+    "@babel/core": ^7.13.1
     "@babel/plugin-transform-runtime": ^7.13.7
     "@babel/preset-env": ^7.13.5
     "@babel/preset-react": ^7.12.13
