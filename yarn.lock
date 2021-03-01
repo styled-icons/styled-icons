@@ -1133,19 +1133,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-runtime@npm:^7.13.7":
-  version: 7.13.7
-  resolution: "@babel/plugin-transform-runtime@npm:7.13.7"
+"@babel/plugin-transform-runtime@npm:^7.13.8":
+  version: 7.13.8
+  resolution: "@babel/plugin-transform-runtime@npm:7.13.8"
   dependencies:
     "@babel/helper-module-imports": ^7.12.13
     "@babel/helper-plugin-utils": ^7.13.0
     babel-plugin-polyfill-corejs2: ^0.1.4
     babel-plugin-polyfill-corejs3: ^0.1.3
     babel-plugin-polyfill-regenerator: ^0.1.2
-    semver: 7.0.0
+    semver: ^6.3.0
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: f1bb7bb8541c483332c48036f4c68e21d5e4a25e8ddb006d390779756276bcae1950121bea5d2a1244b5273f64ed87ed69f038fb8d6415ee352c4856f2c0a2e4
+  checksum: 481c3cdcd500eb29fe2cb5410570c63dbd06b909e66985c3e5b5f6b2d38b59fb013fd64a0f48f4f50bff866eddde1c17f7c0a5733835ba1176db76e2aa05fde4
   languageName: node
   linkType: hard
 
@@ -13915,7 +13915,7 @@ fsevents@~2.3.1:
   dependencies:
     "@babel/cli": ^7.13.0
     "@babel/core": ^7.13.1
-    "@babel/plugin-transform-runtime": ^7.13.7
+    "@babel/plugin-transform-runtime": ^7.13.8
     "@babel/preset-env": ^7.13.5
     "@babel/preset-react": ^7.12.13
     "@babel/preset-typescript": ^7.13.0
