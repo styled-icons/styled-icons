@@ -1,5 +1,11 @@
 # @styled-icons/bootstrap
 
+## 10.29.0
+
+### Minor Changes
+
+- [#1664](https://github.com/styled-icons/styled-icons/pull/1664): Bump @svg-icons/bootstrap from 1.39.1 to 1.40.0 ([`d667210`](https://github.com/styled-icons/styled-icons/commit/d6672103f6ed482d457ad1cf6474c34847ac8ac1), [@dependabot](https://github.com/apps/dependabot))
+
 ## 10.25.0
 
 ### Minor Changes
