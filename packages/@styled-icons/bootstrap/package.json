@@ -25,7 +25,7 @@
     "generate": "generate-icon-package @svg-icons/bootstrap"
   },
   "dependencies": {
-    "@babel/runtime": "^7.12.13",
+    "@babel/runtime": "^7.13.9",
     "@styled-icons/styled-icon": "^10.6.0"
   },
   "peerDependencies": {
