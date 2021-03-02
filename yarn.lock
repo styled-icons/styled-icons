@@ -2864,7 +2864,7 @@ __metadata:
     "@babel/runtime": ^7.12.13
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/bootstrap": 1.39.1
+    "@svg-icons/bootstrap": 1.40.0
     react: ^17.0.1
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3528,10 +3528,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@svg-icons/bootstrap@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/bootstrap@npm:1.39.1"
-  checksum: 82f5ff1170e094ae8b99fc94bd125395a7399030866a5805d8ea331f8c52e688834fa7d6913403275dd6fde41d621a99af0724ea9fdecf2d06b01cc3f434eb24
+"@svg-icons/bootstrap@npm:1.40.0":
+  version: 1.40.0
+  resolution: "@svg-icons/bootstrap@npm:1.40.0"
+  checksum: a430f34332603dd7c1124aeb3df31e425597ff7d3d6beb87551244556657b666181228b012e7ab7718e09995d47ebe25ed3e0a18755f4221b4afe5ef5d0e6ced
   languageName: node
   linkType: hard
 
