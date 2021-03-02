@@ -2857,7 +2857,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@styled-icons/bootstrap@10.25.0, @styled-icons/bootstrap@workspace:packages/@styled-icons/bootstrap":
+"@styled-icons/bootstrap@10.29.0, @styled-icons/bootstrap@workspace:packages/@styled-icons/bootstrap":
   version: 0.0.0-use.local
   resolution: "@styled-icons/bootstrap@workspace:packages/@styled-icons/bootstrap"
   dependencies:
@@ -3417,7 +3417,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/simple-icons@10.28.0, @styled-icons/simple-icons@workspace:packages/@styled-icons/simple-icons":
+"@styled-icons/simple-icons@10.29.0, @styled-icons/simple-icons@workspace:packages/@styled-icons/simple-icons":
   version: 0.0.0-use.local
   resolution: "@styled-icons/simple-icons@workspace:packages/@styled-icons/simple-icons"
   dependencies:
@@ -14982,7 +14982,7 @@ fsevents@~2.3.1:
   resolution: "styled-icons@workspace:packages/styled-icons"
   dependencies:
     "@babel/runtime": ^7.12.13
-    "@styled-icons/bootstrap": 10.25.0
+    "@styled-icons/bootstrap": 10.29.0
     "@styled-icons/boxicons-logos": 10.23.0
     "@styled-icons/boxicons-regular": 10.23.0
     "@styled-icons/boxicons-solid": 10.23.0
@@ -15013,7 +15013,7 @@ fsevents@~2.3.1:
     "@styled-icons/pack-builder": ^10.6.1
     "@styled-icons/remix-fill": 10.18.0
     "@styled-icons/remix-line": 10.18.0
-    "@styled-icons/simple-icons": 10.28.0
+    "@styled-icons/simple-icons": 10.29.0
     "@styled-icons/styled-icon": 10.6.3
     "@styled-icons/typicons": 10.18.0
     "@styled-icons/zondicons": 10.18.0
