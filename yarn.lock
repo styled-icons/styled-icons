@@ -1133,9 +1133,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-runtime@npm:^7.13.8":
-  version: 7.13.8
-  resolution: "@babel/plugin-transform-runtime@npm:7.13.8"
+"@babel/plugin-transform-runtime@npm:^7.13.9":
+  version: 7.13.9
+  resolution: "@babel/plugin-transform-runtime@npm:7.13.9"
   dependencies:
     "@babel/helper-module-imports": ^7.12.13
     "@babel/helper-plugin-utils": ^7.13.0
@@ -1145,7 +1145,7 @@ __metadata:
     semver: ^6.3.0
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: 481c3cdcd500eb29fe2cb5410570c63dbd06b909e66985c3e5b5f6b2d38b59fb013fd64a0f48f4f50bff866eddde1c17f7c0a5733835ba1176db76e2aa05fde4
+  checksum: 79fd9e6ff154c6005acd1478a5e5c44b4d33ef9d96f67b83dabba59ad816a7ea5b77800ff222fd565c4e6178831165d4bc848bc07c1d88c5deaa67609af58682
   languageName: node
   linkType: hard
 
@@ -13915,7 +13915,7 @@ fsevents@~2.3.1:
   dependencies:
     "@babel/cli": ^7.13.0
     "@babel/core": ^7.13.8
-    "@babel/plugin-transform-runtime": ^7.13.8
+    "@babel/plugin-transform-runtime": ^7.13.9
     "@babel/preset-env": ^7.13.5
     "@babel/preset-react": ^7.12.13
     "@babel/preset-typescript": ^7.13.0
