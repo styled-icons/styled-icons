@@ -26,10 +26,10 @@
   "devDependencies": {
     "@babel/core": "^7.13.8",
     "@storybook/addons": "^6.1.20",
-    "@storybook/react": "^6.1.18",
+    "@storybook/react": "^6.1.20",
     "babel-loader": "^8.2.2",
     "chromatic": "^5.6.3",
     "fs-extra": "^9.1.0",
-    "webpack": "^5.22.0"
+    "webpack": "^5.24.2"
   }
 }
