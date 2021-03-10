@@ -24,7 +24,7 @@
     "styled-icons": "^10.6.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.8",
+    "@babel/core": "^7.13.10",
     "@storybook/addons": "^6.1.21",
     "@storybook/react": "^6.1.21",
     "babel-loader": "^8.2.2",
