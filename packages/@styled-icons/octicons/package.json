@@ -25,7 +25,7 @@
     "generate": "generate-icon-package @svg-icons/octicons"
   },
   "dependencies": {
-    "@babel/runtime": "^7.13.9",
+    "@babel/runtime": "^7.13.10",
     "@styled-icons/styled-icon": "^10.6.0"
   },
   "peerDependencies": {

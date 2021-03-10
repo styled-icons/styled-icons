@@ -29,17 +29,17 @@
     "release": "yarn build:icons && yarn changeset publish"
   },
   "devDependencies": {
-    "@babel/cli": "^7.13.0",
-    "@babel/core": "^7.13.8",
-    "@babel/plugin-transform-runtime": "^7.13.9",
-    "@babel/preset-env": "^7.13.9",
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
     "@babel/preset-react": "^7.12.13",
     "@babel/preset-typescript": "^7.13.0",
-    "@changesets/changelog-github": "^0.2.8",
+    "@changesets/changelog-github": "^0.3.0",
     "@changesets/cli": "^2.14.1",
     "@monorepolint/cli": "^0.5.0-alpha.52",
     "@monorepolint/core": "0.5.0-alpha.52",
-    "@types/node": "^14.14.31",
+    "@types/node": "^14.14.33",
     "@types/react": "^17.0.3",
     "@types/styled-components": "^5.1.7",
     "babel-plugin-styled-components": "^1.12.0",
@@ -49,7 +49,7 @@
     "react-dom": "^17.0.1",
     "react-is": "^17.0.1",
     "styled-components": "^5.2.1",
-    "typescript": "^4.2.2",
+    "typescript": "^4.2.3",
     "wsrun": "^5.2.4"
   }
 }
