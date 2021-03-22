@@ -31,7 +31,7 @@ jobs:
           # Using a Personal Access Token here is required to trigger workflows on our new commit.
           # The default GitHub token doesn't trigger any workflows.
           # See: https://github.community/t/push-from-action-does-not-trigger-subsequent-action/16854/2
-          token: ${{ secrets.BOT_GITHUB_SECRET }}
+          token: ${{ secrets.BOT_GITHUB_TOKEN }}
           ref: ${{ github.event.pull_request.head.ref }}
           fetch-depth: 2
 
@@ -46,7 +46,7 @@ jobs:
       - name: Configure git
         run: |
           # use personal access token to allow triggering new workflow
-          BASIC_AUTH=$(echo -n "x-access-token:${{ secrets.BOT_GITHUB_SECRET }}" | base64)
+          BASIC_AUTH=$(echo -n "x-access-token:${{ secrets.BOT_GITHUB_TOKEN }}" | base64)
           echo "::add-mask::$BASIC_AUTH"
           git config --global user.name 'dependabot[bot]'
           git config --global user.email '49699333+dependabot[bot]@users.noreply.github.com'
