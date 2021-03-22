@@ -1,62 +1,59 @@
-# This workflow is necessary to work around Dependabot issues with Yarn 2.
-# This should be removed after Dependabot fully supports Yarn 2.
+# Automatically save updated `yarn.lock` file for dependabot PRs.
+# This is necessary because dependabot doesn't support Yarn v2 yet:
+# https://github.com/dependabot/dependabot-core/issues/1297
 #
-# See: https://github.com/dependabot/dependabot-core/issues/1297
+# Note: We use the `pull_request_target` event due to GitHub security measures.
+#       It is important to ensure we don't execute any untrusted PR code in this context.
+# See: https://github.blog/changelog/2021-02-19-github-actions-workflows-triggered-by-dependabot-prs-will-run-with-read-only-permissions/
+#      https://securitylab.github.com/research/github-actions-preventing-pwn-requests
 
 name: Dependabot
 on:
-  push:
-    branches: [dependabot/npm_and_yarn/**]
+  - pull_request_target
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.actor == 'dependabot[bot]'
+    if: |
+      github.actor == 'dependabot[bot]' &&
+      contains(github.event.pull_request.head.ref, 'dependabot/npm_and_yarn/')
+
+    # IMPORTANT: setting YARN_ENABLE_SCRIPTS=false is critical to ensure that untrusted
+    # PRs can't add an npm package and then use that to execute untrusted code in
+    # a trusted context. See links at the top of this workflow for further details.
+    # See also: https://github.com/yarnpkg/berry/issues/1679#issuecomment-669937860
+    env:
+      YARN_ENABLE_SCRIPTS: false
 
     steps:
       - uses: actions/checkout@v2
         with:
+          # Using a Personal Access Token here is required to trigger workflows on our new commit.
+          # The default GitHub token doesn't trigger any workflows.
+          # See: https://github.community/t/push-from-action-does-not-trigger-subsequent-action/16854/2
+          token: ${{ secrets.BOT_GITHUB_SECRET }}
+          ref: ${{ github.event.pull_request.head.ref }}
           fetch-depth: 2
-          persist-credentials: false # minimize exposure
-      - name: Use Node.js 12.x
-        uses: actions/setup-node@v2.1.5
+
+      - uses: actions/setup-node@v2.1.5
         with:
           node-version: '12'
-      - name: Autofix lockfile
-        run: |
-          # change directory
-          # use $8 for default commit message style (Bump XXX from AAA to BBB in YYY)
-          # use $9 for Angular commit style (build: bump XXX from AAA to BBB in YYY)
-          cd .`git log -1 --pretty=%s | awk '{ print $8 }'`
 
-          # restore yarn.lock from the previous commit
-          git checkout HEAD^ -- yarn.lock
+      - run: git checkout HEAD^ -- yarn.lock
+      - run: yarn install --skip-builds
+      - run: yarn dedupe
 
-          # if package.json was not updated, upgrade the dependency
-          # use $2 for default commit message style (Bump XXX from ...)
-          # use $3 for Angular commit style (build: bump XXX from ...)
-          git diff --name-only HEAD^ HEAD | grep -q 'package.json' || yarn up `git log -1 --pretty=%s | awk '{ print $2 }'`
-
-          # restore package.json from the last commit
-          git checkout HEAD -- package.json
-
-          yarn install
-
-          # deduplicate lockfile
-          yarn dedupe
-        env:
-          YARN_ENABLE_SCRIPTS: 0 # disable postinstall scripts
-      - name: Config Git
+      - name: Configure git
         run: |
           # use personal access token to allow triggering new workflow
-          BASIC_AUTH=$(echo -n "x-access-token:${{ secrets.BOT_GITHUB_TOKEN }}" | base64)
+          BASIC_AUTH=$(echo -n "x-access-token:${{ secrets.BOT_GITHUB_SECRET }}" | base64)
           echo "::add-mask::$BASIC_AUTH"
-          git config --global user.name '${{ github.event.commits[0].author.name }}'
-          git config --global user.email '${{ github.event.commits[0].author.email }}'
+          git config --global user.name 'dependabot[bot]'
+          git config --global user.email '49699333+dependabot[bot]@users.noreply.github.com'
           git config --local http.$GITHUB_SERVER_URL/.extraheader "AUTHORIZATION: basic $BASIC_AUTH"
+
       - name: Commit changes
         run: |
-          cd .`git log -1 --pretty=%s | awk '{ print $8 }'` # ditto
           git add yarn.lock
-          git commit -m "Dependabot Yarn 2 autofix"
+          git commit -m "[dependabot skip] Fix yarn.lock"
           git push
