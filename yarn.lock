@@ -2993,7 +2993,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/fluentui-system-filled@10.29.0, @styled-icons/fluentui-system-filled@workspace:packages/@styled-icons/fluentui-system-filled":
+"@styled-icons/fluentui-system-filled@10.30.0, @styled-icons/fluentui-system-filled@workspace:packages/@styled-icons/fluentui-system-filled":
   version: 0.0.0-use.local
   resolution: "@styled-icons/fluentui-system-filled@workspace:packages/@styled-icons/fluentui-system-filled"
   dependencies:
@@ -3011,7 +3011,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/fluentui-system-regular@10.29.0, @styled-icons/fluentui-system-regular@workspace:packages/@styled-icons/fluentui-system-regular":
+"@styled-icons/fluentui-system-regular@10.30.0, @styled-icons/fluentui-system-regular@workspace:packages/@styled-icons/fluentui-system-regular":
   version: 0.0.0-use.local
   resolution: "@styled-icons/fluentui-system-regular@workspace:packages/@styled-icons/fluentui-system-regular"
   dependencies:
@@ -14587,8 +14587,8 @@ fsevents@~2.3.1:
     "@styled-icons/fa-regular": 10.26.0
     "@styled-icons/fa-solid": 10.26.0
     "@styled-icons/feather": 10.18.0
-    "@styled-icons/fluentui-system-filled": 10.29.0
-    "@styled-icons/fluentui-system-regular": 10.29.0
+    "@styled-icons/fluentui-system-filled": 10.30.0
+    "@styled-icons/fluentui-system-regular": 10.30.0
     "@styled-icons/foundation": 10.28.0
     "@styled-icons/heroicons-outline": 10.19.0
     "@styled-icons/heroicons-solid": 10.19.0
