@@ -3363,7 +3363,7 @@ __metadata:
     "@storybook/addons": ^6.1.21
     "@storybook/react": ^6.1.21
     babel-loader: ^8.2.2
-    chromatic: ^5.6.3
+    chromatic: ^5.7.0
     fs-extra: ^9.1.0
     react: ^17.0.1
     react-dom: ^17.0.1
@@ -6180,9 +6180,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:^5.6.3":
-  version: 5.6.3
-  resolution: "chromatic@npm:5.6.3"
+"chromatic@npm:^5.7.0":
+  version: 5.7.0
+  resolution: "chromatic@npm:5.7.0"
   dependencies:
     "@actions/core": ^1.2.4
     "@actions/github": ^4.0.0
@@ -6223,7 +6223,7 @@ __metadata:
     chroma: bin/register.js
     chromatic: bin/register.js
     chromatic-cli: bin/register.js
-  checksum: ac2e34ca4da854650c747905c16d1d30ebb995b8447cfedd58ec9e3cd60f37135559abe051f262c145799b9afef17e8e847964bdf902543eeab3d9c47dc1eb57
+  checksum: 9c0921a69603ba9e3a5bbef6694170f6f48bbe7b737f8ae8f163f56fb673e940a95b3552c0ddb5ec6f326959eac6a179906c69df5e50a91d76f8347af618b1fd
   languageName: node
   linkType: hard
 
