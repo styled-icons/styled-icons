@@ -2993,6 +2993,42 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@styled-icons/fluentui-system-filled@workspace:packages/@styled-icons/fluentui-system-filled":
+  version: 0.0.0-use.local
+  resolution: "@styled-icons/fluentui-system-filled@workspace:packages/@styled-icons/fluentui-system-filled"
+  dependencies:
+    "@babel/runtime": ^7.13.10
+    "@styled-icons/pack-builder": ^10.6.0
+    "@styled-icons/styled-icon": ^10.6.0
+    "@svg-icons/fluentui-system-filled": 1.41.0
+    react: ^17.0.1
+    react-dom: ^17.0.1
+    react-is: ^17.0.1
+    styled-components: ^5.2.1
+  peerDependencies:
+    react: "*"
+    styled-components: "*"
+  languageName: unknown
+  linkType: soft
+
+"@styled-icons/fluentui-system-regular@workspace:packages/@styled-icons/fluentui-system-regular":
+  version: 0.0.0-use.local
+  resolution: "@styled-icons/fluentui-system-regular@workspace:packages/@styled-icons/fluentui-system-regular"
+  dependencies:
+    "@babel/runtime": ^7.13.10
+    "@styled-icons/pack-builder": ^10.6.0
+    "@styled-icons/styled-icon": ^10.6.0
+    "@svg-icons/fluentui-system-regular": 1.41.0
+    react: ^17.0.1
+    react-dom: ^17.0.1
+    react-is: ^17.0.1
+    styled-components: ^5.2.1
+  peerDependencies:
+    react: "*"
+    styled-components: "*"
+  languageName: unknown
+  linkType: soft
+
 "@styled-icons/foundation@10.28.0, @styled-icons/foundation@workspace:packages/@styled-icons/foundation":
   version: 0.0.0-use.local
   resolution: "@styled-icons/foundation@workspace:packages/@styled-icons/foundation"
@@ -3507,6 +3543,20 @@ __metadata:
   version: 1.39.1
   resolution: "@svg-icons/feather@npm:1.39.1"
   checksum: c63b67d48700e83ffa6e779c91769cd292f47ffd52097e326f773911e75205a139003dfd9ba7c3ec61a735fc60169d4b1c8cf49fb8295d0d5aef9a7387b06d2d
+  languageName: node
+  linkType: hard
+
+"@svg-icons/fluentui-system-filled@npm:1.41.0":
+  version: 1.41.0
+  resolution: "@svg-icons/fluentui-system-filled@npm:1.41.0"
+  checksum: f41a249c1d7de523606ebf41ae758e2fae7046bff2dfcdcdaea3c4732751056c86f92ef93552c74f990581602d7c471ffbb6d6b269a68db35913928dcdb3a75a
+  languageName: node
+  linkType: hard
+
+"@svg-icons/fluentui-system-regular@npm:1.41.0":
+  version: 1.41.0
+  resolution: "@svg-icons/fluentui-system-regular@npm:1.41.0"
+  checksum: c80806f001743367651d1b1d40ad54f521d02d47f4ef24426e1b578797e614ff0e12fd2f205fe2dccc819e95a4c074a0da747f6ebacfb993925eac15822d53e1
   languageName: node
   linkType: hard
 

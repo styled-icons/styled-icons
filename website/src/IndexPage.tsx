@@ -26,7 +26,9 @@ const IndexPage: React.SFC = () => (
         : <a href="https://icons.getbootstrap.com/">Bootstrap</a>, <a href="https://boxicons.com/">Boxicons</a>,{' '}
         <a href="http://cryptoicons.co">Crypto Icons</a>, <a href="http://www.entypo.com/">Entypo</a>,{' '}
         <a href="https://akveo.github.io/eva-icons/">Eva Icons</a>, <a href="https://evil-icons.io">Evil Icons</a>,{' '}
-        <a href="https://feathericons.com/">Feather</a>, <a href="https://fontawesome.com/">Font Awesome</a>,{' '}
+        <a href="https://feathericons.com/">Feather</a>,{' '}
+        <a href="https://github.com/microsoft/fluentui-system-icons">FluentUI System</a>,{' '}
+        <a href="https://fontawesome.com/">Font Awesome</a>,{' '}
         <a href="https://zurb.com/playground/foundation-icon-fonts-3">Foundation</a>,{' '}
         <a href="https://github.com/refactoringui/heroicons">Heroicons</a>, <a href="https://icomoon.io">Icomoon</a>,{' '}
         <a href="https://ionicons.com">Ionicons</a>, <a href="https://material.io/icons/">Material Design</a>,{' '}

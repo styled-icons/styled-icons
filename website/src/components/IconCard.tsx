@@ -17,6 +17,8 @@ const importMap: any = {
   'fa-regular': import('styled-icons/fa-regular'),
   'fa-solid': import('styled-icons/fa-solid'),
   feather: import('styled-icons/feather'),
+  'fluentui-system-filled': import('styled-icons/fluentui-system-filled'),
+  'fluentui-system-regular': import('styled-icons/fluentui-system-regular'),
   foundation: import('styled-icons/foundation'),
   'heroicons-outline': import('styled-icons/heroicons-outline'),
   'heroicons-solid': import('styled-icons/heroicons-solid'),
