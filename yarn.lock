@@ -4026,14 +4026,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/styled-components@npm:^5.1.7":
-  version: 5.1.7
-  resolution: "@types/styled-components@npm:5.1.7"
+"@types/styled-components@npm:^5.1.9":
+  version: 5.1.9
+  resolution: "@types/styled-components@npm:5.1.9"
   dependencies:
     "@types/hoist-non-react-statics": "*"
     "@types/react": "*"
     csstype: ^3.0.2
-  checksum: e0ce3949cbca71581288aac9b948c9943708f7ef20bdc030c8665f88f9e829b37ae7312979d9c949200aff99a704eb22e28f06b8c7bb50d4dbe1d01894762c99
+  checksum: a2ad66350374d45e4a453f09ab7e010eeedeb8ddf90b619106601db5364bad2e196734f92d8b8a240327f6be3e9a1440b874ac73d3733c08f0a40b25fb783e79
   languageName: node
   linkType: hard
 
@@ -13571,7 +13571,7 @@ fsevents@~2.3.1:
     "@monorepolint/core": 0.5.0-alpha.52
     "@types/node": ^14.14.33
     "@types/react": ^17.0.3
-    "@types/styled-components": ^5.1.7
+    "@types/styled-components": ^5.1.9
     babel-plugin-styled-components: ^1.12.0
     npm-run-all: ^4.1.5
     prettier: ^2.2.1
