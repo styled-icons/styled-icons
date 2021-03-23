@@ -2749,7 +2749,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/bootstrap": 1.40.0
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -2767,7 +2767,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/boxicons-logos": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -2785,7 +2785,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/boxicons-regular": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -2803,7 +2803,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/boxicons-solid": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -2821,7 +2821,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/crypto": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -2839,7 +2839,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/entypo-social": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -2857,7 +2857,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/entypo": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -2875,7 +2875,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/evaicons-outline": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -2893,7 +2893,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/evaicons-solid": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -2911,7 +2911,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/evil": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -2929,7 +2929,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/fa-brands": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -2947,7 +2947,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/fa-regular": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -2965,7 +2965,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/fa-solid": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -2983,7 +2983,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/feather": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3001,7 +3001,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/fluentui-system-filled": 1.41.0
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3019,7 +3019,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/fluentui-system-regular": 1.42.0
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3037,7 +3037,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/foundation": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3055,7 +3055,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/heroicons-outline": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3073,7 +3073,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/heroicons-solid": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3091,7 +3091,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/icomoon": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3109,7 +3109,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/ionicons-outline": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3127,7 +3127,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/ionicons-sharp": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3145,7 +3145,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/ionicons-solid": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3163,7 +3163,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/material-outlined": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3181,7 +3181,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/material-rounded": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3199,7 +3199,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/material-sharp": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3217,7 +3217,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/material-twotone": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3235,7 +3235,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/material-filled": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3253,7 +3253,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/octicons": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3271,7 +3271,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/open-iconic": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3309,7 +3309,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/remix-fill": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3327,7 +3327,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/remix-line": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3345,7 +3345,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/simple-icons": 1.40.0
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3365,7 +3365,7 @@ __metadata:
     babel-loader: ^8.2.2
     chromatic: ^5.7.0
     fs-extra: ^9.1.0
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3380,7 +3380,7 @@ __metadata:
   dependencies:
     "@babel/runtime": ^7.13.10
     "@styled-icons/pack-builder": ^10.6.0
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3398,7 +3398,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/typicons": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -3421,7 +3421,7 @@ __metadata:
     js-search: ^2.0.0
     next: ^10.0.9
     query-string: ^7.0.0
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     react-virtualized: ^9.22.3
@@ -3438,7 +3438,7 @@ __metadata:
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
     "@svg-icons/zondicons": 1.39.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
@@ -13083,13 +13083,13 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"react@npm:^17.0.1":
-  version: 17.0.1
-  resolution: "react@npm:17.0.1"
+"react@npm:^17.0.2":
+  version: 17.0.2
+  resolution: "react@npm:17.0.2"
   dependencies:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
-  checksum: a76d86ec973eb4b25a46071ac7f974adfd66ed89ad1db63043be1d976ec25417520a210e6d724b0ad937422b706afcf9962cedda9e92125992a8c0e8a95f2051
+  checksum: 7d0dfebafe1d297503157abb2e9acdb49852185deb8700c16f4a6faad87642f84903ab18cfc16f40b9a0dfe97540f99834982ee953e6d48b39c41608dc3e4b29
   languageName: node
   linkType: hard
 
@@ -13575,7 +13575,7 @@ fsevents@~2.3.1:
     babel-plugin-styled-components: ^1.12.0
     npm-run-all: ^4.1.5
     prettier: ^2.2.1
-    react: ^17.0.1
+    react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
     styled-components: ^5.2.1
