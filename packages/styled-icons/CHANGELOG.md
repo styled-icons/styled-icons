@@ -1,5 +1,12 @@
 # styled-icons
 
+## 10.31.0
+
+### Patch Changes
+
+- Updated dependencies [[`3d123fe`](https://github.com/styled-icons/styled-icons/commit/3d123fe302eda29e2d3b22b3a9be5ca74b53ff81)]:
+  - @styled-icons/fluentui-system-regular@10.31.0
+
 ## 10.30.0
 
 ### Minor Changes
