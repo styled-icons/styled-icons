@@ -3414,7 +3414,7 @@ __metadata:
   dependencies:
     "@loadable/component": ^5.14.1
     "@types/js-search": ^1.4.0
-    "@types/react-dom": ^17.0.2
+    "@types/react-dom": ^17.0.3
     "@types/react-virtualized": ^9.21.11
     copy-to-clipboard: ^3.3.1
     history: ^5.0.0
@@ -3957,12 +3957,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^17.0.2":
-  version: 17.0.2
-  resolution: "@types/react-dom@npm:17.0.2"
+"@types/react-dom@npm:^17.0.3":
+  version: 17.0.3
+  resolution: "@types/react-dom@npm:17.0.3"
   dependencies:
     "@types/react": "*"
-  checksum: abaadaa2629640870f4b982e3f32cf8f719773cfa97f02931baebef1993c0e2d70fd17f94b29bcf00d45ea099d5f04a042cf55ecb5e2bf8804c4e4cabdb4adc0
+  checksum: 9314c91a985f153591e1e74aef3d63d8b22e098069773f32745bf0733740a49802731761a46da8788a7d3dd2c21346036f12c2c24627630e5a6210b120a650e6
   languageName: node
   linkType: hard
 
