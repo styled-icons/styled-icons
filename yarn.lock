@@ -3344,7 +3344,7 @@ __metadata:
     "@babel/runtime": ^7.13.10
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/simple-icons": 1.40.0
+    "@svg-icons/simple-icons": 1.42.0
     react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3672,10 +3672,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/simple-icons@npm:1.40.0":
-  version: 1.40.0
-  resolution: "@svg-icons/simple-icons@npm:1.40.0"
-  checksum: 595a8e3adb8db2bf9a3eb80d8ee19c329593d2664328d4e9fd758c1a8e807ec0e17cb784073b336fe0bf3528032685baf9dae038374272d91c8228c37e05695a
+"@svg-icons/simple-icons@npm:1.42.0":
+  version: 1.42.0
+  resolution: "@svg-icons/simple-icons@npm:1.42.0"
+  checksum: 925859c9ba660fa92fba602e40ace7560bd82b11f711d09b16ad5c20641ebf2ee0dbcce5d0ab91ad95f62e66a5a3127646a67e426df47489ebbba1190a0e1255
   languageName: node
   linkType: hard
 
