@@ -2978,7 +2978,7 @@ __metadata:
     "@babel/runtime": ^7.13.10
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/fa-solid": 1.39.1
+    "@svg-icons/fa-solid": 1.42.0
     react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3546,10 +3546,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/fa-solid@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/fa-solid@npm:1.39.1"
-  checksum: 86ab5f7d1c32ae45adeba9bb7adaa24fd4a2c6e61adf1b0a23ac655ab11182da96cc138e71f6e4a388448d2287e290581ba167443b051e406de076e6eea7a394
+"@svg-icons/fa-solid@npm:1.42.0":
+  version: 1.42.0
+  resolution: "@svg-icons/fa-solid@npm:1.42.0"
+  checksum: f1f49ae4b38efb1a9a5cdb07d5c140a700cc07ec2516dc0b3ed5f9479d9698b15f678d8c127876a54d5b644a64cd7b5f967d31c6f2f96504920fcdd0d667c8cf
   languageName: node
   linkType: hard
 
