@@ -1,6 +1,6 @@
 {
   "name": "styled-icons",
-  "version": "10.31.0",
+  "version": "10.32.0",
   "license": "MIT",
   "description": "Icons from packs like Font Awesome, Material, Octicons, Feather, Icomoon, and Boxicons available as Styled Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
@@ -46,9 +46,9 @@
     "@styled-icons/evil": "10.18.0",
     "@styled-icons/fa-brands": "10.26.0",
     "@styled-icons/fa-regular": "10.26.0",
-    "@styled-icons/fa-solid": "10.26.0",
+    "@styled-icons/fa-solid": "10.32.0",
     "@styled-icons/feather": "10.18.0",
-    "@styled-icons/fluentui-system-filled": "10.30.0",
+    "@styled-icons/fluentui-system-filled": "10.32.0",
     "@styled-icons/fluentui-system-regular": "10.31.0",
     "@styled-icons/foundation": "10.28.0",
     "@styled-icons/heroicons-outline": "10.19.0",
@@ -66,7 +66,7 @@
     "@styled-icons/open-iconic": "10.18.0",
     "@styled-icons/remix-fill": "10.18.0",
     "@styled-icons/remix-line": "10.18.0",
-    "@styled-icons/simple-icons": "10.29.0",
+    "@styled-icons/simple-icons": "10.32.0",
     "@styled-icons/styled-icon": "10.6.3",
     "@styled-icons/typicons": "10.18.0",
     "@styled-icons/zondicons": "10.18.0"
