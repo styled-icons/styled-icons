@@ -1,5 +1,14 @@
 # styled-icons
 
+## 10.32.0
+
+### Patch Changes
+
+- Updated dependencies [[`96e0bd3`](https://github.com/styled-icons/styled-icons/commit/96e0bd3cb0a5521347af96eb716997e24b5ebfc8), [`32f438e`](https://github.com/styled-icons/styled-icons/commit/32f438e841af7f4a559959d5dc9dfc827bd0c281), [`9fa898d`](https://github.com/styled-icons/styled-icons/commit/9fa898d19a56e1beb63ecef31c68223523ae52b4)]:
+  - @styled-icons/fluentui-system-filled@10.32.0
+  - @styled-icons/simple-icons@10.32.0
+  - @styled-icons/fa-solid@10.32.0
+
 ## 10.31.0
 
 ### Patch Changes

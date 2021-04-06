@@ -1,5 +1,11 @@
 # @styled-icons/fa-solid
 
+## 10.32.0
+
+### Minor Changes
+
+- [#1692](https://github.com/styled-icons/styled-icons/pull/1692): Bump @svg-icons/fa-solid from 1.39.1 to 1.42.0 ([`9fa898d`](https://github.com/styled-icons/styled-icons/commit/9fa898d19a56e1beb63ecef31c68223523ae52b4), [@dependabot](https://github.com/apps/dependabot))
+
 ## 10.26.0
 
 ### Minor Changes
