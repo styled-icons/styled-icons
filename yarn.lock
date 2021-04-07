@@ -3472,7 +3472,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@styled-icons/remix-editor@workspace:packages/@styled-icons/remix-editor":
+"@styled-icons/remix-editor@10.18.0, @styled-icons/remix-editor@workspace:packages/@styled-icons/remix-editor":
   version: 0.0.0-use.local
   resolution: "@styled-icons/remix-editor@workspace:packages/@styled-icons/remix-editor"
   dependencies:
@@ -14629,6 +14629,7 @@ fsevents@~2.3.1:
     "@styled-icons/octicons": 10.28.0
     "@styled-icons/open-iconic": 10.18.0
     "@styled-icons/pack-builder": ^10.6.1
+    "@styled-icons/remix-editor": 10.18.0
     "@styled-icons/remix-fill": 10.18.0
     "@styled-icons/remix-line": 10.18.0
     "@styled-icons/simple-icons": 10.32.0
