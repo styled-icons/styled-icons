@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.1",
+    "react-dom": "^17.0.2",
     "react-is": "^17.0.1",
     "styled-components": "^5.2.1",
     "styled-icons": "^10.6.0"
