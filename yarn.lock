@@ -3191,7 +3191,7 @@ __metadata:
     "@babel/runtime": ^7.13.10
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/heroicons-outline": 1.39.1
+    "@svg-icons/heroicons-outline": 1.44.0
     react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3705,10 +3705,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/heroicons-outline@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/heroicons-outline@npm:1.39.1"
-  checksum: 6828f532468ba3351f3c299988bc041eeb794d2f5a650a0f2dd1bd2e01e35786200a6d2c87748ee2eff1225f008979c262ed5e920fff9b8f2bae8304827512c1
+"@svg-icons/heroicons-outline@npm:1.44.0":
+  version: 1.44.0
+  resolution: "@svg-icons/heroicons-outline@npm:1.44.0"
+  checksum: b3d134f242ca6d74b7e277d511b0524e84eaa3bf2a6cf9f2697ed924bc506c9d375ed99f8f3f184a10b0ab9660f379d34f165f036acca408412f4887ad020c3d
   languageName: node
   linkType: hard
 
