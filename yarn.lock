@@ -3472,6 +3472,24 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@styled-icons/remix-editor@workspace:packages/@styled-icons/remix-editor":
+  version: 0.0.0-use.local
+  resolution: "@styled-icons/remix-editor@workspace:packages/@styled-icons/remix-editor"
+  dependencies:
+    "@babel/runtime": ^7.13.10
+    "@styled-icons/pack-builder": ^10.6.0
+    "@styled-icons/styled-icon": ^10.6.0
+    "@svg-icons/remix-editor": 1.48.0
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-is: ^17.0.2
+    styled-components: ^5.2.3
+  peerDependencies:
+    react: "*"
+    styled-components: "*"
+  languageName: unknown
+  linkType: soft
+
 "@styled-icons/remix-fill@10.18.0, @styled-icons/remix-fill@workspace:packages/@styled-icons/remix-fill":
   version: 0.0.0-use.local
   resolution: "@styled-icons/remix-fill@workspace:packages/@styled-icons/remix-fill"
@@ -3827,6 +3845,13 @@ __metadata:
   version: 1.39.1
   resolution: "@svg-icons/open-iconic@npm:1.39.1"
   checksum: 0356673bff3c5f94b7372cd6145af714bb7a0bcb80c9f6105fdb0fdc3113f6812848729c3a012891d8aa7e83e845d108308140f0f3dd7e2bf5ef66b23c86ecbd
+  languageName: node
+  linkType: hard
+
+"@svg-icons/remix-editor@npm:1.48.0":
+  version: 1.48.0
+  resolution: "@svg-icons/remix-editor@npm:1.48.0"
+  checksum: 56f2f59ccba283f3bc1c488067f2b78eef382534cd5696cc6cdd678625916b9074ceb0a18d26f2279e74e14b99aaa50ecdf431baa8b72a09a7b83b0c6db9c70b
   languageName: node
   linkType: hard
 
