@@ -1,8 +1,8 @@
 {
-  "name": "@styled-icons/material-sharp",
-  "version": "10.28.0",
+  "name": "@styled-icons/remix-editor",
+  "version": "10.18.0",
   "license": "MIT",
-  "description": "Material sharp icons available as Styled Components",
+  "description": "Remix Editor icons available as Styled Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
   "homepage": "https://github.com/styled-icons/styled-icons",
   "repository": "git://github.com/styled-icons/styled-icons.git",
@@ -22,7 +22,7 @@
   },
   "scripts": {
     "clean": "clean-package",
-    "generate": "generate-icon-package @svg-icons/material-sharp"
+    "generate": "generate-icon-package @svg-icons/remix-editor"
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@styled-icons/pack-builder": "^10.6.0",
-    "@svg-icons/material-sharp": "1.39.1",
+    "@svg-icons/remix-editor": "1.48.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-is": "^17.0.2",

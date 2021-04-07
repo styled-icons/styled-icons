@@ -108,6 +108,7 @@ yarn add @styled-icons/material-sharp
 yarn add @styled-icons/octicons
 yarn add @styled-icons/open-iconic
 yarn add @styled-icons/remix-fill
+yarn add @styled-icons/remix-editor
 yarn add @styled-icons/remix-line
 yarn add @styled-icons/simple-icons
 yarn add @styled-icons/typicons
@@ -156,6 +157,7 @@ import * as materialTwoTone from '@styled-icons/material-twotone'
 import * as octicons from '@styled-icons/octicons'
 import * as openIconic from '@styled-icons/open-iconic'
 import * as remixFill from '@styled-icons/remix-fill'
+import * as remixEditor from '@styled-icons/remix-editor'
 import * as remixLine from '@styled-icons/remix-line'
 import * as simpleIcons from '@styled-icons/simple-icons'
 import * as typicons from '@styled-icons/typicons'

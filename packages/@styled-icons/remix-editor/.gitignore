@@ -1,0 +1,9 @@
+# Hide all files by default
+/*
+
+# Whitelist the allowed files
+!/.gitignore
+!/.npmignore
+!/CHANGELOG.md
+!/package.json
+!/README.md
