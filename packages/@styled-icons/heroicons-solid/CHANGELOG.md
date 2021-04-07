@@ -1,5 +1,11 @@
 # @styled-icons/heroicons-solid
 
+## 10.33.0
+
+### Minor Changes
+
+- [#1719](https://github.com/styled-icons/styled-icons/pull/1719): Upgrade @svg-icons/heroicons-solid to v1.44.0 ([`f2ce012`](https://github.com/styled-icons/styled-icons/commit/f2ce0123f23cf509fcc4ad81bf6f63eb78ac4a70), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
 ## 10.19.0
 
 ### Minor Changes
