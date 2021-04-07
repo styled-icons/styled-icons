@@ -3209,7 +3209,7 @@ __metadata:
     "@babel/runtime": ^7.13.10
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.0
-    "@svg-icons/heroicons-solid": 1.39.1
+    "@svg-icons/heroicons-solid": 1.44.0
     react: ^17.0.2
     react-dom: ^17.0.1
     react-is: ^17.0.1
@@ -3712,10 +3712,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/heroicons-solid@npm:1.39.1":
-  version: 1.39.1
-  resolution: "@svg-icons/heroicons-solid@npm:1.39.1"
-  checksum: 88e0af38e423bfe5f020aca38a0d5142900bd99b6ddc2e229fbb8dac164173051776dfc35fe4c4a750d16ff9e2cc0bb1b4526b223ab7441856f46700178d374c
+"@svg-icons/heroicons-solid@npm:1.44.0":
+  version: 1.44.0
+  resolution: "@svg-icons/heroicons-solid@npm:1.44.0"
+  checksum: 662ccf89251188a4fa0174ed3f68f69ee21cab8182d36f3d24344d14b855882ba418b4115d7086cedc992c5d48b2e3a8e147546a48eb3b15ed64498ff56127a4
   languageName: node
   linkType: hard
 
