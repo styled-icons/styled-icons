@@ -36,7 +36,7 @@
     "@babel/preset-react": "^7.13.13",
     "@babel/preset-typescript": "^7.13.0",
     "@changesets/changelog-github": "^0.3.0",
-    "@changesets/cli": "^2.14.1",
+    "@changesets/cli": "^2.15.0",
     "@monorepolint/cli": "^0.5.0-alpha.52",
     "@monorepolint/core": "0.5.0-alpha.52",
     "@types/node": "^14.14.33",
