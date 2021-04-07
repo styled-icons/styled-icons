@@ -25,7 +25,7 @@
     "react-dom": "^17.0.1",
     "react-is": "^17.0.1",
     "react-virtualized": "^9.22.3",
-    "styled-components": "^5.2.1",
+    "styled-components": "^5.2.3",
     "styled-icons": "^10.6.0"
   },
   "devDependencies": {
