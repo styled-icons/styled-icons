@@ -1,5 +1,19 @@
 # styled-icons
 
+## 10.33.0
+
+### Patch Changes
+
+- Updated dependencies [[`f2ce012`](https://github.com/styled-icons/styled-icons/commit/f2ce0123f23cf509fcc4ad81bf6f63eb78ac4a70), [`f2ce012`](https://github.com/styled-icons/styled-icons/commit/f2ce0123f23cf509fcc4ad81bf6f63eb78ac4a70), [`f2ce012`](https://github.com/styled-icons/styled-icons/commit/f2ce0123f23cf509fcc4ad81bf6f63eb78ac4a70), [`f2ce012`](https://github.com/styled-icons/styled-icons/commit/f2ce0123f23cf509fcc4ad81bf6f63eb78ac4a70), [`f2ce012`](https://github.com/styled-icons/styled-icons/commit/f2ce0123f23cf509fcc4ad81bf6f63eb78ac4a70), [`96f253f`](https://github.com/styled-icons/styled-icons/commit/96f253f658b9a96c489b9bd7c074c396d49a1b5f), [`f2ce012`](https://github.com/styled-icons/styled-icons/commit/f2ce0123f23cf509fcc4ad81bf6f63eb78ac4a70), [`f2ce012`](https://github.com/styled-icons/styled-icons/commit/f2ce0123f23cf509fcc4ad81bf6f63eb78ac4a70)]:
+  - @styled-icons/fluentui-system-filled@10.33.0
+  - @styled-icons/bootstrap@10.33.0
+  - @styled-icons/octicons@10.33.0
+  - @styled-icons/heroicons-solid@10.33.0
+  - @styled-icons/fluentui-system-regular@10.33.0
+  - @styled-icons/remix-editor@10.33.0
+  - @styled-icons/simple-icons@10.33.0
+  - @styled-icons/heroicons-outline@10.33.0
+
 ## 10.32.0
 
 ### Patch Changes
