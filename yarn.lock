@@ -3652,7 +3652,7 @@ __metadata:
     h2x-core: ^1.1.1
     h2x-plugin-jsx: ^1.2.0
     number-to-words: ^1.2.4
-    ts-node: ^9.1.1
+    ts-node: ^10.0.0
     typescript: ^4.2.3
   bin:
     clean-package: ./clean-package.js
@@ -4092,6 +4092,34 @@ __metadata:
   version: 1.1.2
   resolution: "@tootallnate/once@npm:1.1.2"
   checksum: d030f3fb14e0373dbf5005d8f696ff34fda87bf56744bea611fc737449bfc0687ebcb28ee8ba4c6624877f51b18d701c0d417d793f406006a192f4721911d048
+  languageName: node
+  linkType: hard
+
+"@tsconfig/node10@npm:^1.0.7":
+  version: 1.0.7
+  resolution: "@tsconfig/node10@npm:1.0.7"
+  checksum: a1ca75224357c60829533061f9be6898a2df02cb0e360a356112070596ffa6102c56964d195023d5abb451e22473ceb7e138c82025ae84c7b5a1f69259e5f8a4
+  languageName: node
+  linkType: hard
+
+"@tsconfig/node12@npm:^1.0.7":
+  version: 1.0.7
+  resolution: "@tsconfig/node12@npm:1.0.7"
+  checksum: 82b0352f66bb84afcf4fe4d771d25dcdc2fbfd0dcd6c5efe475830e0df6806d687bdde3aba52d5c4d2d4dfee252093ed5cfc27a3fc47dc389a3f4fb0ea323390
+  languageName: node
+  linkType: hard
+
+"@tsconfig/node14@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@tsconfig/node14@npm:1.0.0"
+  checksum: 3eda14250ed8a03910ce822056f0d2fc2bcf41d9f1f3c6b202a6b32277dc638f475425fe7a1c03fbdba4e7f3b89668ecbac92d101c9e9fb56018c098393759ec
+  languageName: node
+  linkType: hard
+
+"@tsconfig/node16@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@tsconfig/node16@npm:1.0.1"
+  checksum: c389a4a81c291a27b96705de7fbe46d29aa4eb771450a41dfc075d89e1fdd63141898043a0d9f627460a1c409d06635a044dc4b3a4516173769a7d0a1558c51d
   languageName: node
   linkType: hard
 
@@ -16236,10 +16264,14 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"ts-node@npm:^9.1.1":
-  version: 9.1.1
-  resolution: "ts-node@npm:9.1.1"
+"ts-node@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "ts-node@npm:10.0.0"
   dependencies:
+    "@tsconfig/node10": ^1.0.7
+    "@tsconfig/node12": ^1.0.7
+    "@tsconfig/node14": ^1.0.0
+    "@tsconfig/node16": ^1.0.1
     arg: ^4.1.0
     create-require: ^1.1.0
     diff: ^4.0.1
@@ -16247,13 +16279,22 @@ fsevents@~2.3.1:
     source-map-support: ^0.5.17
     yn: 3.1.1
   peerDependencies:
+    "@swc/core": ">=1.2.45"
+    "@swc/wasm": ">=1.2.45"
+    "@types/node": "*"
     typescript: ">=2.7"
+  peerDependenciesMeta:
+    "@swc/core":
+      optional: true
+    "@swc/wasm":
+      optional: true
   bin:
     ts-node: dist/bin.js
+    ts-node-cwd: dist/bin-cwd.js
     ts-node-script: dist/bin-script.js
     ts-node-transpile-only: dist/bin-transpile.js
     ts-script: dist/bin-script-deprecated.js
-  checksum: a90db4a342872cd0e7a80babdfcb15d2f7c06e700d735003098f7cc79db575c3380580c58a19ae0d0eaab553af083651d4237060c92170e6f8ac4e64693113ea
+  checksum: dc461e2b9b931b00ff065530a0247f86da1d035e72a7ef6d7ed072dd8e6b236d1879f113dcc73a354d240c81b6b845445c3d32b16eeb68022ed27ab6d130c049
   languageName: node
   linkType: hard
 
