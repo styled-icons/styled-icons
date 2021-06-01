@@ -3741,7 +3741,7 @@ __metadata:
     "@storybook/addons": ^6.2.6
     "@storybook/react": ^6.2.5
     babel-loader: ^8.2.2
-    chromatic: ^5.7.1
+    chromatic: ^5.8.3
     fs-extra: ^9.1.0
     react: ^17.0.2
     react-dom: ^17.0.2
@@ -6411,9 +6411,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:^5.7.1":
-  version: 5.7.1
-  resolution: "chromatic@npm:5.7.1"
+"chromatic@npm:^5.8.3":
+  version: 5.8.3
+  resolution: "chromatic@npm:5.8.3"
   dependencies:
     "@actions/core": ^1.2.4
     "@actions/github": ^4.0.0
@@ -6443,6 +6443,7 @@ __metadata:
     progress-stream: ^2.0.0
     semver: ^7.3.4
     slash: ^3.0.0
+    string-argv: ^0.3.1
     strip-ansi: 6.0.0
     tmp-promise: 3.0.2
     tree-kill: ^1.2.2
@@ -6454,7 +6455,7 @@ __metadata:
     chroma: bin/register.js
     chromatic: bin/register.js
     chromatic-cli: bin/register.js
-  checksum: 58f16e493967c0b77e18b0715d6b0d6d3806f6f3e2729f063f359f71fb9356f4da56a31a6ed1370bcead5b545120bf9ad21b399c859408cc42f07b255659d568
+  checksum: b0332feb54730b703745200585d2e3a3a370f02eef175f7496ae79ef8de174088ecbdab90f1f74e0943e78155e8ce004926ca5e3d126a8ccc0a25a59446029ba
   languageName: node
   linkType: hard
 
@@ -15482,6 +15483,13 @@ fsevents@~2.3.1:
   version: 2.0.0
   resolution: "strict-uri-encode@npm:2.0.0"
   checksum: 775012e88b9d8dff939d514bf376d615a15e8228a5dd587a94ac3c71fce41aa3635cd808aa796e2c1cd33f3f2fe2fbf89b74ee18a504a1905efa1854311e04bb
+  languageName: node
+  linkType: hard
+
+"string-argv@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "string-argv@npm:0.3.1"
+  checksum: 002a6902698eff6bd463ddd2b03864bf9be08a1359879243d94d3906ebbe984ff355d73224064be7504d20262eadb06897b3d40b5d7cefccacc69c9dc45c8d0e
   languageName: node
   linkType: hard
 
