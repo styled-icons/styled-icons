@@ -25,8 +25,8 @@
     "generate": "generate-icon-package @svg-icons/bootstrap"
   },
   "dependencies": {
-    "@babel/runtime": "^7.13.10",
-    "@styled-icons/styled-icon": "^10.6.0"
+    "@babel/runtime": "^7.14.0",
+    "@styled-icons/styled-icon": "^10.6.3"
   },
   "peerDependencies": {
     "react": "*",
@@ -34,10 +34,10 @@
   },
   "devDependencies": {
     "@styled-icons/pack-builder": "^10.6.0",
-    "@svg-icons/bootstrap": "1.45.0",
+    "@svg-icons/bootstrap": "1.53.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-is": "^17.0.2",
-    "styled-components": "^5.2.3"
+    "styled-components": "^5.3.0"
   }
 }
