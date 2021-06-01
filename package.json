@@ -40,7 +40,7 @@
     "@changesets/cli": "^2.15.0",
     "@monorepolint/cli": "^0.5.0-alpha.53",
     "@monorepolint/core": "0.5.0-alpha.53",
-    "@types/node": "^14.14.37",
+    "@types/node": "^15.6.1",
     "@types/react": "^17.0.3",
     "@types/styled-components": "^5.1.9",
     "babel-plugin-styled-components": "^1.12.0",
