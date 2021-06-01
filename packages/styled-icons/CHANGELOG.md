@@ -1,5 +1,40 @@
 # styled-icons
 
+## 10.34.0
+
+### Patch Changes
+
+- Updated dependencies [[`3433454`](https://github.com/styled-icons/styled-icons/commit/3433454dcc4c0cf297d6194f8aaab01f43142ae3)]:
+  - @styled-icons/bootstrap@10.34.0
+  - @styled-icons/boxicons-logos@10.34.0
+  - @styled-icons/boxicons-regular@10.34.0
+  - @styled-icons/boxicons-solid@10.34.0
+  - @styled-icons/crypto@10.34.0
+  - @styled-icons/entypo-social@10.34.0
+  - @styled-icons/entypo@10.34.0
+  - @styled-icons/evaicons-outline@10.34.0
+  - @styled-icons/evaicons-solid@10.34.0
+  - @styled-icons/evil@10.34.0
+  - @styled-icons/fa-brands@10.34.0
+  - @styled-icons/fa-regular@10.34.0
+  - @styled-icons/fa-solid@10.34.0
+  - @styled-icons/feather@10.34.0
+  - @styled-icons/fluentui-system-filled@10.34.0
+  - @styled-icons/fluentui-system-regular@10.34.0
+  - @styled-icons/foundation@10.34.0
+  - @styled-icons/heroicons-outline@10.34.0
+  - @styled-icons/heroicons-solid@10.34.0
+  - @styled-icons/icomoon@10.34.0
+  - @styled-icons/ionicons-outline@10.34.0
+  - @styled-icons/ionicons-sharp@10.34.0
+  - @styled-icons/ionicons-solid@10.34.0
+  - @styled-icons/material-outlined@10.34.0
+  - @styled-icons/material-rounded@10.34.0
+  - @styled-icons/material-sharp@10.34.0
+  - @styled-icons/material-twotone@10.34.0
+  - @styled-icons/material@10.34.0
+  - @styled-icons/octicons@10.34.0
+
 ## 10.33.0
 
 ### Patch Changes
