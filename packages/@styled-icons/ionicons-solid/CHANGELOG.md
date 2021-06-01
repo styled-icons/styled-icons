@@ -1,5 +1,11 @@
 # @styled-icons/ionicons-solid
 
+## 10.34.0
+
+### Minor Changes
+
+- [#1785](https://github.com/styled-icons/styled-icons/pull/1785): Update all package dependencies ([`3433454`](https://github.com/styled-icons/styled-icons/commit/3433454dcc4c0cf297d6194f8aaab01f43142ae3), [@icon-bot](https://github.com/icon-bot))
+
 ## 10.28.0
 
 ### Minor Changes
