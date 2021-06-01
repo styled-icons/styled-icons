@@ -1,0 +1,22 @@
+name: Package Updates
+on:
+  workflow_dispatch: ~
+  schedule:
+    - cron: 0 10 * * 1 # 10am UTC every Monday
+
+jobs:
+  open-pr:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - run: git remote set-url --push origin https://$GITHUB_ACTOR:${{ secrets.BOT_GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
+      - uses: taichi/actions-package-update@master
+        env:
+          AUTHOR_EMAIL: 67597316+icon-bot@users.noreply.github.com
+          AUTHOR_NAME: icon-bot
+          EXECUTE: 'true'
+          GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
+          LOG_LEVEL: debug
+          UPDATE_COMMAND: yarn
+        with:
+          args: update-all
