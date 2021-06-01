@@ -9,6 +9,15 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
+      - run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
+        id: yarn-cache-dir-path
+      - uses: actions/cache@v2.1.4
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-v2-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-v2-
+      - run: yarn install --immutable
       - run: yarn update-all
       - uses: peter-evans/create-pull-request@v3
         with:
