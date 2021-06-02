@@ -4382,14 +4382,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^17.0.8":
-  version: 17.0.8
-  resolution: "@types/react@npm:17.0.8"
+"@types/react@npm:*, @types/react@npm:^17.0.9":
+  version: 17.0.9
+  resolution: "@types/react@npm:17.0.9"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: b59a3abafd240b2880f9e6a11b2b7f75165888260c56e95a77ed10a7dd55570b307fb2356eda7fde2a8e1255d2def11797e4ae9800ae114a1f578546acabda67
+  checksum: 12f1962a317cad805bd6fcd1da3ac1a58a782db28e522bdded163f1bdfc8388f8a110d200a6925cccbf3d442e1325199ce5da710f11ee73f0f140c6734fea127
   languageName: node
   linkType: hard
 
@@ -14624,7 +14624,7 @@ fsevents@~2.3.1:
     "@monorepolint/cli": ^0.5.0-alpha.53
     "@monorepolint/core": 0.5.0-alpha.53
     "@types/node": ^15.6.1
-    "@types/react": ^17.0.8
+    "@types/react": ^17.0.9
     "@types/styled-components": ^5.1.9
     babel-plugin-styled-components: ^1.12.0
     npm-check-updates: ^11.6.0
