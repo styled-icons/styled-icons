@@ -3305,7 +3305,7 @@ __metadata:
     "@babel/runtime": ^7.14.0
     "@styled-icons/pack-builder": ^10.6.0
     "@styled-icons/styled-icon": ^10.6.3
-    "@svg-icons/fluentui-system-filled": 1.56.0
+    "@svg-icons/fluentui-system-filled": 1.57.0
     react: ^17.0.2
     react-dom: ^17.0.2
     react-is: ^17.0.2
@@ -3870,10 +3870,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svg-icons/fluentui-system-filled@npm:1.56.0":
-  version: 1.56.0
-  resolution: "@svg-icons/fluentui-system-filled@npm:1.56.0"
-  checksum: 3d006135261d9308d73b0bb4b72f2175bc9e9c51d7c686687e3210edc088b6cc109c994e7a3b04ef6944dec18142188bddba7e76e056bcad2e4beb6b919bf41a
+"@svg-icons/fluentui-system-filled@npm:1.57.0":
+  version: 1.57.0
+  resolution: "@svg-icons/fluentui-system-filled@npm:1.57.0"
+  checksum: 48f2d691a5b3d9e5f26f9f7df44486d21530fe506b22aa24a3ee21642ee427fd7e9198f4992600f2b2a9865a320915c63048e913fe4388e7b5211bfe77b0e1a3
   languageName: node
   linkType: hard
 
