@@ -2083,23 +2083,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:10.2.3":
-  version: 10.2.3
-  resolution: "@next/env@npm:10.2.3"
-  checksum: 51b1783739f0ff2666c6c3a07e68b135a4d4641533efada19b3b5889f18f17f83a6d13db7f416f6543403b5ba65d5b95bebf72f3a1322fabb4a267036acd12eb
+"@next/env@npm:11.0.0":
+  version: 11.0.0
+  resolution: "@next/env@npm:11.0.0"
+  checksum: 4ac590c0364ae52b3c71ad1da94ca79b9362d4a55d2fbcc9476ee02b2647fc00753414e4f60a96df7196b63f69c6cc0d7c41a4c666ecca1d71c84b49dfad6d70
   languageName: node
   linkType: hard
 
-"@next/polyfill-module@npm:10.2.3":
-  version: 10.2.3
-  resolution: "@next/polyfill-module@npm:10.2.3"
-  checksum: d78f72491e6b378094f8c2fd332f9c90f587cd0a8e8a1650071c71f71b0dd48d92d8e7828ef3906a36b441bc2add7eed83931f56187591947bab8d5dc0b7adaa
+"@next/polyfill-module@npm:11.0.0":
+  version: 11.0.0
+  resolution: "@next/polyfill-module@npm:11.0.0"
+  checksum: 924012624ee10216080074685ed49254a97cf5638abfea47a06121a1a195176ac41c1bb9e5d738e97b0c6feec654008b24f265d8b74569b8c274c91ed81dcca8
   languageName: node
   linkType: hard
 
-"@next/react-dev-overlay@npm:10.2.3":
-  version: 10.2.3
-  resolution: "@next/react-dev-overlay@npm:10.2.3"
+"@next/react-dev-overlay@npm:11.0.0":
+  version: 11.0.0
+  resolution: "@next/react-dev-overlay@npm:11.0.0"
   dependencies:
     "@babel/code-frame": 7.12.11
     anser: 1.4.9
@@ -2113,22 +2113,22 @@ __metadata:
     stacktrace-parser: 0.1.10
     strip-ansi: 6.0.0
   peerDependencies:
-    react: ^16.9.0 || ^17
-    react-dom: ^16.9.0 || ^17
-  checksum: 8f0489200ecd34785c21d9c55a79fc533652b9ef45636ec34e99549ab5d3e6ea6fcb90f9f530c7b7acda164f1e70d6f8c4256ef2dcab0d194d4b5f34ed87c39c
+    react: ^17.0.2
+    react-dom: ^17.0.2
+  checksum: 3705d28ca7567cfee17ee17dd287ffdad1905e4425f5b08748a09dc5b63434e9d990602075bb4a9e5efb610f2f0f79d7db36a484459bfa133774cb5b3f0f33fa
   languageName: node
   linkType: hard
 
-"@next/react-refresh-utils@npm:10.2.3":
-  version: 10.2.3
-  resolution: "@next/react-refresh-utils@npm:10.2.3"
+"@next/react-refresh-utils@npm:11.0.0":
+  version: 11.0.0
+  resolution: "@next/react-refresh-utils@npm:11.0.0"
   peerDependencies:
     react-refresh: 0.8.3
     webpack: ^4 || ^5
   peerDependenciesMeta:
     webpack:
       optional: true
-  checksum: 1f2a3452466ab8bcd1b08bc3909bbc30393c1adbe0054b19704dd6ceec85740d4d7912fafeccda27f68354b54b344df95558cbc40ad176f4b5489c7663fa7d38
+  checksum: 6ab048beb8ed3782713801948d2fc95da282461418259af6f51022c673078848159ca6024f868b37d63d066d3e60033859fa8d247faa149731358c4005d26642
   languageName: node
   linkType: hard
 
@@ -2360,22 +2360,6 @@ __metadata:
     "@octokit/openapi-types": ^2.0.1
     "@types/node": ">= 8"
   checksum: a8bad12aa859f6b0a2160d84e95f98749c7f9074aec4505ce80822ef025ff97bf9d942bbe817d78142b99a1d6b18c7ce7ac15bcd16d223143d5b6960bc7de851
-  languageName: node
-  linkType: hard
-
-"@opentelemetry/api@npm:0.14.0":
-  version: 0.14.0
-  resolution: "@opentelemetry/api@npm:0.14.0"
-  dependencies:
-    "@opentelemetry/context-base": ^0.14.0
-  checksum: ce601aba396e3d70078ab05b468d8de1d8bd67a834f0a8f7ad2943d2999e3d021446c59a7d34bd49688417de0e6b88ed28f651f55747837a153aa62d5315a558
-  languageName: node
-  linkType: hard
-
-"@opentelemetry/context-base@npm:^0.14.0":
-  version: 0.14.0
-  resolution: "@opentelemetry/context-base@npm:0.14.0"
-  checksum: f1e637a1912e5876a49fcdfefd76c5e37fd94852a444ad6a3e42fab2d136f0794d5f6455b01866c4342cec624541cb83cfadcc86f83ba2ececf9dc83117a982d
   languageName: node
   linkType: hard
 
@@ -3743,7 +3727,7 @@ __metadata:
     copy-to-clipboard: ^3.3.1
     history: ^5.0.0
     js-search: ^2.0.0
-    next: ^10.2.3
+    next: ^11.0.0
     query-string: ^7.0.0
     react: ^17.0.2
     react-dom: ^17.0.2
@@ -9923,6 +9907,17 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"image-size@npm:1.0.0":
+  version: 1.0.0
+  resolution: "image-size@npm:1.0.0"
+  dependencies:
+    queue: 6.0.2
+  bin:
+    image-size: bin/image-size.js
+  checksum: 7366d94730346576e48e2cc1e0e3035309dbddcd8a9f3c3472cbedeb72d134a3b79214b8feeeda3716b04ae10fea5f758a78651b2dbff9efb876bb97fd849292
+  languageName: node
+  linkType: hard
+
 "immer@npm:8.0.1":
   version: 8.0.1
   resolution: "immer@npm:8.0.1"
@@ -12080,17 +12075,16 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"next@npm:^10.2.3":
-  version: 10.2.3
-  resolution: "next@npm:10.2.3"
+"next@npm:^11.0.0":
+  version: 11.0.0
+  resolution: "next@npm:11.0.0"
   dependencies:
     "@babel/runtime": 7.12.5
     "@hapi/accept": 5.0.2
-    "@next/env": 10.2.3
-    "@next/polyfill-module": 10.2.3
-    "@next/react-dev-overlay": 10.2.3
-    "@next/react-refresh-utils": 10.2.3
-    "@opentelemetry/api": 0.14.0
+    "@next/env": 11.0.0
+    "@next/polyfill-module": 11.0.0
+    "@next/react-dev-overlay": 11.0.0
+    "@next/react-refresh-utils": 11.0.0
     assert: 2.0.0
     ast-types: 0.13.2
     browserify-zlib: 0.2.0
@@ -12108,6 +12102,7 @@ fsevents@~2.3.1:
     find-cache-dir: 3.3.1
     get-orientation: 1.1.2
     https-browserify: 1.0.0
+    image-size: 1.0.0
     jest-worker: 27.0.0-next.5
     native-url: 0.3.4
     node-fetch: 2.6.1
@@ -12122,7 +12117,7 @@ fsevents@~2.3.1:
     prop-types: 15.7.2
     querystring-es3: 0.2.1
     raw-body: 2.4.1
-    react-is: 16.13.1
+    react-is: 17.0.2
     react-refresh: 0.8.3
     stream-browserify: 3.0.0
     stream-http: 3.1.1
@@ -12137,8 +12132,8 @@ fsevents@~2.3.1:
   peerDependencies:
     fibers: ">= 3.1.0"
     node-sass: ^4.0.0 || ^5.0.0
-    react: ^16.6.0 || ^17
-    react-dom: ^16.6.0 || ^17
+    react: ^17.0.2
+    react-dom: ^17.0.2
     sass: ^1.3.0
   peerDependenciesMeta:
     fibers:
@@ -12149,7 +12144,7 @@ fsevents@~2.3.1:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: e32ff7cc79cb2fb21a2bb954778f582dbb76525e7b5286ddeaeb832e67c631da54c2369f144dd5f30d3e770666667d9c0d5e1ca9699681a2da26db8b628037a2
+  checksum: 0d6dea2ce9775a06266a5b66e4a93d5b227ec7f5b7dabe62256864a904fd44e179ea558b60c08f083fe208024258127aef73b76686d1ba5e513d2ffacc2f555e
   languageName: node
   linkType: hard
 
@@ -13768,6 +13763,15 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"queue@npm:6.0.2":
+  version: 6.0.2
+  resolution: "queue@npm:6.0.2"
+  dependencies:
+    inherits: ~2.0.3
+  checksum: 07e7c28203403d76bbdabbe4d1f4528935f41aef1a5643da43b9a17c54f37f8a18935abc36079cdf3bd858d695f87144b6f87df4dbfaca836bed0f16515afc86
+  languageName: node
+  linkType: hard
+
 "quick-lru@npm:^4.0.1":
   version: 4.0.1
   resolution: "quick-lru@npm:4.0.1"
@@ -14007,17 +14011,17 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"react-is@npm:16.13.1, react-is@npm:^16.12.0, react-is@npm:^16.7.0, react-is@npm:^16.8.1":
-  version: 16.13.1
-  resolution: "react-is@npm:16.13.1"
-  checksum: 11bcf1267a314a522615f626f3ce3727a3a24cdbf61c4d452add3550a7875326669631326cfb1ba3e92b6f72244c32ffecf93ad21c0cad8455d3e169d0e3f060
-  languageName: node
-  linkType: hard
-
-"react-is@npm:^17.0.2":
+"react-is@npm:17.0.2, react-is@npm:^17.0.2":
   version: 17.0.2
   resolution: "react-is@npm:17.0.2"
   checksum: 3eff23f410d40ab9bc5177f147a92c7f42c356a21ecea340e0554566956d67e5e1ba56f26cc7fa22339ac3c7151744177bd6305eaa26d3cbf15f354358c9d9b6
+  languageName: node
+  linkType: hard
+
+"react-is@npm:^16.12.0, react-is@npm:^16.7.0, react-is@npm:^16.8.1":
+  version: 16.13.1
+  resolution: "react-is@npm:16.13.1"
+  checksum: 11bcf1267a314a522615f626f3ce3727a3a24cdbf61c4d452add3550a7875326669631326cfb1ba3e92b6f72244c32ffecf93ad21c0cad8455d3e169d0e3f060
   languageName: node
   linkType: hard
 
