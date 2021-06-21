@@ -1,6 +1,6 @@
 {
   "editor.formatOnSave": true,
-  "npm.bin": "yarn",
+  "prettier.prettierPath": "node_modules/prettier/index.js",
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true
 }

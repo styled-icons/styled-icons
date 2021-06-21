@@ -15,19 +15,19 @@
     "trailingComma": "all"
   },
   "scripts": {
-    "build": "yarn build:icons && yarn build:website",
-    "build:icons": "yarn generate && run-p 'build:icons:*' && yarn generate:pkg",
-    "build:icons:cjs": "env BABEL_ENV=legacy yarn babel packages --extensions '.ts,.tsx' --out-dir packages",
-    "build:icons:esm": "env BABEL_ENV=modern yarn babel packages --extensions '.ts,.tsx' --out-dir packages --out-file-extension .esm.js",
-    "build:icons:typescript": "yarn tsc --emitDeclarationOnly",
-    "build:website": "wsrun -p @styled-icons/website -c build",
-    "clean": "wsrun -m -c clean",
+    "build": "pnpm build:icons && pnpm build:website",
+    "build:icons": "pnpm generate && run-p 'build:icons:*' && pnpm generate:pkg",
+    "build:icons:cjs": "env BABEL_ENV=legacy pnpm babel packages --extensions '.ts,.tsx' --out-dir packages",
+    "build:icons:esm": "env BABEL_ENV=modern pnpm babel packages --extensions '.ts,.tsx' --out-dir packages --out-file-extension .esm.js",
+    "build:icons:typescript": "pnpm tsc --emitDeclarationOnly",
+    "build:website": "pnpm run --filter @styled-icons/website build",
+    "clean": "pnpm run -r clean",
     "fmt": "prettier --write './**/*.{ts,tsx,js,md,json}'",
     "fmt:check": "prettier --list-different './**/*.{ts,tsx,js,md,json}'",
-    "generate": "yarn wsrun -t -m -c generate",
-    "update-all": "ncu -u -p yarn --deep --dep dev,optional,prod,bundle --reject typescript && yarn",
+    "generate": "pnpm run -r generate",
+    "update-all": "ncu -u -p pnpm --deep --dep dev,optional,prod,bundle --reject typescript && pnpm i",
     "generate:pkg": "find packages -name 'package.built.json' -not -path '*/node_modules/*' -exec bash -c 'mv \"$1\" \"${1%.built.json}\".json' - '{}' \\;",
-    "release": "yarn build:icons && yarn changeset publish"
+    "release": "pnpm build:icons && pnpm changeset publish"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.5",
@@ -51,7 +51,6 @@
     "react-dom": "^17.0.2",
     "react-is": "^17.0.2",
     "styled-components": "^5.3.0",
-    "typescript": "^4.3.4",
-    "wsrun": "^5.2.4"
+    "typescript": "^4.3.4"
   }
 }
