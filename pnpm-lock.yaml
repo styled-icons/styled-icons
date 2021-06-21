@@ -18,6 +18,7 @@ importers:
       '@types/react': ^17.0.11
       '@types/styled-components': ^5.1.10
       babel-plugin-styled-components: ^1.12.0
+      esbuild-loader: ^2.13.1
       npm-check-updates: ^11.7.1
       npm-run-all: ^4.1.5
       prettier: ^2.3.1
@@ -41,6 +42,7 @@ importers:
       '@types/react': 17.0.11
       '@types/styled-components': 5.1.10
       babel-plugin-styled-components: 1.12.0_styled-components@5.3.0
+      esbuild-loader: 2.13.1
       npm-check-updates: 11.7.1
       npm-run-all: 4.1.5
       prettier: 2.3.1
@@ -6822,6 +6824,20 @@ packages:
 
   /es6-shim/0.35.6:
     resolution: {integrity: sha512-EmTr31wppcaIAgblChZiuN/l9Y7DPyw8Xtbg7fIVngn6zMW+IEBJDJngeKC3x6wr0V/vcA2wqeFnaw1bFJbDdA==}
+    dev: true
+
+  /esbuild-loader/2.13.1:
+    resolution: {integrity: sha512-Tzc5nB5tVUmigXz6m4j1OYozJCjdix7E9vtd5RaE54fqz2Rz34Is9S8FbAf8uqR4xvQUBAXIi6Jkn1OeMxw2aQ==}
+    peerDependencies:
+      webpack: ^4.40.0 || ^5.0.0
+    dependencies:
+      esbuild: 0.11.23
+      joycon: 3.0.1
+      json5: 2.2.0
+      loader-utils: 2.0.0
+      tapable: 2.2.0
+      type-fest: 1.2.1
+      webpack-sources: 2.3.0
     dev: true
 
   /esbuild-loader/2.13.1_webpack@5.39.1:
