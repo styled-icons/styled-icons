@@ -6,3 +6,4 @@ node_modules
 public
 storybook-static
 CHANGELOG.md
+pnpm-lock.yaml

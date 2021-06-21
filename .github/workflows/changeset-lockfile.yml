@@ -1,4 +1,4 @@
-name: yarn.lock
+name: pnpm-lock.yaml
 on:
   push:
     branches: [changeset-release/**]
@@ -8,16 +8,18 @@ jobs:
     runs-on: ubuntu-latest
     if: contains(github.event.head_commit.message, 'Version Packages')
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
         with:
           fetch-depth: 2
           persist-credentials: false
+      - uses: actions/setup-node@v2.1.5
+        with:
+          node-version: '14'
+      - uses: pnpm/action-setup@v2.0.1
+        with:
+          version: 6.8.0
       - name: Update lockfile
-        run: |
-          yarn install
-          yarn dedupe
-        env:
-          YARN_ENABLE_SCRIPTS: 0
+        run: pnpm install --ignore-scripts --lockfile-only
       - name: Config Git
         run: |
           BASIC_AUTH=$(echo -n "x-access-token:${{ secrets.BOT_GITHUB_TOKEN }}" | base64)
@@ -28,9 +30,9 @@ jobs:
       - name: Commit changes
         run: |
           if [[ -n $(git status -s) ]]; then
-            git add yarn.lock
-            git commit -m "Update yarn.lock"
+            git add pnpm-lock.yaml
+            git commit -m "Update pnpm-lock.yaml"
             git push
           else
-            echo "No yarn.lock changes necessary"
+            echo "No pnpm-lock.yaml changes necessary"
           fi

@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 // @ts-check
 
-const execa = require('execa')
 const fastCase = require('fast-case')
 const fg = require('fast-glob')
 const fs = require('fs-extra')

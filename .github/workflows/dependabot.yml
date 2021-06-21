@@ -1,6 +1,6 @@
-# Automatically save updated `yarn.lock` file for dependabot PRs.
-# This is necessary because dependabot doesn't support Yarn v2 yet:
-# https://github.com/dependabot/dependabot-core/issues/1297
+# Automatically save updated `pnpm-lock.yaml` file for dependabot PRs.
+# This is necessary because dependabot doesn't support pnpm yet:
+# https://github.com/dependabot/dependabot-core/issues/1736
 #
 # Note: We use the `pull_request_target` event due to GitHub security measures.
 #       It is important to ensure we don't execute any untrusted PR code in this context.
@@ -12,21 +12,14 @@ on:
   - pull_request_target
 
 jobs:
-  build:
+  fix-lockfile:
     runs-on: ubuntu-latest
     if: |
       github.actor == 'dependabot[bot]' &&
       contains(github.event.pull_request.head.ref, 'dependabot/npm_and_yarn/')
 
-    # IMPORTANT: setting YARN_ENABLE_SCRIPTS=false is critical to ensure that untrusted
-    # PRs can't add an npm package and then use that to execute untrusted code in
-    # a trusted context. See links at the top of this workflow for further details.
-    # See also: https://github.com/yarnpkg/berry/issues/1679#issuecomment-669937860
-    env:
-      YARN_ENABLE_SCRIPTS: false
-
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
         with:
           # Using a Personal Access Token here is required to trigger workflows on our new commit.
           # The default GitHub token doesn't trigger any workflows.
@@ -37,11 +30,13 @@ jobs:
 
       - uses: actions/setup-node@v2.1.5
         with:
-          node-version: '12'
+          node-version: '14'
+      - uses: pnpm/action-setup@v2.0.1
+        with:
+          version: 6.6.2
 
-      - run: git checkout HEAD^ -- yarn.lock
-      - run: yarn install --skip-builds
-      - run: yarn dedupe
+      - run: git checkout HEAD^ -- pnpm-lock.yaml
+      - run: pnpm install --ignore-scripts --lockfile-only
 
       - name: Configure git
         run: |
@@ -51,9 +46,8 @@ jobs:
           git config --global user.name 'dependabot[bot]'
           git config --global user.email '49699333+dependabot[bot]@users.noreply.github.com'
           git config --local http.$GITHUB_SERVER_URL/.extraheader "AUTHORIZATION: basic $BASIC_AUTH"
-
       - name: Commit changes
         run: |
-          git add yarn.lock
-          git commit -m "[dependabot skip] Fix yarn.lock"
+          git add pnpm-lock.yaml
+          git commit -m "[dependabot skip] Fix pnpm-lock.yaml"
           git push

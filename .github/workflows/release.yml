@@ -1,31 +1,35 @@
 name: Release
 on: push
 
-env:
-  NODE_OPTIONS: --max_old_space_size=8192
-
 jobs:
-  release:
+  build:
     name: Release
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main' && github.repository == 'styled-icons/styled-icons'
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
         with:
           fetch-depth: 0
           persist-credentials: false
-      - run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-        id: yarn-cache-dir-path
-      - uses: actions/cache@v2.1.6
+      - uses: actions/setup-node@v2.1.5
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-v2-${{ hashFiles('**/yarn.lock') }}
+          node-version: '14'
+      - uses: actions/cache@v2
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/package.json') }}
           restore-keys: |
-            ${{ runner.os }}-yarn-v2-
-      - run: yarn install --immutable
+            ${{ runner.os }}-pnpm-
+      - uses: pnpm/action-setup@v2.0.1
+        with:
+          version: 6.6.2
+      - run: pnpm install --frozen-lockfile
       - uses: changesets/action@master
         with:
-          publish: yarn release
+          publish: pnpm release
+          version: pnpm changeset version
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
+          GITHUB_USERNAME: icon-bot
+          GITHUB_EMAIL: ${{ secrets.BOT_GITHUB_EMAIL }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

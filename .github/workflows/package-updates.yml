@@ -9,16 +9,20 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-        id: yarn-cache-dir-path
-      - uses: actions/cache@v2.1.6
+      - uses: actions/setup-node@v2.1.5
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-v2-${{ hashFiles('**/yarn.lock') }}
+          node-version: '14'
+      - uses: actions/cache@v2
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/package.json') }}
           restore-keys: |
-            ${{ runner.os }}-yarn-v2-
-      - run: yarn install --immutable
-      - run: yarn update-all
+            ${{ runner.os }}-pnpm-
+      - uses: pnpm/action-setup@v2.0.1
+        with:
+          version: 6.8.0
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm update-all
       - uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.BOT_GITHUB_TOKEN }}
