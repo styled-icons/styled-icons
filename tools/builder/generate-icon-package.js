@@ -2,9 +2,7 @@
 // @ts-check
 
 const {toWords} = require('number-to-words')
-const execa = require('execa')
 const fastCase = require('fast-case')
-const fg = require('fast-glob')
 const fs = require('fs-extra')
 const path = require('path')
 

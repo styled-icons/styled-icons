@@ -16,7 +16,6 @@
     "access": "public"
   },
   "devDependencies": {
-    "execa": "^5.1.1",
     "fast-case": "^1.6.0",
     "fast-glob": "^3.2.5",
     "fs-extra": "^10.0.0",

@@ -939,7 +939,6 @@ importers:
 
   tools/builder:
     specifiers:
-      execa: ^5.1.1
       fast-case: ^1.6.0
       fast-glob: ^3.2.5
       fs-extra: ^10.0.0
@@ -949,7 +948,6 @@ importers:
       ts-node: ^10.0.0
       typescript: ^4.3.4
     devDependencies:
-      execa: 5.1.1
       fast-case: 1.6.0
       fast-glob: 3.2.5
       fs-extra: 10.0.0
