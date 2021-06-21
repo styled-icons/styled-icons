@@ -1,5 +1,15 @@
 # styled-icons
 
+## 10.35.0
+
+### Patch Changes
+
+- Updated dependencies [[`c635ac6`](https://github.com/styled-icons/styled-icons/commit/c635ac6b9c2b6639d51c9f15fce029cece5155dc)]:
+  - @styled-icons/fluentui-system-filled@10.35.0
+  - @styled-icons/fluentui-system-regular@10.35.0
+  - @styled-icons/simple-icons@10.35.0
+  - @styled-icons/octicons@10.35.0
+
 ## 10.34.0
 
 ### Patch Changes

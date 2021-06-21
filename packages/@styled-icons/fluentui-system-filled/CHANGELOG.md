@@ -1,5 +1,11 @@
 # @styled-icons/fluentui-system-filled
 
+## 10.35.0
+
+### Minor Changes
+
+- [#1790](https://github.com/styled-icons/styled-icons/pull/1790): Update all package dependencies ([`c635ac6`](https://github.com/styled-icons/styled-icons/commit/c635ac6b9c2b6639d51c9f15fce029cece5155dc), [@icon-bot](https://github.com/icon-bot))
+
 ## 10.34.0
 
 ### Minor Changes
