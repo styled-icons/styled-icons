@@ -11,18 +11,13 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
-      - uses: actions/setup-node@v2.2.0
-        with:
-          node-version: '14'
-      - uses: actions/cache@v2
-        with:
-          path: ~/.pnpm-store
-          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/package.json') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-
       - uses: pnpm/action-setup@v2.0.1
         with:
           version: 6.6.2
+      - uses: jacobwgillespie/setup-node@cache-pnpm
+        with:
+          node-version: '14'
+          cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
       - uses: changesets/action@master
         with:

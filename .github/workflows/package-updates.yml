@@ -9,18 +9,13 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2.2.0
-        with:
-          node-version: '14'
-      - uses: actions/cache@v2
-        with:
-          path: ~/.pnpm-store
-          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/package.json') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-
       - uses: pnpm/action-setup@v2.0.1
         with:
           version: 6.8.0
+      - uses: jacobwgillespie/setup-node@cache-pnpm
+        with:
+          node-version: '14'
+          cache: 'pnpm'
       - run: pnpm install
       - run: pnpm update-all
       - uses: peter-evans/create-pull-request@v3
