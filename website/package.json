@@ -11,7 +11,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "next build && next export -o build && cp -r public/* build/ && mv build ../public",
+    "build": "next build",
     "clean": "rm -rf ./build ../public",
     "start": "next dev"
   },
