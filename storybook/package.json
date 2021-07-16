@@ -25,12 +25,12 @@
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
-    "@storybook/addons": "^6.3.1",
-    "@storybook/react": "^6.3.1",
+    "@storybook/addons": "^6.3.4",
+    "@storybook/react": "^6.3.4",
     "babel-loader": "^8.2.2",
     "chromatic": "^5.9.2",
     "fs-extra": "^10.0.0",
     "storybook-addon-turbo-build": "^1.0.0-beta.0",
-    "webpack": "^5.40.0"
+    "webpack": "^5.45.1"
   }
 }
