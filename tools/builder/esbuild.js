@@ -28,14 +28,14 @@ async function run() {
 
   promises.push(
     ...sources.map(async (file) => {
-      const output = file.replace('.ts', '.js')
+      const output = file.replace('.tsx', '.js').replace('.ts', '.js')
       await build(file, output)
     }),
   )
 
   promises.push(
     ...sources.map(async (file) => {
-      const output = file.replace('.ts', '.esm.js')
+      const output = file.replace('.tsx', '.esm.js').replace('.ts', '.esm.js')
       await build(file, output, 'esm')
     }),
   )
