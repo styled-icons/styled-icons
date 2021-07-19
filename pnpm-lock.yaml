@@ -845,8 +845,8 @@ importers:
       '@styled-icons/fluentui-system-filled': 10.35.0
       '@styled-icons/fluentui-system-regular': 10.35.0
       '@styled-icons/foundation': 10.34.0
-      '@styled-icons/heroicons-outline': 10.34.0
-      '@styled-icons/heroicons-solid': 10.34.0
+      '@styled-icons/heroicons-outline': 10.36.0
+      '@styled-icons/heroicons-solid': 10.36.0
       '@styled-icons/icomoon': 10.34.0
       '@styled-icons/ionicons-outline': 10.34.0
       '@styled-icons/ionicons-sharp': 10.34.0
@@ -862,7 +862,7 @@ importers:
       '@styled-icons/remix-editor': 10.33.0
       '@styled-icons/remix-fill': 10.18.0
       '@styled-icons/remix-line': 10.18.0
-      '@styled-icons/simple-icons': 10.35.0
+      '@styled-icons/simple-icons': 10.36.0
       '@styled-icons/styled-icon': 10.6.3
       '@styled-icons/typicons': 10.18.0
       '@styled-icons/zondicons': 10.18.0
@@ -921,7 +921,7 @@ importers:
       react-is: ^17.0.2
       storybook-addon-turbo-build: ^1.0.0-beta.0
       styled-components: ^5.3.0
-      styled-icons: ^10.35.0
+      styled-icons: ^10.36.0
       webpack: ^5.45.1
     dependencies:
       react: 17.0.2
@@ -975,7 +975,7 @@ importers:
       react-is: ^17.0.2
       react-virtualized: ^9.22.3
       styled-components: ^5.3.0
-      styled-icons: ^10.35.0
+      styled-icons: ^10.36.0
     dependencies:
       '@loadable/component': 5.15.0_react@17.0.2
       copy-to-clipboard: 3.3.1
