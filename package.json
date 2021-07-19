@@ -17,8 +17,8 @@
   "scripts": {
     "build": "pnpm build:icons && pnpm build:website",
     "build:icons": "pnpm generate && run-p 'build:icons:*' && pnpm generate:pkg",
-    "build:icons:cjs": "env BABEL_ENV=legacy pnpm babel packages --extensions '.ts,.tsx' --out-dir packages",
-    "build:icons:esm": "env BABEL_ENV=modern pnpm babel packages --extensions '.ts,.tsx' --out-dir packages --out-file-extension .esm.js",
+    "build:icons:js": "node tools/builder/esbuild.js",
+    "build:icons:base": "env BABEL_ENV=legacy pnpm babel packages/@styled-icons/styled-icon --extensions '.ts,.tsx' --out-dir packages/@styled-icons/styled-icon && env BABEL_ENV=modern pnpm babel packages/@styled-icons/styled-icon --extensions '.ts,.tsx' --out-dir packages/@styled-icons/styled-icon --out-file-extension .esm.js",
     "build:icons:typescript": "pnpm tsc --emitDeclarationOnly",
     "build:website": "pnpm run --filter @styled-icons/website build",
     "clean": "pnpm run -r clean",
@@ -40,18 +40,19 @@
     "@changesets/cli": "^2.16.0",
     "@monorepolint/cli": "^0.5.0-alpha.53",
     "@monorepolint/core": "0.5.0-alpha.53",
-    "@types/node": "^16.0.0",
-    "@types/react": "^17.0.11",
-    "@types/styled-components": "^5.1.10",
-    "babel-plugin-styled-components": "^1.12.0",
+    "@types/node": "^16.3.3",
+    "@types/react": "^17.0.14",
+    "@types/styled-components": "^5.1.11",
+    "babel-plugin-styled-components": "^1.13.2",
+    "esbuild": "^0.12.15",
     "esbuild-loader": "^2.13.1",
-    "npm-check-updates": "^11.7.1",
+    "npm-check-updates": "^11.8.3",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.3.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-is": "^17.0.2",
     "styled-components": "^5.3.0",
-    "typescript": "^4.3.4"
+    "typescript": "^4.3.5"
   }
 }
