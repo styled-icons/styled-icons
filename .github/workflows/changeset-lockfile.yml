@@ -17,7 +17,7 @@ jobs:
           node-version: '14'
       - uses: pnpm/action-setup@v2.0.1
         with:
-          version: 6.8.0
+          version: 6.10.0
       - name: Update lockfile
         run: pnpm install --ignore-scripts --lockfile-only
       - name: Config Git
