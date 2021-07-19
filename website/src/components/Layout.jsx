@@ -175,7 +175,7 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-const Layout: React.SFC = ({children}) => (
+const Layout = ({children}) => (
   <div>
     <a href="https://github.com/styled-icons/styled-icons" className="github-corner" aria-label="View source on Github">
       <svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true">
