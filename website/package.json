@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@styled-icons/website",
-  "version": "10.6.1",
+  "version": "10.6.2",
   "license": "MIT",
   "funding": {
     "type": "GitHub",
@@ -26,7 +26,7 @@
     "react-is": "^17.0.2",
     "react-virtualized": "^9.22.3",
     "styled-components": "^5.3.0",
-    "styled-icons": "^10.35.0"
+    "styled-icons": "^10.36.0"
   },
   "devDependencies": {
     "@types/js-search": "^1.4.0",

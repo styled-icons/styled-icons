@@ -1,5 +1,14 @@
 # styled-icons
 
+## 10.36.0
+
+### Patch Changes
+
+- Updated dependencies [[`fe2fa0c`](https://github.com/styled-icons/styled-icons/commit/fe2fa0cb27534e6b60e855ecd64284178188bb8e)]:
+  - @styled-icons/heroicons-outline@10.36.0
+  - @styled-icons/heroicons-solid@10.36.0
+  - @styled-icons/simple-icons@10.36.0
+
 ## 10.35.0
 
 ### Patch Changes
