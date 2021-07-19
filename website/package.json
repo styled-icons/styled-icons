@@ -11,7 +11,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "next build && next export -o build && cp -r public/* build/ && mv build ../public",
+    "build": "env NODE_OPTIONS=--max_old_space_size=4096 next build",
     "clean": "rm -rf ./build ../public",
     "start": "next dev"
   },
