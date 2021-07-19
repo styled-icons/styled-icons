@@ -435,7 +435,7 @@ importers:
       '@babel/runtime': ^7.14.6
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/heroicons-solid': 1.50.0
+      '@svg-icons/heroicons-solid': 1.64.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -445,7 +445,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/heroicons-solid': 1.50.0
+      '@svg-icons/heroicons-solid': 1.64.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -3962,8 +3962,8 @@ packages:
     resolution: {integrity: sha512-zSFTMdq9CN0GxKHCiu7KQmYyKy6CScglqvnG5uXFtjykE0ff/SnBWa7v2YzCVp0+IylypKx2bvHJxtWTgatutA==}
     dev: true
 
-  /@svg-icons/heroicons-solid/1.50.0:
-    resolution: {integrity: sha512-7qJ+gXbFDFn/qNSdpjro/BRiYrjrDnb0DIPtroAwZ7itLG9HpN0zcRdrbXndBT1Y95poqY/4BcYQ+6nlhYBnVQ==}
+  /@svg-icons/heroicons-solid/1.64.0:
+    resolution: {integrity: sha512-v2qIKyWg+RjMo1zCeJyYec7W97evTOMSKGZ2PnNbcL06rvYz7kmQMNBUpdi/O3n9+Uf8JqmxmHRiwLv/FIo0/w==}
     dev: true
 
   /@svg-icons/icomoon/1.39.1:
