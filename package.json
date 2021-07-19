@@ -25,7 +25,7 @@
     "fmt": "prettier --write './**/*.{ts,tsx,js,md,json}'",
     "fmt:check": "prettier --list-different './**/*.{ts,tsx,js,md,json}'",
     "generate": "pnpm run -r generate",
-    "update-all": "ncu -u -p npm --deep --dep dev,optional,prod,bundle --reject typescript && CI=false pnpm i",
+    "update-all": "ncu -u -p npm --deep --dep dev,optional,prod,bundle --reject typescript && pnpm i --no-frozen-lockfile",
     "generate:pkg": "find packages -name 'package.built.json' -not -path '*/node_modules/*' -exec bash -c 'mv \"$1\" \"${1%.built.json}\".json' - '{}' \\;",
     "release": "pnpm build:icons && pnpm changeset publish"
   },
