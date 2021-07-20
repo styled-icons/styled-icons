@@ -13,8 +13,8 @@ jobs:
           persist-credentials: false
       - uses: pnpm/action-setup@v2.0.1
         with:
-          version: 6.6.2
-      - uses: jacobwgillespie/setup-node@cache-pnpm
+          version: 6.10.0
+      - uses: actions/setup-node@v2.3.0
         with:
           node-version: '14'
           cache: 'pnpm'
