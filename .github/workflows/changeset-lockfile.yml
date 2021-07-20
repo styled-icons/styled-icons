@@ -12,12 +12,13 @@ jobs:
         with:
           fetch-depth: 2
           persist-credentials: false
-      - uses: actions/setup-node@v2.2.0
-        with:
-          node-version: '14'
       - uses: pnpm/action-setup@v2.0.1
         with:
           version: 6.10.0
+      - uses: actions/setup-node@v2.3.0
+        with:
+          node-version: '14'
+          cache: 'pnpm'
       - name: Update lockfile
         run: pnpm install --ignore-scripts --lockfile-only
       - name: Config Git
