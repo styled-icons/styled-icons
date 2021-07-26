@@ -829,9 +829,9 @@ importers:
     specifiers:
       '@babel/runtime': ^7.14.8
       '@styled-icons/bootstrap': 10.34.0
-      '@styled-icons/boxicons-logos': 10.34.0
-      '@styled-icons/boxicons-regular': 10.34.0
-      '@styled-icons/boxicons-solid': 10.34.0
+      '@styled-icons/boxicons-logos': 10.37.0
+      '@styled-icons/boxicons-regular': 10.37.0
+      '@styled-icons/boxicons-solid': 10.37.0
       '@styled-icons/crypto': 10.34.0
       '@styled-icons/entypo': 10.34.0
       '@styled-icons/entypo-social': 10.34.0
@@ -862,7 +862,7 @@ importers:
       '@styled-icons/remix-editor': 10.33.0
       '@styled-icons/remix-fill': 10.18.0
       '@styled-icons/remix-line': 10.18.0
-      '@styled-icons/simple-icons': 10.36.0
+      '@styled-icons/simple-icons': 10.37.0
       '@styled-icons/styled-icon': 10.6.3
       '@styled-icons/typicons': 10.18.0
       '@styled-icons/zondicons': 10.18.0
