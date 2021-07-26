@@ -1,5 +1,15 @@
 # styled-icons
 
+## 10.37.0
+
+### Patch Changes
+
+- Updated dependencies [[`0a06a79`](https://github.com/styled-icons/styled-icons/commit/0a06a79cdeaea87ad60906f0d1c71279150b07a8)]:
+  - @styled-icons/boxicons-logos@10.37.0
+  - @styled-icons/boxicons-regular@10.37.0
+  - @styled-icons/boxicons-solid@10.37.0
+  - @styled-icons/simple-icons@10.37.0
+
 ## 10.36.0
 
 ### Patch Changes
