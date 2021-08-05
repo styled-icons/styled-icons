@@ -78,7 +78,7 @@ importers:
       '@babel/runtime': ^7.14.8
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/boxicons-logos': 1.65.0
+      '@svg-icons/boxicons-logos': 1.66.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -88,7 +88,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/boxicons-logos': 1.65.0
+      '@svg-icons/boxicons-logos': 1.66.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -3928,8 +3928,8 @@ packages:
     resolution: {integrity: sha512-nBPkXgVfbbyXviqLLvJX9IF6T94Ahqx8PLLtPz/WKsKq1NQUgxbwE5IEFEigoZunztkwiSzuSCygvSDJ00wvvw==}
     dev: true
 
-  /@svg-icons/boxicons-logos/1.65.0:
-    resolution: {integrity: sha512-708IDzlel9D6uHXhWfnEB3CD7gGgMoN7GdDXnB/QTNl7jmJmtnc9nbLDONszBax74LWwfafKHXrlKlA+ThXERw==}
+  /@svg-icons/boxicons-logos/1.66.0:
+    resolution: {integrity: sha512-zk9zS1Dn4q41r2cJ+zmIjZ3xzfZPmoUdekuMYDWvnSASncrm0tANkWFv4J6Qifp2QZOIRY732ZUWGnIF4h8Jtg==}
     dev: true
 
   /@svg-icons/boxicons-regular/1.65.0:
