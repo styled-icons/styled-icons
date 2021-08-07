@@ -1,21 +1,12 @@
 import React, {useState, useEffect, useCallback} from 'react'
-import {AutoSizer, Grid, WindowScroller, GridCellProps} from 'react-virtualized'
+import {AutoSizer, Grid, WindowScroller} from 'react-virtualized'
 import queryString from 'query-string'
-import {StyledIcon} from 'styled-icons/types'
 import Router from 'next/router'
 
 import * as JSSearch from 'js-search'
 import icons from 'styled-icons/manifest.json'
 
 import {IconCard} from './IconCard'
-
-interface IconType {
-  importPath: string
-  name: string
-  originalName: string
-  pack: string
-  icon: StyledIcon
-}
 
 const searchIndex = new JSSearch.Search('importPath')
 searchIndex.searchIndex = new JSSearch.UnorderedSearchIndex()
@@ -25,7 +16,7 @@ searchIndex.addIndex('originalName')
 searchIndex.addIndex('pack')
 searchIndex.addDocuments(icons)
 
-const IconExporer: React.SFC = () => {
+const IconExporer = () => {
   const [search, setSearch] = useState('')
 
   useEffect(() => {
@@ -33,15 +24,15 @@ const IconExporer: React.SFC = () => {
     setSearch(query.s ? decodeURIComponent(Array.isArray(query.s) ? query.s[0] : query.s) : '')
   }, [])
 
-  const updateSearch = useCallback((event: React.ChangeEvent<HTMLInputElement>) => {
+  const updateSearch = useCallback((event) => {
     const search = event.target.value
     setSearch(search)
     Router.replace(`/?s=${encodeURIComponent(search)}`)
   }, [])
 
-  const filteredIcons = search ? (searchIndex.search(search) as IconType[]) : icons
+  const filteredIcons = search ? searchIndex.search(search) : icons
 
-  const cellRenderer = ({columnIndex, key, rowIndex, style}: GridCellProps) => {
+  const cellRenderer = ({columnIndex, key, rowIndex, style}) => {
     const idx = rowIndex * 4 + columnIndex
     if (idx >= filteredIcons.length) return null
 

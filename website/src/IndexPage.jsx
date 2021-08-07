@@ -7,7 +7,7 @@ import Layout from './components/Layout'
 
 const IconExplorer = dynamic(() => import('./components/IconExplorer'), {loading: () => <div>Loading...</div>})
 
-const IndexPage: React.SFC = () => (
+const IndexPage = () => (
   <Layout>
     <Head>
       <title>Styled Icons - a Styled Components icon library</title>

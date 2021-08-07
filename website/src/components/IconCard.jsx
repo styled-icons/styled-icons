@@ -1,8 +1,7 @@
 import React, {useEffect, useRef, useState, useCallback, useMemo} from 'react'
 import copy from 'copy-to-clipboard'
-import {StyledIcon} from 'styled-icons/types'
 
-const importMap: any = {
+const importMap = {
   bootstrap: import('styled-icons/bootstrap'),
   'boxicons-logos': import('styled-icons/boxicons-logos'),
   'boxicons-regular': import('styled-icons/boxicons-regular'),
@@ -52,16 +51,11 @@ function useIsMounted() {
   return isMounted
 }
 
-interface Props {
-  pack: string
-  name: string
-}
-
-export const IconCard: React.SFC<Props> = ({name, pack}) => {
+export const IconCard = ({name, pack}) => {
   const isMounted = useIsMounted()
   const [copied, setCopied] = useState(false)
   const iconImport = useMemo(() => `@styled-icons/${pack}/${name}`, [pack, name])
-  const [Icon, setIcon] = useState<StyledIcon | null>(null)
+  const [Icon, setIcon] = useState(null)
 
   const copyCallback = useCallback(() => {
     copy(iconImport)
@@ -75,7 +69,7 @@ export const IconCard: React.SFC<Props> = ({name, pack}) => {
   }, [iconImport, isMounted])
 
   useEffect(() => {
-    importMap[pack].then((packImport: any) => {
+    importMap[pack].then((packImport) => {
       setIcon(packImport[name])
     })
   }, [name, pack])

@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export const Badges: React.SFC = () => (
+export const Badges = () => (
   <div className="badges">
     <a href="https://github.com/styled-icons/styled-icons/actions">
       <img src="https://github.com/styled-icons/styled-icons/workflows/CI/badge.svg" alt="Build Status" />
