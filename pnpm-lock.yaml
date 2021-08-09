@@ -267,7 +267,7 @@ importers:
       '@babel/runtime': ^7.14.8
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/fa-brands': 1.39.1
+      '@svg-icons/fa-brands': 1.68.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -277,7 +277,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/fa-brands': 1.39.1
+      '@svg-icons/fa-brands': 1.68.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -3964,8 +3964,8 @@ packages:
     resolution: {integrity: sha512-Mnlq6lr05QZp2O5N2Vv2qwddvILaPi28p0EuzZqp0CM/+KWjlJaVMq+73BPl28bs/X4vBcF1h5vYdClhNCWk4A==}
     dev: true
 
-  /@svg-icons/fa-brands/1.39.1:
-    resolution: {integrity: sha512-YXzG0SdLW1OZCtGcUVxjgZdeXlDg0LRl0xY5jhJefSlXVwnoquWZz/FlhA6WMrMOG5Jeliiv4SyrrLYArOqM7g==}
+  /@svg-icons/fa-brands/1.68.0:
+    resolution: {integrity: sha512-rAoX6IVXGWxRYZ59bDgNxziBnDBbSGGZAT/teQEd0wlorRVhUYCQ5mIMk7oOIvk30Kr/e5XO8gY70Z9djwJTIQ==}
     dev: true
 
   /@svg-icons/fa-regular/1.39.1:
