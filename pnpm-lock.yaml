@@ -645,7 +645,7 @@ importers:
       '@babel/runtime': ^7.14.8
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/octicons': 1.58.0
+      '@svg-icons/octicons': 1.69.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -655,7 +655,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/octicons': 1.58.0
+      '@svg-icons/octicons': 1.69.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -4036,8 +4036,8 @@ packages:
     resolution: {integrity: sha512-seyjsaccOArB8v9zQ9Kz+d1JcGN6Ij/mNu+BSMUL0na4vWlc+jVpXnUV/CoMgKnrdd8LwUSp2kdoAar6KsmOPQ==}
     dev: true
 
-  /@svg-icons/octicons/1.58.0:
-    resolution: {integrity: sha512-7wO8szjjC80xmIPTqly0JGrqAAOJ+DvlRupa7MpEzXD6DK8zg5xt7xLvPhaDPJQX8nXCyTkJMqx8hrX2SjhwLw==}
+  /@svg-icons/octicons/1.69.0:
+    resolution: {integrity: sha512-s+soAsJJvEoamO+Z94kDkIEFH1oMW04/ij3pmwVwOb4j0fO6SywxWRS/5bs39Q59GGKq3dRudGsNGaIckag0Fw==}
     dev: true
 
   /@svg-icons/open-iconic/1.39.1:
