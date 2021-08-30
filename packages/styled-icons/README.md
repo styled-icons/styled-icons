@@ -6,11 +6,11 @@
 <a href="https://www.styled-components.com/"><img src="https://badgen.net/badge/built%20with/styled%20components/db7093" alt="Built with Styled Components" /></a>
 <img src="https://badgen.net/badge/powered%20by/typescript/blue" alt="Powered by TypeScript" /> <a href="#contributors" alt="sponsors on Open Collective"><img src="https://opencollective.com/styled-icons/backers/badge.svg" /></a> <a href="#contributors" alt="Sponsors on Open Collective"><img src="https://opencollective.com/styled-icons/sponsors/badge.svg" /></a></p>
 
-<p align="center"><a href="https://vercel.com/?utm_source=styled-icons"><img height="32" src="https://styled-icons.js.org/powered-by-vercel.svg" alt="Powered by Vercel" /></a></p>
+<p align="center"><a href="https://vercel.com/?utm_source=styled-icons"><img height="32" src="https://styled-icons.dev/powered-by-vercel.svg" alt="Powered by Vercel" /></a></p>
 
 `styled-icons` provides over 20,000 icons from the following icon packs as [Styled Components](https://www.styled-components.com/), with full support for TypeScript types and tree-shaking / ES modules.
 
-**[➡️ View the Icon Explorer](https://styled-icons.js.org)**
+**[➡️ View the Icon Explorer](https://styled-icons.dev)**
 
 - [Bootstrap](https://icons.getbootstrap.com/)
 - [Boxicons](https://boxicons.com/)
@@ -119,7 +119,7 @@ Finally, you will need to have installed a version of `styled-components` at lea
 
 ## Usage
 
-All icons are available for preview at the [Icon Explorer](https://styled-icons.js.org).
+All icons are available for preview at the [Icon Explorer](https://styled-icons.dev).
 
 The entire icon packs are available via the main import and sub-imports:
 
