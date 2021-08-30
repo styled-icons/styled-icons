@@ -25,7 +25,7 @@
     "generate": "generate-icon-package @svg-icons/boxicons-solid"
   },
   "dependencies": {
-    "@babel/runtime": "^7.14.8",
+    "@babel/runtime": "^7.15.3",
     "@styled-icons/styled-icon": "^10.6.3"
   },
   "peerDependencies": {
@@ -34,10 +34,10 @@
   },
   "devDependencies": {
     "@styled-icons/pack-builder": "^10.6.0",
-    "@svg-icons/boxicons-solid": "1.65.0",
+    "@svg-icons/boxicons-solid": "1.66.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-is": "^17.0.2",
-    "styled-components": "^5.3.0"
+    "styled-components": "^5.3.1"
   }
 }
