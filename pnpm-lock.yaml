@@ -750,7 +750,7 @@ importers:
       '@babel/runtime': ^7.15.3
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/simple-icons': 1.71.0
+      '@svg-icons/simple-icons': 1.72.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -760,7 +760,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/simple-icons': 1.71.0
+      '@svg-icons/simple-icons': 1.72.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -3960,8 +3960,8 @@ packages:
     resolution: {integrity: sha512-i8Le/J0f1+aesktUzzuXMpSkr05L7hjkGP9ZiZJh+eAZtx7x+jhCNEGaS718dm9h5Ckdq7GBo97NtavCiaXa7w==}
     dev: true
 
-  /@svg-icons/simple-icons/1.71.0:
-    resolution: {integrity: sha512-3ktPDDuvGzopucMlpz+5wy+fKjqpVUP4Hoo4vtPUQL7IZq59FHXPMZfD0gPxQK/46zuNQqXdIAv54A5idjIJiQ==}
+  /@svg-icons/simple-icons/1.72.0:
+    resolution: {integrity: sha512-2NSVOOxgfNnoDVk7PD0dcOoGpgm/FRZYJ1CzkaYNFi8lV4S9yrDrV2pQB5Ya1zB07OBlIVctD52f3TCPSaZ4iw==}
     dev: true
 
   /@svg-icons/typicons/1.39.1:
