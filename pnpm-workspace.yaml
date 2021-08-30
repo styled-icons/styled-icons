@@ -3,4 +3,3 @@ packages:
   - packages/@styled-icons/*
   - storybook
   - tools/*
-  - website

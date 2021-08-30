@@ -1,9 +1,0 @@
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <ShortName>Styled Icons</ShortName>
-  <Description>A Styled Components icon library</Description>
-  <Url type="text/html" method="GET" template="https://styled-icons.js.org/?s={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="/opensearch.xml" />
-  <Image width="16" height="16">https://styled-icons.js.org/icons/favicon.ico</Image>
-  <InputEncoding>UTF-8</InputEncoding>
-  <moz:SearchForm>https://styled-icons.js.org</moz:SearchForm>
-</OpenSearchDescription>
