@@ -4,8 +4,7 @@
     "packages/*",
     "packages/@styled-icons/*",
     "storybook",
-    "tools/*",
-    "website"
+    "tools/*"
   ],
   "prettier": {
     "bracketSpacing": false,
@@ -15,12 +14,10 @@
     "trailingComma": "all"
   },
   "scripts": {
-    "build": "pnpm build:icons && pnpm build:website",
     "build:icons": "pnpm generate && run-p 'build:icons:*' && pnpm generate:pkg",
     "build:icons:cjs": "env BABEL_ENV=legacy pnpm babel packages --extensions '.ts,.tsx' --out-dir packages",
     "build:icons:esm": "env BABEL_ENV=modern pnpm babel packages --extensions '.ts,.tsx' --out-dir packages --out-file-extension .esm.js",
     "build:icons:typescript": "pnpm tsc --emitDeclarationOnly",
-    "build:website": "pnpm run --filter @styled-icons/website build",
     "clean": "pnpm run -r clean",
     "fmt": "prettier --write './**/*.{ts,tsx,js,md,json}'",
     "fmt:check": "prettier --list-different './**/*.{ts,tsx,js,md,json}'",

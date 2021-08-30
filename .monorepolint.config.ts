@@ -15,7 +15,6 @@ const config: Config = {
           // Non-icon packages
           '@styled-icons/pack-builder',
           '@styled-icons/storybook',
-          '@styled-icons/website',
         ],
       },
       {
@@ -27,7 +26,6 @@ const config: Config = {
           // Non-icon packages
           '@styled-icons/pack-builder',
           '@styled-icons/storybook',
-          '@styled-icons/website',
         ],
       },
     ],
