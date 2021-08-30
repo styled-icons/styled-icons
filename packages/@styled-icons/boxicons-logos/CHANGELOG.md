@@ -1,5 +1,11 @@
 # @styled-icons/boxicons-logos
 
+## 10.38.0
+
+### Minor Changes
+
+- [#1844](https://github.com/styled-icons/styled-icons/pull/1844): Update all package dependencies ([`ee837de`](https://github.com/styled-icons/styled-icons/commit/ee837de518c07c5d924d62b73554262ec93a300d), [@icon-bot](https://github.com/icon-bot))
+
 ## 10.37.0
 
 ### Minor Changes

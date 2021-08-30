@@ -1,5 +1,18 @@
 # styled-icons
 
+## 10.38.0
+
+### Patch Changes
+
+- Updated dependencies [[`ee837de`](https://github.com/styled-icons/styled-icons/commit/ee837de518c07c5d924d62b73554262ec93a300d)]:
+  - @styled-icons/boxicons-logos@10.38.0
+  - @styled-icons/boxicons-regular@10.38.0
+  - @styled-icons/boxicons-solid@10.38.0
+  - @styled-icons/crypto@10.38.0
+  - @styled-icons/fa-brands@10.38.0
+  - @styled-icons/octicons@10.38.0
+  - @styled-icons/simple-icons@10.38.0
+
 ## 10.37.0
 
 ### Patch Changes
