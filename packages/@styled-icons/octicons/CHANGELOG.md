@@ -1,5 +1,11 @@
 # @styled-icons/octicons
 
+## 10.39.0
+
+### Minor Changes
+
+- [#1860](https://github.com/styled-icons/styled-icons/pull/1860): Update all package dependencies ([`81ebb35`](https://github.com/styled-icons/styled-icons/commit/81ebb35780f8d978bd52658d16a0f2c8c56a2930), [@icon-bot](https://github.com/icon-bot))
+
 ## 10.38.0
 
 ### Minor Changes
