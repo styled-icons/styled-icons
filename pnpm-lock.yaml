@@ -13,7 +13,7 @@ importers:
       '@changesets/changelog-github': ^0.4.1
       '@changesets/cli': ^2.17.0
       '@monorepolint/cli': ^0.5.0-alpha.53
-      '@monorepolint/core': 0.5.0-alpha.53
+      '@monorepolint/core': 0.5.0-alpha.61
       '@types/node': ^16.9.1
       '@types/react': ^17.0.20
       '@types/styled-components': ^5.1.14
@@ -37,7 +37,7 @@ importers:
       '@changesets/changelog-github': 0.4.1
       '@changesets/cli': 2.17.0
       '@monorepolint/cli': 0.5.0-alpha.53
-      '@monorepolint/core': 0.5.0-alpha.53
+      '@monorepolint/core': 0.5.0-alpha.61
       '@types/node': 16.9.1
       '@types/react': 17.0.20
       '@types/styled-components': 5.1.14
@@ -3022,6 +3022,18 @@ packages:
       tslib: 2.3.0
     dev: true
 
+  /@monorepolint/core/0.5.0-alpha.61:
+    resolution: {integrity: sha512-hTzFy2rbDO/lgKNtOs74KYLn8771JyOKPS9PIZmLLsqTCwa/EZVFZvSMRyZtAeduIJwBf17jxCsuj+obeJacHQ==}
+    dependencies:
+      '@monorepolint/rules': 0.5.0-alpha.53
+      '@monorepolint/utils': 0.5.0-alpha.61
+      camelcase: 6.2.0
+      chalk: 4.1.2
+      minimatch: 3.0.4
+      runtypes: 4.3.0
+      tslib: 2.3.0
+    dev: true
+
   /@monorepolint/rules/0.5.0-alpha.53:
     resolution: {integrity: sha512-ktRM12Ta2B3SXiABHBxMdBuWCSuSDYJ+VxldzkynAQtmpdZnoIf70FkqaUD4F+La/NA0oX4FGTvff5bbbnbtWQ==}
     dependencies:
@@ -3038,6 +3050,13 @@ packages:
 
   /@monorepolint/utils/0.5.0-alpha.53:
     resolution: {integrity: sha512-ueqyFzY6rM4ZH+AboJyTthfe6hOFzn5/jfwCTlmR8u5z4xQIVpD7IE37t6BvcnYncTn2tjo0Qz6ZHV9AK5CvWQ==}
+    dependencies:
+      glob: 7.1.7
+      tslib: 2.3.0
+    dev: true
+
+  /@monorepolint/utils/0.5.0-alpha.61:
+    resolution: {integrity: sha512-G63BCGh6UaYGIRE2uqzHn2oQcgpeinjj4alNCE7vpUjRoKL/W5fdkCZWDYd3T6UU92wZi4JYOuuXX20roV4DQA==}
     dependencies:
       glob: 7.1.7
       tslib: 2.3.0
