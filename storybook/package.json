@@ -21,16 +21,16 @@
     "react-dom": "^17.0.2",
     "react-is": "^17.0.2",
     "styled-components": "^5.3.1",
-    "styled-icons": "^10.38.0"
+    "styled-icons": "^10.40.0"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@storybook/addons": "^6.3.8",
     "@storybook/react": "^6.3.8",
     "babel-loader": "^8.2.2",
-    "chromatic": "^5.9.2",
+    "chromatic": "^5.10.0",
     "fs-extra": "^10.0.0",
-    "storybook-addon-turbo-build": "^1.0.0-beta.0",
-    "webpack": "^5.52.1"
+    "storybook-addon-turbo-build": "^1.0.0",
+    "webpack": "^5.53.0"
   }
 }
