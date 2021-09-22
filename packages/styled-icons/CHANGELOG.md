@@ -1,5 +1,12 @@
 # styled-icons
 
+## 10.42.0
+
+### Patch Changes
+
+- Updated dependencies [[`5dde5a6`](https://github.com/styled-icons/styled-icons/commit/5dde5a6ff6495352cca9e97229848193ea885ae1)]:
+  - @styled-icons/octicons@10.42.0
+
 ## 10.41.0
 
 ### Patch Changes

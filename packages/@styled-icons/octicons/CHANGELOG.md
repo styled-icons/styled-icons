@@ -1,5 +1,11 @@
 # @styled-icons/octicons
 
+## 10.42.0
+
+### Minor Changes
+
+- [#1869](https://github.com/styled-icons/styled-icons/pull/1869): Bump @svg-icons/octicons from 1.73.0 to 1.77.0 ([`5dde5a6`](https://github.com/styled-icons/styled-icons/commit/5dde5a6ff6495352cca9e97229848193ea885ae1), [@dependabot](https://github.com/apps/dependabot))
+
 ## 10.39.0
 
 ### Minor Changes
