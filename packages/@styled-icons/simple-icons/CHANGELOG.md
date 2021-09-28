@@ -1,5 +1,11 @@
 # @styled-icons/simple-icons
 
+## 10.43.0
+
+### Minor Changes
+
+- [#1873](https://github.com/styled-icons/styled-icons/pull/1873): Bump @svg-icons/simple-icons from 1.76.0 to 1.78.0 ([`903e929`](https://github.com/styled-icons/styled-icons/commit/903e929830736e864fe380c4c0676cb05d7740f2), [@dependabot](https://github.com/apps/dependabot))
+
 ## 10.41.0
 
 ### Minor Changes
