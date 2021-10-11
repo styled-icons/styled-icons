@@ -1,6 +1,6 @@
 {
   "name": "styled-icons",
-  "version": "10.44.0",
+  "version": "10.45.0",
   "license": "MIT",
   "description": "Icons from packs like Font Awesome, Material, Octicons, Feather, Icomoon, and Boxicons available as Styled Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
@@ -67,7 +67,7 @@
     "@styled-icons/remix-editor": "10.33.0",
     "@styled-icons/remix-fill": "10.18.0",
     "@styled-icons/remix-line": "10.18.0",
-    "@styled-icons/simple-icons": "10.43.0",
+    "@styled-icons/simple-icons": "10.45.0",
     "@styled-icons/styled-icon": "10.6.3",
     "@styled-icons/typicons": "10.18.0",
     "@styled-icons/zondicons": "10.18.0"

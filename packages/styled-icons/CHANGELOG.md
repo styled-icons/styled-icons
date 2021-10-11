@@ -1,5 +1,12 @@
 # styled-icons
 
+## 10.45.0
+
+### Patch Changes
+
+- Updated dependencies [[`5583249`](https://github.com/styled-icons/styled-icons/commit/55832497797aacc05576ca007795237206100d72)]:
+  - @styled-icons/simple-icons@10.45.0
+
 ## 10.44.0
 
 ### Patch Changes

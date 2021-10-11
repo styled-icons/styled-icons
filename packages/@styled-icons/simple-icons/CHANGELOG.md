@@ -1,5 +1,11 @@
 # @styled-icons/simple-icons
 
+## 10.45.0
+
+### Minor Changes
+
+- [#1879](https://github.com/styled-icons/styled-icons/pull/1879): Update all package dependencies ([`5583249`](https://github.com/styled-icons/styled-icons/commit/55832497797aacc05576ca007795237206100d72), [@icon-bot](https://github.com/icon-bot))
+
 ## 10.43.0
 
 ### Minor Changes
