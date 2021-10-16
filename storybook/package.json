@@ -28,7 +28,7 @@
     "@storybook/addons": "^6.3.10",
     "@storybook/react": "^6.3.10",
     "babel-loader": "^8.2.2",
-    "chromatic": "^5.10.2",
+    "chromatic": "^6.0.4",
     "fs-extra": "^10.0.0",
     "storybook-addon-turbo-build": "^1.0.1",
     "webpack": "^5.58.1"
