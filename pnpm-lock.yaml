@@ -17,7 +17,7 @@ importers:
       '@types/node': ^16.11.4
       '@types/react': ^17.0.32
       '@types/styled-components': ^5.1.15
-      babel-plugin-styled-components: ^1.13.3
+      babel-plugin-styled-components: ^2.0.2
       esbuild-loader: ^2.16.0
       npm-check-updates: ^11.8.5
       npm-run-all: ^4.1.5
@@ -41,7 +41,7 @@ importers:
       '@types/node': 16.11.4
       '@types/react': 17.0.32
       '@types/styled-components': 5.1.15
-      babel-plugin-styled-components: 1.13.3_styled-components@5.3.3
+      babel-plugin-styled-components: 2.0.2_styled-components@5.3.3
       esbuild-loader: 2.16.0
       npm-check-updates: 11.8.5
       npm-run-all: 4.1.5
@@ -1066,6 +1066,13 @@ packages:
     dependencies:
       '@babel/types': 7.15.6
 
+  /@babel/helper-annotate-as-pure/7.16.0:
+    resolution: {integrity: sha512-ItmYF9vR4zA8cByDocY05o0LGUkp1zhbTQOH1NFyl5xXEqlTJQCEJjieriw+aFpxo16swMxUnUiKS7a/r4vtHg==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/types': 7.16.0
+    dev: true
+
   /@babel/helper-builder-binary-assignment-operator-visitor/7.14.5:
     resolution: {integrity: sha512-YTA/Twn0vBXDVGJuAX6PwW7x5zQei1luDDo2Pl6q1qZ7hVNl0RZrhHCQG/ArGpR29Vl7ETiB8eJyrvpuRp300w==}
     engines: {node: '>=6.9.0'}
@@ -1207,6 +1214,13 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/types': 7.15.6
+
+  /@babel/helper-module-imports/7.16.0:
+    resolution: {integrity: sha512-kkH7sWzKPq0xt3H1n+ghb4xEMP8k0U7XV3kkB+ZGy69kDk2ySFW1qPi06sjKzFY3t1j6XbJSqr4mF9L7CYVyhg==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/types': 7.16.0
+    dev: true
 
   /@babel/helper-module-transforms/7.15.8:
     resolution: {integrity: sha512-DfAfA6PfpG8t4S6npwzLvTUpp0sS7JrcuaMiy1Y5645laRJIp/LiLGIBbQKaXSInK8tiGNI7FL7L8UvB8gdUZg==}
@@ -2429,6 +2443,14 @@ packages:
     dependencies:
       '@babel/helper-validator-identifier': 7.15.7
       to-fast-properties: 2.0.0
+
+  /@babel/types/7.16.0:
+    resolution: {integrity: sha512-PJgg/k3SdLsGb3hhisFvtLOw5ts113klrpLuIPtCJIU+BB24fqq6lf8RWqKJEjzqXR9AEH1rIb5XTqwBHB+kQg==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/helper-validator-identifier': 7.15.7
+      to-fast-properties: 2.0.0
+    dev: true
 
   /@bcoe/v8-coverage/0.2.3:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
@@ -4968,6 +4990,18 @@ packages:
       babel-plugin-syntax-jsx: 6.18.0
       lodash: 4.17.21
       styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+
+  /babel-plugin-styled-components/2.0.2_styled-components@5.3.3:
+    resolution: {integrity: sha512-7eG5NE8rChnNTDxa6LQfynwgHTVOYYaHJbUYSlOhk8QBXIQiMBKq4gyfHBBKPrxUcVBXVJL61ihduCpCQbuNbw==}
+    peerDependencies:
+      styled-components: '>= 2'
+    dependencies:
+      '@babel/helper-annotate-as-pure': 7.16.0
+      '@babel/helper-module-imports': 7.16.0
+      babel-plugin-syntax-jsx: 6.18.0
+      lodash: 4.17.21
+      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+    dev: true
 
   /babel-plugin-syntax-jsx/6.18.0:
     resolution: {integrity: sha1-CvMqmm4Tyno/1QaeYtew9Y0NiUY=}
