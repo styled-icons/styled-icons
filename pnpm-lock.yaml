@@ -14,7 +14,7 @@ importers:
       '@changesets/cli': ^2.17.0
       '@monorepolint/cli': ^0.5.0-alpha.53
       '@monorepolint/core': 0.5.0-alpha.61
-      '@types/node': ^16.11.4
+      '@types/node': ^17.0.5
       '@types/react': ^17.0.32
       '@types/styled-components': ^5.1.15
       babel-plugin-styled-components: ^1.13.3
@@ -38,7 +38,7 @@ importers:
       '@changesets/cli': 2.17.0
       '@monorepolint/cli': 0.5.0-alpha.53
       '@monorepolint/core': 0.5.0-alpha.61
-      '@types/node': 16.11.4
+      '@types/node': 17.0.5
       '@types/react': 17.0.32
       '@types/styled-components': 5.1.15
       babel-plugin-styled-components: 1.13.3_styled-components@5.3.3
@@ -956,7 +956,7 @@ importers:
       h2x-core: 1.1.1
       h2x-plugin-jsx: 1.2.0
       number-to-words: 1.2.4
-      ts-node: 10.4.0_b1385b8a8b3ef7ef53ccf0c4b0db908b
+      ts-node: 10.4.0_c82bd540cebb449c1a6a2efc1a07a5b9
       typescript: 4.3.4
 
 packages:
@@ -4003,6 +4003,10 @@ packages:
 
   /@types/node/16.11.4:
     resolution: {integrity: sha512-TMgXmy0v2xWyuCSCJM6NCna2snndD8yvQF67J29ipdzMcsPa9u+o0tjF5+EQNdhcuZplYuouYqpc4zcd5I6amQ==}
+    dev: true
+
+  /@types/node/17.0.5:
+    resolution: {integrity: sha512-w3mrvNXLeDYV1GKTZorGJQivK6XLCoGwpnyJFbJVK/aTBQUxOCaa/GlFAAN3OTDFcb7h5tiFG+YXCO2By+riZw==}
     dev: true
 
   /@types/normalize-package-data/2.4.0:
@@ -12355,7 +12359,7 @@ packages:
     resolution: {integrity: sha512-3IVX4nI6B5cc31/GFFE+i8ey/N2eA0CZDbo6n0yrz0zDX8ZJ8djmU1p+XRz7G3is0F3bB3pu2pAroFdAWQKU3w==}
     dev: true
 
-  /ts-node/10.4.0_b1385b8a8b3ef7ef53ccf0c4b0db908b:
+  /ts-node/10.4.0_c82bd540cebb449c1a6a2efc1a07a5b9:
     resolution: {integrity: sha512-g0FlPvvCXSIO1JDF6S232P5jPYqBkRL9qly81ZgAOSU7rwI0stphCgd2kLiCrU9DjQCrJMWEqcNSjQL02s6d8A==}
     hasBin: true
     peerDependencies:
@@ -12374,7 +12378,7 @@ packages:
       '@tsconfig/node12': 1.0.9
       '@tsconfig/node14': 1.0.1
       '@tsconfig/node16': 1.0.2
-      '@types/node': 16.11.4
+      '@types/node': 17.0.5
       acorn: 8.4.1
       acorn-walk: 8.1.1
       arg: 4.1.3
