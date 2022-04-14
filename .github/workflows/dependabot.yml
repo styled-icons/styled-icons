@@ -19,7 +19,7 @@ jobs:
       contains(github.event.pull_request.head.ref, 'dependabot/npm_and_yarn/')
 
     steps:
-      - uses: actions/checkout@v2.3.5
+      - uses: actions/checkout@v3.0.1
         with:
           # Using a Personal Access Token here is required to trigger workflows on our new commit.
           # The default GitHub token doesn't trigger any workflows.
