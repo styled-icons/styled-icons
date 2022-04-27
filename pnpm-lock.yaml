@@ -24,7 +24,7 @@ importers:
       prettier: ^2.4.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
       typescript: ^4.3.4
     devDependencies:
@@ -48,8 +48,8 @@ importers:
       prettier: 2.4.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
       typescript: 4.3.4
 
   packages/@styled-icons/bootstrap:
@@ -60,7 +60,7 @@ importers:
       '@svg-icons/bootstrap': 1.83.0
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -70,8 +70,8 @@ importers:
       '@svg-icons/bootstrap': 1.83.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/boxicons-logos:
     specifiers:
@@ -81,7 +81,7 @@ importers:
       '@svg-icons/boxicons-logos': 1.66.0
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -91,8 +91,8 @@ importers:
       '@svg-icons/boxicons-logos': 1.66.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/boxicons-regular:
     specifiers:
@@ -102,7 +102,7 @@ importers:
       '@svg-icons/boxicons-regular': 1.66.0
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -112,8 +112,8 @@ importers:
       '@svg-icons/boxicons-regular': 1.66.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/boxicons-solid:
     specifiers:
@@ -123,7 +123,7 @@ importers:
       '@svg-icons/boxicons-solid': 1.66.0
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -133,8 +133,8 @@ importers:
       '@svg-icons/boxicons-solid': 1.66.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/crypto:
     specifiers:
@@ -144,7 +144,7 @@ importers:
       '@svg-icons/crypto': 1.66.0
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -154,8 +154,8 @@ importers:
       '@svg-icons/crypto': 1.66.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/entypo:
     specifiers:
@@ -165,7 +165,7 @@ importers:
       '@svg-icons/entypo': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -175,8 +175,8 @@ importers:
       '@svg-icons/entypo': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/entypo-social:
     specifiers:
@@ -186,7 +186,7 @@ importers:
       '@svg-icons/entypo-social': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -196,8 +196,8 @@ importers:
       '@svg-icons/entypo-social': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/evaicons-outline:
     specifiers:
@@ -207,7 +207,7 @@ importers:
       '@svg-icons/evaicons-outline': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -217,8 +217,8 @@ importers:
       '@svg-icons/evaicons-outline': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/evaicons-solid:
     specifiers:
@@ -228,7 +228,7 @@ importers:
       '@svg-icons/evaicons-solid': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -238,8 +238,8 @@ importers:
       '@svg-icons/evaicons-solid': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/evil:
     specifiers:
@@ -249,7 +249,7 @@ importers:
       '@svg-icons/evil': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -259,8 +259,8 @@ importers:
       '@svg-icons/evil': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/fa-brands:
     specifiers:
@@ -270,7 +270,7 @@ importers:
       '@svg-icons/fa-brands': 1.68.0
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -280,8 +280,8 @@ importers:
       '@svg-icons/fa-brands': 1.68.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/fa-regular:
     specifiers:
@@ -291,7 +291,7 @@ importers:
       '@svg-icons/fa-regular': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -301,8 +301,8 @@ importers:
       '@svg-icons/fa-regular': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/fa-solid:
     specifiers:
@@ -312,7 +312,7 @@ importers:
       '@svg-icons/fa-solid': 1.42.0
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -322,8 +322,8 @@ importers:
       '@svg-icons/fa-solid': 1.42.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/feather:
     specifiers:
@@ -333,7 +333,7 @@ importers:
       '@svg-icons/feather': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -343,8 +343,8 @@ importers:
       '@svg-icons/feather': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/fluentui-system-filled:
     specifiers:
@@ -354,7 +354,7 @@ importers:
       '@svg-icons/fluentui-system-filled': 1.60.0
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -364,8 +364,8 @@ importers:
       '@svg-icons/fluentui-system-filled': 1.60.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/fluentui-system-regular:
     specifiers:
@@ -375,7 +375,7 @@ importers:
       '@svg-icons/fluentui-system-regular': 1.60.0
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -385,8 +385,8 @@ importers:
       '@svg-icons/fluentui-system-regular': 1.60.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/foundation:
     specifiers:
@@ -396,7 +396,7 @@ importers:
       '@svg-icons/foundation': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -406,8 +406,8 @@ importers:
       '@svg-icons/foundation': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/heroicons-outline:
     specifiers:
@@ -417,7 +417,7 @@ importers:
       '@svg-icons/heroicons-outline': 1.64.0
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -427,8 +427,8 @@ importers:
       '@svg-icons/heroicons-outline': 1.64.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/heroicons-solid:
     specifiers:
@@ -438,7 +438,7 @@ importers:
       '@svg-icons/heroicons-solid': 1.64.0
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -448,8 +448,8 @@ importers:
       '@svg-icons/heroicons-solid': 1.64.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/icomoon:
     specifiers:
@@ -459,7 +459,7 @@ importers:
       '@svg-icons/icomoon': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -469,8 +469,8 @@ importers:
       '@svg-icons/icomoon': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/ionicons-outline:
     specifiers:
@@ -480,7 +480,7 @@ importers:
       '@svg-icons/ionicons-outline': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -490,8 +490,8 @@ importers:
       '@svg-icons/ionicons-outline': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/ionicons-sharp:
     specifiers:
@@ -501,7 +501,7 @@ importers:
       '@svg-icons/ionicons-sharp': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -511,8 +511,8 @@ importers:
       '@svg-icons/ionicons-sharp': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/ionicons-solid:
     specifiers:
@@ -522,7 +522,7 @@ importers:
       '@svg-icons/ionicons-solid': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -532,8 +532,8 @@ importers:
       '@svg-icons/ionicons-solid': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/material:
     specifiers:
@@ -543,7 +543,7 @@ importers:
       '@svg-icons/material-filled': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -553,8 +553,8 @@ importers:
       '@svg-icons/material-filled': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/material-outlined:
     specifiers:
@@ -564,7 +564,7 @@ importers:
       '@svg-icons/material-outlined': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -574,8 +574,8 @@ importers:
       '@svg-icons/material-outlined': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/material-rounded:
     specifiers:
@@ -585,7 +585,7 @@ importers:
       '@svg-icons/material-rounded': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -595,8 +595,8 @@ importers:
       '@svg-icons/material-rounded': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/material-sharp:
     specifiers:
@@ -606,7 +606,7 @@ importers:
       '@svg-icons/material-sharp': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -616,8 +616,8 @@ importers:
       '@svg-icons/material-sharp': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/material-twotone:
     specifiers:
@@ -627,7 +627,7 @@ importers:
       '@svg-icons/material-twotone': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -637,8 +637,8 @@ importers:
       '@svg-icons/material-twotone': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/octicons:
     specifiers:
@@ -648,7 +648,7 @@ importers:
       '@svg-icons/octicons': 1.84.0
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -658,8 +658,8 @@ importers:
       '@svg-icons/octicons': 1.84.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/open-iconic:
     specifiers:
@@ -669,7 +669,7 @@ importers:
       '@svg-icons/open-iconic': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -679,8 +679,8 @@ importers:
       '@svg-icons/open-iconic': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/remix-editor:
     specifiers:
@@ -690,7 +690,7 @@ importers:
       '@svg-icons/remix-editor': 1.48.0
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -700,8 +700,8 @@ importers:
       '@svg-icons/remix-editor': 1.48.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/remix-fill:
     specifiers:
@@ -711,7 +711,7 @@ importers:
       '@svg-icons/remix-fill': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -721,8 +721,8 @@ importers:
       '@svg-icons/remix-fill': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/remix-line:
     specifiers:
@@ -732,7 +732,7 @@ importers:
       '@svg-icons/remix-line': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -742,8 +742,8 @@ importers:
       '@svg-icons/remix-line': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/simple-icons:
     specifiers:
@@ -753,7 +753,7 @@ importers:
       '@svg-icons/simple-icons': 1.82.0
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -763,8 +763,8 @@ importers:
       '@svg-icons/simple-icons': 1.82.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/styled-icon:
     specifiers:
@@ -772,7 +772,7 @@ importers:
       '@styled-icons/pack-builder': ^10.6.0
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -780,8 +780,8 @@ importers:
       '@styled-icons/pack-builder': link:../../../tools/builder
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/typicons:
     specifiers:
@@ -791,7 +791,7 @@ importers:
       '@svg-icons/typicons': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -801,8 +801,8 @@ importers:
       '@svg-icons/typicons': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/@styled-icons/zondicons:
     specifiers:
@@ -812,7 +812,7 @@ importers:
       '@svg-icons/zondicons': 1.39.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       styled-components: ^5.3.3
     dependencies:
       '@babel/runtime': 7.15.4
@@ -822,8 +822,8 @@ importers:
       '@svg-icons/zondicons': 1.39.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   packages/styled-icons:
     specifiers:
@@ -918,7 +918,7 @@ importers:
       fs-extra: ^10.0.0
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-is: ^17.0.2
+      react-is: ^18.1.0
       storybook-addon-turbo-build: ^1.0.1
       styled-components: ^5.3.3
       styled-icons: ^10.45.0
@@ -926,8 +926,8 @@ importers:
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      react-is: 18.1.0
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
       styled-icons: link:../packages/styled-icons
     devDependencies:
       '@babel/core': 7.15.8
@@ -4967,7 +4967,7 @@ packages:
       '@babel/helper-module-imports': 7.15.4
       babel-plugin-syntax-jsx: 6.18.0
       lodash: 4.17.21
-      styled-components: 5.3.3_281a4fa50a045c9112baf635f3bc27a7
+      styled-components: 5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3
 
   /babel-plugin-syntax-jsx/6.18.0:
     resolution: {integrity: sha1-CvMqmm4Tyno/1QaeYtew9Y0NiUY=}
@@ -10884,6 +10884,10 @@ packages:
 
   /react-is/17.0.2:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
+    dev: true
+
+  /react-is/18.1.0:
+    resolution: {integrity: sha512-Fl7FuabXsJnV5Q1qIOQwx/sagGF18kogb4gpfcG4gjLBWO0WDiiz1ko/ExayuxE7InyQkBLkxRFG5oxY6Uu3Kg==}
 
   /react-lifecycles-compat/3.0.4:
     resolution: {integrity: sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==}
@@ -12026,7 +12030,7 @@ packages:
       inline-style-parser: 0.1.1
     dev: true
 
-  /styled-components/5.3.3_281a4fa50a045c9112baf635f3bc27a7:
+  /styled-components/5.3.3_a2a2181cfa9fa3a87be5c14ec7e31da3:
     resolution: {integrity: sha512-++4iHwBM7ZN+x6DtPPWkCI4vdtwumQ+inA/DdAsqYd4SVgUKJie5vXyzotA00ttcFdQkCng7zc6grwlfIfw+lw==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -12044,7 +12048,7 @@ packages:
       hoist-non-react-statics: 3.3.2
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-is: 17.0.2
+      react-is: 18.1.0
       shallowequal: 1.1.0
       supports-color: 5.5.0
 
