@@ -16,13 +16,13 @@
     "access": "public"
   },
   "devDependencies": {
-    "fast-case": "^1.6.0",
-    "fast-glob": "^3.2.7",
-    "fs-extra": "^10.0.0",
+    "fast-case": "^1.7.0",
+    "fast-glob": "^3.2.11",
+    "fs-extra": "^10.1.0",
     "h2x-core": "^1.1.1",
     "h2x-plugin-jsx": "^1.2.0",
     "number-to-words": "^1.2.4",
-    "ts-node": "^10.4.0",
+    "ts-node": "^10.9.1",
     "typescript": "^4.3.4"
   }
 }
