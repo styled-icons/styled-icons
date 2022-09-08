@@ -1,5 +1,52 @@
 # styled-icons
 
+## 10.46.0
+
+### Minor Changes
+
+- [#2083](https://github.com/styled-icons/styled-icons/pull/2083): Upgrade all dependencies and icons ([`20a053c`](https://github.com/styled-icons/styled-icons/commit/20a053c8d15a844732ef49359dc4679f0f4c8d89), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+### Patch Changes
+
+- Updated dependencies [[`20a053c`](https://github.com/styled-icons/styled-icons/commit/20a053c8d15a844732ef49359dc4679f0f4c8d89), [`d7640c1`](https://github.com/styled-icons/styled-icons/commit/d7640c1a164f434851c727cffb3eb9e1740f1b74)]:
+  - @styled-icons/bootstrap@10.46.0
+  - @styled-icons/boxicons-logos@10.46.0
+  - @styled-icons/boxicons-regular@10.46.0
+  - @styled-icons/boxicons-solid@10.46.0
+  - @styled-icons/crypto@10.46.0
+  - @styled-icons/entypo@10.46.0
+  - @styled-icons/entypo-social@10.46.0
+  - @styled-icons/evaicons-outline@10.46.0
+  - @styled-icons/evaicons-solid@10.46.0
+  - @styled-icons/evil@10.46.0
+  - @styled-icons/fa-brands@10.46.0
+  - @styled-icons/fa-regular@10.46.0
+  - @styled-icons/fa-solid@10.46.0
+  - @styled-icons/feather@10.46.0
+  - @styled-icons/fluentui-system-filled@10.46.0
+  - @styled-icons/fluentui-system-regular@10.46.0
+  - @styled-icons/foundation@10.46.0
+  - @styled-icons/heroicons-outline@10.46.0
+  - @styled-icons/heroicons-solid@10.46.0
+  - @styled-icons/icomoon@10.46.0
+  - @styled-icons/ionicons-outline@10.46.0
+  - @styled-icons/ionicons-sharp@10.46.0
+  - @styled-icons/ionicons-solid@10.46.0
+  - @styled-icons/material@10.46.0
+  - @styled-icons/material-outlined@10.46.0
+  - @styled-icons/material-rounded@10.46.0
+  - @styled-icons/material-sharp@10.46.0
+  - @styled-icons/material-twotone@10.46.0
+  - @styled-icons/octicons@10.46.0
+  - @styled-icons/open-iconic@10.46.0
+  - @styled-icons/remix-editor@10.46.0
+  - @styled-icons/remix-fill@10.46.0
+  - @styled-icons/remix-line@10.46.0
+  - @styled-icons/simple-icons@10.46.0
+  - @styled-icons/typicons@10.46.0
+  - @styled-icons/zondicons@10.46.0
+  - @styled-icons/styled-icon@10.7.0
+
 ## 10.45.0
 
 ### Patch Changes
