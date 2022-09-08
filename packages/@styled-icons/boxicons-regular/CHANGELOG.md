@@ -1,5 +1,16 @@
 # @styled-icons/boxicons-regular
 
+## 10.46.0
+
+### Minor Changes
+
+- [#2083](https://github.com/styled-icons/styled-icons/pull/2083): Upgrade all dependencies and icons ([`20a053c`](https://github.com/styled-icons/styled-icons/commit/20a053c8d15a844732ef49359dc4679f0f4c8d89), [@jacobwgillespie](https://github.com/jacobwgillespie))
+
+### Patch Changes
+
+- Updated dependencies [[`20a053c`](https://github.com/styled-icons/styled-icons/commit/20a053c8d15a844732ef49359dc4679f0f4c8d89)]:
+  - @styled-icons/styled-icon@10.7.0
+
 ## 10.38.0
 
 ### Minor Changes
