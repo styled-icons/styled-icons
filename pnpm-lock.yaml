@@ -14,7 +14,7 @@ importers:
       '@changesets/cli': ^2.24.4
       '@monorepolint/cli': ^0.5.0-alpha.96
       '@monorepolint/core': 0.5.0-alpha.96
-      '@types/node': ^16.11.4
+      '@types/node': ^17.0.45
       '@types/react': ^17.0.32
       '@types/styled-components': ^5.1.26
       babel-plugin-styled-components: ^2.0.7
@@ -38,7 +38,7 @@ importers:
       '@changesets/cli': 2.24.4
       '@monorepolint/cli': 0.5.0-alpha.96
       '@monorepolint/core': 0.5.0-alpha.96
-      '@types/node': 16.11.4
+      '@types/node': 17.0.45
       '@types/react': 17.0.32
       '@types/styled-components': 5.1.26
       babel-plugin-styled-components: 2.0.7_styled-components@5.3.5
@@ -956,7 +956,7 @@ importers:
       h2x-core: 1.1.1
       h2x-plugin-jsx: 1.2.0
       number-to-words: 1.2.4
-      ts-node: 10.9.1_11870b95c9dff348e42e551d2b445b41
+      ts-node: 10.9.1_ade2daf66b8f374edc0171461f65d2b6
       typescript: 4.8.2
 
 packages:
@@ -4414,12 +4414,12 @@ packages:
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
     dev: true
 
-  /@types/node/16.11.4:
-    resolution: {integrity: sha512-TMgXmy0v2xWyuCSCJM6NCna2snndD8yvQF67J29ipdzMcsPa9u+o0tjF5+EQNdhcuZplYuouYqpc4zcd5I6amQ==}
-    dev: true
-
   /@types/node/16.11.58:
     resolution: {integrity: sha512-uMVxJ111wpHzkx/vshZFb6Qni3BOMnlWLq7q9jrwej7Yw/KvjsEbpxCCxw+hLKxexFMc8YmpG8J9tnEe/rKsIg==}
+    dev: true
+
+  /@types/node/17.0.45:
+    resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
     dev: true
 
   /@types/node/18.7.16:
@@ -12940,7 +12940,7 @@ packages:
     engines: {node: '>=6.10'}
     dev: true
 
-  /ts-node/10.9.1_11870b95c9dff348e42e551d2b445b41:
+  /ts-node/10.9.1_ade2daf66b8f374edc0171461f65d2b6:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -12959,7 +12959,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.3
-      '@types/node': 16.11.4
+      '@types/node': 17.0.45
       acorn: 8.8.0
       acorn-walk: 8.2.0
       arg: 4.1.3
