@@ -57,7 +57,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/bootstrap': 1.83.0
+      '@svg-icons/bootstrap': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -67,7 +67,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/bootstrap': 1.83.0
+      '@svg-icons/bootstrap': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -78,7 +78,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/boxicons-logos': 1.66.0
+      '@svg-icons/boxicons-logos': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -88,7 +88,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/boxicons-logos': 1.66.0
+      '@svg-icons/boxicons-logos': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -99,7 +99,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/boxicons-regular': 1.66.0
+      '@svg-icons/boxicons-regular': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -109,7 +109,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/boxicons-regular': 1.66.0
+      '@svg-icons/boxicons-regular': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -120,7 +120,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/boxicons-solid': 1.66.0
+      '@svg-icons/boxicons-solid': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -130,7 +130,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/boxicons-solid': 1.66.0
+      '@svg-icons/boxicons-solid': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -141,7 +141,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/crypto': 1.66.0
+      '@svg-icons/crypto': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -151,7 +151,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/crypto': 1.66.0
+      '@svg-icons/crypto': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -162,7 +162,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/entypo': 1.39.1
+      '@svg-icons/entypo': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -172,7 +172,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/entypo': 1.39.1
+      '@svg-icons/entypo': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -183,7 +183,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/entypo-social': 1.39.1
+      '@svg-icons/entypo-social': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -193,7 +193,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/entypo-social': 1.39.1
+      '@svg-icons/entypo-social': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -204,7 +204,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/evaicons-outline': 1.39.1
+      '@svg-icons/evaicons-outline': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -214,7 +214,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/evaicons-outline': 1.39.1
+      '@svg-icons/evaicons-outline': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -225,7 +225,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/evaicons-solid': 1.39.1
+      '@svg-icons/evaicons-solid': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -235,7 +235,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/evaicons-solid': 1.39.1
+      '@svg-icons/evaicons-solid': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -246,7 +246,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/evil': 1.39.1
+      '@svg-icons/evil': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -256,7 +256,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/evil': 1.39.1
+      '@svg-icons/evil': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -267,7 +267,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/fa-brands': 1.68.0
+      '@svg-icons/fa-brands': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -277,7 +277,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/fa-brands': 1.68.0
+      '@svg-icons/fa-brands': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -288,7 +288,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/fa-regular': 1.39.1
+      '@svg-icons/fa-regular': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -298,7 +298,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/fa-regular': 1.39.1
+      '@svg-icons/fa-regular': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -309,7 +309,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/fa-solid': 1.42.0
+      '@svg-icons/fa-solid': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -319,7 +319,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/fa-solid': 1.42.0
+      '@svg-icons/fa-solid': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -330,7 +330,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/feather': 1.39.1
+      '@svg-icons/feather': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -340,7 +340,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/feather': 1.39.1
+      '@svg-icons/feather': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -351,7 +351,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/fluentui-system-filled': 1.60.0
+      '@svg-icons/fluentui-system-filled': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -361,7 +361,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/fluentui-system-filled': 1.60.0
+      '@svg-icons/fluentui-system-filled': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -372,7 +372,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/fluentui-system-regular': 1.60.0
+      '@svg-icons/fluentui-system-regular': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -382,7 +382,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/fluentui-system-regular': 1.60.0
+      '@svg-icons/fluentui-system-regular': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -393,7 +393,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/foundation': 1.39.1
+      '@svg-icons/foundation': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -403,7 +403,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/foundation': 1.39.1
+      '@svg-icons/foundation': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -414,7 +414,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/heroicons-outline': 1.64.0
+      '@svg-icons/heroicons-outline': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -424,7 +424,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/heroicons-outline': 1.64.0
+      '@svg-icons/heroicons-outline': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -435,7 +435,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/heroicons-solid': 1.64.0
+      '@svg-icons/heroicons-solid': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -445,7 +445,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/heroicons-solid': 1.64.0
+      '@svg-icons/heroicons-solid': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -456,7 +456,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/icomoon': 1.39.1
+      '@svg-icons/icomoon': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -466,7 +466,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/icomoon': 1.39.1
+      '@svg-icons/icomoon': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -477,7 +477,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/ionicons-outline': 1.39.1
+      '@svg-icons/ionicons-outline': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -487,7 +487,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/ionicons-outline': 1.39.1
+      '@svg-icons/ionicons-outline': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -498,7 +498,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/ionicons-sharp': 1.39.1
+      '@svg-icons/ionicons-sharp': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -508,7 +508,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/ionicons-sharp': 1.39.1
+      '@svg-icons/ionicons-sharp': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -519,7 +519,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/ionicons-solid': 1.39.1
+      '@svg-icons/ionicons-solid': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -529,7 +529,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/ionicons-solid': 1.39.1
+      '@svg-icons/ionicons-solid': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -540,7 +540,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/material-filled': 1.39.1
+      '@svg-icons/material-filled': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -550,7 +550,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/material-filled': 1.39.1
+      '@svg-icons/material-filled': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -561,7 +561,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/material-outlined': 1.39.1
+      '@svg-icons/material-outlined': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -571,7 +571,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/material-outlined': 1.39.1
+      '@svg-icons/material-outlined': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -582,7 +582,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/material-rounded': 1.39.1
+      '@svg-icons/material-rounded': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -592,7 +592,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/material-rounded': 1.39.1
+      '@svg-icons/material-rounded': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -603,7 +603,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/material-sharp': 1.39.1
+      '@svg-icons/material-sharp': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -613,7 +613,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/material-sharp': 1.39.1
+      '@svg-icons/material-sharp': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -624,7 +624,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/material-twotone': 1.39.1
+      '@svg-icons/material-twotone': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -634,7 +634,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/material-twotone': 1.39.1
+      '@svg-icons/material-twotone': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -645,7 +645,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/octicons': 1.84.0
+      '@svg-icons/octicons': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -655,7 +655,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/octicons': 1.84.0
+      '@svg-icons/octicons': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -666,7 +666,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/open-iconic': 1.39.1
+      '@svg-icons/open-iconic': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -676,7 +676,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/open-iconic': 1.39.1
+      '@svg-icons/open-iconic': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -687,7 +687,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/remix-editor': 1.48.0
+      '@svg-icons/remix-editor': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -697,7 +697,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/remix-editor': 1.48.0
+      '@svg-icons/remix-editor': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -708,7 +708,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/remix-fill': 1.39.1
+      '@svg-icons/remix-fill': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -718,7 +718,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/remix-fill': 1.39.1
+      '@svg-icons/remix-fill': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -729,7 +729,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/remix-line': 1.39.1
+      '@svg-icons/remix-line': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -739,7 +739,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/remix-line': 1.39.1
+      '@svg-icons/remix-line': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -750,7 +750,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/simple-icons': 1.82.0
+      '@svg-icons/simple-icons': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -760,7 +760,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/simple-icons': 1.82.0
+      '@svg-icons/simple-icons': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -788,7 +788,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/typicons': 1.39.1
+      '@svg-icons/typicons': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -798,7 +798,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/typicons': 1.39.1
+      '@svg-icons/typicons': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -809,7 +809,7 @@ importers:
       '@babel/runtime': ^7.19.0
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.6.3
-      '@svg-icons/zondicons': 1.39.1
+      '@svg-icons/zondicons': 1.86.0
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
@@ -819,7 +819,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/zondicons': 1.39.1
+      '@svg-icons/zondicons': 1.86.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -4116,148 +4116,148 @@ packages:
       resolve-from: 5.0.0
     dev: true
 
-  /@svg-icons/bootstrap/1.83.0:
-    resolution: {integrity: sha512-V0b8XSVXSjAoIqSCYRuuihIgVyfma9sXzhW3hsWd3uM9LeOas3eGiE+hdAesderdMO2c5bDIY0ANotwGiyEGzA==}
+  /@svg-icons/bootstrap/1.86.0:
+    resolution: {integrity: sha512-RNKiAiylozdtnhw/kNr9nrvb7QeTu1aBoCJIfdl37DJBqqxhe7qVZboAzSuJ/6MzThFs41A+sqFdDQLisBRGLQ==}
     dev: true
 
-  /@svg-icons/boxicons-logos/1.66.0:
-    resolution: {integrity: sha512-zk9zS1Dn4q41r2cJ+zmIjZ3xzfZPmoUdekuMYDWvnSASncrm0tANkWFv4J6Qifp2QZOIRY732ZUWGnIF4h8Jtg==}
+  /@svg-icons/boxicons-logos/1.86.0:
+    resolution: {integrity: sha512-8OdDlI4vnEBEGWsBKOTx+H2eUJF24aV0IHDC0sTXEezJewG8WkJxABrLZfVM9V8+DsOUljqqbRQqXvKZ3exStg==}
     dev: true
 
-  /@svg-icons/boxicons-regular/1.66.0:
-    resolution: {integrity: sha512-ZkgfkN2lVwyBFbcIdhJvuReFPJ34CCYM/kCPtoIUnNUtWshSP+j5MtAfcjNHAYtKrgqF0aVcKw4+KcWXQPJRxg==}
+  /@svg-icons/boxicons-regular/1.86.0:
+    resolution: {integrity: sha512-XBwv1s/eALUoihp9jOiMV27oBzcvC7+dEKf/BH2MWHcdrwik+F6a0zDpu2G3gXjQOSfN9XDzfaeiiefdG7w32w==}
     dev: true
 
-  /@svg-icons/boxicons-solid/1.66.0:
-    resolution: {integrity: sha512-6Bhd6DPbRBkqbZvX2wIjBsUnccdxT+RcHZSPmO1Js06a8S98QkfvwJtYC0NZz/aVF34FiI5FjdTfZ4ahSmJWQQ==}
+  /@svg-icons/boxicons-solid/1.86.0:
+    resolution: {integrity: sha512-3cCOy7N80HRaYwXEvN9NKrHzO78bYUn9Hjdy5iDhMW5Dp11L/+6eaBain4QFcaUTDysi90gh/2utCbRh+m5Fwg==}
     dev: true
 
-  /@svg-icons/crypto/1.66.0:
-    resolution: {integrity: sha512-U5pRkLHnXvECdr5+Y5xnTfwZBuimCOolO04ErP3FzibljOUifzTN/ialnccM+/pGAismgBGcB1st2HT2UB9jfw==}
+  /@svg-icons/crypto/1.86.0:
+    resolution: {integrity: sha512-Pi56ZOfs7Tarb0L5CrRWreqsV5BJ4l3gAsP6goTGg3AjVc1p87m9ulPhePpJUxZyL+/2xC6nJ2eCZOgW5S5Qag==}
     dev: true
 
-  /@svg-icons/entypo-social/1.39.1:
-    resolution: {integrity: sha512-3bw/wF9JSGVAkwvS0nsPLslBTymCqDVqj75CJnRhY6oZCB53nhOq1C8qW4QJc93+OnPL/QnKXHWZrJK9tP0Lqw==}
+  /@svg-icons/entypo-social/1.86.0:
+    resolution: {integrity: sha512-Df8NHNDO5g8nyJz4vHQKbXitTJkH/+1YMHnr6fRia9DQ6lq7ahNgfqgnoCtqrsR2J5DqNnE94wlTqU9ROpNreQ==}
     dev: true
 
-  /@svg-icons/entypo/1.39.1:
-    resolution: {integrity: sha512-mFT95MMHM0wFW+1ArfAyfw9PQx7kkzxo0O+XIwwgGPKkPJ486Ba2rlA+kr73I6FDLC9aDPOL6i8OfuqGR57NCg==}
+  /@svg-icons/entypo/1.86.0:
+    resolution: {integrity: sha512-6Z1uVhUvumdMFhe4iv+wxq6kqV9zySBLOd7SjHxdH8hHcuTiyiPNjsHE9h1Dl0Ljbl5nhGGpMsFue2B1Yipb1w==}
     dev: true
 
-  /@svg-icons/evaicons-outline/1.39.1:
-    resolution: {integrity: sha512-M+Ala1tx6phfcYn0kCMbBEh4jt+yXEDdAmeJmUyRsGHilfGjgfesHcBuESAIrZKuba+6SknTQyFq22Twy6EZoA==}
+  /@svg-icons/evaicons-outline/1.86.0:
+    resolution: {integrity: sha512-jgPjNYLNKeG7wyIYJ/M3eVM0O8RpLW/BCFhJ392HILMxSKcdsPYsbxmkzfLTXKIcS5sWhM34CTmtBpbpz1dxcw==}
     dev: true
 
-  /@svg-icons/evaicons-solid/1.39.1:
-    resolution: {integrity: sha512-Yt73owaTRiOxiKQQ32skgFHrQTzLNsriu9IFV3vxEvu5dUWL5aMXrmRqdxolK16ztpeZ3IGEJfakEcSO6hzMPA==}
+  /@svg-icons/evaicons-solid/1.86.0:
+    resolution: {integrity: sha512-bDDxQcmm2LeNzxVvcMp1PdSHNVZNM0jszkypaHpcq+G4oSkPmyjr7LPAJ4LHfxmamSSYrNM4zoEl/HudqF5VGg==}
     dev: true
 
-  /@svg-icons/evil/1.39.1:
-    resolution: {integrity: sha512-Mnlq6lr05QZp2O5N2Vv2qwddvILaPi28p0EuzZqp0CM/+KWjlJaVMq+73BPl28bs/X4vBcF1h5vYdClhNCWk4A==}
+  /@svg-icons/evil/1.86.0:
+    resolution: {integrity: sha512-8/jMXERlpWGOHjagI+S78TjHzrk5/0P36FrDL6XXH7YbePKV1AnTmt54tGuUIheI/3C+SkUC5AMKNSbLR9hFfg==}
     dev: true
 
-  /@svg-icons/fa-brands/1.68.0:
-    resolution: {integrity: sha512-rAoX6IVXGWxRYZ59bDgNxziBnDBbSGGZAT/teQEd0wlorRVhUYCQ5mIMk7oOIvk30Kr/e5XO8gY70Z9djwJTIQ==}
+  /@svg-icons/fa-brands/1.86.0:
+    resolution: {integrity: sha512-U8Mx2kCOMQIEXIuzx2wNKya+MpT2g2vEiMXXOxcZY2yDDiiNFScmQXuaKpuQn5u4RhYasq8EzK5WrbWanS54qw==}
     dev: true
 
-  /@svg-icons/fa-regular/1.39.1:
-    resolution: {integrity: sha512-BLzyh4VrPeo2h5ijQqX4DVQgPrYoJC6lTCsW1NrN0zlSF8kjP8mjo8JG3bN59eH+/05E96MeYazfNlDP04bdxw==}
+  /@svg-icons/fa-regular/1.86.0:
+    resolution: {integrity: sha512-vGmS9AznrGF+mfjIdVeakRZn6ZvKKnd9uQ3lluYbfrtKVITOvIZE6cDlivb5PAnLcLDntrgmvyiVrsp/tOu5jg==}
     dev: true
 
-  /@svg-icons/fa-solid/1.42.0:
-    resolution: {integrity: sha512-r+922yZHpOiZ1fmKslAkY0HcNYe7qhEXrVhOoYKHtTlAnpgzPlSXJ6JgXKLM1kOAmNd4oVBAucncTdsgtWTxaQ==}
+  /@svg-icons/fa-solid/1.86.0:
+    resolution: {integrity: sha512-cIxiTb/PuFj51kD7Om5rorHxMA9efQkPGPmozUkJP9FGcZU1ORTH6Sdl9I0TAeqmiQZFZ8IJ6zFCsdvKhnXIzA==}
     dev: true
 
-  /@svg-icons/feather/1.39.1:
-    resolution: {integrity: sha512-u38zA6w1ARCcW7QANhawr9czG5GslvHek5RpaJxQSNEhZ/y/1D5yETjQhYhNUGicV3D16LuXvlxuA49MylKpqw==}
+  /@svg-icons/feather/1.86.0:
+    resolution: {integrity: sha512-2nrCi7mA2tkgXsLPt2YF+kgMBCFuM1Xy1K3XeDktI4sfoxpSMmp91uRpz5P9uP7fX7N/S3kA4OKnHRPINheOng==}
     dev: true
 
-  /@svg-icons/fluentui-system-filled/1.60.0:
-    resolution: {integrity: sha512-rkkMGYdQdmawPL4M3CazGUiVtafYzDFsbA4wRCF0t9NG/O3UhSsvuNV9duobJD+f2E3sG+K/VE3Oalahm3jEQA==}
+  /@svg-icons/fluentui-system-filled/1.86.0:
+    resolution: {integrity: sha512-9ZFQQQUt07hyXGW0uqGhQtjISahyzbzO8cFjfX+NcgFkyTsq3AWGggUpoSr0mYeTpaqlZeZCTZqk7Ck3PpkVvg==}
     dev: true
 
-  /@svg-icons/fluentui-system-regular/1.60.0:
-    resolution: {integrity: sha512-sRl6wDjh9uS5Oxv9sZJN52/1FqVVRAktfvwPhdvfwApPsuZPrs6iPhI5t5y9MR6vVxJcOyxqwttRbKIm35RSIg==}
+  /@svg-icons/fluentui-system-regular/1.86.0:
+    resolution: {integrity: sha512-6lWEcNqfJ6T+p/8pROxhAEmLD90aqdCfAw8PR6O/pwJHdxp0ulXOKn5iAKoYRnVSbhW1iqFRQPyBv6xBJN/YbQ==}
     dev: true
 
-  /@svg-icons/foundation/1.39.1:
-    resolution: {integrity: sha512-t4iQPGylQ0jATlSnY8BRMIAyjl+TJ44vxY3eGc5SA1gEeQLlKu0tu9QL/OfyFhf2k8bCuExqEe47oa6PJweUoA==}
+  /@svg-icons/foundation/1.86.0:
+    resolution: {integrity: sha512-V5Vtt4urtySrzAdw5TjNcdW4ORouB1E9sW9l3N8jFek71pr4Eu8URyE9rtwwAXl8SlDzKtFYidIGn9iihScKJg==}
     dev: true
 
-  /@svg-icons/heroicons-outline/1.64.0:
-    resolution: {integrity: sha512-jnctGWp52wE6hX6LA9RYcr8PtWg8HQm1V4g4THnt71V258KyejYZiDrKlxwyit5UHGw/AT7ublv0OEkELlHfUQ==}
+  /@svg-icons/heroicons-outline/1.86.0:
+    resolution: {integrity: sha512-2a9z+hCr2dNoUtl1dx4NTbtDYvpe92ymqG1bRDmuQJ9//vekmF0XXOH+Lm955FBto/x/b+1cgyjnHilfNS/oFA==}
     dev: true
 
-  /@svg-icons/heroicons-solid/1.64.0:
-    resolution: {integrity: sha512-v2qIKyWg+RjMo1zCeJyYec7W97evTOMSKGZ2PnNbcL06rvYz7kmQMNBUpdi/O3n9+Uf8JqmxmHRiwLv/FIo0/w==}
+  /@svg-icons/heroicons-solid/1.86.0:
+    resolution: {integrity: sha512-/VUbwYhF5+PpxMuXj0dHQSMS6wCkCh05yQEFi2n64yD2lcEpjQpnMu64MtEa5UJ1bfBf8k5559pBG1jciTcgVg==}
     dev: true
 
-  /@svg-icons/icomoon/1.39.1:
-    resolution: {integrity: sha512-9scK15z9iZtnR8jmo2ZG3KMqwO16Bz7ZMup1aVNZ7PhyQ/0dZ16+fNA9vPBypT630YesbsLUAGj2KpdBPYpU0w==}
+  /@svg-icons/icomoon/1.86.0:
+    resolution: {integrity: sha512-WI8pnzhZwpo4mafNdAnBw/tdOrVRsG+f05u6yiusM3hvOpVxGudY899Aeu/Z2AnQqs+6sZEGr283QZxIvNS3hA==}
     dev: true
 
-  /@svg-icons/ionicons-outline/1.39.1:
-    resolution: {integrity: sha512-mWTFIVlf52KP5REM1p0XS7C6UzmpuELa5OfLbn0OZ4lwlHy3UxmMYgQi5KKVPQFjnMLOW6QZoQeRpck68ujc7g==}
+  /@svg-icons/ionicons-outline/1.86.0:
+    resolution: {integrity: sha512-Htt8x01AhFbvQxPklp6I1m2SJcHpbAEvoKFNX6W51rqJDWhbJU62Q6HxeRmz/hYbrc3ChKX5tSU0/vy4fChSvA==}
     dev: true
 
-  /@svg-icons/ionicons-sharp/1.39.1:
-    resolution: {integrity: sha512-Maayc8BmX7TVjIrLvrR5OrJIPMcev9vrE2OrwuGmBMy57VyCP5NeGLRQ/RGpS4DJYyP5NL6DteIPAq1TRn8ZpQ==}
+  /@svg-icons/ionicons-sharp/1.86.0:
+    resolution: {integrity: sha512-K6T2DDxgrScR4ZALt28TzuVoYg8N6LUJe76iZaaLoUAhnIRVRgpBN067wSgC1icSB3R9oZnEMG5b3FWUOUVsfQ==}
     dev: true
 
-  /@svg-icons/ionicons-solid/1.39.1:
-    resolution: {integrity: sha512-7l1U2ZmIXA4GiD9O9MjLrV6f94/EKbeG1r7uqAHNFtb6kGF3mGWkanwXqCT1AUl5mLVSnt2XXzUUDxUV4zlnhA==}
+  /@svg-icons/ionicons-solid/1.86.0:
+    resolution: {integrity: sha512-V/6cRR/sVcyq18NTDxHJyAJ9/EnDDIIJDW7xwRrB7zlGKj63D6YFNToce1hfBktCxDFT5qKaNSXSln5SMVQGwA==}
     dev: true
 
-  /@svg-icons/material-filled/1.39.1:
-    resolution: {integrity: sha512-YMBMcI+0NUu45ziuZ2XqgP93XFrYTNsU6GcDWixj+nCRV7uWLEH2EV7cQmOYyy9UpfY9UpvjfRsYx5laWMw+LQ==}
+  /@svg-icons/material-filled/1.86.0:
+    resolution: {integrity: sha512-N3ld61cyb+LynJzve+fckTlXhk9CxK11F5ichrQlhe6DjA+53LcgLs1wdye0aKNPph25m2h958/sDpoiZ40tUg==}
     dev: true
 
-  /@svg-icons/material-outlined/1.39.1:
-    resolution: {integrity: sha512-WSpuG1u6D7rdTKGCJ8GPPj/f9SObADeCoAgokZFku+ORMMSUuF3fjtcCIY222AhAvRY4AhpW7yT3JB3r6mx06g==}
+  /@svg-icons/material-outlined/1.86.0:
+    resolution: {integrity: sha512-ZsCEZfDNvYFG24+iBcWgZNGyyqtoO4lJBOO9uXx3BumW/zAWMv5sai9JeCrkS+phRo7bxbo+dArMXY09f+0Oxg==}
     dev: true
 
-  /@svg-icons/material-rounded/1.39.1:
-    resolution: {integrity: sha512-Xbni7KqRnK2rlYRciRTu+rfA80ivK1C/Fg7tYS3idPlZ47DCOtZ+niPx4RmROIPH/nL8FHP7Ka1U5W06avhMjw==}
+  /@svg-icons/material-rounded/1.86.0:
+    resolution: {integrity: sha512-XGr3YjzNfzbUpcBkc33/4e1Pfab7hJCM2aI5J3bf/umOgK7yzmBo1jk9uKdm7x5C/oUG9VYFqJW2NwZHda80jA==}
     dev: true
 
-  /@svg-icons/material-sharp/1.39.1:
-    resolution: {integrity: sha512-tWh83e/A0IH3XzA+XculhYrZydv6bjpK63rnJ4Ep65uieIzKXLUjFW1h4PcJpMeLZibuSHXVwsStBefP7mQJDw==}
+  /@svg-icons/material-sharp/1.86.0:
+    resolution: {integrity: sha512-0NUitnTf7T7Pqd+wAEeJeeJHQ1qIFzCka6T0ldt1/b5zUnQZSvSvoZxz9yCu64MWMN/uzn+4iR2MmXWoTokd7A==}
     dev: true
 
-  /@svg-icons/material-twotone/1.39.1:
-    resolution: {integrity: sha512-seyjsaccOArB8v9zQ9Kz+d1JcGN6Ij/mNu+BSMUL0na4vWlc+jVpXnUV/CoMgKnrdd8LwUSp2kdoAar6KsmOPQ==}
+  /@svg-icons/material-twotone/1.86.0:
+    resolution: {integrity: sha512-h2XbuMqmYAXcpbRjL1LotJ+cm5ets1vcBkg0qESbHf3IYN4xwCc3daofM2KKyVou40vWtV1ToQ7UWv9SvBR8IA==}
     dev: true
 
-  /@svg-icons/octicons/1.84.0:
-    resolution: {integrity: sha512-cG1p4Lsj+QtYLsJ96U6k+FrXsI0u9vLdVzzlX8VRQ1b1MVKhw0XSzAgc/hOp/2FazvZn0p8PGyzVp53Nqbikxw==}
+  /@svg-icons/octicons/1.86.0:
+    resolution: {integrity: sha512-Ge1pIQoT42f28Xg3txHPym0coxC1Ap4eIlO2QmmqG73BwncbC1cFjjxR/yi6XtIaiuGlhKiKTbQhWSX7jHX1ww==}
     dev: true
 
-  /@svg-icons/open-iconic/1.39.1:
-    resolution: {integrity: sha512-DH+DI90P4ZQvmZCvwipyyfJKefQXnxiLnylKl7B9E2R6jNPhbGb9rqav40HfVyWC8g0C3c4IGm/S2DNQT2wl2g==}
+  /@svg-icons/open-iconic/1.86.0:
+    resolution: {integrity: sha512-SlBJ/XD5bNjv3wMG4a3KXJkJ1/SuMZJxrD5Wu+wa867J+DS2C4Ab9sdAPstYI573+WMk0bnXIAPmGlkqrHMDRQ==}
     dev: true
 
-  /@svg-icons/remix-editor/1.48.0:
-    resolution: {integrity: sha512-gxAm1xIxZtMBqejcPCLnX41Y2u/ZckgOUsBMjdG+HinnGgfw+GTkynScYxfauconqXyK0pviHJwDfvWvTQiY0Q==}
+  /@svg-icons/remix-editor/1.86.0:
+    resolution: {integrity: sha512-AXntUq5laf7QPh3lw1YsoXo2jJMUWanRfrh52PHuqOCkRktaUVHec90LtxzeJTYTm6cm7R/0KVberuaLe+6Arg==}
     dev: true
 
-  /@svg-icons/remix-fill/1.39.1:
-    resolution: {integrity: sha512-eYNFb2IQqrujAGYQly7Tt66T9aXYBDCwPf4bYGViaWJXzANhTFO96gdf80os+kk76OPn1ACph7q5afL/Rdzlew==}
+  /@svg-icons/remix-fill/1.86.0:
+    resolution: {integrity: sha512-WdOVFDtC4xyLNcumaYqk0o5SVOWZ45gpNR3WU1Ha6/nK33ECABAXNHf44gV18ULUBkBxhtgClPRz6NM97mRgYg==}
     dev: true
 
-  /@svg-icons/remix-line/1.39.1:
-    resolution: {integrity: sha512-i8Le/J0f1+aesktUzzuXMpSkr05L7hjkGP9ZiZJh+eAZtx7x+jhCNEGaS718dm9h5Ckdq7GBo97NtavCiaXa7w==}
+  /@svg-icons/remix-line/1.86.0:
+    resolution: {integrity: sha512-EWCxO0SoZ/jmJ6EIl4aUIA77EOlm42vX1w6UrcwkJ0k/Px3Y3hzenPs79yrBiiHAKMbdrzKYgmVThCT7rk5QFg==}
     dev: true
 
-  /@svg-icons/simple-icons/1.82.0:
-    resolution: {integrity: sha512-1Ai9y3fckcbqXqIYSmEbpGIK1nT2eHarz8YCX/YUQ3+/TFHrU3mb6iNzC12D1M/BDZSdPT6tNeD2qg8/XFmZTg==}
+  /@svg-icons/simple-icons/1.86.0:
+    resolution: {integrity: sha512-bfVE2K4oxcBOh6nWYixAYNgJRI+G8ziPBQWUSjOY8SUwcm7lNWA4tuxdhebYRciizqR2O8fsywePPBCQl3EY1A==}
     dev: true
 
-  /@svg-icons/typicons/1.39.1:
-    resolution: {integrity: sha512-eOJQAkUpjtb2OIDnJN2SBMOtJ6ZsuhV6donzYhSkaHQwUltksEzjRKbL67mRSosoLrrMc9YE9nSzMIUv1vqEsA==}
+  /@svg-icons/typicons/1.86.0:
+    resolution: {integrity: sha512-Mzq6ITJES1QkwoF3c+0XxrKVCnhcBgEI4tx/gjgklAXfBTxKvgXYrwtuDb+btJycQb7EM6cGzzx1xFWsZCG4pg==}
     dev: true
 
-  /@svg-icons/zondicons/1.39.1:
-    resolution: {integrity: sha512-2SDSahTCtXOMMHpcpLd5f53yiF4ZKRpxppoUC80feqV9aQmqtGX5zVYyCzioC/tesQ20oQcgtn4TppxTDxLDJA==}
+  /@svg-icons/zondicons/1.86.0:
+    resolution: {integrity: sha512-Sxf9LyTItXyZEuO8MqG+pcE3n0Qw3UXk1CgIOudRidkj1Ibl0lNyFUskXWOFj9KNQ3ZK9Ci+qn7+eep3Y4Z+JA==}
     dev: true
 
   /@szmarczak/http-timer/5.0.1:
