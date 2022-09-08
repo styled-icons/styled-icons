@@ -25,7 +25,7 @@
     "generate": "generate-icon-package @svg-icons/fa-regular"
   },
   "dependencies": {
-    "@babel/runtime": "^7.15.4",
+    "@babel/runtime": "^7.19.0",
     "@styled-icons/styled-icon": "^10.6.3"
   },
   "peerDependencies": {
@@ -38,6 +38,6 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-is": "^17.0.2",
-    "styled-components": "^5.3.3"
+    "styled-components": "^5.3.5"
   }
 }
