@@ -24,9 +24,9 @@
     "styled-icons": "^10.46.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.0",
-    "@storybook/addons": "^6.5.10",
-    "@storybook/react": "^6.5.10",
+    "@babel/core": "^7.19.1",
+    "@storybook/addons": "^6.5.12",
+    "@storybook/react": "^6.5.12",
     "babel-loader": "^8.2.5",
     "chromatic": "^6.9.0",
     "fs-extra": "^10.1.0",
