@@ -24,11 +24,11 @@
     "styled-icons": "^10.46.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.3",
-    "@storybook/addons": "^6.5.12",
-    "@storybook/react": "^6.5.12",
+    "@babel/core": "^7.19.6",
+    "@storybook/addons": "^6.5.13",
+    "@storybook/react": "^6.5.13",
     "babel-loader": "^8.2.5",
-    "chromatic": "^6.10.1",
+    "chromatic": "^6.10.5",
     "fs-extra": "^10.1.0",
     "storybook-addon-turbo-build": "^1.1.0",
     "webpack": "^5.74.0"
