@@ -13,7 +13,7 @@ importers:
       '@changesets/changelog-github': ^0.4.7
       '@changesets/cli': ^2.25.2
       '@monorepolint/cli': ^0.5.0-alpha.96
-      '@monorepolint/core': 0.5.0-alpha.96
+      '@monorepolint/core': 0.5.0-alpha.97
       '@types/node': ^18.11.9
       '@types/react': ^18.0.25
       '@types/styled-components': ^5.1.26
@@ -37,7 +37,7 @@ importers:
       '@changesets/changelog-github': 0.4.7
       '@changesets/cli': 2.25.2
       '@monorepolint/cli': 0.5.0-alpha.96
-      '@monorepolint/core': 0.5.0-alpha.96
+      '@monorepolint/core': 0.5.0-alpha.97
       '@types/node': 18.11.9
       '@types/react': 18.0.25
       '@types/styled-components': 5.1.26
@@ -3858,7 +3858,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 18.7.16
+      '@types/node': 18.11.9
       '@types/yargs': 15.0.14
       chalk: 4.1.2
     dev: true
@@ -3982,21 +3982,43 @@ packages:
       tslib: 2.4.0
     dev: true
 
+  /@monorepolint/core/0.5.0-alpha.97:
+    resolution: {integrity: sha512-k7LVcNLL430kY1dHlABEd7oX1JBRCd9Z1JdavOireLdRAqq7sNevFgPT3dFb+Rjp655er8zfsCMniKN5RHMUew==}
+    dependencies:
+      '@monorepolint/rules': 0.5.0-alpha.96
+      '@monorepolint/utils': 0.5.0-alpha.97
+      camelcase: 6.3.0
+      chalk: 4.1.2
+      runtypes: 6.6.0
+      tslib: 2.4.0
+    dev: true
+
   /@monorepolint/rules/0.5.0-alpha.96:
     resolution: {integrity: sha512-gd8L2mX/0/XmYt9UTTVbFbB2P13ouMYNsHIG+FcuCw9fTlf2sY/xDQagZjpg+1u9JCpgx83csaDFlrAHSwX8aw==}
     dependencies:
-      '@monorepolint/core': 0.5.0-alpha.96
-      '@monorepolint/utils': 0.5.0-alpha.96
+      '@monorepolint/core': 0.5.0-alpha.97
+      '@monorepolint/utils': 0.5.0-alpha.97
       globby: 11.1.0
       jest-diff: 26.6.2
       resolve-package-path: 3.1.0
       runtypes: 6.6.0
-      semver: 7.3.7
+      semver: 7.3.8
       tslib: 2.4.0
     dev: true
 
   /@monorepolint/utils/0.5.0-alpha.96:
     resolution: {integrity: sha512-Z3q7nlplPdbxjCWqGArPlW/GjgMDmWS1fGs3c+KwnkSo6AvHvvptmdTUzscSi2aORGh1fsYcI3Q7DpuzqeGMmw==}
+    dependencies:
+      '@pnpm/find-workspace-dir': 3.0.3
+      '@pnpm/find-workspace-packages': 3.1.55_@pnpm+logger@4.0.0
+      '@pnpm/logger': 4.0.0
+      glob: 7.2.3
+      micromatch: 4.0.5
+      tslib: 2.4.0
+    dev: true
+
+  /@monorepolint/utils/0.5.0-alpha.97:
+    resolution: {integrity: sha512-IH5w6YvfKQd53bZPbsc99I3fanOUpO9eN9eaukdl+8eMBFyP1UiskEQZhlh1J0uetCFgNDL1lPMsJ6bPHIMRYQ==}
     dependencies:
       '@pnpm/find-workspace-dir': 3.0.3
       '@pnpm/find-workspace-packages': 3.1.55_@pnpm+logger@4.0.0
@@ -4267,7 +4289,7 @@ packages:
       ramda: 0.27.2
       right-pad: 1.0.1
       rxjs: 7.5.6
-      semver: 7.3.7
+      semver: 7.3.8
       stacktracey: 2.1.8
       string-length: 4.0.2
       strip-ansi: 6.0.1
@@ -4378,7 +4400,7 @@ packages:
       '@pnpm/types': 7.11.0
       execa: /safe-execa/0.1.2
       mem: 8.1.1
-      semver: 7.3.7
+      semver: 7.3.8
     dev: true
 
   /@pnpm/pnpmfile/1.2.8_@pnpm+logger@4.0.0:
@@ -5597,10 +5619,6 @@ packages:
 
   /@types/node/18.11.9:
     resolution: {integrity: sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==}
-    dev: true
-
-  /@types/node/18.7.16:
-    resolution: {integrity: sha512-EQHhixfu+mkqHMZl1R2Ovuvn47PUw18azMJOTwSZr9/fhzHNGXAJ0ma0dayRVchprpCj0Kc1K1xKoWaATWF1qg==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -8819,17 +8837,6 @@ packages:
       micromatch: 3.1.10
     dev: true
 
-  /fast-glob/3.2.11:
-    resolution: {integrity: sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==}
-    engines: {node: '>=8.6.0'}
-    dependencies:
-      '@nodelib/fs.stat': 2.0.5
-      '@nodelib/fs.walk': 1.2.8
-      glob-parent: 5.1.2
-      merge2: 1.4.1
-      micromatch: 4.0.5
-    dev: true
-
   /fast-glob/3.2.12:
     resolution: {integrity: sha512-DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==}
     engines: {node: '>=8.6.0'}
@@ -8952,7 +8959,7 @@ packages:
     dependencies:
       '@pnpm/read-project-manifest': 2.0.14
       '@pnpm/types': 7.11.0
-      fast-glob: 3.2.11
+      fast-glob: 3.2.12
       p-filter: 2.1.0
     dev: true
 
@@ -13336,14 +13343,6 @@ packages:
   /semver/6.3.0:
     resolution: {integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==}
     hasBin: true
-    dev: true
-
-  /semver/7.3.7:
-    resolution: {integrity: sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dependencies:
-      lru-cache: 6.0.0
     dev: true
 
   /semver/7.3.8:

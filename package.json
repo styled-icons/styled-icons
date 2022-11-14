@@ -36,7 +36,7 @@
     "@changesets/changelog-github": "^0.4.7",
     "@changesets/cli": "^2.25.2",
     "@monorepolint/cli": "^0.5.0-alpha.96",
-    "@monorepolint/core": "0.5.0-alpha.96",
+    "@monorepolint/core": "0.5.0-alpha.97",
     "@types/node": "^18.11.9",
     "@types/react": "^18.0.25",
     "@types/styled-components": "^5.1.26",
