@@ -19,7 +19,7 @@ importers:
       '@types/styled-components': ^5.1.26
       babel-plugin-styled-components: ^2.0.7
       esbuild-loader: ^2.20.0
-      npm-check-updates: ^16.3.25
+      npm-check-updates: ^16.4.1
       npm-run-all: ^4.1.5
       prettier: ^2.7.1
       react: ^18.2.0
@@ -43,7 +43,7 @@ importers:
       '@types/styled-components': 5.1.26
       babel-plugin-styled-components: 2.0.7_styled-components@5.3.6
       esbuild-loader: 2.20.0
-      npm-check-updates: 16.3.25
+      npm-check-updates: 16.4.1
       npm-run-all: 4.1.5
       prettier: 2.7.1
       react: 18.2.0
@@ -11557,8 +11557,8 @@ packages:
       npm-normalize-package-bin: 3.0.0
     dev: true
 
-  /npm-check-updates/16.3.25:
-    resolution: {integrity: sha512-zrjx6P7LGHYS5e3TNuSqkWQc9m1KLjJIxFERGANN+xEY826NQYG08RwucUD9nRxIlRE9PsGCcMsJJTYJu1DHbA==}
+  /npm-check-updates/16.4.1:
+    resolution: {integrity: sha512-g0Uf1kCw0p5boutvu5E4htsjYEDuFT9LxYHYFLldAzWs5012jVikEH1Wdae68xedu4twF4EVbKcs83+G2nGnQg==}
     engines: {node: '>=14.14'}
     hasBin: true
     dependencies:
