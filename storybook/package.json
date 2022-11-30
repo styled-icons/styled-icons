@@ -29,7 +29,7 @@
     "@storybook/react": "^6.5.13",
     "babel-loader": "^9.1.0",
     "chromatic": "^6.11.4",
-    "fs-extra": "^10.1.0",
+    "fs-extra": "^11.1.0",
     "storybook-addon-turbo-build": "^1.1.0",
     "webpack": "^5.75.0"
   }
