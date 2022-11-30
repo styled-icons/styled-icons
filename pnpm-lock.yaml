@@ -915,7 +915,7 @@ importers:
       '@storybook/react': ^6.5.13
       babel-loader: ^9.1.0
       chromatic: ^6.11.4
-      fs-extra: ^10.1.0
+      fs-extra: ^11.1.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -935,7 +935,7 @@ importers:
       '@storybook/react': 6.5.13_5bc10feb93d07f08d74c55f0b49d2dcc
       babel-loader: 9.1.0_6bc01c084ca39b676a2aa715dddddb3a
       chromatic: 6.11.4
-      fs-extra: 10.1.0
+      fs-extra: 11.1.0
       storybook-addon-turbo-build: 1.1.0_webpack@5.75.0
       webpack: 5.75.0
 
@@ -943,7 +943,7 @@ importers:
     specifiers:
       fast-case: ^1.7.0
       fast-glob: ^3.2.12
-      fs-extra: ^10.1.0
+      fs-extra: ^11.1.0
       h2x-core: ^1.1.1
       h2x-plugin-jsx: ^1.2.0
       number-to-words: ^1.2.4
@@ -952,7 +952,7 @@ importers:
     devDependencies:
       fast-case: 1.7.0
       fast-glob: 3.2.12
-      fs-extra: 10.1.0
+      fs-extra: 11.1.0
       h2x-core: 1.1.1
       h2x-plugin-jsx: 1.2.0
       number-to-words: 1.2.4
@@ -9133,6 +9133,15 @@ packages:
   /fs-extra/10.1.0:
     resolution: {integrity: sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==}
     engines: {node: '>=12'}
+    dependencies:
+      graceful-fs: 4.2.10
+      jsonfile: 6.1.0
+      universalify: 2.0.0
+    dev: true
+
+  /fs-extra/11.1.0:
+    resolution: {integrity: sha512-0rcTq621PD5jM/e0a3EJoGC/1TC5ZBCERW82LQuwfGnCa1V8w7dpYH1yNu+SLb6E5dkeCBzKEyLGlFrnr+dUyw==}
+    engines: {node: '>=14.14'}
     dependencies:
       graceful-fs: 4.2.10
       jsonfile: 6.1.0
