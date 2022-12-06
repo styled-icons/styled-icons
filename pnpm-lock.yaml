@@ -13,7 +13,7 @@ importers:
       '@changesets/changelog-github': ^0.4.7
       '@changesets/cli': ^2.25.2
       '@monorepolint/cli': ^0.5.0-alpha.96
-      '@monorepolint/core': 0.5.0-alpha.97
+      '@monorepolint/core': 0.5.0-alpha.98
       '@types/node': ^18.11.9
       '@types/react': ^18.0.25
       '@types/styled-components': ^5.1.26
@@ -37,7 +37,7 @@ importers:
       '@changesets/changelog-github': 0.4.7
       '@changesets/cli': 2.25.2
       '@monorepolint/cli': 0.5.0-alpha.96
-      '@monorepolint/core': 0.5.0-alpha.97
+      '@monorepolint/core': 0.5.0-alpha.98
       '@types/node': 18.11.9
       '@types/react': 18.0.25
       '@types/styled-components': 5.1.26
@@ -3971,6 +3971,16 @@ packages:
       yargs: 15.4.1
     dev: true
 
+  /@monorepolint/config/0.5.0-alpha.98:
+    resolution: {integrity: sha512-yNMK0sEGVjl9QIiR9OXRhEygAqfe567NfzDEHTbaJ7oXY1cxm4j8BILYZpnK70HypfX4SItYIsf2CUnFsV/pvA==}
+    dependencies:
+      '@monorepolint/utils': 0.5.0-alpha.98
+      camelcase: 6.3.0
+      chalk: 4.1.2
+      runtypes: 6.6.0
+      tslib: 2.4.0
+    dev: true
+
   /@monorepolint/core/0.5.0-alpha.96:
     resolution: {integrity: sha512-O2w5SAx2AHOqeQ2pe2ZosSieysx1B05Aadc35km5g9bgGQcvxtpCTwIk8Nw4P6FyocxbNXwETBj1mHSLkpiflQ==}
     dependencies:
@@ -3982,11 +3992,12 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /@monorepolint/core/0.5.0-alpha.97:
-    resolution: {integrity: sha512-k7LVcNLL430kY1dHlABEd7oX1JBRCd9Z1JdavOireLdRAqq7sNevFgPT3dFb+Rjp655er8zfsCMniKN5RHMUew==}
+  /@monorepolint/core/0.5.0-alpha.98:
+    resolution: {integrity: sha512-8jWiSUyZwX+3zjLRfu5K33MDAvWCe6q7rZTul6u4hMseIkvDsFE6l/9v4qxRn+bKZw3Rfn7r4iSV4qKr9kryXg==}
     dependencies:
+      '@monorepolint/config': 0.5.0-alpha.98
       '@monorepolint/rules': 0.5.0-alpha.96
-      '@monorepolint/utils': 0.5.0-alpha.97
+      '@monorepolint/utils': 0.5.0-alpha.98
       camelcase: 6.3.0
       chalk: 4.1.2
       runtypes: 6.6.0
@@ -3996,8 +4007,8 @@ packages:
   /@monorepolint/rules/0.5.0-alpha.96:
     resolution: {integrity: sha512-gd8L2mX/0/XmYt9UTTVbFbB2P13ouMYNsHIG+FcuCw9fTlf2sY/xDQagZjpg+1u9JCpgx83csaDFlrAHSwX8aw==}
     dependencies:
-      '@monorepolint/core': 0.5.0-alpha.97
-      '@monorepolint/utils': 0.5.0-alpha.97
+      '@monorepolint/core': 0.5.0-alpha.98
+      '@monorepolint/utils': 0.5.0-alpha.98
       globby: 11.1.0
       jest-diff: 26.6.2
       resolve-package-path: 3.1.0
@@ -4017,8 +4028,8 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /@monorepolint/utils/0.5.0-alpha.97:
-    resolution: {integrity: sha512-IH5w6YvfKQd53bZPbsc99I3fanOUpO9eN9eaukdl+8eMBFyP1UiskEQZhlh1J0uetCFgNDL1lPMsJ6bPHIMRYQ==}
+  /@monorepolint/utils/0.5.0-alpha.98:
+    resolution: {integrity: sha512-BU07ZEh1H72iWFZgcUUtHdmw1l7yL+4gMdjyHPkE3CwUrRvujHnB7rrZl2j2DbmrwWTYyf9jqCsLZixFPZT5jw==}
     dependencies:
       '@pnpm/find-workspace-dir': 3.0.3
       '@pnpm/find-workspace-packages': 3.1.55_@pnpm+logger@4.0.0
