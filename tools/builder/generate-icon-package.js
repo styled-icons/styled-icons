@@ -77,6 +77,7 @@ const generate = async () => {
   const template = await getTemplate()
 
   const totalIcons = icons.length
+  const allIcons = []
 
   for (const icon of icons) {
     const state = {}
@@ -121,6 +122,8 @@ const generate = async () => {
     if (icon.pack === 'fluentui-system-filled' && icon.name === 'ReOrder') continue
     if (icon.pack === 'fluentui-system-regular' && icon.name === 'ReOrder') continue
 
+    allIcons.push(icon)
+
     const component = () =>
       template
         .replace(/{{attrs}}/g, JSON.stringify(attrs, null, 2).slice(2, -2))
@@ -144,7 +147,7 @@ const generate = async () => {
     await fs.outputFile(
       path.join(buildDir, 'index.ts'),
 
-      icons
+      allIcons
         .map(({name}) => {
           // The Material icon pack has one icon incorrectly in the pack twice
           const seen = seenNames.has(name)
@@ -161,7 +164,7 @@ const generate = async () => {
   const seenImports = new Set()
   await fs.writeJSON(
     path.join(baseDir, 'manifest.json'),
-    icons
+    allIcons
       .map(({name, originalName, pack}) => {
         const importPath = `@styled-icons/${pack}/${name}`
 
