@@ -1,5 +1,11 @@
 # @styled-icons/material-sharp
 
+## 10.47.0
+
+### Minor Changes
+
+- [#2101](https://github.com/styled-icons/styled-icons/pull/2101): Update all icons ([`36780aa`](https://github.com/styled-icons/styled-icons/commit/36780aaa349dfbbdb70039ef587d1e0967074862), [@icon-bot](https://github.com/icon-bot))
+
 ## 10.46.0
 
 ### Minor Changes
