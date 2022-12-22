@@ -61,7 +61,7 @@ importers:
   packages/@styled-icons/bootstrap:
     specifiers:
       '@babel/runtime': ^7.20.7
-      '@styled-icons/pack-builder': ^10.6.0
+      '@styled-icons/pack-builder': ^10.7.0
       '@styled-icons/styled-icon': ^10.7.0
       '@svg-icons/bootstrap': 1.87.0
       react: ^18.2.0
@@ -82,7 +82,7 @@ importers:
   packages/@styled-icons/boxicons-logos:
     specifiers:
       '@babel/runtime': ^7.20.7
-      '@styled-icons/pack-builder': ^10.6.0
+      '@styled-icons/pack-builder': ^10.7.0
       '@styled-icons/styled-icon': ^10.7.0
       '@svg-icons/boxicons-logos': 1.87.0
       react: ^18.2.0
@@ -103,7 +103,7 @@ importers:
   packages/@styled-icons/boxicons-regular:
     specifiers:
       '@babel/runtime': ^7.20.7
-      '@styled-icons/pack-builder': ^10.6.0
+      '@styled-icons/pack-builder': ^10.7.0
       '@styled-icons/styled-icon': ^10.7.0
       '@svg-icons/boxicons-regular': 1.87.0
       react: ^18.2.0
@@ -124,7 +124,7 @@ importers:
   packages/@styled-icons/boxicons-solid:
     specifiers:
       '@babel/runtime': ^7.20.7
-      '@styled-icons/pack-builder': ^10.6.0
+      '@styled-icons/pack-builder': ^10.7.0
       '@styled-icons/styled-icon': ^10.7.0
       '@svg-icons/boxicons-solid': 1.87.0
       react: ^18.2.0
@@ -145,7 +145,7 @@ importers:
   packages/@styled-icons/crypto:
     specifiers:
       '@babel/runtime': ^7.20.7
-      '@styled-icons/pack-builder': ^10.6.0
+      '@styled-icons/pack-builder': ^10.7.0
       '@styled-icons/styled-icon': ^10.7.0
       '@svg-icons/crypto': 1.87.0
       react: ^18.2.0
@@ -271,7 +271,7 @@ importers:
   packages/@styled-icons/fa-brands:
     specifiers:
       '@babel/runtime': ^7.20.7
-      '@styled-icons/pack-builder': ^10.6.0
+      '@styled-icons/pack-builder': ^10.7.0
       '@styled-icons/styled-icon': ^10.7.0
       '@svg-icons/fa-brands': 1.87.0
       react: ^18.2.0
@@ -292,7 +292,7 @@ importers:
   packages/@styled-icons/fa-regular:
     specifiers:
       '@babel/runtime': ^7.20.7
-      '@styled-icons/pack-builder': ^10.6.0
+      '@styled-icons/pack-builder': ^10.7.0
       '@styled-icons/styled-icon': ^10.7.0
       '@svg-icons/fa-regular': 1.87.0
       react: ^18.2.0
@@ -313,7 +313,7 @@ importers:
   packages/@styled-icons/fa-solid:
     specifiers:
       '@babel/runtime': ^7.20.7
-      '@styled-icons/pack-builder': ^10.6.0
+      '@styled-icons/pack-builder': ^10.7.0
       '@styled-icons/styled-icon': ^10.7.0
       '@svg-icons/fa-solid': 1.87.0
       react: ^18.2.0
@@ -334,7 +334,7 @@ importers:
   packages/@styled-icons/feather:
     specifiers:
       '@babel/runtime': ^7.20.7
-      '@styled-icons/pack-builder': ^10.6.0
+      '@styled-icons/pack-builder': ^10.7.0
       '@styled-icons/styled-icon': ^10.7.0
       '@svg-icons/feather': 1.87.0
       react: ^18.2.0
@@ -355,7 +355,7 @@ importers:
   packages/@styled-icons/fluentui-system-filled:
     specifiers:
       '@babel/runtime': ^7.20.7
-      '@styled-icons/pack-builder': ^10.6.0
+      '@styled-icons/pack-builder': ^10.7.0
       '@styled-icons/styled-icon': ^10.7.0
       '@svg-icons/fluentui-system-filled': 1.87.0
       react: ^18.2.0
@@ -376,7 +376,7 @@ importers:
   packages/@styled-icons/fluentui-system-regular:
     specifiers:
       '@babel/runtime': ^7.20.7
-      '@styled-icons/pack-builder': ^10.6.0
+      '@styled-icons/pack-builder': ^10.7.0
       '@styled-icons/styled-icon': ^10.7.0
       '@svg-icons/fluentui-system-regular': 1.87.0
       react: ^18.2.0
@@ -418,7 +418,7 @@ importers:
   packages/@styled-icons/heroicons-outline:
     specifiers:
       '@babel/runtime': ^7.20.7
-      '@styled-icons/pack-builder': ^10.6.0
+      '@styled-icons/pack-builder': ^10.7.0
       '@styled-icons/styled-icon': ^10.7.0
       '@svg-icons/heroicons-outline': 1.87.0
       react: ^18.2.0
@@ -439,7 +439,7 @@ importers:
   packages/@styled-icons/heroicons-solid:
     specifiers:
       '@babel/runtime': ^7.20.7
-      '@styled-icons/pack-builder': ^10.6.0
+      '@styled-icons/pack-builder': ^10.7.0
       '@styled-icons/styled-icon': ^10.7.0
       '@svg-icons/heroicons-solid': 1.87.0
       react: ^18.2.0
@@ -544,7 +544,7 @@ importers:
   packages/@styled-icons/material:
     specifiers:
       '@babel/runtime': ^7.20.7
-      '@styled-icons/pack-builder': ^10.6.0
+      '@styled-icons/pack-builder': ^10.7.0
       '@styled-icons/styled-icon': ^10.7.0
       '@svg-icons/material-filled': 1.87.0
       react: ^18.2.0
@@ -565,7 +565,7 @@ importers:
   packages/@styled-icons/material-outlined:
     specifiers:
       '@babel/runtime': ^7.20.7
-      '@styled-icons/pack-builder': ^10.6.0
+      '@styled-icons/pack-builder': ^10.7.0
       '@styled-icons/styled-icon': ^10.7.0
       '@svg-icons/material-outlined': 1.87.0
       react: ^18.2.0
@@ -586,7 +586,7 @@ importers:
   packages/@styled-icons/material-rounded:
     specifiers:
       '@babel/runtime': ^7.20.7
-      '@styled-icons/pack-builder': ^10.6.0
+      '@styled-icons/pack-builder': ^10.7.0
       '@styled-icons/styled-icon': ^10.7.0
       '@svg-icons/material-rounded': 1.87.0
       react: ^18.2.0
@@ -607,7 +607,7 @@ importers:
   packages/@styled-icons/material-sharp:
     specifiers:
       '@babel/runtime': ^7.20.7
-      '@styled-icons/pack-builder': ^10.6.0
+      '@styled-icons/pack-builder': ^10.7.0
       '@styled-icons/styled-icon': ^10.7.0
       '@svg-icons/material-sharp': 1.87.0
       react: ^18.2.0
@@ -628,7 +628,7 @@ importers:
   packages/@styled-icons/material-twotone:
     specifiers:
       '@babel/runtime': ^7.20.7
-      '@styled-icons/pack-builder': ^10.6.0
+      '@styled-icons/pack-builder': ^10.7.0
       '@styled-icons/styled-icon': ^10.7.0
       '@svg-icons/material-twotone': 1.87.0
       react: ^18.2.0
@@ -649,7 +649,7 @@ importers:
   packages/@styled-icons/octicons:
     specifiers:
       '@babel/runtime': ^7.20.7
-      '@styled-icons/pack-builder': ^10.6.0
+      '@styled-icons/pack-builder': ^10.7.0
       '@styled-icons/styled-icon': ^10.7.0
       '@svg-icons/octicons': 1.87.0
       react: ^18.2.0
@@ -834,37 +834,37 @@ importers:
   packages/styled-icons:
     specifiers:
       '@babel/runtime': ^7.20.7
-      '@styled-icons/bootstrap': 10.46.0
-      '@styled-icons/boxicons-logos': 10.46.0
-      '@styled-icons/boxicons-regular': 10.46.0
-      '@styled-icons/boxicons-solid': 10.46.0
-      '@styled-icons/crypto': 10.46.0
+      '@styled-icons/bootstrap': 10.47.0
+      '@styled-icons/boxicons-logos': 10.47.0
+      '@styled-icons/boxicons-regular': 10.47.0
+      '@styled-icons/boxicons-solid': 10.47.0
+      '@styled-icons/crypto': 10.47.0
       '@styled-icons/entypo': 10.46.0
       '@styled-icons/entypo-social': 10.46.0
       '@styled-icons/evaicons-outline': 10.46.0
       '@styled-icons/evaicons-solid': 10.46.0
       '@styled-icons/evil': 10.46.0
-      '@styled-icons/fa-brands': 10.46.0
-      '@styled-icons/fa-regular': 10.46.0
-      '@styled-icons/fa-solid': 10.46.0
-      '@styled-icons/feather': 10.46.0
-      '@styled-icons/fluentui-system-filled': 10.46.0
-      '@styled-icons/fluentui-system-regular': 10.46.0
+      '@styled-icons/fa-brands': 10.47.0
+      '@styled-icons/fa-regular': 10.47.0
+      '@styled-icons/fa-solid': 10.47.0
+      '@styled-icons/feather': 10.47.0
+      '@styled-icons/fluentui-system-filled': 10.47.0
+      '@styled-icons/fluentui-system-regular': 10.47.0
       '@styled-icons/foundation': 10.46.0
-      '@styled-icons/heroicons-outline': 10.46.0
-      '@styled-icons/heroicons-solid': 10.46.0
+      '@styled-icons/heroicons-outline': 10.47.0
+      '@styled-icons/heroicons-solid': 10.47.0
       '@styled-icons/icomoon': 10.46.0
       '@styled-icons/ionicons-outline': 10.46.0
       '@styled-icons/ionicons-sharp': 10.46.0
       '@styled-icons/ionicons-solid': 10.46.0
-      '@styled-icons/material': 10.46.0
-      '@styled-icons/material-outlined': 10.46.0
-      '@styled-icons/material-rounded': 10.46.0
-      '@styled-icons/material-sharp': 10.46.0
-      '@styled-icons/material-twotone': 10.46.0
-      '@styled-icons/octicons': 10.46.0
+      '@styled-icons/material': 10.47.0
+      '@styled-icons/material-outlined': 10.47.0
+      '@styled-icons/material-rounded': 10.47.0
+      '@styled-icons/material-sharp': 10.47.0
+      '@styled-icons/material-twotone': 10.47.0
+      '@styled-icons/octicons': 10.47.0
       '@styled-icons/open-iconic': 10.46.0
-      '@styled-icons/pack-builder': ^10.6.1
+      '@styled-icons/pack-builder': ^10.7.0
       '@styled-icons/remix-editor': 10.46.0
       '@styled-icons/remix-fill': 10.46.0
       '@styled-icons/remix-line': 10.46.0
@@ -6109,6 +6109,7 @@ packages:
 
   /bindings/1.5.0:
     resolution: {integrity: sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==}
+    requiresBuild: true
     dependencies:
       file-uri-to-path: 1.0.0
     dev: true
@@ -8468,6 +8469,7 @@ packages:
 
   /file-uri-to-path/1.0.0:
     resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -11253,6 +11255,7 @@ packages:
 
   /nan/2.17.0:
     resolution: {integrity: sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==}
+    requiresBuild: true
     dev: true
     optional: true
 
