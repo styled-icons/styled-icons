@@ -1,6 +1,6 @@
 {
   "name": "@styled-icons/material-sharp",
-  "version": "10.46.0",
+  "version": "10.47.0",
   "license": "MIT",
   "description": "Material sharp icons available as Styled Components",
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
@@ -33,7 +33,7 @@
     "styled-components": "*"
   },
   "devDependencies": {
-    "@styled-icons/pack-builder": "^10.6.0",
+    "@styled-icons/pack-builder": "^10.7.0",
     "@svg-icons/material-sharp": "1.87.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
