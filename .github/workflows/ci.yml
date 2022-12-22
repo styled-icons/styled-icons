@@ -16,10 +16,10 @@ jobs:
           persist-credentials: false
       - uses: pnpm/action-setup@v2.2.4
         with:
-          version: 6.10.0
+          version: 7.x.x
       - uses: actions/setup-node@v3.5.1
         with:
-          node-version: '14'
+          node-version: '18'
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
       - run: pnpm build:icons
@@ -41,10 +41,10 @@ jobs:
           fetch-depth: 0
       - uses: pnpm/action-setup@v2.2.4
         with:
-          version: 6.10.0
+          version: 7.x.x
       - uses: actions/setup-node@v3.5.1
         with:
-          node-version: '14'
+          node-version: '18'
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
       - run: pnpm fmt:check

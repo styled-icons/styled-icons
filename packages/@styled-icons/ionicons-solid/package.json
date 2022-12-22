@@ -25,7 +25,7 @@
     "generate": "generate-icon-package @svg-icons/ionicons-solid"
   },
   "dependencies": {
-    "@babel/runtime": "^7.20.1",
+    "@babel/runtime": "^7.20.7",
     "@styled-icons/styled-icon": "^10.7.0"
   },
   "peerDependencies": {

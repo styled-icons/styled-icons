@@ -8,4 +8,7 @@ module.exports = {
     },
   ],
   stories: ['../stories/**/*.stories.js'],
+  core: {
+    builder: 'webpack5',
+  },
 }
