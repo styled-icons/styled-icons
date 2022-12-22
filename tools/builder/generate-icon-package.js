@@ -109,6 +109,18 @@ const generate = async () => {
     // Special-case the `BookMark` icon (conflicts with the `Bookmark` icon)
     if (icon.name === 'BookMark') icon.name = 'BookWithMark'
 
+    // Skip duplicate icons
+    if (icon.pack === 'fa-regular' && icon.name === 'Eyedropper') continue
+    if (icon.pack === 'fa-regular' && icon.name === 'PaintBrush') continue
+    if (icon.pack === 'fa-regular' && icon.name === 'ThumbTack') continue
+    if (icon.pack === 'fa-regular' && icon.name === 'Tshirt') continue
+    if (icon.pack === 'fa-solid' && icon.name === 'Eyedropper') continue
+    if (icon.pack === 'fa-solid' && icon.name === 'PaintBrush') continue
+    if (icon.pack === 'fa-solid' && icon.name === 'ThumbTack') continue
+    if (icon.pack === 'fa-solid' && icon.name === 'Tshirt') continue
+    if (icon.pack === 'fluentui-system-filled' && icon.name === 'ReOrder') continue
+    if (icon.pack === 'fluentui-system-regular' && icon.name === 'ReOrder') continue
+
     const component = () =>
       template
         .replace(/{{attrs}}/g, JSON.stringify(attrs, null, 2).slice(2, -2))
