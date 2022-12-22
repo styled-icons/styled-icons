@@ -63,7 +63,7 @@ importers:
       '@babel/runtime': ^7.20.7
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.7.0
-      '@svg-icons/bootstrap': 1.86.0
+      '@svg-icons/bootstrap': 1.87.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -73,7 +73,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/bootstrap': 1.86.0
+      '@svg-icons/bootstrap': 1.87.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
@@ -84,7 +84,7 @@ importers:
       '@babel/runtime': ^7.20.7
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.7.0
-      '@svg-icons/boxicons-logos': 1.86.0
+      '@svg-icons/boxicons-logos': 1.87.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -94,7 +94,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/boxicons-logos': 1.86.0
+      '@svg-icons/boxicons-logos': 1.87.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
@@ -105,7 +105,7 @@ importers:
       '@babel/runtime': ^7.20.7
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.7.0
-      '@svg-icons/boxicons-regular': 1.86.0
+      '@svg-icons/boxicons-regular': 1.87.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -115,7 +115,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/boxicons-regular': 1.86.0
+      '@svg-icons/boxicons-regular': 1.87.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
@@ -126,7 +126,7 @@ importers:
       '@babel/runtime': ^7.20.7
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.7.0
-      '@svg-icons/boxicons-solid': 1.86.0
+      '@svg-icons/boxicons-solid': 1.87.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -136,7 +136,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/boxicons-solid': 1.86.0
+      '@svg-icons/boxicons-solid': 1.87.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
@@ -147,7 +147,7 @@ importers:
       '@babel/runtime': ^7.20.7
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.7.0
-      '@svg-icons/crypto': 1.86.0
+      '@svg-icons/crypto': 1.87.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -157,7 +157,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/crypto': 1.86.0
+      '@svg-icons/crypto': 1.87.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
@@ -273,7 +273,7 @@ importers:
       '@babel/runtime': ^7.20.7
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.7.0
-      '@svg-icons/fa-brands': 1.86.0
+      '@svg-icons/fa-brands': 1.87.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -283,7 +283,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/fa-brands': 1.86.0
+      '@svg-icons/fa-brands': 1.87.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
@@ -294,7 +294,7 @@ importers:
       '@babel/runtime': ^7.20.7
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.7.0
-      '@svg-icons/fa-regular': 1.86.0
+      '@svg-icons/fa-regular': 1.87.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -304,7 +304,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/fa-regular': 1.86.0
+      '@svg-icons/fa-regular': 1.87.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
@@ -315,7 +315,7 @@ importers:
       '@babel/runtime': ^7.20.7
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.7.0
-      '@svg-icons/fa-solid': 1.86.0
+      '@svg-icons/fa-solid': 1.87.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -325,7 +325,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/fa-solid': 1.86.0
+      '@svg-icons/fa-solid': 1.87.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
@@ -336,7 +336,7 @@ importers:
       '@babel/runtime': ^7.20.7
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.7.0
-      '@svg-icons/feather': 1.86.0
+      '@svg-icons/feather': 1.87.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -346,7 +346,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/feather': 1.86.0
+      '@svg-icons/feather': 1.87.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
@@ -357,7 +357,7 @@ importers:
       '@babel/runtime': ^7.20.7
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.7.0
-      '@svg-icons/fluentui-system-filled': 1.86.0
+      '@svg-icons/fluentui-system-filled': 1.87.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -367,7 +367,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/fluentui-system-filled': 1.86.0
+      '@svg-icons/fluentui-system-filled': 1.87.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
@@ -378,7 +378,7 @@ importers:
       '@babel/runtime': ^7.20.7
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.7.0
-      '@svg-icons/fluentui-system-regular': 1.86.0
+      '@svg-icons/fluentui-system-regular': 1.87.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -388,7 +388,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/fluentui-system-regular': 1.86.0
+      '@svg-icons/fluentui-system-regular': 1.87.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
@@ -420,7 +420,7 @@ importers:
       '@babel/runtime': ^7.20.7
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.7.0
-      '@svg-icons/heroicons-outline': 1.86.0
+      '@svg-icons/heroicons-outline': 1.87.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -430,7 +430,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/heroicons-outline': 1.86.0
+      '@svg-icons/heroicons-outline': 1.87.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
@@ -441,7 +441,7 @@ importers:
       '@babel/runtime': ^7.20.7
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.7.0
-      '@svg-icons/heroicons-solid': 1.86.0
+      '@svg-icons/heroicons-solid': 1.87.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -451,7 +451,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/heroicons-solid': 1.86.0
+      '@svg-icons/heroicons-solid': 1.87.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
@@ -546,7 +546,7 @@ importers:
       '@babel/runtime': ^7.20.7
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.7.0
-      '@svg-icons/material-filled': 1.86.0
+      '@svg-icons/material-filled': 1.87.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -556,7 +556,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/material-filled': 1.86.0
+      '@svg-icons/material-filled': 1.87.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
@@ -567,7 +567,7 @@ importers:
       '@babel/runtime': ^7.20.7
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.7.0
-      '@svg-icons/material-outlined': 1.86.0
+      '@svg-icons/material-outlined': 1.87.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -577,7 +577,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/material-outlined': 1.86.0
+      '@svg-icons/material-outlined': 1.87.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
@@ -588,7 +588,7 @@ importers:
       '@babel/runtime': ^7.20.7
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.7.0
-      '@svg-icons/material-rounded': 1.86.0
+      '@svg-icons/material-rounded': 1.87.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -598,7 +598,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/material-rounded': 1.86.0
+      '@svg-icons/material-rounded': 1.87.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
@@ -609,7 +609,7 @@ importers:
       '@babel/runtime': ^7.20.7
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.7.0
-      '@svg-icons/material-sharp': 1.86.0
+      '@svg-icons/material-sharp': 1.87.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -619,7 +619,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/material-sharp': 1.86.0
+      '@svg-icons/material-sharp': 1.87.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
@@ -630,7 +630,7 @@ importers:
       '@babel/runtime': ^7.20.7
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.7.0
-      '@svg-icons/material-twotone': 1.86.0
+      '@svg-icons/material-twotone': 1.87.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -640,7 +640,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/material-twotone': 1.86.0
+      '@svg-icons/material-twotone': 1.87.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
@@ -651,7 +651,7 @@ importers:
       '@babel/runtime': ^7.20.7
       '@styled-icons/pack-builder': ^10.6.0
       '@styled-icons/styled-icon': ^10.7.0
-      '@svg-icons/octicons': 1.86.0
+      '@svg-icons/octicons': 1.87.0
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -661,7 +661,7 @@ importers:
       '@styled-icons/styled-icon': link:../styled-icon
     devDependencies:
       '@styled-icons/pack-builder': link:../../../tools/builder
-      '@svg-icons/octicons': 1.86.0
+      '@svg-icons/octicons': 1.87.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
@@ -3577,7 +3577,7 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /@storybook/builder-webpack4/6.5.15_s2a5lenep2jss523iwdjmrew2y:
+  /@storybook/builder-webpack4/6.5.15_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-1ZkMECUUdiYplhlgyUF5fqW3XU7eWNDJbuPUguyDOeidgJ111WZzBcLuKj+SNrzdNNgXwROCWAFybiNnX33YHQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -3594,7 +3594,7 @@ packages:
       '@storybook/channels': 6.5.15
       '@storybook/client-api': 6.5.15_biqbaboplfbrettd7655fr4n2y
       '@storybook/client-logger': 6.5.15
-      '@storybook/components': 6.5.15_s2a5lenep2jss523iwdjmrew2y
+      '@storybook/components': 6.5.15_biqbaboplfbrettd7655fr4n2y
       '@storybook/core-common': 6.5.15_biqbaboplfbrettd7655fr4n2y
       '@storybook/core-events': 6.5.15
       '@storybook/node-logger': 6.5.15
@@ -3639,7 +3639,6 @@ packages:
     transitivePeerDependencies:
       - bluebird
       - eslint
-      - regenerator-runtime
       - supports-color
       - vue-template-compiler
       - webpack-cli
@@ -3780,25 +3779,6 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-    dependencies:
-      '@storybook/client-logger': 6.5.15
-      '@storybook/csf': 0.0.2--canary.4566f4d.1
-      '@storybook/theming': 6.5.15_biqbaboplfbrettd7655fr4n2y
-      core-js: 3.26.1
-      memoizerific: 1.11.3
-      qs: 6.11.0
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-      regenerator-runtime: 0.13.11
-      util-deprecate: 1.0.2
-    dev: true
-
-  /@storybook/components/6.5.15_s2a5lenep2jss523iwdjmrew2y:
-    resolution: {integrity: sha512-bHTT0Oa3s4g+MBMaLBbX9ofMtb1AW59AzIUNGrfqW1XqJMGuUHMiJ7TSo+i5dRSFpbFygnwMEG9LfHxpR2Z0Dw==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-      regenerator-runtime: '*'
     dependencies:
       '@storybook/client-logger': 6.5.15
       '@storybook/csf': 0.0.2--canary.4566f4d.1
@@ -4085,7 +4065,7 @@ packages:
         optional: true
     dependencies:
       '@discoveryjs/json-ext': 0.5.7
-      '@storybook/builder-webpack4': 6.5.15_s2a5lenep2jss523iwdjmrew2y
+      '@storybook/builder-webpack4': 6.5.15_biqbaboplfbrettd7655fr4n2y
       '@storybook/core-client': 6.5.15_3sdhvqw2yizg6zdyd4hkrkma4e
       '@storybook/core-common': 6.5.15_biqbaboplfbrettd7655fr4n2y
       '@storybook/core-events': 6.5.15
@@ -4616,24 +4596,24 @@ packages:
       resolve-from: 5.0.0
     dev: true
 
-  /@svg-icons/bootstrap/1.86.0:
-    resolution: {integrity: sha512-RNKiAiylozdtnhw/kNr9nrvb7QeTu1aBoCJIfdl37DJBqqxhe7qVZboAzSuJ/6MzThFs41A+sqFdDQLisBRGLQ==}
+  /@svg-icons/bootstrap/1.87.0:
+    resolution: {integrity: sha512-uTCMwpG5vFfIRrBS8MJJZjEfnqBZ9ohZEPFN8/gDAkX6pd/izGFyM5pFww9430iW6wOmJDLfnovj91nqnjl3kg==}
     dev: true
 
-  /@svg-icons/boxicons-logos/1.86.0:
-    resolution: {integrity: sha512-8OdDlI4vnEBEGWsBKOTx+H2eUJF24aV0IHDC0sTXEezJewG8WkJxABrLZfVM9V8+DsOUljqqbRQqXvKZ3exStg==}
+  /@svg-icons/boxicons-logos/1.87.0:
+    resolution: {integrity: sha512-CLQUFJfrSvQN57yt+qrIM2k/1egiTtvJUtMw7VgSLavXIhwnU1/Oj6DjBN1C5LArH4zx/9jgPyeOmcwOnfpgyA==}
     dev: true
 
-  /@svg-icons/boxicons-regular/1.86.0:
-    resolution: {integrity: sha512-XBwv1s/eALUoihp9jOiMV27oBzcvC7+dEKf/BH2MWHcdrwik+F6a0zDpu2G3gXjQOSfN9XDzfaeiiefdG7w32w==}
+  /@svg-icons/boxicons-regular/1.87.0:
+    resolution: {integrity: sha512-sgQPCxPv7/3GnyprdCawd97wFVQMWswfLrMedQaO+oguWzdz5kNeDWz7dpPkqOckuaHzAnD3po5zD6oWjdEWVA==}
     dev: true
 
-  /@svg-icons/boxicons-solid/1.86.0:
-    resolution: {integrity: sha512-3cCOy7N80HRaYwXEvN9NKrHzO78bYUn9Hjdy5iDhMW5Dp11L/+6eaBain4QFcaUTDysi90gh/2utCbRh+m5Fwg==}
+  /@svg-icons/boxicons-solid/1.87.0:
+    resolution: {integrity: sha512-o9or7F/z3Mr8PhEI+ghALWvXf+PzjuHeAWWRzFTrj3y1CNjdXqgu/t6TK+Z0HfsSx8AVM6mo6bbprvfeWdW3og==}
     dev: true
 
-  /@svg-icons/crypto/1.86.0:
-    resolution: {integrity: sha512-Pi56ZOfs7Tarb0L5CrRWreqsV5BJ4l3gAsP6goTGg3AjVc1p87m9ulPhePpJUxZyL+/2xC6nJ2eCZOgW5S5Qag==}
+  /@svg-icons/crypto/1.87.0:
+    resolution: {integrity: sha512-tMJ2AR0Z7fTlu/BjyUN8vTH+Y16OxWb7tgwTKwm40KJ3NY2cb5H/MudpFACKjG70ocy6I0Bu3fD7mwD6XhGouw==}
     dev: true
 
   /@svg-icons/entypo-social/1.86.0:
@@ -4656,40 +4636,40 @@ packages:
     resolution: {integrity: sha512-8/jMXERlpWGOHjagI+S78TjHzrk5/0P36FrDL6XXH7YbePKV1AnTmt54tGuUIheI/3C+SkUC5AMKNSbLR9hFfg==}
     dev: true
 
-  /@svg-icons/fa-brands/1.86.0:
-    resolution: {integrity: sha512-U8Mx2kCOMQIEXIuzx2wNKya+MpT2g2vEiMXXOxcZY2yDDiiNFScmQXuaKpuQn5u4RhYasq8EzK5WrbWanS54qw==}
+  /@svg-icons/fa-brands/1.87.0:
+    resolution: {integrity: sha512-Ycj4EoUimk66DLR9kvigiogHBmFVGp8MLQcpbiyXuzMTuK48yL6rKyjj7UdWLuLike89Xu5CvfdBnxtF1x6utQ==}
     dev: true
 
-  /@svg-icons/fa-regular/1.86.0:
-    resolution: {integrity: sha512-vGmS9AznrGF+mfjIdVeakRZn6ZvKKnd9uQ3lluYbfrtKVITOvIZE6cDlivb5PAnLcLDntrgmvyiVrsp/tOu5jg==}
+  /@svg-icons/fa-regular/1.87.0:
+    resolution: {integrity: sha512-GXDM3k/TUNvjkNjtbNY32BlwVwWHe/yAcNbHUy7ey1WocdbfAdEumBNAvpRmWvxXRNXZBTkrygrc6MKbSYm9jQ==}
     dev: true
 
-  /@svg-icons/fa-solid/1.86.0:
-    resolution: {integrity: sha512-cIxiTb/PuFj51kD7Om5rorHxMA9efQkPGPmozUkJP9FGcZU1ORTH6Sdl9I0TAeqmiQZFZ8IJ6zFCsdvKhnXIzA==}
+  /@svg-icons/fa-solid/1.87.0:
+    resolution: {integrity: sha512-7N8BpRgoiTiYBq02cfECRoCmw1nZ2OZbgzH1wJlerfUbHILxHXRyN5PsQtzqeFTuw0ABHyhRyXB0M8usM2AWyQ==}
     dev: true
 
-  /@svg-icons/feather/1.86.0:
-    resolution: {integrity: sha512-2nrCi7mA2tkgXsLPt2YF+kgMBCFuM1Xy1K3XeDktI4sfoxpSMmp91uRpz5P9uP7fX7N/S3kA4OKnHRPINheOng==}
+  /@svg-icons/feather/1.87.0:
+    resolution: {integrity: sha512-YWPAiUU2y+QueqA3Uonm6n9bm6x3YfLJLNtsnkI1THxY/VkmWpOVpO8BkTMYBfKiXFJe6cFxkKMboYac8z51uQ==}
     dev: true
 
-  /@svg-icons/fluentui-system-filled/1.86.0:
-    resolution: {integrity: sha512-9ZFQQQUt07hyXGW0uqGhQtjISahyzbzO8cFjfX+NcgFkyTsq3AWGggUpoSr0mYeTpaqlZeZCTZqk7Ck3PpkVvg==}
+  /@svg-icons/fluentui-system-filled/1.87.0:
+    resolution: {integrity: sha512-ywdM4jtcSTrD239DWfDY1uEQt+VWSbRyRNg4DaIovn209ugNAtrreP9ZCc+LwDS5ZAL2ct/I2Vu4s39usshqqw==}
     dev: true
 
-  /@svg-icons/fluentui-system-regular/1.86.0:
-    resolution: {integrity: sha512-6lWEcNqfJ6T+p/8pROxhAEmLD90aqdCfAw8PR6O/pwJHdxp0ulXOKn5iAKoYRnVSbhW1iqFRQPyBv6xBJN/YbQ==}
+  /@svg-icons/fluentui-system-regular/1.87.0:
+    resolution: {integrity: sha512-7uzTppjHNcm8QHGJ461Bp4VbX4kmHUgQhCvsMmdRI/UF2ZUkeFo7Sd3dRM8C9l8YBM8VMyYCPd0F0HZA/d5nqw==}
     dev: true
 
   /@svg-icons/foundation/1.86.0:
     resolution: {integrity: sha512-V5Vtt4urtySrzAdw5TjNcdW4ORouB1E9sW9l3N8jFek71pr4Eu8URyE9rtwwAXl8SlDzKtFYidIGn9iihScKJg==}
     dev: true
 
-  /@svg-icons/heroicons-outline/1.86.0:
-    resolution: {integrity: sha512-2a9z+hCr2dNoUtl1dx4NTbtDYvpe92ymqG1bRDmuQJ9//vekmF0XXOH+Lm955FBto/x/b+1cgyjnHilfNS/oFA==}
+  /@svg-icons/heroicons-outline/1.87.0:
+    resolution: {integrity: sha512-vvYWtQzjPWg55OKwQtJJyHohxj78nlFgG5xou7pUkeRVL4/aSwBCYu6DG8Pg7amBSp7+8ozGz+ENcvQZa7z2jw==}
     dev: true
 
-  /@svg-icons/heroicons-solid/1.86.0:
-    resolution: {integrity: sha512-/VUbwYhF5+PpxMuXj0dHQSMS6wCkCh05yQEFi2n64yD2lcEpjQpnMu64MtEa5UJ1bfBf8k5559pBG1jciTcgVg==}
+  /@svg-icons/heroicons-solid/1.87.0:
+    resolution: {integrity: sha512-CunfGA9ltK/2gSzN1dP2y4kZqCKxWnYgL0Rgj8ZW8+/lZSIhfOFfe6SiBAJtTQXpY5umYuizyTwsN90/DBGiSw==}
     dev: true
 
   /@svg-icons/icomoon/1.86.0:
@@ -4708,28 +4688,28 @@ packages:
     resolution: {integrity: sha512-V/6cRR/sVcyq18NTDxHJyAJ9/EnDDIIJDW7xwRrB7zlGKj63D6YFNToce1hfBktCxDFT5qKaNSXSln5SMVQGwA==}
     dev: true
 
-  /@svg-icons/material-filled/1.86.0:
-    resolution: {integrity: sha512-N3ld61cyb+LynJzve+fckTlXhk9CxK11F5ichrQlhe6DjA+53LcgLs1wdye0aKNPph25m2h958/sDpoiZ40tUg==}
+  /@svg-icons/material-filled/1.87.0:
+    resolution: {integrity: sha512-LM0wCEOi7WW5qo4Ysh8tDLjY+P08zu0GsbdFH325CqMdSe3neFJnvFuEo1GFaUKY/McM2sPGh6S5/3LR7WW1Bg==}
     dev: true
 
-  /@svg-icons/material-outlined/1.86.0:
-    resolution: {integrity: sha512-ZsCEZfDNvYFG24+iBcWgZNGyyqtoO4lJBOO9uXx3BumW/zAWMv5sai9JeCrkS+phRo7bxbo+dArMXY09f+0Oxg==}
+  /@svg-icons/material-outlined/1.87.0:
+    resolution: {integrity: sha512-lvgyhrZdOpLqc0WqnjnPb/w7OxJvPmVH09dzoQ34zwPnX6NOse8uEpUONEWxlP1mBsICgIuDiSsgOaiF489y4A==}
     dev: true
 
-  /@svg-icons/material-rounded/1.86.0:
-    resolution: {integrity: sha512-XGr3YjzNfzbUpcBkc33/4e1Pfab7hJCM2aI5J3bf/umOgK7yzmBo1jk9uKdm7x5C/oUG9VYFqJW2NwZHda80jA==}
+  /@svg-icons/material-rounded/1.87.0:
+    resolution: {integrity: sha512-IlwvdGoXDbJqJ4HClposaw88ZILVBO1s6CILqC2/CG/buPtSndc19Ky1AQWfqPmgDm9umwYdjohDt+pahs1XZg==}
     dev: true
 
-  /@svg-icons/material-sharp/1.86.0:
-    resolution: {integrity: sha512-0NUitnTf7T7Pqd+wAEeJeeJHQ1qIFzCka6T0ldt1/b5zUnQZSvSvoZxz9yCu64MWMN/uzn+4iR2MmXWoTokd7A==}
+  /@svg-icons/material-sharp/1.87.0:
+    resolution: {integrity: sha512-flTPh7IBQeMm97ylzgmWloc2Mt28XCL5GCV6yvnH78ohGJPyTCyRUupcJLobhqrY7XMsotmtAP6vc0MCWznccw==}
     dev: true
 
-  /@svg-icons/material-twotone/1.86.0:
-    resolution: {integrity: sha512-h2XbuMqmYAXcpbRjL1LotJ+cm5ets1vcBkg0qESbHf3IYN4xwCc3daofM2KKyVou40vWtV1ToQ7UWv9SvBR8IA==}
+  /@svg-icons/material-twotone/1.87.0:
+    resolution: {integrity: sha512-Wltdia5nND0Ky3ghNSzSjByEpH8mle6GtmjRX0KnjYkI04f5kGtS8vOz82oCNbozkxrw9iO3NTJnAhyGCiXAyw==}
     dev: true
 
-  /@svg-icons/octicons/1.86.0:
-    resolution: {integrity: sha512-Ge1pIQoT42f28Xg3txHPym0coxC1Ap4eIlO2QmmqG73BwncbC1cFjjxR/yi6XtIaiuGlhKiKTbQhWSX7jHX1ww==}
+  /@svg-icons/octicons/1.87.0:
+    resolution: {integrity: sha512-mmuI+EGHu3hQdXHxeyM9lghJ1PUzj1lX12Uk4rC9cdUBTzsDYDcBBFDY9CBkN36XrbeqiAb5qbioGakkZZBYyQ==}
     dev: true
 
   /@svg-icons/open-iconic/1.86.0:
