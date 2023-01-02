@@ -39,7 +39,7 @@
     "@monorepolint/core": "0.5.0-alpha.97",
     "@storybook/builder-webpack5": "^6.5.15",
     "@storybook/manager-webpack5": "^6.5.15",
-    "@types/node": "^18.11.17",
+    "@types/node": "^18.11.18",
     "@types/react": "^18.0.26",
     "@types/styled-components": "^5.1.26",
     "babel-plugin-styled-components": "^2.0.7",
