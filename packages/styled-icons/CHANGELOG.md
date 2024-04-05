@@ -1,5 +1,14 @@
 # styled-icons
 
+## 10.47.1
+
+### Patch Changes
+
+- [#2132](https://github.com/styled-icons/styled-icons/pull/2132): Relax peer dependency requirement for `styled-components` ([`d8f4fd9`](https://github.com/styled-icons/styled-icons/commit/d8f4fd9793b6cebfd1fe4171aae829707c11dfb5), [@franciscop](https://github.com/franciscop))
+
+- Updated dependencies [[`d8f4fd9`](https://github.com/styled-icons/styled-icons/commit/d8f4fd9793b6cebfd1fe4171aae829707c11dfb5)]:
+  - @styled-icons/styled-icon@10.7.1
+
 ## 10.47.0
 
 ### Minor Changes
