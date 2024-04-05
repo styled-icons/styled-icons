@@ -28,7 +28,7 @@
   },
   "peerDependencies": {
     "react": "*",
-    "styled-components": ">=4.1.0 <6"
+    "styled-components": ">=4.1.0"
   },
   "devDependencies": {
     "@styled-icons/pack-builder": "^10.6.0",
