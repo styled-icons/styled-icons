@@ -17,20 +17,20 @@
     "storybook": "start-storybook -p 6006"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-is": "^18.2.0",
-    "styled-components": "^5.3.6",
-    "styled-icons": "^10.47.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-is": "^18.3.1",
+    "styled-components": "^6.1.11",
+    "styled-icons": "^10.47.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.7",
-    "@storybook/addons": "^6.5.15",
-    "@storybook/react": "^6.5.15",
-    "babel-loader": "^9.1.0",
-    "chromatic": "^6.14.0",
-    "fs-extra": "^11.1.0",
-    "storybook-addon-turbo-build": "^1.1.0",
-    "webpack": "^5.75.0"
+    "@babel/core": "^7.24.7",
+    "@storybook/addons": "^7.6.17",
+    "@storybook/react": "^8.1.11",
+    "babel-loader": "^9.1.3",
+    "chromatic": "^11.5.4",
+    "fs-extra": "^11.2.0",
+    "storybook-addon-turbo-build": "^2.0.1",
+    "webpack": "^5.92.1"
   }
 }
