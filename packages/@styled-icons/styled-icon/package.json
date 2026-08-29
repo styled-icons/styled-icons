@@ -24,7 +24,7 @@
     "clean": "ALLOWED_FILES=index.tsx clean-package"
   },
   "dependencies": {
-    "@babel/runtime": "^7.20.7"
+    "@babel/runtime": "^7.24.7"
   },
   "peerDependencies": {
     "react": "*",
@@ -32,9 +32,9 @@
   },
   "devDependencies": {
     "@styled-icons/pack-builder": "^10.6.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-is": "^18.2.0",
-    "styled-components": "^5.3.6"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-is": "^18.3.1",
+    "styled-components": "^6.1.11"
   }
 }
